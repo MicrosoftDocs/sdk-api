@@ -9,8 +9,6 @@ ms.assetid: 5ae77ee2-42b2-4794-afec-80360fe4f4da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_FILTER_ENUM_TEMPLATE0, FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering], FWP_ACTION_FLAG_CALLOUT, FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH, FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY, FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME, FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED, FWP_FILTER_ENUM_FLAG_SORTED, fwp.fwpm_filter_enum_template0_struct, fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

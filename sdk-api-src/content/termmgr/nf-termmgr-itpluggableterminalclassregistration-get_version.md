@@ -9,8 +9,6 @@ ms.assetid: 2ce4345b-7d8e-4142-a4ee-df1e8b613a25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Version method, ITPluggableTerminalClassRegistration.get_Version, ITPluggableTerminalClassRegistration::get_Version, _tapi3_itpluggableterminalclassregistration_get_version, get_Version, get_Version method [TAPI 2.2], get_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_version, termmgr/ITPluggableTerminalClassRegistration::get_Version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

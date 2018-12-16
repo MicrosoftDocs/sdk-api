@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

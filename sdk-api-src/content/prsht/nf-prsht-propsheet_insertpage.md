@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_insertpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_InsertPage, PropSheet_InsertPage macro [Windows Controls], _win32_PropSheet_InsertPage, _win32_PropSheet_InsertPage_cpp, controls.PropSheet_InsertPage, controls._win32_PropSheet_InsertPage, hpageInsertAfter, index, prsht/PropSheet_InsertPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

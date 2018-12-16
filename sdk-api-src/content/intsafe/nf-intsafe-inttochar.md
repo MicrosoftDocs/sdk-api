@@ -9,8 +9,6 @@ ms.assetid: c377db74-daa9-4d20-b2f2-954472dd7d2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IntToChar, IntToChar function [Windows Shell], _shell_IntToChar, intsafe/IntToChar, shell.IntToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

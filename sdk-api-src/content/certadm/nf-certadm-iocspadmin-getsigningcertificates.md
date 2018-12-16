@@ -9,8 +9,6 @@ ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

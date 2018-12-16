@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

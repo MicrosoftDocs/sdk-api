@@ -9,8 +9,6 @@ ms.assetid: 3770e966-7481-449e-9b57-44a7329d26db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncFileResult method, IOfflineFilesEvents.SyncFileResult, IOfflineFilesEvents::SyncFileResult, SyncFileResult, SyncFileResult method [Offline Files], SyncFileResult method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncFileResult, of.iofflinefilesevents_syncfileresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

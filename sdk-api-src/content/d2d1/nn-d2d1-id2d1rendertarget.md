@@ -9,8 +9,6 @@ ms.assetid: 40629be9-5840-4bde-b369-56bbfd791775
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RenderTarget, ID2D1RenderTarget interface [Direct2D], ID2D1RenderTarget interface [Direct2D],described, d2d1/ID2D1RenderTarget, direct2d.ID2D1RenderTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

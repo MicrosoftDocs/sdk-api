@@ -9,8 +9,6 @@ ms.assetid: DD2066B0-C91E-4299-AFD3-13E74E75E94B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVisualTreeService2 interface,ReplaceResource method, IVisualTreeService2.ReplaceResource, IVisualTreeService2::ReplaceResource, ReplaceResource, ReplaceResource method, ReplaceResource method,IVisualTreeService2 interface, xaml_diagnostics.ivisualtreeservice2_replaceresource, xamlom/IVisualTreeService2::ReplaceResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

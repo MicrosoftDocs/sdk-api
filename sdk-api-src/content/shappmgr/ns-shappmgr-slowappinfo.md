@@ -9,8 +9,6 @@ ms.assetid: e9af8c70-0f03-4f16-bbfb-5e54f7c6c9df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 

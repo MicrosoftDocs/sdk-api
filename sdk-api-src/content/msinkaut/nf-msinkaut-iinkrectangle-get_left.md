@@ -9,8 +9,6 @@ ms.assetid: 88f0d919-43d0-408f-97f8-1410b2833269
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 88f0d919-43d0-408f-97f8-1410b2833269, IInkRectangle interface [Tablet PC],Left property, IInkRectangle.Left, IInkRectangle.get_Left, IInkRectangle::Left, IInkRectangle::get_Left, IInkRectangle::put_Left, InkRectangle.get_Left, InkRectangle.put_Left, Left property [Tablet PC], Left property [Tablet PC],IInkRectangle interface, get_Left, msinkaut/IInkRectangle::Left, msinkaut/IInkRectangle::get_Left, msinkaut/IInkRectangle::put_Left, put_Left, tablet.inkrectangle_left
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

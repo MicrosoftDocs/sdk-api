@@ -9,8 +9,6 @@ ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

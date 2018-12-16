@@ -9,8 +9,6 @@ ms.assetid: c9bb2a86-2bdb-495e-ab5c-479667a211b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FileSystemsToCreate method, IFileSystemImage.put_FileSystemsToCreate, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI],IFileSystemImage interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

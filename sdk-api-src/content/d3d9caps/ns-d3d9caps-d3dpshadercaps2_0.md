@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3dpshadercaps2_0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 469d4061-0c45-7081-5150-edc65b416901, D3DPSHADERCAPS2_0, D3DPSHADERCAPS2_0 structure [Direct3D 9], LPD3DPSHADERCAPS2_0, LPD3DPSHADERCAPS2_0 structure pointer [Direct3D 9], d3d9caps/D3DPSHADERCAPS2_0, d3d9caps/LPD3DPSHADERCAPS2_0, direct3d9.d3dpshadercaps2_0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d9caps.h
 req.include-header: 

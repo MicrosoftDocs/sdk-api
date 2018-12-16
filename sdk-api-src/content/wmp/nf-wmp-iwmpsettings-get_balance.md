@@ -9,8 +9,6 @@ ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_balance method, IWMPSettings.get_balance, IWMPSettings::get_balance, IWMPSettingsget_balance, get_balance, get_balance method [Windows Media Player], get_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_balance, wmp/IWMPSettings::get_balance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

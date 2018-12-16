@@ -9,8 +9,6 @@ ms.assetid: 3eec8c8d-b99f-4500-9d18-b819c097f341
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PlayEnhMetaFileRecord, PlayEnhMetaFileRecord function [Windows GDI], _win32_PlayEnhMetaFileRecord, gdi.playenhmetafilerecord, wingdi/PlayEnhMetaFileRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

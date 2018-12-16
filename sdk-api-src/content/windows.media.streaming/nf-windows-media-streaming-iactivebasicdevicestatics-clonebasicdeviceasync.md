@@ -9,8 +9,6 @@ ms.assetid: B79B569D-FADF-437E-A2F5-DB9C176F570C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloneBasicDeviceAsync, CloneBasicDeviceAsync method [Media Streaming API], CloneBasicDeviceAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CloneBasicDeviceAsync method, IActiveBasicDeviceStatics.CloneBasicDeviceAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CloneBasicDeviceAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_clonebasicdeviceasync, windows/IActiveBasicDeviceStatics::CloneBasicDeviceAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 60523c2c-0d57-46d7-8ab2-eaf065a440d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_CCSubstreamService method, IXDSCodec.get_CCSubstreamService, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_ccsubstreamservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

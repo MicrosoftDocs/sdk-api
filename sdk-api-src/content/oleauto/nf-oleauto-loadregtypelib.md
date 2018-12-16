@@ -9,8 +9,6 @@ ms.assetid: 444b7768-2a4e-4de3-9f28-ef63ac23e8bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

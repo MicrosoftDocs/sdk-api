@@ -9,8 +9,6 @@ ms.assetid: 01dd2217-fd7b-4bcf-a15e-4769c7518741
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK structure, PMINIDUMP_INCLUDE_MODULE_CALLBACK, PMINIDUMP_INCLUDE_MODULE_CALLBACK structure pointer, _MINIDUMP_INCLUDE_MODULE_CALLBACK, _win32_minidump_include_module_callback_str, base.minidump_include_module_callback_str, minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_INCLUDE_MODULE_CALLBACK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

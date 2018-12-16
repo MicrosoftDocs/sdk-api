@@ -9,8 +9,6 @@ ms.assetid: 286EF8FD-925E-4B36-AFAB-D0EC949F8705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxBlockMapFile interface [App packaging and management],ValidateFileHash method, IAppxBlockMapFile.ValidateFileHash, IAppxBlockMapFile::ValidateFileHash, ValidateFileHash, ValidateFileHash method [App packaging and management], ValidateFileHash method [App packaging and management],IAppxBlockMapFile interface, appxpackaging/IAppxBlockMapFile::ValidateFileHash, appxpkg.iappxblockmapfile_validatefilehash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

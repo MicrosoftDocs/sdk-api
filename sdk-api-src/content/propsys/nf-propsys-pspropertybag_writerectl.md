@@ -9,8 +9,6 @@ ms.assetid: 83C29519-CAB0-4989-85B5-70AD79E69D04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_WriteRECTL, PSPropertyBag_WriteRECTL function [Windows Properties], properties.PSPropertyBag_WriteRECTL, propsys/PSPropertyBag_WriteRECTL, shell.PSPropertyBag_WriteRECTL, shell_PSPropertyBag_WriteRECTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

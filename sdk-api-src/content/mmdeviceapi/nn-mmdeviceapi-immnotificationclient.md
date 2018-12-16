@@ -9,8 +9,6 @@ ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 

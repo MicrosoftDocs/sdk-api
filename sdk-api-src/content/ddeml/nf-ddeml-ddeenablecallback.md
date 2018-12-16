@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeEnableCallback, DdeEnableCallback function [Data Exchange], EC_DISABLE, EC_ENABLEALL, EC_ENABLEONE, EC_QUERYWAITING, _win32_DdeEnableCallback, _win32_ddeenablecallback_cpp, dataxchg.ddeenablecallback, ddeml/DdeEnableCallback, winui._win32_ddeenablecallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

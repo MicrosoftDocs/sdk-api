@@ -9,8 +9,6 @@ ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], ITLegacyCallMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol2, tapi3.itlegacycallmediacontrol2, tapi3if/ITLegacyCallMediaControl2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

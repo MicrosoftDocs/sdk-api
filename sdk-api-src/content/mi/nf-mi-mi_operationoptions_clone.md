@@ -9,8 +9,6 @@ ms.assetid: 22cce14f-55f0-4d31-a6cf-ea5e0a733d68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_Clone, MI_OperationOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Clone, wmi_v2.mi_operationoptions_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

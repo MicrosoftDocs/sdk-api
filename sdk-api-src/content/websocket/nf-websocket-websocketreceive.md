@@ -9,8 +9,6 @@ ms.assetid: 6285c6fc-1f7a-45f3-ba28-94992e73693e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Component API], websock.websocketreceive, websocket/WebSocketReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

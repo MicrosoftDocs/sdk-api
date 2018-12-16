@@ -9,8 +9,6 @@ ms.assetid: 1abf1466-3491-4719-8dd2-82e4ba2506c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LongToChar, LongToChar function [Windows Shell], _shell_LongToChar, intsafe/LongToChar, shell.LongToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 06d53806-d3a3-4990-bc9a-3a3004e60a3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIMAGE_DATA_DIRECTORY, IMAGE_DATA_DIRECTORY, IMAGE_DATA_DIRECTORY structure, PIMAGE_DATA_DIRECTORY, PIMAGE_DATA_DIRECTORY structure pointer, _IMAGE_DATA_DIRECTORY, _win32_image_data_directory_str, base.image_data_directory_str, winnt/IMAGE_DATA_DIRECTORY, winnt/PIMAGE_DATA_DIRECTORY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

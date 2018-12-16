@@ -9,8 +9,6 @@ ms.assetid: b0fff344-a20c-4cfc-828b-c6fc49d990ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWMBufferPass interface [windows Media Format],SetNotify method, IAMWMBufferPass.SetNotify, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify, SetNotify method [windows Media Format], SetNotify method [windows Media Format],IAMWMBufferPass interface, dshowasf/IAMWMBufferPass::SetNotify, wmformat.iamwmbufferpass_setnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

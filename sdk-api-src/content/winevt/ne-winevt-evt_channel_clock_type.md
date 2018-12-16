@@ -9,8 +9,6 @@ ms.assetid: 575a6667-b832-46e8-8704-0612e04b8669
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVT_CHANNEL_CLOCK_TYPE, EVT_CHANNEL_CLOCK_TYPE enumeration [EventLog], EvtChannelClockTypeQPC, EvtChannelClockTypeSystemTime, wes.evt_channel_clock_type, winevt/EVT_CHANNEL_CLOCK_TYPE, winevt/EvtChannelClockTypeQPC, winevt/EvtChannelClockTypeSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

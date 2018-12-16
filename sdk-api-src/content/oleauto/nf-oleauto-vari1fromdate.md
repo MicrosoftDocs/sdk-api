@@ -9,8 +9,6 @@ ms.assetid: 248dff64-8847-40ef-a081-7653e459d3d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI1FromDate, VarI1FromDate function [Automation], _oa96_VarI1FromDate, automat.vari1fromdate, oleauto/VarI1FromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3793cb79-37b9-4d94-9932-9eb3b259b60e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetServiceHostProperty, WsGetServiceHostProperty function [Web Services for Windows], webservices/WsGetServiceHostProperty, wsw.wsgetservicehostproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

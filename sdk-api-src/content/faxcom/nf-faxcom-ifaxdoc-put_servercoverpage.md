@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1d7p.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],ServerCoverpage property, IFaxDoc.ServerCoverpage, IFaxDoc.put_ServerCoverpage, IFaxDoc::ServerCoverpage, IFaxDoc::get_ServerCoverpage, IFaxDoc::put_ServerCoverpage, ServerCoverpage property [Fax Service], ServerCoverpage property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp, faxcom/IFaxDoc::ServerCoverpage, faxcom/IFaxDoc::get_ServerCoverpage, faxcom/IFaxDoc::put_ServerCoverpage, put_ServerCoverpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

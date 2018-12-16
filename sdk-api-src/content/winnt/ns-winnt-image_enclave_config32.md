@@ -9,8 +9,6 @@ ms.assetid: 6006F018-4F3F-4595-8ED2-89D2CC7F782D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG, IMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG32 structure, IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE, IMAGE_ENCLAVE_POLICY_DEBUGGABLE, PIMAGE_ENCLAVE_CONFIG32, PIMAGE_ENCLAVE_CONFIG32 structure pointer, _IMAGE_ENCLAVE_CONFIG32, base.image_enclave_config, base.image_enclave_config32, winnt/IMAGE_ENCLAVE_CONFIG32, winnt/PIMAGE_ENCLAVE_CONFIG32"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

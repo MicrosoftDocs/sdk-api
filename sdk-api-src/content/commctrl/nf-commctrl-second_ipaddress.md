@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\ipaddress\macros\second_ipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SECOND_IPADDRESS, SECOND_IPADDRESS macro [Windows Controls], _win32_SECOND_IPADDRESS, _win32_SECOND_IPADDRESS_cpp, commctrl/SECOND_IPADDRESS, controls.SECOND_IPADDRESS, controls._win32_SECOND_IPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

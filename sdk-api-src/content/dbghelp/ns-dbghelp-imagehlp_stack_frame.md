@@ -9,8 +9,6 @@ ms.assetid: b6c89cf2-b108-4518-9f4c-4a3684b3f0a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

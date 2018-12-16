@@ -9,8 +9,6 @@ ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

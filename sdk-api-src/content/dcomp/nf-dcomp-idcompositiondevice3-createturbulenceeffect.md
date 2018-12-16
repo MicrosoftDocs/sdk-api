@@ -9,8 +9,6 @@ ms.assetid: 40BCD422-7545-4CB9-9C8E-2F0D2B4E6C51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTurbulenceEffect, CreateTurbulenceEffect method [DirectComposition], CreateTurbulenceEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTurbulenceEffect method, IDCompositionDevice3.CreateTurbulenceEffect, IDCompositionDevice3::CreateTurbulenceEffect, dcomp/IDCompositionDevice3::CreateTurbulenceEffect, directcomp.idcompositiondevice3_createturbulenceeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

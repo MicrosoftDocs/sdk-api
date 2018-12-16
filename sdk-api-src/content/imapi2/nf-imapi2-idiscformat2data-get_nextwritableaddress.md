@@ -9,8 +9,6 @@ ms.assetid: bdbab74c-80bd-4dca-8d64-6d30452a5876
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_NextWritableAddress method, IDiscFormat2Data.get_NextWritableAddress, IDiscFormat2Data::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_nextwritableaddress, imapi2/IDiscFormat2Data::get_NextWritableAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dfdbad36-3cfc-4e24-9864-ffe1405030b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 52fb74db-7253-5122-a349-5c58ded9ca7e, D3D11_TEX1D_DSV, D3D11_TEX1D_DSV structure [Direct3D 11], d3d11/D3D11_TEX1D_DSV, direct3d11.d3d11_tex1d_dsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVarIndexOfMemId, GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarIndexOfMemId method, ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

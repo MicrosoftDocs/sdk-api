@@ -9,8 +9,6 @@ ms.assetid: c14786e4-7fbe-4748-a6ba-e9e68f78b241
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFScheduleWorkItem, MFScheduleWorkItem function [Media Foundation], c14786e4-7fbe-4748-a6ba-e9e68f78b241, mf.mfscheduleworkitem, mfapi/MFScheduleWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

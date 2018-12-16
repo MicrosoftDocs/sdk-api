@@ -9,8 +9,6 @@ ms.assetid: 84f19d93-5e89-47f9-ade1-afb243c93ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRoleAssignments interface [Security],_NewEnum property, IAzRoleAssignments._NewEnum, IAzRoleAssignments.get__NewEnum, IAzRoleAssignments::_NewEnum, IAzRoleAssignments::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::_NewEnum, azroles/IAzRoleAssignments::get__NewEnum, get__NewEnum, security.iazroleassignments__newenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

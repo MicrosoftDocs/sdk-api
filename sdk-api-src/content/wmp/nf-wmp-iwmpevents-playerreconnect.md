@@ -9,8 +9,6 @@ ms.assetid: 16e9aa76-8ecf-471e-a30c-b8cf834cee0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerReconnect method, IWMPEvents.PlayerReconnect, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: E6F3751A-54FF-44EC-90EB-4B0732ABFF01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInt32, CreateInt32 method [Windows Runtime], CreateInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32 method, IPropertyValueStatics.CreateInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32, winrt.ipropertyvaluefactory_createint32, winrt.ipropertyvaluestatics_createint32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

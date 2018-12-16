@@ -9,8 +9,6 @@ ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinSATInitiateEvents.WinSATUpdate, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

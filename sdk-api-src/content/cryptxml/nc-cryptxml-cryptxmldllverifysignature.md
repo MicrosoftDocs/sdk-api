@@ -9,8 +9,6 @@ ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, CryptXmlDllVerifySignature callback function [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

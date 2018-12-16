@@ -9,8 +9,6 @@ ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

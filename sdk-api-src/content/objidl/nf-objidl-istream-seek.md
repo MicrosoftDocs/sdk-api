@@ -9,8 +9,6 @@ ms.assetid: ea087c6d-8854-4a81-b37b-15ab76630973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream interface [Structured Storage],Seek method, IStream.Seek, IStream::Seek, Seek, Seek method [Structured Storage], Seek method [Structured Storage],IStream interface, _stg_istream_seek, objidl/IStream::Seek, stg.istream_seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

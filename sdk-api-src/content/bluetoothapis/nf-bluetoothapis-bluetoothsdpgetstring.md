@@ -9,8 +9,6 @@ ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

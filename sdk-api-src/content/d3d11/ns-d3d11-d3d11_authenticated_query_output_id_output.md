@@ -9,8 +9,6 @@ ms.assetid: A7706E2B-B817-4D1C-B09D-D1803E0F8BFE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, mf.d3d11_authenticated_query_output_id_output
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

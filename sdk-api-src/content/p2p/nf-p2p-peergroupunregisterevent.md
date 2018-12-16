@@ -9,8 +9,6 @@ ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

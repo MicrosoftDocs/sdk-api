@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7cmd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],StartTime property, IFaxStatus.StartTime, IFaxStatus.get_StartTime, IFaxStatus::StartTime, IFaxStatus::get_StartTime, StartTime property [Fax Service], StartTime property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_starttime_cpp, faxcom/IFaxStatus::StartTime, faxcom/IFaxStatus::get_StartTime, get_StartTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

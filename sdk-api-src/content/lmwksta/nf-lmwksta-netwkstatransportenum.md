@@ -9,8 +9,6 @@ ms.assetid: 08bd22a9-00a7-4563-9353-c070ca9b2500
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network Management], _win32_netwkstatransportenum, lmwksta/NetWkstaTransportEnum, netmgmt.netwkstatransportenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmwksta.h
 req.include-header: Lm.h

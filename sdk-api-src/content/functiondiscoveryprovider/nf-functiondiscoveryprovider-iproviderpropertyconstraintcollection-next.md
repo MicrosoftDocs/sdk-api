@@ -9,8 +9,6 @@ ms.assetid: ddf9f2b9-92f6-4a1f-86d8-0d9e8c0c4855
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Next method, IProviderPropertyConstraintCollection.Next, IProviderPropertyConstraintCollection::Next, Next, Next method, Next method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Next, ncd.iproviderpropertyconstraintcollection_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

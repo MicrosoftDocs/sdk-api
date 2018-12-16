@@ -9,8 +9,6 @@ ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

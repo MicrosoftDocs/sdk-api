@@ -9,8 +9,6 @@ ms.assetid: 0ae5c8db-81fd-4d00-8e54-0c474f1bfd06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ASSOCDATA, ASSOCDATA enumeration [Windows Shell], ASSOCDATA_EDITFLAGS, ASSOCDATA_HASPERUSERASSOC, ASSOCDATA_MSIDESCRIPTOR, ASSOCDATA_NOACTIVATEHANDLER, ASSOCDATA_QUERYCLASSSTORE, ASSOCDATA_VALUE, _win32_ASSOCDATA_str, shell.ASSOCDATA_str, shlwapi/ASSOCDATA, shlwapi/ASSOCDATA_EDITFLAGS, shlwapi/ASSOCDATA_HASPERUSERASSOC, shlwapi/ASSOCDATA_MSIDESCRIPTOR, shlwapi/ASSOCDATA_NOACTIVATEHANDLER, shlwapi/ASSOCDATA_QUERYCLASSSTORE, shlwapi/ASSOCDATA_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 

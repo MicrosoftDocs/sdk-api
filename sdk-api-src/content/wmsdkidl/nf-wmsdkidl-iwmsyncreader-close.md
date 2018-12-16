@@ -9,8 +9,6 @@ ms.assetid: 98f5a44f-dc34-4732-b497-5528de6af1c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],Close method, IWMSyncReader.Close, IWMSyncReader::Close, IWMSyncReaderClose, wmformat.iwmsyncreader_close, wmsdkidl/IWMSyncReader::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

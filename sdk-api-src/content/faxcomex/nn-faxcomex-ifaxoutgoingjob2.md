@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\faxinto
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob2, IFaxOutgoingJob2 interface [Fax Service], IFaxOutgoingJob2 interface [Fax Service],described, _mfax_faxoutgoingjob2_cpp, fax._mfax_faxoutgoingjob2_cpp, faxcomex/IFaxOutgoingJob2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

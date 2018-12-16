@@ -9,8 +9,6 @@ ms.assetid: b1940cac-7295-41c5-bd26-8be1d1fa4da9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetActiveView method, ITextStoreAnchor.GetActiveView, ITextStoreAnchor::GetActiveView, textstor/ITextStoreAnchor::GetActiveView, tsf.itextstoreanchor_getactiveview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

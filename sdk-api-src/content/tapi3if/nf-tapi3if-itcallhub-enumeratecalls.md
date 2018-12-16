@@ -9,8 +9,6 @@ ms.assetid: becacf70-0ae7-419c-a53f-c6172278d29f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],EnumerateCalls method, ITCallHub.EnumerateCalls, ITCallHub::EnumerateCalls, _tapi3_itcallhub_enumeratecalls, tapi3.itcallhub_enumeratecalls, tapi3if/ITCallHub::EnumerateCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0z1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_AvailableOperations method, IFaxIncomingJob.get_AvailableOperations, IFaxIncomingJob::get_AvailableOperations, _mfax_faxincomingjob.availableoperations_cpp, fax._mfax_faxincomingjob_availableoperations_cpp, faxcomex/IFaxIncomingJob::get_AvailableOperations, get_AvailableOperations, get_AvailableOperations method [Fax Service], get_AvailableOperations method [Fax Service],IFaxIncomingJob interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

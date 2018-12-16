@@ -9,8 +9,6 @@ ms.assetid: e1ef5608-166c-4ab7-9f8d-ed8a4afd3b5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextPattern_get_DocumentRange, TextPattern_get_DocumentRange function [Windows Accessibility], uiauto.uiauto_TextPattern_get_DocumentRangeConPat, uiauto_TextPattern_get_DocumentRangeConPat, uiautomationcoreapi/TextPattern_get_DocumentRange, winauto.uiauto_TextPattern_get_DocumentRangeConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

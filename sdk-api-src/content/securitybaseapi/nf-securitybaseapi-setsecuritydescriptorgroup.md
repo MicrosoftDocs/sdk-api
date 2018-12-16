@@ -9,8 +9,6 @@ ms.assetid: 060c375c-a313-4fa2-8d85-cee9369c26a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetSecurityDescriptorGroup, SetSecurityDescriptorGroup function [Security], _win32_setsecuritydescriptorgroup, security.setsecuritydescriptorgroup, securitybaseapi/SetSecurityDescriptorGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

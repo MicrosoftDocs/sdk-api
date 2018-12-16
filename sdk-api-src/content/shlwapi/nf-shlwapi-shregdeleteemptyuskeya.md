@@ -9,8 +9,6 @@ ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

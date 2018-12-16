@@ -9,8 +9,6 @@ ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

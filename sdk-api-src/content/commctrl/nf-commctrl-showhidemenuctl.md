@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\showhidemenuctl.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win32_ShowHideMenuCtl, _win32_ShowHideMenuCtl_cpp, commctrl/ShowHideMenuCtl, controls.ShowHideMenuCtl, controls._win32_ShowHideMenuCtl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

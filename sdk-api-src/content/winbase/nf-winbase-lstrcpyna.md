@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

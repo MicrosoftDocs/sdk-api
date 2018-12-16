@@ -9,8 +9,6 @@ ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

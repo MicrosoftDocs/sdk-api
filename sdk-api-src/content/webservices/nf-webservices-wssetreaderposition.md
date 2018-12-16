@@ -9,8 +9,6 @@ ms.assetid: cc879cc0-c8ca-457e-9ff1-ae220e31cb04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSetReaderPosition, WsSetReaderPosition function [Web Services for Windows], webservices/WsSetReaderPosition, wsw.wssetreaderposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

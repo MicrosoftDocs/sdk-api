@@ -9,8 +9,6 @@ ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportIScsiTargetsW, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

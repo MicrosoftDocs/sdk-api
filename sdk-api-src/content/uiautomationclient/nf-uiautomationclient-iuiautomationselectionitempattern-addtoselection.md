@@ -9,8 +9,6 @@ ms.assetid: e3d90861-1926-4294-b14b-f4c61a4f9176
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],AddToSelection method, IUIAutomationSelectionItemPattern.AddToSelection, IUIAutomationSelectionItemPattern::AddToSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], IDXGISwapChain4 interface [DXGI],described, direct3ddxgi.idxgiswapchain4, dxgi1_5/IDXGISwapChain4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

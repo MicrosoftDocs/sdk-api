@@ -9,8 +9,6 @@ ms.assetid: 8962fe9d-4b3e-469b-83e7-9c3f62a24308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],QueryInstances method, IWbemHiPerfProvider.QueryInstances, IWbemHiPerfProvider::QueryInstances, QueryInstances, QueryInstances method [Windows Management Instrumentation], QueryInstances method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_queryinstances, wbemprov/IWbemHiPerfProvider::QueryInstances, wmi.iwbemhiperfprovider_queryinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

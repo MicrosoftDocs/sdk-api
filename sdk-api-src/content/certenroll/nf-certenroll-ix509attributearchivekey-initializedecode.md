@@ -9,8 +9,6 @@ ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeDecode method, IX509AttributeArchiveKey.InitializeDecode, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

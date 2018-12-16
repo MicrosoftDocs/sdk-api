@@ -9,8 +9,6 @@ ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

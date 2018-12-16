@@ -9,8 +9,6 @@ ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], IEnumCERTVIEWEXTENSION interface [Security],described, _certsrv_ienumcertviewextension, certview/IEnumCERTVIEWEXTENSION, security.ienumcertviewextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

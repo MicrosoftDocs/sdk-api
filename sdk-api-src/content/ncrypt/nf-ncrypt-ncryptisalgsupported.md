@@ -9,8 +9,6 @@ ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1e003338-9ada-48cb-89cc-557f12a43cd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupLogError, SetupLogError function [Setup API], SetupLogErrorA, SetupLogErrorW, _setupapi_setuplogerror, setup.setuplogerror, setupapi/SetupLogError, setupapi/SetupLogErrorA, setupapi/SetupLogErrorW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

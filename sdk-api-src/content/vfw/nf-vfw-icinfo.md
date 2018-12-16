@@ -9,8 +9,6 @@ ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

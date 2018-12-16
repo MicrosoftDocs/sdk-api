@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToRadians(floa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAudio2CutoffFrequencyToRadians, XAudio2CutoffFrequencyToRadians function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoradians, xaudio2/XAudio2CutoffFrequencyToRadians
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 

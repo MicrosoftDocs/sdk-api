@@ -9,8 +9,6 @@ ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

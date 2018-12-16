@@ -9,8 +9,6 @@ ms.assetid: 2541cfc9-ca65-4156-ae33-c04083556006
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiInStop, midiInStop, midiInStop function [Windows Multimedia], mmeapi/midiInStop, multimedia.midiinstop"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

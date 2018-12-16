@@ -9,8 +9,6 @@ ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

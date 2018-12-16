@@ -9,8 +9,6 @@ ms.assetid: D3C837A5-49D7-4099-B8FE-37364A275A73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

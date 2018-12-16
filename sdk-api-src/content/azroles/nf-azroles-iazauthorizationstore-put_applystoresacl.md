@@ -9,8 +9,6 @@ ms.assetid: fdace7a9-4b6b-4698-812d-c53fc3b8f0d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzAuthorizationStore object, ApplyStoreSacl property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplyStoreSacl property, IAzAuthorizationStore interface [Security],ApplyStoreSacl property, IAzAuthorizationStore.ApplyStoreSacl, IAzAuthorizationStore.put_ApplyStoreSacl, IAzAuthorizationStore::ApplyStoreSacl, IAzAuthorizationStore::get_ApplyStoreSacl, IAzAuthorizationStore::put_ApplyStoreSacl, azroles/IAzAuthorizationStore::ApplyStoreSacl, azroles/IAzAuthorizationStore::get_ApplyStoreSacl, azroles/IAzAuthorizationStore::put_ApplyStoreSacl, put_ApplyStoreSacl, security.azauthorizationstore_applystoresacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

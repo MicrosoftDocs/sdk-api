@@ -9,8 +9,6 @@ ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

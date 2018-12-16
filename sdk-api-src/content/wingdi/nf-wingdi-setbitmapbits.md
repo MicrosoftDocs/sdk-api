@@ -9,8 +9,6 @@ ms.assetid: 3cab12a6-c408-4552-bec0-5ecfd8374757
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetBitmapBits, SetBitmapBits function [Windows GDI], _win32_SetBitmapBits, gdi.setbitmapbits, wingdi/SetBitmapBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

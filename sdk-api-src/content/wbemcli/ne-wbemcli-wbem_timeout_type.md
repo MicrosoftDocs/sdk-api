@@ -9,8 +9,6 @@ ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

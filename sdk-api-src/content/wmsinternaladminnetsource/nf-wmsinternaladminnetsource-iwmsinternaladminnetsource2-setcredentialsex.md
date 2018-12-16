@@ -9,8 +9,6 @@ ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSInternalAdminNetSource2 interface [windows Media Format],SetCredentialsEx method, IWMSInternalAdminNetSource2.SetCredentialsEx, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 

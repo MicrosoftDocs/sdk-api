@@ -9,8 +9,6 @@ ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

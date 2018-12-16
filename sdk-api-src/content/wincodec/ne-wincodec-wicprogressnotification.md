@@ -9,8 +9,6 @@ ms.assetid: 6d7ef6f1-2024-4de5-9c2e-8edc6359f79b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICProgressNotification, WICProgressNotification enumeration [Windows Imaging Component], WICProgressNotificationAll, WICProgressNotificationBegin, WICProgressNotificationEnd, WICProgressNotificationFrequent, _wic_codec_wicprogressnotification, wic._wic_codec_wicprogressnotification, wincodec/WICProgressNotification, wincodec/WICProgressNotificationAll, wincodec/WICProgressNotificationBegin, wincodec/WICProgressNotificationEnd, wincodec/WICProgressNotificationFrequent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

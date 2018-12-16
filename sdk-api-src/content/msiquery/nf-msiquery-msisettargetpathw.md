@@ -9,8 +9,6 @@ ms.assetid: bfd39656-4901-442f-940d-424d440caf70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

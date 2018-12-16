@@ -9,8 +9,6 @@ ms.assetid: 6e850e7b-841a-4f14-bab2-4a5a67dcb360
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectionCollection interface [ICS/ICF], INetSharingPrivateConnectionCollection interface [ICS/ICF],described, _ics_inetsharingprivateconnectioncollection, ics.inetsharingprivateconnectioncollection, netcon/INetSharingPrivateConnectionCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

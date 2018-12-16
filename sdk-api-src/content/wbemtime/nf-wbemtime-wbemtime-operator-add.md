@@ -9,8 +9,6 @@ ms.assetid: d805f837-4063-4c16-aebc-88940a662d5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??HWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator+ method, WBEMTime.operator+, WBEMTime.operator-add, WBEMTime::operator+, WBEMTime::operator-add, _hmm_wbemtime_operator_plus, operator+, operator+ method [Windows Management Instrumentation], operator+ method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+, wmi.wbemtime_operator_plus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

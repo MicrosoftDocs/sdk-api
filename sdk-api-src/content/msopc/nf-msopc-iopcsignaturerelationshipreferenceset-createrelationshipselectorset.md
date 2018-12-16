@@ -9,8 +9,6 @@ ms.assetid: 7b11f066-3e3a-4dd0-a938-853301bc6914
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRelationshipSelectorSet, CreateRelationshipSelectorSet method [Open Packaging Conventions], CreateRelationshipSelectorSet method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],CreateRelationshipSelectorSet method, IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet, IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

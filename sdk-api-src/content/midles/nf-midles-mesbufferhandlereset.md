@@ -9,8 +9,6 @@ ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h

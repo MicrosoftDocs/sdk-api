@@ -9,8 +9,6 @@ ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 

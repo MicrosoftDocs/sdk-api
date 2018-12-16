@@ -9,8 +9,6 @@ ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCOMPOSITION_OPACITY_MODE, DCOMPOSITION_OPACITY_MODE enumeration [DirectComposition], DCOMPOSITION_OPACITY_MODE_INHERIT, DCOMPOSITION_OPACITY_MODE_LAYER, DCOMPOSITION_OPACITY_MODE_MULTIPLY, dcomptypes/DCOMPOSITION_OPACITY_MODE, dcomptypes/DCOMPOSITION_OPACITY_MODE_INHERIT, dcomptypes/DCOMPOSITION_OPACITY_MODE_LAYER, dcomptypes/DCOMPOSITION_OPACITY_MODE_MULTIPLY, directcomp.dcomposition_opacity_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: DComp.h

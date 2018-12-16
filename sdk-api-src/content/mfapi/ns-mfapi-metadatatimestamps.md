@@ -9,8 +9,6 @@ ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MetadataTimeStamps, MetadataTimeStamps structure [Streaming Media Devices], mfapi/MetadataTimeStamps, stream.metadatatimestamps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

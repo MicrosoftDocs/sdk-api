@@ -9,8 +9,6 @@ ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

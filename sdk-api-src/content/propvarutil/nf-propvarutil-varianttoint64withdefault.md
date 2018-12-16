@@ -9,8 +9,6 @@ ms.assetid: c4a5fc5c-19f9-4313-9d98-a486bfdfb359
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToInt64WithDefault, VariantToInt64WithDefault function [Windows Properties], _shell_VariantToInt64WithDefault, properties.VariantToInt64WithDefault, propvarutil/VariantToInt64WithDefault, shell.VariantToInt64WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

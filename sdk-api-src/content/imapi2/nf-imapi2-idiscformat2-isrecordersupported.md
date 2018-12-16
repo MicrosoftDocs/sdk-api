@@ -9,8 +9,6 @@ ms.assetid: 1a96283a-a5a3-434a-834a-d539160cfc5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],IsRecorderSupported method, IDiscFormat2.IsRecorderSupported, IDiscFormat2::IsRecorderSupported, IsRecorderSupported, IsRecorderSupported method [IMAPI], IsRecorderSupported method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_isrecordersupported, imapi2/IDiscFormat2::IsRecorderSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

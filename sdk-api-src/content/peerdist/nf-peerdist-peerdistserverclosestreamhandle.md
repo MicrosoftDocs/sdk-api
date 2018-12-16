@@ -9,8 +9,6 @@ ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

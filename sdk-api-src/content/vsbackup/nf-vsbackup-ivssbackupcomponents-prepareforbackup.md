@@ -9,8 +9,6 @@ ms.assetid: 46ce8282-a434-4b0b-b66e-40810052b34b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],PrepareForBackup method, IVssBackupComponents.PrepareForBackup, IVssBackupComponents::PrepareForBackup, PrepareForBackup, PrepareForBackup method [VSS], PrepareForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prepareforbackup, base.ivssbackupcomponents_prepareforbackup, vsbackup/IVssBackupComponents::PrepareForBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

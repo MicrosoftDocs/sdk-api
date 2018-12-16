@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_1s3d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExtensionProperty, GetExtensionProperty method [Fax Service], GetExtensionProperty method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetExtensionProperty method, IFaxServer.GetExtensionProperty, IFaxServer::GetExtensionProperty, _mfax_faxserver.getextensionproperty, fax._mfax_faxserver_cpp_mfax_faxserver_getextensionproperty_cpp, fax._mfax_faxserver_getextensionproperty, faxcomex/IFaxServer::GetExtensionProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

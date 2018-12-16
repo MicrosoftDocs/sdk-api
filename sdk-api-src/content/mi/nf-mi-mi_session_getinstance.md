@@ -9,8 +9,6 @@ ms.assetid: d5d096ca-d45a-4df1-bdbc-0498999f2d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Session_GetInstance, MI_Session_GetInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_GetInstance, wmi_v2.mi_session_getinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

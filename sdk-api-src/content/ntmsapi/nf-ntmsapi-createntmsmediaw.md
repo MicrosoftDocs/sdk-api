@@ -9,8 +9,6 @@ ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNtmsMedia, CreateNtmsMedia function [Files], CreateNtmsMediaA, CreateNtmsMediaW, NTMS_ERROR_ON_DUPLICATE, _zaw_createntmsmedia, base.createntmsmedia, fs.createntmsmedia, ntmsapi/CreateNtmsMedia, ntmsapi/CreateNtmsMediaA, ntmsapi/CreateNtmsMediaW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

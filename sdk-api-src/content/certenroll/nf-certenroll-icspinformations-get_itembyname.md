@@ -9,8 +9,6 @@ ms.assetid: cf90f136-0318-40b5-9378-5c6f386e996f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspInformations interface [Security],ItemByName property, ICspInformations.ItemByName, ICspInformations.get_ItemByName, ICspInformations::ItemByName, ICspInformations::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByName, certenroll/ICspInformations::get_ItemByName, get_ItemByName, security.icspinformations_itembyname_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

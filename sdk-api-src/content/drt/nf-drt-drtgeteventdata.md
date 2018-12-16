@@ -9,8 +9,6 @@ ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

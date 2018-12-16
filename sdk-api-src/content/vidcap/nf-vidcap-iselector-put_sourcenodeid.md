@@ -9,8 +9,6 @@ ms.assetid: 6cf6a406-eeb8-45ba-9c4c-0fdc6d6a30cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISelector interface [DirectShow],put_SourceNodeId method, ISelector.put_SourceNodeId, ISelector::put_SourceNodeId, ISelectorput_SourceNodeId, dshow.iselector_put_sourcenodeid, put_SourceNodeId, put_SourceNodeId method [DirectShow], put_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::put_SourceNodeId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

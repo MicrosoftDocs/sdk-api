@@ -9,8 +9,6 @@ ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

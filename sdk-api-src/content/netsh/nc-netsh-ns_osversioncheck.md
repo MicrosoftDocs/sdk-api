@@ -9,8 +9,6 @@ ms.assetid: d58258ac-a16a-4983-bf35-71153dcbe652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK callback function [NetShell], SampleOsVersionCheck, _netsh_ns_osversioncheck, netsh/NS_OSVERSIONCHECK, netshell.ns_osversioncheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netsh.h
 req.include-header: 

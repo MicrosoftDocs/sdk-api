@@ -9,8 +9,6 @@ ms.assetid: 334497D9-11ED-4002-AEAB-0454EB62E53C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHandleFromIInspectable method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetHandleFromIInspectable method, IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowSetForegroundWindow, AllowSetForegroundWindow function [Windows and Messages], _win32_AllowSetForegroundWindow, _win32_allowsetforegroundwindow_cpp, winmsg.allowsetforegroundwindow, winui._win32_allowsetforegroundwindow, winuser/AllowSetForegroundWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

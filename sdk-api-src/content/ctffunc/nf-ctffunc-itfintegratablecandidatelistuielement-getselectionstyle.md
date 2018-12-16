@@ -9,8 +9,6 @@ ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

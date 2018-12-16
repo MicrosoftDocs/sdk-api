@@ -9,8 +9,6 @@ ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

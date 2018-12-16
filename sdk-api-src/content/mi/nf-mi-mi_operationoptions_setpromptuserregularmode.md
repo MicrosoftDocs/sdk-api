@@ -9,8 +9,6 @@ ms.assetid: 4383a407-716a-49d5-b877-67012c48fc6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_SetPromptUserRegularMode, MI_OperationOptions_SetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetPromptUserRegularMode, wmi_v2.mi_operationoptions_setpromptuserregularmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

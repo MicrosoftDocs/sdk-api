@@ -9,8 +9,6 @@ ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

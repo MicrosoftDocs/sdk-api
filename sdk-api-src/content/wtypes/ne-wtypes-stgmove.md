@@ -9,8 +9,6 @@ ms.assetid: f55c376b-f150-406a-b960-f096c2deeff1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STGMOVE, STGMOVE enumeration [Structured Storage], STGMOVE_COPY, STGMOVE_MOVE, STGMOVE_SHALLOWCOPY, _stg_stgmove, stg.stgmove, wtypes/STGMOVE, wtypes/STGMOVE_COPY, wtypes/STGMOVE_MOVE, wtypes/STGMOVE_SHALLOWCOPY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wtypes.h
 req.include-header: 

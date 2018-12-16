@@ -9,8 +9,6 @@ ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

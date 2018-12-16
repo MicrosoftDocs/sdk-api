@@ -9,8 +9,6 @@ ms.assetid: c1ea46b6-fac6-4140-a278-cb04ee9af739
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginName property, ItsPubPlugin.get_pluginName, ItsPubPlugin.pluginName, ItsPubPlugin::get_pluginName, ItsPubPlugin::pluginName, get_pluginName, pluginName property [Remote Desktop Services], pluginName property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginname, tspubplugincom/ItsPubPlugin::get_pluginName, tspubplugincom/ItsPubPlugin::pluginName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugincom.h
 req.include-header: 

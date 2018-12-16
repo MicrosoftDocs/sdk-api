@@ -9,8 +9,6 @@ ms.assetid: b48021a7-7fa1-4837-a6ca-af266fd55f4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, capStatusCallback, capStatusCallback callback, capStatusCallback callback function [Windows Multimedia], multimedia.capstatuscallback, vfw/CAPSTATUSCALLBACKA, vfw/CAPSTATUSCALLBACKW, vfw/capStatusCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 

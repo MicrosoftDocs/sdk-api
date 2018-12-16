@@ -9,8 +9,6 @@ ms.assetid: 84df4877-9ac9-4ab5-a357-276880051ff0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerGetResponseAttributes, EapHostPeerGetResponseAttributes function [EAPHost], eaphost.eaphostpeergetresponseattributes, eappapis/EapHostPeerGetResponseAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

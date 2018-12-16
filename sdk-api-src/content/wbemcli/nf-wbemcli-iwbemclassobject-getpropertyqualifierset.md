@@ -9,8 +9,6 @@ ms.assetid: 4bfca42e-7688-42e1-afa3-24b7eaaad9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyQualifierSet, GetPropertyQualifierSet method [Windows Management Instrumentation], GetPropertyQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetPropertyQualifierSet method, IWbemClassObject.GetPropertyQualifierSet, IWbemClassObject::GetPropertyQualifierSet, _hmm_iwbemclassobject_getpropertyqualifierset, wbemcli/IWbemClassObject::GetPropertyQualifierSet, wmi.iwbemclassobject_getpropertyqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

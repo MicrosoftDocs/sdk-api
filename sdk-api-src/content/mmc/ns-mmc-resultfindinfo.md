@@ -9,8 +9,6 @@ ms.assetid: e52c3437-45ac-4397-ab8f-70bc4d5f44f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRESULTFINDINFO, LPRESULTFINDINFO, LPRESULTFINDINFO structure pointer [MMC], RESULTFINDINFO, RESULTFINDINFO structure [MMC], RFI_PARTIAL, RFI_WRAP, _slate_resultfindinfo, mmc.resultfindinfo, mmc/LPRESULTFINDINFO, mmc/RESULTFINDINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

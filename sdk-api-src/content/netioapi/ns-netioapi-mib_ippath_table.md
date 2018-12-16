@@ -9,8 +9,6 @@ ms.assetid: f18aff3c-a7b5-40fa-9308-5bd8821c77e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_IPPATH_TABLE, MIB_IPPATH_TABLE, MIB_IPPATH_TABLE structure [MIB], PMIB_IPPATH_TABLE, PMIB_IPPATH_TABLE structure pointer [MIB], _MIB_IPPATH_TABLE, mib.mib_ippath_table, netioapi/MIB_IPPATH_TABLE, netioapi/PMIB_IPPATH_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

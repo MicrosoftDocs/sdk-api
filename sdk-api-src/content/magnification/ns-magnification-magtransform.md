@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\structures\magtransformstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 

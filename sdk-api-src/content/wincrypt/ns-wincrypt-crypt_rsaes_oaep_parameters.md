@@ -9,8 +9,6 @@ ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

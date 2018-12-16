@@ -9,8 +9,6 @@ ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

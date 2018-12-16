@@ -9,8 +9,6 @@ ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

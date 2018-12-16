@@ -9,8 +9,6 @@ ms.assetid: dbca41b1-5510-484d-80a1-c8d260cb5c39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGradientStopCollection.RemoveAt, IXpsOMGradientStopCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_removeat, xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

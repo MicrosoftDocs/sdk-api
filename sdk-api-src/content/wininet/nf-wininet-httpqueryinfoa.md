@@ -9,8 +9,6 @@ ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

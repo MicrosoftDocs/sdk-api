@@ -9,8 +9,6 @@ ms.assetid: 03530381-52f8-4d9b-a54c-faebf7cd4a06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateClientWrapper, CreateClientWrapper method [Windows Accessibility], CreateClientWrapper method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],CreateClientWrapper method, IUIAutomationPatternHandler.CreateClientWrapper, IUIAutomationPatternHandler::CreateClientWrapper, uiauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiautomationcore/IUIAutomationPatternHandler::CreateClientWrapper, winauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

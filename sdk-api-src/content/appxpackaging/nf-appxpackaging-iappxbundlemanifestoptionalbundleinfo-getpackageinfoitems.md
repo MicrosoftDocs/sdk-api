@@ -9,8 +9,6 @@ ms.assetid: 6D5028BF-7C74-4F74-9600-0A423FDC6E85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems, IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

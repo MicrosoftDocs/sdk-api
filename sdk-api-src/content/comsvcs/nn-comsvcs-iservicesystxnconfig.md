@@ -9,8 +9,6 @@ ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: EB68E76F-F838-40B7-AD23-5897321F354F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtCurrentTeb, NtCurrentTeb routine [Kernel-Mode Driver Architecture], kernel.ntcurrentteb, winnt/NtCurrentTeb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

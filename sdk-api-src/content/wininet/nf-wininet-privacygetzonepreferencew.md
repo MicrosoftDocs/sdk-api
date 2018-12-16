@@ -9,8 +9,6 @@ ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h

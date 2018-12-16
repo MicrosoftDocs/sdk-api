@@ -9,8 +9,6 @@ ms.assetid: 50087394-44C2-4CE5-8952-9795FE9B236A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], mi/MI_MethodDecl, wmi_v2.mi_methoddecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

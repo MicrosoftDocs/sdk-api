@@ -9,8 +9,6 @@ ms.assetid: f39ea1f7-28ba-4a5e-ac19-bcfc6052fdeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExplorerCommandProvider, IExplorerCommandProvider interface [Windows Shell], IExplorerCommandProvider interface [Windows Shell],described, _shell_IExplorerCommandProvider, shell.IExplorerCommandProvider, shobjidl_core/IExplorerCommandProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

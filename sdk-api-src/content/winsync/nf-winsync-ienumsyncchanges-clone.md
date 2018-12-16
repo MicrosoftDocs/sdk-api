@@ -9,8 +9,6 @@ ms.assetid: d81282ed-ff18-4ca2-a240-e9e79aea275a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChanges interface, IEnumSyncChanges interface [Windows Sync],Clone method, IEnumSyncChanges.Clone, IEnumSyncChanges::Clone, winsync.ienumsyncchanges_clone, winsync/IEnumSyncChanges::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

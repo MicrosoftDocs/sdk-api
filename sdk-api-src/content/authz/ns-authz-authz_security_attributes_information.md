@@ -9,8 +9,6 @@ ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

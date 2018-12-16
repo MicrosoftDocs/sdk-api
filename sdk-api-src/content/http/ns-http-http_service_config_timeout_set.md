@@ -9,8 +9,6 @@ ms.assetid: 928cb09d-9f63-4334-b034-ee27e950ce0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

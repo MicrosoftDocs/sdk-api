@@ -9,8 +9,6 @@ ms.assetid: 6073ab66-7011-4983-a11e-1c26a3549423
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_NIT.GetNextTable, IDVB_NIT::GetNextTable, IDVB_NITGetNextTable, dvbsiparser/IDVB_NIT::GetNextTable, mstv.idvb_nit_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5252DC51-E1EF-4A61-A2BD-682F51DC219B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

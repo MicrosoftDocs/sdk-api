@@ -9,8 +9,6 @@ ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: DB77E4DE-62FF-4AA3-BDA9-847ABB38973B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIFactory5, IDXGIFactory5 interface [DXGI], IDXGIFactory5 interface [DXGI],described, direct3ddxgi.idxgifactory5, dxgi1_5/IDXGIFactory5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

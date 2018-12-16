@@ -9,8 +9,6 @@ ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

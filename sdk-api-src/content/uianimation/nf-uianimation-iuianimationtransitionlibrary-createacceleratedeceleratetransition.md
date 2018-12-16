@@ -9,8 +9,6 @@ ms.assetid: 97a0c6cc-991b-464f-b000-1d1199c5f4de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

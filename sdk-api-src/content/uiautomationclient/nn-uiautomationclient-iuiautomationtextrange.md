@@ -9,8 +9,6 @@ ms.assetid: 1037919d-c8df-4d46-b3ce-62ee23c92145
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], IUIAutomationTextRange interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRange, uiauto_IUIAutomationTextRange, uiautomationclient/IUIAutomationTextRange, winauto.uiauto_IUIAutomationTextRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

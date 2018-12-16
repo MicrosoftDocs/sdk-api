@@ -9,8 +9,6 @@ ms.assetid: 0138416a-70d6-4a64-957b-8b0eb031b589
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbContentIdentifierDescriptor.GetLength, IDvbContentIdentifierDescriptor::GetLength, dvbsiparser/IDvbContentIdentifierDescriptor::GetLength, mstv.idvbcontentidentifierdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

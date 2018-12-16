@@ -9,8 +9,6 @@ ms.assetid: b9c191cc-aa6f-4548-ad4a-f2b9808c5f23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateConnectionProfile, CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],CreateConnectionProfile method, IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

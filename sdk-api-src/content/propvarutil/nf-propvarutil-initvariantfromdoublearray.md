@@ -9,8 +9,6 @@ ms.assetid: 781b6999-4551-499d-ba37-0a7e05fc6eab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromDoubleArray, InitVariantFromDoubleArray function [Windows Properties], _shell_InitVariantFromDoubleArray, properties.InitVariantFromDoubleArray, propvarutil/InitVariantFromDoubleArray, shell.InitVariantFromDoubleArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

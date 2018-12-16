@@ -9,8 +9,6 @@ ms.assetid: 4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetmediamode, lineSetMediaMode, lineSetMediaMode function [TAPI 2.2], tapi/lineSetMediaMode, tapi2.linesetmediamode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

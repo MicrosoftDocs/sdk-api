@@ -9,8 +9,6 @@ ms.assetid: 816afa9d-2283-4e17-ad12-ee53e5353d83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AlternativeNames property [Security], AlternativeNames property [Security],IX509ExtensionAlternativeNames interface, IX509ExtensionAlternativeNames interface [Security],AlternativeNames property, IX509ExtensionAlternativeNames.AlternativeNames, IX509ExtensionAlternativeNames.get_AlternativeNames, IX509ExtensionAlternativeNames::AlternativeNames, IX509ExtensionAlternativeNames::get_AlternativeNames, certenroll/IX509ExtensionAlternativeNames::AlternativeNames, certenroll/IX509ExtensionAlternativeNames::get_AlternativeNames, get_AlternativeNames, security.ix509extensionalternativenames_alternativenames_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

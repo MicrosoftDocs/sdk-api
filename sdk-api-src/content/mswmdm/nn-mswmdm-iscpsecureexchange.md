@@ -9,8 +9,6 @@ ms.assetid: 8c61e1a0-18fc-4ae9-881a-0362166012d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISCPSecureExchange, ISCPSecureExchange interface [windows Media Device Manager], ISCPSecureExchange interface [windows Media Device Manager],described, ISCPSecureExchangeInterface, mswmdm/ISCPSecureExchange, wmdm.iscpsecureexchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

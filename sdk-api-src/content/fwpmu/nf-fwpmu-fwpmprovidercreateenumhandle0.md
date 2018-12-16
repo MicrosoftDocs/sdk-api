@@ -9,8 +9,6 @@ ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderCreateEnumHandle0, FwpmProviderCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercreateenumhandle0_func, fwpmu/FwpmProviderCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

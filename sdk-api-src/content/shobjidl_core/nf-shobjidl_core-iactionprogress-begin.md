@@ -9,8 +9,6 @@ ms.assetid: c26dd072-6d59-4c6c-a273-682ded994612
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],Begin method, IActionProgress.Begin, IActionProgress::Begin, shell.IActionProgress_Begin, shell_IActionProgress_Begin, shobjidl_core/IActionProgress::Begin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

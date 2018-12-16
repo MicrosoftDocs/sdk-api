@@ -9,8 +9,6 @@ ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f94bdf80-abea-4a97-9d41-add498e314b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

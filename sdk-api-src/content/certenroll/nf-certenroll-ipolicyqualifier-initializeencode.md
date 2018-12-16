@@ -9,8 +9,6 @@ ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPolicyQualifier interface [Security],InitializeEncode method, IPolicyQualifier.InitializeEncode, IPolicyQualifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IPolicyQualifier interface, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_draw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_Draw, ImageList_Draw function [Windows Controls], _win32_ImageList_Draw, _win32_ImageList_Draw_cpp, commctrl/ImageList_Draw, controls.ImageList_Draw, controls._win32_ImageList_Draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

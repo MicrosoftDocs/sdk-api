@@ -9,8 +9,6 @@ ms.assetid: 62a74a1d-c7e6-4722-af57-997a5ff553ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KspVerifySignatureFn, KspVerifySignatureFn callback, SpVerifySignature, SpVerifySignature callback function [Security], _ssp_spverifysignature, ntsecpkg/SpVerifySignature, security.spverifysignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

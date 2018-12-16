@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetItem, ListView_SetItem macro [Windows Controls], _win32_ListView_SetItem, _win32_ListView_SetItem_cpp, commctrl/ListView_SetItem, controls.ListView_SetItem, controls._win32_ListView_SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2e201a7e-6767-4908-b98c-f5b7f0544e60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

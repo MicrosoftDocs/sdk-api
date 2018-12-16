@@ -9,8 +9,6 @@ ms.assetid: d9307452-9670-4e9c-9df8-6a3b41d0bd2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterSuspendResumeNotification, UnregisterSuspendResumeNotification function, base.unregistersuspendresumenotification, winuser/UnregisterSuspendResumeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAFPROTOCOLS, *PAFPROTOCOLS, AFPROTOCOLS, AFPROTOCOLS structure [Winsock], LPAFPROTOCOLS, LPAFPROTOCOLS structure pointer [Winsock], PAFPROTOCOLS, PAFPROTOCOLS structure pointer [Winsock], _win32_afprotocols_2, winsock.afprotocols_2, winsock2/AFPROTOCOLS, winsock2/LPAFPROTOCOLS, winsock2/PAFPROTOCOLS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

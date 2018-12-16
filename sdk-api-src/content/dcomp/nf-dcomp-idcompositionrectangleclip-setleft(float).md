@@ -9,8 +9,6 @@ ms.assetid: 56614B81-3AC7-484C-9049-5E189D1C0B3B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(float), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(float), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

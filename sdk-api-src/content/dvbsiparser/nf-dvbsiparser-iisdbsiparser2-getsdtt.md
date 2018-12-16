@@ -9,8 +9,6 @@ ms.assetid: fd361526-eb0c-4edd-b346-3bded48fdc06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSDTT, GetSDTT method [Microsoft TV Technologies], GetSDTT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDTT method, IIsdbSiParser2.GetSDTT, IIsdbSiParser2::GetSDTT, dvbsiparser/IIsdbSiParser2::GetSDTT, mstv.iisdbsiparser2_getsdtt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: af47b130-353e-411d-8432-09ecd20a70d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink, IWMWriterFileSink interface [windows Media Format], IWMWriterFileSink interface [windows Media Format],described, IWMWriterFileSinkInterface, wmformat.iwmwriterfilesink, wmsdkidl/IWMWriterFileSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

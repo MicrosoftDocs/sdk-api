@@ -9,8 +9,6 @@ ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

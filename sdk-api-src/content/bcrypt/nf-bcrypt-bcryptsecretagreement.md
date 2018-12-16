@@ -9,8 +9,6 @@ ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

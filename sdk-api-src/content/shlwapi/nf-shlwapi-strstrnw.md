@@ -9,8 +9,6 @@ ms.assetid: e7aac4c7-b2d5-43d8-97f5-1b11ebb24ee1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrStrNW, StrStrNW function [Windows Shell], _shell_StrStrNW, shell.StrStrNW, shlwapi/StrStrNW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

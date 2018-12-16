@@ -9,8 +9,6 @@ ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSource, GetSource method [Direct2D], GetSource method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetSource method, ID2D1TransformedImageSource.GetSource, ID2D1TransformedImageSource::GetSource, d2d1_3/ID2D1TransformedImageSource::GetSource, direct2d.id2d1transformedimagesource_getsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

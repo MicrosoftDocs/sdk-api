@@ -9,8 +9,6 @@ ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, MINIDUMP_MEMORY_INFO, MINIDUMP_MEMORY_INFO structure, PMINIDUMP_MEMORY_INFO, PMINIDUMP_MEMORY_INFO structure pointer, _MINIDUMP_MEMORY_INFO, base.minidump_memory_info_str, minidumpapiset/MINIDUMP_MEMORY_INFO, minidumpapiset/PMINIDUMP_MEMORY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

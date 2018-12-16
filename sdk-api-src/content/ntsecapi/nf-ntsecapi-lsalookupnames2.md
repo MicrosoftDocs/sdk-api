@@ -9,8 +9,6 @@ ms.assetid: fe219070-6a00-4b8c-b2e4-2ad290a1cb9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LSA_LOOKUP_ISOLATED_AS_LOCAL, LsaLookupNames2, LsaLookupNames2 function [Security], _lsa_lsalookupnames2, ntsecapi/LsaLookupNames2, security.lsalookupnames2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

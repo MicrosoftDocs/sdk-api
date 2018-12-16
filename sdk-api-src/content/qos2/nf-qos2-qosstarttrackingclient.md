@@ -9,8 +9,6 @@ ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

@@ -9,8 +9,6 @@ ms.assetid: 79deeb39-1916-4bb0-b701-8f0a05dc55af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminGetIpAddressForUser, MprAdminGetIpAddressForUser callback, MprAdminGetIpAddressForUser callback function [RAS], _mpr_mpradmingetipaddressforuser, mprapi/MprAdminGetIpAddressForUser, rras.mpradmingetipaddressforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

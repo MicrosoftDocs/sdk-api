@@ -9,8 +9,6 @@ ms.assetid: 02106b6f-4c1c-4bd6-b120-2948b1e6d25c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

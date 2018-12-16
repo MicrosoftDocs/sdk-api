@@ -9,8 +9,6 @@ ms.assetid: c9d57873-1faa-42fa-855c-26f565e3b27c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8c85eb6d-c7f1-0944-a729-628dc7dd5fbc, ID3D11DeviceContext interface [Direct3D 11],Map method, ID3D11DeviceContext.Map, ID3D11DeviceContext::Map, Map, Map method [Direct3D 11], Map method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Map, direct3d11.id3d11devicecontext_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

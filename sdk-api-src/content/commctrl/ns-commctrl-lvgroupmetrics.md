@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

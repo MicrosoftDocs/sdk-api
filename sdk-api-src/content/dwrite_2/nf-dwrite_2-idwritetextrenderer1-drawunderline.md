@@ -9,8 +9,6 @@ ms.assetid: c2c5ea68-c1d0-b467-a9a7-cb3a457ff68d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawUnderline, DrawUnderline method [Direct Write], DrawUnderline method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawUnderline method, IDWriteTextRenderer1.DrawUnderline, IDWriteTextRenderer1::DrawUnderline, directwrite.idwritetextrenderer1_drawunderline, dwrite_2/IDWriteTextRenderer1::DrawUnderline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

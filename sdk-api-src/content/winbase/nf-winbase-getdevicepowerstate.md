@@ -9,8 +9,6 @@ ms.assetid: 017965d8-78f1-4643-b3d1-25f1303bced7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDevicePowerState, GetDevicePowerState function, _win32_getdevicepowerstate, base.getdevicepowerstate, winbase/GetDevicePowerState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

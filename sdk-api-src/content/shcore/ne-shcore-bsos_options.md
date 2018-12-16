@@ -9,8 +9,6 @@ ms.assetid: C51D945B-37C6-44CB-BF80-5FA62EE1F477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BSOS_DEFAULT, BSOS_OPTIONS, BSOS_OPTIONS enumeration [Windows Runtime], BSOS_PREFERDESTINATIONSTREAM, shcore/BSOS_DEFAULT, shcore/BSOS_OPTIONS, shcore/BSOS_PREFERDESTINATIONSTREAM, winrt.bsos_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shcore.h
 req.include-header: 

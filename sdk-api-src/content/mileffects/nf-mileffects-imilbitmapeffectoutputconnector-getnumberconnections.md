@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\ge
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberConnections, GetNumberConnections method [WPF Bitmap Effects], GetNumberConnections method [WPF Bitmap Effects],IMILBitmapEffectOutputConnector interface, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],GetNumberConnections method, IMILBitmapEffectOutputConnector.GetNumberConnections, IMILBitmapEffectOutputConnector::GetNumberConnections, _wibe_imilbitmapeffectoutputconnector_getnumberconnections, mileffects/IMILBitmapEffectOutputConnector::GetNumberConnections, wibe._wibe_imilbitmapeffectoutputconnector_getnumberconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

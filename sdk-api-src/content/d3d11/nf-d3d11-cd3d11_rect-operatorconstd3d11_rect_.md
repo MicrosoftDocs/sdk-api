@@ -9,8 +9,6 @@ ms.assetid: D6046A41-8D95-4AF2-965A-316581E569E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_RECT interface [Direct3D 11],operator const D3D11_RECT& method, CD3D11_RECT.operator const D3D11_RECT&, CD3D11_RECT::operator const D3D11_RECT&, CD3D11_RECT::operator const D3D11_RECT&(), d3d11/CD3D11_RECT::operator const D3D11_RECT&, direct3d11.cd3d11_rect_d3d11_rect__, operator const D3D11_RECT&, operator const D3D11_RECT& method [Direct3D 11], operator const D3D11_RECT& method [Direct3D 11],CD3D11_RECT interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

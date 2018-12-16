@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

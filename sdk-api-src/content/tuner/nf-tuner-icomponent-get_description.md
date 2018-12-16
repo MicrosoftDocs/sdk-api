@@ -9,8 +9,6 @@ ms.assetid: ef7d1308-27ff-4d4d-b88d-58a9f89abc7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Description method, IComponent.get_Description, IComponent::get_Description, IComponentget_Description, get_Description, get_Description method [Microsoft TV Technologies], get_Description method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_description, tuner/IComponent::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

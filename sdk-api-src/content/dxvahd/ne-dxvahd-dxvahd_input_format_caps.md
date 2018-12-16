@@ -9,8 +9,6 @@ ms.assetid: ddfff29c-3a40-4238-93e7-821c4ffc27af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_INPUT_FORMAT_CAPS, DXVAHD_INPUT_FORMAT_CAPS enumeration [Media Foundation], DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, dxvahd/DXVAHD_INPUT_FORMAT_CAPS, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, mf.dxvahd_input_format_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 

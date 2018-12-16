@@ -9,8 +9,6 @@ ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke, Invoke method, Invoke method,IInkHostWorkItem interface, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 

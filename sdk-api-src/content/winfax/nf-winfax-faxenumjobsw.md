@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6fhv.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxEnumJobs, FaxEnumJobs function [Fax Service], FaxEnumJobsA, FaxEnumJobsW, _mfax_faxenumjobs, fax._mfax_faxenumjobs, winfax/FaxEnumJobs, winfax/FaxEnumJobsA, winfax/FaxEnumJobsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

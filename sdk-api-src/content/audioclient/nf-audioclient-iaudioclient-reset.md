@@ -9,8 +9,6 @@ ms.assetid: c1a4f673-ecbf-4855-b8bb-c0f0807dedd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClient interface [Core Audio],Reset method, IAudioClient.Reset, IAudioClient::Reset, IAudioClientReset, Reset, Reset method [Core Audio], Reset method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Reset, coreaudio.iaudioclient_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

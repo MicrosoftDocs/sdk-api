@@ -9,8 +9,6 @@ ms.assetid: da0d6970-0f6b-4d92-a384-3799ed3dab55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_DevNode_Registry_Property, CM_Get_DevNode_Registry_Property function [Device and Driver Installation], CM_Get_DevNode_Registry_PropertyW, cfgmgr32/CM_Get_DevNode_Registry_Property, cfgmgr32/CM_Get_DevNode_Registry_PropertyW, cfgmgrfn_f5c0e7d6-81f6-4d0f-bca8-de9c4f51e3d9.xml, devinst.cm_get_devnode_registry_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

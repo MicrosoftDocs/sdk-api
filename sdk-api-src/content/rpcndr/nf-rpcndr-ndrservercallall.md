@@ -9,8 +9,6 @@ ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

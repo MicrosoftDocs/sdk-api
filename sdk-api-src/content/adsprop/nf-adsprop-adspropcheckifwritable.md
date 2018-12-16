@@ -9,8 +9,6 @@ ms.assetid: ec0c3a70-58ad-4d92-85dc-63090b1fce94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 

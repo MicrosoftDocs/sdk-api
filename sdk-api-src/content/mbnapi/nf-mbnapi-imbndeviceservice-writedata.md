@@ -9,8 +9,6 @@ ms.assetid: D2CD630B-FCD5-485D-84A6-B2A942842A1F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],WriteData method, IMbnDeviceService.WriteData, IMbnDeviceService::WriteData, WriteData, WriteData method [Microsoft Broadband Networks], WriteData method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_writedata, mbnapi/IMbnDeviceService::WriteData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

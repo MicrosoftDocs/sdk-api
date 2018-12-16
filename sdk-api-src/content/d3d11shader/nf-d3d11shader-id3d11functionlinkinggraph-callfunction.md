@@ -9,8 +9,6 @@ ms.assetid: 0DEEE3E4-7D4E-40BD-9D96-A1C91CF5E4BE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CallFunction, CallFunction method [Direct3D 11], CallFunction method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CallFunction method, ID3D11FunctionLinkingGraph.CallFunction, ID3D11FunctionLinkingGraph::CallFunction, d3d11shader/ID3D11FunctionLinkingGraph::CallFunction, direct3d11.id3d11functionlinkinggraph_callfunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 18825029-2035-46b3-a6a5-9edd8e0437c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

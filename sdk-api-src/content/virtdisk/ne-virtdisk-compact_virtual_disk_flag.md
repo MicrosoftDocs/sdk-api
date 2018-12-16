@@ -9,8 +9,6 @@ ms.assetid: e0efa6e3-e691-4854-a09e-9504a37621a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD], COMPACT_VIRTUAL_DISK_FLAG_NONE, vdssys/COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE, vhd.compact_virtual_disk_flag, virtdisk/COMPACT_VIRTUAL_DISK_FLAG, virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 

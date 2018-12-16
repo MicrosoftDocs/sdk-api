@@ -9,8 +9,6 @@ ms.assetid: 835cac4b-9cf8-463a-8eff-d08bbee5f98e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy, rpc.rpcbindingcopy, rpcdce/RpcBindingCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

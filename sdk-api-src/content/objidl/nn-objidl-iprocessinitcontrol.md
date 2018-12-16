@@ -9,8 +9,6 @@ ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

@@ -9,8 +9,6 @@ ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_APP_SEQUENCE, WSD_APP_SEQUENCE structure, ncd.wsd_app_sequence_struct, wsdtypes/WSD_APP_SEQUENCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

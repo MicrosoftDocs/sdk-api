@@ -9,8 +9,6 @@ ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,QueryMigrationStatus method, IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus, IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus, QueryMigrationStatus, QueryMigrationStatus method, QueryMigrationStatus method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de7dc6d4-d85a-44cb-8af7-840fd6e68d5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantGetInt32Elem, PropVariantGetInt32Elem function [Windows Properties], _shell_PropVariantGetInt32Elem, properties.PropVariantGetInt32Elem, propvarutil/PropVariantGetInt32Elem, shell.PropVariantGetInt32Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

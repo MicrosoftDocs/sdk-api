@@ -9,8 +9,6 @@ ms.assetid: 5aacc63a-d129-4539-a43f-f4dd74ab4fea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupSubsetCount method, IFolderView2.SetGroupSubsetCount, IFolderView2::SetGroupSubsetCount, SetGroupSubsetCount, SetGroupSubsetCount method [Windows Shell], SetGroupSubsetCount method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupSubsetCount, shell.IFolderView2_SetGroupSubsetCount, shobjidl_core/IFolderView2::SetGroupSubsetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 1e503857-9276-4308-b4ad-83db25866689
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel interface [Tablet PC],SetInPlaceVisibility method, ITextInputPanel.SetInPlaceVisibility, ITextInputPanel::SetInPlaceVisibility, SetInPlaceVisibility, SetInPlaceVisibility method [Tablet PC], SetInPlaceVisibility method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceVisibility, tablet.itextinputpanel_setinplacevisibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

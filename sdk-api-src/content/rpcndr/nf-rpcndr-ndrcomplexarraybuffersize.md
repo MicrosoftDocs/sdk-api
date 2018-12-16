@@ -9,8 +9,6 @@ ms.assetid: 8efd63c5-7444-4b30-b642-18dfecb7d026
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrComplexArrayBufferSize, NdrComplexArrayBufferSize function [Windows API], rpcndr/NdrComplexArrayBufferSize, winprog.ndrcomplexarraybuffersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

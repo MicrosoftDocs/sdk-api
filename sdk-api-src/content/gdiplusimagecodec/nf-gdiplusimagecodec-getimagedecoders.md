@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimagedecoders.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImageDecoders, GetImageDecoders function [GDI+], _gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplus._gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplusimagecodec/GetImageDecoders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h

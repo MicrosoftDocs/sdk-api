@@ -9,8 +9,6 @@ ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h

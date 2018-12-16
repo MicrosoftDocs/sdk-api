@@ -9,8 +9,6 @@ ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 59cfe8d7-47ce-4d1a-a53a-30f398100aa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Close method, IPortableDeviceService.Close, IPortableDeviceService::Close, portabledeviceapi/IPortableDeviceService::Close, wpdsdk.iportabledeviceservice_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

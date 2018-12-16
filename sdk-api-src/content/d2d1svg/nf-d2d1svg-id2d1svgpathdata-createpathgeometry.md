@@ -9,8 +9,6 @@ ms.assetid: BDF23A0F-EC4B-49AE-8822-9326DA2D885D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],CreatePathGeometry method, ID2D1SvgPathData.CreatePathGeometry, ID2D1SvgPathData::CreatePathGeometry, d2d1svg/ID2D1SvgPathData::CreatePathGeometry, direct2d.id2d1svgpathdata_createpathgeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

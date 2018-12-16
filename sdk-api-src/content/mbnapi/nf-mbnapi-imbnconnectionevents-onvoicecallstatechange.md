@@ -9,8 +9,6 @@ ms.assetid: c4f243b0-e6d5-4afc-85ad-0f88140c3beb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnVoiceCallStateChange method, IMbnConnectionEvents.OnVoiceCallStateChange, IMbnConnectionEvents::OnVoiceCallStateChange, OnVoiceCallStateChange, OnVoiceCallStateChange method [Microsoft Broadband Networks], OnVoiceCallStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onvoicecallstatechange, mbnapi/IMbnConnectionEvents::OnVoiceCallStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

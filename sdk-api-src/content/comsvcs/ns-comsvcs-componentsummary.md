@@ -9,8 +9,6 @@ ms.assetid: df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComponentSummary, ComponentSummary structure [COM+], comsvcs/ComponentSummary, cos.componentsummary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

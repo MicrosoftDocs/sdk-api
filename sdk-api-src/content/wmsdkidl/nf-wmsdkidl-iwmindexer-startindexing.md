@@ -9,8 +9,6 @@ ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMIndexer interface [windows Media Format],StartIndexing method, IWMIndexer.StartIndexing, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format],IWMIndexer interface, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

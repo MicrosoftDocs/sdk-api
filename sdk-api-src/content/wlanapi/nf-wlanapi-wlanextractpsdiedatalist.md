@@ -9,8 +9,6 @@ ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

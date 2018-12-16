@@ -9,8 +9,6 @@ ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

@@ -9,8 +9,6 @@ ms.assetid: f89ebf46-da83-495c-bafe-b2e0f72f5d8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h

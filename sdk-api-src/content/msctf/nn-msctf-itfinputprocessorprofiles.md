@@ -9,8 +9,6 @@ ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

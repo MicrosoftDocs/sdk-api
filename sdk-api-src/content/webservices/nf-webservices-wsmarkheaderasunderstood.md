@@ -9,8 +9,6 @@ ms.assetid: f119f85a-f6a7-4472-8177-a2e23b6d12f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

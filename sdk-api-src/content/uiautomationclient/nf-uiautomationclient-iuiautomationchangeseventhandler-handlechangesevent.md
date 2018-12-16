@@ -9,8 +9,6 @@ ms.assetid: 5BCE09F7-9811-49F5-B2C4-8DABC44CA406
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandleChangesEvent, HandleChangesEvent method [Windows Accessibility], HandleChangesEvent method [Windows Accessibility],IUIAutomationChangesEventHandler interface, IUIAutomationChangesEventHandler interface [Windows Accessibility],HandleChangesEvent method, IUIAutomationChangesEventHandler.HandleChangesEvent, IUIAutomationChangesEventHandler::HandleChangesEvent, uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent, winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

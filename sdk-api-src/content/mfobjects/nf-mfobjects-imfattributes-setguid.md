@@ -9,8 +9,6 @@ ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetGUID method, IMFAttributes.SetGUID, IMFAttributes::SetGUID, SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation],IMFAttributes interface, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

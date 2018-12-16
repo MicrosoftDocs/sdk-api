@@ -9,8 +9,6 @@ ms.assetid: 07ab5ded-28b8-4cac-b4da-76f07ad351ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STREAMTYPE_READ, STREAMTYPE_TRANSFORM, STREAMTYPE_WRITE, STREAM_TYPE, STREAM_TYPE enumeration [DirectShow], dshow.stream_type, mmstream/STREAMTYPE_READ, mmstream/STREAMTYPE_TRANSFORM, mmstream/STREAMTYPE_WRITE, mmstream/STREAM_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mmstream.h
 req.include-header: 

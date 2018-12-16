@@ -9,8 +9,6 @@ ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],Interval property, IRepetitionPattern.Interval, IRepetitionPattern.get_Interval, IRepetitionPattern::Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler],IRepetitionPattern interface, get_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

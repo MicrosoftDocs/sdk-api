@@ -9,8 +9,6 @@ ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

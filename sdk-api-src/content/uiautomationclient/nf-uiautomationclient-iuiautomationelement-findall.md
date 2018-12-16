@@ -9,8 +9,6 @@ ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindAll, FindAll method [Windows Accessibility], FindAll method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAll method, IUIAutomationElement.FindAll, IUIAutomationElement::FindAll, uiauto.uiauto_IUIAutomationElement_FindAll, uiauto_IUIAutomationElement_FindAll, uiautomationclient/IUIAutomationElement::FindAll, winauto.uiauto_IUIAutomationElement_FindAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: d19a56db-cd5f-4a19-98f0-42327c259b01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Media Foundation], GetChannelCount method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelCount method, IMFAudioStreamVolume.GetChannelCount, IMFAudioStreamVolume::GetChannelCount, d19a56db-cd5f-4a19-98f0-42327c259b01, mf.imfaudiostreamvolume_getchannelcount, mfidl/IMFAudioStreamVolume::GetChannelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

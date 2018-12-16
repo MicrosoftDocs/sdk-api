@@ -9,8 +9,6 @@ ms.assetid: 8c74c30e-6793-490b-bc36-b7c60ef35232
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TIMESPAN_DESCRIPTION, WS_TIMESPAN_DESCRIPTION structure [Web Services for Windows], webservices/WS_TIMESPAN_DESCRIPTION, wsw.ws_timespan_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

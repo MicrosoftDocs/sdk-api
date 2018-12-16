@@ -9,8 +9,6 @@ ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

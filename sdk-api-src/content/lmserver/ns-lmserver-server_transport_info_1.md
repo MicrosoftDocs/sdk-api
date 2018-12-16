@@ -9,8 +9,6 @@ ms.assetid: f21fed49-207a-4f64-becd-3d3c1e995eb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_1, *PSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_1, PSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], SERVER_TRANSPORT_INFO_1, SERVER_TRANSPORT_INFO_1 structure [Network Management], _win32_server_transport_info_1_str, lmserver/LPSERVER_TRANSPORT_INFO_1, lmserver/PSERVER_TRANSPORT_INFO_1, lmserver/SERVER_TRANSPORT_INFO_1, netmgmt.server_transport_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

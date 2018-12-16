@@ -9,8 +9,6 @@ ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

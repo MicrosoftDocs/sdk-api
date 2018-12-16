@@ -9,8 +9,6 @@ ms.assetid: ba86d245-1ec2-42aa-9502-256981109700
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPATHDATA, PATHDATA, PATHDATA structure [Display Devices], PPATHDATA, PPATHDATA structure pointer [Display Devices], display.pathdata, grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml, winddi/PATHDATA, winddi/PPATHDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

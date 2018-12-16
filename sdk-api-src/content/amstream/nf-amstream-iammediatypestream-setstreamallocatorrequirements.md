@@ -9,8 +9,6 @@ ms.assetid: d34a00dd-e863-4356-97f9-da3776ecb47b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetStreamAllocatorRequirements method, IAMMediaTypeStream.SetStreamAllocatorRequirements, IAMMediaTypeStream::SetStreamAllocatorRequirements, IAMMediaTypeStreamSetStreamAllocatorRequirements, SetStreamAllocatorRequirements, SetStreamAllocatorRequirements method [DirectShow], SetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements, dshow.iammediatypestream_setstreamallocatorrequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

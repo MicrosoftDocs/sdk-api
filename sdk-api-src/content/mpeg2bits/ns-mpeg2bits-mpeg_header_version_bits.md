@@ -9,8 +9,6 @@ ms.assetid: d9a33ca6-2e35-4f7c-8621-ce30effeb687
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMPEG_HEADER_VERSION_BITS, MPEG_HEADER_VERSION_BITS, MPEG_HEADER_VERSION_BITS structure [Microsoft TV Technologies], MPEG_HEADER_VERSION_BITSStructure, PMPEG_HEADER_VERSION_BITS, PMPEG_HEADER_VERSION_BITS structure pointer [Microsoft TV Technologies], mpeg2bits/MPEG_HEADER_VERSION_BITS, mpeg2bits/PMPEG_HEADER_VERSION_BITS, mstv.mpeg_header_version_bits"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2bits.h
 req.include-header: Mpeg2Structs.h

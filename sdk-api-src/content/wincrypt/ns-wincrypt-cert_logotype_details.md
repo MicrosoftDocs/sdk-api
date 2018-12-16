@@ -9,8 +9,6 @@ ms.assetid: cde420a8-c755-4c45-ab81-4897b08d9dd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_LOGOTYPE_DETAILS, CERT_LOGOTYPE_DETAILS, CERT_LOGOTYPE_DETAILS structure [Security], PCERT_LOGOTYPE_DETAILS, PCERT_LOGOTYPE_DETAILS structure pointer [Security], security.cert_logotype_details, wincrypt/CERT_LOGOTYPE_DETAILS, wincrypt/PCERT_LOGOTYPE_DETAILS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9fe31925-3d5d-42e5-aa9b-405610f13de4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathToRegion, PathToRegion function [Windows GDI], _win32_PathToRegion, gdi.pathtoregion, wingdi/PathToRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

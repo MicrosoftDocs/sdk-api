@@ -9,8 +9,6 @@ ms.assetid: d1b3de9a-99ab-4339-8e9f-906f5a5d291d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf], PdhGetDefaultPerfCounterHA, PdhGetDefaultPerfCounterHW, _win32_pdhgetdefaultperfcounterh, base.pdhgetdefaultperfcounterh, pdh/PdhGetDefaultPerfCounterH, pdh/PdhGetDefaultPerfCounterHA, pdh/PdhGetDefaultPerfCounterHW, perf.pdhgetdefaultperfcounterh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

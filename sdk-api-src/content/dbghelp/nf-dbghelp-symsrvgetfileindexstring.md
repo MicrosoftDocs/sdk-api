@@ -9,8 +9,6 @@ ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

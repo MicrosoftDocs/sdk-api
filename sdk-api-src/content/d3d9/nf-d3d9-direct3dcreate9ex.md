@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d9.h
 req.include-header: 

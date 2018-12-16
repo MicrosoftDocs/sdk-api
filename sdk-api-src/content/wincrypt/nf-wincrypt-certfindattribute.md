@@ -9,8 +9,6 @@ ms.assetid: 99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFindAttribute, CertFindAttribute function [Security], _crypto2_certfindattribute, security.certfindattribute, wincrypt/CertFindAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

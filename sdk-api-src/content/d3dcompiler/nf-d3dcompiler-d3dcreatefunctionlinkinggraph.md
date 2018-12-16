@@ -9,8 +9,6 @@ ms.assetid: D0BC7D62-EBF8-4144-8DC0-A87BF1B83006
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3DCreateFunctionLinkingGraph, D3DCreateFunctionLinkingGraph function [HLSL], d3dcompiler/D3DCreateFunctionLinkingGraph, direct3dhlsl.d3dcreatefunctionlinkinggraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

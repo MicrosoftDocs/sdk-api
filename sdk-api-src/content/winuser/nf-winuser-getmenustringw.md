@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

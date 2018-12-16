@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmlvlink.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PNMLVLINK, LPNMLVLINK, LPNMLVLINK structure pointer [Windows Controls], NMLVLINK, NMLVLINK structure [Windows Controls], commctrl/LPNMLVLINK, commctrl/NMLVLINK, controls.NMLVLINK, controls.shell_NMLVLINK, shell_NMLVLINK, shell_NMLVLINK_cpp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

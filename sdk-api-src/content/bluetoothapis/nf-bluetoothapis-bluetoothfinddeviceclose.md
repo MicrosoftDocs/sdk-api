@@ -9,8 +9,6 @@ ms.assetid: 8b482d7f-56a3-47ef-be49-5272423c10f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothFindDeviceClose, BluetoothFindDeviceClose function [Bluetooth], bluetooth.bluetoothfinddeviceclose, bluetoothapis/BluetoothFindDeviceClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

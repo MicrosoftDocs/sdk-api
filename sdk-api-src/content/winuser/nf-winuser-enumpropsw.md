@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\win
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumProps, EnumProps function [Windows and Messages], EnumPropsA, EnumPropsW, _win32_EnumProps, _win32_enumprops_cpp, winmsg.enumprops, winui._win32_enumprops, winuser/EnumProps, winuser/EnumPropsA, winuser/EnumPropsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

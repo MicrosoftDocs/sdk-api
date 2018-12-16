@@ -9,8 +9,6 @@ ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

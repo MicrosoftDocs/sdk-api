@@ -9,8 +9,6 @@ ms.assetid: e5bde311-8b5f-4a8b-9fff-5d062c650b95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverlayIndex, GetOverlayIndex method [Windows Shell], GetOverlayIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIndex method, IShellIconOverlay.GetOverlayIndex, IShellIconOverlay::GetOverlayIndex, _win32_IShellIconOverlay_GetOverlayIndex, shell.IShellIconOverlay_GetOverlayIndex, shlobj_core/IShellIconOverlay::GetOverlayIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

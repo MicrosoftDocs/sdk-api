@@ -9,8 +9,6 @@ ms.assetid: 10516474-f3ef-4de7-a5b5-aabaa5c65cf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpdateMode method, IDirectManipulationViewport.SetUpdateMode, IDirectManipulationViewport::SetUpdateMode, SetUpdateMode, SetUpdateMode method [Direct Manipulation], SetUpdateMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setupdatemode, directmanipulation/IDirectManipulationViewport::SetUpdateMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

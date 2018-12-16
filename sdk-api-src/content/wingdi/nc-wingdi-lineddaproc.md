@@ -9,8 +9,6 @@ ms.assetid: 4a8b1120-4b0b-4029-8b49-4371c0627bba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [Windows GDI], _win32_LineDDAProc, gdi.lineddaproc, wingdi/LineDDAProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wingdi.h
 req.include-header: Windows.h

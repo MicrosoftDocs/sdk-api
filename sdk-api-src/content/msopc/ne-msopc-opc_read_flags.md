@@ -9,8 +9,6 @@ ms.assetid: f7d21dac-c606-4a6a-9d6a-cf6f8ec4dbb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPC_CACHE_ON_ACCESS, OPC_READ_DEFAULT, OPC_READ_FLAGS, OPC_READ_FLAGS enumeration [Open Packaging Conventions], OPC_VALIDATE_ON_LOAD, msopc/OPC_CACHE_ON_ACCESS, msopc/OPC_READ_DEFAULT, msopc/OPC_READ_FLAGS, msopc/OPC_VALIDATE_ON_LOAD, opc.opc_read_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

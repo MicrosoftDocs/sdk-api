@@ -9,8 +9,6 @@ ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnvironmentPropertySetObject, CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentPropertySetObject method, ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

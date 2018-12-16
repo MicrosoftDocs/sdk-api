@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_606r_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceIds, IFaxDeviceIds interface [Fax Service], IFaxDeviceIds interface [Fax Service],described, _mfax_faxdeviceids_cpp, fax._mfax_faxdeviceids_cpp, faxcomex/IFaxDeviceIds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

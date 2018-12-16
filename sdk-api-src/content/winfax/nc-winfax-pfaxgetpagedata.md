@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

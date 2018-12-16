@@ -9,8 +9,6 @@ ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

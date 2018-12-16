@@ -9,8 +9,6 @@ ms.assetid: A41469B3-9BBF-4664-9ABA-6894A4F94BBE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MF3DVideoOutputType, MF3DVideoOutputType enumeration [Media Foundation], MF3DVideoOutputType_BaseView, MF3DVideoOutputType_Stereo, mf.mf3dvideooutputtype, mftransform/MF3DVideoOutputType, mftransform/MF3DVideoOutputType_BaseView, mftransform/MF3DVideoOutputType_Stereo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 

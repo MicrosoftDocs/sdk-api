@@ -9,8 +9,6 @@ ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

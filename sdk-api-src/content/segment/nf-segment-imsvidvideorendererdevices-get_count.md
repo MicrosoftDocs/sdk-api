@@ -9,8 +9,6 @@ ms.assetid: 4308ed6a-b9c4-46f3-98eb-be23cd49c7dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidVideoRendererDevices.get_Count, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

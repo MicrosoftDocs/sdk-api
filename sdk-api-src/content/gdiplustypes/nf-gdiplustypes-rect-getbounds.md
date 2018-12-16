@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect class, Rect class [GDI+],GetBounds method, Rect.GetBounds, Rect::GetBounds, _gdiplus_CLASS_Rect_GetBounds_rect_, gdiplus._gdiplus_CLASS_Rect_GetBounds_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

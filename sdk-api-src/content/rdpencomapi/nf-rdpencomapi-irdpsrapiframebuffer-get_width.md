@@ -9,8 +9,6 @@ ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer.get_Width, IRDPSRAPIFrameBuffer::Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP],IRDPSRAPIFrameBuffer interface, get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

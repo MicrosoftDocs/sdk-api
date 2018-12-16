@@ -9,8 +9,6 @@ ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, ncd.wsd_resolve_struct, wsdtypes/WSD_RESOLVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

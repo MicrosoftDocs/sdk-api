@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRegionScansCount, GetRegionScansCount method [GDI+], GetRegionScansCount method [GDI+],Region class, Region class [GDI+],GetRegionScansCount method, Region.GetRegionScansCount, Region::GetRegionScansCount, _gdiplus_CLASS_Region_GetRegionScansCount_matrix_, gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

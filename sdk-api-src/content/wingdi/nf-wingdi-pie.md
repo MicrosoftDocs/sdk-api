@@ -9,8 +9,6 @@ ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

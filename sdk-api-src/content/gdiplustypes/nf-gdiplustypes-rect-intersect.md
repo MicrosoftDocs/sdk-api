@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Intersect, Intersect methods [GDI+], Rect.Intersect, Rect::Intersect, _gdiplus_CLASS_Rect_Intersect_Methods, gdiplus._gdiplus_CLASS_Rect_Intersect_Methods, gdiplustypes/Intersect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 

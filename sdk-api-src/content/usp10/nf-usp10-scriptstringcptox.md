@@ -9,8 +9,6 @@ ms.assetid: 0cc16a26-0559-4e2a-a7ec-99a2a6ca2bcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptStringCPtoX, ScriptStringCPtoX function [Internationalization for Windows Applications], _win32_ScriptStringCPtoX, intl.scriptstringcptox, usp10/ScriptStringCPtoX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

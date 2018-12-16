@@ -9,8 +9,6 @@ ms.assetid: 65061B97-310B-494D-AB6A-D9D98B01A600
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_BOX interface [Direct3D 11],~CD3D11_BOX destructor, CD3D11_BOX.~CD3D11_BOX, CD3D11_BOX::~CD3D11_BOX, CD3D11_BOX::~CD3D11_BOX(), d3d11/CD3D11_BOX::~CD3D11_BOX, direct3d11.cd3d11_box_cd3d11_box_destructor, ~CD3D11_BOX, ~CD3D11_BOX destructor [Direct3D 11], ~CD3D11_BOX destructor [Direct3D 11],CD3D11_BOX interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

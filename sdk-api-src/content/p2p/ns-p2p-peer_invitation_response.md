@@ -9,8 +9,6 @@ ms.assetid: 9f77c471-ef05-442f-aeae-afe67319b0ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE structure pointer [Peer Networking], PEER_INVITATION_RESPONSE, PEER_INVITATION_RESPONSE structure [Peer Networking], PPEER_INVITATION_RESPONSE, PPEER_INVITATION_RESPONSE structure pointer [Peer Networking], p2p.peer_invitation_response, p2p/PCPEER_INVITATION_RESPONSE, p2p/PEER_INVITATION_RESPONSE, p2p/PPEER_INVITATION_RESPONSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

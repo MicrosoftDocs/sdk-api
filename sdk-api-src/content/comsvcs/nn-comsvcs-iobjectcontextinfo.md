@@ -9,8 +9,6 @@ ms.assetid: 76dcc6f3-f840-4672-bba9-038c1249a306
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectContextInfo, IObjectContextInfo interface [COM+], IObjectContextInfo interface [COM+],described, _cos_IObjectContextInfo, comsvcs/IObjectContextInfo, cos.iobjectcontextinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

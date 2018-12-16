@@ -9,8 +9,6 @@ ms.assetid: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], IMFVideoMediaType interface [Media Foundation],described, mf.imfvideomediatype, mfobjects/IMFVideoMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -9,8 +9,6 @@ ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

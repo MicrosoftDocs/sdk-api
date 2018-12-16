@@ -9,8 +9,6 @@ ms.assetid: ADF44564-172A-4980-8A1D-8975B0C98CAF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearStorageFilter, ClearStorageFilter method, ClearStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearStorageFilter method, ID3D12InfoQueue.ClearStorageFilter, ID3D12InfoQueue::ClearStorageFilter, d3d12sdklayers/ID3D12InfoQueue::ClearStorageFilter, direct3d12.id3d12infoqueue_clearstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

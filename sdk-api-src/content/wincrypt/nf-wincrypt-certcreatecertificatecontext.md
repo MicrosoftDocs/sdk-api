@@ -9,8 +9,6 @@ ms.assetid: a32714c4-ee88-48a8-a40a-bbbfec0613ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function [Security], _crypto2_certcreatecertificatecontext, security.certcreatecertificatecontext, wincrypt/CertCreateCertificateContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

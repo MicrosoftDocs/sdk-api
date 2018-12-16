@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Count property, IFaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp, faxcomex/IFaxOutboundRoutingGroups::Count, faxcomex/IFaxOutboundRoutingGroups::get_Count, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

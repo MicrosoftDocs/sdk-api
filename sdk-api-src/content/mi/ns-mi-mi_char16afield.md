@@ -9,8 +9,6 @@ ms.assetid: d06fda7c-fb1c-4caa-a833-7c619442ec46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Char16AField, MI_Char16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_Char16AField, wmi._mi_char16afield, wmi_v2.mi_char16afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

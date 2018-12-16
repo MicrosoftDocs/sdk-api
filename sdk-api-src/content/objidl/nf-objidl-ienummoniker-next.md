@@ -9,8 +9,6 @@ ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumMoniker::Next, Next, Next method [COM], Next method [COM],IEnumMoniker interface, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

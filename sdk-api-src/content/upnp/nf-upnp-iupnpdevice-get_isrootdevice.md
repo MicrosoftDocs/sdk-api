@@ -9,8 +9,6 @@ ms.assetid: 0416c4f0-1289-4e91-be34-23f8b80df5c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_IsRootDevice method, IUPnPDevice.get_IsRootDevice, IUPnPDevice::get_IsRootDevice, _upnp_iupnpdevice_isrootdevice, get_IsRootDevice, get_IsRootDevice method [UPnP APIs], get_IsRootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_isrootdevice, upnp/IUPnPDevice::get_IsRootDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

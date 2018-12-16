@@ -9,8 +9,6 @@ ms.assetid: 3104267d-3efd-40da-a8b6-af2acf379ff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, PFNBLUETOOTH_GATT_EVENT_CALLBACK callback, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthledef.h
 req.include-header: 

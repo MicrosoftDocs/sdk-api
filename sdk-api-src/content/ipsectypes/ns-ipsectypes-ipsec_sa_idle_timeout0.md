@@ -9,8 +9,6 @@ ms.assetid: 99113c80-1e2a-4878-9b18-502cfb1e43cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_IDLE_TIMEOUT0, IPSEC_SA_IDLE_TIMEOUT0 structure [Filtering], fwp.ipsec_sa_idle_timeout0, ipsectypes/IPSEC_SA_IDLE_TIMEOUT0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

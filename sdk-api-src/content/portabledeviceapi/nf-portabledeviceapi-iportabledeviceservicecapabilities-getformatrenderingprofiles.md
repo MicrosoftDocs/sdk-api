@@ -9,8 +9,6 @@ ms.assetid: 38c9d357-17aa-4b26-9c01-c13a5cfcf495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormatRenderingProfiles, GetFormatRenderingProfiles method [Windows Portable Devices SDK], GetFormatRenderingProfiles method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatRenderingProfiles method, IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles, IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, wpdsdk.iportabledeviceservicecapabilities_getformatrenderingprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

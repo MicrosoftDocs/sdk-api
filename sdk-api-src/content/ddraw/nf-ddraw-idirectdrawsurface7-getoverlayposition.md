@@ -9,8 +9,6 @@ ms.assetid: 008502f7-468f-4d79-a309-75ebdbe29ff3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverlayPosition, GetOverlayPosition method [DirectDraw], GetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetOverlayPosition method, IDirectDrawSurface7.GetOverlayPosition, IDirectDrawSurface7::GetOverlayPosition, ddraw/IDirectDrawSurface7::GetOverlayPosition, directdraw.idirectdrawsurface7_getoverlayposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

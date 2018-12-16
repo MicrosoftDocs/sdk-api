@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

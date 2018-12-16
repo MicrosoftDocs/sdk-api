@@ -9,8 +9,6 @@ ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

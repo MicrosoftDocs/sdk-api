@@ -9,8 +9,6 @@ ms.assetid: 2a6a9b8f-758b-4443-b1c7-e277f22bac5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmFormatDetails, acmFormatDetails, acmFormatDetails function [Windows Multimedia], acmFormatDetailsA, acmFormatDetailsW, msacm/acmFormatDetails, msacm/acmFormatDetailsA, msacm/acmFormatDetailsW, multimedia.acmformatdetails"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 131D24B7-3D0D-4683-A7EA-94F5DC1E504C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WCN_SESSION_FAILURE_GENERIC, WCN_SESSION_FAILURE_TIMEOUT, WCN_SESSION_STATUS, WCN_SESSION_STATUS enumeration [Windows Connect Now], WCN_SESSION_STATUS_SUCCESS, wcn.wcn_session_status, wcndevice/WCN_SESSION_FAILURE_GENERIC, wcndevice/WCN_SESSION_FAILURE_TIMEOUT, wcndevice/WCN_SESSION_STATUS, wcndevice/WCN_SESSION_STATUS_SUCCESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wcndevice.h
 req.include-header: 

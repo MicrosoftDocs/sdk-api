@@ -9,8 +9,6 @@ ms.assetid: 258d7067-9b2b-4375-8b1a-c1d45cf55788
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetMessageType method, IWSDUdpAddress.GetMessageType, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

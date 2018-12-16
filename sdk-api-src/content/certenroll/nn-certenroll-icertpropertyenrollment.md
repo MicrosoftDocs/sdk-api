@@ -9,8 +9,6 @@ ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security],described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D31EBB3D-53BC-4D11-98ED-B68A04693C68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Media Foundation], GetFriendlyName method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetFriendlyName method, IMFSensorActivityReport.GetFriendlyName, IMFSensorActivityReport::GetFriendlyName, mf.imfsensoractivityreport_getfriendlyname, mfidl/IMFSensorActivityReport::GetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

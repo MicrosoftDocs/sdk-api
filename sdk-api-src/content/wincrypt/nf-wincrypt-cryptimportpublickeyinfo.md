@@ -9,8 +9,6 @@ ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

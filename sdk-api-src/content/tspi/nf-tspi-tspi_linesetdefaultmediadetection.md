@@ -9,8 +9,6 @@ ms.assetid: 407fa545-6890-4a8c-b5a8-bddeacc46e18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetection function [TAPI 2.2], _tspi_tspi_linesetdefaultmediadetection, tspi.tspi_linesetdefaultmediadetection, tspi/TSPI_lineSetDefaultMediaDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

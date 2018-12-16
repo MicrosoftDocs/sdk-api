@@ -9,8 +9,6 @@ ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

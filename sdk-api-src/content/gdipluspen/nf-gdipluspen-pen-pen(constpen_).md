@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(const Pen &), Pen::Pen, Pen::Pen(const Pen &), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: 

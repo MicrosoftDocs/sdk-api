@@ -9,8 +9,6 @@ ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

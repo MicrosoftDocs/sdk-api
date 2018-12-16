@@ -9,8 +9,6 @@ ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetURL, GetURL method [windows Media Format], GetURL method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetURL method, IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

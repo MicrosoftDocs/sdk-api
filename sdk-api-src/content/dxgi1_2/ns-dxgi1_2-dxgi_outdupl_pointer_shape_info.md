@@ -9,8 +9,6 @@ ms.assetid: 8C270C30-01B8-467C-939F-7F4B82B9ED15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_INFO, DXGI_OUTDUPL_POINTER_SHAPE_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_pointer_shape_info, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

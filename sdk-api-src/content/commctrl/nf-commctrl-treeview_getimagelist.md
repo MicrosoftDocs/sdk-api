@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

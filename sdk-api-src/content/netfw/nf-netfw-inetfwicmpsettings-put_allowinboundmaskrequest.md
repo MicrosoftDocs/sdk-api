@@ -9,8 +9,6 @@ ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.put_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest, put_AllowInboundMaskRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

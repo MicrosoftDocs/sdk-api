@@ -9,8 +9,6 @@ ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtOpenLog, EvtOpenLog function [EventLog], wes.evtopenlog, winevt/EvtOpenLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

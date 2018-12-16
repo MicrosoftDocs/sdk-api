@@ -9,8 +9,6 @@ ms.assetid: a58ce829-aa55-46d6-b6d0-205140a9548c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Devices], display.engstrokeandfillpath, gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml, winddi/EngStrokeAndFillPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

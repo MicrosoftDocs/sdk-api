@@ -9,8 +9,6 @@ ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

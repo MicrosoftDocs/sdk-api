@@ -9,8 +9,6 @@ ms.assetid: be0d9e82-2438-488e-88c3-68dc7ac3e16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoLoadLibrary, CoLoadLibrary function [COM], _com_CoLoadLibrary, com.coloadlibrary, objbase/CoLoadLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

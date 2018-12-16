@@ -9,8 +9,6 @@ ms.assetid: 93ab65e7-2168-4cfb-a871-b39554ba66e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 93ab65e7-2168-4cfb-a871-b39554ba66e0, GetBlobSize, GetBlobSize method [Media Foundation], GetBlobSize method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlobSize method, IMFAttributes.GetBlobSize, IMFAttributes::GetBlobSize, mf.imfattributes_getblobsize, mfobjects/IMFAttributes::GetBlobSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CalculatePopupWindowPosition, CalculatePopupWindowPosition function [Windows and Messages], TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_LEFTALIGN, TPM_RIGHTALIGN, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERTICAL, TPM_WORKAREA, _win32_CalculatePopupWindowPosition, _win32_calculatepopupwindowposition_cpp, winmsg.calculatepopupwindowposition, winui._win32_calculatepopupwindowposition, winuser/CalculatePopupWindowPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: fbe5872e-76af-4aa1-86ad-ed7c36fd6447
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRequestedSigner, GetRequestedSigner method [XPS Documents and Packaging], GetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestedSigner method, IXpsSignatureRequest.GetRequestedSigner, IXpsSignatureRequest::GetRequestedSigner, xps.ixpssignaturerequest_getrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::GetRequestedSigner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

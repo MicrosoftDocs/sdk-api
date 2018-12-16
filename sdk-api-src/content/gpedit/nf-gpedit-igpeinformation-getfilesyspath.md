@@ -9,8 +9,6 @@ ms.assetid: 6fcdc7f8-61bf-4d3e-b0aa-ff730d6730cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetFileSysPath method, IGPEInformation.GetFileSysPath, IGPEInformation::GetFileSysPath, _win32_igpeinformation_getfilesyspath, gpedit/IGPEInformation::GetFileSysPath, policy.igpeinformation_getfilesyspath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

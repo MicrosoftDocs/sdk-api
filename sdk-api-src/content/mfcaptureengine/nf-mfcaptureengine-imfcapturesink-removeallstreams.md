@@ -9,8 +9,6 @@ ms.assetid: 7E05D04F-BDE8-4053-A7C4-B74AC5FA76B7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method, IMFCaptureSink.RemoveAllStreams, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

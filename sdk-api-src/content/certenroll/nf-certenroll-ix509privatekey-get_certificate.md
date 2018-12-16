@@ -9,8 +9,6 @@ ms.assetid: 035615f1-2dc7-47d7-98e4-7b5b0924030f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Certificate property, IX509PrivateKey.Certificate, IX509PrivateKey.get_Certificate, IX509PrivateKey::Certificate, IX509PrivateKey::get_Certificate, IX509PrivateKey::put_Certificate, certenroll/IX509PrivateKey::Certificate, certenroll/IX509PrivateKey::get_Certificate, certenroll/IX509PrivateKey::put_Certificate, get_Certificate, security.ix509privatekey_certificate_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

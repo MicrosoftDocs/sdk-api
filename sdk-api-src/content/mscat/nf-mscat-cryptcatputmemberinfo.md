@@ -9,8 +9,6 @@ ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

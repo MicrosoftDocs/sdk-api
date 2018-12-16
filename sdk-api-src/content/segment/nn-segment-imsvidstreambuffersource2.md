@@ -9,8 +9,6 @@ ms.assetid: 47012868-4c9e-4974-8549-11331836bed0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSource2Interface, mstv.imsvidstreambuffersource2, segment/IMSVidStreamBufferSource2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

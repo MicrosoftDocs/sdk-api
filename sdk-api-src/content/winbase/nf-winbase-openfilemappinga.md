@@ -9,8 +9,6 @@ ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h, Memoryapi.h

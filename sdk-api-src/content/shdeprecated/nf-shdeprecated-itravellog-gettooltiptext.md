@@ -9,8 +9,6 @@ ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetToolTipText method, ITravelLog.GetToolTipText, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 55b78a98-ad25-4646-b325-73d770d602b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

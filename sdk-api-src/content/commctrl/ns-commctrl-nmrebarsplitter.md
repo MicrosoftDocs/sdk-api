@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarsplitter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMREBARSPLITTER, LPNMREBARSPLITTER, LPNMREBARSPLITTER structure pointer [Windows Controls], NMREBARSPLITTER, NMREBARSPLITTER structure [Windows Controls], _shell_NMREBARSPLITTER, _shell_NMREBARSPLITTER_cpp, commctrl/LPNMREBARSPLITTER, commctrl/NMREBARSPLITTER, controls.NMREBARSPLITTER, controls._shell_NMREBARSPLITTER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

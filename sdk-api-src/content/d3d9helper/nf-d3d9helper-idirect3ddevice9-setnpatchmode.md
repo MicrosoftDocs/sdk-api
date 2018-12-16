@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setnpatchmode.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetNPatchMode method, IDirect3DDevice9.SetNPatchMode, IDirect3DDevice9::SetNPatchMode, SetNPatchMode, SetNPatchMode method [Direct3D 9], SetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, a1559401-14f3-1ada-91cb-f26fd6d19851, d3d9helper/IDirect3DDevice9::SetNPatchMode, direct3d9.idirect3ddevice9__setnpatchmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

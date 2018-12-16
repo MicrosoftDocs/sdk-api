@@ -9,8 +9,6 @@ ms.assetid: 803a7831-1e3d-4940-8d2b-1a74dd16f51a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Windows Management Instrumentation], CancelAsyncCall method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CancelAsyncCall method, IWbemServices.CancelAsyncCall, IWbemServices::CancelAsyncCall, _hmm_iwbemservices_cancelasynccall, wbemcli/IWbemServices::CancelAsyncCall, wmi.iwbemservices_cancelasynccall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

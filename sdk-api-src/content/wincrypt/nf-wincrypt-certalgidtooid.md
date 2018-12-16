@@ -9,8 +9,6 @@ ms.assetid: 2a66c6da-22dd-4192-9f3d-2fb85f8032e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertAlgIdToOID, CertAlgIdToOID function [Security], _crypto2_certalgidtooid, security.certalgidtooid, wincrypt/CertAlgIdToOID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

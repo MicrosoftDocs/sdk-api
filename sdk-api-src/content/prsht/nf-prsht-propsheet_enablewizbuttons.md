@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_EnableWizButtons, PropSheet_EnableWizButtons macro [Windows Controls], _win32_PropSheet_EnableWizButtons, _win32_PropSheet_EnableWizButtons_cpp, controls.PropSheet_EnableWizButtons, controls._win32_PropSheet_EnableWizButtons, prsht/PropSheet_EnableWizButtons
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

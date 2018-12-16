@@ -9,8 +9,6 @@ ms.assetid: 1aa9585d-9001-4d94-babe-a39c8dde2332
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILE_STORAGE_INFO, FILE_STORAGE_INFO, FILE_STORAGE_INFO structure [Files], PFILE_STORAGE_INFO, PFILE_STORAGE_INFO structure pointer [Files], STORAGE_INFO_FLAGS_ALIGNED_DEVICE, STORAGE_INFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_STORAGE_INFO, fs.file_storage_info, winbase/FILE_STORAGE_INFO, winbase/PFILE_STORAGE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

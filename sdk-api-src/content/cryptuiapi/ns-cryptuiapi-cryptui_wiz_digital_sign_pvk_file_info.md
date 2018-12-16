@@ -9,8 +9,6 @@ ms.assetid: 0e737661-2cc3-47be-ab32-0efbc18fefbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security], PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, security.cryptui_wiz_digital_sign_pvk_file_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

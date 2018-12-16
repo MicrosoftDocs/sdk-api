@@ -9,8 +9,6 @@ ms.assetid: 0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

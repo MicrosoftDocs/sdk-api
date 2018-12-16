@@ -9,8 +9,6 @@ ms.assetid: 5511DD28-22B1-4006-A724-13C2C4A17E6C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetStringLength method, IDWriteStringList.GetStringLength, IDWriteStringList::GetStringLength, directwrite.idwritestringlist_getstringlength, dwrite_3/IDWriteStringList::GetStringLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

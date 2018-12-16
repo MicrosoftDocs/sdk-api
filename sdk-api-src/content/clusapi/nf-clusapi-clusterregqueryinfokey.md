@@ -9,8 +9,6 @@ ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

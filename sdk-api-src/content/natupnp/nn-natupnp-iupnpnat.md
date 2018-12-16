@@ -9,8 +9,6 @@ ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF],described, _ics_iupnpnat, ics.iupnpnat, natupnp/IUPnPNAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

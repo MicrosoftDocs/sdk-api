@@ -9,8 +9,6 @@ ms.assetid: e048a572-3a96-4610-9266-0e97b5a09778
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_DecimateInput method, IMSVidVideoRenderer.put_DecimateInput, IMSVidVideoRenderer::put_DecimateInput, IMSVidVideoRendererput_DecimateInput, mstv.imsvidvideorenderer_put_decimateinput, put_DecimateInput, put_DecimateInput method [Microsoft TV Technologies], put_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_DecimateInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

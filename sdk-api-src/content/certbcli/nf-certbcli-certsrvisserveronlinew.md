@@ -9,8 +9,6 @@ ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

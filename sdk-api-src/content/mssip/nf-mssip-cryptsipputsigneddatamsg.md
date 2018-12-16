@@ -9,8 +9,6 @@ ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

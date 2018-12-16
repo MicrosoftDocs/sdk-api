@@ -9,8 +9,6 @@ ms.assetid: 4c56bcea-c027-4607-8531-da971e43e763
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FilterVolumeInstanceFindClose, FilterVolumeInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_5cdcef76-2a6d-4d64-9af6-09b050073573.xml, fltuser/FilterVolumeInstanceFindClose, ifsk.filtervolumeinstancefindclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h

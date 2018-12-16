@@ -9,8 +9,6 @@ ms.assetid: 103776c8-1cdc-46a5-a2ce-54163726e602
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], IComTransaction2Events interface [COM+],described, _dtc_icomtransaction2events, comsvcs/IComTransaction2Events, cos.icomtransaction2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

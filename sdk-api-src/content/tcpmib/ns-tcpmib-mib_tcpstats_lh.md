@@ -9,8 +9,6 @@ ms.assetid: 08d85d02-62a0-479d-bf56-5dad452436f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_TCPSTATS, *PMIB_TCPSTATS_LH, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS_LH, MIB_TCPSTATS_W2K, MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _mpr_mib_tcpstats, iprtrmib/MIB_TCPSTATS, iprtrmib/PMIB_TCPSTATS, mib.mib_tcpstats, rras.mib_tcpstats, tcpmib/MIB_TCPSTATS, tcpmib/PMIB_TCPSTATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

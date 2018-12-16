@@ -9,8 +9,6 @@ ms.assetid: 6912cd69-76c2-4dae-bda3-42139acffe4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNodeTypes, GetNodeTypes method [Microsoft TV Technologies], GetNodeTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeTypes method, IBDA_Topology.GetNodeTypes, IBDA_Topology::GetNodeTypes, IBDA_TopologyGetNodeTypes, bdaiface/IBDA_Topology::GetNodeTypes, mstv.ibda_topology_getnodetypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

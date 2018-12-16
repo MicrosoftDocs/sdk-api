@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\interpolationmode.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterpolationMode, InterpolationMode enumeration [GDI+], InterpolationModeBicubic, InterpolationModeBilinear, InterpolationModeDefault, InterpolationModeHighQuality, InterpolationModeHighQualityBicubic, InterpolationModeHighQualityBilinear, InterpolationModeInvalid, InterpolationModeLowQuality, InterpolationModeNearestNeighbor, _gdiplus_ENUM_InterpolationMode, gdiplus._gdiplus_ENUM_InterpolationMode, gdiplusenums/InterpolationMode, gdiplusenums/InterpolationModeBicubic, gdiplusenums/InterpolationModeBilinear, gdiplusenums/InterpolationModeDefault, gdiplusenums/InterpolationModeHighQuality, gdiplusenums/InterpolationModeHighQualityBicubic, gdiplusenums/InterpolationModeHighQualityBilinear, gdiplusenums/InterpolationModeInvalid, gdiplusenums/InterpolationModeLowQuality, gdiplusenums/InterpolationModeNearestNeighbor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

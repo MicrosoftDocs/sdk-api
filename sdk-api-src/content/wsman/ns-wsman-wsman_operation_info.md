@@ -9,8 +9,6 @@ ms.assetid: a73029c6-d4e7-4cb3-ad0a-b71baffdbeb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remote Management], winrm.wsman_operation_info, wsman/WSMAN_OPERATION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\mul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Pen class, Pen class [GDI+],MultiplyTransform method, Pen.MultiplyTransform, Pen::MultiplyTransform, _gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

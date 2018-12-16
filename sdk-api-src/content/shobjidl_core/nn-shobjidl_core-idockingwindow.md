@@ -9,8 +9,6 @@ ms.assetid: 9e80fd5e-f57d-4801-b198-73b8f5ffff6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDockingWindow, IDockingWindow interface [Windows Shell], IDockingWindow interface [Windows Shell],described, _win32_IDockingWindow, shell.IDockingWindow, shobjidl_core/IDockingWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

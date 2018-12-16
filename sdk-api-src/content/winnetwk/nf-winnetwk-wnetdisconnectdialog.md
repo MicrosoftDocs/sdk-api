@@ -9,8 +9,6 @@ ms.assetid: 76e0f38a-e057-4496-9c2f-7ea73d19bd76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RESOURCETYPE_DISK, WNetDisconnectDialog, WNetDisconnectDialog function [Windows Networking (WNet)], _win32_wnetdisconnectdialog, winnetwk/WNetDisconnectDialog, wnet.wnetdisconnectdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

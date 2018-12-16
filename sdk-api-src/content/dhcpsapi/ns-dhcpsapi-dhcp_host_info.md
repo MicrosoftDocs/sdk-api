@@ -9,8 +9,6 @@ ms.assetid: 3d38f69d-2808-4e52-a3da-b6142578c981
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_HOST_INFO, DHCP_HOST_INFO, DHCP_HOST_INFO structure [DHCP], LPDHCP_HOST_INFO, LPDHCP_HOST_INFO structure pointer [DHCP], dhcp.dhcp_host_info, dhcpsapi/LPDHCP_HOST_INFO, dhcpsapi/_DHCP_HOST_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

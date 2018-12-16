@@ -9,8 +9,6 @@ ms.assetid: 362e4138-5ba0-4aba-bff3-bf0834d21059
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IInstallationProgressChangedCallbackArgs.Progress, IInstallationProgressChangedCallbackArgs.get_Progress, IInstallationProgressChangedCallbackArgs::Progress, IInstallationProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IInstallationProgressChangedCallbackArgs interface, get_Progress, wua.iinstallationprogresschangedcallbackargs_progress, wuapi/IInstallationProgressChangedCallbackArgs::Progress, wuapi/IInstallationProgressChangedCallbackArgs::get_Progress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

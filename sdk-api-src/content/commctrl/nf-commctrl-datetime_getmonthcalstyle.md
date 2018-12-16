@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Cluster], ResUtilStopService, ResUtilStopService function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE, resapi/ResUtilStopService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], IMFASFIndexer interface [Media Foundation],described, mf.imfasfindexer, wmcontainer/IMFASFIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

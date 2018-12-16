@@ -9,8 +9,6 @@ ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime method, IQueueCommand.InvokeAtPresentationTime, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

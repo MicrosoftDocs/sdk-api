@@ -9,8 +9,6 @@ ms.assetid: c649d25d-7971-4804-a5a2-3fd6860659b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSGetPropertyFromPropertyStorage, PSGetPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetPropertyFromPropertyStorage, properties.PSGetPropertyFromPropertyStorage, propsys/PSGetPropertyFromPropertyStorage, shell.PSGetPropertyFromPropertyStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

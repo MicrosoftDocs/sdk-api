@@ -9,8 +9,6 @@ ms.assetid: a4ece775-a49e-406b-8eae-264f978eb597
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO structure pointer, UNLOAD_DLL_DEBUG_INFO, UNLOAD_DLL_DEBUG_INFO structure, _UNLOAD_DLL_DEBUG_INFO, _win32_unload_dll_debug_info_str, base.unload_dll_debug_info_str, minwinbase/LPUNLOAD_DLL_DEBUG_INFO, minwinbase/UNLOAD_DLL_DEBUG_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

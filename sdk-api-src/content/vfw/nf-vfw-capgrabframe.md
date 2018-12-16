@@ -9,8 +9,6 @@ ms.assetid: bd306414-74a9-4683-ad63-797a37152e8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capGrabFrame, capGrabFrame, capGrabFrame macro [Windows Multimedia], multimedia.capgrabframe, vfw/capGrabFrame"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

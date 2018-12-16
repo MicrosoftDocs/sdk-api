@@ -9,8 +9,6 @@ ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabGetEndpointName, PeerCollabGetEndpointName function [Peer Networking], p2p.peercollabgetendpointname, p2p/PeerCollabGetEndpointName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

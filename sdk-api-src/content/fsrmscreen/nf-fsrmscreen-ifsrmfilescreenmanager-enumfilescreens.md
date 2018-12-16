@@ -9,8 +9,6 @@ ms.assetid: 5826d5c3-885a-4001-aa89-0bc1c03b9338
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumFileScreens, EnumFileScreens method [File Server Resource Manager], EnumFileScreens method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreens method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager.EnumFileScreens, IFsrmFileScreenManager::EnumFileScreens, fs.ifsrmfilescreenmanager_enumfilescreens, fsrm.ifsrmfilescreenmanager_enumfilescreens, fsrmscreen/IFsrmFileScreenManager::EnumFileScreens
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

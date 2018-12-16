@@ -9,8 +9,6 @@ ms.assetid: c6bc7d84-3e4d-41f9-8309-5817029477dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [DirectShow], DXVA_COPPStatusSignalingCmdDataStructure, _DXVA_COPPStatusSignalingCmdData, dshow.dxva_coppstatussignalingcmddata, dxva9typ/DXVA_COPPStatusSignalingCmdData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

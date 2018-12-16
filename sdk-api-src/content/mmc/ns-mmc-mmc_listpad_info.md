@@ -9,8 +9,6 @@ ms.assetid: 53e3cd8f-9d78-4edc-a0bb-3b409857561f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MMC_LISTPAD_INFO, MMC_LISTPAD_INFO structure [MMC], _slate_mmc_listpad_info, mmc.mmc_listpad_info, mmc/MMC_LISTPAD_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

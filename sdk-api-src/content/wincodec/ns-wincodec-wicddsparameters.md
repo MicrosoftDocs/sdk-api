@@ -9,8 +9,6 @@ ms.assetid: 2E5755B4-E8DC-40B2-8DA1-B053A261079B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Imaging Component], WICDdsParameters, WICDdsParameters structure [Windows Imaging Component], wic.wicddsparameters, wincodec/PWICDdsParameters, wincodec/WICDdsParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

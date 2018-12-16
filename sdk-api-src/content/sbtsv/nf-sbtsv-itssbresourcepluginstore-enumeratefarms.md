@@ -9,8 +9,6 @@ ms.assetid: 54ed82b2-531c-468b-a4d3-ad299ae1f2d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStore.EnumerateFarms, ITsSbResourcePluginStore::EnumerateFarms, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStoreEx::EnumerateFarms, sbtsv/ITsSbResourcePluginStore::EnumerateFarms, sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms, termserv.itssbresourcepluginstore_enumeratefarms
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

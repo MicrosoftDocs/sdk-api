@@ -9,8 +9,6 @@ ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, mscs.sr_resource_type_replicated_partition_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

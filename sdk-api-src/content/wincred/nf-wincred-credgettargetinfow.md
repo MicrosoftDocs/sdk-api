@@ -9,8 +9,6 @@ ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredGetTargetInfo, CredGetTargetInfo function [Security], CredGetTargetInfoA, CredGetTargetInfoW, _cred_credgettargetinfo, security.credgettargetinfo, wincred/CredGetTargetInfo, wincred/CredGetTargetInfoA, wincred/CredGetTargetInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

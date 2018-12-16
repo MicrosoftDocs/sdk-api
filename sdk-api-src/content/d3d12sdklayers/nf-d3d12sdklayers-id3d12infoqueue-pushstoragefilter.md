@@ -9,8 +9,6 @@ ms.assetid: F6443483-3983-44E0-B728-F5357966388A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,PushStorageFilter method, ID3D12InfoQueue.PushStorageFilter, ID3D12InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method, PushStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter, direct3d12.id3d12infoqueue_pushstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

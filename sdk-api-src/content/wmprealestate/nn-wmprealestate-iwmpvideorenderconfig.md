@@ -9,8 +9,6 @@ ms.assetid: 60318e68-89dd-4505-a703-3de4d5442236
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPVideoRenderConfig, IWMPVideoRenderConfig interface [Windows Media Player], IWMPVideoRenderConfig interface [Windows Media Player],described, IWMPVideoRenderConfigInterface, wmp.iwmpvideorenderconfig, wmprealestate/IWMPVideoRenderConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmprealestate.h
 req.include-header: 

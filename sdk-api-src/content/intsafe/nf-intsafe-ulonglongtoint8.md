@@ -9,8 +9,6 @@ ms.assetid: cdbb93f8-bce5-4358-9dbd-351898251d77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongLongToInt8, ULongLongToInt8 function [Windows Shell], intsafe/ULongLongToInt8, shell.ULongLongToInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

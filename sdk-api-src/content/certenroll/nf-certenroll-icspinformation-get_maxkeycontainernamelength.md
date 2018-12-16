@@ -9,8 +9,6 @@ ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspInformation interface [Security],MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation.get_MaxKeyContainerNameLength, ICspInformation::MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security],ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

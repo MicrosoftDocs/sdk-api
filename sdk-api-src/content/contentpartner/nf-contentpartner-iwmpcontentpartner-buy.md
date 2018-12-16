@@ -9,8 +9,6 @@ ms.assetid: a79c3d6e-b587-4bbc-b3bf-6489a54d71f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Buy method, IWMPContentPartner.Buy, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

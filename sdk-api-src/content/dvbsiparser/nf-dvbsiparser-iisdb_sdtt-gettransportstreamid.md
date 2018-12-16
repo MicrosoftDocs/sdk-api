@@ -9,8 +9,6 @@ ms.assetid: d73b705f-8409-438e-9f30-3bf2bbf86404
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTransportStreamId method, IISDB_SDTT.GetTransportStreamId, IISDB_SDTT::GetTransportStreamId, dvbsiparser/IISDB_SDTT::GetTransportStreamId, mstv.iisdb_sdtt_gettransportstreamid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,6 @@ ms.assetid: d1c82664-bcdf-439f-9a53-6c1222873086
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecMul, VarDecMul function [Automation], _oa96_VarDecMul, automat.vardecmul, oleauto/VarDecMul
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e70d6be0-858c-4042-bfaf-6a62bafa269c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multimedia], mmeapi/mixerGetID, multimedia.mixergetid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

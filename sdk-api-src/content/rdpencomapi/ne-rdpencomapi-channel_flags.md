@@ -9,8 +9,6 @@ ms.assetid: ca8a063a-81a0-44b8-8654-36a38a6f30ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHANNEL_FLAGS, CHANNEL_FLAGS enumeration [RDP], CHANNEL_FLAGS_LEGACY, CHANNEL_FLAGS_UNCOMPRESSED, rdp.channel_flags, rdpencomapi/CHANNEL_FLAGS, rdpencomapi/CHANNEL_FLAGS_LEGACY, rdpencomapi/CHANNEL_FLAGS_UNCOMPRESSED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

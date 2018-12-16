@@ -9,8 +9,6 @@ ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

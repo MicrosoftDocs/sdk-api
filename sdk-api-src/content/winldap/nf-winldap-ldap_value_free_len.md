@@ -9,8 +9,6 @@ ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0F1DBC1C-154A-4785-B9B9-924353FD5836
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform3D.SetMatrix, IDCompositionMatrixTransform3D::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrix, directcomp.idcompositionmatrixtransform3d_setmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

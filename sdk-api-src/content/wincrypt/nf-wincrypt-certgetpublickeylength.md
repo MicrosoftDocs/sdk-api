@@ -9,8 +9,6 @@ ms.assetid: e67923f4-cd1f-4952-88f1-92ee26423f87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security], _crypto2_certgetpublickeylength, security.certgetpublickeylength, wincrypt/CertGetPublicKeyLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

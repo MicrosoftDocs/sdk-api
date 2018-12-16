@@ -9,8 +9,6 @@ ms.assetid: adb2737f-5327-4306-bd57-f165f339f911
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCSetProviderInfo32, WSCSetProviderInfo32 function [Winsock], winsock.wscsetproviderinfo32, ws2spi/WSCSetProviderInfo32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

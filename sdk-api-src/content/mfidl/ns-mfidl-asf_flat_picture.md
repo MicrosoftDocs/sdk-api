@@ -9,8 +9,6 @@ ms.assetid: 2aa190bd-3431-4f37-bf2b-0801047793b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2aa190bd-3431-4f37-bf2b-0801047793b3, ASF_FLAT_PICTURE, ASF_FLAT_PICTURE structure [Media Foundation], mf.asf_flat_picture, mfidl/ASF_FLAT_PICTURE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

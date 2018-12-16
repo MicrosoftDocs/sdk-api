@@ -9,8 +9,6 @@ ms.assetid: 605629CB-9DBA-4130-B55D-957187551435
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginSubscribeToEvents, BeginSubscribeToEvents method [UPnP APIs], BeginSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSubscribeToEvents method, IUPnPServiceAsync.BeginSubscribeToEvents, IUPnPServiceAsync::BeginSubscribeToEvents, upnp.iupnpserviceasync_beginsubscribetoevents, upnp/IUPnPServiceAsync::BeginSubscribeToEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

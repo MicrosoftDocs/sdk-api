@@ -9,8 +9,6 @@ ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

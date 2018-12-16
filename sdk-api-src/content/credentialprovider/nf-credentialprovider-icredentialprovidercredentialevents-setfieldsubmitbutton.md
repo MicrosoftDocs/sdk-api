@@ -9,8 +9,6 @@ ms.assetid: a39d67d7-b34d-482b-bfe1-db1f9cdc8d30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldSubmitButton method, ICredentialProviderCredentialEvents.SetFieldSubmitButton, ICredentialProviderCredentialEvents::SetFieldSubmitButton, SetFieldSubmitButton, SetFieldSubmitButton method [Windows Shell], SetFieldSubmitButton method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldSubmitButton, credentialprovider/ICredentialProviderCredentialEvents::SetFieldSubmitButton, shell.ICredentialProviderCredentialEvents_SetFieldSubmitButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

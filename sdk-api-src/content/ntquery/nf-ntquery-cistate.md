@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_9syt.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

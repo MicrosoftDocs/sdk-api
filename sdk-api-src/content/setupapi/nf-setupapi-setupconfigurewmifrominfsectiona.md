@@ -9,8 +9,6 @@ ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

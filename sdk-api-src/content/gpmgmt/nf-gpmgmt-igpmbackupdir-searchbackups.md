@@ -9,8 +9,6 @@ ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

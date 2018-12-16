@@ -9,8 +9,6 @@ ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

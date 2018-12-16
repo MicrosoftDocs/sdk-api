@@ -9,8 +9,6 @@ ms.assetid: e508106c-a77a-476f-ba71-ea8f9a2d94d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Files], PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Files], _win32_format_ex_parameters_str, base.format_ex_parameters_str, fs.format_ex_parameters_str, winioctl/FORMAT_EX_PARAMETERS, winioctl/PFORMAT_EX_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

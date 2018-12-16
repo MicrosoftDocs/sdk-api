@@ -9,8 +9,6 @@ ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumMethodsWithName, EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodsWithName method, IMetaDataImport.EnumMethodsWithName, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

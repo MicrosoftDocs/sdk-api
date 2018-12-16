@@ -9,8 +9,6 @@ ms.assetid: 93c1591d-2c95-45cb-8fc5-5726e905f202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], ITfKeystrokeMgr interface [Text Services Framework],described, _tsf_itfkeystrokemgr_ref, msctf/ITfKeystrokeMgr, tsf.itfkeystrokemgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

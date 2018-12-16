@@ -9,8 +9,6 @@ ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

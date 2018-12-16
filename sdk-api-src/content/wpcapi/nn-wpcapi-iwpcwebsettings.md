@@ -9,8 +9,6 @@ ms.assetid: 80629db8-0040-4545-a313-5cf7aa3d7f8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWPCWebSettings, IWPCWebSettings interface, IWPCWebSettings interface,described, parcon.iwpcwebsettings, wpcapi/IWPCWebSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

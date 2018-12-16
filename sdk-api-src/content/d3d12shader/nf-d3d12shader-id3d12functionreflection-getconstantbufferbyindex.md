@@ -9,8 +9,6 @@ ms.assetid: 4B953072-DEF0-4A30-93A1-247B0C2CAFA3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method, GetConstantBufferByIndex method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByIndex method, ID3D12FunctionReflection.GetConstantBufferByIndex, ID3D12FunctionReflection::GetConstantBufferByIndex, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByIndex, direct3d12.id3d12functionreflection_getconstantbufferbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

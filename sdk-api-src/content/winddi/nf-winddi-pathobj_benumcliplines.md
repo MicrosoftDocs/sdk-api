@@ -9,8 +9,6 @@ ms.assetid: edc64b1e-dd3f-4b6a-858c-91c49a819b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PATHOBJ_bEnumClipLines, PATHOBJ_bEnumClipLines function [Display Devices], display.pathobj_benumcliplines, gdifncs_39da05f4-124b-4d0f-b33b-777220462aa7.xml, winddi/PATHOBJ_bEnumClipLines
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

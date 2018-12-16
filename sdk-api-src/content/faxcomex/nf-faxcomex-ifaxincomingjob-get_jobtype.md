@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_965h_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_JobType method, IFaxIncomingJob.get_JobType, IFaxIncomingJob::get_JobType, _mfax_faxincomingjob.jobtype_cpp, fax._mfax_faxincomingjob_jobtype_cpp, faxcomex/IFaxIncomingJob::get_JobType, get_JobType, get_JobType method [Fax Service], get_JobType method [Fax Service],IFaxIncomingJob interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

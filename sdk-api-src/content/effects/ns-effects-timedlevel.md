@@ -9,8 +9,6 @@ ms.assetid: a33d4cd1-e888-4ecd-9e6c-113febfefd99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TimedLevel, TimedLevel structure [Windows Media Player], effects/TimedLevel, typedefstructtagTimedLevel, wmp.timedlevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: effects.h
 req.include-header: 

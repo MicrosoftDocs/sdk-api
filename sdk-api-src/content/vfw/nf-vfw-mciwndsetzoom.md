@@ -9,8 +9,6 @@ ms.assetid: a9912c5c-2336-48a3-aca0-d0d434b9db08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndSetZoom, MCIWndSetZoom macro [Windows Multimedia], _win32_MCIWndSetZoom, multimedia.mciwndsetzoom, vfw/MCIWndSetZoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

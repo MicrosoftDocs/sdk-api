@@ -9,8 +9,6 @@ ms.assetid: 2be5ad91-2371-4564-a679-c593f497a785
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamTimeToSample, AVIStreamTimeToSample function [Windows Multimedia], _win32_AVIStreamTimeToSample, multimedia.avistreamtimetosample, vfw/AVIStreamTimeToSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

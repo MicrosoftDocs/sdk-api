@@ -9,8 +9,6 @@ ms.assetid: 51b8f3a8-bccc-4d1f-871f-9a319ed5c49c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_SA_DETAILS2, IKEEXT_SA_DETAILS2 structure [Filtering], fwp.ikeext_sa_details2, iketypes/IKEEXT_SA_DETAILS2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

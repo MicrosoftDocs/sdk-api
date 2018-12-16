@@ -9,8 +9,6 @@ ms.assetid: CC55CA33-A153-4B48-AA89-A28F010024F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmNetEventSubscribe2, FwpmNetEventSubscribe2 function [Filtering], fwp.fwpmneteventsubscribe2, fwpmu/FwpmNetEventSubscribe2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

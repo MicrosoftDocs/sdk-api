@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_22p9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRecipients interface [Fax Service],get__NewEnum method, IFaxRecipients.get__NewEnum, IFaxRecipients::get__NewEnum, _mfax_ifaxrecipients_get__newenum, fax._mfax_ifaxrecipients_get__newenum, faxcomex/IFaxRecipients::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxRecipients interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

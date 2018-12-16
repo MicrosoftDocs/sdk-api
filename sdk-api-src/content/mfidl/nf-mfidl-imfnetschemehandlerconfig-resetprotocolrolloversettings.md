@@ -9,8 +9,6 @@ ms.assetid: f2f792a4-811b-4eec-849b-bdd22774c4a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFNetSchemeHandlerConfig interface [Media Foundation],ResetProtocolRolloverSettings method, IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings, IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings, ResetProtocolRolloverSettings, ResetProtocolRolloverSettings method [Media Foundation], ResetProtocolRolloverSettings method [Media Foundation],IMFNetSchemeHandlerConfig interface, f2f792a4-811b-4eec-849b-bdd22774c4a8, mf.imfnetschemehandlerconfig_resetprotocolrolloversettings, mfidl/IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

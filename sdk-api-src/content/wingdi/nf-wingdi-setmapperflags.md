@@ -9,8 +9,6 @@ ms.assetid: 74cfe0d3-0d20-4382-8e76-55a6e2323308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMapperFlags, gdi.setmapperflags, wingdi/SetMapperFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

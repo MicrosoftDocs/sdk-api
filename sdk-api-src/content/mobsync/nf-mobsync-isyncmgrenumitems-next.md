@@ -9,8 +9,6 @@ ms.assetid: bb4ab08a-aa12-46f0-8c7d-82742b0b1538
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Next method, ISyncMgrEnumItems.Next, ISyncMgrEnumItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Next, shell.syncmgr_isyncmgrenumitems_next, syncmgr.isyncmgrenumitems_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

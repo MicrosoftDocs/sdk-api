@@ -9,8 +9,6 @@ ms.assetid: 35f799f6-99ce-41a4-9165-3bb614ea01d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDrawWindow, ICDrawWindow macro [Windows Multimedia], _win32_ICDrawWindow, multimedia.icdrawwindow, vfw/ICDrawWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

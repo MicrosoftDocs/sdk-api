@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preproce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess method, IMILBitmapEffectGroupImpl.Preprocess, IMILBitmapEffectGroupImpl::Preprocess, Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

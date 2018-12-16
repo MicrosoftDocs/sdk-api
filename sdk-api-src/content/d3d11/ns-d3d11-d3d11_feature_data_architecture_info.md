@@ -9,8 +9,6 @@ ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_ARCHITECTURE_INFO, D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO, direct3d11.d3d11_feature_data_architecture_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

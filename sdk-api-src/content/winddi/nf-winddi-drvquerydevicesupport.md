@@ -9,8 +9,6 @@ ms.assetid: 684c5dd5-edf0-4b7d-888c-c01eb9670846
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvQueryDeviceSupport, DrvQueryDeviceSupport function [Display Devices], ddifncs_21186d04-cf17-4707-88b4-bd72d5f78b23.xml, display.drvquerydevicesupport, winddi/DrvQueryDeviceSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

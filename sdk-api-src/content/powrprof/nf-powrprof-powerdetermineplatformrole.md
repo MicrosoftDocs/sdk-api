@@ -9,8 +9,6 @@ ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

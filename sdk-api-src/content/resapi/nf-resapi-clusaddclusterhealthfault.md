@@ -9,8 +9,6 @@ ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

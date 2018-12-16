@@ -9,8 +9,6 @@ ms.assetid: f42c5289-0896-4e2f-902e-9c6bdbf23b40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_Recorder method, IWriteEngine2.get_Recorder, IWriteEngine2::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_recorder, imapi2/IWriteEngine2::get_Recorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

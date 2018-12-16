@@ -9,8 +9,6 @@ ms.assetid: d7af4584-9c77-40cd-a83d-7b6fd3945b17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnEndCleanupContext method, ITfCleanupContextDurationSink.OnEndCleanupContext, ITfCleanupContextDurationSink::OnEndCleanupContext, OnEndCleanupContext, OnEndCleanupContext method [Text Services Framework], OnEndCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onendcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnEndCleanupContext, tsf.itfcleanupcontextdurationsink_onendcleanupcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

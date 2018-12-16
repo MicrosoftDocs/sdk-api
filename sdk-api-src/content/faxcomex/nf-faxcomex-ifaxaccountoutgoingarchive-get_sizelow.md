@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],SizeLow property, IFaxAccountOutgoingArchive.SizeLow, IFaxAccountOutgoingArchive.get_SizeLow, IFaxAccountOutgoingArchive::SizeLow, IFaxAccountOutgoingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxAccountOutgoingArchive interface, _mfax_faxaccountoutgoingarchive.sizelow, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizelow_cpp, fax._mfax_faxaccountoutgoingarchive_sizelow, faxcomex/IFaxAccountOutgoingArchive::SizeLow, faxcomex/IFaxAccountOutgoingArchive::get_SizeLow, get_SizeLow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

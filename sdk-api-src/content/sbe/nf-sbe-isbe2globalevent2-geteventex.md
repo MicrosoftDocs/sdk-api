@@ -9,8 +9,6 @@ ms.assetid: 44c30d8a-d62b-4e0f-8ff9-a4159df6d724
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventEx, GetEventEx method [Microsoft TV Technologies], GetEventEx method [Microsoft TV Technologies],ISBE2GlobalEvent2 interface, ISBE2GlobalEvent2 interface [Microsoft TV Technologies],GetEventEx method, ISBE2GlobalEvent2.GetEventEx, ISBE2GlobalEvent2::GetEventEx, mstv.isbe2globalevent2_geteventex, sbe/ISBE2GlobalEvent2::GetEventEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

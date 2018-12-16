@@ -9,8 +9,6 @@ ms.assetid: 6032cb18-4c4a-4cd7-905e-5cb390bfc37b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeCount method, IWMRegisteredDevice.GetAttributeCount, IWMRegisteredDevice::GetAttributeCount, IWMRegisteredDeviceGetAttributeCount, wmformat.iwmregistereddevice_getattributecount, wmsdkidl/IWMRegisteredDevice::GetAttributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

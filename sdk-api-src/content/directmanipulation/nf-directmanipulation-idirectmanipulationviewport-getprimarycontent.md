@@ -9,8 +9,6 @@ ms.assetid: 1aa70be3-9e95-4c35-8cca-45c1b238961e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrimaryContent, GetPrimaryContent method [Direct Manipulation], GetPrimaryContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetPrimaryContent method, IDirectManipulationViewport.GetPrimaryContent, IDirectManipulationViewport::GetPrimaryContent, directmanipulation.idirectmanipulationviewport_getprimarycontent, directmanipulation/IDirectManipulationViewport::GetPrimaryContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

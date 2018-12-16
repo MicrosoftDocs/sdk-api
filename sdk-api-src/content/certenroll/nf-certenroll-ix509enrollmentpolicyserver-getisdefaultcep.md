@@ -9,8 +9,6 @@ ms.assetid: 9c84993b-5d08-45c1-8139-458b047028aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetIsDefaultCEP method, IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d0f63b58-fe9c-4c2c-8e70-e7be88030417
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Reset method, IEnumITfCompositionView.Reset, IEnumITfCompositionView::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_reset_ref, msctf/IEnumITfCompositionView::Reset, tsf.ienumitfcompositionview_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

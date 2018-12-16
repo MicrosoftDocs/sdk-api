@@ -9,8 +9,6 @@ ms.assetid: 9ec630bc-bba1-4a44-b66d-404a5221abbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISubunit, ISubunit interface [Core Audio], ISubunit interface [Core Audio],described, coreaudio.isubunit, devicetopology/ISubunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

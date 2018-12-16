@@ -9,8 +9,6 @@ ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

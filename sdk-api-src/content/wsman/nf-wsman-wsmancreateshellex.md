@@ -9,8 +9,6 @@ ms.assetid: A339FC95-2235-4102-A0FC-7FB01132B7A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManCreateShellEx, WSManCreateShellEx function [Windows Remote Management], winrm.wsmancreateshellex, wsman/WSManCreateShellEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

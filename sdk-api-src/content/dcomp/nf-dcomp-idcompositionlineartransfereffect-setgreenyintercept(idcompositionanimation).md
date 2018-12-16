@@ -9,8 +9,6 @@ ms.assetid: 73631804-5749-4764-9335-42F04D6BCB62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

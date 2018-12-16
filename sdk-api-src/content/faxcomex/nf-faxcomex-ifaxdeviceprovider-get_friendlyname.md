@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_7t7p.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],FriendlyName property, IFaxDeviceProvider.FriendlyName, IFaxDeviceProvider.get_FriendlyName, IFaxDeviceProvider::FriendlyName, IFaxDeviceProvider::get_FriendlyName, _mfax_faxdeviceprovider.friendlyname, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp, fax._mfax_faxdeviceprovider_friendlyname, faxcomex/IFaxDeviceProvider::FriendlyName, faxcomex/IFaxDeviceProvider::get_FriendlyName, get_FriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

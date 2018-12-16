@@ -9,8 +9,6 @@ ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

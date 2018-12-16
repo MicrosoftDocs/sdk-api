@@ -9,8 +9,6 @@ ms.assetid: 622bdf51-d605-4eb9-a692-09be028bbff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCOMPPOS, COMPPOS, COMPPOS structure [Windows Shell], LPCOMPPOS, LPCOMPPOS structure pointer [Windows Shell], _tagCOMPPOS, _win32_COMPPOS, shell.COMPPOS, shlobj_core/COMPPOS, shlobj_core/LPCOMPPOS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

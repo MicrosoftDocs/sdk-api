@@ -9,8 +9,6 @@ ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

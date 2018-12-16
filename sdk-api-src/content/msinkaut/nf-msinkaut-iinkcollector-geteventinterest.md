@@ -9,8 +9,6 @@ ms.assetid: 532a798e-b434-4730-8c20-7ec60255f170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetEventInterest method, IInkCollector.GetEventInterest, IInkCollector::GetEventInterest, msinkaut/IInkCollector::GetEventInterest, tablet.inkcollector_geteventinterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

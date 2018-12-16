@@ -9,8 +9,6 @@ ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

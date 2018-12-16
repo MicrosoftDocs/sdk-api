@@ -9,8 +9,6 @@ ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_ENUM_TEMPLATE0, IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering], fwp.ipsec_sa_enum_template0_struct, ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

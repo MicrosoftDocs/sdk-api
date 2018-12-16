@@ -9,8 +9,6 @@ ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

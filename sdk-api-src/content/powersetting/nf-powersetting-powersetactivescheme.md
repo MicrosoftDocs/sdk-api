@@ -9,8 +9,6 @@ ms.assetid: e56bc3f4-2141-4be7-8479-12f8d59971af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerSetActiveScheme, PowerSetActiveScheme function, base.powersetactivescheme, powersetting/PowerSetActiveScheme, powrprof/PowerSetActiveScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d31024bf-7022-440b-8134-a02578510357
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

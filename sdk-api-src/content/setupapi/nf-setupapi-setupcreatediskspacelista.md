@@ -9,8 +9,6 @@ ms.assetid: a578ed9d-12b2-43f4-ab0a-183269de0d40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupCreateDiskSpaceList, SetupCreateDiskSpaceList function [Setup API], SetupCreateDiskSpaceListA, SetupCreateDiskSpaceListW, _setupapi_setupcreatediskspacelist, setup.setupcreatediskspacelist, setupapi/SetupCreateDiskSpaceList, setupapi/SetupCreateDiskSpaceListA, setupapi/SetupCreateDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

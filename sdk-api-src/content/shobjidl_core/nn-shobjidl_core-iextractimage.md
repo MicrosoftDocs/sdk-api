@@ -9,8 +9,6 @@ ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

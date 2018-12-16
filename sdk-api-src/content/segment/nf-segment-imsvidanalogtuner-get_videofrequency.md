@@ -9,8 +9,6 @@ ms.assetid: c6ed5c47-c2cb-4025-9b93-57db25b5cec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_VideoFrequency method, IMSVidAnalogTuner.get_VideoFrequency, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

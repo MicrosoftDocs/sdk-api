@@ -9,8 +9,6 @@ ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

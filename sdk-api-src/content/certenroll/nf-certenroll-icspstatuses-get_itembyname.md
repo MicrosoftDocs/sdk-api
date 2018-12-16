@@ -9,8 +9,6 @@ ms.assetid: c8b37240-33e6-4982-94f5-c0b937bdce45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

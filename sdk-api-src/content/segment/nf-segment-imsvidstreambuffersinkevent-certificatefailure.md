@@ -9,8 +9,6 @@ ms.assetid: 95745e17-2bf9-49a9-bbbf-2deab3fa1c86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technologies], CertificateFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateFailure method, IMSVidStreamBufferSinkEvent.CertificateFailure, IMSVidStreamBufferSinkEvent::CertificateFailure, IMSVidStreamBufferSinkEventCertificateFailure, mstv.imsvidstreambuffersinkevent_certificatefailure, segment/IMSVidStreamBufferSinkEvent::CertificateFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

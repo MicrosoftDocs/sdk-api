@@ -9,8 +9,6 @@ ms.assetid: 7854fb44-c397-4fd0-8a0e-ea293eba4f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAddress function [Web Services for Windows], webservices/WsGetMissingMetadataDocumentAddress, wsw.wsgetmissingmetadatadocumentaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

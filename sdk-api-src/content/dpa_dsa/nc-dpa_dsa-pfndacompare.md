@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNDACOMPARE, PFNDACOMPARE callback, PFNDACOMPARE callback function [Windows Controls], PFNDPACOMPARE, PFNDSACOMPARE, _shell_PFNDACOMPARE, _shell_PFNDACOMPARE_cpp, controls.PFNDACOMPARE, controls._shell_PFNDACOMPARE, dpa_dsa/PFNDACOMPARE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 

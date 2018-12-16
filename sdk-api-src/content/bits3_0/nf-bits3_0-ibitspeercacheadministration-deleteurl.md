@@ -9,8 +9,6 @@ ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

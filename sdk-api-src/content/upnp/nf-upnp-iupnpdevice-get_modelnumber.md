@@ -9,8 +9,6 @@ ms.assetid: 7e9b92a6-efad-41f0-b083-a2fed0f70c8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelNumber method, IUPnPDevice.get_ModelNumber, IUPnPDevice::get_ModelNumber, _upnp_iupnpdevice_modelnumber, get_ModelNumber, get_ModelNumber method [UPnP APIs], get_ModelNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelnumber, upnp/IUPnPDevice::get_ModelNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

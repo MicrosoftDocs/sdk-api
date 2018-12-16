@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2cdu.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument interface [Fax Service],Sender property, IFaxDocument.Sender, IFaxDocument.get_Sender, IFaxDocument::Sender, IFaxDocument::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxDocument interface, _mfax_faxdocument.sender, fax._mfax_faxdocument_cpp_mfax_faxdocument_sender_cpp, fax._mfax_faxdocument_sender, faxcomex/IFaxDocument::Sender, faxcomex/IFaxDocument::get_Sender, get_Sender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

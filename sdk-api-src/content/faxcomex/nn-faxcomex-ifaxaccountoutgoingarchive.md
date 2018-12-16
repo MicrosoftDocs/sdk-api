@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountOutgoingArchive, IFaxAccountOutgoingArchive interface [Fax Service], IFaxAccountOutgoingArchive interface [Fax Service],described, _mfax_faxaccountoutgoingarchive_cpp, fax._mfax_faxaccountoutgoingarchive_cpp, faxcomex/IFaxAccountOutgoingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

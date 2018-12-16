@@ -9,8 +9,6 @@ ms.assetid: 77d9a28c-dff9-4ccb-a0b8-9dc38fc66372
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDecompressQuery, ICDecompressQuery macro [Windows Multimedia], _win32_ICDecompressQuery, multimedia.icdecompressquery, vfw/ICDecompressQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

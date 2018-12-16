@@ -9,8 +9,6 @@ ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

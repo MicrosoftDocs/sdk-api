@@ -9,8 +9,6 @@ ms.assetid: 94b5f741-eceb-4ef9-8010-5033ce042018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOrdinal property, ICspStatuses.ItemByOrdinal, ICspStatuses.get_ItemByOrdinal, ICspStatuses::ItemByOrdinal, ICspStatuses::get_ItemByOrdinal, ItemByOrdinal property [Security], ItemByOrdinal property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOrdinal, certenroll/ICspStatuses::get_ItemByOrdinal, get_ItemByOrdinal, security.icspstatuses_itembyordinal_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

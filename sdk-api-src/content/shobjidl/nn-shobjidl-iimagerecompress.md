@@ -9,8 +9,6 @@ ms.assetid: 48e07bc4-da70-406b-8024-3fa36416247f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

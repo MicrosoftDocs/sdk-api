@@ -9,8 +9,6 @@ ms.assetid: 935ac6e9-78e0-42ae-a454-0a14b03ddc21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

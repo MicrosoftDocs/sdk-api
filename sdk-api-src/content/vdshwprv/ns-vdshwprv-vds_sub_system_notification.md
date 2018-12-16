@@ -9,8 +9,6 @@ ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

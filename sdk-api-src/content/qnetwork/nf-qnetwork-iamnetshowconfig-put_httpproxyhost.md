@@ -9,8 +9,6 @@ ms.assetid: 3cd37fd4-3ce0-4b5c-9e2f-88c0e1845b2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyHost method, IAMNetShowConfig.put_HTTPProxyHost, IAMNetShowConfig::put_HTTPProxyHost, IAMNetShowConfigput_HTTPProxyHost, dshow.iamnetshowconfig_put_httpproxyhost, put_HTTPProxyHost, put_HTTPProxyHost method [DirectShow], put_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

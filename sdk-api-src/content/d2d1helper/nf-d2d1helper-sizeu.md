@@ -9,8 +9,6 @@ ms.assetid: 147670e3-c451-401e-9e79-dacd7c33385d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeU, SizeU function [Direct2D], d2d1helper/SizeU, direct2d.sizeu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

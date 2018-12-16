@@ -9,8 +9,6 @@ ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

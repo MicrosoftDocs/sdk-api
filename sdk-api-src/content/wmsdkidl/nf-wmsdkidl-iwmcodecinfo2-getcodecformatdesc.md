@@ -9,8 +9,6 @@ ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecFormatDesc, GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecFormatDesc method, IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

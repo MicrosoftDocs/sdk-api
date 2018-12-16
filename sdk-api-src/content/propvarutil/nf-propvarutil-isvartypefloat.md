@@ -9,8 +9,6 @@ ms.assetid: ff233e26-c02b-47ca-958b-a5282b280ecd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVarTypeFloat, IsVarTypeFloat function [Windows Properties], _shell_IsVarTypeFloat, properties.IsVarTypeFloat, propvarutil/IsVarTypeFloat, shell.IsVarTypeFloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

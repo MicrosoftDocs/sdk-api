@@ -9,8 +9,6 @@ ms.assetid: 93EC7793-DAEF-4E1D-A9B8-2D79A3CBBBDC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDouble method, IPropertyValue.GetDouble, IPropertyValue.IPropertyValue, IPropertyValue::GetDouble, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontdeltasize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UI_FONTDELTASIZE, UI_FONTDELTASIZE enumeration [Windows Ribbon], UI_FONTDELTASIZE_GROW, UI_FONTDELTASIZE_SHRINK, scenicintent_UI_FONTDELTASIZE, uiribbon/UI_FONTDELTASIZE, uiribbon/UI_FONTDELTASIZE_GROW, uiribbon/UI_FONTDELTASIZE_SHRINK, windowsribbon.windowsribbon_ui_fontdeltasize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 

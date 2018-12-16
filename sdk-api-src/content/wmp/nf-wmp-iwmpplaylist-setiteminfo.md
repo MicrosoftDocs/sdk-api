@@ -9,8 +9,6 @@ ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

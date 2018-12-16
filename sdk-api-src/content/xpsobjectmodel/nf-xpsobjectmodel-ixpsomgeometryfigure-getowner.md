@@ -9,8 +9,6 @@ ms.assetid: 520e52ff-fb65-430f-972c-40ca2ab959b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetOwner method, IXpsOMGeometryFigure.GetOwner, IXpsOMGeometryFigure::GetOwner, xps.ixpsomgeometryfigure_getowner, xpsobjectmodel/IXpsOMGeometryFigure::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

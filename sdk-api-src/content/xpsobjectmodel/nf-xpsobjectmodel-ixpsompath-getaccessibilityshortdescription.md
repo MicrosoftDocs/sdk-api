@@ -9,8 +9,6 @@ ms.assetid: 0124d37a-74c1-4f8b-9d91-c12e92cd5e8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

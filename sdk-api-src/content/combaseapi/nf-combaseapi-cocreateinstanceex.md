@@ -9,8 +9,6 @@ ms.assetid: 3b414b95-e8d2-42e8-b4f2-5cc5189a3d08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoCreateInstanceEx, CoCreateInstanceEx function [COM], _com_CoCreateInstanceEx, com.cocreateinstanceex, combaseapi/CoCreateInstanceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

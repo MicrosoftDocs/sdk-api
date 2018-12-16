@@ -9,8 +9,6 @@ ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

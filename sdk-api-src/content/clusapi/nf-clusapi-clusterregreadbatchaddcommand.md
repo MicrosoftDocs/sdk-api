@@ -9,8 +9,6 @@ ms.assetid: 2B665231-7325-43C4-92A4-4EDF28126BA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

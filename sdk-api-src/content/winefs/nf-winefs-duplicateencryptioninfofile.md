@@ -9,8 +9,6 @@ ms.assetid: c830ae98-3649-4981-9369-7d4cb019b50f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEncryptionInfoFile function [Files], _win32_duplicateencryptioninfofile, base.duplicateencryptioninfofile, fs.duplicateencryptioninfofile, winefs/DuplicateEncryptionInfoFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

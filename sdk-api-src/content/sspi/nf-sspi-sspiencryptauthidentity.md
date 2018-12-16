@@ -9,8 +9,6 @@ ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

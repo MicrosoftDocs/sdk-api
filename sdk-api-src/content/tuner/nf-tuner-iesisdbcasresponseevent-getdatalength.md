@@ -9,8 +9,6 @@ ms.assetid: dc625c6f-84e8-4a82-b53c-717b33c10d04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDataLength, GetDataLength method [DirectShow], GetDataLength method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetDataLength method, IESIsdbCasResponseEvent.GetDataLength, IESIsdbCasResponseEvent::GetDataLength, mstv.iesisdbcasresponseevent_getdatalength, tuner/IESIsdbCasResponseEvent::GetDataLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

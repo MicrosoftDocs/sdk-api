@@ -9,8 +9,6 @@ ms.assetid: e9d237fc-c651-4e94-83cc-8606fe4b2386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Next method, IEnumSyncChangeUnits.Next, IEnumSyncChangeUnits::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

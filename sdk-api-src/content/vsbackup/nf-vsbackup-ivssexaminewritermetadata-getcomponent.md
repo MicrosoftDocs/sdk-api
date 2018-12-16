@@ -9,8 +9,6 @@ ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

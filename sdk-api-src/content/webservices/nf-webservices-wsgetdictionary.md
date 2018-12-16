@@ -9,8 +9,6 @@ ms.assetid: 85736dc0-671b-463f-b7ba-458cdd9001fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetDictionary, WsGetDictionary function [Web Services for Windows], webservices/WsGetDictionary, wsw.wsgetdictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

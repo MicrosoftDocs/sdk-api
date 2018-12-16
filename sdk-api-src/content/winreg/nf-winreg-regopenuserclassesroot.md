@@ -9,8 +9,6 @@ ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

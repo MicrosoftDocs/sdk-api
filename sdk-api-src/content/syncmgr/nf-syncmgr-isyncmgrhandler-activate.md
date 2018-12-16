@@ -9,8 +9,6 @@ ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

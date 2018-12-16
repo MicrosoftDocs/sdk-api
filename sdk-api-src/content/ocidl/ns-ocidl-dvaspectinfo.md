@@ -9,8 +9,6 @@ ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

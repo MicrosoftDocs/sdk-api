@@ -9,8 +9,6 @@ ms.assetid: 97334ced-315d-49db-9c7b-b05ef387f6c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY_CONSTRAINT, WS_SECURITY_BINDING_PROPERTY_CONSTRAINT structure [Web Services for Windows], webservices/WS_SECURITY_BINDING_PROPERTY_CONSTRAINT, wsw.ws_security_binding_property_constraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

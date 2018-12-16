@@ -9,8 +9,6 @@ ms.assetid: 970dcd4a-ac06-4e2d-969c-82c5dabd0019
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],ClearFlags method, IVdsVolume.ClearFlags, IVdsVolume::ClearFlags, base.ivdsvolume_clearflags, vds/IVdsVolume::ClearFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

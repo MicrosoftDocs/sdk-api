@@ -9,8 +9,6 @@ ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

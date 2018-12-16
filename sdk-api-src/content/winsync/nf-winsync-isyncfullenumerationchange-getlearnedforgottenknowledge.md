@@ -9,8 +9,6 @@ ms.assetid: 958bca82-67a7-401f-a9d3-a17f60496cba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncFullEnumerationChange.GetLearnedForgottenKnowledge, ISyncFullEnumerationChange::GetLearnedForgottenKnowledge, winsync.isyncfullenumerationchange_getlearnedforgottenknowledge, winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

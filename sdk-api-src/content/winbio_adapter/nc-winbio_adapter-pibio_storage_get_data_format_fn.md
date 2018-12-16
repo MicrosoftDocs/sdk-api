@@ -9,8 +9,6 @@ ms.assetid: e5bf31aa-59d7-410a-bb11-fe4af36fa409
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_GET_DATA_FORMAT_FN, PIBIO_STORAGE_GET_DATA_FORMAT_FN callback, StorageAdapterGetDataFormat, StorageAdapterGetDataFormat callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdataformat, winbio_adapter/StorageAdapterGetDataFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

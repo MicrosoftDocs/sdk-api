@@ -9,8 +9,6 @@ ms.assetid: c0047144-5f99-4acd-ad96-054afcbe6eb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],LatestOutputLocation property, IDataCollectorSet.LatestOutputLocation, IDataCollectorSet.put_LatestOutputLocation, IDataCollectorSet::LatestOutputLocation, IDataCollectorSet::get_LatestOutputLocation, IDataCollectorSet::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_latestoutputlocation, pla.idatacollectorset_get_latestoutputlocation, pla/IDataCollectorSet::LatestOutputLocation, pla/IDataCollectorSet::get_LatestOutputLocation, pla/IDataCollectorSet::put_LatestOutputLocation, put_LatestOutputLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

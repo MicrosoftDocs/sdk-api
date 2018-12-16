@@ -9,8 +9,6 @@ ms.assetid: 36cc9037-480f-491f-a9bb-5aa1e707781e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLSIDFromString, CLSIDFromString function [COM], _com_CLSIDFromString, com.clsidfromstring, combaseapi/CLSIDFromString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

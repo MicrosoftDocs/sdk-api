@@ -9,8 +9,6 @@ ms.assetid: 4568b50f-a777-4c3d-8c71-66737d24b7cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescriptor method, IToc.GetDescriptor, IToc::GetDescriptor, codecapi.itoc_getdescriptor, mf.itoc_getdescriptor, wmcodecdsp/IToc::GetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

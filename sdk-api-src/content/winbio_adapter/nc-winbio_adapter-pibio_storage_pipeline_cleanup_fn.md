@@ -9,8 +9,6 @@ ms.assetid: 4F75BCE0-173F-48F3-B4DD-A6AE1AFD4EA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_PIPELINE_CLEANUP_FN, PIBIO_STORAGE_PIPELINE_CLEANUP_FN callback, StorageAdapterPipelineCleanup, StorageAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelinecleanup, winbio_adapter/StorageAdapterPipelineCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

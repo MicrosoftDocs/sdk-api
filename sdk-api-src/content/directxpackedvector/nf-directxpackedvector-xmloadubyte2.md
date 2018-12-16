@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByte2(const XMUBYTE2)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByte2, XMLoadUByte2, XMLoadUByte2 method [DirectX Math Support APIs], dxmath.xmloadubyte2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

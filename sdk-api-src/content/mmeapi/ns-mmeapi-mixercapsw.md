@@ -9,8 +9,6 @@ ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMIXERCAPSW, *PMIXERCAPSW, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], MIXERCAPSW, _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

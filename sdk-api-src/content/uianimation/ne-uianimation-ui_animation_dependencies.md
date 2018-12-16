@@ -9,8 +9,6 @@ ms.assetid: 3620723e-5c9b-4d6a-8576-9017fa449a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UI_ANIMATION_DEPENDENCIES, UI_ANIMATION_DEPENDENCIES enumeration [Windows Animation], UI_ANIMATION_DEPENDENCY_DURATION, UI_ANIMATION_DEPENDENCY_FINAL_VALUE, UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY, UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES, UI_ANIMATION_DEPENDENCY_NONE, uianimation.ui_animation_dependencies, uianimation/UI_ANIMATION_DEPENDENCIES, uianimation/UI_ANIMATION_DEPENDENCY_DURATION, uianimation/UI_ANIMATION_DEPENDENCY_FINAL_VALUE, uianimation/UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY, uianimation/UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES, uianimation/UI_ANIMATION_DEPENDENCY_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

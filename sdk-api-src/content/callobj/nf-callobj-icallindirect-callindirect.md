@@ -9,8 +9,6 @@ ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

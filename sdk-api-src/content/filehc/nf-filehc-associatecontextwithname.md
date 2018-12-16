@@ -9,8 +9,6 @@ ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

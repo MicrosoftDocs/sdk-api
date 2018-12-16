@@ -9,8 +9,6 @@ ms.assetid: 48527950-A29D-4BC0-AD85-7B40E9C19133
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportTftpManager interface [Windows Deployment Services],RetrieveTftpClients method, IWdsTransportTftpManager.RetrieveTftpClients, IWdsTransportTftpManager::RetrieveTftpClients, RetrieveTftpClients, RetrieveTftpClients method [Windows Deployment Services], RetrieveTftpClients method [Windows Deployment Services],IWdsTransportTftpManager interface, wds.iwdstransporttftpclient_retrievetftpclients, wdstptmgmt/IWdsTransportTftpManager::RetrieveTftpClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

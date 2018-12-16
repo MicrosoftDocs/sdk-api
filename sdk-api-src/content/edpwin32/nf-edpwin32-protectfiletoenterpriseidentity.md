@@ -9,8 +9,6 @@ ms.assetid: 91993A9E-AC1D-4F3E-BCFC-9DE79F1C2C8D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentity, ProtectFileToEnterpriseIdentity function, edpwin32/ProtectFileToEnterpriseIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: edpwin32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 124f05bc-6c3f-4778-9cc0-5a55891cb141
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Files], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Files], fs.device_write_aggregation_descriptor, winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, winioctl/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

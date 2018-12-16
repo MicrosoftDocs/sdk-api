@@ -9,8 +9,6 @@ ms.assetid: 5f9b479f-974f-4fad-87ea-7335d4d5d2e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUInt32, GetUInt32 method [Windows Shell], GetUInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetUInt32 method, IShellItem2.GetUInt32, IShellItem2::GetUInt32, _shell_IShellItem2_GetUInt32, shell.IShellItem2_GetUInt32, shobjidl_core/IShellItem2::GetUInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

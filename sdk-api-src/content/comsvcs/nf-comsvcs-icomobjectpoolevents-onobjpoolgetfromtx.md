@@ -9,8 +9,6 @@ ms.assetid: 977ab640-a9d5-47f5-ad47-ad2e1648fd6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolGetFromTx method, IComObjectPoolEvents.OnObjPoolGetFromTx, IComObjectPoolEvents::OnObjPoolGetFromTx, OnObjPoolGetFromTx, OnObjPoolGetFromTx method [COM+], OnObjPoolGetFromTx method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolGetFromTx, comsvcs/IComObjectPoolEvents::OnObjPoolGetFromTx, cos.icomobjectpoolevents_onobjpoolgetfromtx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

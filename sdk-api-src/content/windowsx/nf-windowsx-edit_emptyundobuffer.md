@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_EmptyUndoBuffer, Edit_EmptyUndoBuffer macro [Windows Controls], _win32_Edit_EmptyUndoBuffer, _win32_Edit_EmptyUndoBuffer_cpp, controls.Edit_EmptyUndoBuffer, controls._win32_Edit_EmptyUndoBuffer, windowsx/Edit_EmptyUndoBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

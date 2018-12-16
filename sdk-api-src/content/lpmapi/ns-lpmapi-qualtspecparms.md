@@ -9,8 +9,6 @@ ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

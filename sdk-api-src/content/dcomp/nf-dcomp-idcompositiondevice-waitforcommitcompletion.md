@@ -9,8 +9,6 @@ ms.assetid: C921AC68-492C-4E29-876C-8857D5475B1D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionDevice interface [DirectComposition],WaitForCommitCompletion method, IDCompositionDevice.WaitForCommitCompletion, IDCompositionDevice::WaitForCommitCompletion, WaitForCommitCompletion, WaitForCommitCompletion method [DirectComposition], WaitForCommitCompletion method [DirectComposition],IDCompositionDevice interface, dcomp/IDCompositionDevice::WaitForCommitCompletion, directcomp.idcompositiondevice_waitforcommitcompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

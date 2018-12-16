@@ -9,8 +9,6 @@ ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

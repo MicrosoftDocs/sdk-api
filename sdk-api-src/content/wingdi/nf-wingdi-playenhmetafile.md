@@ -9,8 +9,6 @@ ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

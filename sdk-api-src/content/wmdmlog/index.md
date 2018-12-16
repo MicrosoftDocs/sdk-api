@@ -2,7 +2,7 @@
 UID: NA:wmdmlog
 ms.assetid: 768ad17d-dd13-3c63-9a41-66550e0f3b5e
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

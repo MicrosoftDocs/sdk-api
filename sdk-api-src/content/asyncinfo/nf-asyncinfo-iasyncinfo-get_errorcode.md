@@ -9,8 +9,6 @@ ms.assetid: 1de13cb9-3f1f-44b5-984f-8e7ccb31cec9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],ErrorCode property, IAsyncInfo.ErrorCode, IAsyncInfo.get_ErrorCode, IAsyncInfo::ErrorCode, IAsyncInfo::get_ErrorCode, asyncinfo/IAsyncInfo::ErrorCode, asyncinfo/IAsyncInfo::get_ErrorCode, get_ErrorCode, winrt.iasyncinfo_errorcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 

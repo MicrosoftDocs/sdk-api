@@ -9,8 +9,6 @@ ms.assetid: 9f233e3b-6905-4b6b-84b4-202076d224f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE enumeration [NativeWIFI], nwifi.wlan_adhoc_network_state, wlan_adhoc_network_state_connected, wlan_adhoc_network_state_formed, wlanapi/WLAN_ADHOC_NETWORK_STATE, wlanapi/wlan_adhoc_network_state_connected, wlanapi/wlan_adhoc_network_state_formed"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 

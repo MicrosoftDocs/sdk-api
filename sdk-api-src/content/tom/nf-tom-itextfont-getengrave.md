@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEngrave, GetEngrave method [Windows Controls], GetEngrave method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetEngrave method, ITextFont.GetEngrave, ITextFont::GetEngrave, _win32_ITextFont_GetEngrave, _win32_ITextFont_GetEngrave_cpp, controls.ITextFont_GetEngrave, controls._win32_ITextFont_GetEngrave, tom/ITextFont::GetEngrave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

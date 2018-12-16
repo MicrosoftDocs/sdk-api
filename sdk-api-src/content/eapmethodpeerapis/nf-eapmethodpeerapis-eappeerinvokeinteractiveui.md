@@ -9,8 +9,6 @@ ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EAPHost], eaphost.eappeerinvokeinteractiveui, eapmethodpeerapis/EapPeerInvokeInteractiveUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

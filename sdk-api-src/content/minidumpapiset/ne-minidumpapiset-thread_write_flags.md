@@ -9,8 +9,6 @@ ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: THREAD_WRITE_FLAGS, THREAD_WRITE_FLAGS enumeration, ThreadWriteBackingStore, ThreadWriteContext, ThreadWriteInstructionWindow, ThreadWriteStack, ThreadWriteThread, ThreadWriteThreadData, ThreadWriteThreadInfo, _win32_thread_write_flags, base.thread_write_flags, minidumpapiset/THREAD_WRITE_FLAGS, minidumpapiset/ThreadWriteBackingStore, minidumpapiset/ThreadWriteContext, minidumpapiset/ThreadWriteInstructionWindow, minidumpapiset/ThreadWriteStack, minidumpapiset/ThreadWriteThread, minidumpapiset/ThreadWriteThreadData, minidumpapiset/ThreadWriteThreadInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

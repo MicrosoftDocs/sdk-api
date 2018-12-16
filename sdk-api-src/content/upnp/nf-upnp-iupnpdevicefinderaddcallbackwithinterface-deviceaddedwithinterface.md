@@ -9,8 +9,6 @@ ms.assetid: c7cd47e8-264b-4d1a-aed3-daf5801c240c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceAddedWithInterface, DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs],IUPnPDeviceFinderAddCallbackWithInterface interface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1218d928-ca3f-4bdc-9a00-ea4c214175a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetContextToken, CoGetContextToken function [COM], _com_CoGetContextToken, com.cogetcontexttoken, combaseapi/CoGetContextToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

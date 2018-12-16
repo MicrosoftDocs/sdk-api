@@ -9,8 +9,6 @@ ms.assetid: 282de8b1-67ce-42e3-9f17-dbd29374d910
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIAccessiblePair, GetIAccessiblePair method [Windows Accessibility], GetIAccessiblePair method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetIAccessiblePair method, IAccessibleEx.GetIAccessiblePair, IAccessibleEx::GetIAccessiblePair, uiauto.uiauto_IAccessibleEx_GetIAccessiblePair, uiauto_IAccessibleEx_GetIAccessiblePair, uiautomationcore/IAccessibleEx::GetIAccessiblePair, winauto.uiauto_IAccessibleEx_GetIAccessiblePair
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

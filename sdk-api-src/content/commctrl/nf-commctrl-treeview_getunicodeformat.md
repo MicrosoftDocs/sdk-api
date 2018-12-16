@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows Controls], _win32_TreeView_GetUnicodeFormat, _win32_TreeView_GetUnicodeFormat_cpp, commctrl/TreeView_GetUnicodeFormat, controls.TreeView_GetUnicodeFormat, controls._win32_TreeView_GetUnicodeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPOFNOTIFYA, LPOFNOTIFY, LPOFNOTIFY structure pointer [Dialog Boxes], OFNOTIFY, OFNOTIFY structure [Dialog Boxes], OFNOTIFYA, OFNOTIFYW, _win32_OFNOTIFY_str, _win32_ofnotify_str_cpp, commdlg/LPOFNOTIFY, commdlg/OFNOTIFY, commdlg/OFNOTIFYA, commdlg/OFNOTIFYW, dlgbox.ofnotify_str, winui._win32_ofnotify_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

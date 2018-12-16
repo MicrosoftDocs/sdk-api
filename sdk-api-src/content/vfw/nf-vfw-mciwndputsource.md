@@ -9,8 +9,6 @@ ms.assetid: a55e72e3-47af-4846-a20d-5f0176127459
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32_MCIWndPutSource, multimedia.mciwndputsource, vfw/MCIWndPutSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

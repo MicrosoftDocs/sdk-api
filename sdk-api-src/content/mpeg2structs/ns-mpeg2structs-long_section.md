@@ -9,8 +9,6 @@ ms.assetid: 1403971f-5165-484c-9aa3-0cd489985545
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLONG_SECTION, LONG_SECTION, LONG_SECTION structure [Microsoft TV Technologies], PLONG_SECTION, PLONG_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/LONG_SECTION, mpeg2structs/PLONG_SECTION, mstv.long_section"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

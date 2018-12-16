@@ -9,8 +9,6 @@ ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], ISharedPropertyGroupManager interface [COM+],described, _cos_ISharedPropertyGroupManager, comsvcs/ISharedPropertyGroupManager, cos.isharedpropertygroupmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

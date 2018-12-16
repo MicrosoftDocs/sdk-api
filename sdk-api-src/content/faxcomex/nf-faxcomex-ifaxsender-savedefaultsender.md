@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6uuq.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSender interface [Fax Service],SaveDefaultSender method, IFaxSender.SaveDefaultSender, IFaxSender::SaveDefaultSender, SaveDefaultSender, SaveDefaultSender method [Fax Service], SaveDefaultSender method [Fax Service],IFaxSender interface, _mfax_faxsender.savedefaultsender, fax._mfax_faxsender_cpp_mfax_faxsender_savedefaultsender_cpp, fax._mfax_faxsender_savedefaultsender, faxcomex/IFaxSender::SaveDefaultSender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

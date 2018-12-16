@@ -9,8 +9,6 @@ ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

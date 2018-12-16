@@ -9,8 +9,6 @@ ms.assetid: 5b52eae6-4a72-4935-8a82-6e7747ce942e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NTEVENTLOGPROPERTIES, NTEVENTLOGPROPERTIES enumeration [Network Policy Server], PROPERTY_EVENTLOG_LOG_APPLICATION_EVENTS, PROPERTY_EVENTLOG_LOG_DEBUG, PROPERTY_EVENTLOG_LOG_MALFORMED, _sdo_nteventlogproperties, nps.SDO_nteventlogproperties, sdo.nteventlogproperties, sdoias/NTEVENTLOGPROPERTIES, sdoias/PROPERTY_EVENTLOG_LOG_APPLICATION_EVENTS, sdoias/PROPERTY_EVENTLOG_LOG_DEBUG, sdoias/PROPERTY_EVENTLOG_LOG_MALFORMED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

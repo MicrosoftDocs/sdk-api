@@ -9,8 +9,6 @@ ms.assetid: 96559f8c-8527-4924-928e-f27049069407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegSetUSValue, SHRegSetUSValue function [Windows Shell], SHRegSetUSValueA, SHRegSetUSValueW, _win32_SHRegSetUSValue, shell.SHRegSetUSValue, shlwapi/SHRegSetUSValue, shlwapi/SHRegSetUSValueA, shlwapi/SHRegSetUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

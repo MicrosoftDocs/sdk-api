@@ -9,8 +9,6 @@ ms.assetid: 4dd25033-e63a-4fa9-89b9-bfcae4061a76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

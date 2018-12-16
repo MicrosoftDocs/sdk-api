@@ -9,8 +9,6 @@ ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aux_ulib.h
 req.include-header: 

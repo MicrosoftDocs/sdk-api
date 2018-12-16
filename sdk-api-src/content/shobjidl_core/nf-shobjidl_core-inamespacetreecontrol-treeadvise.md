@@ -9,8 +9,6 @@ ms.assetid: d59b9772-7061-4ea5-964a-75deb293b407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeAdvise method, INameSpaceTreeControl.TreeAdvise, INameSpaceTreeControl::TreeAdvise, TreeAdvise, TreeAdvise method [Windows Shell], TreeAdvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeAdvise, shell.INameSpaceTreeControl_TreeAdvise, shobjidl_core/INameSpaceTreeControl::TreeAdvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

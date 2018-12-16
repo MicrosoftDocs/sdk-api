@@ -9,8 +9,6 @@ ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePackageReader, CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageReader method, IAppxFactory.CreatePackageReader, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

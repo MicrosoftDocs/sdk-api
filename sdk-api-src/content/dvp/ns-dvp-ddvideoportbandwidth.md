@@ -9,8 +9,6 @@ ms.assetid: 3e13874d-294e-4161-8131-f78799b2e90e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH structure [Display Devices], ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml, display.ddvideoportbandwidth, dvp/DDVIDEOPORTBANDWIDTH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h

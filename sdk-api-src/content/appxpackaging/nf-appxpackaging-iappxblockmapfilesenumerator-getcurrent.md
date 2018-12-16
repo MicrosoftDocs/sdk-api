@@ -9,8 +9,6 @@ ms.assetid: 6911EBF6-6D0A-4BA5-AD88-3F173141FA5B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

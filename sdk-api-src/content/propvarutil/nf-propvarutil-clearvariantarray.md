@@ -9,8 +9,6 @@ ms.assetid: 8126392e-d86c-420c-9f0d-ca7cb97030b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearVariantArray, ClearVariantArray function [Windows Properties], _shell_ClearVariantArray, properties.ClearVariantArray, propvarutil/ClearVariantArray, shell.ClearVariantArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

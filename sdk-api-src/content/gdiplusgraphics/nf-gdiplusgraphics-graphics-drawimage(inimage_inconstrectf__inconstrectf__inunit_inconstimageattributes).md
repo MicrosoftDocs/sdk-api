@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const RectF &,IN const RectF &,IN Unit,IN const ImageAttributes), Graphics.DrawImage(Image*,RectF&,RectF&,Unit,ImageAttributes*), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const RectF &,IN const RectF &,IN Unit,IN const ImageAttributes), _gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_destRect_RectF_sourceRect_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_destRect_RectF_sourceRect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

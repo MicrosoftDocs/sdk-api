@@ -9,8 +9,6 @@ ms.assetid: 1427DEB0-2B15-4DC5-AD0B-D4F9BA12CB2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows Controls], commctrl/Edit_GetFileLineFromChar, controls.edit_getfilelinefromchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

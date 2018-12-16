@@ -9,8 +9,6 @@ ms.assetid: 482906b2-131e-4baa-8ed7-c11f79f05e4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 482906b2-131e-4baa-8ed7-c11f79f05e4b, Add, Add method [Tablet PC], Add method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Add method, IInkCustomStrokes.Add, IInkCustomStrokes::Add, msinkaut/IInkCustomStrokes::Add, tablet.iinkcustomstrokes_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

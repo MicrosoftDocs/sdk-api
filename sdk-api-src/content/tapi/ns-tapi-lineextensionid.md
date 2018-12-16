@@ -9,8 +9,6 @@ ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TAPI 2.2], LPLINEEXTENSIONID, LPLINEEXTENSIONID structure pointer [TAPI 2.2], _tapi2_lineextensionid_str, tapi/LINEEXTENSIONID, tapi/LPLINEEXTENSIONID, tapi2.lineextensionid_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

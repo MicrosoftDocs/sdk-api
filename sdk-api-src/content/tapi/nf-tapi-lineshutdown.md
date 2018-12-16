@@ -9,8 +9,6 @@ ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

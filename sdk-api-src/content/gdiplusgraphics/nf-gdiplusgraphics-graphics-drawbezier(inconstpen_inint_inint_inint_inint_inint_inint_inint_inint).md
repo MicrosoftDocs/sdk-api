@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Graphics class, Graphics class [GDI+],DrawBezier method, Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), Graphics.DrawBezier(const Pen*,INT,INT,INT,INT,INT,INT,INT,INT), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

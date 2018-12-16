@@ -9,8 +9,6 @@ ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

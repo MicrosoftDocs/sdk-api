@@ -9,8 +9,6 @@ ms.assetid: 172636d5-c375-4552-97a8-d874b6aa4843
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMPage.GetIsHyperlinkTarget, IXpsOMPage::GetIsHyperlinkTarget, xps.ixpsompage_getishyperlinktarget, xpsobjectmodel/IXpsOMPage::GetIsHyperlinkTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

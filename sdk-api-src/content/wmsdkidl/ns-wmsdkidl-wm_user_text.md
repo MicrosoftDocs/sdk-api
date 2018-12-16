@@ -9,8 +9,6 @@ ms.assetid: 49a8faf1-2af4-4c47-bbac-d8745c0f60a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], wmformat.wm_user_text, wmsdkidl/WM_USER_TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

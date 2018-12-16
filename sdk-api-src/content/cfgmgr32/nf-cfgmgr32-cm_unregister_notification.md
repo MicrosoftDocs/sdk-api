@@ -9,8 +9,6 @@ ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

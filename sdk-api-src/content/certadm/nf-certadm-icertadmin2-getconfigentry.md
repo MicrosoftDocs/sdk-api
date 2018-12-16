@@ -9,8 +9,6 @@ ms.assetid: 1acb9e06-c9e5-419a-899a-b0ae80fab99e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConfigEntry, GetConfigEntry method [Security], GetConfigEntry method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetConfigEntry method, ICertAdmin2.GetConfigEntry, ICertAdmin2::GetConfigEntry, certadm/ICertAdmin2::GetConfigEntry, security.icertadmin2_getconfigentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA, DD_COLORCONTROLDATA structure [Display Devices], ddrawint/DD_COLORCONTROLDATA, ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml, display.dd_colorcontroldata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

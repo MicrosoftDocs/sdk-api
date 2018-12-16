@@ -9,8 +9,6 @@ ms.assetid: 8b24b9a3-af97-45dc-aaaf-d95ce9007ba8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

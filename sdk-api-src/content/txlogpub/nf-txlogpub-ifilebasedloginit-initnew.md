@@ -9,8 +9,6 @@ ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit.InitNew, IFileBasedLogInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IFileBasedLogInit interface, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

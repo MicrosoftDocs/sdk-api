@@ -9,8 +9,6 @@ ms.assetid: e5509142-624e-4c57-93b0-2579c6fb7089
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngLoadModuleForWrite, EngLoadModuleForWrite function [Display Devices], display.engloadmoduleforwrite, gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml, winddi/EngLoadModuleForWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,6 @@ ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

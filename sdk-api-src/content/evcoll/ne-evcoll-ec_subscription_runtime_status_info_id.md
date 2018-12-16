@@ -9,8 +9,6 @@ ms.assetid: cc4e58d5-22cf-4823-be5d-e056f6690a45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration, EcSubscriptionRunTimeStatusActive, EcSubscriptionRunTimeStatusEventSources, EcSubscriptionRunTimeStatusLastError, EcSubscriptionRunTimeStatusLastErrorMessage, EcSubscriptionRunTimeStatusLastErrorTime, EcSubscriptionRunTimeStatusLastHeartbeatTime, EcSubscriptionRunTimeStatusNextRetryTime, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, evcoll/EcSubscriptionRunTimeStatusActive, evcoll/EcSubscriptionRunTimeStatusEventSources, evcoll/EcSubscriptionRunTimeStatusLastError, evcoll/EcSubscriptionRunTimeStatusLastErrorMessage, evcoll/EcSubscriptionRunTimeStatusLastErrorTime, evcoll/EcSubscriptionRunTimeStatusLastHeartbeatTime, evcoll/EcSubscriptionRunTimeStatusNextRetryTime, wec.ec_subscription_runtime_status_info_id, wes.ec_subscription_runtime_status_info_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

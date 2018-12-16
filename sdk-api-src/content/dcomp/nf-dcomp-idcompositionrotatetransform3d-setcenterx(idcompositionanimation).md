@@ -9,8 +9,6 @@ ms.assetid: F6421969-EE66-4A28-9236-697DE4D4EC5C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform3D.SetCenterX, IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX, IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

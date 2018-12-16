@@ -9,8 +9,6 @@ ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

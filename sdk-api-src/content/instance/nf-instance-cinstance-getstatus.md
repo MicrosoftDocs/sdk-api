@@ -9,8 +9,6 @@ ms.assetid: 355386c5-7cd2-46de-8696-a83bd3f96cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStatus method, CInstance.GetStatus, CInstance::GetStatus, GetStatus, GetStatus method [Windows Management Instrumentation], GetStatus method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstatus, instance/CInstance::GetStatus, wmi.cinstance_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

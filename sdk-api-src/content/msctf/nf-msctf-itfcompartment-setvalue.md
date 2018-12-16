@@ -9,8 +9,6 @@ ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

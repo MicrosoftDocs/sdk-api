@@ -9,8 +9,6 @@ ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

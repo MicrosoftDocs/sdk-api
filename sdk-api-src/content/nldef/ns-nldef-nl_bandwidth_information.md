@@ -9,8 +9,6 @@ ms.assetid: F5D7238A-EAE0-4D60-A0A4-D839F738EF48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PNL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION structure [IP Helper], PNL_BANDWIDTH_INFORMATION, PNL_BANDWIDTH_INFORMATION structure pointer [IP Helper], iphlp.nl_bandwidth_information, nldef/NL_BANDWIDTH_INFORMATION, nldef/PNL_BANDWIDTH_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h

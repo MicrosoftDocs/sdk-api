@@ -9,8 +9,6 @@ ms.assetid: d0fa8f55-2752-4494-8aac-6c47e0ba6e26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBitmapFromMemory, CreateBitmapFromMemory method [Windows Imaging Component], CreateBitmapFromMemory method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromMemory method, IWICImagingFactory.CreateBitmapFromMemory, IWICImagingFactory::CreateBitmapFromMemory, _wic_codec_iwicimagingfactory_createbitmapfrommemory, wic._wic_codec_iwicimagingfactory_createbitmapfrommemory, wincodec/IWICImagingFactory::CreateBitmapFromMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

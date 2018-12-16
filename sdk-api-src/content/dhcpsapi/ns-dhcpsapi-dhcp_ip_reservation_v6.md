@@ -9,8 +9,6 @@ ms.assetid: f1595632-018b-4626-b3c6-49f0e5b3752c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6 structure [DHCP], PDHCP_IP_RESERVATION_V6, PDHCP_IP_RESERVATION_V6 structure pointer [DHCP], dhcp.dhcp_ip_reservation_v6, dhcpsapi/DHCP_IP_RESERVATION_V6, dhcpsapi/PDHCP_IP_RESERVATION_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

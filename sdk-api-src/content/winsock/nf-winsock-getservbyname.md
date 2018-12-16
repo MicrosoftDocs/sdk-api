@@ -9,8 +9,6 @@ ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

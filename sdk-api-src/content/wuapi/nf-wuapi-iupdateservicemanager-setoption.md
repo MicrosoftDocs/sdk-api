@@ -9,8 +9,6 @@ ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height, get_Height method [COM], get_Height method [COM],IPicture interface, ocidl/IPicture::get_Height
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

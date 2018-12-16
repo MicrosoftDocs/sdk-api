@@ -9,8 +9,6 @@ ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 

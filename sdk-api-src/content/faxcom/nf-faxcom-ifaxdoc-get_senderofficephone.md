@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0mzp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderOfficePhone property, IFaxDoc.SenderOfficePhone, IFaxDoc.get_SenderOfficePhone, IFaxDoc::SenderOfficePhone, IFaxDoc::get_SenderOfficePhone, IFaxDoc::put_SenderOfficePhone, SenderOfficePhone property [Fax Service], SenderOfficePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp, faxcom/IFaxDoc::SenderOfficePhone, faxcom/IFaxDoc::get_SenderOfficePhone, faxcom/IFaxDoc::put_SenderOfficePhone, get_SenderOfficePhone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

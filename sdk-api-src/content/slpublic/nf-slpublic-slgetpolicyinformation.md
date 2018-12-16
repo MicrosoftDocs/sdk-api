@@ -9,8 +9,6 @@ ms.assetid: a9cfd1a0-e622-4726-918b-264f196a4e85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetPolicyInformation, SLGetPolicyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, security.slgetpolicyinformation, slpublic/SLGetPolicyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

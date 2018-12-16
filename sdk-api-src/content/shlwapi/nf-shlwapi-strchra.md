@@ -9,8 +9,6 @@ ms.assetid: 3e4c20cb-0b46-4f84-bbd1-860fdedde8c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrChr, StrChr function [Windows Shell], StrChrA, StrChrW, _win32_StrChr, shell.StrChr, shlwapi/StrChr, shlwapi/StrChrA, shlwapi/StrChrW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigServerConnect, MprConfigServerConnect function [RAS], _mpr_mprconfigserverconnect, mprapi/MprConfigServerConnect, rras.mprconfigserverconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

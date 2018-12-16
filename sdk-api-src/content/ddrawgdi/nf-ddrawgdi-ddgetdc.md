@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdGetDC, DdGetDC function [Windows API], GdiEntry7, _dxgkernel_ddgetdc, ddrawgdi/DdGetDC, ddrawgdi/GdiEntry7, winprog._dxgkernel_ddgetdc, winui._dxgkernel_ddgetdc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

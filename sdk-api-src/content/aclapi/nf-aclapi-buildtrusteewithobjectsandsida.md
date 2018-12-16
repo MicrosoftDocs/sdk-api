@@ -9,8 +9,6 @@ ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

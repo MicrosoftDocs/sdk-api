@@ -9,8 +9,6 @@ ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

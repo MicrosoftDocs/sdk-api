@@ -9,8 +9,6 @@ ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupDelete, PeerGroupDelete function [Peer Networking], p2p.peergroupdelete, p2p/PeerGroupDelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

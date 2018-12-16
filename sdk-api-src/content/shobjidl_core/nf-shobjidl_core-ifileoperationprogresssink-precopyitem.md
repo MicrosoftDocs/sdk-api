@@ -9,8 +9,6 @@ ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreCopyItem method, IFileOperationProgressSink.PreCopyItem, IFileOperationProgressSink::PreCopyItem, PreCopyItem, PreCopyItem method [Windows Shell], PreCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreCopyItem, shell.IFileOperationProgressSink_PreCopyItem, shobjidl_core/IFileOperationProgressSink::PreCopyItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

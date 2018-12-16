@@ -9,8 +9,6 @@ ms.assetid: e681f7c8-7d87-454b-a7b6-6c3fe38b0f92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AnalyzeScript, AnalyzeScript method [Direct Write], AnalyzeScript method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeScript method, IDWriteTextAnalyzer.AnalyzeScript, IDWriteTextAnalyzer::AnalyzeScript, directwrite.IDWriteTextAnalyzer_AnalyzeScript, dwrite/IDWriteTextAnalyzer::AnalyzeScript
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

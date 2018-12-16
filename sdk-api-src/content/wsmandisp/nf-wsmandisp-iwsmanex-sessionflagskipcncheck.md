@@ -9,8 +9,6 @@ ms.assetid: cf364e3a-e532-48cf-9b88-fdc661e70ffa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCNCheck method, IWSManEx.SessionFlagSkipCNCheck, IWSManEx::SessionFlagSkipCNCheck, SessionFlagSkipCNCheck, SessionFlagSkipCNCheck method [Windows Remote Management], SessionFlagSkipCNCheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcncheck, wsmandisp/IWSManEx::SessionFlagSkipCNCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

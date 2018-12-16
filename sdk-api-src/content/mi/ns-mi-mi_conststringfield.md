@@ -9,8 +9,6 @@ ms.assetid: ac62cae3-5cad-4f8f-bd33-24f34608f622
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstStringField, MI_ConstStringField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstStringField, wmi._mi_conststringfield, wmi_v2.mi_conststringfield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

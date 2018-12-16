@@ -9,8 +9,6 @@ ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerExit object, EnumerateExtensions method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensions method, ICertServerExit.EnumerateExtensions, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

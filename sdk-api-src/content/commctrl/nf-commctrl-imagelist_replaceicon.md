@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replaceicon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_ReplaceIcon, ImageList_ReplaceIcon function [Windows Controls], _win32_ImageList_ReplaceIcon, _win32_ImageList_ReplaceIcon_cpp, commctrl/ImageList_ReplaceIcon, controls.ImageList_ReplaceIcon, controls._win32_ImageList_ReplaceIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmRegisterWord, ImmRegisterWord function [Internationalization for Windows Applications], ImmRegisterWordA, ImmRegisterWordW, _win32_ImmRegisterWord, imm/ImmRegisterWord, imm/ImmRegisterWordA, imm/ImmRegisterWordW, intl.immregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

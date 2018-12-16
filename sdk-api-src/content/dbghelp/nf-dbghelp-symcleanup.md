@@ -9,8 +9,6 @@ ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

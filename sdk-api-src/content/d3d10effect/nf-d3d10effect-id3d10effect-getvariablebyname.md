@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebyname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetVariableByName method, ID3D10Effect.GetVariableByName, ID3D10Effect::GetVariableByName, c08eacd5-3abc-89d5-a465-058f2f195794, d3d10effect/ID3D10Effect::GetVariableByName, direct3d10.id3d10effect_getvariablebyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

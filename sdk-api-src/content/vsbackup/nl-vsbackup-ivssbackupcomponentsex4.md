@@ -9,8 +9,6 @@ ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

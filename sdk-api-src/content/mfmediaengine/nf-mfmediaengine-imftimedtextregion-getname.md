@@ -9,8 +9,6 @@ ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

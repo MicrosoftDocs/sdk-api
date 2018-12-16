@@ -9,8 +9,6 @@ ms.assetid: 7473bbcd-d032-4f44-96e8-e08f050c08a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6 structure [DHCP], PDHCP_HOST_INFO_V6, PDHCP_HOST_INFO_V6 structure pointer [DHCP], dhcp.dhcp_host_info_v6, dhcpsapi/DHCP_HOST_INFO_V6, dhcpsapi/PDHCP_HOST_INFO_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

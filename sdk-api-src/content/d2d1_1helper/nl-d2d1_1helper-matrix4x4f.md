@@ -9,8 +9,6 @@ ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: d2d1_1helper.h
 req.include-header: 

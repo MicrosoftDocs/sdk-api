@@ -9,8 +9,6 @@ ms.assetid: 267b0c9a-25d4-4b04-95d3-6b0856bed022
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlattenPath, FlattenPath function [Windows GDI], _win32_FlattenPath, gdi.flattenpath, wingdi/FlattenPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

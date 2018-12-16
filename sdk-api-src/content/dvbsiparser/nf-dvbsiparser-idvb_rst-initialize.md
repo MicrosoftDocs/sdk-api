@@ -9,8 +9,6 @@ ms.assetid: 8efbb9c0-8b21-476c-88ad-1c8a5408b32f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVB_RST interface [Microsoft TV Technologies],Initialize method, IDVB_RST.Initialize, IDVB_RST::Initialize, IDVB_RSTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_RST interface, dvbsiparser/IDVB_RST::Initialize, mstv.idvb_rst_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

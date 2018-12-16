@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwind
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

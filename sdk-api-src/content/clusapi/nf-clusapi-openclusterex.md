@@ -9,8 +9,6 @@ ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenClusterEx, OpenClusterEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX function [Failover Cluster], clusapi/OpenClusterEx, clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

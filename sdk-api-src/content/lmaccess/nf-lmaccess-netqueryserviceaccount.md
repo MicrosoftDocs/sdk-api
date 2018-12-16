@@ -9,8 +9,6 @@ ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

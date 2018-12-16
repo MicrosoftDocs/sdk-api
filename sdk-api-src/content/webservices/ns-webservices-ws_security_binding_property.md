@@ -9,8 +9,6 @@ ms.assetid: f2790fd7-6f51-45a5-b2b6-e5aaaaca9660
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY, WS_SECURITY_BINDING_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_BINDING_PROPERTY, wsw.ws_security_binding_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

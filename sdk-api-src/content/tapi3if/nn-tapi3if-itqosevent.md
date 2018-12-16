@@ -9,8 +9,6 @@ ms.assetid: 6e3a8aef-bd76-4047-9018-801a3cab2c62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITQOSEvent, ITQOSEvent interface [TAPI 2.2], ITQOSEvent interface [TAPI 2.2],described, _tapi3_itqosevent, tapi3.itqosevent, tapi3if/ITQOSEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

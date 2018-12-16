@@ -9,8 +9,6 @@ ms.assetid: 7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPaletteEntryCount, GetPaletteEntryCount method [Direct Write], GetPaletteEntryCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntryCount method, IDWriteFontFace2.GetPaletteEntryCount, IDWriteFontFace2::GetPaletteEntryCount, directwrite.idwritefontface2_getpaletteentrycount, dwrite_2/IDWriteFontFace2::GetPaletteEntryCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

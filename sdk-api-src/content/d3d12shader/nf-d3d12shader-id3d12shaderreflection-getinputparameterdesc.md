@@ -9,8 +9,6 @@ ms.assetid: CD1AFABD-E830-4292-96F4-278BA84E5B54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputParameterDesc, GetInputParameterDesc method, GetInputParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetInputParameterDesc method, ID3D12ShaderReflection.GetInputParameterDesc, ID3D12ShaderReflection::GetInputParameterDesc, d3d12shader/ID3D12ShaderReflection::GetInputParameterDesc, direct3d12.id3d12shaderreflection_getinputparameterdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

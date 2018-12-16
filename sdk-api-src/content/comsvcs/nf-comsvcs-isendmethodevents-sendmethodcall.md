@@ -9,8 +9,6 @@ ms.assetid: 730466c8-440c-42ee-899f-0d93007fbf8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMethodEvents.SendMethodCall, ISendMethodEvents::SendMethodCall, SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

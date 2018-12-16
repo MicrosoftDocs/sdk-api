@@ -9,8 +9,6 @@ ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellMenuCallback, IShellMenuCallback interface [Windows Shell], IShellMenuCallback interface [Windows Shell],described, _win32_IShellMenuCallback, shell.IShellMenuCallback, shobjidl_core/IShellMenuCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

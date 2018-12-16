@@ -9,8 +9,6 @@ ms.assetid: 986917A6-AAC1-4676-A7A0-7A8FC4796E72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGrayscaleEnhancedContrast, GetGrayscaleEnhancedContrast method [Direct Write], GetGrayscaleEnhancedContrast method [Direct Write],IDWriteRenderingParams1 interface, IDWriteRenderingParams1 interface [Direct Write],GetGrayscaleEnhancedContrast method, IDWriteRenderingParams1.GetGrayscaleEnhancedContrast, IDWriteRenderingParams1::GetGrayscaleEnhancedContrast, directwrite.idwriterenderingparams1_getgrayscaleenhancedcontrast, dwrite_1/IDWriteRenderingParams1::GetGrayscaleEnhancedContrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

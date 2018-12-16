@@ -9,8 +9,6 @@ ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

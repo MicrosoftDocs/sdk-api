@@ -9,8 +9,6 @@ ms.assetid: 58e2ecca-7d1f-4831-93fc-f946f8ada2c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], IWbemServices interface [Windows Management Instrumentation],described, _hmm_iwbemservices, wbemcli/IWbemServices, wmi.iwbemservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -9,8 +9,6 @@ ms.assetid: d76d9af4-bfc4-4584-b014-31a62a2894cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CacheIsCorrupted, CacheIsCorrupted method [Offline Files], CacheIsCorrupted method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsCorrupted method, IOfflineFilesEvents.CacheIsCorrupted, IOfflineFilesEvents::CacheIsCorrupted, cscobj/IOfflineFilesEvents::CacheIsCorrupted, of.iofflinefilesevents_cacheiscorrupted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

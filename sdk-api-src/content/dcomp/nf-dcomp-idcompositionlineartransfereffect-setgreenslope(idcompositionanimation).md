@@ -9,8 +9,6 @@ ms.assetid: BAB60C7E-D2FA-4148-A1F6-5937D3AE746B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenSlope method, IDCompositionLinearTransferEffect.SetGreenSlope, IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenSlope, IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation), SetGreenSlope, SetGreenSlope method [DirectComposition], SetGreenSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenSlope, directcomp.idcompositionlineartransfereffect_setgreenslope_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

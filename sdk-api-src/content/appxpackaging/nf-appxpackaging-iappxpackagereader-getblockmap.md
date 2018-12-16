@@ -9,8 +9,6 @@ ms.assetid: FEBCA2E4-9B32-499B-AD31-9D90525A42DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetBlockMap method, IAppxPackageReader.GetBlockMap, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f688623e-c03b-456f-bd51-426049e0eb2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCreate method, IRecordInfo.RecordCreate, IRecordInfo::RecordCreate, RecordCreate, RecordCreate method [Automation], RecordCreate method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCreate, automat.irecordinfo_recordcreate, oaidl/IRecordInfo::RecordCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

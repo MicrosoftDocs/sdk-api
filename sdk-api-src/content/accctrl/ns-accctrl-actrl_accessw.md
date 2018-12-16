@@ -9,8 +9,6 @@ ms.assetid: d7fb10c1-ebb8-44cf-b61c-a70a787b324f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PACTRL_ACCESSW, *PACTRL_AUDITW, ACTRL_ACCESS, ACTRL_ACCESS structure [COM], ACTRL_ACCESSA, ACTRL_ACCESSW, ACTRL_AUDIT, ACTRL_AUDITW, PACTRL_ACCESS, PACTRL_ACCESS structure pointer [COM], PACTRL_ACCESSW_ALLOCATE_ALL_NODES, _ACTRL_ALISTA, _ACTRL_ALISTW, accctrl/ACTRL_ACCESS, accctrl/ACTRL_ACCESSA, accctrl/ACTRL_ACCESSW, accctrl/PACTRL_ACCESS, com.actrl_access"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 

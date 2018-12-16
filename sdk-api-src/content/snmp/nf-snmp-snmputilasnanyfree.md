@@ -9,8 +9,6 @@ ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

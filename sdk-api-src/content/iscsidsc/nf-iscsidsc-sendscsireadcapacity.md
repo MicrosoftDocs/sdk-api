@@ -9,8 +9,6 @@ ms.assetid: 1a12848f-4b2d-45f6-971b-d8e4ccd00c21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discovery Library API], iscsidisc.sendscsireadcapacity, iscsidsc/SendScsiReadCapacity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

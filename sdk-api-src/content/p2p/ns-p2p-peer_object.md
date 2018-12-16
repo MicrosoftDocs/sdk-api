@@ -9,8 +9,6 @@ ms.assetid: 6babceaf-9648-4226-a0ce-6f4ae831e4a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_OBJECT, PCPEER_OBJECT, PCPEER_OBJECT structure pointer [Peer Networking], PEER_OBJECT, PEER_OBJECT structure [Peer Networking], PPEER_OBJECT, PPEER_OBJECT structure pointer [Peer Networking], p2p.peer_object, p2p/PCPEER_OBJECT, p2p/PEER_OBJECT, p2p/PPEER_OBJECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

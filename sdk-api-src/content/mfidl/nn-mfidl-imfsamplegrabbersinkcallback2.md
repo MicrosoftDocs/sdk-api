@@ -9,8 +9,6 @@ ms.assetid: b303361b-baaf-4d64-aa5b-a26dd70413f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], IMFSampleGrabberSinkCallback2 interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback2, mfidl/IMFSampleGrabberSinkCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

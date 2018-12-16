@@ -9,8 +9,6 @@ ms.assetid: 85f7dc2b-c159-48e0-ac58-8a66eb0ec73b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphImportDatabase, PeerGraphImportDatabase function [Peer Networking], p2p.peergraphimportdatabase, p2p/PeerGraphImportDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 951c7e6e-1d6d-4393-a675-d2b353c53b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, GET_MODULE_HANDLE_EX_FLAG_PIN, GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, GetModuleHandleEx, GetModuleHandleEx function, GetModuleHandleExA, GetModuleHandleExW, _win32_getmodulehandleex, base.getmodulehandleex, libloaderapi/GetModuleHandleEx, libloaderapi/GetModuleHandleExA, libloaderapi/GetModuleHandleExW, winbase/GetModuleHandleEx, winbase/GetModuleHandleExA, winbase/GetModuleHandleExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

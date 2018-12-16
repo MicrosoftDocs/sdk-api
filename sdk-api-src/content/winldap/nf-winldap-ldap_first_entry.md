@@ -9,8 +9,6 @@ ms.assetid: 1692d091-7963-492d-9998-5680a2a81088
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_first_entry, ldap.ldap__first__entry, ldap.ldap_first_entry, ldap_first_entry, ldap_first_entry function [LDAP], winldap/ldap_first_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

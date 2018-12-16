@@ -9,8 +9,6 @@ ms.assetid: 8c03749c-49cf-4d9c-90be-a75412f044ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XPS_SIGNATURE_STATUS, XPS_SIGNATURE_STATUS enumeration [XPS Documents and Packaging], XPS_SIGNATURE_STATUS_BROKEN, XPS_SIGNATURE_STATUS_INCOMPLETE, XPS_SIGNATURE_STATUS_INCOMPLIANT, XPS_SIGNATURE_STATUS_QUESTIONABLE, XPS_SIGNATURE_STATUS_VALID, xps.xps_signature_status, xpsdigitalsignature/XPS_SIGNATURE_STATUS, xpsdigitalsignature/XPS_SIGNATURE_STATUS_BROKEN, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLETE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLIANT, xpsdigitalsignature/XPS_SIGNATURE_STATUS_QUESTIONABLE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_VALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xpsdigitalsignature.h
 req.include-header: 

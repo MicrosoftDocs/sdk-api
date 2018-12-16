@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_16cl.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],Save method, IFaxEventLogging.Save, IFaxEventLogging::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.save, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_save_cpp, fax._mfax_faxeventlogging_save, faxcomex/IFaxEventLogging::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

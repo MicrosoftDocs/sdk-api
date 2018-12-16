@@ -9,8 +9,6 @@ ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

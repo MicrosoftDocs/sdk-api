@@ -9,8 +9,6 @@ ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertAdmin object [Security],PublishCRL method, ICertAdmin interface [Security],PublishCRL method, ICertAdmin.PublishCRL, ICertAdmin2 interface [Security],PublishCRL method, ICertAdmin2::PublishCRL, ICertAdmin::PublishCRL, PublishCRL, PublishCRL method [Security], PublishCRL method [Security],CCertAdmin object, PublishCRL method [Security],ICertAdmin interface, PublishCRL method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::PublishCRL, certadm/ICertAdmin::PublishCRL, security.icertadmin2_publishcrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

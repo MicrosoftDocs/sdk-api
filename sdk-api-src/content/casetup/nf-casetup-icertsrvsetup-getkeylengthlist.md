@@ -9,8 +9,6 @@ ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetKeyLengthList method, ICertSrvSetup.GetKeyLengthList, ICertSrvSetup::GetKeyLengthList, casetup/ICertSrvSetup::GetKeyLengthList, security.icertsrvsetup_getkeylengthlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

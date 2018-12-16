@@ -9,8 +9,6 @@ ms.assetid: 87799da3-73c3-469a-badf-884dcfe774e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],Clear method, ITCallHub.Clear, ITCallHub::Clear, _tapi3_itcallhub_clear, tapi3.itcallhub_clear, tapi3if/ITCallHub::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

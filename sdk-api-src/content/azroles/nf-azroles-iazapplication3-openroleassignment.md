@@ -9,8 +9,6 @@ ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleAssignment method, IAzApplication3.OpenRoleAssignment, IAzApplication3::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleAssignment, security.iazapplication3_openroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

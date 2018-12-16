@@ -9,8 +9,6 @@ ms.assetid: e22043da-6c38-49e2-9651-43211ce7f377
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],Recognize method, IInkEdit.Recognize, IInkEdit::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkEdit interface, e22043da-6c38-49e2-9651-43211ce7f377, inked/IInkEdit::Recognize, tablet.inkedit_recognize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CFHookProc, LPCFHOOKPROC, LPCFHOOKPROC callback, LPCFHOOKPROC callback function [Dialog Boxes], _win32_CFHookProc, _win32_cfhookproc_cpp, commdlg/LPCFHOOKPROC, dlgbox.cfhookproc, winui._win32_cfhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: commdlg.h
 req.include-header: Windows.h

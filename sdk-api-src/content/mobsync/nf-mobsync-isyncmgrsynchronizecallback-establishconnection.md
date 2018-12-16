@@ -9,8 +9,6 @@ ms.assetid: f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EstablishConnection, EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EstablishConnection method, ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

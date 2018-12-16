@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEINTRESOURCE, MAKEINTRESOURCE macro [Menus and Other Resources], MAKEINTRESOURCEA, MAKEINTRESOURCEW, _win32_MAKEINTRESOURCE, _win32_makeintresource_cpp, menurc.makeintresource, winui._win32_makeintresource, winuser/MAKEINTRESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 769c3b0b-ece4-4406-a76c-cabc37901351
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellIconOverlayManager, IShellIconOverlayManager interface [Windows Shell], IShellIconOverlayManager interface [Windows Shell],described, _win32_IShellIconOverlayManager, shell.IShellIconOverlayManager, shlobj_core/IShellIconOverlayManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

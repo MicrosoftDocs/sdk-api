@@ -9,8 +9,6 @@ ms.assetid: d9c452e3-3850-4ca2-8114-b3866fbdeba6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

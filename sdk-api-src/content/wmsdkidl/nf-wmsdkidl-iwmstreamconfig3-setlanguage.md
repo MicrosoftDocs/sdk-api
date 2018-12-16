@@ -9,8 +9,6 @@ ms.assetid: 3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig3 interface [windows Media Format],SetLanguage method, IWMStreamConfig3.SetLanguage, IWMStreamConfig3::SetLanguage, IWMStreamConfig3SetLanguage, SetLanguage, SetLanguage method [windows Media Format], SetLanguage method [windows Media Format],IWMStreamConfig3 interface, wmformat.iwmstreamconfig3_setlanguage, wmsdkidl/IWMStreamConfig3::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

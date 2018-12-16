@@ -9,8 +9,6 @@ ms.assetid: d9d3cc66-5622-4641-b302-6ecc6a05b1aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVDecAudioDualMono, codecapi/eAVDecAudioDualMono_IsDualMono, codecapi/eAVDecAudioDualMono_IsNotDualMono, codecapi/eAVDecAudioDualMono_UnSpecified, dshow.eavdecaudiodualmono, eAVDecAudioDualMono, eAVDecAudioDualMono enumeration [DirectShow], eAVDecAudioDualMonoEnumeration, eAVDecAudioDualMono_IsDualMono, eAVDecAudioDualMono_IsNotDualMono, eAVDecAudioDualMono_UnSpecified
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

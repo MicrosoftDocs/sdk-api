@@ -9,8 +9,6 @@ ms.assetid: 9a1a3070-5b68-4dd2-bc10-97a8331cc262
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_MessageDrain method, IVideoWindow.get_MessageDrain, IVideoWindow::get_MessageDrain, IVideoWindowget_MessageDrain, control/IVideoWindow::get_MessageDrain, dshow.ivideowindow_get_messagedrain, get_MessageDrain, get_MessageDrain method [DirectShow], get_MessageDrain method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

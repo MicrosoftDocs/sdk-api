@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconn
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorOutputConnector interface, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectInteriorOutputConnector.GetOutputConnector, IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, _wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

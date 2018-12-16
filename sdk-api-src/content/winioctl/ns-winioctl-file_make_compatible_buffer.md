@@ -9,8 +9,6 @@ ms.assetid: 1c7b1958-099f-404d-a060-99efc543a3c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER structure [Files], PFILE_MAKE_COMPATIBLE_BUFFER, PFILE_MAKE_COMPATIBLE_BUFFER structure pointer [Files], fs.file_make_compatible_buffer, winioctl/FILE_MAKE_COMPATIBLE_BUFFER, winioctl/PFILE_MAKE_COMPATIBLE_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

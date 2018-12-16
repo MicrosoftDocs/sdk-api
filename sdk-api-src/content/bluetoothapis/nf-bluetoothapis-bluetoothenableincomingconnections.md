@@ -9,8 +9,6 @@ ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothEnableIncomingConnections, BluetoothEnableIncomingConnections function [Bluetooth], bluetooth.bluetoothenableincomingconnections, bluetoothapis/BluetoothEnableIncomingConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

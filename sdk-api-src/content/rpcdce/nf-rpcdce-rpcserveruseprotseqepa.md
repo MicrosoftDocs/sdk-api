@@ -9,8 +9,6 @@ ms.assetid: 1914a90a-6dee-4517-9de1-d332124eb0a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcServerUseProtseqEp, RpcServerUseProtseqEp function [RPC], RpcServerUseProtseqEpA, RpcServerUseProtseqEpW, _rpc_rpcserveruseprotseqep, rpc.rpcserveruseprotseqep, rpcdce/RpcServerUseProtseqEp, rpcdce/RpcServerUseProtseqEpA, rpcdce/RpcServerUseProtseqEpW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

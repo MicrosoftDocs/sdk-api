@@ -9,8 +9,6 @@ ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: C7A11F70-E94D-4A90-98A7-FA3B4DF5043B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HrtfEnvironment, HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs], Large, Medium, Outdoors, Small, hrtfapoapi/HrtfEnvironment, hrtfapoapi/Large, hrtfapoapi/Medium, hrtfapoapi/Outdoors, hrtfapoapi/Small, xaudio2.hrtfenvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: hrtfapoapi.h
 req.include-header: 

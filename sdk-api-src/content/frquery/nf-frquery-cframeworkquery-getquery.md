@@ -9,8 +9,6 @@ ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h

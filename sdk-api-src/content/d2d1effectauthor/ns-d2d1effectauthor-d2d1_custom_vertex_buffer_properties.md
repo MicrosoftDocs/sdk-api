@@ -9,8 +9,6 @@ ms.assetid: e3cebb2b-48fb-42b2-8eb4-b9676b581bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES, D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES, direct2d.d2d1_custom_vertex_buffer_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1effectauthor.h
 req.include-header: 

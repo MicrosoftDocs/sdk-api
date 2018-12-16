@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\faxinta_n_i
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccounts, IFaxAccounts interface [Fax Service], IFaxAccounts interface [Fax Service],described, _mfax_faxaccounts_cpp, fax._mfax_faxaccounts_cpp, faxcomex/IFaxAccounts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b1233942-1bd5-4198-a00c-6d0516ab32dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabGetContact, PeerCollabGetContact function [Peer Networking], p2p.peercollabgetcontact, p2p/PeerCollabGetContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

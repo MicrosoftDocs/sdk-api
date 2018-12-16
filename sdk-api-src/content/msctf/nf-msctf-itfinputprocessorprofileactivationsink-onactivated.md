@@ -9,8 +9,6 @@ ms.assetid: d171cf73-b409-4501-a956-06867c20f214
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Framework],OnActivated method, ITfInputProcessorProfileActivationSink.OnActivated, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfInputProcessorProfileActivationSink interface, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

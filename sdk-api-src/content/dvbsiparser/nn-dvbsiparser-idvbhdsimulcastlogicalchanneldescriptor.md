@@ -9,8 +9,6 @@ ms.assetid: 39ba28a6-0798-4049-82f6-1969822f4933
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDvbHDSimulcastLogicalChannelDescriptor, IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies], IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor, mstv.idvbhdsimulcastlogicalchanneldescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,6 @@ ms.assetid: 7b1d07b8-41e4-44f8-8c28-377c7a9e463d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

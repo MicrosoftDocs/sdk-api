@@ -9,8 +9,6 @@ ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

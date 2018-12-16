@@ -9,8 +9,6 @@ ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDDCOLORKEY, LPDDCOLORKEY structure pointer [DirectDraw], ddraw/DDCOLORKEY, ddraw/LPDDCOLORKEY, directdraw.ddcolorkey"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

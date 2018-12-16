@@ -9,8 +9,6 @@ ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

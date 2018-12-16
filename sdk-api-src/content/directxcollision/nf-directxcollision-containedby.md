@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxcollision.h
 req.include-header: 

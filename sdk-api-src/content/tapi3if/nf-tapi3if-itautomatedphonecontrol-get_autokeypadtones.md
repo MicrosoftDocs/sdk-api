@@ -9,8 +9,6 @@ ms.assetid: fd6c2b1c-53c5-40f9-bb5e-51c48d5bc944
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoKeypadTones method, ITAutomatedPhoneControl.get_AutoKeypadTones, ITAutomatedPhoneControl::get_AutoKeypadTones, _tapi3_itautomatedphonecontrol_get_autokeypadtones, get_AutoKeypadTones, get_AutoKeypadTones method [TAPI 2.2], get_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autokeypadtones, tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTones
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

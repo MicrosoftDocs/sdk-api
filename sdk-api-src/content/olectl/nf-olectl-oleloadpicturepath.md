@@ -9,8 +9,6 @@ ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

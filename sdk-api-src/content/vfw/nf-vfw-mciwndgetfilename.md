@@ -9,8 +9,6 @@ ms.assetid: 4118b9fe-4252-4591-862d-a1cc48fa3cff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetFileName, MCIWndGetFileName macro [Windows Multimedia], _win32_MCIWndGetFileName, multimedia.mciwndgetfilename, vfw/MCIWndGetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

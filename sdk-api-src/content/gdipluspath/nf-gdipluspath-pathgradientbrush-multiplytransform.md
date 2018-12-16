@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],MultiplyTransform method, PathGradientBrush.MultiplyTransform, PathGradientBrush::MultiplyTransform, _gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

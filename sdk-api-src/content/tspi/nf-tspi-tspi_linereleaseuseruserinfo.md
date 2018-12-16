@@ -9,8 +9,6 @@ ms.assetid: 3c760254-a8c0-406a-aa15-3a5a42aba2e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function [TAPI 2.2], _tspi_tspi_linereleaseuseruserinfo, tspi.tspi_linereleaseuseruserinfo, tspi/TSPI_lineReleaseUserUserInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

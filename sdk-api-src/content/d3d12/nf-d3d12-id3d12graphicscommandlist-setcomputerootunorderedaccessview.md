@@ -9,8 +9,6 @@ ms.assetid: 7C91B305-ABB2-4355-AA4B-3E1641ACF9E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootUnorderedAccessView method, ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView, ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView method, SetComputeRootUnorderedAccessView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setcomputerootunorderedaccessview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

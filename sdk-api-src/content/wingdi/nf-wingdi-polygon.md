@@ -9,8 +9,6 @@ ms.assetid: 2f958b91-039a-4e02-b727-be142bb18b06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

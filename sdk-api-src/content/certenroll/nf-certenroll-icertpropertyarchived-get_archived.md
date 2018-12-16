@@ -9,8 +9,6 @@ ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

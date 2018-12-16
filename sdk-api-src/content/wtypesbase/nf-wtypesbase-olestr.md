@@ -9,8 +9,6 @@ ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wtypesbase.h
 req.include-header: WTypes.h

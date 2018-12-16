@@ -9,8 +9,6 @@ ms.assetid: ba3d3bc8-fd07-45c7-8292-38768738cf82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Server_GetVersion, MI_Server_GetVersion callback, MI_Server_GetVersion callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetVersion, wmi_v2.mi_server_getversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

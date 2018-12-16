@@ -9,8 +9,6 @@ ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

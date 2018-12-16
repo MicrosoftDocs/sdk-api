@@ -9,8 +9,6 @@ ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimingReport, GetTimingReport function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetTimingReport, monitor.gettimingreport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

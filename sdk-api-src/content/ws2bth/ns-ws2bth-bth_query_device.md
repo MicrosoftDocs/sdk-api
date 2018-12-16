@@ -9,8 +9,6 @@ ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QUERY_DEVICE, BTH_QUERY_DEVICE structure [Bluetooth], PBTH_QUERY_DEVICE, PBTH_QUERY_DEVICE structure pointer [Bluetooth], _bth_bth_query_device, bluetooth.bth_query_device, ws2bth/BTH_QUERY_DEVICE, ws2bth/PBTH_QUERY_DEVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2bth.h
 req.include-header: 

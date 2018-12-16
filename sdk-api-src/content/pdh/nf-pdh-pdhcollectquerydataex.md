@@ -9,8 +9,6 @@ ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

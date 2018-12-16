@@ -9,8 +9,6 @@ ms.assetid: 1fcacbbc-a3e4-4c7b-a9d0-1ecf6a3dca07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderAccuracy method, IMpegAudioDecoder.put_DecoderAccuracy, IMpegAudioDecoder::put_DecoderAccuracy, IMpegAudioDecoderputDecoderAccuracy, dshow.impegaudiodecoder_put_decoderaccuracy, mpegtype/IMpegAudioDecoder::put_DecoderAccuracy, put_DecoderAccuracy, put_DecoderAccuracy method [DirectShow], put_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 

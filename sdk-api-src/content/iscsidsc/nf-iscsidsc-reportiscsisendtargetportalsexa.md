@@ -9,8 +9,6 @@ ms.assetid: bf67ff5c-77b5-42ec-81b3-86b98e216d81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportIScsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsEx, ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsExW, iscsidisc.reportiscsisendtargetportalsex, iscsidsc/ReportIscsiSendTargetPortalsEx, iscsidsc/ReportIscsiSendTargetPortalsExA, iscsidsc/ReportIscsiSendTargetPortalsExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

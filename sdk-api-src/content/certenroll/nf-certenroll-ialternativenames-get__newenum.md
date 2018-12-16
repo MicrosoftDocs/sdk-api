@@ -9,8 +9,6 @@ ms.assetid: 66656bf5-3258-4888-8c1d-0fde33275504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAlternativeNames interface [Security],_NewEnum property, IAlternativeNames._NewEnum, IAlternativeNames.get__NewEnum, IAlternativeNames::_NewEnum, IAlternativeNames::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::_NewEnum, certenroll/IAlternativeNames::get__NewEnum, get__NewEnum, security.ialternativenames__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

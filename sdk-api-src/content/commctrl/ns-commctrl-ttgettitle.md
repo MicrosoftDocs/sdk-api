@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

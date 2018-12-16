@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.GetParameter
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParameters, GetParameters method [XAudio2 Audio Mixing APIs], GetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, IXAPOParameters interface [XAudio2 Audio Mixing APIs],GetParameters method, IXAPOParameters.GetParameters, IXAPOParameters::GetParameters, xapo/IXAPOParameters::GetParameters, xaudio2.ixapoparameters_interface_getparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 

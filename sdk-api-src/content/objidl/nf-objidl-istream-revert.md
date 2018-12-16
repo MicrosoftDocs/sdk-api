@@ -9,8 +9,6 @@ ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream interface [Structured Storage],Revert method, IStream.Revert, IStream::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStream interface, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

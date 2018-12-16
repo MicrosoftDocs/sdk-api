@@ -9,8 +9,6 @@ ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

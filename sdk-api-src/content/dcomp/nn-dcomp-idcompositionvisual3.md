@@ -9,8 +9,6 @@ ms.assetid: c7bf4e6f-119b-2122-1103-d6ab240121c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposition], IDCompositionVisual3 interface [DirectComposition],described, dcomp/IDCompositionVisual3, directcomp.idcompositionvisual3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

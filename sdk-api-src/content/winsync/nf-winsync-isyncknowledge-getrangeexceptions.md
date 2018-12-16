@@ -9,8 +9,6 @@ ms.assetid: 9dd945bf-a3e4-408a-bdfe-5163a7dbdc3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRangeExceptions, GetRangeExceptions method [Windows Sync], GetRangeExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetRangeExceptions method, ISyncKnowledge.GetRangeExceptions, ISyncKnowledge::GetRangeExceptions, winsync.isyncknowledge_getrangeexceptions, winsync/ISyncKnowledge::GetRangeExceptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

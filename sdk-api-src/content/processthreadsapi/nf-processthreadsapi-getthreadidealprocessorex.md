@@ -9,8 +9,6 @@ ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

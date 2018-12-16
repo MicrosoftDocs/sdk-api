@@ -9,8 +9,6 @@ ms.assetid: ddc3a507-03ee-4f44-89e3-64ec4290d0ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Enable_DevNode, CM_Enable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Enable_DevNode, cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml, devinst.cm_enable_devnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

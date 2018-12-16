@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\getextendederrorinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExtendedErrorInfo, GetExtendedErrorInfo method [WIA], GetExtendedErrorInfo method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],GetExtendedErrorInfo method, IWiaItemExtras.GetExtendedErrorInfo, IWiaItemExtras::GetExtendedErrorInfo, _wia_IWiaItemExtras_GetExtendedErrorInfo, wia._wia_IWiaItemExtras_GetExtendedErrorInfo, wia_xp/IWiaItemExtras::GetExtendedErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

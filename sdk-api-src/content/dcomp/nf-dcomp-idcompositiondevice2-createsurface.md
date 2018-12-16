@@ -9,8 +9,6 @@ ms.assetid: 1CBE92B6-AC48-47F1-B50A-B78030D356D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionDevice2 interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice2 interface [DirectComposition],CreateSurface method, IDCompositionDevice2.CreateSurface, IDCompositionDevice2::CreateSurface, dcomp/IDCompositionDevice2::CreateSurface, directcomp.idcompositiondevice2_createsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

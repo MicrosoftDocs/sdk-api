@@ -9,8 +9,6 @@ ms.assetid: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet PC],MaximumInputRectangle property, IInkTablet.MaximumInputRectangle, IInkTablet.get_MaximumInputRectangle, IInkTablet::MaximumInputRectangle, IInkTablet::get_MaximumInputRectangle, MaximumInputRectangle property [Tablet PC], MaximumInputRectangle property [Tablet PC],IInkTablet interface, get_MaximumInputRectangle, msinkaut/IInkTablet::MaximumInputRectangle, msinkaut/IInkTablet::get_MaximumInputRectangle, tablet.iinktablet_maximuminputrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

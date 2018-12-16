@@ -9,8 +9,6 @@ ms.assetid: 06cfbfd3-d196-4adb-a6b3-9b5f88bc03a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaBuffer interface [DirectShow],SetLength method, IMediaBuffer.SetLength, IMediaBuffer::SetLength, IMediaBufferSetLength, SetLength, SetLength method [DirectShow], SetLength method [DirectShow],IMediaBuffer interface, dshow.imediabuffer_setlength, mediaobj/IMediaBuffer::SetLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

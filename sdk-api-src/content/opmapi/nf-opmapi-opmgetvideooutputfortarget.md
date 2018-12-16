@@ -9,8 +9,6 @@ ms.assetid: 736F6C76-D208-49E8-9D96-F54ECE332FCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputfortarget, opmapi/OPMGetVideoOutputForTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: opmapi.h
 req.include-header: 

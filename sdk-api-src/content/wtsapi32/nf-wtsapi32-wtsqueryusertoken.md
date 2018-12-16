@@ -9,8 +9,6 @@ ms.assetid: 5b33b67a-ab19-4c09-94a2-1ab8008551a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSQueryUserToken, WTSQueryUserToken function [Remote Desktop Services], _win32_wtsqueryusertoken, termserv.wtsqueryusertoken, wtsapi32/WTSQueryUserToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

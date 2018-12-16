@@ -9,8 +9,6 @@ ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Name property, ITaskFolder.Name, ITaskFolder.get_Name, ITaskFolder::Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskFolder interface, get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

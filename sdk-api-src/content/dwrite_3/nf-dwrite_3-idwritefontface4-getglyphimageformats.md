@@ -9,8 +9,6 @@ ms.assetid: BE3AC023-48A5-4687-A41D-39C4DF3B853F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats method [Direct Write], GetGlyphImageFormats method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageFormats method, IDWriteFontFace4.GetGlyphImageFormats, IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats, dwrite_3/IDWriteFontFace4::GetGlyphImageFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

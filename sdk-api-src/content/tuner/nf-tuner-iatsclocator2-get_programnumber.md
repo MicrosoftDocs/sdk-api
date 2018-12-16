@@ -9,8 +9,6 @@ ms.assetid: 66f92cb0-a89e-4c34-8995-a94eb1bc33dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],get_ProgramNumber method, IATSCLocator2.get_ProgramNumber, IATSCLocator2::get_ProgramNumber, IATSCLocator2get_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IATSCLocator2 interface, mstv.iatsclocator2_get_programnumber, tuner/IATSCLocator2::get_ProgramNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

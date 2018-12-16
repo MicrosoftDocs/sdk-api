@@ -9,8 +9,6 @@ ms.assetid: cb3fe44b-1049-4189-a19a-b5a8fec6daf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RM_APP_STATUS, RmStatusErrorOnRestart, RmStatusErrorOnStop, RmStatusRestartMasked, RmStatusRestarted, RmStatusRunning, RmStatusShutdownMasked, RmStatusStopped, RmStatusStoppedOther, RmStatusUnknown, _RM_APP_STATUS, _RM_APP_STATUS enumeration [Restart Mgr], restartmanager/RmStatusErrorOnRestart, restartmanager/RmStatusErrorOnStop, restartmanager/RmStatusRestartMasked, restartmanager/RmStatusRestarted, restartmanager/RmStatusRunning, restartmanager/RmStatusShutdownMasked, restartmanager/RmStatusStopped, restartmanager/RmStatusStoppedOther, restartmanager/RmStatusUnknown, restartmanager/_RM_APP_STATUS, rstmgr.rm_app_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 

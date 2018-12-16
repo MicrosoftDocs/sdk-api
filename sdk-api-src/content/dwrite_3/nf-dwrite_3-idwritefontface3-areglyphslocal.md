@@ -9,8 +9,6 @@ ms.assetid: e8d5b51d-c5b5-6ea5-eda0-36cc9ec425d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AreGlyphsLocal, AreGlyphsLocal method [Direct Write], AreGlyphsLocal method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],AreGlyphsLocal method, IDWriteFontFace3.AreGlyphsLocal, IDWriteFontFace3::AreGlyphsLocal, directwrite.idwritefontface3_areglyphslocal, dwrite_3/IDWriteFontFace3::AreGlyphsLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

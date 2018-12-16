@@ -2,7 +2,7 @@
 UID: NA:winsatcominterfacei
 ms.assetid: 76c75004-d546-3d55-9e2d-5744db03b8ab
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

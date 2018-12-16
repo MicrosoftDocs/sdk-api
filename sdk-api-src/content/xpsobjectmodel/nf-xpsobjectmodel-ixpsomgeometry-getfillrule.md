@@ -9,8 +9,6 @@ ms.assetid: 5ec2cfdd-f05d-4e05-b290-fad175fe1cae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFillRule, GetFillRule method [XPS Documents and Packaging], GetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFillRule method, IXpsOMGeometry.GetFillRule, IXpsOMGeometry::GetFillRule, xps.ixpsomgeometry_getfillrule, xpsobjectmodel/IXpsOMGeometry::GetFillRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

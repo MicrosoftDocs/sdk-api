@@ -9,8 +9,6 @@ ms.assetid: FD4813F6-54C5-44F8-B700-FB8A6B0E8DDF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],~CD3D11_DEPTH_STENCIL_DESC destructor, CD3D11_DEPTH_STENCIL_DESC.~CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC(), d3d11/CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc__cd3d11_depth_stencil_desc__, ~CD3D11_DEPTH_STENCIL_DESC, ~CD3D11_DEPTH_STENCIL_DESC destructor [Direct3D 11], ~CD3D11_DEPTH_STENCIL_DESC destructor [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bb011502-38ae-43b7-a6ad-de16b499f61b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILURES, DS_REPL_KCC_DSA_FAILURES structure [Active Directory], DS_REPL_KCC_DSA_FAILURESW, _glines_ds_repl_kcc_dsa_failures, ad.ds__repl__kcc__dsa__failures, ad.ds_repl_kcc_dsa_failures, ntdsapi/DS_REPL_KCC_DSA_FAILURES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

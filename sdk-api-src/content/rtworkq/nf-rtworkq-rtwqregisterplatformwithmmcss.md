@@ -9,8 +9,6 @@ ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

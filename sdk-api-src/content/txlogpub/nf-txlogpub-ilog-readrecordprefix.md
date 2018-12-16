@@ -9,8 +9,6 @@ ms.assetid: 4a2b8529-b342-4491-a7ce-db4150223682
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix, ILog::ReadRecordPrefix, ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM],ILog interface, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

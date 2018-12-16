@@ -9,8 +9,6 @@ ms.assetid: 8c1cd7b4-ec68-4b60-9f1e-ed01674f7f8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumString interface [COM],Skip method, IEnumString.Skip, IEnumString::Skip, Skip, Skip method [COM], Skip method [COM],IEnumString interface, _com_ienumstring_skip, com.ienumstring_skip, objidlbase/IEnumString::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

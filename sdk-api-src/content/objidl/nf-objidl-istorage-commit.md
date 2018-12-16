@@ -9,8 +9,6 @@ ms.assetid: 72831f2c-1e07-429b-af4c-2aaced3f3888
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],Commit method, IStorage.Commit, IStorage::Commit, _stg_istorage_commit, objidl/IStorage::Commit, stg.istorage_commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

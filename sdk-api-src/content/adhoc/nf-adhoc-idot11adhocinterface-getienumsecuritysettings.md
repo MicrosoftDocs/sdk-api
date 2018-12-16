@@ -9,8 +9,6 @@ ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIEnumSecuritySettings, GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumSecuritySettings method, IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

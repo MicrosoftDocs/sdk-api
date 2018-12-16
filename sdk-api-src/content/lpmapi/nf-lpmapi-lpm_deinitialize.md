@@ -9,8 +9,6 @@ ms.assetid: d3a1edc5-a3fd-4c49-9cd9-f06ba56fec81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

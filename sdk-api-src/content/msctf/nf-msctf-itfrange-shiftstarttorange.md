@@ -9,8 +9,6 @@ ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartToRange method, ITfRange.ShiftStartToRange, ITfRange::ShiftStartToRange, ShiftStartToRange, ShiftStartToRange method [Text Services Framework], ShiftStartToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstarttorange_ref, msctf/ITfRange::ShiftStartToRange, tsf.itfrange_shiftstarttorange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

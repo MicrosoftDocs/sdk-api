@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorCurve, ColorCurve class [GDI+],ColorCurve constructor, ColorCurve constructor [GDI+], ColorCurve constructor [GDI+],ColorCurve class, ColorCurve.ColorCurve, ColorCurve::ColorCurve, _gdiplus_CLASS_ColorCurve_ColorCurve_, gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

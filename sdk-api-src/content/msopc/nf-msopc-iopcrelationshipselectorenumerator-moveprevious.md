@@ -9,8 +9,6 @@ ms.assetid: dd367eb8-cd1c-4f0a-a435-aad86685b71a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcRelationshipSelectorEnumerator.MovePrevious, IOpcRelationshipSelectorEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MovePrevious, opc.iopcrelationshipselectorenumerator_moveprevious
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

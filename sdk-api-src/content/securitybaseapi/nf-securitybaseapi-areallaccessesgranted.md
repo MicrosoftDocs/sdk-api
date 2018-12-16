@@ -9,8 +9,6 @@ ms.assetid: 91349693-8667-49dd-a813-657497b7d467
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

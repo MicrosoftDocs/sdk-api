@@ -9,8 +9,6 @@ ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaControl interface [Files],described, _win32_idiskquotacontrol, base.idiskquotacontrol, dskquota/IDiskQuotaControl, fs.idiskquotacontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dskquota.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: audioapotypes.h
 req.include-header: 

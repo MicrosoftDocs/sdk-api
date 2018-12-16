@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_94xe.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxRegisterServiceProvider, FaxRegisterServiceProvider function [Fax Service], FaxRegisterServiceProviderW, _mfax_faxregisterserviceprovider, fax._mfax_faxregisterserviceprovider, winfax/FaxRegisterServiceProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

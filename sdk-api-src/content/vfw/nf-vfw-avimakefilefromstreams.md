@@ -9,8 +9,6 @@ ms.assetid: 5c7a7564-188a-46b7-84ad-de2b1e3db621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIMakeFileFromStreams, AVIMakeFileFromStreams function [Windows Multimedia], _win32_AVIMakeFileFromStreams, multimedia.avimakefilefromstreams, vfw/AVIMakeFileFromStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],AddLanguageByRFC1766String method, IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

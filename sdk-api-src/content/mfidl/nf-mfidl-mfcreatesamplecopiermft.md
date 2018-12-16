@@ -9,8 +9,6 @@ ms.assetid: 4270c45e-4f20-4fcd-ad60-b205e334f692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateSampleCopierMFT, MFCreateSampleCopierMFT function [Media Foundation], mf.mfcreatesamplecopiermft, mfidl/MFCreateSampleCopierMFT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

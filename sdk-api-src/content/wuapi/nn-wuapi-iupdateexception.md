@@ -9,8 +9,6 @@ ms.assetid: 9e7458be-b411-4395-98f2-c92308f78371
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

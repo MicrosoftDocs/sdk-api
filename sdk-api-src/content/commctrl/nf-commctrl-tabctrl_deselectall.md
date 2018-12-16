@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deselectall.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_DeselectAll, TabCtrl_DeselectAll macro [Windows Controls], _win32_TabCtrl_DeselectAll, _win32_TabCtrl_DeselectAll_cpp, commctrl/TabCtrl_DeselectAll, controls.TabCtrl_DeselectAll, controls._win32_TabCtrl_DeselectAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

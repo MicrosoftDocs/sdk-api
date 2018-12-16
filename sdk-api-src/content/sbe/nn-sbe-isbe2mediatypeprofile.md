@@ -9,8 +9,6 @@ ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

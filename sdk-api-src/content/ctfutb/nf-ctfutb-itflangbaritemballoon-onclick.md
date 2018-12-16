@@ -9,8 +9,6 @@ ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

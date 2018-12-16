@@ -9,8 +9,6 @@ ms.assetid: da4d96ce-e22b-4e1c-aa2e-df46416a5f0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation], MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY, mf.mfenumdevicesources, mfidl/MFEnumDeviceSources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

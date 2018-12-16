@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetCachedSize method, ITextServices.TxGetCachedSize, ITextServices::TxGetCachedSize, TxGetCachedSize, TxGetCachedSize method [Windows Controls], TxGetCachedSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetCachedSize, _win32_ITextServices_TxGetCachedSize_cpp, controls.ITextServices_TxGetCachedSize, controls._win32_ITextServices_TxGetCachedSize, textserv/ITextServices::TxGetCachedSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

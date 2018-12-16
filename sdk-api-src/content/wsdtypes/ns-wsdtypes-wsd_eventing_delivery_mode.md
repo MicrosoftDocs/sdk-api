@@ -9,8 +9,6 @@ ms.assetid: 6c767642-3b3c-47cb-afd9-c4c005241996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE, WSD_EVENTING_DELIVERY_MODE structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryModes/Push, ncd.wsd_eventing_delivery_mode, wsdtypes/WSD_EVENTING_DELIVERY_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

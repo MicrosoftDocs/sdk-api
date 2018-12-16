@@ -9,8 +9,6 @@ ms.assetid: af3eb1e6-f402-4b99-b749-3ce8cef865b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptGetFontFeatureTags, ScriptGetFontFeatureTags function [Internationalization for Windows Applications], _win32_ScriptGetFontFeatureTags, intl.scriptgetfontfeaturetags, usp10/ScriptGetFontFeatureTags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

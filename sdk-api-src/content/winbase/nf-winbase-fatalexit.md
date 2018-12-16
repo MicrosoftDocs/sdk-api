@@ -9,8 +9,6 @@ ms.assetid: 6015e025-872f-455a-89f9-0ff96e59ef15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, winbase/FatalExit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

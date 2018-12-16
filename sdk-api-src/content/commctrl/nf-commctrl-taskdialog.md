@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfun
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: Commctrl.h

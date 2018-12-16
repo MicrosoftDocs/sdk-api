@@ -9,8 +9,6 @@ ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

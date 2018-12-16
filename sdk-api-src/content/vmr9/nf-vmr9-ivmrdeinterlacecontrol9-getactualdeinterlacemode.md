@@ -9,8 +9,6 @@ ms.assetid: d8b8b92a-c5ed-45fc-8177-1fd5f5a5625b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetActualDeinterlaceMode method, IVMRDeinterlaceControl9.GetActualDeinterlaceMode, IVMRDeinterlaceControl9::GetActualDeinterlaceMode, IVMRDeinterlaceControl9GetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol9_getactualdeinterlacemode, vmr9/IVMRDeinterlaceControl9::GetActualDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

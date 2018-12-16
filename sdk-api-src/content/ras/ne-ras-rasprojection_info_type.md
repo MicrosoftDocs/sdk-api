@@ -9,8 +9,6 @@ ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION_INFO_TYPE, RASPROJECTION_INFO_TYPE enumeration [RAS], ras/PROJECTION_INFO_TYPE_IKEv2, ras/PROJECTION_INFO_TYPE_PPP, ras/RASPROJECTION_INFO_TYPE, rras.rasprojection_info_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ras.h
 req.include-header: 

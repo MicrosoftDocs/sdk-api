@@ -9,8 +9,6 @@ ms.assetid: 2e228694-cfb1-48c5-a2c5-a0e57ad71724
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_security_context_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

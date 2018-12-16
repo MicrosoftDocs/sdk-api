@@ -9,8 +9,6 @@ ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -9,8 +9,6 @@ ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

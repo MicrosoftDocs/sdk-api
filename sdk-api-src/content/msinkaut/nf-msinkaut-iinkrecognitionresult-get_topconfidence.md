@@ -9,8 +9,6 @@ ms.assetid: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a, IInkRecognitionResult interface [Tablet PC],TopConfidence property, IInkRecognitionResult.TopConfidence, IInkRecognitionResult.get_TopConfidence, IInkRecognitionResult::TopConfidence, IInkRecognitionResult::get_TopConfidence, TopConfidence property [Tablet PC], TopConfidence property [Tablet PC],IInkRecognitionResult interface, get_TopConfidence, msinkaut/IInkRecognitionResult::TopConfidence, msinkaut/IInkRecognitionResult::get_TopConfidence, tablet.iinkrecognitionresult_topconfidence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization interface [Tablet PC],ReleaseLock method, IRealTimeStylusSynchronization.ReleaseLock, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC],IRealTimeStylusSynchronization interface, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de40538a-e2ba-49ec-bde6-6803da6515da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeDestinationAddressType method, ITForwardInformation2.get_ForwardTypeDestinationAddressType, ITForwardInformation2::get_ForwardTypeDestinationAddressType, _tapi3_itforwardinformation2_get_forwardtypedestinationaddresstype, get_ForwardTypeDestinationAddressType, get_ForwardTypeDestinationAddressType method [TAPI 2.2], get_ForwardTypeDestinationAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypedestinationaddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeDestinationAddressType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

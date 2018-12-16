@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveRoot method, ISearchCrawlScopeManager.RemoveRoot, ISearchCrawlScopeManager::RemoveRoot, RemoveRoot, RemoveRoot method [search], RemoveRoot method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveRoot, search._search_ISearchCrawlScopeManager_RemoveRoot, searchapi/ISearchCrawlScopeManager::RemoveRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

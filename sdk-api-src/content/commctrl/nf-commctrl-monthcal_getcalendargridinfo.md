@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: db00797b-989f-4f92-8fac-aaa147e37383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_error method, IWMPCore.get_error, IWMPCore::get_error, IWMPCoreget_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_error, wmp/IWMPCore::get_error
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

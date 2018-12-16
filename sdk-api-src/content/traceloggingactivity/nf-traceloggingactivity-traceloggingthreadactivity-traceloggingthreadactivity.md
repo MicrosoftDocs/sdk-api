@@ -9,8 +9,6 @@ ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,TraceLoggingThreadActivity method, TraceLoggingThreadActivity method, TraceLoggingThreadActivity method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity.TraceLoggingThreadActivity, TraceLoggingThreadActivity::TraceLoggingThreadActivity, tracelogging.traceloggingthreadactivity_traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 

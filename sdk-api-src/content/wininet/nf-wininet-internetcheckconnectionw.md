@@ -9,8 +9,6 @@ ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetCheckConnection, InternetCheckConnection function [WinINet], InternetCheckConnectionA, InternetCheckConnectionW, _inet_internetcheckconnection_function, wininet.internetcheckconnection, wininet/InternetCheckConnection, wininet/InternetCheckConnectionA, wininet/InternetCheckConnectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

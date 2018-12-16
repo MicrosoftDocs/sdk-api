@@ -9,8 +9,6 @@ ms.assetid: b34d9318-8a0f-4986-a678-76ba6c5bb051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.Status, IAsyncInfo.get_Status, IAsyncInfo::Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status, winrt.iasyncinfo_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 

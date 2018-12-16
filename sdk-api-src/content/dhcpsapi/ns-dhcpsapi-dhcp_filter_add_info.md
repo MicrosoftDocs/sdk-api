@@ -9,8 +9,6 @@ ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO structure [DHCP], PDHCP_FILTER_ADD_INFO, PDHCP_FILTER_ADD_INFO structure pointer [DHCP], dhcp.dhcp_filter_add_info, dhcpsapi/DHCP_FILTER_ADD_INFO, dhcpsapi/PDHCP_FILTER_ADD_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],IsServiceReady method, IVdsService.IsServiceReady, IVdsService::IsServiceReady, IsServiceReady, IsServiceReady method [VDS], IsServiceReady method [VDS],IVdsService interface, base.ivdsservice_isserviceready, vds/IVdsService::IsServiceReady
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

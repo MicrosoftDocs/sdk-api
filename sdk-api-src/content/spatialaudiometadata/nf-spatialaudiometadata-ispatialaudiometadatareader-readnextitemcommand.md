@@ -9,8 +9,6 @@ ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItemCommand method, ISpatialAudioMetadataReader.ReadNextItemCommand, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

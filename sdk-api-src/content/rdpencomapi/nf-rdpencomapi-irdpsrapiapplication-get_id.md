@@ -9,8 +9,6 @@ ms.assetid: 036a882d-9572-4b88-ad78-962251140a27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Id property, IRDPSRAPIApplication.Id, IRDPSRAPIApplication.get_Id, IRDPSRAPIApplication::Id, IRDPSRAPIApplication::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIApplication interface, Id property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Id property, get_Id, rdp.irdpsrapiapplication_id, rdpencomapi/IRDPSRAPIApplication::Id, rdpencomapi/IRDPSRAPIApplication::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

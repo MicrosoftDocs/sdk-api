@@ -9,8 +9,6 @@ ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncodeFunction, EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],EncodeFunction method, ITextStrings.EncodeFunction, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

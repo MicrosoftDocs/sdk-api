@@ -9,8 +9,6 @@ ms.assetid: 2e229b0e-59ae-4fcf-a398-32bc20611802
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWPCWebSettings interface,RequestURLOverride method, IWPCWebSettings.RequestURLOverride, IWPCWebSettings::RequestURLOverride, RequestURLOverride, RequestURLOverride method, RequestURLOverride method,IWPCWebSettings interface, parcon.iwpcwebsettings_requesturloverride, wpcapi/IWPCWebSettings::RequestURLOverride
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

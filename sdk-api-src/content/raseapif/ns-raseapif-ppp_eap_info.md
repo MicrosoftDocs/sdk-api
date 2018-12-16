@@ -9,8 +9,6 @@ ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPPP_EAP_INFO, PPPP_EAP_INFO, PPPP_EAP_INFO structure pointer [EAP], PPP_EAP_INFO, PPP_EAP_INFO structure [EAP], _eap_ppp_eap_info, eap.ppp_eap_info, raseapif/PPPP_EAP_INFO, raseapif/PPP_EAP_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

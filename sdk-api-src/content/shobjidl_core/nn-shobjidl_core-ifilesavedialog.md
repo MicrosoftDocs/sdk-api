@@ -9,8 +9,6 @@ ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

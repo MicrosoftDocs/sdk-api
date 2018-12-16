@@ -9,8 +9,6 @@ ms.assetid: 655a7d13-8ef1-4863-a6a2-4636ba0a8983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_WRITER_RAW_ENCODING, WS_XML_WRITER_RAW_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_RAW_ENCODING, wsw.ws_xml_writer_raw_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

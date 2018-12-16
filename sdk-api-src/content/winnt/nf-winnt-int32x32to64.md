@@ -9,8 +9,6 @@ ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

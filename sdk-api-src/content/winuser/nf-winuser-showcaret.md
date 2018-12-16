@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreferenc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShowCaret, ShowCaret function [Menus and Other Resources], _win32_ShowCaret, _win32_showcaret_cpp, menurc.showcaret, winui._win32_showcaret, winuser/ShowCaret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

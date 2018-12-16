@@ -9,8 +9,6 @@ ms.assetid: 63af9aa4-a1f0-4277-bd36-8b4c64227b3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallComponent method, ICOMAdminCatalog.InstallComponent, ICOMAdminCatalog::InstallComponent, InstallComponent, InstallComponent method [COM+], InstallComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallComponent, comadmin/ICOMAdminCatalog::InstallComponent, cos.icomadmincatalog_installcomponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 55b4de40-d81d-4989-8f57-a286815fa495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Structured Storage], propvarutil/StgDeserializePropVariant, stg.stgdeserializepropvariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

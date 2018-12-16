@@ -9,8 +9,6 @@ ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_VIRTUAL_IF_TUNNEL_INFO0, IPSEC_VIRTUAL_IF_TUNNEL_INFO0 structure [Filtering], IPSEC_VIRTUAL_IF_TUNNEL_INFO0_, fwp.ipsec_virtual_if_tunnel_info0, fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: Ipsectypes.h

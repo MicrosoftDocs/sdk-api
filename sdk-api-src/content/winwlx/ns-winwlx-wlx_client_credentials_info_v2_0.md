@@ -9,8 +9,6 @@ ms.assetid: 74783de8-9134-45d8-a8de-26aec884db4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLX_CLIENT_CREDENTIALS_INFO_V2_0, PWLX_CLIENT_CREDENTIALS_INFO_V2_0, PWLX_CLIENT_CREDENTIALS_INFO_V2_0 structure pointer [Security], WLX_CLIENT_CREDENTIALS_INFO_V2_0, WLX_CLIENT_CREDENTIALS_INFO_V2_0 structure [Security], security.wlx_client_credentials_info_v2_0, winwlx/PWLX_CLIENT_CREDENTIALS_INFO_V2_0, winwlx/WLX_CLIENT_CREDENTIALS_INFO_V2_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

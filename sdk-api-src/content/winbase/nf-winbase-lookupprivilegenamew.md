@@ -9,8 +9,6 @@ ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

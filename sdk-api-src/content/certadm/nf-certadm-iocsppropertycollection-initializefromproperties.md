@@ -9,8 +9,6 @@ ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],InitializeFromProperties method, IOCSPPropertyCollection.InitializeFromProperties, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

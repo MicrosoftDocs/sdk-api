@@ -9,8 +9,6 @@ ms.assetid: 7e1828bf-c9ed-4120-b91f-b4eb45191e48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINFO, gdi.ttembedinfo, t2embapi/TTEMBEDINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

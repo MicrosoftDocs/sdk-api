@@ -9,8 +9,6 @@ ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

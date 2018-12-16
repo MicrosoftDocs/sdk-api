@@ -9,8 +9,6 @@ ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

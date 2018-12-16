@@ -9,8 +9,6 @@ ms.assetid: 1ad28066-dcec-4dd4-896d-e009e6827ea3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment Services], wds.wdscligetimagepath, wdsclientapi/WdsCliGetImagePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

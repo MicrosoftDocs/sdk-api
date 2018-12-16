@@ -9,8 +9,6 @@ ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpegtype.h
 req.include-header: Dshow.h

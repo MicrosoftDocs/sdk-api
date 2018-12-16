@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_AddString, ComboBox_AddString macro [Windows Controls], _win32_ComboBox_AddString, _win32_ComboBox_AddString_cpp, controls.ComboBox_AddString, controls._win32_ComboBox_AddString, windowsx/ComboBox_AddString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

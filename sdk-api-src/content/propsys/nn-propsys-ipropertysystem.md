@@ -9,8 +9,6 @@ ms.assetid: 9ead94d9-4d4e-44c6-8c53-11c4c4ee2fb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], IPropertySystem interface [Windows Properties],described, properties.IPropertySystem, propsys/IPropertySystem, shell.IPropertySystem, shell_IPropertySystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

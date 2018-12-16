@@ -9,8 +9,6 @@ ms.assetid: f29a3454-fa64-4305-ba4e-027d45014024
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_ENUM_OID_FUNC, CRYPT_ENUM_OID_FUNCTION, CRYPT_ENUM_OID_FUNCTION callback function [Security], PFN_CRYPT_ENUM_OID_FUNC, PFN_CRYPT_ENUM_OID_FUNC callback, security.crypt_enum_oid_function, wincrypt/CRYPT_ENUM_OID_FUNCTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

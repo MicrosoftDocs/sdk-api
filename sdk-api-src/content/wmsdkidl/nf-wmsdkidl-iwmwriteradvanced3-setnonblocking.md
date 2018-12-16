@@ -9,8 +9,6 @@ ms.assetid: 4bec5e6c-5f77-433c-95e0-e3df4dba905c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced3 interface [windows Media Format],SetNonBlocking method, IWMWriterAdvanced3.SetNonBlocking, IWMWriterAdvanced3::SetNonBlocking, IWMWriterAdvanced3SetNonBlocking, SetNonBlocking, SetNonBlocking method [windows Media Format], SetNonBlocking method [windows Media Format],IWMWriterAdvanced3 interface, wmformat.iwmwriteradvanced3_setnonblocking, wmsdkidl/IWMWriterAdvanced3::SetNonBlocking
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

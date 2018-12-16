@@ -9,8 +9,6 @@ ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TRAP_INFO, PMIB_GET_TRAP_INFO callback, _mpr_mibgettrapinfo, routprot/MibGetTrapInfo, rras.mibgettrapinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

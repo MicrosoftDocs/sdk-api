@@ -9,8 +9,6 @@ ms.assetid: 4a62d1e4-4d00-416b-b44a-23a9cbc53a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],ProviderName property, IX509AttributeCspProvider.ProviderName, IX509AttributeCspProvider.get_ProviderName, IX509AttributeCspProvider::ProviderName, IX509AttributeCspProvider::get_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::ProviderName, certenroll/IX509AttributeCspProvider::get_ProviderName, get_ProviderName, security.ix509attributecspprovider_providername_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

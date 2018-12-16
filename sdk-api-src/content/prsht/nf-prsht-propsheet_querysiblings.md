@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_querysiblings.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_QuerySiblings, PropSheet_QuerySiblings macro [Windows Controls], _win32_PropSheet_QuerySiblings, _win32_PropSheet_QuerySiblings_cpp, controls.PropSheet_QuerySiblings, controls._win32_PropSheet_QuerySiblings, prsht/PropSheet_QuerySiblings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

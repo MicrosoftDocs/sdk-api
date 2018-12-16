@@ -9,8 +9,6 @@ ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

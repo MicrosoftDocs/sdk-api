@@ -9,8 +9,6 @@ ms.assetid: 0a54d59a-3fe4-4636-94a0-5ee449d1d5c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataHandlerInfo.GetMetadataFormat, IWICMetadataHandlerInfo::GetMetadataFormat, _wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wic._wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wincodecsdk/IWICMetadataHandlerInfo::GetMetadataFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

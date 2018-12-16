@@ -9,8 +9,6 @@ ms.assetid: cfb0b67d-7eb1-4bbb-90be-33ca82b9460f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetToneCurve method, IWICDevelopRaw.SetToneCurve, IWICDevelopRaw::SetToneCurve, SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

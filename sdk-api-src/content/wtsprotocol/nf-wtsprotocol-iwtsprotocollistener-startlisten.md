@@ -9,8 +9,6 @@ ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

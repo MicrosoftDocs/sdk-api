@@ -9,8 +9,6 @@ ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b2cbd9dc-5451-4aae-b2ce-28b2b93fd465
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecord method, ICrmLogControl.WriteLogRecord, ICrmLogControl::WriteLogRecord, WriteLogRecord, WriteLogRecord method [COM+], WriteLogRecord method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecord, comsvcs/ICrmLogControl::WriteLogRecord, cos.icrmlogcontrol_writelogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

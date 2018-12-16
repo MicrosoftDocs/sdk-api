@@ -9,8 +9,6 @@ ms.assetid: e36fe31b-fed0-42f2-ba23-43954a28df59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION, WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION, wsw.ws_http_ssl_username_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

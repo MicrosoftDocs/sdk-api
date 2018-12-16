@@ -9,8 +9,6 @@ ms.assetid: 4ef10852-8229-41de-a4d7-d2845e4c92ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyPrivateObjectSecurity, DestroyPrivateObjectSecurity function [Security], _win32_destroyprivateobjectsecurity, security.destroyprivateobjectsecurity, securitybaseapi/DestroyPrivateObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

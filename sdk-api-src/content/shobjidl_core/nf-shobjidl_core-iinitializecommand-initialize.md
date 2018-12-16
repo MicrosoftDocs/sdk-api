@@ -9,8 +9,6 @@ ms.assetid: ec115bee-7ce3-428b-9081-2f21f3793de4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInitializeCommand interface [Windows Shell],Initialize method, IInitializeCommand.Initialize, IInitializeCommand::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeCommand interface, _shell_IInitializeCommand_Initialize, shell.IInitializeCommand_Initialize, shobjidl_core/IInitializeCommand::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

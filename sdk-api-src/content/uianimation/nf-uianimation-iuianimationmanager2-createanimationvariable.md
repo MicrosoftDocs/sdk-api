@@ -9,8 +9,6 @@ ms.assetid: 5E963D24-2436-4B8F-8806-69E521EC83AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager2.CreateAnimationVariable, IUIAnimationManager2::CreateAnimationVariable, uianimation.iuianimationmanager2_createanimationvariable, uianimation/IUIAnimationManager2::CreateAnimationVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

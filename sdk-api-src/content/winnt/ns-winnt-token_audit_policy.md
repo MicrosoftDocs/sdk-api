@@ -9,8 +9,6 @@ ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

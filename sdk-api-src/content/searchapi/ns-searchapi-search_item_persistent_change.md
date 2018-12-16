@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_persistent
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 

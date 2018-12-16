@@ -9,8 +9,6 @@ ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

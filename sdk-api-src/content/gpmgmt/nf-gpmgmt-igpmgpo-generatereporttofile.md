@@ -9,8 +9,6 @@ ms.assetid: 686b1461-3136-4351-adc4-32d558d62246
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReportToFile method, IGPMGPO.GenerateReportToFile, IGPMGPO::GenerateReportToFile, gpmc.igpmgpo_generatereporttofile, gpmgmt/IGPMGPO::GenerateReportToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

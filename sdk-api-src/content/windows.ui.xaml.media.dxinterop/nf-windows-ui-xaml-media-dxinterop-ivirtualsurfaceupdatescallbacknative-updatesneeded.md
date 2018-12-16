@@ -9,8 +9,6 @@ ms.assetid: D689C977-3182-41FE-A789-8A349AC2FB10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative.xaml, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative::xaml, UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime],IVirtualSurfaceUpdatesCallbackNative interface, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

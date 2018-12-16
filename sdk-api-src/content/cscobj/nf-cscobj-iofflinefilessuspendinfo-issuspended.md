@@ -9,8 +9,6 @@ ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

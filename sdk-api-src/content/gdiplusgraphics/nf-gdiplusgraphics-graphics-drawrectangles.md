@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawRectangles, DrawRectangles methods [GDI+], Graphics.DrawRectangles, Graphics::DrawRectangles, _gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplusgraphics/DrawRectangles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

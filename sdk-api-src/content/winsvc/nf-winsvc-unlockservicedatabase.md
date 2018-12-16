@@ -9,8 +9,6 @@ ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

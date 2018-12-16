@@ -9,8 +9,6 @@ ms.assetid: 86dcd76a-0de0-42f4-9360-87cf7ca4ebf6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsRemovable, IVdsRemovable interface [VDS], IVdsRemovable interface [VDS],described, base.ivdsremovable, vds/IVdsRemovable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

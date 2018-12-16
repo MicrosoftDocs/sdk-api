@@ -9,8 +9,6 @@ ms.assetid: fc25ca04-8520-4053-9591-afc81c88670c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

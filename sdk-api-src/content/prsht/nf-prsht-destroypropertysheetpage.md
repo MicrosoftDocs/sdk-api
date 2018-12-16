@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prsht.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de40f3a3-1880-426d-b3c2-864f0f45f218
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetBufferSetLength method, CHString.GetBufferSetLength, CHString::GetBufferSetLength, GetBufferSetLength, GetBufferSetLength method [Windows Management Instrumentation], GetBufferSetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffersetlength, chstring/CHString::GetBufferSetLength, wmi.chstring_getbuffersetlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

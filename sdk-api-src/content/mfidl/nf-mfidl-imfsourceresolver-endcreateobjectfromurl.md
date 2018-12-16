@@ -9,8 +9,6 @@ ms.assetid: af50a76d-b083-4815-bbff-820b21ff8d1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndCreateObjectFromURL, EndCreateObjectFromURL method [Media Foundation], EndCreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],EndCreateObjectFromURL method, IMFSourceResolver.EndCreateObjectFromURL, IMFSourceResolver::EndCreateObjectFromURL, af50a76d-b083-4815-bbff-820b21ff8d1b, mf.imfsourceresolver_endcreateobjectfromurl, mfidl/IMFSourceResolver::EndCreateObjectFromURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

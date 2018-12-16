@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_95t0_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingMethod, IFaxInboundRoutingMethod interface [Fax Service], IFaxInboundRoutingMethod interface [Fax Service],described, _mfax_faxinboundroutingmethod_cpp, fax._mfax_faxinboundroutingmethod_cpp, faxcomex/IFaxInboundRoutingMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

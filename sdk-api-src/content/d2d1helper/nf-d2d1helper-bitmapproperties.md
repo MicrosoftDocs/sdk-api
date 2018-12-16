@@ -9,8 +9,6 @@ ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BitmapProperties, BitmapProperties function [Direct2D], d2d1helper/BitmapProperties, direct2d.bitmapproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

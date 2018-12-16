@@ -9,8 +9,6 @@ ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

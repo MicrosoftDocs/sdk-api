@@ -9,8 +9,6 @@ ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1f00a485-42b5-4f91-88e0-d2ce78273be1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],IShellLink interface, GetDescription method [Windows Shell],IShellLinkA interface, GetDescription method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetDescription method, IShellLink::GetDescription, IShellLinkA interface [Windows Shell],GetDescription method, IShellLinkA.GetDescription, IShellLinkA::GetDescription, IShellLinkW interface [Windows Shell],GetDescription method, IShellLinkW::GetDescription, _win32_IShellLink_GetDescription, shell.IShellLink_GetDescription, shobjidl_core/IShellLink::GetDescription, shobjidl_core/IShellLinkA::GetDescription, shobjidl_core/IShellLinkW::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

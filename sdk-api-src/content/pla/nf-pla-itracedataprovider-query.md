@@ -9,8 +9,6 @@ ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

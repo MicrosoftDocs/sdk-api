@@ -9,8 +9,6 @@ ms.assetid: A39E1F7C-A4FB-47da-A05E-39F6176F2878
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadLONG, PSPropertyBag_ReadLONG function [Windows Properties], properties.PSPropertyBag_ReadLONG, propsys/PSPropertyBag_ReadLONG, shell.PSPropertyBag_ReadLONG, shell_PSPropertyBag_ReadLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl

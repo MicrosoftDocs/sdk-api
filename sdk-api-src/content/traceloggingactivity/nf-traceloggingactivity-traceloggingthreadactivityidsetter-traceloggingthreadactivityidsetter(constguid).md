@@ -9,8 +9,6 @@ ms.assetid: F950256A-27A8-4C8F-B4A3-974F0E095103
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter interface,TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method,TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter(const GUID), TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID), tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 

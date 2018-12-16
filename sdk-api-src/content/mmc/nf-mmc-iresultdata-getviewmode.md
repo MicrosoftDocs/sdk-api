@@ -9,8 +9,6 @@ ms.assetid: e6c9b3ef-3b12-42c1-9b3b-ad890b8bd05e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViewMode, GetViewMode method [MMC], GetViewMode method [MMC],IResultData interface, GetViewMode method [MMC],IResultData2 interface, IResultData interface [MMC],GetViewMode method, IResultData.GetViewMode, IResultData2 interface [MMC],GetViewMode method, IResultData2::GetViewMode, IResultData::GetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, _slate_iresultdata_getviewmode, mmc.iresultdata_getviewmode, mmc/IResultData2::GetViewMode, mmc/IResultData::GetViewMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

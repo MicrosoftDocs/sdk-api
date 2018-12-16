@@ -9,8 +9,6 @@ ms.assetid: 7D569FCB-06D4-4348-B75A-D087D1D37851
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT structure pointer [Files], USN_RECORD_EXTENT, USN_RECORD_EXTENT structure [Files], fs.usn_record_extent, winioctl/PUSN_RECORD_EXTENT, winioctl/USN_RECORD_EXTENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

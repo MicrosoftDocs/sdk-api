@@ -9,8 +9,6 @@ ms.assetid: 03bcd93d-e3ec-49aa-be6c-399922f67c28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDFS_INFO_7, *PDFS_INFO_7, DFS_INFO_7, DFS_INFO_7 structure [Distributed File System], LPDFS_INFO_7, LPDFS_INFO_7 structure pointer [Distributed File System], PDFS_INFO_7, PDFS_INFO_7 structure pointer [Distributed File System], dfs.dfs_info_7, fs.dfs_info_7, lmdfs/DFS_INFO_7, lmdfs/LPDFS_INFO_7, lmdfs/PDFS_INFO_7, netmgmt.dfs_info_7"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

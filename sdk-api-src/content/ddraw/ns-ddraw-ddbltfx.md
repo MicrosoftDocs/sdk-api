@@ -9,8 +9,6 @@ ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITHSTRETCHY, DDBLTFX_MIRRORLEFTRIGHT, DDBLTFX_MIRRORUPDOWN, DDBLTFX_NOTEARING, DDBLTFX_ROTATE180, DDBLTFX_ROTATE270, DDBLTFX_ROTATE90, DDBLTFX_ZBUFFERBASEDEST, DDBLTFX_ZBUFFERRANGE, LPDDBLTFX, LPDDBLTFX structure pointer [DirectDraw], ddraw/DDBLTFX, ddraw/LPDDBLTFX, directdraw.ddbltfx"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

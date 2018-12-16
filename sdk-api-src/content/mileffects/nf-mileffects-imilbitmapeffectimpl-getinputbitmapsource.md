@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputbitma
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputBitmapSource, GetInputBitmapSource method [WPF Bitmap Effects], GetInputBitmapSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputBitmapSource method, IMILBitmapEffectImpl.GetInputBitmapSource, IMILBitmapEffectImpl::GetInputBitmapSource, _wibe_imilbitmapeffectimpl_getinputbitmapsource, mileffects/IMILBitmapEffectImpl::GetInputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getinputbitmapsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

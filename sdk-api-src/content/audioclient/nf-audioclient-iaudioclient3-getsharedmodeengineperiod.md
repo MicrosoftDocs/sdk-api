@@ -9,8 +9,6 @@ ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetListBoxInfo, GetListBoxInfo function [Windows Controls], _win32_GetListBoxInfo, _win32_GetListBoxInfo_cpp, controls.GetListBoxInfo, controls._win32_GetListBoxInfo, winuser/GetListBoxInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

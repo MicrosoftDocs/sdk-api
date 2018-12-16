@@ -9,8 +9,6 @@ ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], mi/MI_InstanceFT, wmi_v2.mi_instanceft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

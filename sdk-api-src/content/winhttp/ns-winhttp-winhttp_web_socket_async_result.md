@@ -9,8 +9,6 @@ ms.assetid: 90424980-9e30-465d-b948-820251c05357
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WINHTTP_WEB_SOCKET_ASYNC_RESULT, WINHTTP_WEB_SOCKET_ASYNC_RESULT structure [HTTP], http.http_web_socket_async_result, http.winhttp_web_socket_async_result, winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

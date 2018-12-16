@@ -9,8 +9,6 @@ ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

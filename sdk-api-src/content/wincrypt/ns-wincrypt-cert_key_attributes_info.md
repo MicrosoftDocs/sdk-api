@@ -9,8 +9,6 @@ ms.assetid: cedf0321-4f5a-48a9-abfd-d8642bb89576
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO structure [Security], PCERT_KEY_ATTRIBUTES_INFO, PCERT_KEY_ATTRIBUTES_INFO structure pointer [Security], _crypto2_cert_key_attributes_info, security.cert_key_attributes_info, wincrypt/CERT_KEY_ATTRIBUTES_INFO, wincrypt/PCERT_KEY_ATTRIBUTES_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

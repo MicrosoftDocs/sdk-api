@@ -9,8 +9,6 @@ ms.assetid: afd63c2d-4f77-49df-aeff-bfe56598fcbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_getservbyport_2, getservbyport, getservbyport function [Winsock], winsock.getservbyport_2, winsock/getservbyport"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

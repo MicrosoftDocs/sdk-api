@@ -9,8 +9,6 @@ ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

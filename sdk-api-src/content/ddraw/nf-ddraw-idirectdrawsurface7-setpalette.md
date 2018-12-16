@@ -9,8 +9,6 @@ ms.assetid: 938906fe-9f5b-468b-8b34-5de16aeb67b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetPalette method, IDirectDrawSurface7.SetPalette, IDirectDrawSurface7::SetPalette, SetPalette, SetPalette method [DirectDraw], SetPalette method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPalette, directdraw.idirectdrawsurface7_setpalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

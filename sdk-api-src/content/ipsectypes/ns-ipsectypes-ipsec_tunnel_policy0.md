@@ -9,8 +9,6 @@ ms.assetid: 092b108c-47e1-4b2f-b7ed-184cf8abb392
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TUNNEL_POLICY0, IPSEC_TUNNEL_POLICY0 structure [Filtering], fwp.ipsec_tunnel_policy0_struct, ipsectypes/IPSEC_TUNNEL_POLICY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

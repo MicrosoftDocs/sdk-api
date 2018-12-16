@@ -9,8 +9,6 @@ ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

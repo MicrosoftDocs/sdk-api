@@ -9,8 +9,6 @@ ms.assetid: bd92c9fa-fdea-4149-9727-90eafdf7c6bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreMoveItem method, IFileOperationProgressSink.PreMoveItem, IFileOperationProgressSink::PreMoveItem, PreMoveItem, PreMoveItem method [Windows Shell], PreMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreMoveItem, shell.IFileOperationProgressSink_PreMoveItem, shobjidl_core/IFileOperationProgressSink::PreMoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

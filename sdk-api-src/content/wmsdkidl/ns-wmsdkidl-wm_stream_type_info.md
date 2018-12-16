@@ -9,8 +9,6 @@ ms.assetid: 9e8f2670-555a-478a-99c2-3a4de7f8cfa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_STREAM_TYPE_INFO, WM_STREAM_TYPE_INFO structure [windows Media Format], structure [windows Media Format], wmformat.wm_stream_type_info, wmsdkidl/WM_STREAM_TYPE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

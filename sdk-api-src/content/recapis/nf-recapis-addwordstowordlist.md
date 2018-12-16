@@ -9,8 +9,6 @@ ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

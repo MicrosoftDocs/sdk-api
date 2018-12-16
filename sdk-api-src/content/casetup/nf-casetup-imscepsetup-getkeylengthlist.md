@@ -9,8 +9,6 @@ ms.assetid: 992619dd-1d59-4033-b3aa-ae32dc9948c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetKeyLengthList method, IMSCEPSetup.GetKeyLengthList, IMSCEPSetup::GetKeyLengthList, casetup/IMSCEPSetup::GetKeyLengthList, security.imscepsetup_getkeylengthlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

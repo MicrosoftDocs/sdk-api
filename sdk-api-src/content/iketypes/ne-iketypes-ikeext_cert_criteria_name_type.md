@@ -9,8 +9,6 @@ ms.assetid: ec59d6b2-3bfc-4e5b-9222-609d3141db5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_CERT_CRITERIA_CN, IKEEXT_CERT_CRITERIA_DC, IKEEXT_CERT_CRITERIA_DNS, IKEEXT_CERT_CRITERIA_NAME_TYPE, IKEEXT_CERT_CRITERIA_NAME_TYPE enumeration [Filtering], IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, IKEEXT_CERT_CRITERIA_O, IKEEXT_CERT_CRITERIA_OU, IKEEXT_CERT_CRITERIA_RFC822, IKEEXT_CERT_CRITERIA_UPN, fwp.ikeext_cert_criteria_name_type, iketypes/IKEEXT_CERT_CRITERIA_CN, iketypes/IKEEXT_CERT_CRITERIA_DC, iketypes/IKEEXT_CERT_CRITERIA_DNS, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, iketypes/IKEEXT_CERT_CRITERIA_O, iketypes/IKEEXT_CERT_CRITERIA_OU, iketypes/IKEEXT_CERT_CRITERIA_RFC822, iketypes/IKEEXT_CERT_CRITERIA_UPN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iketypes.h
 req.include-header: 

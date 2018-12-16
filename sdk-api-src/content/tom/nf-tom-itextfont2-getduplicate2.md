@@ -9,8 +9,6 @@ ms.assetid: dc6b979b-f837-4945-a35d-c5585d703bd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDuplicate2 method, ITextFont2.GetDuplicate2, ITextFont2::GetDuplicate2, controls.itextfont2_getduplicate2, tom/ITextFont2::GetDuplicate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

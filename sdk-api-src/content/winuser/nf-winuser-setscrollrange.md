@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfuncti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [Windows Controls], _win32_SetScrollRange, _win32_SetScrollRange_cpp, controls.SetScrollRange, controls._win32_SetScrollRange, winuser/SetScrollRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

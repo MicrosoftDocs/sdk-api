@@ -9,8 +9,6 @@ ms.assetid: 26eafc5f-6636-4f96-a037-7935cdac5900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

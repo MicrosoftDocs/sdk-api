@@ -9,8 +9,6 @@ ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

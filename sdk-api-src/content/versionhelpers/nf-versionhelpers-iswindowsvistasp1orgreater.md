@@ -9,8 +9,6 @@ ms.assetid: 7E74A761-E336-4618-B92F-166C3DF1FF66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindowsVistaSP1OrGreater, IsWindowsVistaSP1OrGreater function, base.iswindowsvistasp1orgreater, versionhelpers/IsWindowsVistaSP1OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

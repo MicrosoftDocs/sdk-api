@@ -9,8 +9,6 @@ ms.assetid: 644aaab0-8028-4dd2-9f56-f97db2b22d69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PositionChange method, IWMPEvents.PositionChange, IWMPEvents::PositionChange, IWMPEventsPositionChange, PositionChange, PositionChange method [Windows Media Player], PositionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__positionchange, wmp/IWMPEvents::PositionChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

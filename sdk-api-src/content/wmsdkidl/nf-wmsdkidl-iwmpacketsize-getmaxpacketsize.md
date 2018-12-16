@@ -9,8 +9,6 @@ ms.assetid: 8410c524-9c27-48ac-9a48-c17cae782764
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxPacketSize, GetMaxPacketSize method [windows Media Format], GetMaxPacketSize method [windows Media Format],IWMPacketSize interface, GetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize.GetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize2::GetMaxPacketSize, IWMPacketSize::GetMaxPacketSize, IWMPacketSizeGetMaxPacketSize, wmformat.iwmpacketsize_getmaxpacketsize, wmsdkidl/IWMPacketSize2::GetMaxPacketSize, wmsdkidl/IWMPacketSize::GetMaxPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

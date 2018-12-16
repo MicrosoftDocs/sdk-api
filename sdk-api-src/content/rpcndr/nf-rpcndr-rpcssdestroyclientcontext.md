@@ -9,8 +9,6 @@ ms.assetid: 7c4fe939-eda9-45c3-84fb-491ac96e7c78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcSsDestroyClientContext, RpcSsDestroyClientContext function [RPC], _rpc_rpcssdestroyclientcontext, rpc.rpcssdestroyclientcontext, rpcndr/RpcSsDestroyClientContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

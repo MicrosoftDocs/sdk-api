@@ -9,8 +9,6 @@ ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

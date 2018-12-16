@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetSel, Edit_SetSel macro [Windows Controls], _win32_Edit_SetSel, _win32_Edit_SetSel_cpp, controls.Edit_SetSel, controls._win32_Edit_SetSel, windowsx/Edit_SetSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

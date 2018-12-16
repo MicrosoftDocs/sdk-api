@@ -9,8 +9,6 @@ ms.assetid: 60c76c8f-1434-4347-9639-a886d6ae133c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStrokeDashes, GetStrokeDashes method [XPS Documents and Packaging], GetStrokeDashes method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashes method, IXpsOMPath.GetStrokeDashes, IXpsOMPath::GetStrokeDashes, xps.ixpsompath_getstrokedashes, xpsobjectmodel/IXpsOMPath::GetStrokeDashes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

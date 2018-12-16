@@ -9,8 +9,6 @@ ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS structure [TAPI 2.2], LPLINEINITIALIZEEXPARAMS, LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], _tapi2_lineinitializeexparams_str, tapi/LINEINITIALIZEEXPARAMS, tapi/LPLINEINITIALIZEEXPARAMS, tapi2.lineinitializeexparams_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

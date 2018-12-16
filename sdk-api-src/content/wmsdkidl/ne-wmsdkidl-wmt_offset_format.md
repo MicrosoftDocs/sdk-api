@@ -9,8 +9,6 @@ ms.assetid: b4119098-0407-462b-8550-46f8c1312fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_OFFSET_FORMAT, WMT_OFFSET_FORMAT enumeration [windows Media Format], WMT_OFFSET_FORMAT_100NS, WMT_OFFSET_FORMAT_100NS_APPROXIMATE, WMT_OFFSET_FORMAT_FRAME_NUMBERS, WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, WMT_OFFSET_FORMAT_TIMECODE, wmformat.wmt_offset_format, wmsdkidl/WMT_OFFSET_FORMAT, wmsdkidl/WMT_OFFSET_FORMAT_100NS, wmsdkidl/WMT_OFFSET_FORMAT_100NS_APPROXIMATE, wmsdkidl/WMT_OFFSET_FORMAT_FRAME_NUMBERS, wmsdkidl/WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, wmsdkidl/WMT_OFFSET_FORMAT_TIMECODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

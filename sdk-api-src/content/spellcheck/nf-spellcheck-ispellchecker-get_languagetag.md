@@ -9,8 +9,6 @@ ms.assetid: 1765a0ec-798c-4d0f-af05-d4d028c71dda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LanguageTag property, ISpellChecker.LanguageTag, ISpellChecker.get_LanguageTag, ISpellChecker::LanguageTag, ISpellChecker::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellChecker interface, get_LanguageTag, intl.ispellchecker_languagetag, spellcheck/ISpellChecker::LanguageTag, spellcheck/ISpellChecker::get_LanguageTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

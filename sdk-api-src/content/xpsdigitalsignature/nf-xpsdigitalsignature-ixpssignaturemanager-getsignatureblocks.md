@@ -9,8 +9,6 @@ ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

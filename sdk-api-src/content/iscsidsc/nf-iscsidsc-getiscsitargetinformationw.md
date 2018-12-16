@@ -9,8 +9,6 @@ ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIScsiTargetInformationW, GetIscsiTargetInformation, GetIscsiTargetInformation function [iSCSI Discovery Library API], GetIscsiTargetInformationA, GetIscsiTargetInformationW, iscsidisc.getiscsitargetinformation, iscsidsc/GetIscsiTargetInformation, iscsidsc/GetIscsiTargetInformationA, iscsidsc/GetIscsiTargetInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

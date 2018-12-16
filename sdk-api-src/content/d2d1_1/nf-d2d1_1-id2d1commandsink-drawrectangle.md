@@ -9,8 +9,6 @@ ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawRectangle method, ID2D1CommandSink.DrawRectangle, ID2D1CommandSink::DrawRectangle, d2d1_1/ID2D1CommandSink::DrawRectangle, direct2d.id2d1commandsink_drawrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

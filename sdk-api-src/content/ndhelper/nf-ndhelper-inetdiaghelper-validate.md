@@ -9,8 +9,6 @@ ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Validate, INetDiagHelper::Validate, Validate, Validate method [NDF], Validate method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

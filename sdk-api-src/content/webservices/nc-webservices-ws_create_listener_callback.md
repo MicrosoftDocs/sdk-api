@@ -9,8 +9,6 @@ ms.assetid: 2d8e476d-dc68-44b4-b53b-be440a32efda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CREATE_LISTENER_CALLBACK, WS_CREATE_LISTENER_CALLBACK callback, WS_CREATE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_LISTENER_CALLBACK, wsw.ws_create_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

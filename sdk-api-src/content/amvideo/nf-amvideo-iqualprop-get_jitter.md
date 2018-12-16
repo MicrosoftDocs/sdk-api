@@ -9,8 +9,6 @@ ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQualProp interface [DirectShow],get_Jitter method, IQualProp.get_Jitter, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

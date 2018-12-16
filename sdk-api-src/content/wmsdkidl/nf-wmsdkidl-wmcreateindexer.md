@@ -9,8 +9,6 @@ ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

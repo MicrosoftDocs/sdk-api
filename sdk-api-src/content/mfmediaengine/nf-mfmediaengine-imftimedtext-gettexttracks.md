@@ -9,8 +9,6 @@ ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0258d87c-0270-449e-8e96-2c511c5f7242
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_LPF_LBN_REMAP_ENABLED, VDS_LUN_PLEX_FLAG, VDS_LUN_PLEX_FLAG enumeration [VDS], base.vds_lun_plex_flag, vds/VDS_LPF_LBN_REMAP_ENABLED, vds/VDS_LUN_PLEX_FLAG, vdshwprv/VDS_LPF_LBN_REMAP_ENABLED, vdshwprv/VDS_LUN_PLEX_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

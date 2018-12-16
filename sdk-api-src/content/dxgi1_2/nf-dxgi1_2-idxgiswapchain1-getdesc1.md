@@ -9,8 +9,6 @@ ms.assetid: 86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetDesc1 method, IDXGISwapChain1.GetDesc1, IDXGISwapChain1::GetDesc1, direct3ddxgi.idxgiswapchain1_getdesc1, dxgi1_2/IDXGISwapChain1::GetDesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

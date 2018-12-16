@@ -2,7 +2,7 @@
 UID: NA:powersetting
 ms.assetid: 77bae492-c504-34a7-860b-862f58039c0f
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

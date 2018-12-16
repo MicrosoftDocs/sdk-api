@@ -9,8 +9,6 @@ ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

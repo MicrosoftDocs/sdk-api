@@ -9,8 +9,6 @@ ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SIC_ASCIIDIGIT, SIC_COMPLEX, SIC_NEUTRAL, ScriptIsComplex, ScriptIsComplex function [Internationalization for Windows Applications], _win32_ScriptIsComplex, intl.scriptiscomplex, usp10/ScriptIsComplex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

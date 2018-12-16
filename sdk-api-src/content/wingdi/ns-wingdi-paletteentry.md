@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\paletteentry.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e36539855e, LPPALETTEENTRY, LPPALETTEENTRY structure pointer [Direct3D 9], PALETTEENTRY, PALETTEENTRY structure [Direct3D 9], direct3d9.paletteentry, wingdi/LPPALETTEENTRY, wingdi/PALETTEENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

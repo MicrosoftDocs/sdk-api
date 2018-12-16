@@ -9,8 +9,6 @@ ms.assetid: 721a4efc-e379-4553-a2a1-efb8831cda38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],Clear method, ITForwardInformation.Clear, ITForwardInformation::Clear, _tapi3_itforwardinformation_clear, tapi3.itforwardinformation_clear, tapi3if/ITForwardInformation::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

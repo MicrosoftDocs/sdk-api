@@ -9,8 +9,6 @@ ms.assetid: ae8b3762-f176-4f91-97fc-33f7a9dcd424
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceDeviceSetInfo, MprAdminInterfaceDeviceSetInfo function [RAS], _mpr_mpradmininterfacedevicesetinfo, mprapi/MprAdminInterfaceDeviceSetInfo, rras.mpradmininterfacedevicesetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

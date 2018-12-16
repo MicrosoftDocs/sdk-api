@@ -9,8 +9,6 @@ ms.assetid: 48BB37E8-1289-4F5E-BD12-4922E33A77C5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC constructor [Direct3D 11], CD3D11_SAMPLER_DESC constructor [Direct3D 11],CD3D11_SAMPLER_DESC interface, CD3D11_SAMPLER_DESC interface [Direct3D 11],CD3D11_SAMPLER_DESC constructor, CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC(CD3D11_DEFAULT), CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(CD3D11_DEFAULT), d3d11/CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, direct3d11.cd3d11_sampler_desc_cd3d11_sampler_desc_d3d11_sampler_desc_values_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

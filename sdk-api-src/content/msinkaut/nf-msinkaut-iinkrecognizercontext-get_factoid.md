@@ -9,8 +9,6 @@ ms.assetid: 11a76706-e2e5-4ae5-bdc2-5354514ea29f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 11a76706-e2e5-4ae5-bdc2-5354514ea29f, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Factoid property, IInkRecognizerContext.Factoid, IInkRecognizerContext.get_Factoid, IInkRecognizerContext::Factoid, IInkRecognizerContext::get_Factoid, IInkRecognizerContext::put_Factoid, InkRecognizerContext.get_Factoid, InkRecognizerContext.put_Factoid, get_Factoid, msinkaut/IInkRecognizerContext::Factoid, msinkaut/IInkRecognizerContext::get_Factoid, msinkaut/IInkRecognizerContext::put_Factoid, put_Factoid, tablet.inkrecognizercontext_factoid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

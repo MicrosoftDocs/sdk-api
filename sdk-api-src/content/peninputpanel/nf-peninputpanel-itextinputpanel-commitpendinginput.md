@@ -9,8 +9,6 @@ ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

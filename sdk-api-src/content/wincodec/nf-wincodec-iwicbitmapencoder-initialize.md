@@ -9,8 +9,6 @@ ms.assetid: 344a9a9d-8557-4ae8-9604-4040c7d7095a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],Initialize method, IWICBitmapEncoder.Initialize, IWICBitmapEncoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_initialize, wic._wic_codec_iwicbitmapencoder_initialize, wincodec/IWICBitmapEncoder::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

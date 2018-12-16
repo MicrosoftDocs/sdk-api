@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetForeColor method, ITextFont.SetForeColor, ITextFont::SetForeColor, SetForeColor, SetForeColor method [Windows Controls], SetForeColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetForeColor, _win32_ITextFont_SetForeColor_cpp, controls.ITextFont_SetForeColor, controls._win32_ITextFont_SetForeColor, tom/ITextFont::SetForeColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

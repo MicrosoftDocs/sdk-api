@@ -9,8 +9,6 @@ ms.assetid: a1289aca-bcf6-4fd2-a288-d401bece005d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],OnReady method, IWTSProtocolConnectionCallback.OnReady, IWTSProtocolConnectionCallback::OnReady, OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_onready, wtsprotocol/IWTSProtocolConnectionCallback::OnReady
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bbeeb18b-c5d7-4490-8edc-4af19b37ab3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO structure [Security], PCERT_BASIC_CONSTRAINTS2_INFO, PCERT_BASIC_CONSTRAINTS2_INFO structure pointer [Security], _crypto2_cert_basic_constraints2_info, security.cert_basic_constraints2_info, wincrypt/CERT_BASIC_CONSTRAINTS2_INFO, wincrypt/PCERT_BASIC_CONSTRAINTS2_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

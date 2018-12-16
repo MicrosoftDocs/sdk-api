@@ -9,8 +9,6 @@ ms.assetid: dadf91c5-7d27-4b1b-875b-6f0615440f47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderView interface [Windows Shell],ItemCount method, IFolderView.ItemCount, IFolderView::ItemCount, ItemCount, ItemCount method [Windows Shell], ItemCount method [Windows Shell],IFolderView interface, _shell_IFolderView_ItemCount, shell.IFolderView_ItemCount, shobjidl_core/IFolderView::ItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

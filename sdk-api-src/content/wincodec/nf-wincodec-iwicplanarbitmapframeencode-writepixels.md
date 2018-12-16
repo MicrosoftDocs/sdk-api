@@ -9,8 +9,6 @@ ms.assetid: 57DB1340-9BE4-46ED-9ADE-9B91657F09B7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICPlanarBitmapFrameEncode.WritePixels, IWICPlanarBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writepixels, wincodec/IWICPlanarBitmapFrameEncode::WritePixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

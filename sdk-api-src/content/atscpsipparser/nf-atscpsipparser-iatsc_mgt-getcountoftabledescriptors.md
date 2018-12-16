@@ -9,8 +9,6 @@ ms.assetid: 14bd596f-ca24-456b-bb53-4e7e37183422
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IATSC_MGT.GetCountOfTableDescriptors, IATSC_MGT::GetCountOfTableDescriptors, IATSC_MGTGetCountOfTableDescriptors, atscpsipparser/IATSC_MGT::GetCountOfTableDescriptors, mstv.iatsc_mgt_getcountoftabledescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

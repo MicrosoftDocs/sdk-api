@@ -9,8 +9,6 @@ ms.assetid: C90952B6-7556-4214-8D08-694C593C9183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,PopStorageFilter method, ID3D12InfoQueue.PopStorageFilter, ID3D12InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method, PopStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter, direct3d12.id3d12infoqueue_popstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

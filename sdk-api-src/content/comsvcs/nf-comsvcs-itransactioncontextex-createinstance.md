@@ -9,8 +9,6 @@ ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

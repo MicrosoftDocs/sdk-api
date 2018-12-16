@@ -9,8 +9,6 @@ ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 

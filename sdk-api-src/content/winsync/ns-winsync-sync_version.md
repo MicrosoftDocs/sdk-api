@@ -9,8 +9,6 @@ ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], winsync.sync_version, winsync/SYNC_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

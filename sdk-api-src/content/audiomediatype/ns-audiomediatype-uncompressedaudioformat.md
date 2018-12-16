@@ -9,8 +9,6 @@ ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h

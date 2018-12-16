@@ -9,8 +9,6 @@ ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeObjectParam, IBindCtx::RevokeObjectParam, RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM],IBindCtx interface, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2db0e129-a566-47ba-ab57-53c7db09e8e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509CertificateEnrollmentContext, X509CertificateEnrollmentContext enumeration [Security], certenroll/ContextAdministratorForceMachine, certenroll/ContextMachine, certenroll/ContextUser, certenroll/X509CertificateEnrollmentContext, security.x509certificateenrollmentcontext_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

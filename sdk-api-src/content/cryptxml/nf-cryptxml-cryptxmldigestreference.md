@@ -9,8 +9,6 @@ ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

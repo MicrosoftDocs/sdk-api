@@ -9,8 +9,6 @@ ms.assetid: f40e89f4-6a33-44a9-933c-bf38978f1cb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISCTE_EAS interface [Microsoft TV Technologies],Initialize method, ISCTE_EAS.Initialize, ISCTE_EAS::Initialize, ISCTE_EASInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISCTE_EAS interface, atscpsipparser/ISCTE_EAS::Initialize, mstv.iscte_eas_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

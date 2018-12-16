@@ -9,8 +9,6 @@ ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

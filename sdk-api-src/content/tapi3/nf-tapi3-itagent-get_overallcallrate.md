@@ -9,8 +9,6 @@ ms.assetid: ea85f3a7-0081-4ce2-bf2e-c47e6e7c4cbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_OverallCallRate method, ITAgent.get_OverallCallRate, ITAgent::get_OverallCallRate, _tapi3_itagent_get_overallcallrate, get_OverallCallRate, get_OverallCallRate method [TAPI 2.2], get_OverallCallRate method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_overallcallrate, tapi3cc/ITAgent::get_OverallCallRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

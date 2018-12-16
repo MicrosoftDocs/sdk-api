@@ -9,8 +9,6 @@ ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cpl.h
 req.include-header: 

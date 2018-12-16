@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_0ipg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Connect method, IFaxServer.Connect, IFaxServer::Connect, _mfax_faxserver.connect, fax._mfax_faxserver_connect, fax._mfax_faxserver_cpp_mfax_faxserver_connect_cpp, faxcomex/IFaxServer::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_77vp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSender interface [Fax Service],Name property, IFaxSender.Name, IFaxSender.get_Name, IFaxSender.put_Name, IFaxSender::Name, IFaxSender::get_Name, IFaxSender::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxSender interface, _mfax_faxsender.name, fax._mfax_faxsender_cpp_mfax_faxsender_name_cpp, fax._mfax_faxsender_name, faxcomex/IFaxSender::Name, faxcomex/IFaxSender::get_Name, faxcomex/IFaxSender::put_Name, put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

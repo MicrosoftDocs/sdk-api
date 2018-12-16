@@ -9,8 +9,6 @@ ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

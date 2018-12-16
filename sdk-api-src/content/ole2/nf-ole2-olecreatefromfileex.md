@@ -9,8 +9,6 @@ ms.assetid: a75bb031-6e4a-4440-82f3-6a6f9417c62b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleCreateFromFileEx, OleCreateFromFileEx function [COM], _ole_OleCreateFromFileEx, com.olecreatefromfileex, ole2/OleCreateFromFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

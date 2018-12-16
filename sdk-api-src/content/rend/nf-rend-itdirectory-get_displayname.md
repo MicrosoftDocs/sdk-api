@@ -9,8 +9,6 @@ ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DisplayName method, ITDirectory.get_DisplayName, ITDirectory::get_DisplayName, _tapi3_itdirectory_get_displayname, get_DisplayName, get_DisplayName method [TAPI 2.2], get_DisplayName method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DisplayName, tapi3.itdirectory_get_displayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

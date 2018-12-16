@@ -9,8 +9,6 @@ ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC], RPC_MESSAGE, RPC_MESSAGE structure [RPC], _RPC_MESSAGE, rpc.rpc_message, rpcdcep/PRPC_MESSAGE, rpcdcep/RPC_MESSAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: 

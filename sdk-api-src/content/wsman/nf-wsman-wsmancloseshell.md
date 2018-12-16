@@ -9,8 +9,6 @@ ms.assetid: 1da452ef-5842-4d8d-941b-09fa57393ebb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Management], winrm.wsmancloseshell, wsman/WSManCloseShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

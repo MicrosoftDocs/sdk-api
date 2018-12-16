@@ -9,8 +9,6 @@ ms.assetid: 8fe771ae-80f6-473d-b2d8-8331c58ffb5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for Windows Applications], _win32_GetStringTypeA, _win32_GetStringTypeA_cpp, intl.getstringtypea, winnls/GetStringTypeA, winui._win32_GetStringTypeA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

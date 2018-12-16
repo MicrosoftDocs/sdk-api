@@ -9,8 +9,6 @@ ms.assetid: 5bb3b9c6-ab82-498c-94f9-13a9ffa7452b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: propidl.h
 req.include-header: Propidl.h

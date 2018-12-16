@@ -9,8 +9,6 @@ ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

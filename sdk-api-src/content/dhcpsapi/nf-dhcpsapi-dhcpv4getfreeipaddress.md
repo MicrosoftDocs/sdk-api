@@ -9,8 +9,6 @@ ms.assetid: acce28e6-ea4a-4f27-8fb6-913f0e5aa52e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

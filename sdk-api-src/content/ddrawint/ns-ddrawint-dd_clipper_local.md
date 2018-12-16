@@ -9,8 +9,6 @@ ms.assetid: 5b2a5b8a-87f9-4bb6-a68e-5e74442da192
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL structure [Display Devices], ddrawint/DD_CLIPPER_LOCAL, ddstrcts_ab07bdb1-e063-4c9b-bb22-87fc5064382e.xml, display.dd_clipper_local"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

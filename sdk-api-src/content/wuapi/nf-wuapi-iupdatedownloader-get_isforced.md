@@ -9,8 +9,6 @@ ms.assetid: e1ac3da4-341c-4a4e-920f-b84af03e324e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],IsForced property, IUpdateDownloader.IsForced, IUpdateDownloader.get_IsForced, IUpdateDownloader::IsForced, IUpdateDownloader::get_IsForced, IUpdateDownloader::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateDownloader interface, get_IsForced, wua.iupdatedownloader_isforced, wuapi/IUpdateDownloader::IsForced, wuapi/IUpdateDownloader::get_IsForced, wuapi/IUpdateDownloader::put_IsForced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

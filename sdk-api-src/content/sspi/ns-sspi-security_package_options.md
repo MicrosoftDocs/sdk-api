@@ -9,8 +9,6 @@ ms.assetid: 2e9f65ec-72a5-4d6f-aa63-f83369f0dd07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS structure pointer [Security], SECPKG_OPTIONS_TYPE_LSA, SECPKG_OPTIONS_TYPE_SSPI, SECPKG_OPTIONS_TYPE_UNKNOWN, SECURITY_PACKAGE_OPTIONS, SECURITY_PACKAGE_OPTIONS structure [Security], security.security_package_options, sspi/PSECURITY_PACKAGE_OPTIONS, sspi/SECURITY_PACKAGE_OPTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

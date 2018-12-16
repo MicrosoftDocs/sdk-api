@@ -9,8 +9,6 @@ ms.assetid: 5a02af98-8bfc-4fb2-92b3-15b16b4b69c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMPath.SetFillBrushLookup, IXpsOMPath::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlookup, xpsobjectmodel/IXpsOMPath::SetFillBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

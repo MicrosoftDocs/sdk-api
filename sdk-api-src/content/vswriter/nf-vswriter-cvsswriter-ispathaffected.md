@@ -9,8 +9,6 @@ ms.assetid: 576e2e25-82dd-4b72-b777-0abc22a06386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter class [VSS],IsPathAffected method, CVssWriter.IsPathAffected, CVssWriter::IsPathAffected, IsPathAffected, IsPathAffected method [VSS], IsPathAffected method [VSS],CVssWriter class, _win32_cvsswriter_ispathaffected, base.cvsswriter_ispathaffected, vswriter/CVssWriter::IsPathAffected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

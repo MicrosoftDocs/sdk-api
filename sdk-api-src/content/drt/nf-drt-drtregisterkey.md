@@ -9,8 +9,6 @@ ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

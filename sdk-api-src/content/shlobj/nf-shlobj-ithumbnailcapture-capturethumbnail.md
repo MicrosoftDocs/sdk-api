@@ -9,8 +9,6 @@ ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 

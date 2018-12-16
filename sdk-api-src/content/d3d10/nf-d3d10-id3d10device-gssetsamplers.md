@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_gssetsamplers.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1c08811a-830c-451d-31b2-e679c42bcf69, GSSetSamplers, GSSetSamplers method [Direct3D 10], GSSetSamplers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetSamplers method, ID3D10Device.GSSetSamplers, ID3D10Device::GSSetSamplers, d3d10/ID3D10Device::GSSetSamplers, direct3d10.id3d10device_gssetsamplers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

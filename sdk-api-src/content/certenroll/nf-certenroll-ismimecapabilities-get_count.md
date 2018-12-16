@@ -9,8 +9,6 @@ ms.assetid: 5e0ee42f-10aa-45d8-b6c0-16ee0149dec6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Count property, ISmimeCapabilities.Count, ISmimeCapabilities.get_Count, ISmimeCapabilities::Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count, security.ismimecapabilities_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 94112a6e-cd8a-4fb7-9c37-86a1b7713ddb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetName method, IGPEInformation.GetName, IGPEInformation::GetName, _win32_igpeinformation_getname, gpedit/IGPEInformation::GetName, policy.igpeinformation_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

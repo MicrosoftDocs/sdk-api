@@ -9,8 +9,6 @@ ms.assetid: 31544ef1-2532-4e44-8747-7a693cef9ccd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWINHTTP_ASYNC_RESULT, API_QUERY_DATA_AVAILABLE, API_READ_DATA, API_RECEIVE_RESPONSE, API_SEND_REQUEST, API_WRITE_DATA, WINHTTP_ASYNC_RESULT, WINHTTP_ASYNC_RESULT structure [HTTP], http.winhttp_async_result, winhttp.winhttp_async_result_structure, winhttp/WINHTTP_ASYNC_RESULT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

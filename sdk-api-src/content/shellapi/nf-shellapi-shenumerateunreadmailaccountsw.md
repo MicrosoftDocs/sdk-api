@@ -9,8 +9,6 @@ ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHEnumerateUnreadMailAccounts, SHEnumerateUnreadMailAccounts function [Windows Shell], SHEnumerateUnreadMailAccountsA, SHEnumerateUnreadMailAccountsW, _shell_SHEnumerateUnreadMailAccounts, shell.SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccountsA, shellapi/SHEnumerateUnreadMailAccountsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

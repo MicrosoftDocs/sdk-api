@@ -9,8 +9,6 @@ ms.assetid: 1D33A816-2580-4295-994D-6C6DFFBA7A0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure pointer [Web Services for Windows], WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure [Web Services for Windows], webservices/PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, webservices/WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, wsw.ws_certificate_validation_callback_context
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

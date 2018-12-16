@@ -9,8 +9,6 @@ ms.assetid: 2b052d83-0791-4fcb-ab94-7924c751b051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontEx, TTEmbedFontEx function [Windows GDI], _win32_TTEmbedFontEx, gdi.ttembedfontex, t2embapi/TTEmbedFontEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

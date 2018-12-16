@@ -9,8 +9,6 @@ ms.assetid: 18003d9f-4202-4bea-9580-bbf8fcdbca8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1helper.h
 req.include-header: 

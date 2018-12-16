@@ -9,8 +9,6 @@ ms.assetid: f9781dde-e813-4e2d-820d-5a0803bfbe4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceStatusChange, DeviceStatusChange method [Windows Media Player], DeviceStatusChange method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceStatusChange method, IWMPEvents2.DeviceStatusChange, IWMPEvents2::DeviceStatusChange, IWMPEvents2DeviceStatusChange, wmp.iwmpevents2_iwmpevents2__devicestatuschange, wmp/IWMPEvents2::DeviceStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

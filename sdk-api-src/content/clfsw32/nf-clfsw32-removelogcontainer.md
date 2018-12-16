@@ -9,8 +9,6 @@ ms.assetid: e6571cb0-8453-4db0-9a33-17339c4ea223
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveLogContainer, RemoveLogContainer function [Files], clfsw32/RemoveLogContainer, fs.removelogcontainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

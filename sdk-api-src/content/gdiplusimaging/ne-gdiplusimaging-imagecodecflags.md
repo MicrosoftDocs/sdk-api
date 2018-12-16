@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagecodecflags.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageCodecFlags, ImageCodecFlags enumeration [GDI+], ImageCodecFlagsBlockingDecode, ImageCodecFlagsBuiltin, ImageCodecFlagsDecoder, ImageCodecFlagsEncoder, ImageCodecFlagsSeekableEncode, ImageCodecFlagsSupportBitmap, ImageCodecFlagsSupportVector, ImageCodecFlagsSystem, ImageCodecFlagsUser, _gdiplus_ENUM_ImageCodecFlags, gdiplus._gdiplus_ENUM_ImageCodecFlags, gdiplusimaging/ImageCodecFlags, gdiplusimaging/ImageCodecFlagsBlockingDecode, gdiplusimaging/ImageCodecFlagsBuiltin, gdiplusimaging/ImageCodecFlagsDecoder, gdiplusimaging/ImageCodecFlagsEncoder, gdiplusimaging/ImageCodecFlagsSeekableEncode, gdiplusimaging/ImageCodecFlagsSupportBitmap, gdiplusimaging/ImageCodecFlagsSupportVector, gdiplusimaging/ImageCodecFlagsSystem, gdiplusimaging/ImageCodecFlagsUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h

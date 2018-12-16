@@ -9,8 +9,6 @@ ms.assetid: de496e83-cfa4-47c7-9b07-712e59737532
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnRecoverableError method, ISyncCallback.OnRecoverableError, ISyncCallback::OnRecoverableError, OnRecoverableError, OnRecoverableError method [Windows Sync], OnRecoverableError method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onrecoverableerror, winsync/ISyncCallback::OnRecoverableError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

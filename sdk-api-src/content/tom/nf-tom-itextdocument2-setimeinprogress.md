@@ -9,8 +9,6 @@ ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetIMEInProgress method, ITextDocument2.SetIMEInProgress, ITextDocument2::SetIMEInProgress, SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

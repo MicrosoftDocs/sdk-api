@@ -9,8 +9,6 @@ ms.assetid: 6D1D6B73-3C2C-4BE0-B75D-2CD39DAC9499
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12GetDebugInterface, D3D12GetDebugInterface function, d3d12/D3D12GetDebugInterface, direct3d12.d3d12getdebuginterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: AE43D7E4-CD2D-4BBD-88C3-B5287FD235AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetPairKerning method, IDWriteTextLayout1.SetPairKerning, IDWriteTextLayout1::SetPairKerning, SetPairKerning, SetPairKerning method [Direct Write], SetPairKerning method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setpairkerning, dwrite_1/IDWriteTextLayout1::SetPairKerning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

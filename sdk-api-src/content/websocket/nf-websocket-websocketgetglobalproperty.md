@@ -9,8 +9,6 @@ ms.assetid: ca4b76e9-6545-447b-93b2-e9e4054a54ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

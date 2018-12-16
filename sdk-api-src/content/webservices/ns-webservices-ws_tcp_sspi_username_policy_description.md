@@ -9,8 +9,6 @@ ms.assetid: ddec8602-5a94-49ec-a2b6-37f4b77d2e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION, WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_username_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

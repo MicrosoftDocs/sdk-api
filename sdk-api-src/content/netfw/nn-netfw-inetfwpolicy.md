@@ -9,8 +9,6 @@ ms.assetid: 8bfe55b6-c38d-47f8-9160-a304a85eb67f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwPolicy, INetFwPolicy interface [ICS/ICF], INetFwPolicy interface [ICS/ICF],described, ics.inetfwpolicy, netfw/INetFwPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

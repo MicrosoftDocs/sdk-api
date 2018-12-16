@@ -9,8 +9,6 @@ ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfuncti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, ScrollWindowEx, ScrollWindowEx function [Windows Controls], _win32_ScrollWindowEx, _win32_ScrollWindowEx_cpp, controls.ScrollWindowEx, controls._win32_ScrollWindowEx, winuser/ScrollWindowEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

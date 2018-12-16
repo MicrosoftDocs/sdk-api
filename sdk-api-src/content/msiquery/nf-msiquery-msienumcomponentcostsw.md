@@ -9,8 +9,6 @@ ms.assetid: 3de3a044-2780-445b-a09f-f08ff82f91f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiEnumComponentCosts, MsiEnumComponentCosts function, MsiEnumComponentCostsA, MsiEnumComponentCostsW, _msi_msienumcomponentcosts, msiquery/MsiEnumComponentCosts, msiquery/MsiEnumComponentCostsA, msiquery/MsiEnumComponentCostsW, setup.msienumcomponentcosts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

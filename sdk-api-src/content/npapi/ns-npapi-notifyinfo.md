@@ -9,8 +9,6 @@ ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 

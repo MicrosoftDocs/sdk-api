@@ -9,8 +9,6 @@ ms.assetid: 8bb760ae-2306-4c32-805d-58e5402e6d78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthName, automat.varmonthname, oleauto/VarMonthName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

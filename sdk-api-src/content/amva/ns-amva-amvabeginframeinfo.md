@@ -9,8 +9,6 @@ ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

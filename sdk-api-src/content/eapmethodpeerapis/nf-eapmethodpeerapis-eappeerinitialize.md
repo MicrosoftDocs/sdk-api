@@ -9,8 +9,6 @@ ms.assetid: 7c040f9c-1a70-4882-bea1-7e641f5b1d3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerInitialize, EapPeerInitialize function [EAPHost], eaphost.eappeerinitialize, eapmethodpeerapis/EapPeerInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

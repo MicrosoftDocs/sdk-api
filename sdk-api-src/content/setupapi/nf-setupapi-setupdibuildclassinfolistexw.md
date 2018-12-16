@@ -9,8 +9,6 @@ ms.assetid: 32c6c548-79f8-41be-ad9a-5456972a16eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -9,8 +9,6 @@ ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

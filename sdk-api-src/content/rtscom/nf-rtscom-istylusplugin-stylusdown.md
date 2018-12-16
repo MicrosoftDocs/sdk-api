@@ -9,8 +9,6 @@ ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

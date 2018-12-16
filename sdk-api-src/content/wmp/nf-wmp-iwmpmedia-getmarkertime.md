@@ -9,8 +9,6 @@ ms.assetid: e6c2484d-8167-4305-9467-f9b2b7fedc32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerTime method, IWMPMedia.getMarkerTime, IWMPMedia2 interface [Windows Media Player],getMarkerTime method, IWMPMedia2::getMarkerTime, IWMPMedia3 interface [Windows Media Player],getMarkerTime method, IWMPMedia3::getMarkerTime, IWMPMedia::getMarkerTime, IWMPMediagetMarkerTime, getMarkerTime, getMarkerTime method [Windows Media Player], getMarkerTime method [Windows Media Player],IWMPMedia interface, getMarkerTime method [Windows Media Player],IWMPMedia2 interface, getMarkerTime method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkertime, wmp/IWMPMedia2::getMarkerTime, wmp/IWMPMedia3::getMarkerTime, wmp/IWMPMedia::getMarkerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

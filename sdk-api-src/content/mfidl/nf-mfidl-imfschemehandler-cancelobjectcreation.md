@@ -9,8 +9,6 @@ ms.assetid: 662a4c47-95f8-4a84-ab2b-96e51d13906c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 662a4c47-95f8-4a84-ab2b-96e51d13906c, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],CancelObjectCreation method, IMFSchemeHandler.CancelObjectCreation, IMFSchemeHandler::CancelObjectCreation, mf.imfschemehandler_cancelobjectcreation, mfidl/IMFSchemeHandler::CancelObjectCreation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2f4b0c6b-2d68-4ea6-a7fb-7884071dcfbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromUInt16, InitPropVariantFromUInt16 function [Windows Properties], properties.InitPropVariantFromUInt16, propvarutil/InitPropVariantFromUInt16, shell.InitPropVariantFromUInt16, shell_InitPropVariantFromUInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

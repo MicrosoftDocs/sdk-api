@@ -9,8 +9,6 @@ ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

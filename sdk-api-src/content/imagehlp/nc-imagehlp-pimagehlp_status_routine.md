@@ -9,8 +9,6 @@ ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageComplete, BindImageModified, BindImportModule, BindImportModuleFailed, BindImportProcedure, BindImportProcedureFailed, BindMismatchedSymbols, BindNoRoomInImage, BindOutOfMemory, BindRvaToVaFailed, BindSymbolsNotUpdated, PIMAGEHLP_STATUS_ROUTINE, StatusRoutine, StatusRoutine callback, StatusRoutine callback function, _win32_statusroutine, base.statusroutine, imagehlp/StatusRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: imagehlp.h
 req.include-header: 

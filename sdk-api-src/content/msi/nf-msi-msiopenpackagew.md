@@ -9,8 +9,6 @@ ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

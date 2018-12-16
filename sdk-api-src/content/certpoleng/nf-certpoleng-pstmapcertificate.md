@@ -9,8 +9,6 @@ ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 

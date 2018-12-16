@@ -9,8 +9,6 @@ ms.assetid: fbb51882-4b56-4648-a0ca-0c93311cebbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISmimeCapabilities interface [Security],ItemByIndex property, ISmimeCapabilities.ItemByIndex, ISmimeCapabilities.get_ItemByIndex, ISmimeCapabilities::ItemByIndex, ISmimeCapabilities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::ItemByIndex, certenroll/ISmimeCapabilities::get_ItemByIndex, get_ItemByIndex, security.ismimecapabilities_itembyindex_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 754eb1d7-bce6-42bd-9b51-9565e31f1d73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBitmap, GetBitmap method [Direct2D], GetBitmap method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetBitmap method, ID2D1BitmapBrush.GetBitmap, ID2D1BitmapBrush::GetBitmap, d2d1/ID2D1BitmapBrush::GetBitmap, direct2d.ID2D1BitmapBrush_GetBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b321d0a5-310a-4a64-8f39-4487602fbd3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToPropVariant, VariantToPropVariant function [Windows Properties], properties.VariantToPropVariant, propvarutil/VariantToPropVariant, shell.VariantToPropVariant, shell_VariantToPropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4799e9f0-f233-499f-acec-9041074eab42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance_GetClass, MI_Instance_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClass, wmi_v2.mi_instance_getclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

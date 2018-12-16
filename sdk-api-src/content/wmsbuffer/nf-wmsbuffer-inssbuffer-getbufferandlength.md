@@ -9,8 +9,6 @@ ms.assetid: cb03d006-fbaa-4971-8022-41a7fa29fb87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h

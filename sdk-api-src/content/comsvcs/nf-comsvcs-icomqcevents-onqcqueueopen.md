@@ -9,8 +9,6 @@ ms.assetid: 7dcd1726-650a-4bb5-ae12-48c6989e1692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCQueueOpen method, IComQCEvents.OnQCQueueOpen, IComQCEvents::OnQCQueueOpen, OnQCQueueOpen, OnQCQueueOpen method [COM+], OnQCQueueOpen method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCQueueOpen, comsvcs/IComQCEvents::OnQCQueueOpen, cos.icomqcevents_onqcqueueopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

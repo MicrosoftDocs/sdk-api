@@ -9,8 +9,6 @@ ms.assetid: 85A3B088-0F69-4879-A844-E8834F832ED6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLRES_V4_FUNCTION_TABLE_SET, CLRES_V4_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v4_function_table_set, resapi/CLRES_V4_FUNCTION_TABLE_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: resapi.h
 req.include-header: 

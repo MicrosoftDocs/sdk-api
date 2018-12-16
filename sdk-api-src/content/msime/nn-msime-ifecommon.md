@@ -9,8 +9,6 @@ ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], IFECommon interface [Internationalization for Windows Applications],described, intl.ifecommon, msime/IFECommon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msime.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ef92f516-e820-41d0-b267-a7e1d01aa7da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Parent_Ex, CM_Get_Parent_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Parent_Ex, cfgmgrfn_880044e3-f794-49d2-9a70-e2a558d8b2de.xml, devinst.cm_get_parent_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

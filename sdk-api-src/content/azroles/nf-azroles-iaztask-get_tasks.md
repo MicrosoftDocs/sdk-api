@@ -9,8 +9,6 @@ ms.assetid: a4baa899-78eb-4a3b-bcc1-0b8c2831b10f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzTask object [Security],Tasks property, IAzTask interface [Security],Tasks property, IAzTask.Tasks, IAzTask.get_Tasks, IAzTask::Tasks, IAzTask::get_Tasks, Tasks property [Security], Tasks property [Security],AzTask object, Tasks property [Security],IAzTask interface, azroles/IAzTask::Tasks, azroles/IAzTask::get_Tasks, get_Tasks, security.iaztask_tasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

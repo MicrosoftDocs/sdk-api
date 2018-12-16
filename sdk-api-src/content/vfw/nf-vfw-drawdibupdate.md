@@ -9,8 +9,6 @@ ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawDibUpdate, DrawDibUpdate macro [Windows Multimedia], _win32_DrawDibUpdate, multimedia.drawdibupdate, vfw/DrawDibUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

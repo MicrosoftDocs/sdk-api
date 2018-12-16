@@ -9,8 +9,6 @@ ms.assetid: 1cb0f035-a429-4355-89b8-d8bcd89cb037
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9, GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

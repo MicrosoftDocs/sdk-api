@@ -9,8 +9,6 @@ ms.assetid: 5cc76cba-66e4-4853-969b-a99ec7bb22f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 944c1b6c-1d1b-4a44-9b9e-d673c8d60306
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnitExtensions method, IWMStreamConfig2.RemoveAllDataUnitExtensions, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: 16a3470d-cbea-4cc2-96d5-668c748abab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedProcessId property [Windows Accessibility], CachedProcessId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProcessId property, IUIAutomationElement.CachedProcessId, IUIAutomationElement.get_CachedProcessId, IUIAutomationElement::CachedProcessId, IUIAutomationElement::get_CachedProcessId, get_CachedProcessId, uiauto.uiauto_IUIAutomationElement_CachedProcessId, uiauto_IUIAutomationElement_CachedProcessId, uiautomationclient/IUIAutomationElement::CachedProcessId, uiautomationclient/IUIAutomationElement::get_CachedProcessId, winauto.uiauto_IUIAutomationElement_CachedProcessId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

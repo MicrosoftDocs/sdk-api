@@ -9,8 +9,6 @@ ms.assetid: 743dae18-985a-405a-8025-ead54e06a4ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], IWMPAudioRenderConfig interface [Windows Media Player],described, wmp.iwmpaudiorenderconfig, wmprealestate/IWMPAudioRenderConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmprealestate.h
 req.include-header: 

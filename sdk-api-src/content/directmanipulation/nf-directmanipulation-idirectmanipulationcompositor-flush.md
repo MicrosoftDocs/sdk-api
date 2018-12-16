@@ -9,8 +9,6 @@ ms.assetid: E6D1BD41-6D5A-4BC0-983E-CBE79613FCF8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flush, Flush method [Direct Manipulation], Flush method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],Flush method, IDirectManipulationCompositor.Flush, IDirectManipulationCompositor::Flush, directmanipulation.idirectmanipulationcompositor_flush, directmanipulation/IDirectManipulationCompositor::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4d965a71-ff5e-4d4a-8976-0de5b8bbae04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPIDMap interface, IEnumPIDMap interface [DirectShow],Clone method, IEnumPIDMap.Clone, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

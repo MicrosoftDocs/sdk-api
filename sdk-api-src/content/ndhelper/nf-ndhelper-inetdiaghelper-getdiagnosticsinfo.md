@@ -9,8 +9,6 @@ ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

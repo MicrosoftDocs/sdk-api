@@ -9,8 +9,6 @@ ms.assetid: 6a01a779-ab1b-4fd5-a550-449b19358b7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VTBIT_R8, VTBIT_UI1, VTBIT_UI2, VTBIT_UI4, VarNumFromParseNum, VarNumFromParseNum function [Automation], _oa96_VarNumFromParseNum, automat.varnumfromparsenum, oleauto/VarNumFromParseNum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

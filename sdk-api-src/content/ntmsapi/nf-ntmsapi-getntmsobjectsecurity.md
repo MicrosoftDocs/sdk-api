@@ -9,8 +9,6 @@ ms.assetid: 1d2168a3-077e-48fc-8a06-91952213f2cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNtmsObjectSecurity, GetNtmsObjectSecurity function [Files], _zaw_getntmsobjectsecurity, base.getntmsobjectsecurity, fs.getntmsobjectsecurity, ntmsapi/GetNtmsObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 777BF543-F2AF-4B17-BF2B-845D713EA5CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyName method, ID2D1Properties.GetPropertyName, ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName, ID2D1Properties::GetPropertyName(U,PWSTR,UINT32), ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,), d2d1_1/ID2D1Properties::GetPropertyName, direct2d.id2d1properties_getpropertyname2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

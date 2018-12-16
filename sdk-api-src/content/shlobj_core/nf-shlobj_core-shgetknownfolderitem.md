@@ -9,8 +9,6 @@ ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

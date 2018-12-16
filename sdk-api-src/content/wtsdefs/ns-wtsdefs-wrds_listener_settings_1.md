@@ -9,8 +9,6 @@ ms.assetid: F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS_1, WRDS_LISTENER_SETTINGS_1 structure [Remote Desktop Services], termserv.wrds_listener_settings_1, wtsdefs/PWRDS_LISTENER_SETTINGS_1, wtsdefs/WRDS_LISTENER_SETTINGS_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

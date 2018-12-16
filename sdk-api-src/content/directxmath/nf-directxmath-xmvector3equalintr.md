@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3EqualIntR(XMVECTOR,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3EqualIntR, XMVector3EqualIntR, XMVector3EqualIntR method [DirectX Math Support APIs], dxmath.xmvector3equalintr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3231ae83-c7fc-46d4-a4d9-f7ccf1c4ed18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminConnectionHangupNotification2, MprAdminConnectionHangupNotification2 callback, MprAdminConnectionHangupNotification2 callback function [RAS], _mpr_mpradminconnectionhangupnotification2, mprapi/MprAdminConnectionHangupNotification2, rras.mpradminconnectionhangupnotification2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnummessagesdeniedbystoragefilter
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 69405d72-8819-4b6e-275b-bd5f8909527a, GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method [Direct3D 10], GetNumMessagesDeniedByStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesDeniedByStorageFilter method, ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d10.id3d10infoqueue_getnummessagesdeniedbystoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

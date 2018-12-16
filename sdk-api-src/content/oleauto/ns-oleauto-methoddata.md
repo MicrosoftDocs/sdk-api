@@ -9,8 +9,6 @@ ms.assetid: 85fd7121-3eed-4a83-9ba2-caa81fa1e048
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMETHODDATA, DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, LPMETHODDATA, LPMETHODDATA structure pointer [Automation], METHODDATA, METHODDATA structure [Automation], _oa96_METHODDATA, automat.methoddata, oleauto/LPMETHODDATA, oleauto/METHODDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 

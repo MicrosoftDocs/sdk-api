@@ -9,8 +9,6 @@ ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString.Find, CHString::Find, CHString::Find methods [Windows Management Instrumentation], Find, chstring/CHString::Find, wmi.chstring_find
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

@@ -9,8 +9,6 @@ ms.assetid: 5686be35-bbc9-4d3a-a8a4-0277da7633b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],Resize method, IDWriteBitmapRenderTarget.Resize, IDWriteBitmapRenderTarget::Resize, Resize, Resize method [Direct Write], Resize method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_Resize, dwrite/IDWriteBitmapRenderTarget::Resize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

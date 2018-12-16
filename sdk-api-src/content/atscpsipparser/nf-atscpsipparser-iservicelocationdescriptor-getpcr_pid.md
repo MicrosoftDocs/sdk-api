@@ -9,8 +9,6 @@ ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetPCR_PID method, IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl

@@ -9,8 +9,6 @@ ms.assetid: 066f1856-0617-40c7-a444-9765c01b4563
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistServerCloseContentInformation, PeerDistServerCloseContentInformation function [Peer Networking], p2p.peerdistserverclosecontentinformation, peerdist/PeerDistServerCloseContentInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

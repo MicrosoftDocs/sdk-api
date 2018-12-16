@@ -9,8 +9,6 @@ ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.get_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, get_Ordinal, security.icspstatus_ordinal_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

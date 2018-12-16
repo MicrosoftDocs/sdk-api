@@ -9,8 +9,6 @@ ms.assetid: 4de0ee9b-0643-4eab-b100-ee7aaa0b6992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS structure pointer [TAPI 2.2], TUISPICREATEDIALOGINSTANCEPARAMS, TUISPICREATEDIALOGINSTANCEPARAMS structure [TAPI 2.2], _tspi_tuispicreatedialoginstanceparams_str, tspi.tuispicreatedialoginstanceparams_str, tspi/LPTUISPICREATEDIALOGINSTANCEPARAMS, tspi/TUISPICREATEDIALOGINSTANCEPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tspi.h
 req.include-header: 

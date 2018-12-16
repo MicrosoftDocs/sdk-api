@@ -9,8 +9,6 @@ ms.assetid: 54095ad5-e9ba-4fa8-92e2-87b3a8950d5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_QNAME, WS_XML_QNAME structure [Web Services for Windows], webservices/WS_XML_QNAME, wsw.ws_xml_qname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

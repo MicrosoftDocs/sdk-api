@@ -9,8 +9,6 @@ ms.assetid: 4c6ad8b7-93d9-46de-b84a-a4575f3e6183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_Start method, IMSVidStreamBufferSource.get_Start, IMSVidStreamBufferSource::get_Start, IMSVidStreamBufferSourceget_Start, get_Start, get_Start method [Microsoft TV Technologies], get_Start method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_start, segment/IMSVidStreamBufferSource::get_Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

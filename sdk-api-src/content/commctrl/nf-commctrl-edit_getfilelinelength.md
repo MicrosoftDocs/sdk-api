@@ -9,8 +9,6 @@ ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

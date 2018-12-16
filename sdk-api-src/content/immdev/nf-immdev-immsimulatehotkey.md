@@ -9,8 +9,6 @@ ms.assetid: 24d5dd3c-01bd-4665-ad45-9f93edb212b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

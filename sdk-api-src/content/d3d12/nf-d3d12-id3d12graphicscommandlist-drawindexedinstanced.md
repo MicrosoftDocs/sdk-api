@@ -9,8 +9,6 @@ ms.assetid: 16333C88-81B7-44D8-A226-D707C8A9CCF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced method, DrawIndexedInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawIndexedInstanced method, ID3D12GraphicsCommandList.DrawIndexedInstanced, ID3D12GraphicsCommandList::DrawIndexedInstanced, d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced, direct3d12.id3d12graphicscommandlist_drawindexedinstanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

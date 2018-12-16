@@ -9,8 +9,6 @@ ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: holographicspaceinterop.h
 req.include-header: 

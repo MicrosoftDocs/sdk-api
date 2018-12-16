@@ -9,8 +9,6 @@ ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

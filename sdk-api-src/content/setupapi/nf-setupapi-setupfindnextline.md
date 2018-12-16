@@ -9,8 +9,6 @@ ms.assetid: ba5b3c62-c6b7-4ec1-83e2-45cdc910a34d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupFindNextLine, SetupFindNextLine function [Setup API], _setupapi_setupfindnextline, setup.setupfindnextline, setupapi/SetupFindNextLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

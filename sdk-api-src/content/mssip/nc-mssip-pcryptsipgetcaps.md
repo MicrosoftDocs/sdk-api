@@ -9,8 +9,6 @@ ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback, pCryptSIPGetCaps callback function [Security], security.pfncryptsipgetcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mssip.h
 req.include-header: 

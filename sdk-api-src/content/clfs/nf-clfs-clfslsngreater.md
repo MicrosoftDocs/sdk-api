@@ -9,8 +9,6 @@ ms.assetid: 15657fc4-40f6-4f89-89b4-ff51d72d5e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfs.h
 req.include-header: 

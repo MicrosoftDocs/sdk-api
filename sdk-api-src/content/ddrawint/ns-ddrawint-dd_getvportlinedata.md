@@ -9,8 +9,6 @@ ms.assetid: d8b2803c-38be-40ea-b46b-4bab1ce55534
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA structure [Display Devices], ddrawint/DD_GETVPORTLINEDATA, ddstrcts_81a8dc13-0681-4135-a74a-f7aa22408156.xml, display.dd_getvportlinedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

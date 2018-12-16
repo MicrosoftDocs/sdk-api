@@ -9,8 +9,6 @@ ms.assetid: 7f19cd0a-6d12-4e76-b46e-7c6267914223
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnhancedStorageSiloAction interface [Enhanced Storage],Invoke method, IEnhancedStorageSiloAction.Invoke, IEnhancedStorageSiloAction::Invoke, Invoke, Invoke method [Enhanced Storage], Invoke method [Enhanced Storage],IEnhancedStorageSiloAction interface, ehstorapi/IEnhancedStorageSiloAction::Invoke, enstor.ienhancedstoragesiloaction_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

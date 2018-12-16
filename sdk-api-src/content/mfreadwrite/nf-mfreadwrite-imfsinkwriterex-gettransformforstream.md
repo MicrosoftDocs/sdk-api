@@ -9,8 +9,6 @@ ms.assetid: 72EEC01F-ED62-4DD7-A18C-766D01705CAE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSinkWriterEx interface, IMFSinkWriterEx interface [Media Foundation],GetTransformForStream method, IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

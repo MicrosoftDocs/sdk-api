@@ -9,8 +9,6 @@ ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CAND_CANCELED, CAND_FINALIZED, CAND_SELECTED, TfCandidateResult, TfCandidateResult enumeration [Text Services Framework], _tsf_tfcandidateresult_ref, ctffunc/CAND_CANCELED, ctffunc/CAND_FINALIZED, ctffunc/CAND_SELECTED, ctffunc/TfCandidateResult, tsf.tfcandidateresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 

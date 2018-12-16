@@ -9,8 +9,6 @@ ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RPC], _rpc_rpcbindingserverfromclient, rpc.rpcbindingserverfromclient, rpcdce/RpcBindingServerFromClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -145,7 +143,7 @@ The following protocol sequences support
 <a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6b136eb9-4e18-43ff-993b-a2ad005273f1">ncadg_ipx</a>
+<a href="https://msdn.microsoft.com/">ncadg_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>

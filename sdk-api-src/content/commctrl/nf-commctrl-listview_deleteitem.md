@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_DeleteItem, ListView_DeleteItem macro [Windows Controls], _win32_ListView_DeleteItem, _win32_ListView_DeleteItem_cpp, commctrl/ListView_DeleteItem, controls.ListView_DeleteItem, controls._win32_ListView_DeleteItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

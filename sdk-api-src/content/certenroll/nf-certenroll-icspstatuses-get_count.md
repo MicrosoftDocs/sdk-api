@@ -9,8 +9,6 @@ ms.assetid: a99eb5ee-8677-4449-ba36-c87045530393
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],ICspStatuses interface, ICspStatuses interface [Security],Count property, ICspStatuses.Count, ICspStatuses.get_Count, ICspStatuses::Count, ICspStatuses::get_Count, certenroll/ICspStatuses::Count, certenroll/ICspStatuses::get_Count, get_Count, security.icspstatuses_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

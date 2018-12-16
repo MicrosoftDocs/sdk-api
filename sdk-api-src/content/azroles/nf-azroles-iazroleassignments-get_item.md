@@ -9,8 +9,6 @@ ms.assetid: 68685b4e-6451-4243-990d-5302d478210f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRoleAssignments interface [Security],Item property, IAzRoleAssignments.Item, IAzRoleAssignments.get_Item, IAzRoleAssignments::Item, IAzRoleAssignments::get_Item, Item property [Security], Item property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::Item, azroles/IAzRoleAssignments::get_Item, get_Item, security.iazroleassignments_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

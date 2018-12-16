@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCatalogStatus, GetCatalogStatus method [search], GetCatalogStatus method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCatalogStatus method, ISearchCatalogManager.GetCatalogStatus, ISearchCatalogManager::GetCatalogStatus, _search_ISearchCatalogManager_GetCatalogStatus, search._search_ISearchCatalogManager_GetCatalogStatus, searchapi/ISearchCatalogManager::GetCatalogStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

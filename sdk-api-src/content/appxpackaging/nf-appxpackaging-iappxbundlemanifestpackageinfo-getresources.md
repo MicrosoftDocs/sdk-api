@@ -9,8 +9,6 @@ ms.assetid: 07B1028B-4084-44E5-840D-14403E01F628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetResources method, IAppxBundleManifestPackageInfo.GetResources, IAppxBundleManifestPackageInfo::GetResources, appxpackaging/IAppxBundleManifestPackageInfo::GetResources, appxpkg.iappxbundlemanifestpackageinfo_getresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

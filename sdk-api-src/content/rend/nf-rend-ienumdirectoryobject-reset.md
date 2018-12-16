@@ -9,8 +9,6 @@ ms.assetid: fd3d338e-f980-4a87-ae51-b59a8744d029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Reset method, IEnumDirectoryObject.Reset, IEnumDirectoryObject::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_reset, rend/IEnumDirectoryObject::Reset, tapi3.ienumdirectoryobject_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6e6c7090-edf4-46a3-8bcd-10a00c0cf847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

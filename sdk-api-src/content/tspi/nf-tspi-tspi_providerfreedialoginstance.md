@@ -9,8 +9,6 @@ ms.assetid: 0408c43f-cb80-4caf-ab28-5ece4b2e4851
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerFreeDialogInstance, TSPI_providerFreeDialogInstance function [TAPI 2.2], _tspi_tspi_providerfreedialoginstance, tspi.tspi_providerfreedialoginstance, tspi/TSPI_providerFreeDialogInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

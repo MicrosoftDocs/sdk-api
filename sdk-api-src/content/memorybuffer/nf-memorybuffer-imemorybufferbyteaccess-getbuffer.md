@@ -9,8 +9,6 @@ ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Runtime], GetBuffer method [Windows Runtime],IMemoryBufferByteAccess interface, IMemoryBufferByteAccess interface [Windows Runtime],GetBuffer method, IMemoryBufferByteAccess.GetBuffer, IMemoryBufferByteAccess::GetBuffer, memorybuffer/IMemoryBufferByteAccess::GetBuffer, winrt.imemorybufferbyteaccess_getbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: memorybuffer.h
 req.include-header: 

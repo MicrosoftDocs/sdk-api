@@ -9,8 +9,6 @@ ms.assetid: a31b3a9a-110f-4cdf-89d9-19937a2e40b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, wingdi/LineTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

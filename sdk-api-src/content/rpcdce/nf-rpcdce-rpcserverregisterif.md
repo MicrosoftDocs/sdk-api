@@ -9,8 +9,6 @@ ms.assetid: f7f6a7c3-ce6c-4b8b-9853-596c39a0e76d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcServerRegisterIf, RpcServerRegisterIf function [RPC], _rpc_rpcserverregisterif, rpc.rpcserverregisterif, rpcdce/RpcServerRegisterIf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 76c121c6-4ba6-49da-93dc-9094acb1994c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DumpApplicationInstance method, ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

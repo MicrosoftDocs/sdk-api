@@ -9,8 +9,6 @@ ms.assetid: c7dee4b7-4a34-4d08-aae3-7455531a9556
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],MaxMessageIndex property, IMbnSmsConfiguration.MaxMessageIndex, IMbnSmsConfiguration.get_MaxMessageIndex, IMbnSmsConfiguration::MaxMessageIndex, IMbnSmsConfiguration::get_MaxMessageIndex, MaxMessageIndex property [Microsoft Broadband Networks], MaxMessageIndex property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_MaxMessageIndex, mbn.imbnsmsconfiguration_maxmessageindex, mbnapi/IMbnSmsConfiguration::MaxMessageIndex, mbnapi/IMbnSmsConfiguration::get_MaxMessageIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

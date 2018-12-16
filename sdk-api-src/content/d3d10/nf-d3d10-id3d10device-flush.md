@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_flush.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 95043c81-fb9f-c3b0-6f27-f9c309dbec57, Flush, Flush method [Direct3D 10], Flush method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],Flush method, ID3D10Device.Flush, ID3D10Device::Flush, d3d10/ID3D10Device::Flush, direct3d10.id3d10device_flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

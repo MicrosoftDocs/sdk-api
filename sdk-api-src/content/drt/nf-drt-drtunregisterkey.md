@@ -9,8 +9,6 @@ ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

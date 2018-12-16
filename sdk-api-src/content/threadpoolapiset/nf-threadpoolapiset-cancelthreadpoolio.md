@@ -9,8 +9,6 @@ ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: c77dbb9f-6c3a-4793-9740-ce9b75727b0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int64ToLong, LongLongToLong, LongLongToLong function [Windows Shell], intsafe/LongLongToLong, shell.LongLongToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

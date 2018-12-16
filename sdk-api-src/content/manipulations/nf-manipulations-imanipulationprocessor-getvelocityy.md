@@ -9,8 +9,6 @@ ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

@@ -9,8 +9,6 @@ ms.assetid: aea08ae5-4252-4703-964b-afc6bbc01a51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMinimumQualityLevel, GetMinimumQualityLevel method [Media Foundation], GetMinimumQualityLevel method [Media Foundation],IMFQualityAdviseLimits interface, IMFQualityAdviseLimits interface [Media Foundation],GetMinimumQualityLevel method, IMFQualityAdviseLimits.GetMinimumQualityLevel, IMFQualityAdviseLimits::GetMinimumQualityLevel, mf.imfqualityadviselimits_getminimumqualitylevel, mfidl/IMFQualityAdviseLimits::GetMinimumQualityLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

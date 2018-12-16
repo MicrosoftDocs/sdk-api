@@ -9,8 +9,6 @@ ms.assetid: 70bb9e51-cd32-45cd-94b4-7018397e8f77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariables property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariables property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariables property, IFsrmFileScreenManager.ActionVariables, IFsrmFileScreenManager.get_ActionVariables, IFsrmFileScreenManager::ActionVariables, IFsrmFileScreenManager::get_ActionVariables, fs.ifsrmfilescreenmanager_actionvariables, fsrm.ifsrmfilescreenmanager_actionvariables, fsrmscreen/IFsrmFileScreenManager::ActionVariables, fsrmscreen/IFsrmFileScreenManager::get_ActionVariables, get_ActionVariables
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

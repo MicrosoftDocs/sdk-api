@@ -9,8 +9,6 @@ ms.assetid: 31a0849f-c651-4178-b1ff-a4333bcde5d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 interface [Windows Controls],described, controls.itextpara2, tom/ITextPara2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

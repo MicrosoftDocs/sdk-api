@@ -9,8 +9,6 @@ ms.assetid: 0a12f6b3-c253-4d07-aa5e-556faa6fbccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentCount, GetContentCount method [Windows Media Player], GetContentCount method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentCount method, IWMPContentContainer.GetContentCount, IWMPContentContainer::GetContentCount, IWMPContentContainerGetContentCount, contentpartner/IWMPContentContainer::GetContentCount, wmp.iwmpcontentcontainer_getcontentcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

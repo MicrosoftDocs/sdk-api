@@ -9,8 +9,6 @@ ms.assetid: A4AC9733-DB17-4855-AEB0-3DA7819F6627
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_LIBRARY_DESC, D3D11_LIBRARY_DESC structure [Direct3D 11], d3d11shader/D3D11_LIBRARY_DESC, direct3d11.d3d11_library_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 

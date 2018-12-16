@@ -9,8 +9,6 @@ ms.assetid: 82CF79D8-1CA6-4A02-B806-4A2672B4BBF3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTableValue method, IDCompositionTableTransferEffect.SetBlueTableValue, IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetBlueTableValue, IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation), SetBlueTableValue, SetBlueTableValue method [DirectComposition], SetBlueTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

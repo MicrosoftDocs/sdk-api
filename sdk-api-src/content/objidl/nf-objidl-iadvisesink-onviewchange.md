@@ -9,8 +9,6 @@ ms.assetid: f2cb3a5b-826b-428a-9e92-e5d08880bddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAdviseSink interface [COM],OnViewChange method, IAdviseSink.OnViewChange, IAdviseSink::OnViewChange, OnViewChange, OnViewChange method [COM], OnViewChange method [COM],IAdviseSink interface, _ole_iadvisesink_onviewchange, com.iadvisesink_onviewchange, objidl/IAdviseSink::OnViewChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

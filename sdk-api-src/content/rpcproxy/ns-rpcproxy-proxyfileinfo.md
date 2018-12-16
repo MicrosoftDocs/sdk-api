@@ -9,8 +9,6 @@ ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcproxy.h
 req.include-header: 
@@ -115,7 +113,7 @@ The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="https://msdn.microsoft.com/">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>

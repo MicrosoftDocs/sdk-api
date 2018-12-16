@@ -9,8 +9,6 @@ ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BaseTrust, FullTrust, PartialTrust, RegisteredTrustLevel, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: inspectable.h
 req.include-header: 

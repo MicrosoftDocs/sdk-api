@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\relations
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEntity interface [search],Relationships method, IEntity.Relationships, IEntity::Relationships, Relationships, Relationships method [search], Relationships method [search],IEntity interface, _search_IEntity_Relationships, search._search_IEntity_Relationships, structuredquery/IEntity::Relationships
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

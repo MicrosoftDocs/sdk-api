@@ -9,8 +9,6 @@ ms.assetid: 80ce7975-c567-4c99-9eb5-6d494a0f1883
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceServiceCapabilities.GetSupportedFormatProperties, IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

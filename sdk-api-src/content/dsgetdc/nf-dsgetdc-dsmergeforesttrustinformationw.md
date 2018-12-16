@@ -9,8 +9,6 @@ ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

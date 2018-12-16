@@ -9,8 +9,6 @@ ms.assetid: 8a01b64d-b58e-4470-a5ed-8cf821b26c6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetOptions method, IFileDialog.GetOptions, IFileDialog::GetOptions, shell.IFileDialog_GetOptions, shell_IFileDialog_GetOptions, shobjidl_core/IFileDialog::GetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

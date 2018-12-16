@@ -9,8 +9,6 @@ ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description property [PLA], Description property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Description property, IDataCollectorSet.Description, IDataCollectorSet.get_Description, IDataCollectorSet::Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, get_Description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

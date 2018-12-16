@@ -9,8 +9,6 @@ ms.assetid: b598331d-b54b-4e12-bea4-99cf1e6a5872
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMSCEPSetupProperty, GetMSCEPSetupProperty method [Security], GetMSCEPSetupProperty method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetMSCEPSetupProperty method, IMSCEPSetup.GetMSCEPSetupProperty, IMSCEPSetup::GetMSCEPSetupProperty, casetup/IMSCEPSetup::GetMSCEPSetupProperty, security.imscepsetup_getmscepsetupproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

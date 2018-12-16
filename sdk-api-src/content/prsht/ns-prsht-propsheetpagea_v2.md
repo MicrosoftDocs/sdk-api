@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPROPSHEETPAGEA_V2, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_V2, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 

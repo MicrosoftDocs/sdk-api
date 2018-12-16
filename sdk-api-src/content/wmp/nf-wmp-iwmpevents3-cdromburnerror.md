@@ -9,8 +9,6 @@ ms.assetid: ea1ded30-4fca-4208-9fc2-f93c169f33b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromBurnError, CdromBurnError method [Windows Media Player], CdromBurnError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnError method, IWMPEvents3.CdromBurnError, IWMPEvents3::CdromBurnError, IWMPEvents3CdromBurnError, wmp.iwmpevents3_iwmpevents3__cdromburnerror, wmp/IWMPEvents3::CdromBurnError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

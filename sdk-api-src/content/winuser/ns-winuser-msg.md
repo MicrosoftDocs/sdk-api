@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMSG, *NPMSG, *PMSG, LPMSG, LPMSG structure pointer [Windows and Messages], MSG, MSG structure [Windows and Messages], PMSG, PMSG structure pointer [Windows and Messages], _win32_MSG_str, _win32_msg_str_cpp, winmsg.msg, winui._win32_msg_str, winuser/LPMSG, winuser/MSG, winuser/PMSG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0smd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],InitErrorCode property, IFaxDeviceProvider.InitErrorCode, IFaxDeviceProvider.get_InitErrorCode, IFaxDeviceProvider::InitErrorCode, IFaxDeviceProvider::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.initerrorcode, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_initerrorcode_cpp, fax._mfax_faxdeviceprovider_initerrorcode, faxcomex/IFaxDeviceProvider::InitErrorCode, faxcomex/IFaxDeviceProvider::get_InitErrorCode, get_InitErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

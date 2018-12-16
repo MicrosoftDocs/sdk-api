@@ -9,8 +9,6 @@ ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7fd3c87b-5511-4dbc-b99e-65656a96303e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantGetUInt64Elem, VariantGetUInt64Elem function [Windows Properties], _shell_VariantGetUInt64Elem, properties.VariantGetUInt64Elem, propvarutil/VariantGetUInt64Elem, shell.VariantGetUInt64Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

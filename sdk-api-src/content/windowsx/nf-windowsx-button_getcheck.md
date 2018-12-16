@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

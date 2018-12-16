@@ -9,8 +9,6 @@ ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

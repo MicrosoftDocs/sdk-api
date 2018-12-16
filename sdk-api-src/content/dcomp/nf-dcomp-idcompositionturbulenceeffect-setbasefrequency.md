@@ -9,8 +9,6 @@ ms.assetid: 4231DC9C-3CF3-405C-80BB-6DABCA40B4CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetBaseFrequency method, IDCompositionTurbulenceEffect.SetBaseFrequency, IDCompositionTurbulenceEffect::SetBaseFrequency, SetBaseFrequency, SetBaseFrequency method [DirectComposition], SetBaseFrequency method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetBaseFrequency, directcomp.idcompositionturbulenceeffect_setbasefrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

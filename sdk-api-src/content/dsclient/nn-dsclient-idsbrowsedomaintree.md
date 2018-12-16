@@ -9,8 +9,6 @@ ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dsclient.h
 req.include-header: 

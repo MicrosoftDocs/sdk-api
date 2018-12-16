@@ -9,8 +9,6 @@ ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIDAsVariant, GetIDAsVariant method [TAPI 2.2], GetIDAsVariant method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GetIDAsVariant method, ITLegacyCallMediaControl2.GetIDAsVariant, ITLegacyCallMediaControl2::GetIDAsVariant, _tapi3_itlegacycallmediacontrol2_getidasvariant, tapi3.itlegacycallmediacontrol2_getidasvariant, tapi3if/ITLegacyCallMediaControl2::GetIDAsVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 10e110bf-1a7c-48a2-ab9f-836ea21d442b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventDispatcher, GetEventDispatcher method [COM+], GetEventDispatcher method [COM+],IMTSLocator interface, IMTSLocator interface [COM+],GetEventDispatcher method, IMTSLocator.GetEventDispatcher, IMTSLocator::GetEventDispatcher, _dtc_IMtsLocator_GetEventDispatcher, comsvcs/IMTSLocator::GetEventDispatcher, cos.imtslocator_geteventdispatcher
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

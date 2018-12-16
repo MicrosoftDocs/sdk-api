@@ -9,8 +9,6 @@ ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

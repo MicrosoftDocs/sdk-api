@@ -9,8 +9,6 @@ ms.assetid: 5d391867-dece-4d40-80e2-99071d332984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterNetworkSink, WMCreateWriterNetworkSink function [windows Media Format], wmformat.wmcreatewriternetworksink, wmsdkidl/WMCreateWriterNetworkSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

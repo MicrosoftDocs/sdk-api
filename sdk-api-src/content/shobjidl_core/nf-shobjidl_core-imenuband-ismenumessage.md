@@ -9,8 +9,6 @@ ms.assetid: d30a456c-7c09-4250-8509-353c54d017b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMenuBand interface [Windows Shell],IsMenuMessage method, IMenuBand.IsMenuMessage, IMenuBand::IsMenuMessage, IsMenuMessage, IsMenuMessage method [Windows Shell], IsMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_IsMenuMessage, shell.IMenuBand_IsMenuMessage, shobjidl_core/IMenuBand::IsMenuMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

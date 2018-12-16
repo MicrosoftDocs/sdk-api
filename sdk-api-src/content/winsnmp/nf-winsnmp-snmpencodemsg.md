@@ -9,8 +9,6 @@ ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpEncodeMsg, SnmpEncodeMsg function [SNMP], _snmp_snmpencodemsg, snmp.snmpencodemsg, winsnmp/SnmpEncodeMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

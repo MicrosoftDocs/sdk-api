@@ -9,8 +9,6 @@ ms.assetid: 376e1f64-1a4f-4800-a049-7f2abb4ea605
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],RestoreLastFocus method, ITfLangBarMgr.RestoreLastFocus, ITfLangBarMgr::RestoreLastFocus, RestoreLastFocus, RestoreLastFocus method [Text Services Framework], RestoreLastFocus method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_restorelastfocus_ref, ctfutb/ITfLangBarMgr::RestoreLastFocus, tsf.itflangbarmgr_restorelastfocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

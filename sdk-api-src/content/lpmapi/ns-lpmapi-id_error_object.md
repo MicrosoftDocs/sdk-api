@@ -9,8 +9,6 @@ ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

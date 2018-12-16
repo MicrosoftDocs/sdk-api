@@ -9,8 +9,6 @@ ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

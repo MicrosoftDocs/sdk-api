@@ -9,8 +9,6 @@ ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

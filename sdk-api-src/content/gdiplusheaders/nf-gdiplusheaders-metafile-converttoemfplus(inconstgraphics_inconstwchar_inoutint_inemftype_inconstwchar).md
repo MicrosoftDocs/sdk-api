@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilem
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

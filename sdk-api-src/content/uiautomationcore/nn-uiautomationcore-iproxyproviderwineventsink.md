@@ -9,8 +9,6 @@ ms.assetid: 55489e34-ab23-4c65-9d6f-e2ff39bca74c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProxyProviderWinEventSink, IProxyProviderWinEventSink interface [Windows Accessibility], IProxyProviderWinEventSink interface [Windows Accessibility],described, uiauto.uiauto_IProxyProviderWinEventSink, uiauto_IProxyProviderWinEventSink, uiautomationcore/IProxyProviderWinEventSink, winauto.uiauto_IProxyProviderWinEventSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

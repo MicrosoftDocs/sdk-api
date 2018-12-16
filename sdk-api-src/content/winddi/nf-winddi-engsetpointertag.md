@@ -9,8 +9,6 @@ ms.assetid: a1a2c74c-c568-4abe-bf84-7e0ace2c44b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,6 @@ ms.assetid: 2e4d7013-910c-4a6e-8eee-818e1f2302ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DragEnter, DragEnter method [COM], DragEnter method [COM],IDropTarget interface, IDropTarget interface [COM],DragEnter method, IDropTarget.DragEnter, IDropTarget::DragEnter, _ole_idroptarget_dragenter, com.idroptarget_dragenter, oleidl/IDropTarget::DragEnter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

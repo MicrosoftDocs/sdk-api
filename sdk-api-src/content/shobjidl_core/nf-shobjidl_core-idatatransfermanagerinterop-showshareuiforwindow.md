@@ -9,8 +9,6 @@ ms.assetid: 095AE176-5EA1-470E-AA4A-ACD91AF54E5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataTransferManagerInterop interface [Windows Shell],ShowShareUIForWindow method, IDataTransferManagerInterop.ShowShareUIForWindow, IDataTransferManagerInterop::ShowShareUIForWindow, ShowShareUIForWindow, ShowShareUIForWindow method [Windows Shell], ShowShareUIForWindow method [Windows Shell],IDataTransferManagerInterop interface, shell.idatatransfermanagerinterop_showshareuiforwindow, shobjidl_core/IDataTransferManagerInterop::ShowShareUIForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyByName, GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByName method, IWMPropertyVault.GetPropertyByName, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

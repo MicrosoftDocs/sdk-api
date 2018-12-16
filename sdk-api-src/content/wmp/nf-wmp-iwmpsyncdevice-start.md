@@ -9,8 +9,6 @@ ms.assetid: f12e5abe-3d1b-48ab-8a03-420a40ae8b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],start method, IWMPSyncDevice.start, IWMPSyncDevice::start, IWMPSyncDevicestart, start, start method [Windows Media Player], start method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_start, wmp/IWMPSyncDevice::start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

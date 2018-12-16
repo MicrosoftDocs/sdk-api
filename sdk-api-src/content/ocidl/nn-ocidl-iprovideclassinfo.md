@@ -9,8 +9,6 @@ ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClassInfo interface [COM],described, _com_iprovideclassinfo, com.iprovideclassinfo, ocidl/IProvideClassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
@@ -85,7 +83,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms2
 
 
 
-<a href="https://msdn.microsoft.com/">coclass</a>
+<a href="https://msdn.microsoft.com/2c636327-ad18-4087-b495-d1aa84a07f48">coclass</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 817ee07c-32ea-41a4-a871-370c06bfc8a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventSubscription interface [COM+],PutSubscriberProperty method, IEventSubscription.PutSubscriberProperty, IEventSubscription::PutSubscriberProperty, PutSubscriberProperty, PutSubscriberProperty method [COM+], PutSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutSubscriberProperty, cos.ieventsubscription_putsubscriberproperty, eventsys/IEventSubscription::PutSubscriberProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

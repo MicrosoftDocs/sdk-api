@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setscrolltime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SetScrollTime, TreeView_SetScrollTime macro [Windows Controls], _win32_TreeView_SetScrollTime, _win32_TreeView_SetScrollTime_cpp, commctrl/TreeView_SetScrollTime, controls.TreeView_SetScrollTime, controls._win32_TreeView_SetScrollTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

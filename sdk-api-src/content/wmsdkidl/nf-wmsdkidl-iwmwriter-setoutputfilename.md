@@ -9,8 +9,6 @@ ms.assetid: 352cf497-f7d6-41e8-bdbb-c59215b617a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetOutputFilename method, IWMWriter.SetOutputFilename, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

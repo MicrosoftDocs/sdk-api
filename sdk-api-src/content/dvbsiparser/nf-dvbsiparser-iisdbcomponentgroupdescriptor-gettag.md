@@ -9,8 +9,6 @@ ms.assetid: ec33ae30-2e17-4db3-9c08-99447e05686c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbComponentGroupDescriptor.GetTag, IIsdbComponentGroupDescriptor::GetTag, dvbsiparser/IIsdbComponentGroupDescriptor::GetTag, mstv.iisdbcomponentgroupdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

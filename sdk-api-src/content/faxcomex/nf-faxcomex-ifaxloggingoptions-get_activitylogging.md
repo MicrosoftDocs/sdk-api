@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],IFaxLoggingOptions interface, IFaxLoggingOptions interface [Fax Service],ActivityLogging property, IFaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp, faxcomex/IFaxLoggingOptions::ActivityLogging, faxcomex/IFaxLoggingOptions::get_ActivityLogging, get_ActivityLogging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

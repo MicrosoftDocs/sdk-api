@@ -9,8 +9,6 @@ ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

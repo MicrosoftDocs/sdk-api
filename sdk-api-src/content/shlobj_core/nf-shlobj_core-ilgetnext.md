@@ -9,8 +9,6 @@ ms.assetid: 0b58cc30-fe1a-487c-8f24-f1de54f7730f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILGetNext, ILGetNext function [Windows Shell], _win32_ILGetNext, shell.ILGetNext, shlobj_core/ILGetNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

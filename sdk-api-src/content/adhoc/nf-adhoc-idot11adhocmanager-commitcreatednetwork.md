@@ -9,8 +9,6 @@ ms.assetid: 45beb340-1c19-4b91-8e5c-8849e690e988
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitCreatedNetwork, CommitCreatedNetwork method [NativeWIFI], CommitCreatedNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CommitCreatedNetwork method, IDot11AdHocManager.CommitCreatedNetwork, IDot11AdHocManager::CommitCreatedNetwork, adhoc/IDot11AdHocManager::CommitCreatedNetwork, nwifi.idot11adhocmanager_commitcreatednetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

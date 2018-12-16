@@ -9,8 +9,6 @@ ms.assetid: b62ba17d-4d0f-4609-ae34-0d8bd350f761
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerName method, IUPnPDevice.get_ManufacturerName, IUPnPDevice::get_ManufacturerName, _upnp_iupnpdevice_manufacturername, get_ManufacturerName, get_ManufacturerName method [UPnP APIs], get_ManufacturerName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturername, upnp/IUPnPDevice::get_ManufacturerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

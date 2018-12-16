@@ -9,8 +9,6 @@ ms.assetid: BD421B26-241F-46C4-9B77-ADCFFBEA24B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xblidpauthmanager.h
 req.include-header: 

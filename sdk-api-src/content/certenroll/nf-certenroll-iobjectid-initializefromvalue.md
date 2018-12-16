@@ -9,8 +9,6 @@ ms.assetid: 2bb2ee69-02c3-41b9-a67b-036c7154a44e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectId interface [Security],InitializeFromValue method, IObjectId.InitializeFromValue, IObjectId::InitializeFromValue, InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

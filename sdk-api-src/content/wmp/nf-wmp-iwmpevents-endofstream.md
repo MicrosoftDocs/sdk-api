@@ -9,8 +9,6 @@ ms.assetid: 1f4e3a69-da55-4adf-87ab-118954070096
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndOfStream, EndOfStream method [Windows Media Player], EndOfStream method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],EndOfStream method, IWMPEvents.EndOfStream, IWMPEvents::EndOfStream, IWMPEventsEndOfStream, wmp.iwmpevents_iwmpevents__endofstream, wmp/IWMPEvents::EndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

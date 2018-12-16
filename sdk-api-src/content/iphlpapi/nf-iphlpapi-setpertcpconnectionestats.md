@@ -9,8 +9,6 @@ ms.assetid: 96d838ca-69e3-4a73-b969-3e6e810a0a69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

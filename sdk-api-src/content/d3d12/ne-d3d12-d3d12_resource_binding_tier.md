@@ -9,8 +9,6 @@ ms.assetid: D09EB3C3-9FE6-416C-91C5-E04C869C757D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RESOURCE_BINDING_TIER, D3D12_RESOURCE_BINDING_TIER enumeration, D3D12_RESOURCE_BINDING_TIER_1, D3D12_RESOURCE_BINDING_TIER_2, D3D12_RESOURCE_BINDING_TIER_3, d3d12/D3D12_RESOURCE_BINDING_TIER, d3d12/D3D12_RESOURCE_BINDING_TIER_1, d3d12/D3D12_RESOURCE_BINDING_TIER_2, d3d12/D3D12_RESOURCE_BINDING_TIER_3, direct3d12.d3d12_resource_binding_tier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 04bcdd90-344a-4f2d-a700-e725584e49d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LdapGetLastError, LdapGetLastError function [LDAP], _ldap_ldapgetlasterror, ldap.ldapgetlasterror, winldap/LdapGetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

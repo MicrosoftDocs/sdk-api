@@ -9,8 +9,6 @@ ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],CancelAuthentication method, ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 

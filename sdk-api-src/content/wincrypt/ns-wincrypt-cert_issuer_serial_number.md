@@ -9,8 +9,6 @@ ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER structure [Security], PCERT_ISSUER_SERIAL_NUMBER, PCERT_ISSUER_SERIAL_NUMBER structure pointer [Security], _crypto2_cert_issuer_serial_number, security.cert_issuer_serial_number, wincrypt/CERT_ISSUER_SERIAL_NUMBER, wincrypt/PCERT_ISSUER_SERIAL_NUMBER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

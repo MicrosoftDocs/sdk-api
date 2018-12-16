@@ -9,8 +9,6 @@ ms.assetid: BCC39D9C-4AF9-4CFD-AC66-4B79F9F25BDC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateValidatedBlockMapReader, CreateValidatedBlockMapReader method [App packaging and management], CreateValidatedBlockMapReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateValidatedBlockMapReader method, IAppxFactory.CreateValidatedBlockMapReader, IAppxFactory::CreateValidatedBlockMapReader, appxpackaging/IAppxFactory::CreateValidatedBlockMapReader, appxpkg.iappxfactory_createvalidatedblockmapreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de2e643f-08d5-4cbb-bd12-843478856011
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWSC_PROVIDER_AUDIT_INFO, PWSC_PROVIDER_AUDIT_INFO structure pointer [Winsock], WSC_PROVIDER_AUDIT_INFO, WSC_PROVIDER_AUDIT_INFO structure [Winsock], winsock.wsc_provider_audit_info, ws2spi/PWSC_PROVIDER_AUDIT_INFO, ws2spi/WSC_PROVIDER_AUDIT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 

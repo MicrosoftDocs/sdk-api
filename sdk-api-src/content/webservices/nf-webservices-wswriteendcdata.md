@@ -9,8 +9,6 @@ ms.assetid: 7b8c27b8-4540-4d47-9622-904428233d30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteEndCData, WsWriteEndCData function [Web Services for Windows], webservices/WsWriteEndCData, wsw.wswriteendcdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

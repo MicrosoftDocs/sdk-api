@@ -9,8 +9,6 @@ ms.assetid: 53537eb2-6b8d-443e-9453-4b39dfef1dd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_READER_STREAM_INPUT, WS_XML_READER_STREAM_INPUT structure [Web Services for Windows], webservices/WS_XML_READER_STREAM_INPUT, wsw.ws_xml_reader_stream_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5a1981ac-3b6a-4e48-8430-f8297ddd3283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_REPL_CURSORS_2, DS_REPL_CURSORS_2 structure [Active Directory], ad.ds_repl_cursors_2, ntdsapi/DS_REPL_CURSORS_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

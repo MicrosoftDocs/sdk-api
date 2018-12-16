@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7rqd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileName property [Fax Service], FileName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],FileName property, IFaxDoc.FileName, IFaxDoc.get_FileName, IFaxDoc::FileName, IFaxDoc::get_FileName, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp, faxcom/IFaxDoc::FileName, faxcom/IFaxDoc::get_FileName, faxcom/IFaxDoc::put_FileName, get_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

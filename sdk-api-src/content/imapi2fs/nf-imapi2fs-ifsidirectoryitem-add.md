@@ -9,8 +9,6 @@ ms.assetid: f4855907-89e5-4127-9307-35970046a236
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [IMAPI], Add method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],Add method, IFsiDirectoryItem.Add, IFsiDirectoryItem::Add, imapi.ifsidirectoryitem_add, imapi2fs/IFsiDirectoryItem::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

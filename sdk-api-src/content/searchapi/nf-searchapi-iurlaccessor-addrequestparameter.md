@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

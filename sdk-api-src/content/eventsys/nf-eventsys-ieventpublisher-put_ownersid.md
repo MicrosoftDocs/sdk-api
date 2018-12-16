@@ -9,8 +9,6 @@ ms.assetid: 7555992f-ba50-4d3e-afa8-6304fec8b5c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.OwnerSID, IEventPublisher.put_OwnerSID, IEventPublisher::OwnerSID, IEventPublisher::get_OwnerSID, IEventPublisher::put_OwnerSID, OwnerSID property [COM], OwnerSID property [COM],IEventPublisher interface, _com_ieventpublisher_ownersid, com.ieventpublisher_ownersid, eventsys/IEventPublisher::OwnerSID, eventsys/IEventPublisher::get_OwnerSID, eventsys/IEventPublisher::put_OwnerSID, put_OwnerSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

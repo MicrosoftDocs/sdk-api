@@ -9,8 +9,6 @@ ms.assetid: cfb72609-7db5-4780-aeeb-b3effa37665a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumMembersWithName, EnumMembersWithName method [Windows Runtime], EnumMembersWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembersWithName method, IMetaDataImport.EnumMembersWithName, IMetaDataImport::EnumMembersWithName, rometadataapi/IMetaDataImport::EnumMembersWithName, winrt.imetadataimport_enummemberswithname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

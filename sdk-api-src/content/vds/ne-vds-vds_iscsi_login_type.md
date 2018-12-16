@@ -9,8 +9,6 @@ ms.assetid: d40db9ab-6fa5-4efb-83e8-ce1dce5fe0c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_ILT_BOOT, VDS_ILT_MANUAL, VDS_ILT_PERSISTENT, VDS_ISCSI_LOGIN_TYPE, VDS_ISCSI_LOGIN_TYPE enumeration [VDS], base.vds_iscsi_login_type, vds/VDS_ILT_BOOT, vds/VDS_ILT_MANUAL, vds/VDS_ILT_PERSISTENT, vds/VDS_ISCSI_LOGIN_TYPE, vdshwprv/VDS_ILT_BOOT, vdshwprv/VDS_ILT_MANUAL, vdshwprv/VDS_ILT_PERSISTENT, vdshwprv/VDS_ISCSI_LOGIN_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

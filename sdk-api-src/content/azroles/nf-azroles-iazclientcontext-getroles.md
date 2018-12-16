@@ -9,8 +9,6 @@ ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRoles method [Security], GetRoles method [Security],AzClientContext object, GetRoles method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetRoles method, IAzClientContext.GetRoles, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

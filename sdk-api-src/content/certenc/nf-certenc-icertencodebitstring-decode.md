@@ -9,8 +9,6 @@ ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeBitString object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeBitString object, Decode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Decode method, ICertEncodeBitString.Decode, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

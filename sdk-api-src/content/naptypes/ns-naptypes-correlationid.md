@@ -9,8 +9,6 @@ ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

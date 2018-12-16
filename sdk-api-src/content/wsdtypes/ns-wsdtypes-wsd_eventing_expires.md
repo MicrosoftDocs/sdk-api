@@ -9,8 +9,6 @@ ms.assetid: 728eacdb-3c27-4884-a9ba-34979590a57c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_EVENTING_EXPIRES, WSD_EVENTING_EXPIRES structure, ncd.wsd_eventing_expires, wsdtypes/WSD_EVENTING_EXPIRES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 230deaef-9473-426f-a0eb-14e259600e68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiInOpen, midiInOpen, midiInOpen function [Windows Multimedia], mmeapi/midiInOpen, multimedia.midiinopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

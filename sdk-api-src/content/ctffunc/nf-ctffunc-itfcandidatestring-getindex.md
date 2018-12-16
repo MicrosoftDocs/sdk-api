@@ -9,8 +9,6 @@ ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

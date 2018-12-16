@@ -9,8 +9,6 @@ ms.assetid: ccf83e95-ba6f-49f5-a312-52eac90f209a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAccessAllowedObjectAce, AddAccessAllowedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedobjectace, security.addaccessallowedobjectace, securitybaseapi/AddAccessAllowedObjectAce
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

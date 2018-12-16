@@ -9,8 +9,6 @@ ms.assetid: 287c205a-56ba-40ae-a664-9bccef2e9655
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY structure [Security], PCRYPT_XML_PROPERTY, PCRYPT_XML_PROPERTY structure pointer [Security], cryptxml/CRYPT_XML_PROPERTY, cryptxml/PCRYPT_XML_PROPERTY, security.crypt_xml_property"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

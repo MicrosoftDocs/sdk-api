@@ -9,8 +9,6 @@ ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

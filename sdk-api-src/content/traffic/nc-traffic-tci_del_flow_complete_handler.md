@@ -9,8 +9,6 @@ ms.assetid: b31bd6e5-2b72-407d-a77e-ff9cee8de238
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClDeleteFlowComplete, ClDeleteFlowComplete callback, ClDeleteFlowComplete callback function [QOS], TCI_DEL_FLOW_COMPLETE_HANDLER, TCI_DEL_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_cldeleteflowcomplete, qos.cldeleteflowcomplete, traffic/ClDeleteFlowComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 

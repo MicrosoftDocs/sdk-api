@@ -9,8 +9,6 @@ ms.assetid: 9089e237-2115-47b6-a1eb-eaea5a93586e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], CachedHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontallyScrollable property, IUIAutomationScrollPattern.CachedHorizontallyScrollable, IUIAutomationScrollPattern.get_CachedHorizontallyScrollable, IUIAutomationScrollPattern::CachedHorizontallyScrollable, IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, get_CachedHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

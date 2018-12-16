@@ -9,8 +9,6 @@ ms.assetid: 7bffff12-666d-4203-bddd-32f279d18fb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCHANGER_SET_POSITION, CHANGER_SET_POSITION, CHANGER_SET_POSITION structure, PCHANGER_SET_POSITION, PCHANGER_SET_POSITION structure pointer, _win32_changer_set_position_str, base.changer_set_position_str, winioctl/CHANGER_SET_POSITION, winioctl/PCHANGER_SET_POSITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

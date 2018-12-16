@@ -9,8 +9,6 @@ ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Decode, Decode method [Windows Shell], Decode method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Decode method, IShellImageData.Decode, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 84eafc6b-e9ee-4c73-b872-b2abc7e257df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP], *PDHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY structure [DHCP], DHCPCAPI_PARAMS_ARRAY, DHCPCAPI_PARAMS_ARRAY structure [DHCP], dhcp.dhcpcapi_params_array, dhcpcsdk/*LPDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/*PDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/DHCPCAPI_PARAMS_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpcsdk.h
 req.include-header: 

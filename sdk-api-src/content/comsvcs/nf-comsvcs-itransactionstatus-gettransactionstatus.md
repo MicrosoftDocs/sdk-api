@@ -9,8 +9,6 @@ ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

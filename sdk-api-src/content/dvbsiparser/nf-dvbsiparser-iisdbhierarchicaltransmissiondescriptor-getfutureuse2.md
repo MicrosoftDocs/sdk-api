@@ -9,8 +9,6 @@ ms.assetid: 19404536-3104-4ac7-a979-73236007d553
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFutureUse2, GetFutureUse2 method [Microsoft TV Technologies], GetFutureUse2 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse2 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

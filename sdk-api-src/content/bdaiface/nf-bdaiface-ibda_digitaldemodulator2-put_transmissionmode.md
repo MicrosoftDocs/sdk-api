@@ -9,8 +9,6 @@ ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_TransmissionMode method, IBDA_DigitalDemodulator2.put_TransmissionMode, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

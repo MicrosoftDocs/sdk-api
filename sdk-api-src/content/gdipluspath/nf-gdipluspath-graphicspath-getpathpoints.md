@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPathPoints, GetPathPoints methods [GDI+], GraphicsPath.GetPathPoints, GraphicsPath::GetPathPoints, _gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdipluspath/GetPathPoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

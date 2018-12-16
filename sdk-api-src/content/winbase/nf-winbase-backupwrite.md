@@ -9,8 +9,6 @@ ms.assetid: 92befb48-68eb-4af3-b58a-c5e17bf14098
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

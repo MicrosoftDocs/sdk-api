@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\play.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaVideo interface [WIA],Play method, IWiaVideo.Play, IWiaVideo::Play, Play, Play method [WIA], Play method [WIA],IWiaVideo interface, _wia_IWiaVideo_Play, wia._wia_IWiaVideo_Play, wiavideo/IWiaVideo::Play
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

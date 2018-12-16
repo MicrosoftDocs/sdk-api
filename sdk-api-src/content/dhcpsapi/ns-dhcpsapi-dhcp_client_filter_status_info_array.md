@@ -9,8 +9,6 @@ ms.assetid: 3145befc-9274-4719-9cd7-1f6426a86fba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

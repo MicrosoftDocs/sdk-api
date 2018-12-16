@@ -9,8 +9,6 @@ ms.assetid: 61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents2, IWMPEvents2 interface [Windows Media Player], IWMPEvents2 interface [Windows Media Player],described, IWMPEvents2Interface, wmp.iwmpevents2_interface, wmp/IWMPEvents2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

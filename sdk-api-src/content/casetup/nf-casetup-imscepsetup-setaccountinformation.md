@@ -9,8 +9,6 @@ ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

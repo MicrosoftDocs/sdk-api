@@ -9,8 +9,6 @@ ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h

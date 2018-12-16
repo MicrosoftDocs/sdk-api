@@ -9,8 +9,6 @@ ms.assetid: 7C94AEA2-1D72-4C45-9EDF-90593CC60E2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],ShareResources method, IMFMediaEngineProtectedContent.ShareResources, IMFMediaEngineProtectedContent::ShareResources, ShareResources, ShareResources method [Media Foundation], ShareResources method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_shareresources, mfmediaengine/IMFMediaEngineProtectedContent::ShareResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

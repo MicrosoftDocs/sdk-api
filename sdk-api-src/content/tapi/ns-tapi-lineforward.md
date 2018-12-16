@@ -9,8 +9,6 @@ ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LINEFORWARDMODE_BUSYNASPECIFIC, LINEFORWARDMODE_BUSYSPECIFIC, LINEFORWARDMODE_NOANSWSPECIFIC, LINEFORWARDMODE_UNCONDSPECIFIC, LPLINEFORWARD, LPLINEFORWARD structure pointer [TAPI 2.2], _tapi2_lineforward_str, tapi/LINEFORWARD, tapi/LPLINEFORWARD, tapi2.lineforward_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

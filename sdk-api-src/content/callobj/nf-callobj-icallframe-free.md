@@ -9,8 +9,6 @@ ms.assetid: 97261d93-40cf-4a27-9bee-677600c04699
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Free, Free method [COM], Free method [COM],ICallFrame interface, ICallFrame interface [COM],Free method, ICallFrame.Free, ICallFrame::Free, _com_icallframe_free, callobj/ICallFrame::Free, com.icallframe_free
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

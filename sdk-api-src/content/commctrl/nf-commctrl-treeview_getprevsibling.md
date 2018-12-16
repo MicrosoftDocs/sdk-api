@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevsibling.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetPrevSibling, TreeView_GetPrevSibling macro [Windows Controls], _win32_TreeView_GetPrevSibling, _win32_TreeView_GetPrevSibling_cpp, commctrl/TreeView_GetPrevSibling, controls.TreeView_GetPrevSibling, controls._win32_TreeView_GetPrevSibling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

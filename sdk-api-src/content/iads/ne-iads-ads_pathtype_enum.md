@@ -9,8 +9,6 @@ ms.assetid: 3ae0ec98-9184-4ab3-b859-39c0d677eb0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADS_PATHTYPE_ENUM, ADS_PATHTYPE_ENUM enumeration [ADSI], ADS_PATH_FILE, ADS_PATH_FILESHARE, ADS_PATH_REGISTRY, _ds_ads_pathtype_enum, adsi.ads__pathtype__enum, adsi.ads_pathtype_enum, iads/ADS_PATHTYPE_ENUM, iads/ADS_PATH_FILE, iads/ADS_PATH_FILESHARE, iads/ADS_PATH_REGISTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4bef1a14-b0f6-40a0-bac0-1d6c00c120e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlertText, GetAlertText method [Microsoft TV Technologies], GetAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertText method, ISCTE_EAS.GetAlertText, ISCTE_EAS::GetAlertText, ISCTE_EASGetAlertText, atscpsipparser/ISCTE_EAS::GetAlertText, mstv.iscte_eas_getalerttext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

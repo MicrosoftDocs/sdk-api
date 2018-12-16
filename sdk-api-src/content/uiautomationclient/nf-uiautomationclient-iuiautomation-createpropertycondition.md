@@ -9,8 +9,6 @@ ms.assetid: 8b777a53-90a8-4e51-b707-d0ea8f5790a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [Windows Accessibility], CreatePropertyCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyCondition method, IUIAutomation.CreatePropertyCondition, IUIAutomation::CreatePropertyCondition, uiauto.uiauto_IUIAutomation_CreatePropertyCondition, uiauto_IUIAutomation_CreatePropertyCondition, uiautomationclient/IUIAutomation::CreatePropertyCondition, winauto.uiauto_IUIAutomation_CreatePropertyCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

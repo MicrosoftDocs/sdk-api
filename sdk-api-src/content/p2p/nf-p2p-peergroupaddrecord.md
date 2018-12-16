@@ -9,8 +9,6 @@ ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

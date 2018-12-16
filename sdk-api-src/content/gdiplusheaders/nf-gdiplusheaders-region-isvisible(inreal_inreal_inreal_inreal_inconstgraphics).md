@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN REAL,IN REAL,IN REAL,IN REAL,IN const Graphics), Region.IsVisible(REAL,REAL,REAL,REAL,const Graphics*), Region::IsVisible, Region::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_Graphics_g_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

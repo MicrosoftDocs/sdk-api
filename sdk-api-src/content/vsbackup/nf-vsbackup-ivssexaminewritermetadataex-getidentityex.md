@@ -9,8 +9,6 @@ ms.assetid: f36cfa0e-b51e-488b-89b1-99544e2883d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIdentityEx, GetIdentityEx method [VSS], GetIdentityEx method [VSS],IVssExamineWriterMetadataEx interface, IVssExamineWriterMetadataEx interface [VSS],GetIdentityEx method, IVssExamineWriterMetadataEx.GetIdentityEx, IVssExamineWriterMetadataEx::GetIdentityEx, base.ivssexaminewritermetadataex_getidentityex, vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

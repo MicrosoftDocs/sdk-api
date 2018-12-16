@@ -9,8 +9,6 @@ ms.assetid: d2182f64-0d0e-4b1c-a566-f33fe7a0b093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method [Direct3D 11], GetNumInterfaceSlots method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetNumInterfaceSlots method, ID3D11ShaderReflection.GetNumInterfaceSlots, ID3D11ShaderReflection::GetNumInterfaceSlots, a1d291ec-34e3-530a-7aa8-8236227d54e4, d3d11shader/ID3D11ShaderReflection::GetNumInterfaceSlots, direct3d11.id3d11shaderreflection_getnuminterfaceslots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

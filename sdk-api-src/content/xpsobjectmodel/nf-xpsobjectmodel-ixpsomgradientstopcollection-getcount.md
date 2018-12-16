@@ -9,8 +9,6 @@ ms.assetid: c8f26de2-1237-4c41-bc91-de221739eb76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3eead538-544f-4c74-aba8-1ad496e44156
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMFontResourceCollection.SetAt, IXpsOMFontResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_setat, xpsobjectmodel/IXpsOMFontResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 34FC5AE3-7B72-4480-ACFA-53C7FB5425DA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method [DXGI], AddStorageFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddStorageFilterEntries method, IDXGIInfoQueue.AddStorageFilterEntries, IDXGIInfoQueue::AddStorageFilterEntries, direct3ddxgi.idxgiinfoqueue_addstoragefilterentries, dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_WRITE_NILLABLE_POINTER, WS_WRITE_NILLABLE_VALUE, WS_WRITE_OPTION, WS_WRITE_OPTION enumeration [Web Services for Windows], WS_WRITE_REQUIRED_POINTER, WS_WRITE_REQUIRED_VALUE, webservices/WS_WRITE_NILLABLE_POINTER, webservices/WS_WRITE_NILLABLE_VALUE, webservices/WS_WRITE_OPTION, webservices/WS_WRITE_REQUIRED_POINTER, webservices/WS_WRITE_REQUIRED_VALUE, wsw.ws_write_option
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

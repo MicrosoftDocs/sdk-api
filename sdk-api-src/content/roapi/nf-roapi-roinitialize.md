@@ -9,8 +9,6 @@ ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RoInitialize, RoInitialize function [Windows Runtime], WinRTInitialize, roapi/RoInitialize, roapi/WinRTInitialize, winrt.roinitialize, winrt.winrtinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

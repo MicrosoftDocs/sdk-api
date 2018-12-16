@@ -9,8 +9,6 @@ ms.assetid: 63b01c20-f413-451d-b34d-b2496ebf8181
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVT_CHANNEL_ISOLATION_TYPE, EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog], EvtChannelIsolationTypeApplication, EvtChannelIsolationTypeCustom, EvtChannelIsolationTypeSystem, wes.evt_channel_isolation_type, winevt/EVT_CHANNEL_ISOLATION_TYPE, winevt/EvtChannelIsolationTypeApplication, winevt/EvtChannelIsolationTypeCustom, winevt/EvtChannelIsolationTypeSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

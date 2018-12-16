@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_9e5h.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],UseArchive property, IFaxIncomingArchive.UseArchive, IFaxIncomingArchive.get_UseArchive, IFaxIncomingArchive.put_UseArchive, IFaxIncomingArchive::UseArchive, IFaxIncomingArchive::get_UseArchive, IFaxIncomingArchive::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.usearchive, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp, fax._mfax_faxincomingarchive_usearchive, faxcomex/IFaxIncomingArchive::UseArchive, faxcomex/IFaxIncomingArchive::get_UseArchive, faxcomex/IFaxIncomingArchive::put_UseArchive, get_UseArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

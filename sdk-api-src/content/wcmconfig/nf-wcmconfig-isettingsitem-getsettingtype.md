@@ -9,8 +9,6 @@ ms.assetid: d222939f-9295-4751-8b32-586fa9930177
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingType method, ISettingsItem.GetSettingType, ISettingsItem::GetSettingType, smi.isettingsitem_getsettingtype, wcmconfig/ISettingsItem::GetSettingType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

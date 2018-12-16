@@ -9,8 +9,6 @@ ms.assetid: daabd118-fa03-410e-af25-8655194902b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCREATE_THREAD_DEBUG_INFO, CREATE_THREAD_DEBUG_INFO, CREATE_THREAD_DEBUG_INFO structure, LPCREATE_THREAD_DEBUG_INFO, LPCREATE_THREAD_DEBUG_INFO structure pointer, _CREATE_THREAD_DEBUG_INFO, _win32_create_thread_debug_info_str, base.create_thread_debug_info_str, minwinbase/CREATE_THREAD_DEBUG_INFO, minwinbase/LPCREATE_THREAD_DEBUG_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

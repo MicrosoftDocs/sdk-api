@@ -9,8 +9,6 @@ ms.assetid: 7ee9fc4a-b836-4820-84b6-925d9842819d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOptionAt, MI_SubscriptionDeliveryOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOptionAt, wmi_v2.mi_subscriptiondeliveryoptions_getoptionat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

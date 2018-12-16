@@ -9,8 +9,6 @@ ms.assetid: de5021d2-9e96-4fe4-99c7-91ffb2b11c7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndCanEject, MCIWndCanEject macro [Windows Multimedia], _win32_MCIWndCanEject, multimedia.mciwndcaneject, vfw/MCIWndCanEject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

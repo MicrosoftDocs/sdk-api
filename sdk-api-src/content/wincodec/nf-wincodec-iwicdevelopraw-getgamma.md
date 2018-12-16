@@ -9,8 +9,6 @@ ms.assetid: d76fc2dc-9bcc-4d7b-93fd-82a9647e7b6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGamma, GetGamma method [Windows Imaging Component], GetGamma method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetGamma method, IWICDevelopRaw.GetGamma, IWICDevelopRaw::GetGamma, _wic_codec_iwicdevelopraw_getgamma, wic._wic_codec_iwicdevelopraw_getgamma, wincodec/IWICDevelopRaw::GetGamma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

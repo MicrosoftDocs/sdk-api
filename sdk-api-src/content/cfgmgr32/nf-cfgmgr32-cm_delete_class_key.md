@@ -9,8 +9,6 @@ ms.assetid: f315f5fa-eb67-4898-ac4e-acb92b8e9b3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Delete_Class_Key, CM_Delete_Class_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_Class_Key, cfgmgrfn_4e8a0362-3fd5-4cb6-af2b-33a904bcafde.xml, devinst.cm_delete_class_key
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

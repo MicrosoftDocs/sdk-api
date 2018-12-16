@@ -9,8 +9,6 @@ ms.assetid: e97bf5c7-90fd-49a7-9c3c-c719d5374f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator= method, WBEMTimeSpan.operator-assign(const time_t &), WBEMTimeSpan.operator=, WBEMTimeSpan::operator-assign(const time_t &), WBEMTimeSpan::operator=, _hmm_wbemtimespan_operator_equal, operator=, operator= method [Windows Management Instrumentation], operator= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator=, wmi.wbemtimespan_operator_equal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

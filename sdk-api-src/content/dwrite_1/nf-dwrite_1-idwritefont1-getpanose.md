@@ -9,8 +9,6 @@ ms.assetid: DD31C1D6-4CD2-4ED0-BF9F-CAF587C613E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direct Write],IDWriteFont1 interface, IDWriteFont1 interface [Direct Write],GetPanose method, IDWriteFont1.GetPanose, IDWriteFont1::GetPanose, directwrite.idwritefont1_getpanose, dwrite_1/IDWriteFont1::GetPanose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property, IUpdateService.IssueDate, IUpdateService.get_IssueDate, IUpdateService::IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent],IUpdateService interface, get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

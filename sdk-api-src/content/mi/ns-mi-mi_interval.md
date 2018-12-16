@@ -9,8 +9,6 @@ ms.assetid: b6bf3d47-c292-4140-8bc6-f15ad8a8019f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Interval, MI_Interval structure [Windows Management Infrastructure (MI)], mi/MI_Interval, wmi._mi_interval, wmi_v2.mi_interval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

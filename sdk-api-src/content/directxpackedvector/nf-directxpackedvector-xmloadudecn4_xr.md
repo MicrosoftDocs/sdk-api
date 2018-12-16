@@ -9,8 +9,6 @@ ms.assetid: C67EEA1C-C416-4E8F-A0D9-F061EF1CD119
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDecN4_XR, XMLoadUDecN4_XR, XMLoadUDecN4_XR method [DirectX Math Support APIs], dxmath._xmloadudecn4_xr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

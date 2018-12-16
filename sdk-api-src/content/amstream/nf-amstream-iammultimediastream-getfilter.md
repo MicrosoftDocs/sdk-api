@@ -9,8 +9,6 @@ ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

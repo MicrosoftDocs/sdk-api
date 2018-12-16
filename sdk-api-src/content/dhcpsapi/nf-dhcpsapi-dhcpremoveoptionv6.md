@@ -9,8 +9,6 @@ ms.assetid: fccd07f2-b796-46b9-a004-edefa92ed08c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV6, DhcpRemoveOptionV6 function [DHCP], dhcp.dhcpremoveoptionv6, dhcpsapi/DhcpRemoveOptionV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

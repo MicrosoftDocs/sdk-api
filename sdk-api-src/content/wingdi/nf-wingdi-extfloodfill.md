@@ -9,8 +9,6 @@ ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

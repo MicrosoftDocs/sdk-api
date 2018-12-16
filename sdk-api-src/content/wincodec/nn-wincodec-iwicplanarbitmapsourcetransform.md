@@ -9,8 +9,6 @@ ms.assetid: AA47F10A-C90A-4DAF-973F-2669D7364CB9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPlanarBitmapSourceTransform, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component], IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],described, wic.iwicplanarbitmapsourcetransform, wincodec/IWICPlanarBitmapSourceTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

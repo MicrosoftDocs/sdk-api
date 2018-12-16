@@ -9,8 +9,6 @@ ms.assetid: 8e911da9-0056-4267-b9d0-c4ba929ddb94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Next method, IEnumSTATPROPSTG.Next, IEnumSTATPROPSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Next, stg.ienumstatpropstg_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Propidl.h

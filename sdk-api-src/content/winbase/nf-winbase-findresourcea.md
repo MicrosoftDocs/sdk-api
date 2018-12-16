@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindResource, FindResource function [Menus and Other Resources], FindResourceA, FindResourceW, _win32_FindResource, _win32_findresource_cpp, menurc.findresource, winbase/FindResource, winbase/FindResourceA, winbase/FindResourceW, winui._win32_findresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

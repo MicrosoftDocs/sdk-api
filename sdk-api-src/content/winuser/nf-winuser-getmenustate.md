@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuState, _win32_getmenustate_cpp, menurc.getmenustate, winui._win32_getmenustate, winuser/GetMenuState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

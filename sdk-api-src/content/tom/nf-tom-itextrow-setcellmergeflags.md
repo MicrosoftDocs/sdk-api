@@ -9,8 +9,6 @@ ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMergeFlags method, ITextRow.SetCellMergeFlags, ITextRow::SetCellMergeFlags, SetCellMergeFlags, SetCellMergeFlags method [Windows Controls], SetCellMergeFlags method [Windows Controls],ITextRow interface, controls.itextrow_setcellmergeflags, tom/ITextRow::SetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

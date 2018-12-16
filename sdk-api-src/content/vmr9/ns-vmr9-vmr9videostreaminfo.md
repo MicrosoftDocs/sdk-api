@@ -9,8 +9,6 @@ ms.assetid: e2da0c1e-d592-49ce-937c-0d75ce270282
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VMR9VideoStreamInfoStructure, dshow.vmr9videostreaminfo, vmr9/VMR9VideoStreamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

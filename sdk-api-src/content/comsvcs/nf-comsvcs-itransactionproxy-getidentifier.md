@@ -9,8 +9,6 @@ ms.assetid: 8045989b-7b66-4340-a06e-4b4102d09784
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIdentifier, GetIdentifier method [COM+], GetIdentifier method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIdentifier method, ITransactionProxy.GetIdentifier, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

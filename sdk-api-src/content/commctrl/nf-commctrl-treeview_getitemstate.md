@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetItemState, TreeView_GetItemState macro [Windows Controls], _win32_TreeView_GetItemState, _win32_TreeView_GetItemState_cpp, commctrl/TreeView_GetItemState, controls.TreeView_GetItemState, controls._win32_TreeView_GetItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

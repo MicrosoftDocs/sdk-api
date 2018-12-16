@@ -9,8 +9,6 @@ ms.assetid: 663dcb34-6b11-4208-b5d6-216799fb774d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup macro [Windows Multimedia], multimedia.capcapturesetsetup, vfw/capCaptureSetSetup"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

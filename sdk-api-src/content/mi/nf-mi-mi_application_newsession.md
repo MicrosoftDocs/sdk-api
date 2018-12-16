@@ -9,8 +9,6 @@ ms.assetid: 76010766-aa20-4632-940d-48d9769803da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Application_NewSession, MI_Application_NewSession function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSession, wmi_v2.mi_application_newsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

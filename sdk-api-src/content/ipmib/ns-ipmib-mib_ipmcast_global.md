@@ -9,8 +9,6 @@ ms.assetid: b967a064-0c89-47eb-8c7c-eb1b9141e5d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL structure [MIB], PMIB_IPMCAST_GLOBAL, PMIB_IPMCAST_GLOBAL structure pointer [MIB], _mpr_mib_ipmcast_global, ipmib/MIB_IPMCAST_GLOBAL, ipmib/PMIB_IPMCAST_GLOBAL, iprtrmib/MIB_IPMCAST_GLOBAL, iprtrmib/PMIB_IPMCAST_GLOBAL, mib.mib_ipmcast_global, rras.mib_ipmcast_global"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

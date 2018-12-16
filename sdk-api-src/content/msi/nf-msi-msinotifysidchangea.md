@@ -9,8 +9,6 @@ ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

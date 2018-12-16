@@ -9,8 +9,6 @@ ms.assetid: fcfa0ae1-06e0-4313-9140-496aa4eec9da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

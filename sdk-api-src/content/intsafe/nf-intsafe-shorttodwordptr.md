@@ -9,8 +9,6 @@ ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShortToDWordPtr, ShortToDWordPtr function [Windows Shell], intsafe/ShortToDWordPtr, shell.ShortToDWordPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

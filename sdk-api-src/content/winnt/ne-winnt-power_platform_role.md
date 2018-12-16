@@ -9,8 +9,6 @@ ms.assetid: ec94a0c4-8451-47a5-be48-9d5ed76c3585
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPOWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE enumeration, PlatformRoleAppliancePC, PlatformRoleDesktop, PlatformRoleEnterpriseServer, PlatformRoleMaximum, PlatformRoleMobile, PlatformRolePerformanceServer, PlatformRoleSOHOServer, PlatformRoleSlate, PlatformRoleUnspecified, PlatformRoleWorkstation, base.power_platform_role, winnt/POWER_PLATFORM_ROLE, winnt/PlatformRoleAppliancePC, winnt/PlatformRoleDesktop, winnt/PlatformRoleEnterpriseServer, winnt/PlatformRoleMaximum, winnt/PlatformRoleMobile, winnt/PlatformRolePerformanceServer, winnt/PlatformRoleSOHOServer, winnt/PlatformRoleSlate, winnt/PlatformRoleUnspecified, winnt/PlatformRoleWorkstation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

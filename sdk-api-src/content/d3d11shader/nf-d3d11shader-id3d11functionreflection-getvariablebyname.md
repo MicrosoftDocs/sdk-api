@@ -9,8 +9,6 @@ ms.assetid: 5DE3FEB3-5A5E-44E0-BBC2-52EE7FB41B2A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetVariableByName method, ID3D11FunctionReflection.GetVariableByName, ID3D11FunctionReflection::GetVariableByName, d3d11shader/ID3D11FunctionReflection::GetVariableByName, direct3d11.id3d11functionreflection_getvariablebyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

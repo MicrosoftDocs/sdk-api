@@ -9,8 +9,6 @@ ms.assetid: 491437FE-1401-4841-AE0E-428F28E34D4D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndReadPayload, EndReadPayload method [Media Foundation], EndReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReadPayload method, IMFHttpDownloadRequest.EndReadPayload, IMFHttpDownloadRequest::EndReadPayload, mf.imfhttpdownloadrequest_endreadpayload, mfidl/IMFHttpDownloadRequest::EndReadPayload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

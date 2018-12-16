@@ -9,8 +9,6 @@ ms.assetid: 3f6d6a77-8d8a-4ed8-8222-95086c08037c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToControl method, IWMPEvents.SwitchedToControl, IWMPEvents::SwitchedToControl, IWMPEventsSwitchedToControl, SwitchedToControl, SwitchedToControl method [Windows Media Player], SwitchedToControl method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtocontrol, wmp/IWMPEvents::SwitchedToControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

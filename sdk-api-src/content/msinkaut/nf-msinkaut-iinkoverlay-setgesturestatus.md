@@ -9,8 +9,6 @@ ms.assetid: c55e0b19-257e-423f-bf84-3b7a55dc370e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkOverlay, IInkOverlay interface [Tablet PC],SetGestureStatus method, IInkOverlay.SetGestureStatus, IInkOverlay::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetGestureStatus, tablet.inkoverlay_setgesturestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

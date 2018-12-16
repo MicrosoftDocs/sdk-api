@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IConditionGenerator interface, IConditionGenerator interface [search],DefaultPhrase method, IConditionGenerator.DefaultPhrase, IConditionGenerator::DefaultPhrase, _search_IConditionGenerator_DefaultPhrase, search._search_IConditionGenerator_DefaultPhrase, structuredquery/IConditionGenerator::DefaultPhrase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

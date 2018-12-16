@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\namedenti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEntity interface [search],NamedEntities method, IEntity.NamedEntities, IEntity::NamedEntities, NamedEntities, NamedEntities method [search], NamedEntities method [search],IEntity interface, _search_IEntity_NamedEntities, search._search_IEntity_NamedEntities, structuredquery/IEntity::NamedEntities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

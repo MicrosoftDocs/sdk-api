@@ -9,8 +9,6 @@ ms.assetid: 6c3f9073-3695-4eec-a973-e40aa55f9504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrUserMarshalBufferSize, NdrUserMarshalBufferSize function [RPC], rpc.ndrusermarshalbuffersize, rpcndr/NdrUserMarshalBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 6d2a8b0b-bcd2-4bad-a006-2443eabd7a16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantGetUInt16Elem, VariantGetUInt16Elem function [Windows Properties], _shell_VariantGetUInt16Elem, properties.VariantGetUInt16Elem, propvarutil/VariantGetUInt16Elem, shell.VariantGetUInt16Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

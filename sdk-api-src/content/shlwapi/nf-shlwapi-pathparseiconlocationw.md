@@ -9,8 +9,6 @@ ms.assetid: 1ded2f0f-0e11-4730-ab7b-16536e7f4435
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathParseIconLocation, PathParseIconLocation function [Windows Shell], PathParseIconLocationA, PathParseIconLocationW, _win32_PathParseIconLocation, shell.PathParseIconLocation, shlwapi/PathParseIconLocation, shlwapi/PathParseIconLocationA, shlwapi/PathParseIconLocationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

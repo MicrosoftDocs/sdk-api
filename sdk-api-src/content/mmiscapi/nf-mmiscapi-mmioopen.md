@@ -9,8 +9,6 @@ ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

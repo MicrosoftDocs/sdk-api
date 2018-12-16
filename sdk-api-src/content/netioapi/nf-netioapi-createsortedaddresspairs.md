@@ -9,8 +9,6 @@ ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

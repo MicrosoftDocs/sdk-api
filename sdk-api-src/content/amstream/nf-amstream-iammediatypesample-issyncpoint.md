@@ -9,8 +9,6 @@ ms.assetid: 0494f51e-2602-4574-88dd-0839a1d2f04f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsSyncPoint method, IAMMediaTypeSample.IsSyncPoint, IAMMediaTypeSample::IsSyncPoint, IAMMediaTypeSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsSyncPoint, dshow.iammediatypesample_issyncpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

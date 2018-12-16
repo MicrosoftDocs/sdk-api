@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_4pk5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],UseArchive property, IFaxOutgoingArchive.UseArchive, IFaxOutgoingArchive.get_UseArchive, IFaxOutgoingArchive.put_UseArchive, IFaxOutgoingArchive::UseArchive, IFaxOutgoingArchive::get_UseArchive, IFaxOutgoingArchive::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.usearchive, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_usearchive_cpp, fax._mfax_faxoutgoingarchive_usearchive, faxcomex/IFaxOutgoingArchive::UseArchive, faxcomex/IFaxOutgoingArchive::get_UseArchive, faxcomex/IFaxOutgoingArchive::put_UseArchive, put_UseArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

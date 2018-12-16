@@ -9,8 +9,6 @@ ms.assetid: 98cb412b-9742-4f94-a470-61e675f6b253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleAssignment method, IAzScope2.CreateRoleAssignment, IAzScope2::CreateRoleAssignment, azroles/IAzScope2::CreateRoleAssignment, security.iazscope2_createroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

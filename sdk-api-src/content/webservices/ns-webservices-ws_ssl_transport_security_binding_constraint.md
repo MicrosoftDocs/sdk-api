@@ -9,8 +9,6 @@ ms.assetid: 1f547d95-0a9a-44c5-81db-b92880238b1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_ssl_transport_security_binding_constraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

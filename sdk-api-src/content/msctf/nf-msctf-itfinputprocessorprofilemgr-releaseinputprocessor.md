@@ -9,8 +9,6 @@ ms.assetid: a7bcc50a-9f94-4a55-aca2-db9a40be2157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],ReleaseInputProcessor method, ITfInputProcessorProfileMgr.ReleaseInputProcessor, ITfInputProcessorProfileMgr::ReleaseInputProcessor, ReleaseInputProcessor, ReleaseInputProcessor method [Text Services Framework], ReleaseInputProcessor method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RIP_FLAG_FREEUNUSEDLIBRARIES, msctf/ITfInputProcessorProfileMgr::ReleaseInputProcessor, tsf.itfinputprocessorprofilemgr_releaseinputprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

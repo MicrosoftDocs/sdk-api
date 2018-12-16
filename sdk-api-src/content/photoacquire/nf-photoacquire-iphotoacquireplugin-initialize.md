@@ -9,8 +9,6 @@ ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],Initialize method, IPhotoAcquirePlugin.Initialize, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

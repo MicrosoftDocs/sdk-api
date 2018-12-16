@@ -9,8 +9,6 @@ ms.assetid: 98825155-1dd3-47c0-928d-484d5bc70927
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BSTR_UserMarshal, BSTR_UserMarshal function [Automation], _oa96_BSTR_UserMarshal, automat.bstr_usermarshal, oaidl/BSTR_UserMarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

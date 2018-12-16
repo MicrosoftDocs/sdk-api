@@ -9,8 +9,6 @@ ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ForceTransactionToAbort, ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceTransactionToAbort method, ICrmLogControl.ForceTransactionToAbort, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

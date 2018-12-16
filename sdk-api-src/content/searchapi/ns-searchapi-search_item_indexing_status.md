@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

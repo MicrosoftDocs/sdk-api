@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__reset.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Reset method, IDirect3DDevice9.Reset, IDirect3DDevice9::Reset, Reset, Reset method [Direct3D 9], Reset method [Direct3D 9],IDirect3DDevice9 interface, b7f53ca7-1a26-5bf8-890b-5a4f26b3c249, d3d9helper/IDirect3DDevice9::Reset, direct3d9.idirect3ddevice9__reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

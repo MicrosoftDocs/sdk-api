@@ -9,8 +9,6 @@ ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerResponseAction, EapHostPeerResponseAction enumeration [EAPHost], EapHostPeerResponseDiscard, EapHostPeerResponseInvokeUI, EapHostPeerResponseNone, EapHostPeerResponseRespond, EapHostPeerResponseResult, EapHostPeerResponseSend, EapHostPeerResponseStartAuthentication, eaphost.eaphostpeerresponseaction, eaphostpeertypes/EapHostPeerResponseAction, eaphostpeertypes/EapHostPeerResponseDiscard, eaphostpeertypes/EapHostPeerResponseInvokeUI, eaphostpeertypes/EapHostPeerResponseNone, eaphostpeertypes/EapHostPeerResponseRespond, eaphostpeertypes/EapHostPeerResponseResult, eaphostpeertypes/EapHostPeerResponseSend, eaphostpeertypes/EapHostPeerResponseStartAuthentication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 

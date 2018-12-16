@@ -9,8 +9,6 @@ ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

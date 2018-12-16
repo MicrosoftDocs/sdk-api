@@ -9,8 +9,6 @@ ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWRdsProtocolConnection.SessionArbitrationEnumeration, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

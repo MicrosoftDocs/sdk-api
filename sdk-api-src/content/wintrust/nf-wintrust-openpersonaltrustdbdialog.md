@@ -9,8 +9,6 @@ ms.assetid: 25f1d012-0c82-4992-b924-b539d4c6dc5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenPersonalTrustDBDialog, OpenPersonalTrustDBDialog function [Security], security.openpersonaltrustdbdialog, wintrust/OpenPersonalTrustDBDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

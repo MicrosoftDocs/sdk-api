@@ -9,8 +9,6 @@ ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 791fb386-3cc5-410e-bfce-52598fdb10c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DATE_AUTOLAYOUT, DATE_LONGDATE, DATE_LTRREADING, DATE_MONTHDAY, DATE_RTLREADING, DATE_SHORTDATE, DATE_USE_ALT_CALENDAR, DATE_YEARMONTH, GetDateFormatEx, GetDateFormatEx function [Internationalization for Windows Applications], _win32_GetDateFormatEx, datetimeapi/GetDateFormatEx, intl.getdateformatex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: datetimeapi.h
 req.include-header: 

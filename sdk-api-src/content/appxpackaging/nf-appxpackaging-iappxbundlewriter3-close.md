@@ -9,8 +9,6 @@ ms.assetid: 7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],Close method, IAppxBundleWriter3.Close, IAppxBundleWriter3::Close, appxpackaging/IAppxBundleWriter3::Close, appxpkg.iappxbundlewriter3_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

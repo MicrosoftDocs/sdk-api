@@ -9,8 +9,6 @@ ms.assetid: 36238A6F-BDE2-454E-A183-ED10A455AF13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_PIPELINE_CLEANUP_FN, PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback, SensorAdapterPipelineCleanup, SensorAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelinecleanup, winbio_adapter/SensorAdapterPipelineCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

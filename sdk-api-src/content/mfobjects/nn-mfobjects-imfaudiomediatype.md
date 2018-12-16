@@ -9,8 +9,6 @@ ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

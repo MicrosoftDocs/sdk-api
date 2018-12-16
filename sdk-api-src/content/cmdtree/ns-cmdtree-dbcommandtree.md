@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_29lx.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBCOMMANDTREE, DBCOMMANDTREE structure [Indexing Service], _idxs_DBCOMMANDTREE, cmdtree/, indexsrv.dbcommandtree, tagDBCOMMANDTREE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

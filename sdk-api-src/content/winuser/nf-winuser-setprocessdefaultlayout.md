@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LAYOUT_RTL, SetProcessDefaultLayout, SetProcessDefaultLayout function [Windows and Messages], _win32_SetProcessDefaultLayout, _win32_setprocessdefaultlayout_cpp, winmsg.setprocessdefaultlayout, winui._win32_setprocessdefaultlayout, winuser/SetProcessDefaultLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

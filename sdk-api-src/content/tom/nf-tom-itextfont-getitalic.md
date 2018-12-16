@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItalic, GetItalic method [Windows Controls], GetItalic method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetItalic method, ITextFont.GetItalic, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

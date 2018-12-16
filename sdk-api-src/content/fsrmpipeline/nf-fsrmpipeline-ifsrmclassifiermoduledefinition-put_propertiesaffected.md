@@ -9,8 +9,6 @@ ms.assetid: 69f288d1-cc78-4af0-891b-c5c3ed8d2659
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesAffected property, IFsrmClassifierModuleDefinition.PropertiesAffected, IFsrmClassifierModuleDefinition.put_PropertiesAffected, IFsrmClassifierModuleDefinition::PropertiesAffected, IFsrmClassifierModuleDefinition::get_PropertiesAffected, IFsrmClassifierModuleDefinition::put_PropertiesAffected, PropertiesAffected property [File Server Resource Manager], PropertiesAffected property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesaffected, fsrm.ifsrmclassifiermoduledefinition_propertiesaffected, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesAffected, put_PropertiesAffected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

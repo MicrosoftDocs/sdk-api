@@ -9,8 +9,6 @@ ms.assetid: f048671e-dfb6-449d-9bcd-e5df8408c01a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontFileLoader method, IDWriteFactory.UnregisterFontFileLoader, IDWriteFactory::UnregisterFontFileLoader, UnregisterFontFileLoader, UnregisterFontFileLoader method [Direct Write], UnregisterFontFileLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontFileLoader, dwrite/IDWriteFactory::UnregisterFontFileLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

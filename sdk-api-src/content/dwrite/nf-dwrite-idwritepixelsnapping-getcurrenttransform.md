@@ -9,8 +9,6 @@ ms.assetid: d3cfbea6-c240-47e9-a072-a59626e39ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetCurrentTransform method, IDWritePixelSnapping.GetCurrentTransform, IDWritePixelSnapping::GetCurrentTransform, directwrite.IDWritePixelSnapping_GetCurrentTransform, dwrite/IDWritePixelSnapping::GetCurrentTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

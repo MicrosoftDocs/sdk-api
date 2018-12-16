@@ -9,8 +9,6 @@ ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: fddd7a14-1fb0-4372-8f3e-94b54fef9051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWicBitmapRenderTarget, CreateWicBitmapRenderTarget method [Direct2D], CreateWicBitmapRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateWicBitmapRenderTarget method, ID2D1Factory.CreateWicBitmapRenderTarget, ID2D1Factory::CreateWicBitmapRenderTarget, ID2D1Factory::CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget), d2d1/ID2D1Factory::CreateWicBitmapRenderTarget, direct2d.ID2D1Factory_CreateWicBitmapRenderTarget_ptr_IWICBitmap_ptr_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

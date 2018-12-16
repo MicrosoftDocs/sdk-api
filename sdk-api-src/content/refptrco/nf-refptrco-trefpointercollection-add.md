@@ -9,8 +9,6 @@ ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

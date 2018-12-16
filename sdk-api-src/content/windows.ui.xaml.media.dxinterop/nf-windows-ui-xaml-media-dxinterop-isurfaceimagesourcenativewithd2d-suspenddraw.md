@@ -9,8 +9,6 @@ ms.assetid: 022B6A31-35B4-4E31-9B6E-12F75A156378
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SuspendDraw method, ISurfaceImageSourceNativeWithD2D.SuspendDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SuspendDraw, ISurfaceImageSourceNativeWithD2D::xaml, SuspendDraw, SuspendDraw method [Windows Runtime], SuspendDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SuspendDraw, winrt.isurfaceimagesourcenativewithd2d_suspenddraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

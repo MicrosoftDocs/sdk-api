@@ -9,8 +9,6 @@ ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

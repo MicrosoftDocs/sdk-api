@@ -9,8 +9,6 @@ ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

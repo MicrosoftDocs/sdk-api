@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input], TME_CANCEL, TME_HOVER, TME_LEAVE, TME_NONCLIENT, TME_QUERY, TRACKMOUSEEVENT, TRACKMOUSEEVENT structure [Keyboard and Mouse Input], _win32_TRACKMOUSEEVENT_str, _win32_trackmouseevent_str_cpp, inputdev.trackmouseevent_str, winui._win32_trackmouseevent_str, winuser/LPTRACKMOUSEEVENT, winuser/TRACKMOUSEEVENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

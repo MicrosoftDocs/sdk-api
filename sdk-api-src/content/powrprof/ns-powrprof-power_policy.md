@@ -9,8 +9,6 @@ ms.assetid: ba49fca6-04b6-4627-a653-07c3fc0dab22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLICY, PPOWER_POLICY structure pointer, _win32_power_policy_str, base.power_policy_str, powrprof/POWER_POLICY, powrprof/PPOWER_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

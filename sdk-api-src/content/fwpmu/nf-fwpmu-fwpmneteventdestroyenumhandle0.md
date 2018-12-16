@@ -9,8 +9,6 @@ ms.assetid: c9a0b31b-28f2-4f55-8a08-5fea182f8954
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmNetEventDestroyEnumHandle0, FwpmNetEventDestroyEnumHandle0 function [Filtering], fwp.fwpmneteventdestroyenumhandle0, fwpmu/FwpmNetEventDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

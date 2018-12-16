@@ -9,8 +9,6 @@ ms.assetid: e4f79262-6345-49e9-a50c-9f8a82f2df0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcalloutadd0_func, fwpmu/FwpmCalloutAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

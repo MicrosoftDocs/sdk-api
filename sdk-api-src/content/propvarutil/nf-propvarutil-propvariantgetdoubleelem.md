@@ -9,8 +9,6 @@ ms.assetid: 387e23df-bfbd-42c0-adef-dc53ba95a9f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantGetDoubleElem, PropVariantGetDoubleElem function [Windows Properties], _shell_PropVariantGetDoubleElem, properties.PropVariantGetDoubleElem, propvarutil/PropVariantGetDoubleElem, shell.PropVariantGetDoubleElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

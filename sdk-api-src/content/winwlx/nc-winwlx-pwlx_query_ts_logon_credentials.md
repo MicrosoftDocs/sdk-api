@@ -9,8 +9,6 @@ ms.assetid: 1365b798-682e-4cdb-b8f5-9e7c65366154
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS callback, WlxQueryTsLogonCredentials, WlxQueryTsLogonCredentials callback function [Security], security.wlxquerytslogoncredentials, winwlx/WlxQueryTsLogonCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

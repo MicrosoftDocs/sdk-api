@@ -9,8 +9,6 @@ ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dmusics.h
 req.include-header: 

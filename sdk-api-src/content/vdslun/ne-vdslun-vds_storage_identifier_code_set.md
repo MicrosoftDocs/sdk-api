@@ -9,8 +9,6 @@ ms.assetid: 6b4a3282-dc0c-4974-8c4c-777a28fb9005
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDSStorageIdCodeSetAscii, VDSStorageIdCodeSetBinary, VDSStorageIdCodeSetReserved, VDSStorageIdCodeSetUtf8, VDS_STORAGE_IDENTIFIER_CODE_SET, VDS_STORAGE_IDENTIFIER_CODE_SET enumeration [VDS], base.vds_storage_identifier_code_set, vdslun/VDSStorageIdCodeSetAscii, vdslun/VDSStorageIdCodeSetBinary, vdslun/VDSStorageIdCodeSetReserved, vdslun/VDSStorageIdCodeSetUtf8, vdslun/VDS_STORAGE_IDENTIFIER_CODE_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

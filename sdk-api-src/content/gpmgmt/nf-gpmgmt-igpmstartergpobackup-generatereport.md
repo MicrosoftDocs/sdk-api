@@ -9,8 +9,6 @@ ms.assetid: ce0dd44f-dfd9-4e7c-9854-9decbc25ec54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReport method, IGPMStarterGPOBackup.GenerateReport, IGPMStarterGPOBackup::GenerateReport, gpmc.igpmstartergpobackup_generatereport, gpmgmt/IGPMStarterGPOBackup::GenerateReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

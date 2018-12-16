@@ -9,8 +9,6 @@ ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

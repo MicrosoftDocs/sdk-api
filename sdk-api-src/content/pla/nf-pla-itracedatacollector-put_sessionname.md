@@ -9,8 +9,6 @@ ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.put_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

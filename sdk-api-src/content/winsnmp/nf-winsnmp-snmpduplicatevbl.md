@@ -9,8 +9,6 @@ ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

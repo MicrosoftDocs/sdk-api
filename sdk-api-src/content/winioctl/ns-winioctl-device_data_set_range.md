@@ -9,8 +9,6 @@ ms.assetid: 5eea412e-ea16-4f47-ac69-46b543069eae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure, DEVICE_DSM_RANGE, PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer, base.device_data_set_range, winioctl/DEVICE_DATA_SET_RANGE, winioctl/PDEVICE_DATA_SET_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

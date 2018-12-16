@@ -9,8 +9,6 @@ ms.assetid: 25820f49-ffa8-40c4-87fc-ce4909ec20ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS, DRMBOUNDLICENSEPARAMS, DRMBOUNDLICENSEPARAMS structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMBOUNDLICENSEPARAMS, rm.drmboundlicenseparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: WinBase.h

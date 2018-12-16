@@ -9,8 +9,6 @@ ms.assetid: 3ea41491-409c-42b7-a4b2-f0d7c222c299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatisticsEx, GetStatisticsEx method [windows Media Format], GetStatisticsEx method [windows Media Format],IWMWriterAdvanced3 interface, IWMWriterAdvanced3 interface [windows Media Format],GetStatisticsEx method, IWMWriterAdvanced3.GetStatisticsEx, IWMWriterAdvanced3::GetStatisticsEx, IWMWriterAdvanced3GetStatisticsEx, wmformat.iwmwriteradvanced3_getstatisticsex, wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

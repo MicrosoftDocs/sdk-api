@@ -9,8 +9,6 @@ ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

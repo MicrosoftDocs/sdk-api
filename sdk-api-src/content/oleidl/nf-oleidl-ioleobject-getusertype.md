@@ -9,8 +9,6 @@ ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOleObject interface, IOleObject interface [COM],GetUserType method, IOleObject.GetUserType, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

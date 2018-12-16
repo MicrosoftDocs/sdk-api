@@ -9,8 +9,6 @@ ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 

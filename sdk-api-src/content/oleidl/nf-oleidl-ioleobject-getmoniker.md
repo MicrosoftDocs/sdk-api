@@ -9,8 +9,6 @@ ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

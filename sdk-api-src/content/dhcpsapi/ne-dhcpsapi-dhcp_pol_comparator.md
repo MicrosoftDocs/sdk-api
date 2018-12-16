@@ -9,8 +9,6 @@ ms.assetid: 7b34e9ec-a3c6-4b85-bb36-d4f834912a64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_POL_COMPARATOR, DHCP_POL_COMPARATOR enumeration [DHCP], DhcpCompBeginsWith, DhcpCompEqual, DhcpCompNotBeginWith, DhcpCompNotEqual, dhcp.dhcp_pol_comparator, dhcpsapi/DHCP_POL_COMPARATOR, dhcpsapi/DhcpCompBeginsWith, dhcpsapi/DhcpCompEqual, dhcpsapi/DhcpCompNotBeginWith, dhcpsapi/DhcpCompNotEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

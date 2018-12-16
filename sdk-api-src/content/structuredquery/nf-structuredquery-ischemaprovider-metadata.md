@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\m
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISchemaProvider interface [search],MetaData method, ISchemaProvider.MetaData, ISchemaProvider::MetaData, MetaData, MetaData method [search], MetaData method [search],ISchemaProvider interface, _search_ISchemaProvider_MetaData, search._search_ISchemaProvider_MetaData, structuredquery/ISchemaProvider::MetaData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

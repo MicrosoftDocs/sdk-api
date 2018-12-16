@@ -9,8 +9,6 @@ ms.assetid: 79c558a3-de53-4bb4-90d9-c29a21ab05de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstSint16AField, MI_ConstSint16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstSint16AField, wmi._mi_constsint16afield, wmi_v2.mi_constsint16afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

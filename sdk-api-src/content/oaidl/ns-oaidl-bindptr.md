@@ -9,8 +9,6 @@ ms.assetid: 7035df31-3b13-4297-8464-b86f64d38f20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBINDPTR, BINDPTR, BINDPTR structure [Automation], LPBINDPTR, LPBINDPTR structure pointer [Automation], _oa96_BINDPTR, automat.bindptr, oaidl/BINDPTR, oaidl/LPBINDPTR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 68f77dbc-14cb-4b87-9589-328b1cef38d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInvalidFilterAction, RmNoRestart, RmNoShutdown, restartmanager/RM_FILTER_ACTION, restartmanager/RmInvalidFilterAction, restartmanager/RmNoRestart, restartmanager/RmNoShutdown, rstmgr.rm_filter_action
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 

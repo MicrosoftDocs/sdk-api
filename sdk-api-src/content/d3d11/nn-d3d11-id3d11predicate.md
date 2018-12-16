@@ -9,8 +9,6 @@ ms.assetid: ad16e0ac-a5ff-41ae-9b73-e93235ef891b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7bbde1c2-0bd3-3fda-2288-938ac2c04c3a, ID3D11Predicate, ID3D11Predicate interface [Direct3D 11], ID3D11Predicate interface [Direct3D 11],described, d3d11/ID3D11Predicate, direct3d11.id3d11predicate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

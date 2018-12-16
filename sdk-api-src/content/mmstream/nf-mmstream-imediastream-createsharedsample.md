@@ -9,8 +9,6 @@ ms.assetid: acefa476-e607-45b4-854d-840e948af029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSharedSample, CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],CreateSharedSample method, IMediaStream.CreateSharedSample, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 83E6931D-405C-4A93-BE70-F505D484CB7F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPayloadFile, GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFile method, IAppxPackageReader.GetPayloadFile, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

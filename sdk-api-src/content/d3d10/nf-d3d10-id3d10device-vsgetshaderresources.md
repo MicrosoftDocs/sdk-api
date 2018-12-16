@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_vsgetshaderresources.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 55f36c24-a1d1-912f-485e-13d633bf3178, ID3D10Device interface [Direct3D 10],VSGetShaderResources method, ID3D10Device.VSGetShaderResources, ID3D10Device::VSGetShaderResources, VSGetShaderResources, VSGetShaderResources method [Direct3D 10], VSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetShaderResources, direct3d10.id3d10device_vsgetshaderresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

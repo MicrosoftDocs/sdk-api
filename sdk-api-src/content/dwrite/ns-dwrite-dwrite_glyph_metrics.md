@@ -9,8 +9,6 @@ ms.assetid: d2a4ac9f-f510-4235-93bb-e7bdecc65873
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write], directwrite.dwrite_glyph_metrics, dwrite/DWRITE_GLYPH_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

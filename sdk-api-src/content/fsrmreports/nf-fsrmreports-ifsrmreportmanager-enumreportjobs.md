@@ -9,8 +9,6 @@ ms.assetid: af66beb6-e82c-47e6-8658-da9702041053
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumReportJobs, EnumReportJobs method [File Server Resource Manager], EnumReportJobs method [File Server Resource Manager],FsrmReportManager class, EnumReportJobs method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager interface [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager.EnumReportJobs, IFsrmReportManager::EnumReportJobs, fs.ifsrmreportmanager_enumreportjobs, fsrm.ifsrmreportmanager_enumreportjobs, fsrmreports/IFsrmReportManager::EnumReportJobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

@@ -9,8 +9,6 @@ ms.assetid: cd21a474-d75f-40ad-aa5a-43eda74e6b2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI1FromStr, VarUI1FromStr function [Automation], _oa96_VarUI1FromStr, automat.varui1fromstr, oleauto/VarUI1FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

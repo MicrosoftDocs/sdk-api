@@ -9,8 +9,6 @@ ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionEffectGroup, IDCompositionEffectGroup interface [DirectComposition], IDCompositionEffectGroup interface [DirectComposition],described, dcomp/IDCompositionEffectGroup, directcomp.idcompositioneffectgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

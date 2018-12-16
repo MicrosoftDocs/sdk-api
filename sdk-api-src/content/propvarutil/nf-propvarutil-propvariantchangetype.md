@@ -9,8 +9,6 @@ ms.assetid: cb64ae1d-7dcf-4e73-b6ab-18fc9f91192d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantChangeType, PropVariantChangeType function [Windows Properties], _shell_PropVariantChangeType, properties.PropVariantChangeType, propvarutil/PropVariantChangeType, shell.PropVariantChangeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

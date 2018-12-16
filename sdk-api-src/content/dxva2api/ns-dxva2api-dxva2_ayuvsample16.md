@@ -9,8 +9,6 @@ ms.assetid: 3e25182a-fd5d-437c-9441-44094a3450cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3e25182a-fd5d-437c-9441-44094a3450cb, DXVA2_AYUVSample16, DXVA2_AYUVSample16 structure [Media Foundation], dxva2api/DXVA2_AYUVSample16, mf.dxva2_ayuvsample16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

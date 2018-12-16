@@ -9,8 +9,6 @@ ms.assetid: 8f7ca236-8bdf-477d-843d-d825cc606e0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MMIOProc, MMIOProc callback, MMIOProc callback function [Windows Multimedia], _win32_MMIOProc, mmsystem/MMIOProc, multimedia.mmioproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

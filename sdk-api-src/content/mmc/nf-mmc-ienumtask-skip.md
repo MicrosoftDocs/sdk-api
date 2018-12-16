@@ -9,8 +9,6 @@ ms.assetid: 6c002cbe-db0c-40f6-9d6f-fee0daeb9a43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTASK interface [MMC],Skip method, IEnumTASK.Skip, IEnumTASK::Skip, Skip, Skip method [MMC], Skip method [MMC],IEnumTASK interface, _slate_ienumtask_skip, mmc.ienumtask_skip, mmc/IEnumTASK::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c8f255fe-6f31-4cbb-a600-a27e977a84a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], GetResourceList method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResourceList method, ItsPubPlugin.GetResourceList, ItsPubPlugin::GetResourceList, termserv.itspubplugin_getresourcelist, tspubplugincom/ItsPubPlugin::GetResourceList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugincom.h
 req.include-header: 

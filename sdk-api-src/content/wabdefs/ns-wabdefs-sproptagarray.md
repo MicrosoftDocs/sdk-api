@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\structures\sproptagarray.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSPropTagArray, SPropTagArray, SPropTagArray structure [Windows Address Book], _wab_SPropTagArray, wab._wab_SPropTagArray, wabdefs/SPropTagArray"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

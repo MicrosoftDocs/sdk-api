@@ -9,8 +9,6 @@ ms.assetid: 8974b463-d4b6-464d-9bea-8d482d4804f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddThirdPartyExtensionItems, AddThirdPartyExtensionItems method [MMC], AddThirdPartyExtensionItems method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],AddThirdPartyExtensionItems method, IContextMenuProvider.AddThirdPartyExtensionItems, IContextMenuProvider::AddThirdPartyExtensionItems, _slate_icontextmenuprovider_addthirdpartyextensionitems, mmc.icontextmenuprovider_addthirdpartyextensionitems, mmc/IContextMenuProvider::AddThirdPartyExtensionItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

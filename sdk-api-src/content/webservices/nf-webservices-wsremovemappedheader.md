@@ -9,8 +9,6 @@ ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9d44b1be-96b1-493a-94b7-a6bd883fd570
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Enumerate_Enumerators_Ex, CM_Enumerate_Enumerators_Ex function [Device and Driver Installation], CM_Enumerate_Enumerators_ExW, cfgmgr32/CM_Enumerate_Enumerators_Ex, cfgmgr32/CM_Enumerate_Enumerators_ExW, cfgmgrfn_56f59835-4383-4d6f-aaa5-e7e1cb4a3b56.xml, devinst.cm_enumerate_enumerators_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

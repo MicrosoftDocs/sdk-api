@@ -9,8 +9,6 @@ ms.assetid: FC119B71-BC5C-437E-9DBE-DD907F459D45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLineIndex, Edit_GetFileLineIndex macro [Windows Controls], commctrl/Edit_GetFileLineIndex, controls.edit_getfilelineindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

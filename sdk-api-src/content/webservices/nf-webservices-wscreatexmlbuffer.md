@@ -9,8 +9,6 @@ ms.assetid: 4e122283-f285-4fff-b240-22e4a7476639
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

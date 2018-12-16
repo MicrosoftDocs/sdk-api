@@ -9,8 +9,6 @@ ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

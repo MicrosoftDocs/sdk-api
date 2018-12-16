@@ -9,8 +9,6 @@ ms.assetid: 995bf2cd-6ee6-46a3-a6d9-f28dc42e0e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function, MAPI_LOGON_UI, MAPI_LONG_MSGID, MAPI_NEW_SESSION, mapi.mapisavemail, mapi/MAPISaveMail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

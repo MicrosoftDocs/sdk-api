@@ -9,8 +9,6 @@ ms.assetid: f76e074e-6814-4735-9417-d5970e73089f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateOleAdviseHolder, CreateOleAdviseHolder function [COM], _ole_CreateOleAdviseHolder, com.createoleadviseholder, ole2/CreateOleAdviseHolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

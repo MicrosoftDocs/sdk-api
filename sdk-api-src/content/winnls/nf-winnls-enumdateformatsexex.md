@@ -9,8 +9,6 @@ ms.assetid: 52bfec03-4cb3-4418-b467-f75d2900ba40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumDateFormatsExEx, EnumDateFormatsExEx function [Internationalization for Windows Applications], _win32_EnumDateFormatsExEx, intl.enumdateformatsexex, winnls/EnumDateFormatsExEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

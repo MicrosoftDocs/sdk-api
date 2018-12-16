@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX::XMMATRIX, dxmath.xmmatrix_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 

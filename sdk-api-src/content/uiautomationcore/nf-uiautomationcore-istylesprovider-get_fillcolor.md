@@ -9,8 +9,6 @@ ms.assetid: E5E7DA9D-02AD-4802-8B7E-6177CFC2925E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillColor property [Windows Accessibility], FillColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillColor property, IStylesProvider.FillColor, IStylesProvider.get_FillColor, IStylesProvider::FillColor, IStylesProvider::get_FillColor, get_FillColor, uiautomationcore/IStylesProvider::FillColor, uiautomationcore/IStylesProvider::get_FillColor, winauto.uiauto_istylesprovider_fillcolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

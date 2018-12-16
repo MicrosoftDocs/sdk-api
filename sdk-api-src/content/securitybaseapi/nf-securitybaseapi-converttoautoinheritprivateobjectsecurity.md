@@ -9,8 +9,6 @@ ms.assetid: eaaa5509-eff5-461d-843b-7ebbbe0dd58f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertToAutoInheritPrivateObjectSecurity, ConvertToAutoInheritPrivateObjectSecurity function [Security], _win32_converttoautoinheritprivateobjectsecurity, security.converttoautoinheritprivateobjectsecurity, securitybaseapi/ConvertToAutoInheritPrivateObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

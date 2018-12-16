@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringCbCat, StringCbCat function [Menus and Other Resources], StringCbCatA, StringCbCatW, _shell_StringCbCat, _shell_stringcbcat_cpp, menurc.stringcbcat, strsafe/StringCbCat, strsafe/StringCbCatA, strsafe/StringCbCatW, winui._shell_stringcbcat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

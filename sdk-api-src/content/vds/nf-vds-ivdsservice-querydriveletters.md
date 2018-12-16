@@ -9,8 +9,6 @@ ms.assetid: e9e9f8b0-963f-4c57-9553-8b9241317b55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],QueryDriveLetters method, IVdsService.QueryDriveLetters, IVdsService::QueryDriveLetters, QueryDriveLetters, QueryDriveLetters method [VDS], QueryDriveLetters method [VDS],IVdsService interface, base.ivdsservice_querydriveletters, vds/IVdsService::QueryDriveLetters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

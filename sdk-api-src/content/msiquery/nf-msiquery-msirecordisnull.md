@@ -9,8 +9,6 @@ ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

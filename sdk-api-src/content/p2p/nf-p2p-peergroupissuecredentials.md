@@ -9,8 +9,6 @@ ms.assetid: 81284e61-fc31-47c3-a296-c9c02a2889ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEER_GROUP_STORE_CREDENTIALS, PeerGroupIssueCredentials, PeerGroupIssueCredentials function [Peer Networking], p2p.peergroupissuecredentials, p2p/PeerGroupIssueCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

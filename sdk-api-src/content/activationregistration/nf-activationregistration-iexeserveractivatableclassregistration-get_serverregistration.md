@@ -9,8 +9,6 @@ ms.assetid: 6116DC84-2DE0-427E-BDC7-425178B08C1A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],get_ServerRegistration method, IExeServerActivatableClassRegistration.get_ServerRegistration, IExeServerActivatableClassRegistration::get_ServerRegistration, activationregistration/IExeServerActivatableClassRegistration::get_ServerRegistration, get_ServerRegistration, get_ServerRegistration method [Windows Runtime], get_ServerRegistration method [Windows Runtime],IExeServerActivatableClassRegistration interface, winrt.iexeserveractivatableclassregistration_serverregistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 

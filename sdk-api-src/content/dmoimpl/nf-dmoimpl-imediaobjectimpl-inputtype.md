@@ -9,8 +9,6 @@ ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 

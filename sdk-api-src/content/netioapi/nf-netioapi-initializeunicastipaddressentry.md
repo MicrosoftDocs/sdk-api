@@ -9,8 +9,6 @@ ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

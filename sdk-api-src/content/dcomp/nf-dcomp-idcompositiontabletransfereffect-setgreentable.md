@@ -9,8 +9,6 @@ ms.assetid: 90FB09CA-EC67-4518-915E-223C26E30FA4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenTable method, IDCompositionTableTransferEffect.SetGreenTable, IDCompositionTableTransferEffect::SetGreenTable, SetGreenTable, SetGreenTable method [DirectComposition], SetGreenTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenTable, directcomp.idcompositiontabletransfereffect_setgreentable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

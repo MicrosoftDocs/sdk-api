@@ -9,8 +9,6 @@ ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsMaintenance interface [VDS],StopMaintenance method, IVdsMaintenance.StopMaintenance, IVdsMaintenance::StopMaintenance, StopMaintenance, StopMaintenance method [VDS], StopMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_stopmaintenance, vds/IVdsMaintenance::StopMaintenance, vdshwprv/IVdsMaintenance::StopMaintenance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

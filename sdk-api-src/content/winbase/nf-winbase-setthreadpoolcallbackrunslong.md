@@ -9,8 +9,6 @@ ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

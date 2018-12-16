@@ -9,8 +9,6 @@ ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

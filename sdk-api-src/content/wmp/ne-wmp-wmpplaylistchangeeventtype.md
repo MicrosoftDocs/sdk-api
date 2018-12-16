@@ -9,8 +9,6 @@ ms.assetid: ebddaf22-9052-4180-9cc4-75059f9d286c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPPlaylistChangeEventType, WMPPlaylistChangeEventType enumeration [Windows Media Player], wmp.wmpplaylistchangeeventtype, wmp/WMPPlaylistChangeEventType, wmp/wmplcAppend, wmp/wmplcClear, wmp/wmplcDelete, wmp/wmplcInfoChange, wmp/wmplcInsert, wmp/wmplcLast, wmp/wmplcMorph, wmp/wmplcMove, wmp/wmplcNameChange, wmp/wmplcPrivate, wmp/wmplcSort, wmp/wmplcUnknown, wmplcAppend, wmplcClear, wmplcDelete, wmplcInfoChange, wmplcInsert, wmplcLast, wmplcMorph, wmplcMove, wmplcNameChange, wmplcPrivate, wmplcSort, wmplcUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 

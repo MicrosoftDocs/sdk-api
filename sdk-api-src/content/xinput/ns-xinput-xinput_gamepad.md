@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_GAMEPAD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs], XINPUT_GAMEPAD, XINPUT_GAMEPAD structure [XInput Game Controller APIs], xinput.xinput_gamepad, xinput/PXINPUT_GAMEPAD, xinput/XINPUT_GAMEPAD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

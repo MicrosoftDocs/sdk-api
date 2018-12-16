@@ -9,8 +9,6 @@ ms.assetid: 632B047D-0266-422F-9894-E10A39BA630F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_VIEW_DESC interface [Direct3D 11],operator const D3D11_DEPTH_STENCIL_VIEW_DESC& method, CD3D11_DEPTH_STENCIL_VIEW_DESC.operator const D3D11_DEPTH_STENCIL_VIEW_DESC&, CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC&, CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC&(), d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC&, direct3d11.cd3d11_depth_stencil_view_desc_d3d11_depth_stencil_view_desc__, operator const D3D11_DEPTH_STENCIL_VIEW_DESC&, operator const D3D11_DEPTH_STENCIL_VIEW_DESC& method [Direct3D 11], operator const D3D11_DEPTH_STENCIL_VIEW_DESC& method [Direct3D 11],CD3D11_DEPTH_STENCIL_VIEW_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

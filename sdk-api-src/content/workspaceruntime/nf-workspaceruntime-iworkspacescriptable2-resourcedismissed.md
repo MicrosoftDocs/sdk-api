@@ -9,8 +9,6 @@ ms.assetid: e45d806c-56de-4f76-a76a-ba6db63f4ac2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],ResourceDismissed method, IWorkspaceScriptable2.ResourceDismissed, IWorkspaceScriptable2::ResourceDismissed, IWorkspaceScriptable3 interface [Remote Desktop Services],ResourceDismissed method, IWorkspaceScriptable3::ResourceDismissed, ResourceDismissed, ResourceDismissed method [Remote Desktop Services], ResourceDismissed method [Remote Desktop Services],IWorkspaceScriptable2 interface, ResourceDismissed method [Remote Desktop Services],IWorkspaceScriptable3 interface, ResourceDismissed method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],ResourceDismissed method, termserv.iworkspacescriptable2_resourcedismissed, workspaceruntime/IWorkspaceScriptable2::ResourceDismissed, workspaceruntime/IWorkspaceScriptable3::ResourceDismissed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 

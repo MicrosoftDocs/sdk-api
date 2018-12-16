@@ -9,8 +9,6 @@ ms.assetid: 6e246181-1d93-49b4-bc3f-e54083d4cad2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateEnvironmentHandle, rm.drmduplicateenvironmenthandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

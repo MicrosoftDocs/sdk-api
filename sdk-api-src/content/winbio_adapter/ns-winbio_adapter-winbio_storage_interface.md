@@ -9,8 +9,6 @@ ms.assetid: 1cc7ce07-66df-43d9-9db2-50558a0f5f47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE structure [Windows Biometric Framework API], secbiomet.winbio_storage_interface, winbio_adapter/PWINBIO_STORAGE_INTERFACE, winbio_adapter/WINBIO_STORAGE_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 

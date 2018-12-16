@@ -9,8 +9,6 @@ ms.assetid: 9f39032d-7624-43f8-91a4-6e616e691156
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzOperation object [Security],Description property, Description property [Security], Description property [Security],AzOperation object, Description property [Security],IAzOperation interface, IAzOperation interface [Security],Description property, IAzOperation.Description, IAzOperation.put_Description, IAzOperation::Description, IAzOperation::get_Description, IAzOperation::put_Description, azroles/IAzOperation::Description, azroles/IAzOperation::get_Description, azroles/IAzOperation::put_Description, put_Description, security.iazoperation_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 068529cc-f614-426b-9593-bd153f5d5541
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDebugBreak, EngDebugBreak function [Display Devices], display.engdebugbreak, gdifncs_d6a74791-c6aa-4bf0-9f8b-8a52587a660f.xml, winddi/EngDebugBreak
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

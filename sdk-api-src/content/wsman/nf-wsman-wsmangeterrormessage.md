@@ -9,8 +9,6 @@ ms.assetid: 95fbded5-859d-4111-914c-871a05530726
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

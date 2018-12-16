@@ -9,8 +9,6 @@ ms.assetid: f52370cb-b26c-4f0f-9869-1207c906e4e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetImpersonationType, MI_DestinationOptions_SetImpersonationType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetImpersonationType, wmi_v2.mi_destinationoptions_setimpersonationtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

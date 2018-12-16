@@ -9,8 +9,6 @@ ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

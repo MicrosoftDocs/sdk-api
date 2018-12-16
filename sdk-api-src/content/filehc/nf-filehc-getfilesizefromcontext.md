@@ -9,8 +9,6 @@ ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

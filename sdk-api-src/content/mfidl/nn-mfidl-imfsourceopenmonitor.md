@@ -9,8 +9,6 @@ ms.assetid: 9145910b-81f1-4fd1-8f6f-d6273e0edde6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9145910b-81f1-4fd1-8f6f-d6273e0edde6, IMFSourceOpenMonitor, IMFSourceOpenMonitor interface [Media Foundation], IMFSourceOpenMonitor interface [Media Foundation],described, mf.imfsourceopenmonitor, mfidl/IMFSourceOpenMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

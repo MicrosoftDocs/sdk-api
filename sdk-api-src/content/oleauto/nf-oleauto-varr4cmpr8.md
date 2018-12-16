@@ -9,8 +9,6 @@ ms.assetid: 0c871779-cfe2-4857-a391-ee28aca6c950
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarR4CmpR8, VarR4CmpR8 function [Automation], _oa96_VarR4CmpR8, automat.varr4cmpr8, oleauto/VarR4CmpR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

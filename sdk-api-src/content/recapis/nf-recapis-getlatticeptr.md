@@ -9,8 +9,6 @@ ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

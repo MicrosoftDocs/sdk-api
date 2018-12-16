@@ -9,8 +9,6 @@ ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cdad7006-4cd5-4ea3-84a3-f3cdeb57befa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStop method, IWTSProtocolManager.NotifySessionOfServiceStop, IWTSProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

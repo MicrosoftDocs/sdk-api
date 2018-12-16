@@ -9,8 +9,6 @@ ms.assetid: D234752E-E69D-4D64-A052-720BC4424BAE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(float), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

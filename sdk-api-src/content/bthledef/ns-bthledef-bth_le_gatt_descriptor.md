@@ -9,8 +9,6 @@ ms.assetid: DE738ADA-AE8E-4679-887C-A6194E88386E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR, PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_descriptor, bthledef/BTH_LE_GATT_DESCRIPTOR, bthledef/PBTH_LE_GATT_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h

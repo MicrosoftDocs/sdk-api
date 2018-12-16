@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPCWSTR,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPCWSTR,PRIORITY), htmlhelp.iitresultset_add3, infotech/IITResultSet::Add, refIITResultSetAddString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

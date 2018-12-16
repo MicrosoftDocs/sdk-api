@@ -9,8 +9,6 @@ ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

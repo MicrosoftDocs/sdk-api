@@ -9,8 +9,6 @@ ms.assetid: 248BE244-23A9-4F4E-95F7-D3DB678B2D9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamFrameFormat method, ID3D11VideoContext.VideoProcessorSetStreamFrameFormat, ID3D11VideoContext::VideoProcessorSetStreamFrameFormat, VideoProcessorSetStreamFrameFormat, VideoProcessorSetStreamFrameFormat method [Media Foundation], VideoProcessorSetStreamFrameFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamFrameFormat, mf.id3d11videocontext_videoprocessorsetstreamframeformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

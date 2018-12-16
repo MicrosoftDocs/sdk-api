@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearColorMatrix, ClearColorMatrix method [GDI+], ClearColorMatrix method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorMatrix method, ImageAttributes.ClearColorMatrix, ImageAttributes::ClearColorMatrix, _gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2 interface [Windows Update Agent],Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2.get_Categories, IUpdateHistoryEntry2::Categories, IUpdateHistoryEntry2::get_Categories, get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

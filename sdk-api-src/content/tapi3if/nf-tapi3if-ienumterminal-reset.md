@@ -9,8 +9,6 @@ ms.assetid: 4f8e9b85-abdb-41fb-8e7d-fbcde92f4458
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTerminal interface [TAPI 2.2],Reset method, IEnumTerminal.Reset, IEnumTerminal::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumTerminal interface, _tapi3_ienumterminal_reset, tapi3.ienumterminal_reset, tapi3if/IEnumTerminal::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

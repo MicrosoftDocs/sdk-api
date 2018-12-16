@@ -9,8 +9,6 @@ ms.assetid: 86dbfe68-e360-42cf-b572-960398ef06ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTarget, IDCompositionTarget interface [DirectComposition], IDCompositionTarget interface [DirectComposition],described, dcomp/IDCompositionTarget, directcomp.idcompositiontarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

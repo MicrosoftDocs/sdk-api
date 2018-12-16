@@ -9,8 +9,6 @@ ms.assetid: 09e586bc-bf0e-4831-be35-f00a6288231e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRM_DISTRIBUTION_POINT_INFO, DRM_DISTRIBUTION_POINT_INFO enumeration [Active Directory Rights Management Services SDK 1.0], DRM_DISTRIBUTION_POINT_LICENSE_ACQUISITION, DRM_DISTRIBUTION_POINT_PUBLISHING, DRM_DISTRIBUTION_POINT_REFERRAL_INFO, msdrmdefs/DRM_DISTRIBUTION_POINT_INFO, msdrmdefs/DRM_DISTRIBUTION_POINT_LICENSE_ACQUISITION, msdrmdefs/DRM_DISTRIBUTION_POINT_PUBLISHING, msdrmdefs/DRM_DISTRIBUTION_POINT_REFERRAL_INFO, rm.drm_distribution_point_info, rm.drm_distributionpoint_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 

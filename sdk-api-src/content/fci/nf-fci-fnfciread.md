@@ -9,8 +9,6 @@ ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

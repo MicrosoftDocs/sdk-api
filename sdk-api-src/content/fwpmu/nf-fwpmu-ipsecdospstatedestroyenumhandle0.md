@@ -9,8 +9,6 @@ ms.assetid: d7e1710d-8142-4583-a7b6-960fbdb2fcbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecDospStateDestroyEnumHandle0, IPsecDospStateDestroyEnumHandle0 function [Filtering], fwp.ipsecdospstatedestroyenumhandle0, fwpmu/IPsecDospStateDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

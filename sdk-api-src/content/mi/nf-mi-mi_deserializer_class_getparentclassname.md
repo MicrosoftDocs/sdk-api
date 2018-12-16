@@ -9,8 +9,6 @@ ms.assetid: 35e1d864-cc81-466e-bc5b-006c0aaf56fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Deserializer_Class_GetParentClassName, MI_Deserializer_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetParentClassName, wmi_v2.mi_deserializer_class_getparentclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

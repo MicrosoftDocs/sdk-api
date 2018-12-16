@@ -9,8 +9,6 @@ ms.assetid: 5ae2b56f-0dd9-4f37-a677-20b53c7200c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreservedKeyDescription, GetPreservedKeyDescription method [Text Services Framework], GetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKeyDescription method, ITfKeystrokeMgr.GetPreservedKeyDescription, ITfKeystrokeMgr::GetPreservedKeyDescription, _tsf_itfkeystrokemgr_getpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::GetPreservedKeyDescription, tsf.itfkeystrokemgr_getpreservedkeydescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

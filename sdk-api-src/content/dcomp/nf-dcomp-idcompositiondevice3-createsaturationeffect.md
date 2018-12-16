@@ -9,8 +9,6 @@ ms.assetid: 19613AF4-6EC0-4918-9FC1-147A04D321CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSaturationEffect, CreateSaturationEffect method [DirectComposition], CreateSaturationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateSaturationEffect method, IDCompositionDevice3.CreateSaturationEffect, IDCompositionDevice3::CreateSaturationEffect, dcomp/IDCompositionDevice3::CreateSaturationEffect, directcomp.idcompositiondevice3_createsaturationeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

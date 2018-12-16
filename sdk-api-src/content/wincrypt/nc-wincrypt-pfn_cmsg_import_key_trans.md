@@ -9,8 +9,6 @@ ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS callback, PFN_CMSG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_import_key_trans, wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

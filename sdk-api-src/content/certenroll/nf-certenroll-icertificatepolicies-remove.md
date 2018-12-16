@@ -9,8 +9,6 @@ ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

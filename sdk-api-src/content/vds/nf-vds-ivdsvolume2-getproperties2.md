@@ -9,8 +9,6 @@ ms.assetid: 9580ceb2-6b2f-4313-a140-f6fa6a366960
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsVolume2 interface, IVdsVolume2 interface,GetProperties2 method, IVdsVolume2.GetProperties2, IVdsVolume2::GetProperties2, base.ivdsvolume2_getproperties2, vds/IVdsVolume2::GetProperties2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

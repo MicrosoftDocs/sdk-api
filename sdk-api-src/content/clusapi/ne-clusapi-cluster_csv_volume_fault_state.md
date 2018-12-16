@@ -9,8 +9,6 @@ ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster], PCLUSTER_CSV_VOLUME_FAULT_STATE, PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster], VolumeStateDismounted, VolumeStateInMaintenance, VolumeStateNoAccess, VolumeStateNoDirectIO, VolumeStateNoFaults, clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/VolumeStateDismounted, clusapi/VolumeStateInMaintenance, clusapi/VolumeStateNoAccess, clusapi/VolumeStateNoDirectIO, clusapi/VolumeStateNoFaults, mscs.cluster_csv_volume_fault_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33FACC32-5245-41F4-9AC0-55A349DD0AD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_PWM_PIN_STOP, IOCTL_PWM_PIN_STOP control, IOCTL_PWM_PIN_STOP control code, base.ioctl_pwm_pin_stop, pwm/IOCTL_PWM_PIN_STOP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

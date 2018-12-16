@@ -9,8 +9,6 @@ ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

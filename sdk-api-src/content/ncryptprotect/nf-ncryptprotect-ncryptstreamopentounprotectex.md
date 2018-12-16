@@ -9,8 +9,6 @@ ms.assetid: 8E607F4F-4A0F-4796-8F40-D232687815AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f350b992-5c0b-468e-8898-97793ad896e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_PASTE_PARMS_str, digitalv/MCI_DGV_PASTE_PARMS, multimedia.mci_dgv_paste_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

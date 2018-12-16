@@ -9,8 +9,6 @@ ms.assetid: 97e1ede2-9b7d-46af-b3a5-d0860eaa9dce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],PerUser property, IWindowsDriverUpdate4.PerUser, IWindowsDriverUpdate4.get_PerUser, IWindowsDriverUpdate4::PerUser, IWindowsDriverUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IWindowsDriverUpdate4 interface, get_PerUser, wua.iwindowsdriverupdate4_peruser, wuapi/IWindowsDriverUpdate4::PerUser, wuapi/IWindowsDriverUpdate4::get_PerUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

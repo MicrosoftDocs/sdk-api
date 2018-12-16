@@ -9,8 +9,6 @@ ms.assetid: 318f0e08-2384-4fab-a181-6ff3070ea21f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

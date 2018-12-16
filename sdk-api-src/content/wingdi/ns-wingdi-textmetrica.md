@@ -9,8 +9,6 @@ ms.assetid: 0a46da58-5d0f-4db4-bba6-9e1b6c1f892c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTEXTMETRICA, *NPTEXTMETRICA, *PTEXTMETRICA, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

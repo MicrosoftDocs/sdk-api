@@ -9,8 +9,6 @@ ms.assetid: 633FA684-5CC6-4615-B62C-54C60B38E652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vdssys/QueryChangesVirtualDisk, vhd.querychangesvirtualdisk, virtdisk/QueryChangesVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

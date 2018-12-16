@@ -9,8 +9,6 @@ ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2B388352-EF43-4D1E-851C-A670B4681F0F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Fence, ID3D12Fence interface, ID3D12Fence interface,described, d3d12/ID3D12Fence, direct3d12.id3d12fence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

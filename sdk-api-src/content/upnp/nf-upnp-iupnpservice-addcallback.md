@@ -9,8 +9,6 @@ ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

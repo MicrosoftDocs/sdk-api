@@ -9,8 +9,6 @@ ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateClusterNotifyPortV2, CreateClusterNotifyPortV2 function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster], clusapi/CreateClusterNotifyPortV2, clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

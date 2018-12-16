@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_FindStringExact, ComboBox_FindStringExact macro [Windows Controls], _win32_ComboBox_FindStringExact, _win32_ComboBox_FindStringExact_cpp, controls.ComboBox_FindStringExact, controls._win32_ComboBox_FindStringExact, windowsx/ComboBox_FindStringExact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

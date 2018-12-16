@@ -9,8 +9,6 @@ ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientStreamRead, PeerDistClientStreamRead function [Peer Networking], p2p.peerdistclientstreamread, peerdist/PeerDistClientStreamRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

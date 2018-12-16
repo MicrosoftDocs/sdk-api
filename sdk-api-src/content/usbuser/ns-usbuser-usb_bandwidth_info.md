@@ -9,8 +9,6 @@ ms.assetid: 33983bed-9794-4deb-8d30-1089eee9eb9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO structure pointer [Buses], USB_BANDWIDTH_INFO, USB_BANDWIDTH_INFO structure [Buses], buses.usb_bandwidth_info, usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml, usbuser/PUSB_BANDWIDTH_INFO, usbuser/USB_BANDWIDTH_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

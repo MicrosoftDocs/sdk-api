@@ -9,8 +9,6 @@ ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0c00e672-7bad-4a44-a76a-efd222f763d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoLong method, ITCallInfo.get_CallInfoLong, ITCallInfo::get_CallInfoLong, _tapi3_itcallinfo_get_callinfolong, get_CallInfoLong, get_CallInfoLong method [TAPI 2.2], get_CallInfoLong method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfolong, tapi3if/ITCallInfo::get_CallInfoLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

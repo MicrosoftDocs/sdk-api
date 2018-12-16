@@ -9,8 +9,6 @@ ms.assetid: 968A30D5-42ED-472B-9436-EBC77A3F76C9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceArrival method, IDeviceController.add_DeviceArrival, IDeviceController.streaming, IDeviceController::add_DeviceArrival, IDeviceController::streaming, add_DeviceArrival, add_DeviceArrival method [Media Streaming API], add_DeviceArrival method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicearrival, windows/IDeviceController::add_DeviceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupGetStringField, SetupGetStringField function [Setup API], SetupGetStringFieldA, SetupGetStringFieldW, _setupapi_setupgetstringfield, setup.setupgetstringfield, setupapi/SetupGetStringField, setupapi/SetupGetStringFieldA, setupapi/SetupGetStringFieldW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

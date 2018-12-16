@@ -9,8 +9,6 @@ ms.assetid: E24E7258-1A5D-4FA0-8F17-6E2B00582AF3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumPropInfo, EnumPropInfo method [search], EnumPropInfo method [search],IColumnMapper interface, IColumnMapper interface [search],EnumPropInfo method, IColumnMapper.EnumPropInfo, IColumnMapper::EnumPropInfo, indexsrv/IColumnMapper::EnumPropInfo, search.icolumnmapper_enumpropinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

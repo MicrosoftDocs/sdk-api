@@ -9,8 +9,6 @@ ms.assetid: 96463bac-0833-4a5e-b054-e32a29bc903d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST structure [Security], PKERB_CHANGEPASSWORD_REQUEST, PKERB_CHANGEPASSWORD_REQUEST structure pointer [Security], ntsecapi/KERB_CHANGEPASSWORD_REQUEST, ntsecapi/PKERB_CHANGEPASSWORD_REQUEST, security.kerb_changepassword_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

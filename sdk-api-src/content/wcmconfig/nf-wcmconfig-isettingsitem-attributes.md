@@ -9,8 +9,6 @@ ms.assetid: 7a6751f2-0934-4329-9ab2-9ae9802bc33e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Attributes method, ISettingsItem.Attributes, ISettingsItem::Attributes, smi.isettingsitem_attributes, wcmconfig/ISettingsItem::Attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

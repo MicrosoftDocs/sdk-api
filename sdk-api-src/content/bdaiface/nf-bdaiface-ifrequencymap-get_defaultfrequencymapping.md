@@ -9,8 +9,6 @@ ms.assetid: 67057c70-cb4d-4828-ad97-cf0181bd8cfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_DefaultFrequencyMapping method, IFrequencyMap.get_DefaultFrequencyMapping, IFrequencyMap::get_DefaultFrequencyMapping, IFrequencyMapget_DefaultMapping, bdaiface/IFrequencyMap::get_DefaultFrequencyMapping, get_DefaultFrequencyMapping, get_DefaultFrequencyMapping method [Microsoft TV Technologies], get_DefaultFrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_defaultfrequencymapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

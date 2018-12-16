@@ -9,8 +9,6 @@ ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

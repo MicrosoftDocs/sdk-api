@@ -9,8 +9,6 @@ ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

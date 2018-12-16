@@ -9,8 +9,6 @@ ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

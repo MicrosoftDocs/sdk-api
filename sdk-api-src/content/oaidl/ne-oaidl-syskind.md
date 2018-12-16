@@ -9,8 +9,6 @@ ms.assetid: 662048b2-59a8-48ca-9e4f-2f9a5306faa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYSKIND, SYSKIND enumeration [Automation], SYS_MAC, SYS_WIN16, SYS_WIN32, SYS_WIN64, _oa96_SYSKIND, automat.syskind, oaidl/SYSKIND, oaidl/SYS_MAC, oaidl/SYS_WIN16, oaidl/SYS_WIN32, oaidl/SYS_WIN64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 

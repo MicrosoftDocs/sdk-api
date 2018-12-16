@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Size class, Size class [GDI+],Equals method, Size.Equals, Size::Equals, _gdiplus_CLASS_Size_Equals_sz_, gdiplus._gdiplus_CLASS_Size_Equals_sz_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

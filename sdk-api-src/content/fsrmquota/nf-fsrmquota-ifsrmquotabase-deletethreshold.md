@@ -9,8 +9,6 @@ ms.assetid: 6f6ace15-05aa-4276-88eb-3a4315b3b51c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteThreshold, DeleteThreshold method [File Server Resource Manager], DeleteThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],DeleteThreshold method, IFsrmQuotaBase.DeleteThreshold, IFsrmQuotaBase::DeleteThreshold, fs.ifsrmquotabase_deletethreshold, fsrm.ifsrmquotabase_deletethreshold, fsrmquota/IFsrmQuotaBase::DeleteThreshold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

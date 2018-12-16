@@ -9,8 +9,6 @@ ms.assetid: cf3e97f2-6068-4438-b4c7-5e55ba22bd6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunningStats method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetRunningStats method, IDirectMusicSynth.GetRunningStats, IDirectMusicSynth::GetRunningStats, audio.idirectmusicsynth_getrunningstats, audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml, dmusics/IDirectMusicSynth::GetRunningStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

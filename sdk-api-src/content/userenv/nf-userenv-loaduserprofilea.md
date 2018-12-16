@@ -9,8 +9,6 @@ ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

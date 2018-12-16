@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InPlaceDeactivate method, IRichEditOle.InPlaceDeactivate, IRichEditOle::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [Windows Controls], InPlaceDeactivate method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InPlaceDeactivate, _win32_IRichEditOle_InPlaceDeactivate_cpp, controls.IRichEditOle_InPlaceDeactivate, controls._win32_IRichEditOle_InPlaceDeactivate, richole/IRichEditOle::InPlaceDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

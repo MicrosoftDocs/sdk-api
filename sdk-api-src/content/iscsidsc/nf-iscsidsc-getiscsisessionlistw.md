@@ -9,8 +9,6 @@ ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIScsiSessionListW, GetIscsiSessionList, GetIscsiSessionList function [iSCSI Discovery Library API], GetIscsiSessionListA, GetIscsiSessionListW, iscsidisc.getiscsisessionlist, iscsidsc/GetIscsiSessionList, iscsidsc/GetIscsiSessionListA, iscsidsc/GetIscsiSessionListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

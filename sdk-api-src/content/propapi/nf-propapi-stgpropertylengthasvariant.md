@@ -9,8 +9,6 @@ ms.assetid: 3e809ca9-3038-4d92-bb56-23bd45b6b644
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgPropertyLengthAsVariant, StgPropertyLengthAsVariant function [Structured Storage], propapi/StgPropertyLengthAsVariant, stg.stgpropertylengthasvariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propapi.h
 req.include-header: 

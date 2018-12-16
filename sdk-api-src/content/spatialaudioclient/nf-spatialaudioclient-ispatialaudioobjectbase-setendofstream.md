@@ -9,8 +9,6 @@ ms.assetid: 17294E5D-04D7-43B9-AD41-392344309308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],SetEndOfStream method, ISpatialAudioObjectBase.SetEndOfStream, ISpatialAudioObjectBase::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Core Audio], SetEndOfStream method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_setendofstream, spatialaudioclient/ISpatialAudioObjectBase::SetEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

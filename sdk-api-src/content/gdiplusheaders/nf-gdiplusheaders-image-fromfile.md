@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FromFile, FromFile method [GDI+], FromFile method [GDI+],Image class, Image class [GDI+],FromFile method, Image.FromFile, Image::FromFile, _gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

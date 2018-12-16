@@ -9,8 +9,6 @@ ms.assetid: 5E0731DC-8B70-40dc-B90A-97B1E3E4D55D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, IDesktopWallpaper.SetWallpaper, IDesktopWallpaper::SetWallpaper, SetWallpaper, SetWallpaper method [Windows Shell], SetWallpaper method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetWallpaper, shobjidl_core/IDesktopWallpaper::SetWallpaper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

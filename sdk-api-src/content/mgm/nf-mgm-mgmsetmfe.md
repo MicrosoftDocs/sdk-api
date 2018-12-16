@@ -9,8 +9,6 @@ ms.assetid: 143c080a-be80-47fb-a159-e6c95aa0d7ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

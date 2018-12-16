@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setmintabwidth.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_SetMinTabWidth, TabCtrl_SetMinTabWidth macro [Windows Controls], _win32_TabCtrl_SetMinTabWidth, _win32_TabCtrl_SetMinTabWidth_cpp, commctrl/TabCtrl_SetMinTabWidth, controls.TabCtrl_SetMinTabWidth, controls._win32_TabCtrl_SetMinTabWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

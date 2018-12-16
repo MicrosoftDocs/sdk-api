@@ -9,8 +9,6 @@ ms.assetid: 44a934f4-9ae9-4f52-9d44-f5fcf30f3837
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromTemplateName method, IX509Enrollment.InitializeFromTemplateName, IX509Enrollment::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromTemplateName, security.ix509enrollment_initializefromtemplatename_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

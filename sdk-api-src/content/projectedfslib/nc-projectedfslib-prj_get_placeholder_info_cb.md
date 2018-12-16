@@ -9,8 +9,6 @@ ms.assetid: 1BC7C1FA-1BAB-48FB-85C2-34EC3B1B4167
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_GET_PLACEHOLDER_INFO_CB, PRJ_GET_PLACEHOLDER_INFO_CB callback, PRJ_GET_PLACEHOLDER_INFO_CB callback function, ProjFS.prj_get_placeholder_info_cb, projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 

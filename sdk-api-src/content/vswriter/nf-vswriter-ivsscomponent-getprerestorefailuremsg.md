@@ -9,8 +9,6 @@ ms.assetid: 58c007a8-8414-4e2d-8042-d249a723780a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreRestoreFailureMsg, GetPreRestoreFailureMsg method [VSS], GetPreRestoreFailureMsg method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreRestoreFailureMsg method, IVssComponent.GetPreRestoreFailureMsg, IVssComponent::GetPreRestoreFailureMsg, _win32_ivsscomponent_getprerestorefailuremsg, base.ivsscomponent_getprerestorefailuremsg, vswriter/IVssComponent::GetPreRestoreFailureMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: f6fc8525-a2d3-4643-9372-548df5e30900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterNodeControl, ClusterNodeControl function [Failover Cluster], _wolf_clusternodecontrol, clusapi/ClusterNodeControl, mscs.clusternodecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample interface [Media Foundation],SetSampleFlags method, IMFSample.SetSampleFlags, IMFSample::SetSampleFlags, SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation],IMFSample interface, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

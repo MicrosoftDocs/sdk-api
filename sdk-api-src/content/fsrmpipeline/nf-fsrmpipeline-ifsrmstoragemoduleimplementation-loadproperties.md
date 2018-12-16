@@ -9,8 +9,6 @@ ms.assetid: 05de6dfe-0f90-4866-bedc-72b8fea9dfac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],LoadProperties method, IFsrmStorageModuleImplementation.LoadProperties, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

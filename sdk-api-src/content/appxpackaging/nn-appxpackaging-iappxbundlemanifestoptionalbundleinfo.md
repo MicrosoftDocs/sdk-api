@@ -9,8 +9,6 @@ ms.assetid: C9DC823D-46D5-4459-A20A-0969D20C6E9E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfo, appxpkg.iappxbundlemanifestoptionalbundleinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

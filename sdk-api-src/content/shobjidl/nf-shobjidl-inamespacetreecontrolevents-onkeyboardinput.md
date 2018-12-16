@@ -9,8 +9,6 @@ ms.assetid: b5034847-cba9-4ebe-8578-c933234396e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

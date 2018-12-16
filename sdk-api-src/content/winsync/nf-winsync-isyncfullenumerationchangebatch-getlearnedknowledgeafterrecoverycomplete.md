@@ -9,8 +9,6 @@ ms.assetid: 8eb9fdbf-b1ce-4acf-837f-01d693940790
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

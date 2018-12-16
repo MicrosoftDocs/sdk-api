@@ -9,8 +9,6 @@ ms.assetid: e94c5ae3-1d5f-4ca6-a09b-7190cbe2035b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPinTypes, GetPinTypes method [Microsoft TV Technologies], GetPinTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetPinTypes method, IBDA_Topology.GetPinTypes, IBDA_Topology::GetPinTypes, IBDA_TopologyGetPinTypes, bdaiface/IBDA_Topology::GetPinTypes, mstv.ibda_topology_getpintypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 135440ee-ea70-40da-9ee1-618a8e10170a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePalette, CreatePalette method [Windows Imaging Component], CreatePalette method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreatePalette method, IWICImagingFactory.CreatePalette, IWICImagingFactory::CreatePalette, _wic_codec_iwicimagingfactory_createpalette, wic._wic_codec_iwicimagingfactory_createpalette, wincodec/IWICImagingFactory::CreatePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

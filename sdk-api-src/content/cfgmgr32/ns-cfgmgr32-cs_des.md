@@ -9,8 +9,6 @@ ms.assetid: 16b47fe9-cb84-453d-b515-bfdba254f947
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation], PCS_DES, PCS_DES structure pointer [Device and Driver Installation], cfgmgr32/CS_DES, cfgmgr32/PCS_DES, cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml, devinst.cs_des"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

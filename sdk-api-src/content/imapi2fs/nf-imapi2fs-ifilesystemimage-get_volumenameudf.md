@@ -9,8 +9,6 @@ ms.assetid: d034f8cb-38f5-42ab-8952-e4a76dc1f27d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameUDF method, IFileSystemImage.get_VolumeNameUDF, IFileSystemImage::get_VolumeNameUDF, get_VolumeNameUDF, get_VolumeNameUDF method [IMAPI], get_VolumeNameUDF method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameudf, imapi2fs/IFileSystemImage::get_VolumeNameUDF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

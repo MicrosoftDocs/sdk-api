@@ -9,8 +9,6 @@ ms.assetid: e801ca27-4581-4369-886c-04b824d55013
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: Textstor.h

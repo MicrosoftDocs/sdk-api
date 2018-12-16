@@ -9,8 +9,6 @@ ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

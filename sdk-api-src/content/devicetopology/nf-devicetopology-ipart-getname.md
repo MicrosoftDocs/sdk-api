@@ -9,8 +9,6 @@ ms.assetid: a583f445-ebb2-4072-a272-6f186aef71b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IPart interface, IPart interface [Core Audio],GetName method, IPart.GetName, IPart::GetName, IPartGetName, coreaudio.ipart_getname, devicetopology/IPart::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

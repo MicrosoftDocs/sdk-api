@@ -9,8 +9,6 @@ ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

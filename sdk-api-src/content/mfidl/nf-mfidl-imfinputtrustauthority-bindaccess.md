@@ -9,8 +9,6 @@ ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess, BindAccess method [Media Foundation], BindAccess method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],BindAccess method, IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

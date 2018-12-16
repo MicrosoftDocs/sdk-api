@@ -9,8 +9,6 @@ ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

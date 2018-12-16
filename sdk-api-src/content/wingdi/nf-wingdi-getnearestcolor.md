@@ -9,8 +9,6 @@ ms.assetid: 89e4e19b-47be-442e-8eb4-c867bb78f36a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

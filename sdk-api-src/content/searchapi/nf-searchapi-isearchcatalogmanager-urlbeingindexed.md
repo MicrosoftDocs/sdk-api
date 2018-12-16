@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],URLBeingIndexed method, ISearchCatalogManager.URLBeingIndexed, ISearchCatalogManager::URLBeingIndexed, URLBeingIndexed, URLBeingIndexed method [search], URLBeingIndexed method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_URLBeingIndexed, search._search_ISearchCatalogManager_URLBeingIndexed, searchapi/ISearchCatalogManager::URLBeingIndexed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

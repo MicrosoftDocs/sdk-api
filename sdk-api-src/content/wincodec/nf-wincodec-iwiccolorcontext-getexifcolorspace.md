@@ -9,8 +9,6 @@ ms.assetid: ebd51090-fabb-4a6e-a77c-f1895bc27e54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExifColorSpace, GetExifColorSpace method [Windows Imaging Component], GetExifColorSpace method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetExifColorSpace method, IWICColorContext.GetExifColorSpace, IWICColorContext::GetExifColorSpace, _wic_codec_iwiccolorcontext_getexifcolorspace, wic._wic_codec_iwiccolorcontext_getexifcolorspace, wincodec/IWICColorContext::GetExifColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

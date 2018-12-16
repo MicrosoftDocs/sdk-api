@@ -9,8 +9,6 @@ ms.assetid: c58a273a-c707-47f5-a667-e5d61579d82c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmNetEventEnum0, FwpmNetEventEnum0 function [Filtering], fwp.fwpmneteventenum0, fwpmu/FwpmNetEventEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

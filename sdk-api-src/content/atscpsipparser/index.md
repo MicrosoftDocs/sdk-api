@@ -2,7 +2,7 @@
 UID: NA:atscpsipparser
 ms.assetid: e20ec960-887e-3ce7-8683-3869efd2e12f
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

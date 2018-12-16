@@ -9,8 +9,6 @@ ms.assetid: c3bf56e1-42c6-4ecf-971f-2a6253fba0bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdxml.h
 req.include-header: Wsdapi.h

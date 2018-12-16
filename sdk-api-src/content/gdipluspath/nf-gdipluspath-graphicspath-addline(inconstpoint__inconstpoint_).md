@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN const Point &,IN const Point &), GraphicsPath.AddLine(const Point&,const Point&), GraphicsPath::AddLine, GraphicsPath::AddLine(IN const Point &,IN const Point &), _gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

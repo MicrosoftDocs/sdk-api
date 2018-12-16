@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindowEnabled, IsWindowEnabled function [Keyboard and Mouse Input], _win32_IsWindowEnabled, _win32_iswindowenabled_cpp, inputdev.iswindowenabled, winui._win32_iswindowenabled, winuser/IsWindowEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

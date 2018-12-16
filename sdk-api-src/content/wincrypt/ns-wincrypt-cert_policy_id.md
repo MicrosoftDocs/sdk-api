@@ -9,8 +9,6 @@ ms.assetid: d0a8989c-3a32-4093-9db3-0811049b6601
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_POLICY_ID, CERT_POLICY_ID, CERT_POLICY_ID structure [Security], PCERT_POLICY_ID, PCERT_POLICY_ID structure pointer [Security], _crypto2_cert_policy_id, security.cert_policy_id, wincrypt/CERT_POLICY_ID, wincrypt/PCERT_POLICY_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0bacce1d-438d-4d33-91f8-235ffe26abb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AutomaticUpdatesPermissionType, AutomaticUpdatesPermissionType enumeration [Windows Update Agent], auptDisableAutomaticUpdates, auptSetFeaturedUpdatesEnabled, auptSetIncludeRecommendedUpdates, auptSetNonAdministratorsElevated, auptSetNotificationLevel, wua.automaticupdatespermissiontype, wuapi/AutomaticUpdatesPermissionType, wuapi/auptDisableAutomaticUpdates, wuapi/auptSetFeaturedUpdatesEnabled, wuapi/auptSetIncludeRecommendedUpdates, wuapi/auptSetNonAdministratorsElevated, wuapi/auptSetNotificationLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

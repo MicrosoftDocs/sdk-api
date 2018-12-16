@@ -9,8 +9,6 @@ ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS structure [Battery Devices], PBATTERY_WMI_STATUS, PBATTERY_WMI_STATUS structure pointer [Battery Devices], batclass/BATTERY_WMI_STATUS, batclass/PBATTERY_WMI_STATUS, battery.battery_wmi_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

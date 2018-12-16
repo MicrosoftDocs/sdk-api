@@ -9,8 +9,6 @@ ms.assetid: 5af48053-23b7-489f-82b7-743153aea641
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_MM_SA_STATE, IKEEXT_MM_SA_STATE enumeration [Filtering], IKEEXT_MM_SA_STATE_COMPLETE, IKEEXT_MM_SA_STATE_FINAL, IKEEXT_MM_SA_STATE_FINAL_SENT, IKEEXT_MM_SA_STATE_MAX, IKEEXT_MM_SA_STATE_NONE, IKEEXT_MM_SA_STATE_SA_SENT, IKEEXT_MM_SA_STATE_SSPI_SENT, fwp.ikeext_mm_sa_state, iketypes/IKEEXT_MM_SA_STATE, iketypes/IKEEXT_MM_SA_STATE_COMPLETE, iketypes/IKEEXT_MM_SA_STATE_FINAL, iketypes/IKEEXT_MM_SA_STATE_FINAL_SENT, iketypes/IKEEXT_MM_SA_STATE_MAX, iketypes/IKEEXT_MM_SA_STATE_NONE, iketypes/IKEEXT_MM_SA_STATE_SA_SENT, iketypes/IKEEXT_MM_SA_STATE_SSPI_SENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iketypes.h
 req.include-header: 

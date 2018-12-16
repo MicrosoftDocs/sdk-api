@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartUntil method, ITextRange.MoveStartUntil, ITextRange::MoveStartUntil, MoveStartUntil, MoveStartUntil method [Windows Controls], MoveStartUntil method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartUntil, _win32_ITextRange_MoveStartUntil_cpp, controls.ITextRange_MoveStartUntil, controls._win32_ITextRange_MoveStartUntil, tom/ITextRange::MoveStartUntil
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

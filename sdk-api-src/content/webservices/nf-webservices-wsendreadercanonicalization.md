@@ -9,8 +9,6 @@ ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

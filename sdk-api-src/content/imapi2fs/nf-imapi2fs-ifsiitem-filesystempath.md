@@ -9,8 +9,6 @@ ms.assetid: c6b969e2-9b1c-402e-81ea-ced13fca4551
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileSystemPath, FileSystemPath method [IMAPI], FileSystemPath method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemPath method, IFsiItem.FileSystemPath, IFsiItem::FileSystemPath, imapi.ifsiitem_filesystempath, imapi2fs/IFsiItem::FileSystemPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

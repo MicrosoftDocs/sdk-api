@@ -9,8 +9,6 @@ ms.assetid: 33fdb48c-6f33-44e8-83b1-6029b1eace1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SimilarityData, SimilarityData structure [Remote Differential Compression], fs.similaritydata, msrdc/SimilarityData, rdc.similaritydata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

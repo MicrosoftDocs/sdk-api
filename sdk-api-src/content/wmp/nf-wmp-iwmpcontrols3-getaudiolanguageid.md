@@ -9,8 +9,6 @@ ms.assetid: 50874485-23fc-48cc-9149-7cbc3b8c0c00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],getAudioLanguageID method, IWMPControls3.getAudioLanguageID, IWMPControls3::getAudioLanguageID, IWMPControls3getAudioLanguageID, getAudioLanguageID, getAudioLanguageID method [Windows Media Player], getAudioLanguageID method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getaudiolanguageid, wmp/IWMPControls3::getAudioLanguageID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

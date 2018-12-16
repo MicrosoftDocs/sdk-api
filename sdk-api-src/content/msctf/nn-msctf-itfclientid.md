@@ -9,8 +9,6 @@ ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfClientId interface [Text Services Framework],described, _tsf_itfclientid_ref, msctf/ITfClientId, tsf.itfclientid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

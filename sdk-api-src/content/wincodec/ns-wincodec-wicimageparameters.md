@@ -9,8 +9,6 @@ ms.assetid: 0B461697-C7ED-48C9-A880-1B5F4A26FCFC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWICImageParameters, PWICImageParameters structure pointer [Windows Imaging Component], WICImageParameters, WICImageParameters structure [Windows Imaging Component], wic.wicimageparameters, wincodec/PWICImageParameters, wincodec/WICImageParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

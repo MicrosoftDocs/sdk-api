@@ -9,8 +9,6 @@ ms.assetid: b5381f3a-e120-4db3-8463-5286e4318b13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAccelerator interface [windows Media Format],Notify method, IWMReaderAccelerator.Notify, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IWMReaderAccelerator interface, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

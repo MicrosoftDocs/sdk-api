@@ -9,8 +9,6 @@ ms.assetid: 5D244353-F514-4E1C-AA50-AD085EA11FEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC interface [Direct3D 11],CD3D11_BUFFER_DESC method, CD3D11_BUFFER_DESC method [Direct3D 11], CD3D11_BUFFER_DESC method [Direct3D 11],CD3D11_BUFFER_DESC interface, CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &), CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &), CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC&), d3d11/CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc_cd3d11_buffer_desc_d3d11_buffer_desc_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

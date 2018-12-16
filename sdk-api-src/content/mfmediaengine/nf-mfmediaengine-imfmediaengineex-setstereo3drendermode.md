@@ -9,8 +9,6 @@ ms.assetid: 89B6B2AC-A721-4C56-BF0A-A19350FE4823
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetStereo3DRenderMode method, IMFMediaEngineEx.SetStereo3DRenderMode, IMFMediaEngineEx::SetStereo3DRenderMode, SetStereo3DRenderMode, SetStereo3DRenderMode method [Media Foundation], SetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setstereo3drendermode, mfmediaengine/IMFMediaEngineEx::SetStereo3DRenderMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

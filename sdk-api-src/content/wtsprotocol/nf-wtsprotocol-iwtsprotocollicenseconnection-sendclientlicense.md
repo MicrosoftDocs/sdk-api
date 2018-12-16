@@ -9,8 +9,6 @@ ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWTSProtocolLicenseConnection.SendClientLicense, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

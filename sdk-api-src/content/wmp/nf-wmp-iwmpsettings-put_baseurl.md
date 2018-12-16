@@ -9,8 +9,6 @@ ms.assetid: ae070004-e90e-4f1e-b8b8-15deccdc48ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

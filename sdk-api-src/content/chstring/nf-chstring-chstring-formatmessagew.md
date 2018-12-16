@@ -9,8 +9,6 @@ ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString.FormatMessageW, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

@@ -9,8 +9,6 @@ ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winbase/UmsThreadYield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

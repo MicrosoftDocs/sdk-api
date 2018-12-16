@@ -9,8 +9,6 @@ ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

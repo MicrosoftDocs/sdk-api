@@ -9,8 +9,6 @@ ms.assetid: 08311403-23a9-4191-9720-3cec805de825
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsVolumeMF3 interface,QueryVolumeGuidPathnames method, IVdsVolumeMF3.QueryVolumeGuidPathnames, IVdsVolumeMF3::QueryVolumeGuidPathnames, QueryVolumeGuidPathnames, QueryVolumeGuidPathnames method, QueryVolumeGuidPathnames method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_queryvolumeguidpathnames, vds/IVdsVolumeMF3::QueryVolumeGuidPathnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 88e988db-1418-49d5-8cac-1ea6144474a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsGetFtContainerSecurity, NetDfsGetFtContainerSecurity function [Distributed File System], dfs.netdfsgetftcontainersecurity, fs.netdfsgetftcontainersecurity, lmdfs/NetDfsGetFtContainerSecurity, netmgmt.netdfsgetftcontainersecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

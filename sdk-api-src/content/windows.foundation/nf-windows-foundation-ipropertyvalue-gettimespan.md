@@ -9,8 +9,6 @@ ms.assetid: c78d584f-e2ef-4623-b45a-e26d2ec1518b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimeSpan, GetTimeSpan method [Windows Runtime], GetTimeSpan method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpan method, IPropertyValue.GetTimeSpan, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpan, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpan, winrt.ipropertyvalue_gettimespan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8e63be06-d311-4968-b436-262d9c3e9f10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capControlCallback, capControlCallback, capControlCallback callback, capControlCallback callback function [Windows Multimedia], multimedia.capcontrolcallback, vfw/capControlCallback"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 

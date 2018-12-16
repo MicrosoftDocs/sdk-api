@@ -9,8 +9,6 @@ ms.assetid: 15B438F8-C265-4D95-8806-D7DDBFF62973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure, base.pwm_controller_set_desired_period_output, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h

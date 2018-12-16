@@ -9,8 +9,6 @@ ms.assetid: bdd1834d-ce00-45e2-8fe7-825e18e12b96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Shell], GetFileTime method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetFileTime method, IShellItem2.GetFileTime, IShellItem2::GetFileTime, _shell_IShellItem2_GetFileTime, shell.IShellItem2_GetFileTime, shobjidl_core/IShellItem2::GetFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

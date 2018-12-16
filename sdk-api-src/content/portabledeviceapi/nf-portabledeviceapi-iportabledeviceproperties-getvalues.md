@@ -9,8 +9,6 @@ ms.assetid: 5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValues, GetValues method [Windows Portable Devices SDK], GetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetValues method, IPortableDeviceProperties.GetValues, IPortableDeviceProperties::GetValues, IPortableDevicePropertiesGetValues, portabledeviceapi/IPortableDeviceProperties::GetValues, wpdsdk.iportabledeviceproperties_getvalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

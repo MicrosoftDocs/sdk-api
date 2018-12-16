@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dxgi.h
 req.include-header: 

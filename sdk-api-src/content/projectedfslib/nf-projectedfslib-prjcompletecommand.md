@@ -9,8 +9,6 @@ ms.assetid: 9A47FAB5-A085-41C9-861C-E74F2F5AF474
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

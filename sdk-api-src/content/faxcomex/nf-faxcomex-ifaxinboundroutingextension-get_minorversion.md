@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1cby.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MinorVersion property, IFaxInboundRoutingExtension.MinorVersion, IFaxInboundRoutingExtension.get_MinorVersion, IFaxInboundRoutingExtension::MinorVersion, IFaxInboundRoutingExtension::get_MinorVersion, MinorVersion property [Fax Service], MinorVersion property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.minorversion, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorversion_cpp, fax._mfax_faxinboundroutingextension_minorversion, faxcomex/IFaxInboundRoutingExtension::MinorVersion, faxcomex/IFaxInboundRoutingExtension::get_MinorVersion, get_MinorVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

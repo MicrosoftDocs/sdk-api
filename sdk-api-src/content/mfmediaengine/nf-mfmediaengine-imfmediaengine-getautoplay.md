@@ -9,8 +9,6 @@ ms.assetid: CEF50308-D4F9-435F-A81A-3746A27846F0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetAutoPlay method, IMFMediaEngine.GetAutoPlay, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

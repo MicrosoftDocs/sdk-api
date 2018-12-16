@@ -9,8 +9,6 @@ ms.assetid: 831d34d8-d586-41cc-a878-7a2b837b84de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServer, GetServer method [Windows Management Instrumentation], GetServer method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetServer method, IWbemPath.GetServer, IWbemPath::GetServer, _hmm_iwbempath_getserver, wmi.iwbempath_getserver, wmiutils/IWbemPath::GetServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

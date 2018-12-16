@@ -9,8 +9,6 @@ ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

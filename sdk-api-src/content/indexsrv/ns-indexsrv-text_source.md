@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: indexsrv.h
 req.include-header: 

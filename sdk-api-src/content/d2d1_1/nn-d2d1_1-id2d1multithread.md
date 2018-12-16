@@ -9,8 +9,6 @@ ms.assetid: 885E7580-6BF0-4A44-9493-6D4FFCB5577B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Multithread, ID2D1Multithread interface [Direct2D], ID2D1Multithread interface [Direct2D],described, d2d1_1/ID2D1Multithread, direct2d.id2d1multithread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 

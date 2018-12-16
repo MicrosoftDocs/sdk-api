@@ -9,8 +9,6 @@ ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

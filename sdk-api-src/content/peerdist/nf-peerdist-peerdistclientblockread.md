@@ -9,8 +9,6 @@ ms.assetid: ee64c0a8-7a07-4045-96fa-855b31c2e5b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientBlockRead, PeerDistClientBlockRead function [Peer Networking], p2p.peerdistclientblockread, peerdist/PeerDistClientBlockRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

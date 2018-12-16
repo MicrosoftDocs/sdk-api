@@ -9,8 +9,6 @@ ms.assetid: 76581c1c-9eba-456c-b1cb-ff61e530a53a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],LocalRevocationInformation property, IOCSPCAConfiguration.LocalRevocationInformation, IOCSPCAConfiguration.get_LocalRevocationInformation, IOCSPCAConfiguration::LocalRevocationInformation, IOCSPCAConfiguration::get_LocalRevocationInformation, IOCSPCAConfiguration::put_LocalRevocationInformation, LocalRevocationInformation property [Security], LocalRevocationInformation property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::LocalRevocationInformation, certadm/IOCSPCAConfiguration::get_LocalRevocationInformation, certadm/IOCSPCAConfiguration::put_LocalRevocationInformation, get_LocalRevocationInformation, security.iocspcaconfiguration_localrevocationinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

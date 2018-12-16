@@ -9,8 +9,6 @@ ms.assetid: 0937c816-b205-4c5d-b4b6-74c3e7fdb0ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PATHOBJ_bPolyBezierTo, PATHOBJ_bPolyBezierTo function [Display Devices], display.pathobj_bpolybezierto, gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml, winddi/PATHOBJ_bPolyBezierTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

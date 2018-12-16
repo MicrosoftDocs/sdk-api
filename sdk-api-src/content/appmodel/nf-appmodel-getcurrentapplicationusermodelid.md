@@ -9,8 +9,6 @@ ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

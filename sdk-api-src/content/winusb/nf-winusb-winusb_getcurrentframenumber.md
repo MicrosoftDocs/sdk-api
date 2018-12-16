@@ -9,8 +9,6 @@ ms.assetid: 178E1679-B78F-4032-8D1B-66B7ABE902C7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function [Buses], buses.winusb_getcurrentframenumber, winusb/WinUsb_GetCurrentFrameNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

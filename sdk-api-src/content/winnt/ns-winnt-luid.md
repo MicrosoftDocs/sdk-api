@@ -9,8 +9,6 @@ ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, winnt/LUID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

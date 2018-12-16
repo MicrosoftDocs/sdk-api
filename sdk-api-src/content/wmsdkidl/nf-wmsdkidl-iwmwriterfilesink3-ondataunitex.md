@@ -9,8 +9,6 @@ ms.assetid: 1dbcb27b-7588-4475-99fe-3e547d1659d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],OnDataUnitEx method, IWMWriterFileSink3.OnDataUnitEx, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

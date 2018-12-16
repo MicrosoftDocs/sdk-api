@@ -9,8 +9,6 @@ ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure pointer [VSS], VSS_OBJECT_PROP, VSS_OBJECT_PROP structure [VSS], _win32_vss_object_prop, base.vss_object_prop, vss/PVSS_OBJECT_PROP, vss/VSS_OBJECT_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vss.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContainingContextTreatment, ContainingContextTreatment method [COM+], ContainingContextTreatment method [COM+],IServiceInheritanceConfig interface, IServiceInheritanceConfig interface [COM+],ContainingContextTreatment method, IServiceInheritanceConfig.ContainingContextTreatment, IServiceInheritanceConfig::ContainingContextTreatment, _cos_IServiceInheritanceConfig_ContainingContextTreatment, comsvcs/IServiceInheritanceConfig::ContainingContextTreatment, cos.iserviceinheritanceconfig_containingcontexttreatment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

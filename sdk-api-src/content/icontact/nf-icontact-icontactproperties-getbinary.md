@@ -9,8 +9,6 @@ ms.assetid: 1a62c5d3-7052-4c10-90e7-25f616ac36b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBinary, GetBinary method [Windows Contacts], GetBinary method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetBinary method, IContactProperties.GetBinary, IContactProperties::GetBinary, _wincontacts_IContactProperties_GetBinary, icontact/IContactProperties::GetBinary, wincontacts._wincontacts_IContactProperties_GetBinary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

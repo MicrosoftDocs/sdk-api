@@ -9,8 +9,6 @@ ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler.ModifyScheduleTask, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

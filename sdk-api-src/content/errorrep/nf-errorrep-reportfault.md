@@ -9,8 +9,6 @@ ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: errorrep.h
 req.include-header: 

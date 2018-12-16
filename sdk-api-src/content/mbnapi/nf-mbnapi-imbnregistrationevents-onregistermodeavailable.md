@@ -9,8 +9,6 @@ ms.assetid: 5c916f16-e8f5-4c8a-942c-3a9ae11905a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnRegisterModeAvailable method, IMbnRegistrationEvents.OnRegisterModeAvailable, IMbnRegistrationEvents::OnRegisterModeAvailable, OnRegisterModeAvailable, OnRegisterModeAvailable method [Microsoft Broadband Networks], OnRegisterModeAvailable method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onregistermodeavailable, mbnapi/IMbnRegistrationEvents::OnRegisterModeAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c839493d-e53c-4afe-b53d-af9d1a6f2965
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceAdded method, IMMNotificationClient.OnDeviceAdded, IMMNotificationClient::OnDeviceAdded, IMMNotificationClientOnDeviceAdded, OnDeviceAdded, OnDeviceAdded method [Core Audio], OnDeviceAdded method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceadded, mmdeviceapi/IMMNotificationClient::OnDeviceAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

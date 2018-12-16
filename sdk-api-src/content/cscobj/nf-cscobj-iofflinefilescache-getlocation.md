@@ -9,8 +9,6 @@ ms.assetid: e608c662-23d2-4dcc-95fc-e949ba9f848f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocation, GetLocation method [Offline Files], GetLocation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetLocation method, IOfflineFilesCache.GetLocation, IOfflineFilesCache::GetLocation, cscobj/IOfflineFilesCache::GetLocation, of.iofflinefilescache_getlocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

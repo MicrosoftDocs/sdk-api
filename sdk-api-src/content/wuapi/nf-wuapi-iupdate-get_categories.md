@@ -9,8 +9,6 @@ ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Categories property, IUpdate.Categories, IUpdate.get_Categories, IUpdate::Categories, IUpdate::get_Categories, get_Categories, wua.iupdate_categories, wuapi/IUpdate::Categories, wuapi/IUpdate::get_Categories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

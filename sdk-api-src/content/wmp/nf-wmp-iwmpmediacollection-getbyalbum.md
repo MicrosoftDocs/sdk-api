@@ -9,8 +9,6 @@ ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAlbum method, IWMPMediaCollection.getByAlbum, IWMPMediaCollection::getByAlbum, IWMPMediaCollectiongetByAlbum, getByAlbum, getByAlbum method [Windows Media Player], getByAlbum method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyalbum, wmp/IWMPMediaCollection::getByAlbum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

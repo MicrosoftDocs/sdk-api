@@ -9,8 +9,6 @@ ms.assetid: 75a5961f-2c61-4e10-a570-7ebfabb97367
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Next method, IWMDMEnumDevice.Next, IWMDMEnumDevice::Next, IWMDMEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Next, wmdm.iwmdmenumdevice_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd15aa25-7a73-475f-b163-30e5dc1f52bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDSROLE_SERVER_STATE, DSROLE_SERVER_STATE, DSROLE_SERVER_STATE enumeration [Active Directory], DsRoleServerBackup, DsRoleServerPrimary, DsRoleServerUnknown, ad.dsrole_server_state, dsrole/DSROLE_SERVER_STATE, dsrole/DsRoleServerBackup, dsrole/DsRoleServerPrimary, dsrole/DsRoleServerUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dsrole.h
 req.include-header: 

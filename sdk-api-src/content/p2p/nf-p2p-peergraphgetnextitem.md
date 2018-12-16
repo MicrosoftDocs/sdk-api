@@ -9,8 +9,6 @@ ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f6d0401a-fc5f-4be8-96ce-211f6a29c560
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_FLOAT_TEXT, WS_XML_FLOAT_TEXT structure [Web Services for Windows], webservices/WS_XML_FLOAT_TEXT, wsw.ws_xml_float_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

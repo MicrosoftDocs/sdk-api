@@ -9,8 +9,6 @@ ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appnotify.h
 req.include-header: 

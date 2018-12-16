@@ -9,8 +9,6 @@ ms.assetid: 27224fb2-3843-4843-b66f-0a3dd8325e1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA structure [Display Devices], DD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA structure [Display Devices], ddrawint/DD_WAITFORVERTICALBLANKDATA, ddstrcts_cd09b34a-249c-4166-8624-bb638cf4bfe1.xml, display.dd_waitforverticalblankdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

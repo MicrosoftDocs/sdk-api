@@ -9,8 +9,6 @@ ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

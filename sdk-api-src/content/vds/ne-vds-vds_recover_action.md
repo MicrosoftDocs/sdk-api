@@ -9,8 +9,6 @@ ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

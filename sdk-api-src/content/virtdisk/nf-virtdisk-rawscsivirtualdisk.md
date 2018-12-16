@@ -9,8 +9,6 @@ ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSCSIVirtualDisk, vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

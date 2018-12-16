@@ -9,8 +9,6 @@ ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

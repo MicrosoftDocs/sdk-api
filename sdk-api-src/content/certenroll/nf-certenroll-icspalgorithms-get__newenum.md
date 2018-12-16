@@ -9,8 +9,6 @@ ms.assetid: 23c23cbe-0d92-4a78-a505-5b2010ce2aca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspAlgorithms interface [Security],_NewEnum property, ICspAlgorithms._NewEnum, ICspAlgorithms.get__NewEnum, ICspAlgorithms::_NewEnum, ICspAlgorithms::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::_NewEnum, certenroll/ICspAlgorithms::get__NewEnum, get__NewEnum, security.icspalgorithms__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

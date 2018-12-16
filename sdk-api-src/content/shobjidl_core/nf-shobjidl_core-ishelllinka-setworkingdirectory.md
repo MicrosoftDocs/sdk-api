@@ -9,8 +9,6 @@ ms.assetid: 03767add-766c-4970-935e-ffa5aa401a95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLink interface [Windows Shell],SetWorkingDirectory method, IShellLink::SetWorkingDirectory, IShellLinkA, IShellLinkA interface [Windows Shell],SetWorkingDirectory method, IShellLinkA.SetWorkingDirectory, IShellLinkA::SetWorkingDirectory, IShellLinkW, IShellLinkW interface [Windows Shell],SetWorkingDirectory method, IShellLinkW::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Windows Shell], SetWorkingDirectory method [Windows Shell],IShellLink interface, SetWorkingDirectory method [Windows Shell],IShellLinkA interface, SetWorkingDirectory method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetWorkingDirectory, shell.IShellLink_SetWorkingDirectory, shobjidl_core/IShellLink::SetWorkingDirectory, shobjidl_core/IShellLinkA::SetWorkingDirectory, shobjidl_core/IShellLinkW::SetWorkingDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

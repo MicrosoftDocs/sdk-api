@@ -9,8 +9,6 @@ ms.assetid: cc5c1c15-cad7-4103-a2c9-1a8adf742703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

@@ -9,8 +9,6 @@ ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2ca3e280-4f3e-4460-884d-186199e3edd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_framesSkipped method, IWMPNetwork.get_framesSkipped, IWMPNetwork::get_framesSkipped, IWMPNetworkget_framesSkipped, get_framesSkipped, get_framesSkipped method [Windows Media Player], get_framesSkipped method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framesskipped, wmp/IWMPNetwork::get_framesSkipped
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

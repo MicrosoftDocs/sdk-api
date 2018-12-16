@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetBounds method, GraphicsPath.GetBounds, GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen), GraphicsPath.GetBounds(Rect*,const Matrix*,const Pen*), GraphicsPath::GetBounds, GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen), _gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

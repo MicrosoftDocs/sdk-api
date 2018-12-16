@@ -9,8 +9,6 @@ ms.assetid: aae5d89a-be46-40c8-ad5d-21f9b3a9c04f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsUserInRole method, ISecurityCallContext.IsUserInRole, ISecurityCallContext::IsUserInRole, IsUserInRole, IsUserInRole method [COM+], IsUserInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsUserInRole, comsvcs/ISecurityCallContext::IsUserInRole, cos.isecuritycallcontext_isuserinrole
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

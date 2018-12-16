@@ -9,8 +9,6 @@ ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: handleapi.h
 req.include-header: Windows.h

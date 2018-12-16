@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10vertexshader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1037a0d0-ff92-5834-5b3b-282125a9ccca, ID3D10VertexShader, ID3D10VertexShader interface [Direct3D 10], ID3D10VertexShader interface [Direct3D 10],described, d3d10/ID3D10VertexShader, direct3d10.id3d10vertexshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 

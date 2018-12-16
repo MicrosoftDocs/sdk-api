@@ -9,8 +9,6 @@ ms.assetid: 8b9916e7-0a0d-44b1-8f8d-8307c145e57a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSizeArray, CreateSizeArray method [Windows Runtime], CreateSizeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSizeArray method, IPropertyValueStatics.CreateSizeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSizeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSizeArray, winrt.ipropertyvaluefactory_createsizearray, winrt.ipropertyvaluestatics_createsizearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

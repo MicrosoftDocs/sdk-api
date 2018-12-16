@@ -9,8 +9,6 @@ ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 76de324f-f371-4fac-ab0a-b7f359dd3abd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

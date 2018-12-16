@@ -9,8 +9,6 @@ ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINECOUNTRYLIST, LINECOUNTRYLIST, LINECOUNTRYLIST structure [TAPI 2.2], LPLINECOUNTRYLIST, LPLINECOUNTRYLIST structure pointer [TAPI 2.2], _tapi2_linecountrylist_str, tapi/LINECOUNTRYLIST, tapi/LPLINECOUNTRYLIST, tapi2.linecountrylist_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

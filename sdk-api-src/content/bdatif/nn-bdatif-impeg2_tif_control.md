@@ -9,8 +9,6 @@ ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

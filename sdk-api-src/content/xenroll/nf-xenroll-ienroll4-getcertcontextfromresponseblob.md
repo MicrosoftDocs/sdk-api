@@ -9,8 +9,6 @@ ms.assetid: 824626bf-a20d-4d34-a061-9f54b142e0fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromResponseBlob method, IEnroll4.getCertContextFromResponseBlob, IEnroll4::getCertContextFromResponseBlob, getCertContextFromResponseBlob, getCertContextFromResponseBlob method [Security], getCertContextFromResponseBlob method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromresponseblob, xenroll/IEnroll4::getCertContextFromResponseBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

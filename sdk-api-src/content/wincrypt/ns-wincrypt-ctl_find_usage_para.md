@@ -9,8 +9,6 @@ ms.assetid: bb6a7013-19ec-4263-b7a2-33c79c2b5feb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA structure [Security], PCTL_FIND_USAGE_PARA, PCTL_FIND_USAGE_PARA structure pointer [Security], _crypto2_ctl_find_usage_para, security.ctl_find_usage_para, wincrypt/CTL_FIND_USAGE_PARA, wincrypt/PCTL_FIND_USAGE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

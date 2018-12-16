@@ -9,8 +9,6 @@ ms.assetid: 69d4a632-8e35-4569-8c14-f56e9fd84c34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCachedRowHeaderItems, GetCachedRowHeaderItems method [Windows Accessibility], GetCachedRowHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCachedRowHeaderItems method, IUIAutomationTableItemPattern.GetCachedRowHeaderItems, IUIAutomationTableItemPattern::GetCachedRowHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

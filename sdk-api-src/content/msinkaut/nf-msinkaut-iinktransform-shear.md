@@ -9,8 +9,6 @@ ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tablet PC],Shear method, IInkTransform.Shear, IInkTransform::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Shear, tablet.inktransform_shear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 422ac0d8-8e94-4484-802f-cdf4ae482fa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], IWMPControls interface [Windows Media Player],described, IWMPControlsInterface, wmp.iwmpcontrols, wmp/IWMPControls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

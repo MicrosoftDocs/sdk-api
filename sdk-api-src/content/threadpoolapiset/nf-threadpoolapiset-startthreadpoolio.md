@@ -9,8 +9,6 @@ ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StartThreadpoolIo, StartThreadpoolIo function, base.startthreadpoolio, threadpoolapiset/StartThreadpoolIo, winbase/StartThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

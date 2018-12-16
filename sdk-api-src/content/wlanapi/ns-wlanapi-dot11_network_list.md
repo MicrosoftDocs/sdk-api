@@ -9,8 +9,6 @@ ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

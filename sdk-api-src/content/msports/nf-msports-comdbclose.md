@@ -9,8 +9,6 @@ ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h

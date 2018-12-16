@@ -9,8 +9,6 @@ ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

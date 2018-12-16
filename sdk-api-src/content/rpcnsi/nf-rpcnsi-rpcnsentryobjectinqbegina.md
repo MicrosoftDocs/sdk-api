@@ -9,8 +9,6 @@ ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

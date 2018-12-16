@@ -9,8 +9,6 @@ ms.assetid: d5112da8-36a0-4b13-b674-c68eab24266d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SetTimes method, IShellItemResources.SetTimes, IShellItemResources::SetTimes, SetTimes, SetTimes method [Windows Shell], SetTimes method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SetTimes, shell.IShellItemResources_SetTimes, shobjidl_core/IShellItemResources::SetTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

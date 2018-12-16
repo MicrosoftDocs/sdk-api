@@ -9,8 +9,6 @@ ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

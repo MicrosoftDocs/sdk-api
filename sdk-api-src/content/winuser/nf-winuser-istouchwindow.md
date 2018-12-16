@@ -9,8 +9,6 @@ ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

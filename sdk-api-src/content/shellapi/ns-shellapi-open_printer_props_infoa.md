@@ -9,8 +9,6 @@ ms.assetid: c5cabb04-20a2-40ce-aa4d-180b73db8eac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*POPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_PROPS_INFO structure [Windows Shell], OPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFOW, POPEN_PRINTER_PROPS_INFO, POPEN_PRINTER_PROPS_INFO structure pointer [Windows Shell], _shell_OPEN_PRINTER_PROPS_INFO, shell.OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFOA, shellapi/OPEN_PRINTER_PROPS_INFOW, shellapi/POPEN_PRINTER_PROPS_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

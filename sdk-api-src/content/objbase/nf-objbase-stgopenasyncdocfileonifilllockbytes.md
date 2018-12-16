@@ -9,8 +9,6 @@ ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

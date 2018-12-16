@@ -9,8 +9,6 @@ ms.assetid: 99dfbe4c-dac5-4d04-890c-dbb32f07e556
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF],INetFwRule2 interface, INetFwRule2 interface [ICS/ICF],EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2.get_EdgeTraversalOptions, INetFwRule2::EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, get_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

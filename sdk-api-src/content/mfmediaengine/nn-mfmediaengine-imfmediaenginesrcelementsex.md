@@ -9,8 +9,6 @@ ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

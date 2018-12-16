@@ -9,8 +9,6 @@ ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

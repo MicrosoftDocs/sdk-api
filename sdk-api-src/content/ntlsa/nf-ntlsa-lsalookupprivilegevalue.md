@@ -9,8 +9,6 @@ ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntlsa.h
 req.include-header: 

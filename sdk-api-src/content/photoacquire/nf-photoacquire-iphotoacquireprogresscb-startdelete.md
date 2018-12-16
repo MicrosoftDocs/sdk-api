@@ -9,8 +9,6 @@ ms.assetid: 510999eb-068e-41e9-98b7-de6e67dbfe2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete method, IPhotoAcquireProgressCB.StartDelete, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

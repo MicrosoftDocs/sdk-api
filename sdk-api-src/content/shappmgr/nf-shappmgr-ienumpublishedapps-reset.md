@@ -9,8 +9,6 @@ ms.assetid: 007f6636-725a-4af5-ad3f-578f8183a088
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Reset method, IEnumPublishedApps.Reset, IEnumPublishedApps::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Reset, shappmgr/IEnumPublishedApps::Reset, shell.IEnumPublishedApps_Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

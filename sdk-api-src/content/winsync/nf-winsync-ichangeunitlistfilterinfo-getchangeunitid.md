@@ -9,8 +9,6 @@ ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

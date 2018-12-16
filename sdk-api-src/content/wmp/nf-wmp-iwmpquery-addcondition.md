@@ -9,8 +9,6 @@ ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],addCondition method, IWMPQuery.addCondition, IWMPQuery::addCondition, IWMPQueryaddCondition, addCondition, addCondition method [Windows Media Player], addCondition method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_addcondition, wmp/IWMPQuery::addCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

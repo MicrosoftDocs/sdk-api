@@ -9,8 +9,6 @@ ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

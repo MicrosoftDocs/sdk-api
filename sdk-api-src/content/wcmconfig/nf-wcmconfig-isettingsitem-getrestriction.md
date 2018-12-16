@@ -9,8 +9,6 @@ ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestriction method, ISettingsItem.GetRestriction, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

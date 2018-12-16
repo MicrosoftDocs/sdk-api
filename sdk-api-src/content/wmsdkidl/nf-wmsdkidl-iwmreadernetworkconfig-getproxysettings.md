@@ -9,8 +9,6 @@ ms.assetid: 5fdfc651-05f5-48b3-aeaf-4557c72bc0c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProxySettings, GetProxySettings method [windows Media Format], GetProxySettings method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxySettings method, IWMReaderNetworkConfig.GetProxySettings, IWMReaderNetworkConfig::GetProxySettings, IWMReaderNetworkConfigGetProxySettings, wmformat.iwmreadernetworkconfig_getproxysettings, wmsdkidl/IWMReaderNetworkConfig::GetProxySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

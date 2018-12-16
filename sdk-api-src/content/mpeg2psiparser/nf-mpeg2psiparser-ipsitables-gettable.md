@@ -9,8 +9,6 @@ ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2psiparser.idl

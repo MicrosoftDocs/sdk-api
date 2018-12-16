@@ -9,8 +9,6 @@ ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], aviriff/AVISUPERINDEX, dshow.avisuperindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

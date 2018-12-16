@@ -9,8 +9,6 @@ ms.assetid: a32d78b7-47a3-45b6-9575-c290adf86094
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveStreamForRecord method, IWMMutualExclusion2.RemoveStreamForRecord, IWMMutualExclusion2::RemoveStreamForRecord, IWMMutualExclusion2RemoveStreamForRecord, RemoveStreamForRecord, RemoveStreamForRecord method [windows Media Format], RemoveStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removestreamforrecord, wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

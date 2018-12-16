@@ -9,8 +9,6 @@ ms.assetid: AF67668B-E9BC-4320-AB1F-1E78CA700D8E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_FLAG_NONE, PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, PRJ_STARTVIRTUALIZING_FLAGS, PRJ_STARTVIRTUALIZING_FLAGS enumeration, ProjFS.prj_startvirtualizing_flags, projectedfslib/PRJ_FLAG_NONE, projectedfslib/PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: projectedfslib.h
 req.include-header: 

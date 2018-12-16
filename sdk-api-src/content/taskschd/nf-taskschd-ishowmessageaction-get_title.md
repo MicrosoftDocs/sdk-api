@@ -9,8 +9,6 @@ ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],Title property, IShowMessageAction.Title, IShowMessageAction.get_Title, IShowMessageAction::Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler],IShowMessageAction interface, get_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

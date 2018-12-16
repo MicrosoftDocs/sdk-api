@@ -9,8 +9,6 @@ ms.assetid: 2bfbedfc-6fac-468b-8314-c856aab856d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGenerateOfflineInstallationId, SLGenerateOfflineInstallationId function [Security], security.slgenerateofflineinstallationid, slpublic/SLGenerateOfflineInstallationId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

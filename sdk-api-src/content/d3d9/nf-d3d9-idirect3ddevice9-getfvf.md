@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfvf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF, GetFVF method [Direct3D 9], GetFVF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFVF method, IDirect3DDevice9.GetFVF, IDirect3DDevice9::GetFVF, d3d9helper/IDirect3DDevice9::GetFVF, direct3d9.idirect3ddevice9__getfvf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

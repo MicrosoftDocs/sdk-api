@@ -9,8 +9,6 @@ ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ebd00a98-ea2b-4024-b911-7120d8307b54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetItemHeight method, IVisualProperties.SetItemHeight, IVisualProperties::SetItemHeight, SetItemHeight, SetItemHeight method [Windows Shell], SetItemHeight method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetItemHeight, shell.IVisualProperties_SetItemHeight, shobjidl/IVisualProperties::SetItemHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

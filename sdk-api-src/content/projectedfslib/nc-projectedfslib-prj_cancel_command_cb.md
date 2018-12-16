@@ -9,8 +9,6 @@ ms.assetid: 8C646A8C-7C55-4F54-965A-04ACAC64C65D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_CANCEL_COMMAND_CB, PRJ_CANCEL_COMMAND_CB callback, PRJ_CANCEL_COMMAND_CB callback function, ProjFS.prj_cancel_command_cb, projectedfslib/PRJ_CANCEL_COMMAND_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h

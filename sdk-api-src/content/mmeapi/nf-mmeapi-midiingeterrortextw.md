@@ -9,8 +9,6 @@ ms.assetid: 0e653d6d-4d34-45c0-8ec9-975b885a5ef8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiInGetErrorText, midiInGetErrorText, midiInGetErrorText function [Windows Multimedia], midiInGetErrorTextA, midiInGetErrorTextW, mmeapi/midiInGetErrorText, mmeapi/midiInGetErrorTextA, mmeapi/midiInGetErrorTextW, multimedia.midiingeterrortext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

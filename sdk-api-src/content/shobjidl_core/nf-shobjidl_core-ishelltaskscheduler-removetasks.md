@@ -9,8 +9,6 @@ ms.assetid: a160cfcf-f989-4a7c-9da0-97d658c151b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],RemoveTasks method, IShellTaskScheduler.RemoveTasks, IShellTaskScheduler::RemoveTasks, RemoveTasks, RemoveTasks method [Windows Shell], RemoveTasks method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_RemoveTasks, shell.IShellTaskScheduler_RemoveTasks, shobjidl_core/IShellTaskScheduler::RemoveTasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

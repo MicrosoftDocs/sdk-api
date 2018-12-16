@@ -9,8 +9,6 @@ ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

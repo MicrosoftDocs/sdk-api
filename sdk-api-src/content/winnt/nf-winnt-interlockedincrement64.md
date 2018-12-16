@@ -9,8 +9,6 @@ ms.assetid: f18b63fa-201f-436d-a152-41e458959a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedIncrement64, InterlockedIncrement64 function, base.interlockedincrement64, winnt/InterlockedIncrement64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

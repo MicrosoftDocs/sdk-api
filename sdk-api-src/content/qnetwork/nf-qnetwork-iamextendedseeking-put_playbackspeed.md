@@ -9,8 +9,6 @@ ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method, IAMExtendedSeeking.put_PlaybackSpeed, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

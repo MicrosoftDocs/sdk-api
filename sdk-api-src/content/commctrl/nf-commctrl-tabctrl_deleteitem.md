@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _win32_TabCtrl_DeleteItem, _win32_TabCtrl_DeleteItem_cpp, commctrl/TabCtrl_DeleteItem, controls.TabCtrl_DeleteItem, controls._win32_TabCtrl_DeleteItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

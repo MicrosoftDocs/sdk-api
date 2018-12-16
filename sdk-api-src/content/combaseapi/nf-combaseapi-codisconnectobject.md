@@ -9,8 +9,6 @@ ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoDisconnectObject, CoDisconnectObject function [COM], _com_CoDisconnectObject, com.codisconnectobject, combaseapi/CoDisconnectObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

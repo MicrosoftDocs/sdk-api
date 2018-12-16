@@ -9,8 +9,6 @@ ms.assetid: 4ecb0840-8eaf-47c9-b8a9-98c738ed7daf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryHints method, IVdsLunPlex.QueryHints, IVdsLunPlex::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryhints, vds/IVdsLunPlex::QueryHints, vdshwprv/IVdsLunPlex::QueryHints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

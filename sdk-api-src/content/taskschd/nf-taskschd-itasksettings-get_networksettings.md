@@ -9,8 +9,6 @@ ms.assetid: 9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],NetworkSettings property, ITaskSettings.NetworkSettings, ITaskSettings.get_NetworkSettings, ITaskSettings::NetworkSettings, ITaskSettings::get_NetworkSettings, ITaskSettings::put_NetworkSettings, NetworkSettings property [Task Scheduler], NetworkSettings property [Task Scheduler],ITaskSettings interface, get_NetworkSettings, taskschd.itasksettings_networksettings, taskschd/ITaskSettings::NetworkSettings, taskschd/ITaskSettings::get_NetworkSettings, taskschd/ITaskSettings::put_NetworkSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

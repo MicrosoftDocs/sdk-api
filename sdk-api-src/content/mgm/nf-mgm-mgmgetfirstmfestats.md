@@ -9,8 +9,6 @@ ms.assetid: b546c1a6-31a7-4053-9494-6903faa4df52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetFirstMfeStats, MgmGetFirstMfeStats function [RAS], _mpr_mgmgetfirstmfestats, mgm/MgmGetFirstMfeStats, rras.mgmgetfirstmfestats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

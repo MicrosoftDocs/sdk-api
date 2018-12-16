@@ -9,8 +9,6 @@ ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiPreviewDialog, MsiPreviewDialog function, MsiPreviewDialogA, MsiPreviewDialogW, _msi_msipreviewdialog, msiquery/MsiPreviewDialog, msiquery/MsiPreviewDialogA, msiquery/MsiPreviewDialogW, setup.msipreviewdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

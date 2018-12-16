@@ -9,8 +9,6 @@ ms.assetid: a3c45e91-3e30-4f22-aedb-d81024160e88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTime method [Microsoft TV Technologies],IDVB_TDT interface, IDVB_TDT interface [Microsoft TV Technologies],GetUTCTime method, IDVB_TDT.GetUTCTime, IDVB_TDT::GetUTCTime, IDVB_TDTGetUTCTime, dvbsiparser/IDVB_TDT::GetUTCTime, mstv.idvb_tdt_getutctime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

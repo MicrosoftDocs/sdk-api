@@ -9,8 +9,6 @@ ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamNumber method, IWMStreamConfig.SetStreamNumber, IWMStreamConfig::SetStreamNumber, IWMStreamConfigSetStreamNumber, SetStreamNumber, SetStreamNumber method [windows Media Format], SetStreamNumber method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamnumber, wmsdkidl/IWMStreamConfig::SetStreamNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

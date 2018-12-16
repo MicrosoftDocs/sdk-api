@@ -9,8 +9,6 @@ ms.assetid: f25a8eb4-be40-43c0-bb3c-00031b7f08db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateDevices, GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetPrivateDevices method, IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

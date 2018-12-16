@@ -9,8 +9,6 @@ ms.assetid: 29fcc913-fcc7-4321-918b-2c354dd751ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], ITfLangBarItemBitmapButton interface [Text Services Framework],described, _tsf_itflangbaritembitmapbutton_ref, ctfutb/ITfLangBarItemBitmapButton, tsf.itflangbaritembitmapbutton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

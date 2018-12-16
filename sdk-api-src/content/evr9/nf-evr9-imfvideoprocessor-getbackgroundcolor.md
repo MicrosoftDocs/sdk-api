@@ -9,8 +9,6 @@ ms.assetid: d9068346-f0b3-4361-a56b-2360ecc3b9d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetBackgroundColor method, IMFVideoProcessor.GetBackgroundColor, IMFVideoProcessor::GetBackgroundColor, d9068346-f0b3-4361-a56b-2360ecc3b9d9, evr9/IMFVideoProcessor::GetBackgroundColor, mf.imfvideoprocessor_getbackgroundcolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation], _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, mf.opm_encrypted_initialization_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h

@@ -9,8 +9,6 @@ ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardIntroduceCardType, SCardIntroduceCardType function [Security], SCardIntroduceCardTypeA, SCardIntroduceCardTypeW, _smart_scardintroducecardtype, security.scardintroducecardtype, winscard/SCardIntroduceCardType, winscard/SCardIntroduceCardTypeA, winscard/SCardIntroduceCardTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

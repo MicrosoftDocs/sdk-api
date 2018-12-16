@@ -9,8 +9,6 @@ ms.assetid: 8759FEE5-9703-443E-9A2D-982158BC2EFA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

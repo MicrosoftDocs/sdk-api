@@ -9,8 +9,6 @@ ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

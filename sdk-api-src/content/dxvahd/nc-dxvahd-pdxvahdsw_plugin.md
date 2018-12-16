@@ -9,8 +9,6 @@ ms.assetid: 1290daa0-a2dd-4067-b74d-e1b3e3edb321
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_Plugin, PDXVAHDSW_Plugin callback, PDXVAHDSW_Plugin callback function [Media Foundation], dxvahd/PDXVAHDSW_Plugin, mf.pdxvahdsw_plugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

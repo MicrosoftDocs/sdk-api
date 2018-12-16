@@ -9,8 +9,6 @@ ms.assetid: 39275154-fe85-492e-9d64-79d17cb4f88d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetCredentials method, IDataCollectorSet.SetCredentials, IDataCollectorSet::SetCredentials, SetCredentials, SetCredentials method [PLA], SetCredentials method [PLA],IDataCollectorSet interface, base.idatacollectorset_setcredentials, pla.idatacollectorset_setcredentials, pla/IDataCollectorSet::SetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

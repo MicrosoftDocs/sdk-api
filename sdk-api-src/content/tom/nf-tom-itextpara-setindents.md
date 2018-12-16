@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetIndents method, ITextPara.SetIndents, ITextPara::SetIndents, SetIndents, SetIndents method [Windows Controls], SetIndents method [Windows Controls],ITextPara interface, _win32_ITextPara_SetIndents, _win32_ITextPara_SetIndents_cpp, controls.ITextPara_SetIndents, controls._win32_ITextPara_SetIndents, tom/ITextPara::SetIndents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd349ac5-9825-4dc8-8735-5d846abb353b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

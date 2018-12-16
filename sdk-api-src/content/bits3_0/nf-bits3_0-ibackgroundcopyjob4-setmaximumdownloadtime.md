@@ -9,8 +9,6 @@ ms.assetid: 9e29c082-5bd1-465a-8853-aea81a593db6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob4 interface [BITS],SetMaximumDownloadTime method, IBackgroundCopyJob4.SetMaximumDownloadTime, IBackgroundCopyJob4::SetMaximumDownloadTime, SetMaximumDownloadTime, SetMaximumDownloadTime method [BITS], SetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::SetMaximumDownloadTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

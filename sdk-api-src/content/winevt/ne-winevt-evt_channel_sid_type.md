@@ -9,8 +9,6 @@ ms.assetid: 7eadae8f-71b4-44de-ba66-0e460fee496c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVT_CHANNEL_SID_TYPE, EVT_CHANNEL_SID_TYPE enumeration [EventLog], EvtChannelSidTypeNone, EvtChannelSidTypePublishing, wes.evt_channel_sid_type, winevt/EVT_CHANNEL_SID_TYPE, winevt/EvtChannelSidTypeNone, winevt/EvtChannelSidTypePublishing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

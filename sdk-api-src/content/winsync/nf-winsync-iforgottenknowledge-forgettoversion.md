@@ -9,8 +9,6 @@ ms.assetid: 63ea1fdc-5200-40d4-a42a-dcda0318f602
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ForgetToVersion, ForgetToVersion method [Windows Sync], ForgetToVersion method [Windows Sync],IForgottenKnowledge interface, IForgottenKnowledge interface [Windows Sync],ForgetToVersion method, IForgottenKnowledge.ForgetToVersion, IForgottenKnowledge::ForgetToVersion, winsync.iforgottenknowledge_forgettoversion, winsync/IForgottenKnowledge::ForgetToVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

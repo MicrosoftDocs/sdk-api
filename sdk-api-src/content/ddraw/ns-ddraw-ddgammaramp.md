@@ -9,8 +9,6 @@ ms.assetid: ec4cb111-3b12-4470-b1e3-e4379f7f2632
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDGAMMARAMP, DDGAMMARAMP, DDGAMMARAMP structure [DirectDraw], LPDDGAMMARAMP, LPDDGAMMARAMP structure pointer [DirectDraw], ddraw/DDGAMMARAMP, ddraw/LPDDGAMMARAMP, directdraw.ddgammaramp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

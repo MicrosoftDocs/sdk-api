@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_Y_LPARAM, GET_Y_LPARAM macro [Windows and Messages], _win32_GET_Y_LPARAM, _win32_get_y_lparam_cpp, windowsx/GET_Y_LPARAM, winmsg.get_y_lparam, winui._win32_get_y_lparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: Windowsx.h

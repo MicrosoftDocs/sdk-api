@@ -9,8 +9,6 @@ ms.assetid: f1c29688-3538-40ff-a1da-6211cc5dded7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize, IFileDialogCustomize interface [Windows Shell], IFileDialogCustomize interface [Windows Shell],described, shell.IFileDialogCustomize, shell_IFileDialogCustomize, shobjidl_core/IFileDialogCustomize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

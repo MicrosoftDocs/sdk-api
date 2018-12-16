@@ -9,8 +9,6 @@ ms.assetid: f30fdfb6-dc7e-47fd-93ad-36655e65d0ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

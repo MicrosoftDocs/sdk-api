@@ -9,8 +9,6 @@ ms.assetid: e9a5b525-a6b6-4309-9e53-69d274b85783
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBitmap, gdi.createdibitmap, wingdi/CreateDIBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

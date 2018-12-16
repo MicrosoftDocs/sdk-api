@@ -9,8 +9,6 @@ ms.assetid: b399ff19-e2e5-4509-8bb5-9647734881b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDesktopWindows, EnumDesktopWindows function [Windows Stations and Desktops], _win32_enumdesktopwindows, base.enumdesktopwindows, winstation.enumdesktopwindows, winuser/EnumDesktopWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

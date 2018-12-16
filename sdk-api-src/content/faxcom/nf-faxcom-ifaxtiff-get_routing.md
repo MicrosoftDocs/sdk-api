@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_39lz.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff interface [Fax Service],Routing property, IFaxTiff.Routing, IFaxTiff.get_Routing, IFaxTiff::Routing, IFaxTiff::get_Routing, Routing property [Fax Service], Routing property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_routing_cpp, faxcom/IFaxTiff::Routing, faxcom/IFaxTiff::get_Routing, get_Routing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

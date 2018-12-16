@@ -9,8 +9,6 @@ ms.assetid: da0f01a3-ed47-42a1-b4af-5f3cbc9271a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFInitAttributesFromBlob, MFInitAttributesFromBlob function [Media Foundation], da0f01a3-ed47-42a1-b4af-5f3cbc9271a3, mf.mfinitattributesfromblob, mfapi/MFInitAttributesFromBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

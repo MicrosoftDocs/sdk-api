@@ -9,8 +9,6 @@ ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.h

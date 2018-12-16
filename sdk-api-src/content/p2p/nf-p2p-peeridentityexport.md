@@ -9,8 +9,6 @@ ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityExport, PeerIdentityExport function [Peer Networking], p2p.peeridentityexport, p2p/PeerIdentityExport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

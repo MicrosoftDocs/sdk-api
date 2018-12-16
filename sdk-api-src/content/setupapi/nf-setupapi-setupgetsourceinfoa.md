@@ -9,8 +9,6 @@ ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

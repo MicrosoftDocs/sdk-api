@@ -9,8 +9,6 @@ ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

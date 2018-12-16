@@ -9,8 +9,6 @@ ms.assetid: 6eddafbf-ac57-419f-b2a0-f50a4ab31baf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_KEYING_POLICY0, IPSEC_KEYING_POLICY0 structure [Filtering], fwp.ipsec_keying_policy0_struct, ipsectypes/IPSEC_KEYING_POLICY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

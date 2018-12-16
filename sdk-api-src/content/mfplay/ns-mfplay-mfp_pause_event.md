@@ -9,8 +9,6 @@ ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

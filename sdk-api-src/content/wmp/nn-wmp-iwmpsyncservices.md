@@ -9,8 +9,6 @@ ms.assetid: 57db3646-2f79-4087-98b2-2bc9d2f3c866
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], IWMPSyncServices interface [Windows Media Player],described, IWMPSyncServicesInterface, wmp.iwmpsyncservices, wmp/IWMPSyncServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

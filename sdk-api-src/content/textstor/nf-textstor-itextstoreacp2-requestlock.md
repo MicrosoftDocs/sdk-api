@@ -9,8 +9,6 @@ ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

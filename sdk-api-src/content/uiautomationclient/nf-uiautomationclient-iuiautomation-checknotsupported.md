@@ -9,8 +9,6 @@ ms.assetid: c7fd7d1e-3f7b-4700-9263-2cab6e0de896
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckNotSupported, CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CheckNotSupported method, IUIAutomation.CheckNotSupported, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 62925515-a6f3-4b5f-bf97-edb968af19a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaQueryTrustedDomainInfo, LsaQueryTrustedDomainInfo function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsaquerytrusteddomaininfo, ntsecapi/LsaQueryTrustedDomainInfo, security.lsaquerytrusteddomaininfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

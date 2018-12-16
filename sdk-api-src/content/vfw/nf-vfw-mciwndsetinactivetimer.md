@@ -9,8 +9,6 @@ ms.assetid: 2a0d45dc-1df6-4b1a-b4bc-3704257c5b38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndSetInactiveTimer, MCIWndSetInactiveTimer macro [Windows Multimedia], _win32_MCIWndSetInactiveTimer, multimedia.mciwndsetinactivetimer, vfw/MCIWndSetInactiveTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

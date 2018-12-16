@@ -9,8 +9,6 @@ ms.assetid: 78489B91-E56D-4338-BCCB-6807EA0E8367
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],PassValue method, ID3D11FunctionLinkingGraph.PassValue, ID3D11FunctionLinkingGraph::PassValue, PassValue, PassValue method [Direct3D 11], PassValue method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::PassValue, direct3d11.id3d11functionlinkinggraph_passvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

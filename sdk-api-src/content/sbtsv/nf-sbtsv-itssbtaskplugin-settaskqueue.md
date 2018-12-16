@@ -9,8 +9,6 @@ ms.assetid: a17e4767-5311-4f9b-9d05-cd9e35f7c5e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],SetTaskQueue method, ITsSbTaskPlugin.SetTaskQueue, ITsSbTaskPlugin::SetTaskQueue, SetTaskQueue, SetTaskQueue method [Remote Desktop Services], SetTaskQueue method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::SetTaskQueue, termserv.itssbtaskplugin_settaskqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

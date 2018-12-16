@@ -9,8 +9,6 @@ ms.assetid: 0ece6120-bd5d-4e3d-b71f-7aa9a51a1568
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IOfflineFilesChangeInfo interface [Offline Files],described, cscobj/IOfflineFilesChangeInfo, of.iofflinefileschangeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

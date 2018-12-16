@@ -9,8 +9,6 @@ ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fdi.h
 req.include-header: 

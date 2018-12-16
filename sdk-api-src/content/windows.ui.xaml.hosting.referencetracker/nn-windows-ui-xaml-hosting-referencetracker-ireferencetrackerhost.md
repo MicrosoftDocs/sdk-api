@@ -9,8 +9,6 @@ ms.assetid: b17fe8ae-be79-4281-a313-517505017401
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], IReferenceTrackerHost interface [Windows Runtime],described, windows/IReferenceTrackerHost, winrt.ireferencetrackerhost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

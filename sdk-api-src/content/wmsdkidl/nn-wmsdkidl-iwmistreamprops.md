@@ -9,8 +9,6 @@ ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

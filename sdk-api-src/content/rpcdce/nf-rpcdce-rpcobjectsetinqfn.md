@@ -9,8 +9,6 @@ ms.assetid: 358d3ab3-df16-486b-aeac-56a0ffc78272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcObjectSetInqFn, RpcObjectSetInqFn function [RPC], _rpc_rpcobjectsetinqfn, rpc.rpcobjectsetinqfn, rpcdce/RpcObjectSetInqFn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

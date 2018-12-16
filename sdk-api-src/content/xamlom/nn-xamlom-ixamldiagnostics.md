@@ -9,8 +9,6 @@ ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 

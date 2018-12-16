@@ -9,8 +9,6 @@ ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

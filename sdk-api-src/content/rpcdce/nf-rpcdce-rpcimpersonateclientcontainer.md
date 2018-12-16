@@ -9,8 +9,6 @@ ms.assetid: C81E71C9-C044-487E-BFD7-859775E877F0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcImpersonateClientContainer, RpcImpersonateClientContainer function [RPC], rpc.rpcimpersonateclientcontainer, rpcdce/RpcImpersonateClientContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: 

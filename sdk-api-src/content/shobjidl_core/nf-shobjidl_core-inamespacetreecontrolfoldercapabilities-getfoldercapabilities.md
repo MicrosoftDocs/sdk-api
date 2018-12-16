@@ -9,8 +9,6 @@ ms.assetid: 1534431c-21fc-4eb9-8f17-ddd7414bef94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFolderCapabilities, GetFolderCapabilities method [Windows Shell], GetFolderCapabilities method [Windows Shell],INameSpaceTreeControlFolderCapabilities interface, INameSpaceTreeControlFolderCapabilities interface [Windows Shell],GetFolderCapabilities method, INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities, INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities, NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, _shell_INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

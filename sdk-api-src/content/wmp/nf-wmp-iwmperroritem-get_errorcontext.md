@@ -9,8 +9,6 @@ ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

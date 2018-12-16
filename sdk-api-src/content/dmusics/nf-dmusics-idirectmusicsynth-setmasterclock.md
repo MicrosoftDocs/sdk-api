@@ -9,8 +9,6 @@ ms.assetid: 1585cfcc-2c83-4705-b465-52a621ccc163
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetMasterClock method, IDirectMusicSynth.SetMasterClock, IDirectMusicSynth::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setmasterclock, audmp-routines_4e91a462-de4e-4aed-bd0d-7ba1e91ccb36.xml, dmusics/IDirectMusicSynth::SetMasterClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

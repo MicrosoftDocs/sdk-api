@@ -9,8 +9,6 @@ ms.assetid: c328a838-ae81-463d-8aa5-827071f58747
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzScope object, DeletePolicyReader method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReader method, IAzScope.DeletePolicyReader, IAzScope::DeletePolicyReader, azroles/IAzScope::DeletePolicyReader, security.iazscope_deletepolicyreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

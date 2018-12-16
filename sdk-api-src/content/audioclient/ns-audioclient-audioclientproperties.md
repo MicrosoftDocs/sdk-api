@@ -9,8 +9,6 @@ ms.assetid: 5BCCD581-DB66-4939-A62A-2236B9E49AA7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AudioClientProperties, AudioClientProperties structure [Core Audio], PAudioClientProperties, PAudioClientProperties structure pointer [Core Audio], audioclient/AudioClientProperties, audioclient/PAudioClientProperties, coreaudio.audioclientproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: audioclient.h
 req.include-header: 

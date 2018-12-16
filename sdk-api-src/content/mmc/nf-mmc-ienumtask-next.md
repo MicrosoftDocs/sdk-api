@@ -9,8 +9,6 @@ ms.assetid: cb568307-7172-4941-a888-ff059f5256b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTASK interface [MMC],Next method, IEnumTASK.Next, IEnumTASK::Next, Next, Next method [MMC], Next method [MMC],IEnumTASK interface, _slate_ienumtask_next, mmc.ienumtask_next, mmc/IEnumTASK::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ead9ff63-15dc-4fcc-b341-85ad9c3eabb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDependency, GetDependency method [VSS], GetDependency method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDependency method, IVssWMComponent.GetDependency, IVssWMComponent::GetDependency, _win32_ivsswmcomponent_getdependency, base.ivsswmcomponent_getdependency, vsbackup/IVssWMComponent::GetDependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

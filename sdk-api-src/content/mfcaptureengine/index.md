@@ -2,7 +2,7 @@
 UID: NA:mfcaptureengine
 ms.assetid: 348947e2-9865-3fc3-997c-0e7c76a0f215
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

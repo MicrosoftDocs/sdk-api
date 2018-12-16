@@ -9,8 +9,6 @@ ms.assetid: AF453D2F-F0FD-4552-A843-84119A829CD5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, ID3D12Resource interface,described, d3d12/ID3D12Resource, direct3d12.id3d12resource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

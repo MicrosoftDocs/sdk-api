@@ -9,8 +9,6 @@ ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSessionObject, CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateSessionObject method, ITsSbProvider.CreateSessionObject, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

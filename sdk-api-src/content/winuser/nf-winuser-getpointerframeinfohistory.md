@@ -9,8 +9,6 @@ ms.assetid: 1ae035d6-a375-4421-82a6-50be4a2341f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerFrameInfoHistory, GetPointerFrameInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframeinfohistory, winuser/GetPointerFrameInfoHistory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

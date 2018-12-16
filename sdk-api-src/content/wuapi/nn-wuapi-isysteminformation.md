@@ -9,8 +9,6 @@ ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 464dd009-5d99-483c-9e94-82ab07290189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ClassFT, MI_ClassFT structure [Windows Management Infrastructure (MI)], mi/MI_ClassFT, wmi_v2.mi_classft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 885b6e96-2f42-4388-9859-845b715dbe70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],InstalledFeatures property, IWdsTransportSetupManager.InstalledFeatures, IWdsTransportSetupManager.get_InstalledFeatures, IWdsTransportSetupManager::InstalledFeatures, IWdsTransportSetupManager::get_InstalledFeatures, IWdsTransportSetupManager::put_InstalledFeatures, InstalledFeatures property [Windows Deployment Services], InstalledFeatures property [Windows Deployment Services],IWdsTransportSetupManager interface, get_InstalledFeatures, wds.iwdstransportsetupmanager_installedfeatures, wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

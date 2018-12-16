@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUDECN4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUDECN4, XMUDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMUDECN4, dxmath.xmudecn4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

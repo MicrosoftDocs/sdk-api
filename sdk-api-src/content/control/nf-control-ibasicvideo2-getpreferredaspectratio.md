@@ -9,8 +9,6 @@ ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreferredAspectRatio, GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow],IBasicVideo2 interface, IBasicVideo2 interface [DirectShow],GetPreferredAspectRatio method, IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

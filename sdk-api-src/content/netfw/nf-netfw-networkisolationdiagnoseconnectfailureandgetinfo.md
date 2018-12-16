@@ -9,8 +9,6 @@ ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

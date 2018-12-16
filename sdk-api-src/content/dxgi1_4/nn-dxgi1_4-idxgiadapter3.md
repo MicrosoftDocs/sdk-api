@@ -9,8 +9,6 @@ ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], IDXGIAdapter3 interface [DXGI],described, direct3ddxgi.idxgiadapter3, dxgi1_4/IDXGIAdapter3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

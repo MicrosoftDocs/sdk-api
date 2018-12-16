@@ -9,8 +9,6 @@ ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

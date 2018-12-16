@@ -9,8 +9,6 @@ ms.assetid: d40edc5d-8fa2-4e3a-8aab-c51da0ac8036
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_FocusRelative method, ICameraControl.put_FocusRelative, ICameraControl::put_FocusRelative, ICameraControlput_FocusRelative, dshow.icameracontrol_put_focusrelative, put_FocusRelative, put_FocusRelative method [DirectShow], put_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_FocusRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509NameValuePairs interface [Security],Remove method, IX509NameValuePairs.Remove, IX509NameValuePairs::Remove, Remove, Remove method [Security], Remove method [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::Remove, security.ix509namevaluepairs_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

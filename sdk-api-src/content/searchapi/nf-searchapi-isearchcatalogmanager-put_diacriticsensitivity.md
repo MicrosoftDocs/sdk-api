@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DiacriticSensitivity method, ISearchCatalogManager.put_DiacriticSensitivity, ISearchCatalogManager::put_DiacriticSensitivity, _search_ISearchCatalogManager_put_DiacriticSensitivity, put_DiacriticSensitivity, put_DiacriticSensitivity method [search], put_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DiacriticSensitivity, searchapi/ISearchCatalogManager::put_DiacriticSensitivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

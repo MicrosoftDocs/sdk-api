@@ -9,8 +9,6 @@ ms.assetid: e1c60001-0a0c-4ff9-bb17-fef3e47b16a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDiscardControlPartName, GetDiscardControlPartName method [XPS Documents and Packaging], GetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDiscardControlPartName method, IXpsOMPackage.GetDiscardControlPartName, IXpsOMPackage::GetDiscardControlPartName, xps.ixpsompackage_getdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::GetDiscardControlPartName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

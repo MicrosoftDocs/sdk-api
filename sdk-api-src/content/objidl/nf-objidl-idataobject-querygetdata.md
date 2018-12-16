@@ -9,8 +9,6 @@ ms.assetid: 38a1bb4f-7762-4e74-a386-4ae05e59d15f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataObject interface [COM],QueryGetData method, IDataObject.QueryGetData, IDataObject::QueryGetData, QueryGetData, QueryGetData method [COM], QueryGetData method [COM],IDataObject interface, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

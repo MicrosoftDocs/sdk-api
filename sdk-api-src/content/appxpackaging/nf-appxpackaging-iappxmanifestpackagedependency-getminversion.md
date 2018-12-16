@@ -9,8 +9,6 @@ ms.assetid: 301053BA-A2DB-405C-9E2E-3817B2B5D7FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetMinVersion method, IAppxManifestPackageDependency.GetMinVersion, IAppxManifestPackageDependency::GetMinVersion, appxpackaging/IAppxManifestPackageDependency::GetMinVersion, appxpkg.iappxmanifestpackagedependency_getminversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

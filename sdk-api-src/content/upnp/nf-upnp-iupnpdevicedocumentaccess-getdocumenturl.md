@@ -9,8 +9,6 @@ ms.assetid: 7845e543-47c6-4751-8e29-2508b2adb090
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPDeviceDocumentAccess interface, IUPnPDeviceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPDeviceDocumentAccess.GetDocumentURL, IUPnPDeviceDocumentAccess::GetDocumentURL, _upnp_iupnpdevicedocumentaccess_getdocumenturl, upnp.iupnpdevicedocumentaccess_getdocumenturl, upnp/IUPnPDeviceDocumentAccess::GetDocumentURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

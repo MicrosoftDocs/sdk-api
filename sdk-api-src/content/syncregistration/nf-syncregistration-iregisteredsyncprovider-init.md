@@ -9,8 +9,6 @@ ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Init method, IRegisteredSyncProvider.Init, IRegisteredSyncProvider::Init, Init, Init method [Windows Sync], Init method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Init, winsync.iregisteredsyncprovider_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

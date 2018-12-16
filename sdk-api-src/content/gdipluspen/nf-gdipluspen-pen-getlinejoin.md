@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],Pen class, Pen class [GDI+],GetLineJoin method, Pen.GetLineJoin, Pen::GetLineJoin, _gdiplus_CLASS_Pen_GetLineJoin_, gdiplus._gdiplus_CLASS_Pen_GetLineJoin_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_FmtLines, Edit_FmtLines macro [Windows Controls], _win32_Edit_FormatLines, _win32_Edit_FormatLines_cpp, controls.Edit_FormatLines, controls._win32_Edit_FormatLines, windowsx/Edit_FmtLines
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

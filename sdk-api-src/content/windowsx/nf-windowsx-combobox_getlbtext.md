@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_GetLBText, ComboBox_GetLBText macro [Windows Controls], _win32_ComboBox_GetLBText, _win32_ComboBox_GetLBText_cpp, controls.ComboBox_GetLBText, controls._win32_ComboBox_GetLBText, windowsx/ComboBox_GetLBText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

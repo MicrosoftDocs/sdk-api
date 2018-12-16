@@ -9,8 +9,6 @@ ms.assetid: 606fad95-1f93-4e16-9be5-2ebd52b91180
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnumerationFlags, WcmNamespaceEnumerationFlags enumeration [SMI], smi.wcmnamespaceenumerationflags, wcmconfig/AllEnumeration, wcmconfig/SharedEnumeration, wcmconfig/UserEnumeration, wcmconfig/WcmNamespaceEnumerationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

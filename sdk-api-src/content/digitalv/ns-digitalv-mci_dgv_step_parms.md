@@ -9,8 +9,6 @@ ms.assetid: 479e68e8-7c0b-4a28-b0c2-eea12af6843e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_STEP_PARMS, MCI_DGV_STEP_PARMS, MCI_DGV_STEP_PARMS structure [Windows Multimedia], _win32_MCI_DGV_STEP_PARMS_str, digitalv/MCI_DGV_STEP_PARMS, multimedia.mci_dgv_step_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

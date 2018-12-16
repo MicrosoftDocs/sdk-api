@@ -9,8 +9,6 @@ ms.assetid: 1082700f-f52d-466e-8191-abbe0b5f8d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_NBIT.GetVersionNumber, IISDB_NBIT::GetVersionNumber, dvbsiparser/IISDB_NBIT::GetVersionNumber, mstv.iisdb_nbit_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

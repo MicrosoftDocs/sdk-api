@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPVK_VK_TO_CHAR, MAPVK_VK_TO_VSC, MAPVK_VSC_TO_VK, MAPVK_VSC_TO_VK_EX, MapVirtualKey, MapVirtualKey function [Keyboard and Mouse Input], MapVirtualKeyA, MapVirtualKeyW, _win32_MapVirtualKey, _win32_mapvirtualkey_cpp, inputdev.mapvirtualkey, winui._win32_mapvirtualkey, winuser/MapVirtualKey, winuser/MapVirtualKeyA, winuser/MapVirtualKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

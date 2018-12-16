@@ -9,8 +9,6 @@ ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], direct3ddxgi.dxgi_hdr_metadata_hdr10, dxgi1_5/DXGI_HDR_METADATA_HDR10
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_5.h
 req.include-header: 

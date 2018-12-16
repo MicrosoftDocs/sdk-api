@@ -9,8 +9,6 @@ ms.assetid: 58923F9C-4DAA-4F97-AE25-A2560176E0F2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontSet, CreateFontSet method [Direct Write], CreateFontSet method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],CreateFontSet method, IDWriteFontSetBuilder.CreateFontSet, IDWriteFontSetBuilder::CreateFontSet, directwrite.idwritefontsetbuilder_createfontset, dwrite_3/IDWriteFontSetBuilder::CreateFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

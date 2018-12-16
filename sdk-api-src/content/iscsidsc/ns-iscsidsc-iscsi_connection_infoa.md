@@ -9,8 +9,6 @@ ms.assetid: 4bfe2f36-2e68-4093-9660-b0140baeea80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PISCSI_CONNECTION_INFOA, ISCSI_CONNECTION_INFO, ISCSI_CONNECTION_INFO structure [iSCSI Discovery Library API], ISCSI_CONNECTION_INFOA, ISCSI_CONNECTION_INFOW, PISCSI_CONNECTION_INFO, PISCSI_CONNECTION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_connection_info, iscsidsc/ISCSI_CONNECTION_INFO, iscsidsc/ISCSI_CONNECTION_INFOA, iscsidsc/ISCSI_CONNECTION_INFOW, iscsidsc/PISCSI_CONNECTION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

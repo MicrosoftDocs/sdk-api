@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectdroptarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SelectDropTarget, TreeView_SelectDropTarget macro [Windows Controls], _win32_TreeView_SelectDropTarget, _win32_TreeView_SelectDropTarget_cpp, commctrl/TreeView_SelectDropTarget, controls.TreeView_SelectDropTarget, controls._win32_TreeView_SelectDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

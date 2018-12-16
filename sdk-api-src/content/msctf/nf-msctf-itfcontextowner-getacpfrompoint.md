@@ -9,8 +9,6 @@ ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

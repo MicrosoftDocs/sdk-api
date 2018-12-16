@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

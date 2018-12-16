@@ -9,8 +9,6 @@ ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV5, DhcpSetOptionInfoV5 function [DHCP], dhcp.dhcpsetoptioninfov5, dhcpsapi/DhcpSetOptionInfoV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

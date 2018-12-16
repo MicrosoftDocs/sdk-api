@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetElements, GetElements method [GDI+], GetElements method [GDI+],Matrix class, Matrix class [GDI+],GetElements method, Matrix.GetElements, Matrix::GetElements, _gdiplus_CLASS_Matrix_GetElements_, gdiplus._gdiplus_CLASS_Matrix_GetElements_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: ec087250-3c95-4d08-a5c5-21ff0d7f64a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2Data.get_CurrentWriteSpeed, IDiscFormat2Data::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentwritespeed, imapi2/IDiscFormat2Data::get_CurrentWriteSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

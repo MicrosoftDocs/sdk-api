@@ -9,8 +9,6 @@ ms.assetid: 6928FA3A-C367-4C99-A67E-8ED0153D6349
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreWindowInterop, ICoreWindowInterop interface [Windows Runtime], ICoreWindowInterop interface [Windows Runtime],described, corewindow/ICoreWindowInterop, winrt.icorewindowinterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: corewindow.h
 req.include-header: 

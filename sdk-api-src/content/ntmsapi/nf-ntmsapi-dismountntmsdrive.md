@@ -9,8 +9,6 @@ ms.assetid: dbec501c-a7bc-4679-afe1-df833dcb932d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DismountNtmsDrive, DismountNtmsDrive function [Files], _zaw_dismountntmsdrive, base.dismountntmsdrive, fs.dismountntmsdrive, ntmsapi/DismountNtmsDrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

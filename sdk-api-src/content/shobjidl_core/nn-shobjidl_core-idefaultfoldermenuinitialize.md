@@ -9,8 +9,6 @@ ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

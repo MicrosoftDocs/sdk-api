@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],CanChange method, ITextPara.CanChange, ITextPara::CanChange, _win32_ITextPara_CanChange, _win32_ITextPara_CanChange_cpp, controls.ITextPara_CanChange, controls._win32_ITextPara_CanChange, tom/ITextPara::CanChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99fb2ed4-525b-4733-a652-b164b2c19980
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskUserTextArguments property, IDataCollectorSet.TaskUserTextArguments, IDataCollectorSet.get_TaskUserTextArguments, IDataCollectorSet::TaskUserTextArguments, IDataCollectorSet::get_TaskUserTextArguments, IDataCollectorSet::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IDataCollectorSet interface, get_TaskUserTextArguments, pla.idatacollectorset_taskusertextarguments, pla/IDataCollectorSet::TaskUserTextArguments, pla/IDataCollectorSet::get_TaskUserTextArguments, pla/IDataCollectorSet::put_TaskUserTextArguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiPortal.SetIpsecTunnelAddress, IVdsIscsiPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsectunneladdress, vds/IVdsIscsiPortal::SetIpsecTunnelAddress, vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

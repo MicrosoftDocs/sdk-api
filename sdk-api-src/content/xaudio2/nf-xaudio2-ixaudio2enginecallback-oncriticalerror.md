@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallbac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnCriticalError method, IXAudio2EngineCallback.OnCriticalError, IXAudio2EngineCallback::OnCriticalError, OnCriticalError, OnCriticalError method [XAudio2 Audio Mixing APIs], OnCriticalError method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_oncriticalerror, xaudio2/IXAudio2EngineCallback::OnCriticalError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

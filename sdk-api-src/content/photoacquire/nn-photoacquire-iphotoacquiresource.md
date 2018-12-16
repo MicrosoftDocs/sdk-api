@@ -9,8 +9,6 @@ ms.assetid: 6671d550-8c12-40e3-bf6f-33203e69cff0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], IPhotoAcquireSource interface [Picture Acquisition],described, IPhotoAcquireSourceInterface, photoacquire/IPhotoAcquireSource, picacq.iphotoacquiresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

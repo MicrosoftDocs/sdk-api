@@ -9,8 +9,6 @@ ms.assetid: 82e0aa15-b67c-4c0a-bafb-f1dc5f822aec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerWithCreateObject function [Windows Properties], _shell_PSGetItemPropertyHandlerWithCreateObject, properties.PSGetItemPropertyHandlerWithCreateObject, propsys/PSGetItemPropertyHandlerWithCreateObject, shell.PSGetItemPropertyHandlerWithCreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h

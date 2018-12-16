@@ -9,8 +9,6 @@ ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

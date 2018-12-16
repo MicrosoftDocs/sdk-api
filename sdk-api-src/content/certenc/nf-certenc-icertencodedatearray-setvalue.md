@@ -9,8 +9,6 @@ ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeDateArray object [Security],SetValue method, ICertEncodeDateArray interface [Security],SetValue method, ICertEncodeDateArray.SetValue, ICertEncodeDateArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeDateArray object, SetValue method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

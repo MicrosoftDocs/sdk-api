@@ -9,8 +9,6 @@ ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

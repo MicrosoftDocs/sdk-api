@@ -9,8 +9,6 @@ ms.assetid: 68c9e941-bbc4-4506-949d-efd16c15d5b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP Helper], PIPV6_ADDRESS_EX, PIPV6_ADDRESS_EX structure pointer [IP Helper], ipexport/IPV6_ADDRESS_EX, ipexport/PIPV6_ADDRESS_EX, iphlp.ipv6_address_ex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h

@@ -9,8 +9,6 @@ ms.assetid: 0FF8604E-DD0E-4243-9B7E-219A26ACAC9C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationCustomNavigationPattern, IUIAutomationCustomNavigationPattern interface [Windows Accessibility], IUIAutomationCustomNavigationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationCustomNavigationPattern, winauto.uiauto_IUIAutomationCustomNavigationPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 9c66bda4-d21c-443f-a9b0-e05485306bde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

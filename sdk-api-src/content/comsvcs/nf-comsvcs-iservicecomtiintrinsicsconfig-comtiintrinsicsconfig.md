@@ -9,8 +9,6 @@ ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

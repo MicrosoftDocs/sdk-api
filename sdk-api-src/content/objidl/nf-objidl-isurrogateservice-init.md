@@ -9,8 +9,6 @@ ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

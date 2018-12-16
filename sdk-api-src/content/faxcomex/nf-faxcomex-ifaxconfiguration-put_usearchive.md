@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usearchi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseArchive property, IFaxConfiguration.UseArchive, IFaxConfiguration.put_UseArchive, IFaxConfiguration::UseArchive, IFaxConfiguration::get_UseArchive, IFaxConfiguration::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseArchive, fax._mfax_IFaxConfiguration_UseArchive, faxcomex/IFaxConfiguration::UseArchive, faxcomex/IFaxConfiguration::get_UseArchive, faxcomex/IFaxConfiguration::put_UseArchive, put_UseArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

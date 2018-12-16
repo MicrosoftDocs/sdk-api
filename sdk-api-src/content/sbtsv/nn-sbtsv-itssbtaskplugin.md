@@ -9,8 +9,6 @@ ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], ITsSbTaskPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPlugin, termserv.itssbtaskplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: DD27FDE1-3B4B-4C11-A980-15AF60A3A75B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSpatialAudioObjectRenderStreamActivationParams, PSpatialAudioObjectRenderStreamActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamActivationParams, SpatialAudioObjectRenderStreamActivationParams , SpatialAudioObjectRenderStreamActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamactivationparams_, spatialaudioclient/PSpatialAudioObjectRenderStreamActivationParams, spatialaudioclient/SpatialAudioObjectRenderStreamActivationParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 

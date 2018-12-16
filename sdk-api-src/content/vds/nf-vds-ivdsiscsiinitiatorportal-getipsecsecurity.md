@@ -9,8 +9,6 @@ ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

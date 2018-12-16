@@ -9,8 +9,6 @@ ms.assetid: 3bfe81ca-6d04-4da1-9579-6b0b48faa4a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsystemfirmwaretable, sysinfoapi/GetSystemFirmwareTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

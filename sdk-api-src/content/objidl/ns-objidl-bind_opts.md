@@ -9,8 +9,6 @@ ms.assetid: 764f09c9-ff20-4ae2-b94f-4b0a1e117e49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, LPBIND_OPTS structure pointer [COM], _com_BIND_OPTS, com.bind_opts, objidl/BIND_OPTS, objidl/LPBIND_OPTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

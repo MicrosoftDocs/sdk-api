@@ -9,8 +9,6 @@ ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

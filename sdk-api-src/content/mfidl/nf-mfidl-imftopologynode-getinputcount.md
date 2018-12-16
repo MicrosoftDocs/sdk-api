@@ -9,8 +9,6 @@ ms.assetid: 84c079da-5de6-4c33-b0c7-5ffd017d5513
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 84c079da-5de6-4c33-b0c7-5ffd017d5513, GetInputCount, GetInputCount method [Media Foundation], GetInputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInputCount method, IMFTopologyNode.GetInputCount, IMFTopologyNode::GetInputCount, mf.imftopologynode_getinputcount, mfidl/IMFTopologyNode::GetInputCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

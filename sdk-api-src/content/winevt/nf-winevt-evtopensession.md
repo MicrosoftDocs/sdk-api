@@ -9,8 +9,6 @@ ms.assetid: 26f1745c-dcca-4452-872e-1fffe20f049c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

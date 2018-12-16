@@ -9,8 +9,6 @@ ms.assetid: 508e1972-22ef-4211-adcf-03f8138624c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStreamRegion method, IWICStream.InitializeFromIStreamRegion, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

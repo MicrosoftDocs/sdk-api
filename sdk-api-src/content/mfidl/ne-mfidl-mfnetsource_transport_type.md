@@ -9,8 +9,6 @@ ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_TYPE enumeration [Media Foundation], MFNETSOURCE_UDP, b3cdb604-15eb-4df7-af30-b21093c93781, mf.mfnetsource_transport_type, mfidl/MFNETSOURCE_TCP, mfidl/MFNETSOURCE_TRANSPORT_TYPE, mfidl/MFNETSOURCE_UDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

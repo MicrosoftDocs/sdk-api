@@ -9,8 +9,6 @@ ms.assetid: 42348e1d-e3b3-4f8c-9fef-15e2e4ebf580
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1, FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure [Filtering], FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN, FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_em_failure1, fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 43662600-841c-4237-80ac-3822eb47be88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParam, GetParam method [COM], GetParam method [COM],ICallFrame interface, ICallFrame interface [COM],GetParam method, ICallFrame.GetParam, ICallFrame::GetParam, _com_icallframe_getparam, callobj/ICallFrame::GetParam, com.icallframe_getparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

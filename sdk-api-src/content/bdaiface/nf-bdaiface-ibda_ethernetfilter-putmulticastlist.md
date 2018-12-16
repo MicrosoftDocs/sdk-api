@@ -9,8 +9,6 @@ ms.assetid: 0398dc58-07be-40cd-95af-62b29a191d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_EthernetFilter.PutMulticastList, IBDA_EthernetFilter::PutMulticastList, IBDA_EthernetFilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastList, mstv.ibda_ethernetfilter_putmulticastlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

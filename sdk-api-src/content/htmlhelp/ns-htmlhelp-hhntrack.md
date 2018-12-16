@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, vsconStrhhntrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

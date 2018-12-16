@@ -9,8 +9,6 @@ ms.assetid: AAB2A6D4-7AF1-4E9D-9D76-28B991F732CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ldap.ldap_cleanup, ldap_cleanup, ldap_cleanup function [LDAP], winldap/ldap_cleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

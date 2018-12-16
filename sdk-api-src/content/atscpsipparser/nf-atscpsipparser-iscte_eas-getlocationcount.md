@@ -9,8 +9,6 @@ ms.assetid: f498ead0-246d-4741-a995-45a5cf63847e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCount method, ISCTE_EAS.GetLocationCount, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

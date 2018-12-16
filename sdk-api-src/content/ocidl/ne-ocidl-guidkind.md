@@ -9,8 +9,6 @@ ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_IID, _ctrl_GUIDKIND, com.guidkind, ocidl/GUIDKIND, ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

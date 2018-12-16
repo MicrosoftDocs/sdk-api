@@ -9,8 +9,6 @@ ms.assetid: b2b7d209-76ee-4ba4-ac61-034d2c8e0689
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLOCALMANAGEDAPPLICATION, LOCALMANAGEDAPPLICATION, LOCALMANAGEDAPPLICATION structure [Group Policy], LOCAL_STATE_ASSIGNED, LOCAL_STATE_POLICYREMOVE_ORPHAN, LOCAL_STATE_POLICYREMOVE_UNINSTALL, LOCAL_STATE_PUBLISHED, LOCAL_STATE_UNINSTALL_UNMANAGED, PLOCALMANAGEDAPPLICATION, PLOCALMANAGEDAPPLICATION structure pointer [Group Policy], appmgmt/LOCALMANAGEDAPPLICATION, appmgmt/PLOCALMANAGEDAPPLICATION, policy.localmanagedapplication_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 

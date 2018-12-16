@@ -9,8 +9,6 @@ ms.assetid: 29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssWriterComponentsExt, IVssWriterComponentsExt interface [VSS], IVssWriterComponentsExt interface [VSS],described, _win32_ivsswritercomponentsext, base.ivsswritercomponentsext, vsbackup/IVssWriterComponentsExt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

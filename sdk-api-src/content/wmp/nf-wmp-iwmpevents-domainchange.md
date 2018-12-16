@@ -9,8 +9,6 @@ ms.assetid: deb8e05e-a6dc-4971-9c34-9c12f1dedc9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DomainChange, DomainChange method [Windows Media Player], DomainChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DomainChange method, IWMPEvents.DomainChange, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

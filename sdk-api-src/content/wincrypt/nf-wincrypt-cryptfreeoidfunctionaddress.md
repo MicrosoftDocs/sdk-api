@@ -9,8 +9,6 @@ ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

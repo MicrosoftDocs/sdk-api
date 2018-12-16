@@ -9,8 +9,6 @@ ms.assetid: cbc905f6-c5ac-4c6a-9021-4ec00b938bb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificoperation, mbnapi/IMbnVendorSpecificOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

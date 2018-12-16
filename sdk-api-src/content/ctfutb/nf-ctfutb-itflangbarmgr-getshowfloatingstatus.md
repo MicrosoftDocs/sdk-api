@@ -9,8 +9,6 @@ ms.assetid: ec187bf0-edf7-4d90-a102-92bb5b58ebdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShowFloatingStatus, GetShowFloatingStatus method [Text Services Framework], GetShowFloatingStatus method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetShowFloatingStatus method, ITfLangBarMgr.GetShowFloatingStatus, ITfLangBarMgr::GetShowFloatingStatus, _tsf_itflangbarmgr_getshowfloatingstatus_ref, ctfutb/ITfLangBarMgr::GetShowFloatingStatus, tsf.itflangbarmgr_getshowfloatingstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

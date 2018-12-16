@@ -9,8 +9,6 @@ ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaTypeCount method, IMFSensorStream.GetMediaTypeCount, IMFSensorStream::GetMediaTypeCount, mf.imfsensorstream_getmediatypecount, mfidl/IMFSensorStream::GetMediaTypeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

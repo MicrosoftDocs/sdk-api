@@ -9,8 +9,6 @@ ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

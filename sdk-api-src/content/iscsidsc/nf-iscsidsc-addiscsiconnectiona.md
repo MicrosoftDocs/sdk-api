@@ -9,8 +9,6 @@ ms.assetid: 919bf77f-f8e5-4fd2-926d-6fbca60b2fb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddIScsiConnectionA, AddIscsiConnection, AddIscsiConnection function [iSCSI Discovery Library API], AddIscsiConnectionA, AddIscsiConnectionW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsiconnection, iscsidsc/AddIscsiConnection, iscsidsc/AddIscsiConnectionA, iscsidsc/AddIscsiConnectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

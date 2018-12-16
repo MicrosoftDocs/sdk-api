@@ -9,8 +9,6 @@ ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

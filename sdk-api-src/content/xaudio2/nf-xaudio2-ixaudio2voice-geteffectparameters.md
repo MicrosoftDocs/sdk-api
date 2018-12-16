@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetEffectParamet
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEffectParameters, GetEffectParameters method [XAudio2 Audio Mixing APIs], GetEffectParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetEffectParameters method, IXAudio2Voice.GetEffectParameters, IXAudio2Voice::GetEffectParameters, xaudio2.ixaudio2voice_interface_geteffectparameters, xaudio2/IXAudio2Voice::GetEffectParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

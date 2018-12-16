@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\textu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode), TextureBrush.TextureBrush(Image*,WrapMode), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode), _gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

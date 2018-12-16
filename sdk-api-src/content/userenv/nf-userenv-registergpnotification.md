@@ -9,8 +9,6 @@ ms.assetid: 0a758da3-73a8-4d9b-8663-e6cab1a1bd3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

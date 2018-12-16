@@ -9,8 +9,6 @@ ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\structures\tcitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTCITEMA, LPTCITEM, LPTCITEM structure pointer [Windows Controls], TCIF_IMAGE, TCIF_PARAM, TCIF_RTLREADING, TCIF_STATE, TCIF_TEXT, TCITEM, TCITEM structure [Windows Controls], TCITEMA, TCITEMW, _win32_TCITEM, _win32_TCITEM_cpp, commctrl/LPTCITEM, commctrl/TCITEM, commctrl/TCITEMA, commctrl/TCITEMW, controls.TCITEM, controls._win32_TCITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

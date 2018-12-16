@@ -9,8 +9,6 @@ ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

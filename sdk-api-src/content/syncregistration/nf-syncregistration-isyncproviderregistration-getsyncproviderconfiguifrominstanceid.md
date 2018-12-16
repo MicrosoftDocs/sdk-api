@@ -9,8 +9,6 @@ ms.assetid: 472732d7-39bd-434c-80f3-9808eca9035c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSyncProviderConfigUIFromInstanceId, GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

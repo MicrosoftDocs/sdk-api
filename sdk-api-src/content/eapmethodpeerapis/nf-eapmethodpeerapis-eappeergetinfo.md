@@ -9,8 +9,6 @@ ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

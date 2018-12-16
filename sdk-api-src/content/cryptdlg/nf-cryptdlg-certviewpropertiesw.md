@@ -9,8 +9,6 @@ ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterdisplaymodeex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdapterDisplayModeEx, GetAdapterDisplayModeEx method [Direct3D 9], GetAdapterDisplayModeEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterDisplayModeEx method, IDirect3D9Ex.GetAdapterDisplayModeEx, IDirect3D9Ex::GetAdapterDisplayModeEx, a9a9a87a-36fb-8647-d001-d83d9020a82e, d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx, direct3d9.idirect3d9ex_getadapterdisplaymodeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

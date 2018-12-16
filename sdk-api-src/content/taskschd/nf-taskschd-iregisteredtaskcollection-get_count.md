@@ -9,8 +9,6 @@ ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

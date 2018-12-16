@@ -9,8 +9,6 @@ ms.assetid: 9b7c72cc-fa09-44b2-97be-f200fab7b31d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

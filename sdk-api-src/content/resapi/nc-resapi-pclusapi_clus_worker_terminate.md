@@ -9,8 +9,6 @@ ms.assetid: d143a860-92fe-4fa9-b0d7-d591376a0209
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_CLUS_WORKER_TERMINATE, PCLUSAPI_CLUS_WORKER_TERMINATE callback, PCLUSAPI_CLUS_WORKER_TERMINATE callback function [Failover Cluster], _wolf_clusworkerterminate, mscs.clusworkerterminate, resapi/PCLUSAPI_CLUS_WORKER_TERMINATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

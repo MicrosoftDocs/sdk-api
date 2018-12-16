@@ -9,8 +9,6 @@ ms.assetid: b6f5406a-2abe-4cab-b257-185d77e1fb0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptionsFT, MI_SubscriptionDeliveryOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptionsFT, wmi_v2.mi_subscriptiondeliveryoptionsft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

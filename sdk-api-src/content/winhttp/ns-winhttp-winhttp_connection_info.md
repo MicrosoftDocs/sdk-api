@@ -9,8 +9,6 @@ ms.assetid: cb6e10f8-a480-41ac-b4d3-f09cfc663780
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WINHTTP_CONNECTION_INFO, WINHTTP_CONNECTION_INFO structure [HTTP], http.winhttp_connection_info, winhttp/WINHTTP_CONNECTION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

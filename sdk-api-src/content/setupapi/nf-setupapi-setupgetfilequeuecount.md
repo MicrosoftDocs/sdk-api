@@ -9,8 +9,6 @@ ms.assetid: 57312fa3-8ffc-47be-b344-3780d13ed175
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILEOP_BACKUP, FILEOP_COPY, FILEOP_DELETE, FILEOP_RENAME, SetupGetFileQueueCount, SetupGetFileQueueCount function [Setup API], _setupapi_setupgetfilequeuecount, setup.setupgetfilequeuecount, setupapi/SetupGetFileQueueCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

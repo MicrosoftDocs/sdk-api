@@ -9,8 +9,6 @@ ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIBuildFilter, AVIBuildFilter function [Windows Multimedia], AVIBuildFilterA, AVIBuildFilterW, _win32_AVIBuildFilter, multimedia.avibuildfilter, vfw/AVIBuildFilter, vfw/AVIBuildFilterA, vfw/AVIBuildFilterW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

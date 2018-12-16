@@ -9,8 +9,6 @@ ms.assetid: 24a80209-6ed8-426e-a645-463393a3a37e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjPool interface [COM+],PutEndTx method, IObjPool.PutEndTx, IObjPool::PutEndTx, PutEndTx, PutEndTx method [COM+], PutEndTx method [COM+],IObjPool interface, _cos_IObjPool_PutEndTx, comsvcs/IObjPool::PutEndTx, cos.iobjpool_putendtx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

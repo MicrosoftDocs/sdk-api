@@ -9,8 +9,6 @@ ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

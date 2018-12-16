@@ -9,8 +9,6 @@ ms.assetid: ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetListCountOfRecords, GetListCountOfRecords method [Microsoft TV Technologies], GetListCountOfRecords method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountOfRecords method, IDvbLogicalChannel2Descriptor.GetListCountOfRecords, IDvbLogicalChannel2Descriptor::GetListCountOfRecords, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountOfRecords, mstv.idvblogicalchannel2descriptor_getlistcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

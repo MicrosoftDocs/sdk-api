@@ -9,8 +9,6 @@ ms.assetid: 9dd7d71e-2e76-4755-a979-f3dcdcd6ebec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, MsiGetFileVersionW, _msi_msigetfileversion, msi/MsiGetFileVersion, msi/MsiGetFileVersionA, msi/MsiGetFileVersionW, setup.msigetfileversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

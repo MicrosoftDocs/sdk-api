@@ -9,8 +9,6 @@ ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

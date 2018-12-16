@@ -9,8 +9,6 @@ ms.assetid: ed3fa9a6-5180-419f-b5d1-02889bbcdd0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEER_GROUP_STATUS, PEER_GROUP_STATUS enumeration [Peer Networking], PEER_GROUP_STATUS_HAS_CONNECTIONS, PEER_GROUP_STATUS_LISTENING, p2p.peer_group_status, p2p/PEER_GROUP_STATUS, p2p/PEER_GROUP_STATUS_HAS_CONNECTIONS, p2p/PEER_GROUP_STATUS_LISTENING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

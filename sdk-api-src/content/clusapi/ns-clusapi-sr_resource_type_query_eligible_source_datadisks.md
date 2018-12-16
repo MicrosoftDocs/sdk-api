@@ -9,8 +9,6 @@ ms.assetid: DA64413A-0FCB-4D25-A6D0-58C1E978455E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, mscs.sr_resource_type_query_eligible_source_datadisks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

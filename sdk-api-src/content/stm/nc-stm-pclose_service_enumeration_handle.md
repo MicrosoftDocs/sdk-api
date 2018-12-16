@@ -9,8 +9,6 @@ ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callback function [RAS], PCLOSE_SERVICE_ENUMERATION_HANDLE, PCLOSE_SERVICE_ENUMERATION_HANDLE callback, _mpr_closeserviceenumerationhandle, rras.closeserviceenumerationhandle, stm/CloseServiceEnumerationHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

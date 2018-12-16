@@ -9,8 +9,6 @@ ms.assetid: ff3632de-4fb7-4e82-a642-9c9b38f4063c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],AsyncState property, IInstallationJob.AsyncState, IInstallationJob.get_AsyncState, IInstallationJob::AsyncState, IInstallationJob::get_AsyncState, get_AsyncState, wua.iinstallationjob_asyncstate, wuapi/IInstallationJob::AsyncState, wuapi/IInstallationJob::get_AsyncState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

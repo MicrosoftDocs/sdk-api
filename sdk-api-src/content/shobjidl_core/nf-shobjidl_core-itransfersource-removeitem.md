@@ -9,8 +9,6 @@ ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITransferSource.RemoveItem, ITransferSource::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RemoveItem, shell.ITransferSource_RemoveItem, shobjidl_core/ITransferSource::RemoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

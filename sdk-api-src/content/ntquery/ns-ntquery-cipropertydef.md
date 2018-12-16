@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_0ucm.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIPROPERTYDEF, CIPROPERTYDEF structure [Indexing Service], _idxs_CIPROPERTYDEF, indexsrv.cipropertydef, ntquery/CIPROPERTYDEF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntquery.h
 req.include-header: 

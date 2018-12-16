@@ -9,8 +9,6 @@ ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],insertItem method, IWMPPlaylist.insertItem, IWMPPlaylist::insertItem, IWMPPlaylistinsertItem, insertItem, insertItem method [Windows Media Player], insertItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_insertitem, wmp/IWMPPlaylist::insertItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

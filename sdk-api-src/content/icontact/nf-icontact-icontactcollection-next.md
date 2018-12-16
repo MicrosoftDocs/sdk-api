@@ -9,8 +9,6 @@ ms.assetid: f7d47643-4ef2-41fb-9f75-2fe79fec2385
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Next method, IContactCollection.Next, IContactCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Next, icontact/IContactCollection::Next, wincontacts._wincontacts_IContactCollection_Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 34d19eee-0fa9-4ac3-a33b-9f01cfa06371
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process method, IRdcGenerator.Process, IRdcGenerator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcGenerator interface, fs.irdcgenerator_process, msrdc/IRdcGenerator::Process, rdc.irdcgenerator_process
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

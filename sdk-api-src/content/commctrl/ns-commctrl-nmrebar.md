@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMREBAR, LPNMREBAR, LPNMREBAR structure pointer [Windows Controls], NMREBAR, NMREBAR structure [Windows Controls], RBNM_ID, RBNM_LPARAM, RBNM_STYLE, _win32_NMREBAR, _win32_NMREBAR_cpp, commctrl/LPNMREBAR, commctrl/NMREBAR, controls.NMREBAR, controls._win32_NMREBAR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

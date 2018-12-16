@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7ijp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Pause method, IFaxOutgoingJob.Pause, IFaxOutgoingJob::Pause, Pause, Pause method [Fax Service], Pause method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.pause, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_pause_cpp, fax._mfax_faxoutgoingjob_pause, faxcomex/IFaxOutgoingJob::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

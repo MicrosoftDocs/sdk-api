@@ -9,8 +9,6 @@ ms.assetid: dfa12961-1552-4531-8f79-d44fb2a46e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_QUERY_IC_CREDENTIALS, PWLX_QUERY_IC_CREDENTIALS callback, WlxQueryInetConnectorCredentials, WlxQueryInetConnectorCredentials callback function [Security], _gina_wlxqueryinetconnectorcredentials, security.wlxqueryinetconnectorcredentials, winwlx/WlxQueryInetConnectorCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

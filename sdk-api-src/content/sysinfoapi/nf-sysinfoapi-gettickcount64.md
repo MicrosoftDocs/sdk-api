@@ -9,8 +9,6 @@ ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

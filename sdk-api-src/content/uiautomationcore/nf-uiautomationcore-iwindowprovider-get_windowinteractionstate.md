@@ -9,8 +9,6 @@ ms.assetid: b7fcd5e6-1232-4096-a913-5fd870c83e62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowInteractionState property, IWindowProvider.WindowInteractionState, IWindowProvider.get_WindowInteractionState, IWindowProvider::WindowInteractionState, IWindowProvider::get_WindowInteractionState, WindowInteractionState property [Windows Accessibility], WindowInteractionState property [Windows Accessibility],IWindowProvider interface, get_WindowInteractionState, uiauto.uiauto_IWindowProvider_WindowInteractionState, uiauto_IWindowProvider_WindowInteractionState, uiautomationcore/IWindowProvider::WindowInteractionState, uiautomationcore/IWindowProvider::get_WindowInteractionState, winauto.uiauto_IWindowProvider_WindowInteractionState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

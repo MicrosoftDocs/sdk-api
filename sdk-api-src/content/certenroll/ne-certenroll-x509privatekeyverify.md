@@ -9,8 +9,6 @@ ms.assetid: 23466035-6554-490f-ad46-e97ba5a5d996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, X509PrivateKeyVerify, X509PrivateKeyVerify enumeration [Security], certenroll/VerifyAllowUI, certenroll/VerifyNone, certenroll/VerifySilent, certenroll/VerifySmartCardNone, certenroll/VerifySmartCardSilent, certenroll/X509PrivateKeyVerify, security.x509privatekeyverify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

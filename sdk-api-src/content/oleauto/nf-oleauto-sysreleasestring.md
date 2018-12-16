@@ -9,8 +9,6 @@ ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

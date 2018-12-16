@@ -9,8 +9,6 @@ ms.assetid: E6E8D383-E9E9-4615-B220-B0666E6C2CA2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxManifestReader6 interface, IAppxManifestReader6 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxManifestReader6.GetIsNonQualifiedResourcePackage, IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpkg.iappxmanifestreader6_getisnonqualifiedresourcepackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

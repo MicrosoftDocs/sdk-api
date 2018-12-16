@@ -9,8 +9,6 @@ ms.assetid: 09dba873-4302-46ee-9de0-cd480a424144
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Id property, IOptionDescription.Id, IOptionDescription.get_Id, IOptionDescription::Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],IOptionDescription interface, get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

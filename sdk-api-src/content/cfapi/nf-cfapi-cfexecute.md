@@ -9,8 +9,6 @@ ms.assetid: 6AC8958D-B060-4468-9811-9BAB0E6A06D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

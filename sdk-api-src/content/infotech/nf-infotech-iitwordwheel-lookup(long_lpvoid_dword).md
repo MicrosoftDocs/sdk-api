@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LONG,LPVOID,DWORD), IITWordWheel::Lookup, IITWordWheel::Lookup(LONG,LPVOID,DWORD), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

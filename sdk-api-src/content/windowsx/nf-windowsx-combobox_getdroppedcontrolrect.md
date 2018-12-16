@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_GetDroppedControlRect, ComboBox_GetDroppedControlRect macro [Windows Controls], _win32_ComboBox_GetDroppedControlRect, _win32_ComboBox_GetDroppedControlRect_cpp, controls.ComboBox_GetDroppedControlRect, controls._win32_ComboBox_GetDroppedControlRect, windowsx/ComboBox_GetDroppedControlRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

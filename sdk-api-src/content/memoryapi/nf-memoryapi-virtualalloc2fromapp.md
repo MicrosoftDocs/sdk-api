@@ -9,8 +9,6 @@ ms.assetid: 84896A75-A917-4CA1-A417-650428E1FBFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc2FromApp, VirtualAlloc2FromApp function, base.virtualalloc2fromapp, memoryapi/VirtualAlloc2FromApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

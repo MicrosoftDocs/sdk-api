@@ -9,8 +9,6 @@ ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO structure [Security], PPOLICY_DNS_DOMAIN_INFO, PPOLICY_DNS_DOMAIN_INFO structure pointer [Security], _lsa_policy_dns_domain_info, lsalookup/POLICY_DNS_DOMAIN_INFO, lsalookup/PPOLICY_DNS_DOMAIN_INFO, security.policy_dns_domain_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 

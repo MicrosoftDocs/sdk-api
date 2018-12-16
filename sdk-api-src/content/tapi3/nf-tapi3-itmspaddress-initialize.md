@@ -9,8 +9,6 @@ ms.assetid: 5df2c486-0133-4705-8d37-10b56b40c85d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

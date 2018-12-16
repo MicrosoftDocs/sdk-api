@@ -9,8 +9,6 @@ ms.assetid: 0d53d537-8db1-4e39-98e6-8987dbf5fc27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocumentSequence.GetPrintTicketResource, IXpsOMDocumentSequence::GetPrintTicketResource, xps.ixpsomdocumentsequence_getprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

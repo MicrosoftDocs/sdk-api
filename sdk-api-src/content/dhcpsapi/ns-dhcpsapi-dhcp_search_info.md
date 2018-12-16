@@ -9,8 +9,6 @@ ms.assetid: 3c6f85d7-c156-4379-bad9-0705698f12e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO, DHCP_SEARCH_INFO, DHCP_SEARCH_INFO structure [DHCP], LPDHCP_SEARCH_INFO, LPDHCP_SEARCH_INFO structure pointer [DHCP], dhcp.dhcp_search_info, dhcpsapi/LPDHCP_SEARCH_INFO, dhcpsapi/_DHCP_CLIENT_SEARCH_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

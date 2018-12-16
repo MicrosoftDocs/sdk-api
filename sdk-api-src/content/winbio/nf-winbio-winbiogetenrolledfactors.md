@@ -9,8 +9,6 @@ ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: 

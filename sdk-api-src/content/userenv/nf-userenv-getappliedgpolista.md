@@ -9,8 +9,6 @@ ms.assetid: 11e80a4e-acc4-4229-aa34-8f7d083c1041
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

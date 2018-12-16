@@ -9,8 +9,6 @@ ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ValueMapType, ValueMapType enumeration [PLA], base.valuemaptype, pla.valuemaptype, pla/ValueMapType, pla/plaFlag, pla/plaFlagArray, pla/plaIndex, pla/plaValidation, plaFlag, plaFlagArray, plaIndex, plaValidation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

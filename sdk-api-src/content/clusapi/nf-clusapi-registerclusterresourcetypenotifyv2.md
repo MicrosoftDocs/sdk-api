@@ -9,8 +9,6 @@ ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

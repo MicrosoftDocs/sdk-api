@@ -9,8 +9,6 @@ ms.assetid: 35a1f4a8-aad6-43ad-81db-b1071a77d5f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetErrorProperty, WsGetErrorProperty function [Web Services for Windows], webservices/WsGetErrorProperty, wsw.wsgeterrorproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

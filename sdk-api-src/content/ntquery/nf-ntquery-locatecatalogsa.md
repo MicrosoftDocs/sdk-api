@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

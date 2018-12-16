@@ -9,8 +9,6 @@ ms.assetid: 470cc721-598e-480d-a41c-354704b4d058
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_CreateThreadMgr, TF_CreateThreadMgr function [Text Services Framework], msctf/TF_CreateThreadMgr, tsf.tf_createthreadmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msctf.h
 req.include-header: 

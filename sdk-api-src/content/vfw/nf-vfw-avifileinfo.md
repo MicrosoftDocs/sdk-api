@@ -9,8 +9,6 @@ ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

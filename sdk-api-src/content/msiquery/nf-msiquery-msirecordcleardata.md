@@ -9,8 +9,6 @@ ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

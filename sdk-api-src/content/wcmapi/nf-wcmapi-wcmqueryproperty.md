@@ -9,8 +9,6 @@ ms.assetid: 07c0993e-2892-4908-be3f-d24210ccc300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

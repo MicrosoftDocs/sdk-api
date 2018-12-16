@@ -9,8 +9,6 @@ ms.assetid: 75d19e2a-0d3e-4883-852e-983fcee8166a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButton interface, IMenuButton interface [MMC],AddButton method, IMenuButton.AddButton, IMenuButton::AddButton, _slate_imenubutton_addbutton, mmc.imenubutton_addbutton, mmc/IMenuButton::AddButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

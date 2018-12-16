@@ -9,8 +9,6 @@ ms.assetid: 99245e45-114d-4933-9189-cd45a1c22a96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

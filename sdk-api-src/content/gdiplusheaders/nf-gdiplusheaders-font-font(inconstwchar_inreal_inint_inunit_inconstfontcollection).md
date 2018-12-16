@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstruct
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), Font.Font(const WCHAR*,REAL,INT,Unit,const FontCollection*), Font::Font, Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), _gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_, gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

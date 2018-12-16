@@ -9,8 +9,6 @@ ms.assetid: 91517103-71c5-450c-9d93-584f94cd2c45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],AddData method, IJolietDiscMaster.AddData, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

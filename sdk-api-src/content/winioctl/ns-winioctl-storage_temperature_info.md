@@ -9,8 +9,6 @@ ms.assetid: 236B4AC7-AF5E-4556-9FFD-D64C450E6492
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Files], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Files], fs.storage_temperature_info, winioctl/PSTORAGE_TEMPERATURE_INFO, winioctl/STORAGE_TEMPERATURE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

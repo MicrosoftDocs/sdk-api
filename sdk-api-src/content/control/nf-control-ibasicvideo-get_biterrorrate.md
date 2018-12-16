@@ -9,8 +9,6 @@ ms.assetid: c61b8a96-83ea-49e2-884e-c9fb3526cc46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitErrorRate method, IBasicVideo.get_BitErrorRate, IBasicVideo::get_BitErrorRate, IBasicVideoget_BitErrorRate, control/IBasicVideo::get_BitErrorRate, dshow.ibasicvideo_get_biterrorrate, get_BitErrorRate, get_BitErrorRate method [DirectShow], get_BitErrorRate method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

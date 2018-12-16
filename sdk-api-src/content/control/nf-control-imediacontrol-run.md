@@ -9,8 +9,6 @@ ms.assetid: b52a5fa7-96f8-4949-9cf0-2d526f23bee1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaControl interface [DirectShow],Run method, IMediaControl.Run, IMediaControl::Run, IMediaControlRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaControl interface, control/IMediaControl::Run, dshow.imediacontrol_run
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

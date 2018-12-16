@@ -9,8 +9,6 @@ ms.assetid: C7AF57B4-E4A0-4105-93C9-38106DCAA077
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentDropTargetEffects property [Windows Accessibility], CurrentDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffects property, IUIAutomationDropTargetPattern.CurrentDropTargetEffects, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects, IUIAutomationDropTargetPattern::CurrentDropTargetEffects, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects, get_CurrentDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

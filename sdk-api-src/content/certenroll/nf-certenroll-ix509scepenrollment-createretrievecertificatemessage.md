@@ -9,8 +9,6 @@ ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRetrieveCertificateMessage, CreateRetrieveCertificateMessage method [Security], CreateRetrieveCertificateMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrieveCertificateMessage method, IX509SCEPEnrollment.CreateRetrieveCertificateMessage, IX509SCEPEnrollment::CreateRetrieveCertificateMessage, certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage, security.ix509scepenrollment_createretrievecertificatemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

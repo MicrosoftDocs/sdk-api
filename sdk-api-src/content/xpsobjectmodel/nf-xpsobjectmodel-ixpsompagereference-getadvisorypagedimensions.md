@@ -9,8 +9,6 @@ ms.assetid: 1e25d910-5ca5-4e92-8b77-479c48a0089a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdvisoryPageDimensions, GetAdvisoryPageDimensions method [XPS Documents and Packaging], GetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetAdvisoryPageDimensions method, IXpsOMPageReference.GetAdvisoryPageDimensions, IXpsOMPageReference::GetAdvisoryPageDimensions, xps.ixpsompagereference_getadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::GetAdvisoryPageDimensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

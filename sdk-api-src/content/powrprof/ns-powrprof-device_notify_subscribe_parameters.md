@@ -9,8 +9,6 @@ ms.assetid: 749F7C6F-1A42-43DE-921E-C3654034570D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure pointer, base.device_notify_subscribe_parameters, powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, powrprof/PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

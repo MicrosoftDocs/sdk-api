@@ -9,8 +9,6 @@ ms.assetid: 3594011a-da4a-4550-9b3b-076218d09f39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewportEventHandler interface [Direct Manipulation], IDirectManipulationViewportEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewporteventhandler, directmanipulation/IDirectManipulationViewportEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

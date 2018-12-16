@@ -9,8 +9,6 @@ ms.assetid: 363fd45f-fb36-41f0-9d72-dc9c018859ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer [COM], PROPPAGEINFO, PROPPAGEINFO structure [COM], _ctrl_PROPPAGEINFO, com.proppageinfo, ocidl/LPPROPPAGEINFO, ocidl/PROPPAGEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

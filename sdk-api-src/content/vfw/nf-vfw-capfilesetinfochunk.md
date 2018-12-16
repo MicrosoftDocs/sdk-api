@@ -9,8 +9,6 @@ ms.assetid: b0772aa7-944c-450e-a703-0057a3230cb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

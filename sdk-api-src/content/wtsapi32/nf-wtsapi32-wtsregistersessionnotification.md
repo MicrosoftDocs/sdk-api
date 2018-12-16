@@ -9,8 +9,6 @@ ms.assetid: 5067bb03-d8d5-41ce-b187-04d7dd22a028
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotification, WTSRegisterSessionNotification function [Remote Desktop Services], _win32_wtsregistersessionnotification, termserv.wtsregistersessionnotification, wtsapi32/WTSRegisterSessionNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

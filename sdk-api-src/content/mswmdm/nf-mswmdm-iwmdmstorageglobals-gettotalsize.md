@@ -9,8 +9,6 @@ ms.assetid: ebbc8b7e-037f-4b8d-b026-793d38914685
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTotalSize, GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetTotalSize method, IWMDMStorageGlobals.GetTotalSize, IWMDMStorageGlobals::GetTotalSize, IWMDMStorageGlobalsGetTotalSize, mswmdm/IWMDMStorageGlobals::GetTotalSize, wmdm.iwmdmstorageglobals_gettotalsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

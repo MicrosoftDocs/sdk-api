@@ -9,8 +9,6 @@ ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

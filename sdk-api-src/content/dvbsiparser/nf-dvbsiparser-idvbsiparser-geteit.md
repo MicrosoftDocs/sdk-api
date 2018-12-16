@@ -9,8 +9,6 @@ ms.assetid: fd1c0418-2bec-4270-be4b-3877428e3968
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetEIT method, IDvbSiParser.GetEIT, IDvbSiParser::GetEIT, IDvbSiParserGetEIT, dvbsiparser/IDvbSiParser::GetEIT, mstv.idvbsiparser_geteit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

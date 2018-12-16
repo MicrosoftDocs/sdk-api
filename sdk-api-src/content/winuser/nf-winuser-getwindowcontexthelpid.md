@@ -9,8 +9,6 @@ ms.assetid: 28e57c01-0327-4f64-9ef4-ca13c3c32b0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowContextHelpId, GetWindowContextHelpId function [Windows Shell], _win32_GetWindowContextHelpId, shell.GetWindowContextHelpId, winuser/GetWindowContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B0C197A0-4987-43BD-A48D-BF2E6150A85F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocument method, IUPnPServiceDocumentAccess.GetDocument, IUPnPServiceDocumentAccess::GetDocument, upnp.iupnpservicedocumentaccess_getdocument, upnp/IUPnPServiceDocumentAccess::GetDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

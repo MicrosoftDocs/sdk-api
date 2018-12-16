@@ -9,8 +9,6 @@ ms.assetid: cf42f680-f19c-4ee3-824d-dc892608d4d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

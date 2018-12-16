@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISchemaProvider interface [search],RootEntity method, ISchemaProvider.RootEntity, ISchemaProvider::RootEntity, RootEntity, RootEntity method [search], RootEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

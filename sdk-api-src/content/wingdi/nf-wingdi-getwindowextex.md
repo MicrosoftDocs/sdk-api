@@ -9,8 +9,6 @@ ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowExtEx, GetWindowExtEx function [Windows GDI], _win32_GetWindowExtEx, gdi.getwindowextex, wingdi/GetWindowExtEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

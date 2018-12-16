@@ -9,8 +9,6 @@ ms.assetid: 43c9370c-cd43-4dd0-8258-d6dbdb98f1de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [windows Media Format], wmformat.wm_stream_priority_record, wmsdkidl/WM_STREAM_PRIORITY_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

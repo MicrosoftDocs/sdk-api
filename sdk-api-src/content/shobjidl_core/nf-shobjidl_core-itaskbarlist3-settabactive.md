@@ -9,8 +9,6 @@ ms.assetid: d82f11eb-bfff-4661-8e2e-520f8226809b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabActive method, ITaskbarList3.SetTabActive, ITaskbarList3::SetTabActive, SetTabActive, SetTabActive method [Windows Shell], SetTabActive method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabActive, shell.ITaskbarList3_SetTabActive, shobjidl_core/ITaskbarList3::SetTabActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 0d2166dc-24cf-4d5f-8b37-94c4f9990178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],Guid property, ITraceDataProvider.Guid, ITraceDataProvider.get_Guid, ITraceDataProvider::Guid, ITraceDataProvider::get_Guid, ITraceDataProvider::put_Guid, base.itracedataprovider_guid, get_Guid, pla.itracedataprovider_guid, pla/ITraceDataProvider::Guid, pla/ITraceDataProvider::get_Guid, pla/ITraceDataProvider::put_Guid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

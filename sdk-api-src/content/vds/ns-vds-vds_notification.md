@@ -9,8 +9,6 @@ ms.assetid: 59d21cd3-1cff-47be-be98-f4c55f044306
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_NOTIFICATION, VDS_NOTIFICATION structure [VDS], VDS_NTT_CONTROLLER, VDS_NTT_DISK, VDS_NTT_DRIVE, VDS_NTT_DRIVE_LETTER, VDS_NTT_FILE_SYSTEM, VDS_NTT_LUN, VDS_NTT_MOUNT_POINT, VDS_NTT_PACK, VDS_NTT_PARTITION, VDS_NTT_PORT, VDS_NTT_PORTAL, VDS_NTT_PORTAL_GROUP, VDS_NTT_SUB_SYSTEM, VDS_NTT_TARGET, VDS_NTT_VOLUME, base.vds_notification, vds/_VDS_NOTIFICATION, vdshwprv/_VDS_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

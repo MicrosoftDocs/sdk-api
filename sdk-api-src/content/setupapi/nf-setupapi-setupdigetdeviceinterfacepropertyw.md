@@ -9,8 +9,6 @@ ms.assetid: 72a44060-cebc-4690-8776-68db76810732
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetDeviceInterfaceProperty, SetupDiGetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiGetDeviceInterfacePropertyW, devinst.setupdigetdeviceinterfaceproperty, di-rtns_7a7e0730-650f-4deb-a724-8f90385c762a.xml, setupapi/SetupDiGetDeviceInterfaceProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

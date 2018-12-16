@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetItem, TreeView_GetItem macro [Windows Controls], _win32_TreeView_GetItem, _win32_TreeView_GetItem_cpp, commctrl/TreeView_GetItem, controls.TreeView_GetItem, controls._win32_TreeView_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

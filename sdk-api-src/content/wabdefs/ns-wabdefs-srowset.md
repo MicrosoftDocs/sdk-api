@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

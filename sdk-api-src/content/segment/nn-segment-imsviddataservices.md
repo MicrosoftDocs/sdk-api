@@ -9,8 +9,6 @@ ms.assetid: 6f70aa63-849c-4170-80c1-359210be4d61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDataServices, IMSVidDataServices interface [Microsoft TV Technologies], IMSVidDataServices interface [Microsoft TV Technologies],described, IMSVidDataServicesInterface, mstv.imsviddataservices, segment/IMSVidDataServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

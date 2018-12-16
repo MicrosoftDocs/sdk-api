@@ -9,8 +9,6 @@ ms.assetid: 72e9bca3-22cd-4f5b-9481-289bdfaf58e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetViewName method, IMultipleViewProvider.GetViewName, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

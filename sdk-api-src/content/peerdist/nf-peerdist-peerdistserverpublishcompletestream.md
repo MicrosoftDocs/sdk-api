@@ -9,8 +9,6 @@ ms.assetid: ad66025e-cc4f-49b7-9749-de97f4a55078
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

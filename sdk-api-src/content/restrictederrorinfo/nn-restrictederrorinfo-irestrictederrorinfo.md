@@ -9,8 +9,6 @@ ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime],described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 

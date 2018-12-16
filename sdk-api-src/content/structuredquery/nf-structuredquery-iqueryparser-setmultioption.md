@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

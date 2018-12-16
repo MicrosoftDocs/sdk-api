@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMDINEXTMENU, *PMDINEXTMENU, MDINEXTMENU, MDINEXTMENU structure [Menus and Other Resources], PMDINEXTMENU, PMDINEXTMENU structure pointer [Menus and Other Resources], _win32_MDINEXTMENU_str, _win32_mdinextmenu_str_cpp, menurc.mdinextmenu, winui._win32_mdinextmenu_str, winuser/MDINEXTMENU, winuser/PMDINEXTMENU"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

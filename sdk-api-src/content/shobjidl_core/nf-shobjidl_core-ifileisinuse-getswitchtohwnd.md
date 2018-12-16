@@ -9,8 +9,6 @@ ms.assetid: b4223cb0-2027-4073-9558-99ae27f4e52a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSwitchToHWND, GetSwitchToHWND method [Windows Shell], GetSwitchToHWND method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetSwitchToHWND method, IFileIsInUse.GetSwitchToHWND, IFileIsInUse::GetSwitchToHWND, _shell_IFileIsInUse_GetSwitchToHWND, shell.IFileIsInUse_GetSwitchToHWND, shobjidl_core/IFileIsInUse::GetSwitchToHWND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

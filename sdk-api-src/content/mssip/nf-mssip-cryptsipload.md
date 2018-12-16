@@ -9,8 +9,6 @@ ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

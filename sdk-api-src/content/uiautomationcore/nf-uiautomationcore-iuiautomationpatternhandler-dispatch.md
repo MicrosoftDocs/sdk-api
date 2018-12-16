@@ -9,8 +9,6 @@ ms.assetid: c94d650e-74a8-4d4f-92bf-5402576f8773
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Dispatch, Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],Dispatch method, IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

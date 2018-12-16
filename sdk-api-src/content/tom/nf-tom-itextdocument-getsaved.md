@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSaved, GetSaved method [Windows Controls], GetSaved method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSaved method, ITextDocument.GetSaved, ITextDocument::GetSaved, _win32_ITextDocument_GetSaved, _win32_ITextDocument_GetSaved_cpp, controls.ITextDocument_GetSaved, controls._win32_ITextDocument_GetSaved, tom/ITextDocument::GetSaved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

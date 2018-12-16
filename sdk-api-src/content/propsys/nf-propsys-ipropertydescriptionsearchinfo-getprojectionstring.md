@@ -9,8 +9,6 @@ ms.assetid: 06881c29-fafb-47be-abdb-906e289ee5fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProjectionString, GetProjectionString method [Windows Properties], GetProjectionString method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetProjectionString method, IPropertyDescriptionSearchInfo.GetProjectionString, IPropertyDescriptionSearchInfo::GetProjectionString, _shell_IPropertyDescriptionSearchInfo_GetProjectionString, properties.IPropertyDescriptionSearchInfo_GetProjectionString, propsys/IPropertyDescriptionSearchInfo::GetProjectionString, shell.IPropertyDescriptionSearchInfo_GetProjectionString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

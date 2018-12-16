@@ -9,8 +9,6 @@ ms.assetid: 51d42b34-3380-4464-8feb-d03935f88077
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDocumentSequence, CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentSequence method, IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

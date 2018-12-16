@@ -9,8 +9,6 @@ ms.assetid: a4c39119-7317-408c-9173-efd6d449002e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureReferenceSet.GetEnumerator, IOpcSignatureReferenceSet::GetEnumerator, msopc/IOpcSignatureReferenceSet::GetEnumerator, opc.iopcsignaturereferenceset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

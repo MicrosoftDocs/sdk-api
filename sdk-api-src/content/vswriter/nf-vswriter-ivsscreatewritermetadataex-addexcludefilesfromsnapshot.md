@@ -9,8 +9,6 @@ ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddExcludeFilesFromSnapshot, AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method,IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 7e772ced-d14e-45da-9e97-36579e7e3ffd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFilterGraph, GetFilterGraph method [DirectShow], GetFilterGraph method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilterGraph method, IAMMultiMediaStream.GetFilterGraph, IAMMultiMediaStream::GetFilterGraph, IAMMultiMediaStreamGetFilterGraph, amstream/IAMMultiMediaStream::GetFilterGraph, dshow.iammultimediastream_getfiltergraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

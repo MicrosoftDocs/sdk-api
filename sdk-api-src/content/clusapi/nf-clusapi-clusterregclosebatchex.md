@@ -9,8 +9,6 @@ ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

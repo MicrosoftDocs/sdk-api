@@ -9,8 +9,6 @@ ms.assetid: 8ed3af39-345b-4bfb-aea1-072a64f7921a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SetSmsConfiguration method, IMbnSms.SetSmsConfiguration, IMbnSms::SetSmsConfiguration, SetSmsConfiguration, SetSmsConfiguration method [Microsoft Broadband Networks], SetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_setsmsconfiguration, mbnapi/IMbnSms::SetSmsConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

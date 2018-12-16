@@ -9,8 +9,6 @@ ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

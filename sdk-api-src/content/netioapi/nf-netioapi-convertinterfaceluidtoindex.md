@@ -9,8 +9,6 @@ ms.assetid: 904cd94c-dd46-42ac-aef2-ffed4b3e5899
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

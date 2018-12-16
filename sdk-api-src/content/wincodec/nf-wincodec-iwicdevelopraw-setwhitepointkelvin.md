@@ -9,8 +9,6 @@ ms.assetid: 3a5235ed-b0c8-4090-9380-892e3e994d10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointKelvin method, IWICDevelopRaw.SetWhitePointKelvin, IWICDevelopRaw::SetWhitePointKelvin, SetWhitePointKelvin, SetWhitePointKelvin method [Windows Imaging Component], SetWhitePointKelvin method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointkelvin, wic._wic_codec_iwicdevelopraw_setwhitepointkelvin, wincodec/IWICDevelopRaw::SetWhitePointKelvin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

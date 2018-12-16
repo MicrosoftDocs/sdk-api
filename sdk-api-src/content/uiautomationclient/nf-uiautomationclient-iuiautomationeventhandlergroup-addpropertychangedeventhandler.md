@@ -9,8 +9,6 @@ ms.assetid: 186958B6-6D13-41F2-B6E5-A4C36D1B8451
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPropertyChangedEventHandler, AddPropertyChangedEventHandler method [Windows Accessibility], AddPropertyChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddPropertyChangedEventHandler method, IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler, IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

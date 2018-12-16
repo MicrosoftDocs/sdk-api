@@ -9,8 +9,6 @@ ms.assetid: 28a01985-a133-4203-8385-d4497c29bf9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableFastCache method, IWMReaderNetworkConfig2.SetEnableFastCache, IWMReaderNetworkConfig2::SetEnableFastCache, IWMReaderNetworkConfig2SetEnableFastCache, SetEnableFastCache, SetEnableFastCache method [windows Media Format], SetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::SetEnableFastCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

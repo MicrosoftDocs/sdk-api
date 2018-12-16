@@ -9,8 +9,6 @@ ms.assetid: a75c2bca-eaac-4382-9211-fbc1b05f1414
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVisualLocal, GetVisualLocal method [XPS Documents and Packaging], GetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLocal method, IXpsOMVisualBrush.GetVisualLocal, IXpsOMVisualBrush::GetVisualLocal, xps.ixpsomvisualbrush_getvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

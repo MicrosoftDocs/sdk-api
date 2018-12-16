@@ -9,8 +9,6 @@ ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

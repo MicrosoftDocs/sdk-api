@@ -9,8 +9,6 @@ ms.assetid: db2630d0-26be-4cf1-811e-fc1d2007dda5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsCollection interface [ADSI],get__NewEnum method, IADsCollection.get__NewEnum, IADsCollection::get__NewEnum, _ds_iadscollection_get__newenum, adsi.iadscollection__get____newenum, adsi.iadscollection_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsCollection interface, iads/IADsCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

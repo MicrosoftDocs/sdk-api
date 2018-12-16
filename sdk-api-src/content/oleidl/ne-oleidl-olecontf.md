@@ -9,8 +9,6 @@ ms.assetid: 9c70fc86-7166-47dd-a424-741f18e381e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OLECONTF, OLECONTF enumeration [COM], OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHERS, _ole_OLECONTF, com.olecontf, oleidl/OLECONTF, oleidl/OLECONTF_EMBEDDINGS, oleidl/OLECONTF_LINKS, oleidl/OLECONTF_ONLYIFRUNNING, oleidl/OLECONTF_ONLYUSER, oleidl/OLECONTF_OTHERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

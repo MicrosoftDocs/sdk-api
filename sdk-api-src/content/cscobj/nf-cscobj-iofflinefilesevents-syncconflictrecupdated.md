@@ -9,8 +9,6 @@ ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

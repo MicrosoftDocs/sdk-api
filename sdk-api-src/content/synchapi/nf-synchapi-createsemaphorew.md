@@ -9,8 +9,6 @@ ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

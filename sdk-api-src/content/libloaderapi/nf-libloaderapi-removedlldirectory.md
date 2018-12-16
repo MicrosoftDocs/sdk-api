@@ -9,8 +9,6 @@ ms.assetid: 89ab63be-f0db-4f0f-9792-6976d867524e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldirectory, libloaderapi/RemoveDllDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

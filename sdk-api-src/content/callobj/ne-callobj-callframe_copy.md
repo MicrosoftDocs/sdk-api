@@ -9,8 +9,6 @@ ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: callobj.h
 req.include-header: 

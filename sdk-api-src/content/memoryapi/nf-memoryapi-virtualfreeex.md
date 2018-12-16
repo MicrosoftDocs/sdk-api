@@ -9,8 +9,6 @@ ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

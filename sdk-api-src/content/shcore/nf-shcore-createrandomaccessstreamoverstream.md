@@ -9,8 +9,6 @@ ms.assetid: 7A4BA702-0E2E-4FA9-8BEB-313D2D29762E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRandomAccessStreamOverStream, CreateRandomAccessStreamOverStream function [Windows Runtime], shcore/CreateRandomAccessStreamOverStream, winrt.createrandomaccessstreamoverstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shcore.h
 req.include-header: 

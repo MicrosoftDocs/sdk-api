@@ -9,8 +9,6 @@ ms.assetid: fbb42e55-1be1-4931-869b-9e8d4af5e6df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Caption method, IVideoWindow.get_Caption, IVideoWindow::get_Caption, IVideoWindowget_Caption, control/IVideoWindow::get_Caption, dshow.ivideowindow_get_caption, get_Caption, get_Caption method [DirectShow], get_Caption method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

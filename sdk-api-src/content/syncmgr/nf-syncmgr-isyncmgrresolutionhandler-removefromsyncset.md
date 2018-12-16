@@ -9,8 +9,6 @@ ms.assetid: 3f65f844-efa2-43b9-91f2-c9c0ed4e3a9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],RemoveFromSyncSet method, ISyncMgrResolutionHandler.RemoveFromSyncSet, ISyncMgrResolutionHandler::RemoveFromSyncSet, RemoveFromSyncSet, RemoveFromSyncSet method [Windows Shell], RemoveFromSyncSet method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_RemoveFromSyncSet, shell.ISyncMgrResolutionHandler_RemoveFromSyncSet, syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

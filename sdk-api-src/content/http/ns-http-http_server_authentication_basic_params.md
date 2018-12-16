@@ -9,8 +9,6 @@ ms.assetid: 02330a12-aab0-4181-b3da-36c6b22dae67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], http.http_server_authentication_basic_params, http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

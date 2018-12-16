@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetHScroll method, ITextServices.TxGetHScroll, ITextServices::TxGetHScroll, TxGetHScroll, TxGetHScroll method [Windows Controls], TxGetHScroll method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetHScroll, _win32_ITextServices_TxGetHScroll_cpp, controls.ITextServices_TxGetHScroll, controls._win32_ITextServices_TxGetHScroll, textserv/ITextServices::TxGetHScroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

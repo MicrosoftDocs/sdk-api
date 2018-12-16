@@ -9,8 +9,6 @@ ms.assetid: 1d156866-d19a-4fd2-8664-d22e8b5434be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],GetIAccessible method, ILegacyIAccessibleProvider.GetIAccessible, ILegacyIAccessibleProvider::GetIAccessible, uiauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiautomationcore/ILegacyIAccessibleProvider::GetIAccessible, winauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

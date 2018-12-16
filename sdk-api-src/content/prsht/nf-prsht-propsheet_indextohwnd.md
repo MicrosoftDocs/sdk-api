@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextohwnd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_IndexToHwnd, PropSheet_IndexToHwnd macro [Windows Controls], _win32_PropSheet_IndexToHwnd, _win32_PropSheet_IndexToHwnd_cpp, controls.PropSheet_IndexToHwnd, controls._win32_PropSheet_IndexToHwnd, prsht/PropSheet_IndexToHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

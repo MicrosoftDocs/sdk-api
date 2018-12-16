@@ -9,8 +9,6 @@ ms.assetid: 9435d0e6-bb26-40a9-a13f-a744588cc0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation],CHPtrArray method, CHPtrArray method [Windows Management Instrumentation], CHPtrArray method [Windows Management Instrumentation],CHPtrArray interface, CHPtrArray.CHPtrArray, CHPtrArray::CHPtrArray, chptrarr/CHPtrArray::CHPtrArray, wmi.chptrarray_chptrarray"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: htmlhelp.h
 req.include-header: 

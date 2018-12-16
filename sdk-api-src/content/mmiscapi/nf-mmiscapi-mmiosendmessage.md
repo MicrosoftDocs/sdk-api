@@ -9,8 +9,6 @@ ms.assetid: 6ff058bf-0681-4ab8-abea-ee820359f4b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioSendMessage, mmioSendMessage, mmioSendMessage function [Windows Multimedia], mmsystem/mmioSendMessage, multimedia.mmiosendmessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

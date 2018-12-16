@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRectangles, AddRectangles method [GDI+], AddRectangles method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangles method, GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const Rect,INT), GraphicsPath.AddRectangles(const Rect*,INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const Rect,INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkSoHRequest structure [NAP], NetworkSoHResponse, NetworkSoHResponse structure [NAP], nap.networksoh_struct, naptypes/NetworkSoH, naptypes/NetworkSoHRequest, naptypes/NetworkSoHResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

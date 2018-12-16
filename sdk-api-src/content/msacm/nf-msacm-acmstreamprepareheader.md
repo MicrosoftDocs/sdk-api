@@ -9,8 +9,6 @@ ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

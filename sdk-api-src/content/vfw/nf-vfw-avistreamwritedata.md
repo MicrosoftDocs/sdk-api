@@ -9,8 +9,6 @@ ms.assetid: 2ca91df6-4721-4282-8b88-81e76d2ab94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamWriteData, AVIStreamWriteData function [Windows Multimedia], _win32_AVIStreamWriteData, multimedia.avistreamwritedata, vfw/AVIStreamWriteData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

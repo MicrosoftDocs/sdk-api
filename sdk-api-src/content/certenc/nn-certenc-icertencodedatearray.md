@@ -9,8 +9,6 @@ ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertEncodeDateArray, ICertEncodeDateArray interface [Security], ICertEncodeDateArray interface [Security],described, _certsrv_icertencodedatearray, certenc/ICertEncodeDateArray, security.icertencodedatearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

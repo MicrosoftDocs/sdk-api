@@ -9,8 +9,6 @@ ms.assetid: E148138E-E41F-4274-B40A-7BF49BCF2AB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowSmallerSize, ExtractIfNotCached, ResizeThumbnail, ReturnOnlyIfCached, ThumbnailStreamCacheOptions, ThumbnailStreamCacheOptions enumeration [Windows Shell], shell.thumbnailstreamcacheoptions, thumbnailstreamcache/AllowSmallerSize, thumbnailstreamcache/ExtractIfNotCached, thumbnailstreamcache/ResizeThumbnail, thumbnailstreamcache/ReturnOnlyIfCached, thumbnailstreamcache/ThumbnailStreamCacheOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: thumbnailstreamcache.h
 req.include-header: 

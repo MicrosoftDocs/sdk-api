@@ -9,8 +9,6 @@ ms.assetid: d6ebfd84-6ef4-43be-af16-71fc395c4735
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],GetFlags method, IShellLinkDataList.GetFlags, IShellLinkDataList::GetFlags, _win32_IShellLinkDataList_GetFlags, shell.IShellLinkDataList_GetFlags, shobjidl_core/IShellLinkDataList::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

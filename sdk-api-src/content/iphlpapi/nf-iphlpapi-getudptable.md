@@ -9,8 +9,6 @@ ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 510AD624-F212-4FD7-BF30-A5C90CFA23C5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaType method, IMFSensorStream.GetMediaType, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

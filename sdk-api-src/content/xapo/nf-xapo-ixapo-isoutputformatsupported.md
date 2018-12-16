@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsOutputFormatSupported(const WA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsOutputFormatSupported method, IXAPO.IsOutputFormatSupported, IXAPO::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [XAudio2 Audio Mixing APIs], IsOutputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsOutputFormatSupported, xaudio2.ixapo_interface_isoutputformatsupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 

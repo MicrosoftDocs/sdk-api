@@ -9,8 +9,6 @@ ms.assetid: 0f771ab7-af42-481b-b2da-20dcdf49b82b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBREQUEST, PERFLIBREQUEST callback, PERF_ADD_COUNTER, PERF_COLLECT_END, PERF_COLLECT_START, PERF_ENUM_INSTANCES, PERF_REMOVE_COUNTER, base.controlcallback_perflibv2, perf.controlcallback_perflibv2, perflib/ControlCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: perflib.h
 req.include-header: 

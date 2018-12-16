@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

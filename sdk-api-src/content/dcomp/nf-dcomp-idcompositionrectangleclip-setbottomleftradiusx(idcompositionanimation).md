@@ -9,8 +9,6 @@ ms.assetid: 9C3C5162-82C0-4114-8D9D-123B84215DE7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottomLeftRadiusX method, IDCompositionRectangleClip.SetBottomLeftRadiusX, IDCompositionRectangleClip.SetBottomLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusX, IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation*), SetBottomLeftRadiusX, SetBottomLeftRadiusX method [DirectComposition], SetBottomLeftRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8dfb2b8d-2825-470e-8adc-85437d8fe863
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataReader.GetEnumerator, IWICMetadataReader::GetEnumerator, _wic_codec_iwicmetadatareader_getenumerator, wic._wic_codec_iwicmetadatareader_getenumerator, wincodecsdk/IWICMetadataReader::GetEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

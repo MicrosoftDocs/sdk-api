@@ -9,8 +9,6 @@ ms.assetid: 68b41304-2043-4cbf-8872-7f3d9f3b7a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterDescription method, IBDA_IPSinkInfo.get_AdapterDescription, IBDA_IPSinkInfo::get_AdapterDescription, IBDA_IPSinkInfoget_AdapterDescription, bdaiface/IBDA_IPSinkInfo::get_AdapterDescription, get_AdapterDescription, get_AdapterDescription method [Microsoft TV Technologies], get_AdapterDescription method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapterdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

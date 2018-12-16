@@ -9,8 +9,6 @@ ms.assetid: 7ea2f217-4dd2-4c0f-af1b-d4bcb8707519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Group Policy], RsopSetPolicySettingStatus, _win32_rsopsetpolicysettingstatus, policy.rsopsetpolicysettingstatus, userenv/RSoPSetPolicySettingStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

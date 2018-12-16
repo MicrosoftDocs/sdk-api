@@ -9,8 +9,6 @@ ms.assetid: 350f91f9-b019-4c70-9c3e-0d567479d3d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginCommit method, ICrmCompensator.BeginCommit, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_8uuk.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],OutboundEventsLevel property, IFaxEventLogging.OutboundEventsLevel, IFaxEventLogging.get_OutboundEventsLevel, IFaxEventLogging.put_OutboundEventsLevel, IFaxEventLogging::OutboundEventsLevel, IFaxEventLogging::get_OutboundEventsLevel, IFaxEventLogging::put_OutboundEventsLevel, OutboundEventsLevel property [Fax Service], OutboundEventsLevel property [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.outboundeventslevel, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_outboundeventslevel_cpp, fax._mfax_faxeventlogging_outboundeventslevel, faxcomex/IFaxEventLogging::OutboundEventsLevel, faxcomex/IFaxEventLogging::get_OutboundEventsLevel, faxcomex/IFaxEventLogging::put_OutboundEventsLevel, get_OutboundEventsLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

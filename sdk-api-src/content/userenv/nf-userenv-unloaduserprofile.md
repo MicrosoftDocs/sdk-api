@@ -9,8 +9,6 @@ ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7b01a499-534b-4c0f-9c9c-bafa066ad742
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotification, PeerDistRegisterForStatusChangeNotification function [Peer Networking], p2p.peerdistregisterforstatuschangenotification, peerdist/PeerDistRegisterForStatusChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 17E409FB-2997-432C-977F-BEBF53068B42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_SYNC_ROOT_STANDARD_INFO, CF_SYNC_ROOT_STANDARD_INFO structure, cfapi/CF_SYNC_ROOT_STANDARD_INFO, cloudApi.cf_sync_root_standard_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

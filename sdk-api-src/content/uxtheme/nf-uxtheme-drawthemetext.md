@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawThemeText, DrawThemeText function [Windows Controls], controls.DrawThemeText, controls.inet_DrawThemeText, inet_DrawThemeText, inet_DrawThemeText_cpp, uxtheme/DrawThemeText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

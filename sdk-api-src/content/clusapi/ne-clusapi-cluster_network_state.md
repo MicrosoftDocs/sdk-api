@@ -9,8 +9,6 @@ ms.assetid: 1a9e3ff0-eb5a-4a2e-ae19-e70213dc1a4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_NETWORK_STATE, CLUSTER_NETWORK_STATE enumeration [Failover Cluster], ClusterNetworkDown, ClusterNetworkPartitioned, ClusterNetworkStateUnknown, ClusterNetworkUnavailable, ClusterNetworkUp, _CLUSTER_NETWORK_STATE, _CLUSTER_NETWORK_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_STATE, clusapi/ClusterNetworkDown, clusapi/ClusterNetworkPartitioned, clusapi/ClusterNetworkStateUnknown, clusapi/ClusterNetworkUnavailable, clusapi/ClusterNetworkUp, clusapi/_CLUSTER_NETWORK_STATE, msclus/CLUSTER_NETWORK_STATE, msclus/ClusterNetworkDown, msclus/ClusterNetworkPartitioned, msclus/ClusterNetworkStateUnknown, msclus/ClusterNetworkUnavailable, msclus/ClusterNetworkUp, msclus/_CLUSTER_NETWORK_STATE, mscs.cluster_network_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

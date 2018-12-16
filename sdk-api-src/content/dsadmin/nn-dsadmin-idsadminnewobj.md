@@ -9,8 +9,6 @@ ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 

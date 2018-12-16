@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_8y43.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Retries property, IFaxIncomingMessage.Retries, IFaxIncomingMessage.get_Retries, IFaxIncomingMessage::Retries, IFaxIncomingMessage::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.retries, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_retries_cpp, fax._mfax_faxincomingmessage_retries, faxcomex/IFaxIncomingMessage::Retries, faxcomex/IFaxIncomingMessage::get_Retries, get_Retries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

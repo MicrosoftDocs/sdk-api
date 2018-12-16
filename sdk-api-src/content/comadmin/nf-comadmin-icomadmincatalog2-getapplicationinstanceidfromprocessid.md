@@ -9,8 +9,6 @@ ms.assetid: a09569af-11ec-406a-a51c-72b81b84fe41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplicationInstanceIDFromProcessID, GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

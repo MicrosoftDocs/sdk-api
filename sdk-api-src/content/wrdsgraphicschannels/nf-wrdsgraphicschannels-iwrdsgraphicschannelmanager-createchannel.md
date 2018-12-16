@@ -9,8 +9,6 @@ ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

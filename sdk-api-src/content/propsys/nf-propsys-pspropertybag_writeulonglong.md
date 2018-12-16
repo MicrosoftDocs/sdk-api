@@ -9,8 +9,6 @@ ms.assetid: 37854C80-00B9-465c-88D9-619695D418CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

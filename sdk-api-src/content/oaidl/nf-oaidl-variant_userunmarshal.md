@@ -9,8 +9,6 @@ ms.assetid: ec7de7f3-f64a-4ec5-9b92-450bb7d6b37b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VARIANT_UserUnmarshal, VARIANT_UserUnmarshal function [Automation], _oa96_VARIANT_UserUnmarshal, automat.variant_userunmarshal, oaidl/VARIANT_UserUnmarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64dc64e5-3de3-4133-835c-b832f5bb20ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VARIANT_UserSize, automat.variant_usersize, oaidl/VARIANT_UserSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

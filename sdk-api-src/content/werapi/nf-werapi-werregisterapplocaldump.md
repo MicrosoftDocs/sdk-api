@@ -9,8 +9,6 @@ ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

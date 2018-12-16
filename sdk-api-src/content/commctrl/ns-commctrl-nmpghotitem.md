@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Windows Controls], NMPGHOTITEM, NMPGHOTITEM structure [Windows Controls], commctrl/LPNMPGHOTITEM, commctrl/NMPGHOTITEM, controls.NMPGHOTITEM, controls.inet_NMPGHOTITEM, inet_NMPGHOTITEM, inet_NMPGHOTITEM_cpp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

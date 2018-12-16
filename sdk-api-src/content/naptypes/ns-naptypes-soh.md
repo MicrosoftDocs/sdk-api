@@ -9,8 +9,6 @@ ms.assetid: 6db0303d-ab33-4fb9-90a2-b909b2781ba5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

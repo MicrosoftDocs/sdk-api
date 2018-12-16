@@ -9,8 +9,6 @@ ms.assetid: 55cfef46-999d-43fa-9b09-9d8916fbf755
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

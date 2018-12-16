@@ -9,8 +9,6 @@ ms.assetid: 2570b717-b886-4139-837b-5d71ec16c21e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlItemState method, IFileDialogCustomize.SetControlItemState, IFileDialogCustomize::SetControlItemState, SetControlItemState, SetControlItemState method [Windows Shell], SetControlItemState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlItemState, shell_IFileDialogCustomize_SetControlItemState, shobjidl_core/IFileDialogCustomize::SetControlItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

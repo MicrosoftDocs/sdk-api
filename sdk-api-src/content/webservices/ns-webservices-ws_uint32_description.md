@@ -9,8 +9,6 @@ ms.assetid: dcb864f2-f162-41ca-b3ef-5b592a311299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_UINT32_DESCRIPTION, WS_UINT32_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT32_DESCRIPTION, wsw.ws_uint32_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

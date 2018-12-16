@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_rsgetviewports.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSGetViewports method, ID3D10Device.RSGetViewports, ID3D10Device::RSGetViewports, RSGetViewports, RSGetViewports method [Direct3D 10], RSGetViewports method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetViewports, d9ea7cbf-16e9-686e-f682-4c7619caae2c, direct3d10.id3d10device_rsgetviewports
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

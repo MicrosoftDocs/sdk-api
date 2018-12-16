@@ -9,8 +9,6 @@ ms.assetid: d4011b83-955f-4af8-85f7-a901dc67c8ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES structure [Human Input Devices], di_ref_64e91043-878c-49d2-9e1a-b16bb5ed22b6.xml, dinputd/DIFFDEVICEATTRIBUTES, hid.diffdeviceattributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h

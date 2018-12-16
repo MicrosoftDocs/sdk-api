@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_5o6c.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GUID property [Fax Service], GUID property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],GUID property, IFaxInboundRoutingMethod.GUID, IFaxInboundRoutingMethod.get_GUID, IFaxInboundRoutingMethod::GUID, IFaxInboundRoutingMethod::get_GUID, _mfax_faxinboundroutingmethod.guid, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_guid_cpp, fax._mfax_faxinboundroutingmethod_guid, faxcomex/IFaxInboundRoutingMethod::GUID, faxcomex/IFaxInboundRoutingMethod::get_GUID, get_GUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

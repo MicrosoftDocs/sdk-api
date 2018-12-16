@@ -9,8 +9,6 @@ ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: scesvc.h
 req.include-header: 

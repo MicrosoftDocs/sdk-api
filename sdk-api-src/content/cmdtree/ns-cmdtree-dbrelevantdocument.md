@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_8ph0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBRELEVANTDOCUMENT, DBRELEVANTDOCUMENT structure [Indexing Service], _idxs_DBRELEVANTDOCUMENT, cmdtree/DBRELEVANTDOCUMENT, indexsrv.dbrelevantdocument, tagDBRELEVANTDOCUMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

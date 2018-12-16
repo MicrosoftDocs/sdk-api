@@ -9,8 +9,6 @@ ms.assetid: 956b0646-50a5-46d1-aa9a-91194c35d2b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_INFO, PCMSG_KEY_TRANS_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_info, security.cmsg_key_trans_recipient_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

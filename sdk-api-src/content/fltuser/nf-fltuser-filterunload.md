@@ -9,8 +9,6 @@ ms.assetid: 74de2531-1666-420e-b500-131622f1b76f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FilterUnload, FilterUnload function [Installable File System Drivers], FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml, fltuser/FilterUnload, ifsk.filterunload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h

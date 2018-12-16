@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

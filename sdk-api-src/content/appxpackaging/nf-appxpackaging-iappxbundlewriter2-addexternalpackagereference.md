@@ -9,8 +9,6 @@ ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxBundleWriter2 interface, IAppxBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

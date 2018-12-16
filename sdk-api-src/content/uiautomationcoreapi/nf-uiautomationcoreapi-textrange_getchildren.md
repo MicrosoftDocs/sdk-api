@@ -9,8 +9,6 @@ ms.assetid: b8ee94c3-3da2-4f66-ba75-64bc4d40543b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextRange_GetChildren, TextRange_GetChildren function [Windows Accessibility], uiauto.uiauto_TextRange_GetChildrenConPat, uiauto_TextRange_GetChildrenConPat, uiautomationcoreapi/TextRange_GetChildren, winauto.uiauto_TextRange_GetChildrenConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

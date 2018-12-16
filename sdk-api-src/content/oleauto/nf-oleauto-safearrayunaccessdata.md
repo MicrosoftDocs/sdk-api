@@ -9,8 +9,6 @@ ms.assetid: 61b482cb-f0a3-4efb-9a68-f373f241e89a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayUnaccessData, SafeArrayUnaccessData function [Automation], _oa96_SafeArrayUnaccessData, automat.safearrayunaccessdata, oleauto/SafeArrayUnaccessData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

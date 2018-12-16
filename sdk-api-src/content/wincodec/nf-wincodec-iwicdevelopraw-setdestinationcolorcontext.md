@@ -9,8 +9,6 @@ ms.assetid: c5e82941-b52d-4f5b-8134-c3463464f1ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetDestinationColorContext method, IWICDevelopRaw.SetDestinationColorContext, IWICDevelopRaw::SetDestinationColorContext, SetDestinationColorContext, SetDestinationColorContext method [Windows Imaging Component], SetDestinationColorContext method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setdestinationcolorcontext, wic._wic_codec_iwicdevelopraw_setdestinationcolorcontext, wincodec/IWICDevelopRaw::SetDestinationColorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

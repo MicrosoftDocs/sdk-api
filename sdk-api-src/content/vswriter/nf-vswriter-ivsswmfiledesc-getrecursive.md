@@ -9,8 +9,6 @@ ms.assetid: f467bd6f-997b-4d5f-87a4-727d9a84a222
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecursive, GetRecursive method [VSS], GetRecursive method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetRecursive method, IVssWMFiledesc.GetRecursive, IVssWMFiledesc::GetRecursive, _win32_ivsswmfiledesc_getrecursive, base.ivsswmfiledesc_getrecursive, vswriter/IVssWMFiledesc::GetRecursive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

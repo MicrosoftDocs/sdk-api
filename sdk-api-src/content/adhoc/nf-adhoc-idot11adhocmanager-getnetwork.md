@@ -9,8 +9,6 @@ ms.assetid: 971703dc-1a3c-4c9a-a9e2-c547c96beacd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetwork, GetNetwork method [NativeWIFI], GetNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetNetwork method, IDot11AdHocManager.GetNetwork, IDot11AdHocManager::GetNetwork, adhoc/IDot11AdHocManager::GetNetwork, nwifi.idot11adhocmanager_getnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

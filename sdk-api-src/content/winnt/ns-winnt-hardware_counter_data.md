@@ -9,8 +9,6 @@ ms.assetid: 7224b623-c097-44e8-b9da-5fdfad3fb505
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA structure [Hardware Counter Profiling], PHARDWARE_COUNTER_DATA, PHARDWARE_COUNTER_DATA structure pointer [Hardware Counter Profiling], _HARDWARE_COUNTER_DATA, hcp.hardware_counter_data, winnt/HARDWARE_COUNTER_DATA, winnt/PHARDWARE_COUNTER_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

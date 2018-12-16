@@ -9,8 +9,6 @@ ms.assetid: 97d452b2-aa25-46a9-a755-dc835270c818
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDIEFFESCAPE, DIEFFESCAPE, DIEFFESCAPE structure [Human Input Devices], DIEFFESCAPE,*LPDIEFFESCAPE, DIEFFESCAPE,*LPDIEFFESCAPE structure [Human Input Devices], di_ref_b6b4b11a-a6ad-4467-a2c6-1c69047dec2f.xml, dinput/DIEFFESCAPE, hid.dieffescape"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dinput.h
 req.include-header: 

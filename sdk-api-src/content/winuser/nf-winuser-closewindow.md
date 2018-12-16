@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

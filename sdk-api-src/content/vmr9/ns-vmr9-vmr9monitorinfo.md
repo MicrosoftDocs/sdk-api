@@ -9,8 +9,6 @@ ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

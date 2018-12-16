@@ -9,8 +9,6 @@ ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cscapi.h
 req.include-header: 

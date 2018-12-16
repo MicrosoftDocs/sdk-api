@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8abcc11d-40be-45ac-9f23-b94adf9842d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RectF, RectF function [Direct2D], d2d1helper/RectF, direct2d.rectf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

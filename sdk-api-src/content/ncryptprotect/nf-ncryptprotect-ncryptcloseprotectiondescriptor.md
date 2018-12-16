@@ -9,8 +9,6 @@ ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptCloseProtectionDescriptor, NCryptCloseProtectionDescriptor function [Security], ncryptprotect/NCryptCloseProtectionDescriptor, security.ncryptcloseprotectiondescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

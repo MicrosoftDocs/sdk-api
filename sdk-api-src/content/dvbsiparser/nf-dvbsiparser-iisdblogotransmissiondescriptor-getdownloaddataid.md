@@ -9,8 +9,6 @@ ms.assetid: 3672458d-0f7d-4264-8362-2ddad3afecab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDownloadDataId, GetDownloadDataId method [Microsoft TV Technologies], GetDownloadDataId method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetDownloadDataId method, IIsdbLogoTransmissionDescriptor.GetDownloadDataId, IIsdbLogoTransmissionDescriptor::GetDownloadDataId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetDownloadDataId, mstv.iisdblogotransmissiondescriptor_getdownloaddataid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

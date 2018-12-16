@@ -9,8 +9,6 @@ ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

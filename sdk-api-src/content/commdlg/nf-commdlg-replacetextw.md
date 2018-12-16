@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConnectedInitiators, GetConnectedInitiators method [VDS], GetConnectedInitiators method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetConnectedInitiators method, IVdsIscsiTarget.GetConnectedInitiators, IVdsIscsiTarget::GetConnectedInitiators, base.ivdsiscsitarget_getconnectedinitiators, vds/IVdsIscsiTarget::GetConnectedInitiators, vdshwprv/IVdsIscsiTarget::GetConnectedInitiators
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

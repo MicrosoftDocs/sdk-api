@@ -9,8 +9,6 @@ ms.assetid: 595829c6-ca87-4a69-8d09-a398b5cd9f34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocNetworks interface, IEnumDot11AdHocNetworks interface [NativeWIFI],Clone method, IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

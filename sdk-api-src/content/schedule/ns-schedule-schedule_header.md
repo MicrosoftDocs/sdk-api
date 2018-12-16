@@ -9,8 +9,6 @@ ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 

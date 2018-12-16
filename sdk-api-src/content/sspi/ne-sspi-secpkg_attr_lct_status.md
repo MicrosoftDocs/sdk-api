@@ -9,8 +9,6 @@ ms.assetid: b9067862-2339-4543-a8cd-610e6f921bfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS enumeration [Security], SecPkgAttrLastClientTokenMaybe, SecPkgAttrLastClientTokenNo, SecPkgAttrLastClientTokenYes, security.secpkg_attr_lct_status, sspi/SECPKG_ATTR_LCT_STATUS, sspi/SecPkgAttrLastClientTokenMaybe, sspi/SecPkgAttrLastClientTokenNo, sspi/SecPkgAttrLastClientTokenYes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sspi.h
 req.include-header: 

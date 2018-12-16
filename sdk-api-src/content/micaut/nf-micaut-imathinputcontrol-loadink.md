@@ -9,8 +9,6 @@ ms.assetid: 3313cb16-3400-48d5-8ba0-b3bd593b37ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],LoadInk method, IMathInputControl.LoadInk, IMathInputControl::LoadInk, LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

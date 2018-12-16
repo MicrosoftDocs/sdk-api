@@ -9,8 +9,6 @@ ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManDeinitialize, WSManDeinitialize function [Windows Remote Management], winrm.wsmandeinitialize, wsman/WSManDeinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

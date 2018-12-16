@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6xv7_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceProviders, GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDeviceProviders method, IFaxServer.GetDeviceProviders, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders_cpp, fax._mfax_faxserver_getdeviceproviders_cpp, faxcomex/IFaxServer::GetDeviceProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

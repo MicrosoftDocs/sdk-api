@@ -9,8 +9,6 @@ ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

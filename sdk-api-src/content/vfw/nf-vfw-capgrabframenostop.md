@@ -9,8 +9,6 @@ ms.assetid: 0782d69f-6c4f-44f5-abd4-2b833be2f487
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capGrabFrameNoStop, capGrabFrameNoStop, capGrabFrameNoStop macro [Windows Multimedia], multimedia.capgrabframenostop, vfw/capGrabFrameNoStop"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

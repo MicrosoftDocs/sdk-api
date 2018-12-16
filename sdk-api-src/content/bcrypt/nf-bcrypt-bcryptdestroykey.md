@@ -9,8 +9,6 @@ ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

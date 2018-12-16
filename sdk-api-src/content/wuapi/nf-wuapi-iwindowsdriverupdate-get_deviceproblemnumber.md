@@ -9,8 +9,6 @@ ms.assetid: eef5a246-ee27-424d-81eb-39f59668d6e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceProblemNumber property [Windows Update Agent], DeviceProblemNumber property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceProblemNumber property, IWindowsDriverUpdate.DeviceProblemNumber, IWindowsDriverUpdate.get_DeviceProblemNumber, IWindowsDriverUpdate::DeviceProblemNumber, IWindowsDriverUpdate::get_DeviceProblemNumber, get_DeviceProblemNumber, wua.iwindowsdriverupdate_deviceproblemnumber, wuapi/IWindowsDriverUpdate::DeviceProblemNumber, wuapi/IWindowsDriverUpdate::get_DeviceProblemNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

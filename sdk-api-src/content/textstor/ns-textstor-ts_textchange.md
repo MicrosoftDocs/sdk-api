@@ -9,8 +9,6 @@ ms.assetid: af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TS_TEXTCHANGE, TS_TEXTCHANGE structure [Text Services Framework], _tsf_ts_textchange_ref, textstor/TS_TEXTCHANGE, tsf.ts_textchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 

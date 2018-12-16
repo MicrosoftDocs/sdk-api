@@ -9,8 +9,6 @@ ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

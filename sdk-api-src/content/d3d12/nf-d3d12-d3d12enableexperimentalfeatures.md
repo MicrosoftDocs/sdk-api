@@ -9,8 +9,6 @@ ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

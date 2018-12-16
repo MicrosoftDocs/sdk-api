@@ -9,8 +9,6 @@ ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasGetCustomAuthData, RasGetCustomAuthData function [RAS], RasGetCustomAuthDataA, RasGetCustomAuthDataW, _ras_rasgetcustomauthdata, ras/RasGetCustomAuthData, ras/RasGetCustomAuthDataA, ras/RasGetCustomAuthDataW, rras.rasgetcustomauthdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

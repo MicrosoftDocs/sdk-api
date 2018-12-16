@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6nn2.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxGetConfiguration, FaxGetConfiguration function [Fax Service], FaxGetConfigurationA, FaxGetConfigurationW, _mfax_faxgetconfiguration, fax._mfax_faxgetconfiguration, winfax/FaxGetConfiguration, winfax/FaxGetConfigurationA, winfax/FaxGetConfigurationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

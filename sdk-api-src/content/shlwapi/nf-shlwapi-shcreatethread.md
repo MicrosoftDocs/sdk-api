@@ -9,8 +9,6 @@ ms.assetid: 2140e396-29cd-4665-b684-337170570b73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

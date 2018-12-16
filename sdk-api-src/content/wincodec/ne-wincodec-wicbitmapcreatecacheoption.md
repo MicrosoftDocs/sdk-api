@@ -9,8 +9,6 @@ ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapCreateCacheOption, WICBitmapCreateCacheOption enumeration [Windows Imaging Component], WICBitmapNoCache, _wic_codec_wicbitmapcreatecacheoption, wic._wic_codec_wicbitmapcreatecacheoption, wincodec/WICBitmapCacheOnDemand, wincodec/WICBitmapCacheOnLoad, wincodec/WICBitmapCreateCacheOption, wincodec/WICBitmapNoCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

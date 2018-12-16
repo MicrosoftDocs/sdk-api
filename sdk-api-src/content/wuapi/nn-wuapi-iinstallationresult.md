@@ -9,8 +9,6 @@ ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

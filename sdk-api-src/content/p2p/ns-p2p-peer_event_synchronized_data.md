@@ -9,8 +9,6 @@ ms.assetid: ae7dc220-a827-4671-97b3-1ac039ab3e08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA structure [Peer Networking], PPEER_EVENT_SYNCHRONIZED_DATA, PPEER_EVENT_SYNCHRONIZED_DATA structure pointer [Peer Networking], p2p.peer_event_synchronized_data, p2p/PPEER_EVENT_SYNCHRONIZED_DATA, p2p/peer_event_synchronized_data_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

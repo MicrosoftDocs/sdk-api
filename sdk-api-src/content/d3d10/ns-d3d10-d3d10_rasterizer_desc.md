@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_rasterizer_desc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10_RASTERIZER_DESC, D3D10_RASTERIZER_DESC structure [Direct3D 10], c7cc2dab-949f-f064-3ae8-72b463253e0d, d3d10/D3D10_RASTERIZER_DESC, direct3d10.d3d10_rasterizer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f756c11d-54a7-4238-8a99-4263a6c36109
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmDriverClose, acmDriverClose, acmDriverClose function [Windows Multimedia], msacm/acmDriverClose, multimedia.acmdriverclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

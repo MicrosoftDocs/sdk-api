@@ -9,8 +9,6 @@ ms.assetid: 210dc872-0879-4b4f-bdc3-cbb2208dafbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParameterValue, GetParameterValue method [Security], GetParameterValue method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],GetParameterValue method, IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

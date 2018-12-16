@@ -9,8 +9,6 @@ ms.assetid: 27599145-417b-4ca8-8e25-5fffb2e7008c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Management Instrumentation], IWbemBackupRestore interface [Windows Management Instrumentation],described, WbemBackupRestore, _hmm_iwbembackuprestore, wbemcli/IWbemBackupRestore, wmi.iwbembackuprestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

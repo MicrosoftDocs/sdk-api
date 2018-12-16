@@ -9,8 +9,6 @@ ms.assetid: ecad3601-081d-4cb6-a6dd-7781d652af8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

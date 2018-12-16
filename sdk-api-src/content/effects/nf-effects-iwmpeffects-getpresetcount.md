@@ -9,8 +9,6 @@ ms.assetid: 6eee859b-8f39-4951-814a-41913df152db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsGetPresetCount, GetPresetCount, GetPresetCount method [Windows Media Player], GetPresetCount method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetPresetCount method, IWMPEffects.GetPresetCount, IWMPEffects::GetPresetCount, effects/IWMPEffects::GetPresetCount, wmp.iwmpeffects_getpresetcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 

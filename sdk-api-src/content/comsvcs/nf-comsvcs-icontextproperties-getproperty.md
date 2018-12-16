@@ -9,8 +9,6 @@ ms.assetid: dc7748b4-5cf4-41c6-af7d-82b2478b084c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

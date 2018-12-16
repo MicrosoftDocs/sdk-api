@@ -9,8 +9,6 @@ ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],ISoftwareBitmapNative interface, ISoftwareBitmapNative interface [Windows Runtime],GetData method, ISoftwareBitmapNative.GetData, ISoftwareBitmapNative.imaging, ISoftwareBitmapNative::GetData, ISoftwareBitmapNative::imaging, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 

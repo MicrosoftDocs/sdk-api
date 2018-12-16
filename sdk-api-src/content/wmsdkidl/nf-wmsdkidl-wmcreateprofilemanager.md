@@ -9,8 +9,6 @@ ms.assetid: 77eea431-74a0-449e-847e-7885ab33bda1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Media Format], wmformat.wmcreateprofilemanager, wmsdkidl/WMCreateProfileManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

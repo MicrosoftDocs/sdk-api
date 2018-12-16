@@ -9,8 +9,6 @@ ms.assetid: 2e0d39ab-d491-496e-8753-e7223a5c5029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindSimilarFileIndexResults, FindSimilarFileIndexResults structure [Remote Differential Compression], fs.findsimilarfileindexresults, msrdc/FindSimilarFileIndexResults, rdc.findsimilarfileindexresults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: da4fdb8a-8df8-468f-afde-292bbcf6696b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],NotificationLevel property, IAutomaticUpdatesSettings.NotificationLevel, IAutomaticUpdatesSettings.put_NotificationLevel, IAutomaticUpdatesSettings::NotificationLevel, IAutomaticUpdatesSettings::get_NotificationLevel, IAutomaticUpdatesSettings::put_NotificationLevel, NotificationLevel property [Windows Update Agent], NotificationLevel property [Windows Update Agent],IAutomaticUpdatesSettings interface, put_NotificationLevel, wua.iautomaticupdatessettings_notificationlevel, wuapi/IAutomaticUpdatesSettings::NotificationLevel, wuapi/IAutomaticUpdatesSettings::get_NotificationLevel, wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1a931896-c102-4b3b-a5a3-b3ef85b276b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfile method, IWMWriter.SetProfile, IWMWriter::SetProfile, IWMWriterSetProfile, SetProfile, SetProfile method [windows Media Format], SetProfile method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofile, wmsdkidl/IWMWriter::SetProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

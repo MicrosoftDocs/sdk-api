@@ -9,8 +9,6 @@ ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetStartTime method, IMFMediaEngine.GetStartTime, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

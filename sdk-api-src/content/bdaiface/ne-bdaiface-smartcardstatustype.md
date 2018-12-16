@@ -9,8 +9,6 @@ ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bdaiface.h
 req.include-header: 

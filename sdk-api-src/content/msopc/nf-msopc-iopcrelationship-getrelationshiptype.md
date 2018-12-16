@@ -9,8 +9,6 @@ ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

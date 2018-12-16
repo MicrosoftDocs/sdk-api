@@ -9,8 +9,6 @@ ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

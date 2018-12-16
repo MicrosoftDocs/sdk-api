@@ -9,8 +9,6 @@ ms.assetid: c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], IATSCComponentType interface [Microsoft TV Technologies],described, IATSCComponentTypeInterface, mstv.iatsccomponenttype, tuner/IATSCComponentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

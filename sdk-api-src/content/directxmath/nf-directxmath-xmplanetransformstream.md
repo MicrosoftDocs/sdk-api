@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransformStream(XMFLOAT4@,size_
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneTransformStream, XMPlaneTransformStream, XMPlaneTransformStream method [DirectX Math Support APIs], dxmath.xmplanetransformstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

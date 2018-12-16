@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\imageeventcallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaEventCallback interface [WIA],ImageEventCallback method, IWiaEventCallback.ImageEventCallback, IWiaEventCallback::ImageEventCallback, ImageEventCallback, ImageEventCallback method [WIA], ImageEventCallback method [WIA],IWiaEventCallback interface, _wia_IWiaEventCallback_ImageEventCallback, wia._wia_IWiaEventCallback_ImageEventCallback, wia_xp/IWiaEventCallback::ImageEventCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

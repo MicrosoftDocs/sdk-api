@@ -9,8 +9,6 @@ ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

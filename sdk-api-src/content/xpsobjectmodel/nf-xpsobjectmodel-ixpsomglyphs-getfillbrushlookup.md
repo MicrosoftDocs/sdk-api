@@ -9,8 +9,6 @@ ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

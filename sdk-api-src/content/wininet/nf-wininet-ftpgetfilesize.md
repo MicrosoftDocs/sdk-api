@@ -9,8 +9,6 @@ ms.assetid: f6cc696b-55b6-4d21-9401-fbb15062d0b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FtpGetFileSize, FtpGetFileSize function [WinINet], _inet_ftpgetfilesize_function, wininet.ftpgetfilesize, wininet/FtpGetFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

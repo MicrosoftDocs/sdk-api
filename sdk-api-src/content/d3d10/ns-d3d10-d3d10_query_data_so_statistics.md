@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

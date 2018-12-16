@@ -9,8 +9,6 @@ ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d39f662b-60ef-4e84-ae62-14e360a57b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

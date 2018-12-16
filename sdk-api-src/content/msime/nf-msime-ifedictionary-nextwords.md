@@ -9,8 +9,6 @@ ms.assetid: 551925ED-B05C-433F-91A9-D2BAC795E783
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 

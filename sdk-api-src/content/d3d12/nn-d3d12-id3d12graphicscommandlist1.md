@@ -9,8 +9,6 @@ ms.assetid: E156C26B-0E51-4F43-9AB2-373E4C67A496
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,described, d3d12/ID3D12GraphicsCommandList1, direct3d12.id3d12graphicscommandlist1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

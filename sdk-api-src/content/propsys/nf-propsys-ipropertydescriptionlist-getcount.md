@@ -9,8 +9,6 @@ ms.assetid: 17d8b018-1709-42a7-9edf-e1c2886593de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetCount method, IPropertyDescriptionList.GetCount, IPropertyDescriptionList::GetCount, _shell_IPropertyDescriptionList_GetCount, properties.IPropertyDescriptionList_GetCount, propsys/IPropertyDescriptionList::GetCount, shell.IPropertyDescriptionList_GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: Shobjidl.h

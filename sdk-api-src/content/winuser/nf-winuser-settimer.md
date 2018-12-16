@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreferenc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetTimer, SetTimer function [Windows and Messages], _win32_SetTimer, _win32_settimer_cpp, winmsg.settimer, winui._win32_settimer, winuser/SetTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

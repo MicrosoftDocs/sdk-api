@@ -9,8 +9,6 @@ ms.assetid: a42c0a20-9c72-48d3-8432-15b73ff211d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetShellItem method, IKnownFolder.GetShellItem, IKnownFolder::GetShellItem, _shell_IKnownFolder_GetShellItem, shell.IKnownFolder_GetShellItem, shobjidl_core/IKnownFolder::GetShellItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

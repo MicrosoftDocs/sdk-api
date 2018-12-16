@@ -9,8 +9,6 @@ ms.assetid: b13e0ed6-c053-4290-bc4c-5f66e4a376b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerShutdown, TSPI_providerShutdown function [TAPI 2.2], _tspi_tspi_providershutdown, tspi.tspi_providershutdown, tspi/TSPI_providerShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

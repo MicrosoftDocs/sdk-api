@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorcla
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextSubpath method, GraphicsPathIterator.NextSubpath, GraphicsPathIterator.NextSubpath(GraphicsPath*,BOOL*), GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL), GraphicsPathIterator::NextSubpath, GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL), NextSubpath, NextSubpath method [GDI+], NextSubpath method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

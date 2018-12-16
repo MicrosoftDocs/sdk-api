@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\was
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],WasReAssigned property, IFaxIncomingMessage2.WasReAssigned, IFaxIncomingMessage2.get_WasReAssigned, IFaxIncomingMessage2::WasReAssigned, IFaxIncomingMessage2::get_WasReAssigned, WasReAssigned property [Fax Service], WasReAssigned property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.wasreassigned, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp, fax._mfax_faxincomingmessage_wasreassigned, faxcomex/IFaxIncomingMessage2::WasReAssigned, faxcomex/IFaxIncomingMessage2::get_WasReAssigned, get_WasReAssigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

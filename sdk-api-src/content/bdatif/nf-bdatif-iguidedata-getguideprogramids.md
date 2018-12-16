@@ -9,8 +9,6 @@ ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetGuideProgramIDs method, IGuideData.GetGuideProgramIDs, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1995b4bd-dc2f-4f43-8e08-52ea1899c2c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerationFlagHierarchyDeep, EnumerationFlagHierarchyDeep method [Windows Remote Management], EnumerationFlagHierarchyDeep method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeep method, IWSManEx.EnumerationFlagHierarchyDeep, IWSManEx::EnumerationFlagHierarchyDeep, winrm.iwsmanex_enumerationflaghierarchydeep, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

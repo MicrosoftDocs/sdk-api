@@ -9,8 +9,6 @@ ms.assetid: 099e71b0-04f2-4f82-aa00-7581bd357900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, IShellFolder.ParseDisplayName, IShellFolder2 interface [Windows Shell],ParseDisplayName method, IShellFolder2::ParseDisplayName, IShellFolder::ParseDisplayName, ParseDisplayName, ParseDisplayName method [Windows Shell], ParseDisplayName method [Windows Shell],IShellFolder interface, ParseDisplayName method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_ParseDisplayName, shell.IShellFolder_ParseDisplayName, shobjidl_core/IShellFolder2::ParseDisplayName, shobjidl_core/IShellFolder::ParseDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, winbase/AccessCheckByTypeResultListAndAuditAlarm, winbase/AccessCheckByTypeResultListAndAuditAlarmA, winbase/AccessCheckByTypeResultListAndAuditAlarmW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

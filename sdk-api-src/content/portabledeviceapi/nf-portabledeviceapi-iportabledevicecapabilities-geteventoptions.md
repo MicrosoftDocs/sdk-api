@@ -9,8 +9,6 @@ ms.assetid: b4d3495b-b2d3-4d0d-8dc6-df030a52ab3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventOptions, GetEventOptions method [Windows Portable Devices SDK], GetEventOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities method, IPortableDeviceCapabilities method [Windows Portable Devices SDK],GetEventOptions method, IPortableDeviceCapabilities.GetEventOptions, IPortableDeviceCapabilities::GetEventOptions, IPortableDeviceCapabilitiesGetEventOptions, portabledeviceapi/IPortableDeviceCapabilities::GetEventOptions, wpdsdk.iportabledevicecapabilities_geteventoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

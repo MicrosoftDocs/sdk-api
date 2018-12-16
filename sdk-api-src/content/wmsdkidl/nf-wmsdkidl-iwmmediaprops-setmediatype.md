@@ -9,8 +9,6 @@ ms.assetid: 7a89bf24-6b76-4645-8f39-f1979029d67e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMediaProps interface [windows Media Format],SetMediaType method, IWMMediaProps.SetMediaType, IWMMediaProps::SetMediaType, IWMMediaPropsSetMediaType, SetMediaType, SetMediaType method [windows Media Format], SetMediaType method [windows Media Format],IWMMediaProps interface, wmformat.iwmmediaprops_setmediatype, wmsdkidl/IWMMediaProps::SetMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

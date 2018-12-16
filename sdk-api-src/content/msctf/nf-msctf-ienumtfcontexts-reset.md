@@ -9,8 +9,6 @@ ms.assetid: bfe1d8a3-5a5f-4397-b972-ee42358aeb66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Reset method, IEnumTfContexts.Reset, IEnumTfContexts::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_reset_ref, msctf/IEnumTfContexts::Reset, tsf.ienumtfcontexts_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

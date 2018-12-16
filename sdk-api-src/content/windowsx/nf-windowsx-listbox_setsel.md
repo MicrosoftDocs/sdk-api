@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_SetSel, ListBox_SetSel macro [Windows Controls], _win32_ListBox_SetSel, _win32_ListBox_SetSel_cpp, controls.ListBox_SetSel, controls._win32_ListBox_SetSel, windowsx/ListBox_SetSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b4485490-b5e1-406c-883c-a30bfa334316
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_WRITER_BINARY_ENCODING, WS_XML_WRITER_BINARY_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_BINARY_ENCODING, wsw.ws_xml_writer_binary_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

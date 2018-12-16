@@ -9,8 +9,6 @@ ms.assetid: c8651061-3a17-49d0-abc6-78ce3fa02363
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetElement, GetElement method [Windows Accessibility], GetElement method [Windows Accessibility],IUIAutomationElementArray interface, IUIAutomationElementArray interface [Windows Accessibility],GetElement method, IUIAutomationElementArray.GetElement, IUIAutomationElementArray::GetElement, uiauto.uiauto_IUIAutomationElementArray_GetElement, uiauto_IUIAutomationElementArray_GetElement, uiautomationclient/IUIAutomationElementArray::GetElement, winauto.uiauto_IUIAutomationElementArray_GetElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

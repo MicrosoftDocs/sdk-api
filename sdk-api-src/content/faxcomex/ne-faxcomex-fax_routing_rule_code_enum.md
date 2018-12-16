@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_10rx.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FAX_ROUTING_RULE_CODE_ENUM, FAX_ROUTING_RULE_CODE_ENUM enumeration [Fax Service], _mfax_fax_routing_rule_code_enum, fax._mfax_fax_routing_rule_code_enum, faxcomex/FAX_ROUTING_RULE_CODE_ENUM, faxcomex/frrcANY_CODE, frrcANY_CODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

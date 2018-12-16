@@ -9,8 +9,6 @@ ms.assetid: 6251cabd-9284-4311-bd5c-0c5b6d9a9be4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubunit, GetSubunit method [Core Audio], GetSubunit method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunit method, IDeviceTopology.GetSubunit, IDeviceTopology::GetSubunit, IDeviceTopologyGetSubunit, coreaudio.idevicetopology_getsubunit, devicetopology/IDeviceTopology::GetSubunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

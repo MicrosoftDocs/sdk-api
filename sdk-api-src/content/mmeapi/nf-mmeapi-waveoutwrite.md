@@ -9,8 +9,6 @@ ms.assetid: d687b136-8ce3-43fc-b459-b12a3fe862c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutWrite, mmeapi/waveOutWrite, multimedia.waveoutwrite, waveOutWrite, waveOutWrite function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

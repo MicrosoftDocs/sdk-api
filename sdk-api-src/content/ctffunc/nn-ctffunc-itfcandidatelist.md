@@ -9,8 +9,6 @@ ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], ITfCandidateList interface [Text Services Framework],described, _tsf_itfcandidatelist_ref, ctffunc/ITfCandidateList, tsf.itfcandidatelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

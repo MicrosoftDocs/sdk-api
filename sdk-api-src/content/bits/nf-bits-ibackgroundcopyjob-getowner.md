@@ -9,8 +9,6 @@ ms.assetid: 20a645d4-57ab-4b9c-b31a-b8dbb98ea550
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwner, GetOwner method [BITS], GetOwner method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetOwner method, IBackgroundCopyJob.GetOwner, IBackgroundCopyJob::GetOwner, _drz_ibackgroundcopyjob_getowner, bits.ibackgroundcopyjob_getowner, bits/IBackgroundCopyJob::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

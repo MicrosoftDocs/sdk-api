@@ -9,8 +9,6 @@ ms.assetid: 35834c9a-2896-4c11-aef7-c55af7f6fef3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTCP_ESTATS_FINE_RTT_RW_v0, PTCP_ESTATS_FINE_RTT_RW_v0, PTCP_ESTATS_FINE_RTT_RW_v0 structure pointer [IP Helper], TCP_ESTATS_FINE_RTT_RW_v0, TCP_ESTATS_FINE_RTT_RW_v0 structure [IP Helper], iphlp.tcp_estats_fine_rtt_rw_v0, tcpestats/PTCP_ESTATS_FINE_RTT_RW_v0, tcpestats/TCP_ESTATS_FINE_RTT_RW_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

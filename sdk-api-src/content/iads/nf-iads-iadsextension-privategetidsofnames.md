@@ -9,8 +9,6 @@ ms.assetid: 533faef7-d504-443c-83e7-7eaf461ce550
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsExtension interface [ADSI],PrivateGetIDsOfNames method, IADsExtension.PrivateGetIDsOfNames, IADsExtension::PrivateGetIDsOfNames, PrivateGetIDsOfNames, PrivateGetIDsOfNames method [ADSI], PrivateGetIDsOfNames method [ADSI],IADsExtension interface, _ds_iadsextension_privategetidsofnames, adsi.iadsextension__privategetidsofnames, adsi.iadsextension_privategetidsofnames, iads/IADsExtension::PrivateGetIDsOfNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

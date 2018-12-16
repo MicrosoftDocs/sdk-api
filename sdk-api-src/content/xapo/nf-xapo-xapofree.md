@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOFree(void)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAPOFree, XAPOFree macro [XAudio2 Audio Mixing APIs], xapo/XAPOFree, xaudio2.xapofree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: xapo.h
 req.include-header: 

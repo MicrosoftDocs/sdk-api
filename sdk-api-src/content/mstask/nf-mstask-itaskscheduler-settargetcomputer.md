@@ -9,8 +9,6 @@ ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

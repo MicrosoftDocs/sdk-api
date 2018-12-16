@@ -9,8 +9,6 @@ ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],SPCFileNameWStr property, IEnroll.SPCFileNameWStr, IEnroll.put_SPCFileNameWStr, IEnroll::SPCFileNameWStr, IEnroll::get_SPCFileNameWStr, IEnroll::put_SPCFileNameWStr, SPCFileNameWStr property [Security], SPCFileNameWStr property [Security],IEnroll interface, put_SPCFileNameWStr, security.ienroll4_spcfilenamewstr, xenroll/IEnroll::SPCFileNameWStr, xenroll/IEnroll::get_SPCFileNameWStr, xenroll/IEnroll::put_SPCFileNameWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

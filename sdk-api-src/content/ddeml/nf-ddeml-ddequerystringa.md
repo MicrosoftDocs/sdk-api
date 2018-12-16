@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeQueryString, DdeQueryString function [Data Exchange], DdeQueryStringA, DdeQueryStringW, _win32_DdeQueryString, _win32_ddequerystring_cpp, dataxchg.ddequerystring, ddeml/DdeQueryString, ddeml/DdeQueryStringA, ddeml/DdeQueryStringW, winui._win32_ddequerystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 082cd277-157d-42a4-bf37-e47d16f90c7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], IWMWriterAdvanced interface [windows Media Format],described, IWMWriterAdvancedInterface, wmformat.iwmwriteradvanced, wmsdkidl/IWMWriterAdvanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

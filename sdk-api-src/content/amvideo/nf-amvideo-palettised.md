@@ -9,8 +9,6 @@ ms.assetid: 0f233f6f-ed52-4b32-8766-42e2416b6fc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dshow.palettised
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h

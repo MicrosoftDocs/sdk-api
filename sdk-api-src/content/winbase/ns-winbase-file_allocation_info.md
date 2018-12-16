@@ -9,8 +9,6 @@ ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO structure [Files], PFILE_ALLOCATION_INFO, PFILE_ALLOCATION_INFO structure pointer [Files], fileextd/FILE_ALLOCATION_INFO, fileextd/PFILE_ALLOCATION_INFO, fs.file_allocation_info, winbase/FILE_ALLOCATION_INFO, winbase/PFILE_ALLOCATION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

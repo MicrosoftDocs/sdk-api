@@ -9,8 +9,6 @@ ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 

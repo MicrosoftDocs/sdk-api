@@ -9,8 +9,6 @@ ms.assetid: F45A3619-556B-4D2C-BCB0-8D55A1397579
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBitmapInterpolationMode method, IDCompositionVisual.SetBitmapInterpolationMode, IDCompositionVisual::SetBitmapInterpolationMode, SetBitmapInterpolationMode, SetBitmapInterpolationMode method [DirectComposition], SetBitmapInterpolationMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBitmapInterpolationMode, directcomp.idcompositionvisual_setbitmapinterpolationmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

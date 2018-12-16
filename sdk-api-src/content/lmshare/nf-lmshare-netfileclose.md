@@ -9,8 +9,6 @@ ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

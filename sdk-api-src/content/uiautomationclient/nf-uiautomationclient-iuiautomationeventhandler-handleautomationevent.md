@@ -9,8 +9,6 @@ ms.assetid: 56668923-f21a-4d38-9175-95785892388c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandleAutomationEvent, HandleAutomationEvent method [Windows Accessibility], HandleAutomationEvent method [Windows Accessibility],IUIAutomationEventHandler interface, IUIAutomationEventHandler interface [Windows Accessibility],HandleAutomationEvent method, IUIAutomationEventHandler.HandleAutomationEvent, IUIAutomationEventHandler::HandleAutomationEvent, uiauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiautomationclient/IUIAutomationEventHandler::HandleAutomationEvent, winauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: C41EC25A-98EF-4C35-9E5A-954C80B29DA6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HistogramHeader, HistogramHeader structure [Streaming Media Devices], mfapi/HistogramHeader, stream.histogramheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

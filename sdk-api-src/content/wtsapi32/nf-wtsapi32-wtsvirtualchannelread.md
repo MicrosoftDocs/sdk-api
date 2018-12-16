@@ -9,8 +9,6 @@ ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

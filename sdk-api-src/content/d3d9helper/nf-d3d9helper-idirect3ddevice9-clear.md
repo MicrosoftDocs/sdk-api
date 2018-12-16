@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__clear.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Direct3D 9], Clear method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],Clear method, IDirect3DDevice9.Clear, IDirect3DDevice9::Clear, d3d9helper/IDirect3DDevice9::Clear, d8af3d4c-75ea-6282-a8b9-4d9c94a8fbc3, direct3d9.idirect3ddevice9__clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclas
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN REAL,IN BOOL), LinearGradientBrush.LinearGradientBrush(const Rect&,const Color&,const Color&,REAL,BOOL), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN REAL,IN BOOL), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_REAL_ang, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_REAL_ang
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

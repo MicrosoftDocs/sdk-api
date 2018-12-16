@@ -9,8 +9,6 @@ ms.assetid: 969b8a91-6685-4fd8-95a1-bb9f0bfc88b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],IsDeskBandShown method, ITrayDeskBand.IsDeskBandShown, ITrayDeskBand::IsDeskBandShown, IsDeskBandShown, IsDeskBandShown method [Windows Shell], IsDeskBandShown method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_IsDeskBandShown, shell.ITrayDeskBand_IsDeskBandShown, shobjidl/ITrayDeskBand::IsDeskBandShown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

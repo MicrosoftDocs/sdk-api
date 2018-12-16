@@ -9,8 +9,6 @@ ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

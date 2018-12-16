@@ -9,8 +9,6 @@ ms.assetid: 3f5f31af-f040-443b-9045-9761055381ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROPERTYKEY, PROPERTYKEY structure [Windows Properties], _shell_PROPERTYKEY, _shell_PROPERTYKEY_cpp, properties.PROPERTYKEY, shell.PROPERTYKEY, wtypes/PROPERTYKEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

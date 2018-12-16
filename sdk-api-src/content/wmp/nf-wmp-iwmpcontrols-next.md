@@ -9,8 +9,6 @@ ms.assetid: 1f0bbc77-b271-4076-8089-92fe7745d9a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],next method, IWMPControls.next, IWMPControls::next, IWMPControlsnext, next, next method [Windows Media Player], next method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_next, wmp/IWMPControls::next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

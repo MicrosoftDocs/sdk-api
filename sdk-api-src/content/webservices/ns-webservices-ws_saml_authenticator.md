@@ -9,8 +9,6 @@ ms.assetid: 3e67670f-3fde-4a2d-8c55-f4a3f5bef5f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SAML_AUTHENTICATOR, WS_SAML_AUTHENTICATOR structure [Web Services for Windows], webservices/WS_SAML_AUTHENTICATOR, wsw.ws_saml_authenticator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

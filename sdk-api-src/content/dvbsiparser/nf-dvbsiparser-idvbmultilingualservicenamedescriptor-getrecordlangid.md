@@ -9,8 +9,6 @@ ms.assetid: a8432acb-f59b-4995-8b5d-576acab0f6b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbMultilingualServiceNameDescriptor.GetRecordLangId, IDvbMultilingualServiceNameDescriptor::GetRecordLangId, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordLangId, mstv.idvbmultilingualservicenamedescriptor_getrecordlangid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

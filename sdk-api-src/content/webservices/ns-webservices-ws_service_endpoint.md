@@ -9,8 +9,6 @@ ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

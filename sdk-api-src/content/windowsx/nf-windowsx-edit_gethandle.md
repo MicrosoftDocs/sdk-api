@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetHandle, Edit_GetHandle macro [Windows Controls], _win32_Edit_GetHandle, _win32_Edit_GetHandle_cpp, controls.Edit_GetHandle, controls._win32_Edit_GetHandle, windowsx/Edit_GetHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

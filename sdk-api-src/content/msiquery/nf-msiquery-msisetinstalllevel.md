@@ -9,8 +9,6 @@ ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

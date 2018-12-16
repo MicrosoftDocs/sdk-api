@@ -9,8 +9,6 @@ ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

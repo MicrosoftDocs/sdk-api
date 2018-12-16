@@ -9,8 +9,6 @@ ms.assetid: 4271c7ff-636c-4ab0-b83f-90c769baf74c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStrokeMiterLimit, GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeMiterLimit method, IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

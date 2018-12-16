@@ -9,8 +9,6 @@ ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

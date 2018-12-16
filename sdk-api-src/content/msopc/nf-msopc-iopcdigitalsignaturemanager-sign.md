@@ -9,8 +9,6 @@ ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

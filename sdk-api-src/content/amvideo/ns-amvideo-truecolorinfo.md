@@ -9,8 +9,6 @@ ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

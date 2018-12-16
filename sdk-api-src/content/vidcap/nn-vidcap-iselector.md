@@ -9,8 +9,6 @@ ms.assetid: bd6e028c-ed6d-4dad-a276-c59ba9d88e87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], ISelector interface [DirectShow],described, ISelectorInterface, dshow.iselector, vidcap/ISelector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 

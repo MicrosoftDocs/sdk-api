@@ -9,8 +9,6 @@ ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DataCollectorSetStatus, DataCollectorSetStatus enumeration [PLA], base.datacollectorsetstatus, pla.datacollectorsetstatus, pla/DataCollectorSetStatus, pla/plaCompiling, pla/plaPending, pla/plaRunning, pla/plaStopped, pla/plaUndefined, plaCompiling, plaPending, plaRunning, plaStopped, plaUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

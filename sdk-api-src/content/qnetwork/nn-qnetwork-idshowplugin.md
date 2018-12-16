@@ -9,8 +9,6 @@ ms.assetid: b5b73489-4d2d-4afa-a4df-7b84711f2556
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin interface [DirectShow],described, IDShowPluginInterface, dshow.idshowplugin, qnetwork/IDShowPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

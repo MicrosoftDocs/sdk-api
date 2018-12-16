@@ -9,8 +9,6 @@ ms.assetid: e1acd68e-796e-49a2-8c7d-c0fd1a9764ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasSetEntryDialParams, RasSetEntryDialParams function [RAS], RasSetEntryDialParamsA, RasSetEntryDialParamsW, _ras_rassetentrydialparams, dwCallbackId, dwSize, dwSubEntry, ras/RasSetEntryDialParams, ras/RasSetEntryDialParamsA, ras/RasSetEntryDialParamsW, rras.rassetentrydialparams, szCallbackNumber, szDomain, szEntryName, szPassword, szPhoneNumber, szUserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

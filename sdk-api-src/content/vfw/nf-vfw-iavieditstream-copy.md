@@ -9,8 +9,6 @@ ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Copy method, IAVIEditStream.Copy, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

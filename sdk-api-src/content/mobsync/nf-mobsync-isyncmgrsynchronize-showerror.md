@@ -9,8 +9,6 @@ ms.assetid: 0e313c61-6482-4396-b4b8-824fba0226ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowError method, ISyncMgrSynchronize.ShowError, ISyncMgrSynchronize::ShowError, ShowError, ShowError method [Windows Shell], ShowError method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowError, shell.syncmgr_isyncmgrsynchronize_showerror, syncmgr.isyncmgrsynchronize_showerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

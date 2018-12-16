@@ -9,8 +9,6 @@ ms.assetid: 84eedf88-f0ea-4dc8-9840-b94a47fb7ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

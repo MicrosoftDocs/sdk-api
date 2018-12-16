@@ -9,8 +9,6 @@ ms.assetid: 39e7702a-f23e-4f04-8524-06a0fcc025a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPnPID, GetPnPID method [Windows Portable Devices SDK], GetPnPID method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetPnPID method, IPortableDeviceConnector.GetPnPID, IPortableDeviceConnector::GetPnPID, devpkey/IPortableDeviceConnector::GetPnPID, portabledeviceconnectapi/IPortableDeviceConnector::GetPnPID, wpdsdk.iportabledeviceconnector_getpnpid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 

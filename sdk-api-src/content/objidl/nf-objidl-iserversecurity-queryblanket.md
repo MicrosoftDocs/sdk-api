@@ -9,8 +9,6 @@ ms.assetid: 1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServerSecurity interface [COM],QueryBlanket method, IServerSecurity.QueryBlanket, IServerSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IServerSecurity interface, _com_iserversecurity_queryblanket, com.iserversecurity_queryblanket, objidlbase/IServerSecurity::QueryBlanket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

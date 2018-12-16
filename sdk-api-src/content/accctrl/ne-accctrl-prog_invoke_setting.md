@@ -9,8 +9,6 @@ ms.assetid: 3eee30d6-7d9d-468f-b6ba-e172da523169
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING enumeration pointer [Security], PROG_INVOKE_SETTING, PROG_INVOKE_SETTING enumeration [Security], ProgressCancelOperation, ProgressInvokeEveryObject, ProgressInvokeNever, ProgressInvokeOnError, ProgressInvokePrePostError, ProgressRetryOperation, accctrl/PPROG_INVOKE_SETTING, accctrl/PROG_INVOKE_SETTING, accctrl/ProgressCancelOperation, accctrl/ProgressInvokeEveryObject, accctrl/ProgressInvokeNever, accctrl/ProgressInvokeOnError, accctrl/ProgressInvokePrePostError, accctrl/ProgressRetryOperation, security.prog_invoke_setting"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 

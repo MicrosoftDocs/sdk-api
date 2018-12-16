@@ -9,8 +9,6 @@ ms.assetid: 5e3e7ffc-8822-4b1b-b9af-206ec1e767e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], IAudioEndpointVolume interface [Core Audio],described, coreaudio.iaudioendpointvolume, endpointvolume/IAudioEndpointVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: endpointvolume.h
 req.include-header: 

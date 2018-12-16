@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_5nfp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Size property, IFaxOutgoingJob.Size, IFaxOutgoingJob.get_Size, IFaxOutgoingJob::Size, IFaxOutgoingJob::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.size, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_size_cpp, fax._mfax_faxoutgoingjob_size, faxcomex/IFaxOutgoingJob::Size, faxcomex/IFaxOutgoingJob::get_Size, get_Size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

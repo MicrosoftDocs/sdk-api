@@ -9,8 +9,6 @@ ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vmgenerationcounter.h
 req.include-header: 

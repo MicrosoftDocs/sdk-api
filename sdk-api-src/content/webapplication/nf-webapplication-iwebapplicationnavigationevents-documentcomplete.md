@@ -9,8 +9,6 @@ ms.assetid: 18dabd8a-d35c-4095-985d-bf712c539df8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store apps], DocumentComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DocumentComplete method, IWebApplicationNavigationEvents.DocumentComplete, IWebApplicationNavigationEvents::DocumentComplete, debug.iwebapplicationnavigationevents_documentcomplete, webapplication/IWebApplicationNavigationEvents::DocumentComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

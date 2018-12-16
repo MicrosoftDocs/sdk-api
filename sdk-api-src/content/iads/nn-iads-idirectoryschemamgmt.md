@@ -9,8 +9,6 @@ ms.assetid: 96062c41-6e95-4024-b16d-4002ed84ec5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirectorySchemaMgmt interface [ADSI],described, adsi.idirectoryschemamgmt, iads/IDirectorySchemaMgmt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

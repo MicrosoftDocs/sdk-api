@@ -9,8 +9,6 @@ ms.assetid: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6, MFT_OUTPUT_STREAM_INFO, MFT_OUTPUT_STREAM_INFO structure [Media Foundation], mf.mft_output_stream_info, mftransform/MFT_OUTPUT_STREAM_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 81b4c66a-67dd-4d5a-bd71-2fdbe6fd5df5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_CREDENTIAL1, IKEEXT_CREDENTIAL1 structure [Filtering], fwp.ikeext_credential1, iketypes/IKEEXT_CREDENTIALS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

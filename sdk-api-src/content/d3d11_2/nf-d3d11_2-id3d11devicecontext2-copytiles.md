@@ -9,8 +9,6 @@ ms.assetid: C336B0C7-DB99-466C-B689-5D6634EE0B36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyTiles, CopyTiles method [Direct3D 11], CopyTiles method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],CopyTiles method, ID3D11DeviceContext2.CopyTiles, ID3D11DeviceContext2::CopyTiles, d3d11_2/ID3D11DeviceContext2::CopyTiles, direct3d11.id3d11devicecontext2_copytiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_2.h
 req.include-header: 

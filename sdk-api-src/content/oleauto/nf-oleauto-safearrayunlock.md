@@ -9,8 +9,6 @@ ms.assetid: 654995ab-1959-44dc-9e26-11c34e489c14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayUnlock, SafeArrayUnlock function [Automation], _oa96_SafeArrayUnlock, automat.safearrayunlock, oleauto/SafeArrayUnlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

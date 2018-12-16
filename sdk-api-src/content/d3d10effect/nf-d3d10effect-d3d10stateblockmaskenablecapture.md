@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskenablecapture.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10StateBlockMaskEnableCapture, D3D10StateBlockMaskEnableCapture function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableCapture, direct3d10.d3d10stateblockmaskenablecapture, facce8d7-c03d-439b-89fb-733b2d013965
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

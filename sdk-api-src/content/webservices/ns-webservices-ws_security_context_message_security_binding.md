@@ -9,8 +9,6 @@ ms.assetid: c7f45f44-25e9-4124-a0a2-eb9969f0eb99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, wsw.ws_security_context_message_security_binding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

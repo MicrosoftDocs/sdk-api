@@ -9,8 +9,6 @@ ms.assetid: bdf52cd6-a32d-4814-ac2f-51256dcc47cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

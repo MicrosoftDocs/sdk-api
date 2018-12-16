@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdQueryDisplaySettingsUniqueness, DdQueryDisplaySettingsUniqueness function [Windows API], GdiEntry13, _dxgkernel_ddquerydisplaysettingsuniqueness, ddrawgdi/DdQueryDisplaySettingsUniqueness, ddrawgdi/GdiEntry13, winprog._dxgkernel_ddquerydisplaysettingsuniqueness, winui._dxgkernel_ddquerydisplaysettingsuniqueness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

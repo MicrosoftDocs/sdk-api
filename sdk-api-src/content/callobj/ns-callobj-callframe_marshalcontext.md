@@ -9,8 +9,6 @@ ms.assetid: 4ecc4646-db3f-4d0e-9c45-b78a288156e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CALLFRAME_MARSHALCONTEXT, CALLFRAME_MARSHALCONTEXT structure [COM], callobj/CALLFRAME_MARSHALCONTEXT, com.callframe_marshalcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 

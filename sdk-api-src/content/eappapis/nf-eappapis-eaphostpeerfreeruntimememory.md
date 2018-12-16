@@ -9,8 +9,6 @@ ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c6657bd5-21b6-457c-9ed0-45e44b2571ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrCmpNI, StrCmpNI function [Windows Shell], StrCmpNIA, StrCmpNIW, _win32_StrCmpNI, shell.StrCmpNI, shlwapi/StrCmpNI, shlwapi/StrCmpNIA, shlwapi/StrCmpNIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

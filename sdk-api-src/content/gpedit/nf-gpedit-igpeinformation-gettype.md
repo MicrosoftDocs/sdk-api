@@ -9,8 +9,6 @@ ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetType method, IGPEInformation.GetType, IGPEInformation::GetType, _win32_igpeinformation_gettype, gpedit/IGPEInformation::GetType, policy.igpeinformation_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

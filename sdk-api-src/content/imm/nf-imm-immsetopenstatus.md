@@ -9,8 +9,6 @@ ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

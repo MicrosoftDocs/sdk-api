@@ -9,8 +9,6 @@ ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangName method, IWMPClosedCaption2.getSAMILangName, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

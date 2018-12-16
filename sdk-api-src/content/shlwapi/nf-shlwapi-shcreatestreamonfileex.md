@@ -9,8 +9,6 @@ ms.assetid: f948f7dd-987d-4c2d-b650-62081133c3f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

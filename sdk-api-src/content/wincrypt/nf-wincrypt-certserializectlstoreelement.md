@@ -9,8 +9,6 @@ ms.assetid: 63d343c1-fa65-4cd1-a210-3805c7d92208
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSerializeCTLStoreElement, CertSerializeCTLStoreElement function [Security], _crypto2_certserializectlstoreelement, security.certserializectlstoreelement, wincrypt/CertSerializeCTLStoreElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4754a211-b90c-453a-91b2-9f49ad31621d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokes interface [Tablet PC],Move method, IInkStrokes.Move, IInkStrokes::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Move, tablet.inkstrokes_move
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

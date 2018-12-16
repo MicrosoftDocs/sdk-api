@@ -9,8 +9,6 @@ ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

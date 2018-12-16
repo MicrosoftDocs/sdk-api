@@ -9,8 +9,6 @@ ms.assetid: 3f4a8916-9db9-4b65-982f-4cb4ec2205ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSANAMESPACE_INFOEXA, *PWSANAMESPACE_INFOEXA, LPWSANAMESPACE_INFOEX, LPWSANAMESPACE_INFOEX structure pointer [Winsock], NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFOEX, PWSANAMESPACE_INFOEX structure pointer [Winsock], WSANAMESPACE_INFOEX, WSANAMESPACE_INFOEX structure [Winsock], WSANAMESPACE_INFOEXA, WSANAMESPACE_INFOEXW, winsock.wsanamespace_infoex, winsock2/LPWSANAMESPACE_INFOEX, winsock2/PWSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEXA, winsock2/WSANAMESPACE_INFOEXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

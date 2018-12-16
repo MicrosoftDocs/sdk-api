@@ -9,8 +9,6 @@ ms.assetid: 1a6acbd2-6155-4513-8892-50a4552abb12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWRdsProtocolConnection.GetLastInputTime, IWRdsProtocolConnection::GetLastInputTime, termserv.iwrdsprotocolconnection_getlastinputtime, wtsprotocol/IWRdsProtocolConnection::GetLastInputTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

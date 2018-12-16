@@ -9,8 +9,6 @@ ms.assetid: 13292ccd-fc0c-4230-a935-4d5aed8cec97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream_WriteStr, IStream_WriteStr function [Windows Shell], _shell_IStream_WriteStr, shell.IStream_WriteStr, shlwapi/IStream_WriteStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

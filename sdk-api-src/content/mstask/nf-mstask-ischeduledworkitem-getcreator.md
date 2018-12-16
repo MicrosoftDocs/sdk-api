@@ -9,8 +9,6 @@ ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetCheckState, TreeView_GetCheckState macro [Windows Controls], _win32_TreeView_GetCheckState, _win32_TreeView_GetCheckState_cpp, commctrl/TreeView_GetCheckState, controls.TreeView_GetCheckState, controls._win32_TreeView_GetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearBrushRemapTable, ClearBrushRemapTable method [GDI+], ClearBrushRemapTable method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearBrushRemapTable method, ImageAttributes.ClearBrushRemapTable, ImageAttributes::ClearBrushRemapTable, _gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

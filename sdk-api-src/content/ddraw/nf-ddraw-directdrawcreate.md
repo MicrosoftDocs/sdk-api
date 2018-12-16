@@ -9,8 +9,6 @@ ms.assetid: bad18493-417f-499d-a9a8-719d094be62a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreate, DirectDrawCreate function [DirectDraw], ddraw/DirectDrawCreate, directdraw.directdrawcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 

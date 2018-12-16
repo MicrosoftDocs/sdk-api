@@ -9,8 +9,6 @@ ms.assetid: c2d7c143-8b89-41a8-8c5f-ac1e90ca5215
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NET_FW_SERVICE_FILE_AND_PRINT, NET_FW_SERVICE_NONE, NET_FW_SERVICE_REMOTE_DESKTOP, NET_FW_SERVICE_TYPE, NET_FW_SERVICE_TYPE enumeration [ICS/ICF], NET_FW_SERVICE_TYPE_MAX, NET_FW_SERVICE_UPNP, icftypes/NET_FW_SERVICE_FILE_AND_PRINT, icftypes/NET_FW_SERVICE_NONE, icftypes/NET_FW_SERVICE_REMOTE_DESKTOP, icftypes/NET_FW_SERVICE_TYPE, icftypes/NET_FW_SERVICE_TYPE_MAX, icftypes/NET_FW_SERVICE_UPNP, ics.net_fw_service_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 

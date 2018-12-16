@@ -9,8 +9,6 @@ ms.assetid: 89cc1c0d-b6c2-434d-b849-cf09b1711a3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaSetFocus, UiaSetFocus function [Windows Accessibility], uiauto.uiauto_UiaSetFocusAutoMeth, uiauto_UiaSetFocusAutoMeth, uiautomationcoreapi/UiaSetFocus, winauto.uiauto_UiaSetFocusAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

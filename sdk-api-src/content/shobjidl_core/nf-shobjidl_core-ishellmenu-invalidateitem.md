@@ -9,8 +9,6 @@ ms.assetid: 694722f2-2030-4c85-bcc4-70f8a8b70161
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellMenu interface [Windows Shell],InvalidateItem method, IShellMenu.InvalidateItem, IShellMenu::InvalidateItem, InvalidateItem, InvalidateItem method [Windows Shell], InvalidateItem method [Windows Shell],IShellMenu interface, _shell_IShellMenu_InvalidateItem, shell.IShellMenu_InvalidateItem, shobjidl_core/IShellMenu::InvalidateItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

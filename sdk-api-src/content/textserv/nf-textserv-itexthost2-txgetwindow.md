@@ -9,8 +9,6 @@ ms.assetid: 42594B92-298B-4659-87EC-D10C6996CECF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindow method, ITextHost2.TxGetWindow, ITextHost2::TxGetWindow, TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

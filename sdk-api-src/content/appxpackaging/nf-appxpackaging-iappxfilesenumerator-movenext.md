@@ -9,8 +9,6 @@ ms.assetid: EC27AB65-EC67-4F6B-A3B8-313FD0422FA2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxFilesEnumerator interface [App packaging and management],MoveNext method, IAppxFilesEnumerator.MoveNext, IAppxFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxFilesEnumerator interface, appxpackaging/IAppxFilesEnumerator::MoveNext, appxpkg.iappxfilesenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5B5D157E-DEAF-47F2-BDB2-2CF3D307CB7F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_FILE_BASIC_INFO, PRJ_FILE_BASIC_INFO structure, ProjFS.prj_file_basic_info, projectedfslib/PRJ_FILE_BASIC_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 

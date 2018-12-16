@@ -9,8 +9,6 @@ ms.assetid: 0805d510-ee9c-4f10-978d-c34d572488f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromInt32Array, InitVariantFromInt32Array function [Windows Properties], _shell_InitVariantFromInt32Array, properties.InitVariantFromInt32Array, propvarutil/InitVariantFromInt32Array, shell.InitVariantFromInt32Array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

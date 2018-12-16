@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUDec4(const XMUDEC4)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDec4, XMLoadUDec4, XMLoadUDec4 method [DirectX Math Support APIs], dxmath.xmloadudec4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h

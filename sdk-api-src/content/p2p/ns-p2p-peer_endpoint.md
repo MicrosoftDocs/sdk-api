@@ -9,8 +9,6 @@ ms.assetid: 9687b332-14ed-4023-b8c2-437d75fd0298
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_ENDPOINT, PCPEER_ENDPOINT, PCPEER_ENDPOINT structure pointer [Peer Networking], PEER_ENDPOINT, PEER_ENDPOINT structure [Peer Networking], PPEER_ENDPOINT, PPEER_ENDPOINT structure pointer [Peer Networking], p2p.peer_endpoint, p2p/PCPEER_ENDPOINT, p2p/PEER_ENDPOINT, p2p/PPEER_ENDPOINT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

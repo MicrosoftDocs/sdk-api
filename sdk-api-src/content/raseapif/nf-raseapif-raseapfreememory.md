@@ -9,8 +9,6 @@ ms.assetid: d6eb6afd-0d92-4050-b6a9-7bd90788e01c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callback function [EAP], _eap_raseapfreememory, eap.raseapfreememory, raseapif/RasEapFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 

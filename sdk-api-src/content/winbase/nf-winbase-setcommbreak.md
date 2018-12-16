@@ -9,8 +9,6 @@ ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

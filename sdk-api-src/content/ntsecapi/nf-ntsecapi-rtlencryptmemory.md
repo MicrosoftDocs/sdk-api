@@ -9,8 +9,6 @@ ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

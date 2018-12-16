@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN INT,IN INT), Rect.Offset(INT,INT), Rect::Offset, Rect::Offset(IN INT,IN INT), _gdiplus_CLASS_Rect_Offset_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Offset_dx_dy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

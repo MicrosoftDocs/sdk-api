@@ -9,8 +9,6 @@ ms.assetid: c3f847fe-6a1d-41d6-9ed1-807b6234f409
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PXE_BA_CUSTOM, PXE_BA_IGNORE, PXE_BA_NBP, PXE_BA_REJECTED, PxeAsyncRecvDone, PxeAsyncRecvDone function [Windows Deployment Services], wds.pxeasyncrecvdone, wdspxe/PxeAsyncRecvDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

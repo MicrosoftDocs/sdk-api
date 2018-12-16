@@ -9,8 +9,6 @@ ms.assetid: f638a7c3-bd0a-465d-b104-ea0066aec6d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],put_Service method, IMSVidClosedCaptioning2.put_Service, IMSVidClosedCaptioning2::put_Service, IMSVidClosedCaptioning2put_Service, mstv.imsvidclosedcaptioning2_put_service, put_Service, put_Service method [Microsoft TV Technologies], put_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, segment/IMSVidClosedCaptioning2::put_Service
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

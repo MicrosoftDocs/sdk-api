@@ -9,8 +9,6 @@ ms.assetid: 73698726-e329-4367-87be-f2043e1f5591
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontSize method, IDWriteTextLayout.SetFontSize, IDWriteTextLayout::SetFontSize, SetFontSize, SetFontSize method [Direct Write], SetFontSize method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontSize, dwrite/IDWriteTextLayout::SetFontSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

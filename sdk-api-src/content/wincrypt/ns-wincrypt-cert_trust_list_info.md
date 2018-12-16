@@ -9,8 +9,6 @@ ms.assetid: 774f5626-9b48-4585-b713-adbf191861cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO structure [Security], PCERT_TRUST_LIST_INFO, PCERT_TRUST_LIST_INFO structure pointer [Security], _crypto2_cert_trust_list_info, security.cert_trust_list_info, wincrypt/CERT_TRUST_LIST_INFO, wincrypt/PCERT_TRUST_LIST_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

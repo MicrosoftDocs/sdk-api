@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritemrect.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetFooterItemRect, ListView_GetFooterItemRect macro [Windows Controls], _shell_ListView_GetFooterItemRect, _shell_ListView_GetFooterItemRect_cpp, commctrl/ListView_GetFooterItemRect, controls.ListView_GetFooterItemRect, controls._shell_ListView_GetFooterItemRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

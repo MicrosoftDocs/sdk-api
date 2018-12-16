@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0odj_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxActivityLogging, IFaxActivityLogging interface [Fax Service], IFaxActivityLogging interface [Fax Service],described, _mfax_faxactivitylogging_cpp, fax._mfax_faxactivitylogging_cpp, faxcomex/IFaxActivityLogging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

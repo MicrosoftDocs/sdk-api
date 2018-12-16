@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [Windows Controls], _win32_TreeView_MapAccIDToHTREEITEM, _win32_TreeView_MapAccIDToHTREEITEM_cpp, commctrl/TreeView_MapAccIDToHTREEITEM, controls.TreeView_MapAccIDToHTREEITEM, controls._win32_TreeView_MapAccIDToHTREEITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

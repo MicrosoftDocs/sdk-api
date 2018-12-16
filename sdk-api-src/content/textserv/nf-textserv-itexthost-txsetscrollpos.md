@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollPos method, ITextHost.TxSetScrollPos, ITextHost::TxSetScrollPos, TxSetScrollPos, TxSetScrollPos method [Windows Controls], TxSetScrollPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollPos, _win32_ITextHost_TxSetScrollPos_cpp, controls.ITextHost_TxSetScrollPos, controls._win32_ITextHost_TxSetScrollPos, textserv/ITextHost::TxSetScrollPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

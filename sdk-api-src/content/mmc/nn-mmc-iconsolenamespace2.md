@@ -9,8 +9,6 @@ ms.assetid: 894f99a6-2189-458d-a50f-497930d4a9dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, IConsoleNameSpace2, IConsoleNameSpace2 interface [MMC], IConsoleNameSpace2 interface [MMC],described, _slate_iconsolenamespace2, mmc.iconsolenamespace2, mmc/IConsoleNameSpace, mmc/IConsoleNameSpace2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

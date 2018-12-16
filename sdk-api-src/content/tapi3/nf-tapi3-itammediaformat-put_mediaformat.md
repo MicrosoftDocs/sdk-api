@@ -9,8 +9,6 @@ ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],put_MediaFormat method, ITAMMediaFormat.put_MediaFormat, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

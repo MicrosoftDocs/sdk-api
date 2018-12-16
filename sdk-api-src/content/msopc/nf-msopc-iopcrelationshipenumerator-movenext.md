@@ -9,8 +9,6 @@ ms.assetid: d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcRelationshipEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipEnumerator.MoveNext, IOpcRelationshipEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, msopc/IOpcRelationshipEnumerator::MoveNext, opc.iopcrelationshipenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

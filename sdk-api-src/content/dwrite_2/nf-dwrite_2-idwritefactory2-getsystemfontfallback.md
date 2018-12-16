@@ -9,8 +9,6 @@ ms.assetid: 7F2BDB39-2CB4-4DB7-BBBA-74B0C07E7420
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemFontFallback, GetSystemFontFallback method [Direct Write], GetSystemFontFallback method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],GetSystemFontFallback method, IDWriteFactory2.GetSystemFontFallback, IDWriteFactory2::GetSystemFontFallback, directwrite.idwritefactory2_getsystemfontfallback, dwrite_2/IDWriteFactory2::GetSystemFontFallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

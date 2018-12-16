@@ -9,8 +9,6 @@ ms.assetid: 127195F7-6000-4D8C-B850-3E4D40BC4082
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],EndDraw method, IDCompositionSurface.EndDraw, IDCompositionSurface::EndDraw, dcomp/IDCompositionSurface::EndDraw, directcomp.idcompositionsurface_enddraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

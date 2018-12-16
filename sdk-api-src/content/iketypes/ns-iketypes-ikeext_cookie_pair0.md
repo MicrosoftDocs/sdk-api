@@ -9,8 +9,6 @@ ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

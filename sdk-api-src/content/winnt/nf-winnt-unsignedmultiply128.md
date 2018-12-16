@@ -9,8 +9,6 @@ ms.assetid: C9F8D594-3E25-4494-835F-A873045FE83F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], winnt/UnsignedMultiply128, winprog.unsignedmultiply128
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

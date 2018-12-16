@@ -9,8 +9,6 @@ ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest.put_CspInformations, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, put_CspInformations, security.ix509certificaterequest_cspinformations_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

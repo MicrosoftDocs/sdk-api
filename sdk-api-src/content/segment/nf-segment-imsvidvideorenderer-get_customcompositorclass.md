@@ -9,8 +9,6 @@ ms.assetid: d6ff1968-e891-432d-9271-f6d6a6a8a756
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_CustomCompositorClass method, IMSVidVideoRenderer.get_CustomCompositorClass, IMSVidVideoRenderer::get_CustomCompositorClass, IMSVidVideoRendererget_CustomCompositorClass, get_CustomCompositorClass, get_CustomCompositorClass method [Microsoft TV Technologies], get_CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_customcompositorclass, segment/IMSVidVideoRenderer::get_CustomCompositorClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

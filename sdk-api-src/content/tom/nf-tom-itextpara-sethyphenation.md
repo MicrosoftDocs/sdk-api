@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetHyphenation method, ITextPara.SetHyphenation, ITextPara::SetHyphenation, SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls],ITextPara interface, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

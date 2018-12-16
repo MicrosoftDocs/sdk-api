@@ -9,8 +9,6 @@ ms.assetid: 2ae0d34c-3819-46fa-9779-5de8a57e5281
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AvRevertMmThreadCharacteristics, AvRevertMmThreadCharacteristics function, avrt/AvRevertMmThreadCharacteristics, base.avrevertmmthreadcharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

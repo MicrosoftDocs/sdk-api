@@ -9,8 +9,6 @@ ms.assetid: 933a0e41-e025-483a-98c4-a3b8e264c462
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnginePID property [Task Scheduler], EnginePID property [Task Scheduler],IRunningTask interface, EnginePID property [Task Scheduler],TBD object, IRunningTask interface [Task Scheduler],EnginePID property, IRunningTask.EnginePID, IRunningTask.get_EnginePID, IRunningTask::EnginePID, IRunningTask::get_EnginePID, TBD object [Task Scheduler],EnginePID property, get_EnginePID, taskschd.irunningtask_enginepid, taskschd/IRunningTask::EnginePID, taskschd/IRunningTask::get_EnginePID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

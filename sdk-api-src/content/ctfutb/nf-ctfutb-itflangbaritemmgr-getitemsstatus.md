@@ -9,8 +9,6 @@ ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemsStatus method, ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

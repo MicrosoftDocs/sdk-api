@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3jjn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IFaxPort.get_Rings, IFaxPort::Rings, IFaxPort::get_Rings, IFaxPort::put_Rings, Rings property [Fax Service], Rings property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp, faxcom/IFaxPort::Rings, faxcom/IFaxPort::get_Rings, faxcom/IFaxPort::put_Rings, get_Rings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

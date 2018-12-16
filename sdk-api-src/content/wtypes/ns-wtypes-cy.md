@@ -9,8 +9,6 @@ ms.assetid: 5e81273c-7289-45c7-93c0-32c1553f708e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCY, CURRENCY, CURRENCY union [Automation], CY, CY union [Automation], _oa96_CURRENCY, automat.currency, tagCY, wtypes/CURRENCY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

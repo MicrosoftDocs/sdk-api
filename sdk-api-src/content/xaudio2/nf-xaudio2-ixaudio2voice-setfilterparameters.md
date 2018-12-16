@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetFilterParamet
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetFilterParameters method, IXAudio2Voice.SetFilterParameters, IXAudio2Voice::SetFilterParameters, SetFilterParameters, SetFilterParameters method [XAudio2 Audio Mixing APIs], SetFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setfilterparameters, xaudio2/IXAudio2Voice::SetFilterParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

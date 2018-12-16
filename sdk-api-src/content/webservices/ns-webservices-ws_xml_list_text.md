@@ -9,8 +9,6 @@ ms.assetid: a9428114-6f39-46cb-b77f-9da096ed7f11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_LIST_TEXT, WS_XML_LIST_TEXT structure [Web Services for Windows], webservices/WS_XML_LIST_TEXT, wsw.ws_xml_list_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

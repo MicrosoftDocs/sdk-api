@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange interface [Windows Controls],InStory method, ITextRange.InStory, ITextRange::InStory, InStory, InStory method [Windows Controls], InStory method [Windows Controls],ITextRange interface, _win32_ITextRange_InStory, _win32_ITextRange_InStory_cpp, controls.ITextRange_InStory, controls._win32_ITextRange_InStory, tom/ITextRange::InStory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

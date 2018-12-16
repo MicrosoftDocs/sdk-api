@@ -9,8 +9,6 @@ ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

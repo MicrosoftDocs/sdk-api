@@ -9,8 +9,6 @@ ms.assetid: 138f6c25-5a64-469d-b3fd-d399d43f5084
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentThreads, GetCurrentThreads method [COM+], GetCurrentThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentThreads method, IThreadPoolKnobs.GetCurrentThreads, IThreadPoolKnobs::GetCurrentThreads, _cos_IThreadPoolKnobs_GetCurrentThreads, comsvcs/IThreadPoolKnobs::GetCurrentThreads, cos.ithreadpoolknobs_getcurrentthreads
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

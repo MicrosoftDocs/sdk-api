@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Get method, IITResultSet.Get, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

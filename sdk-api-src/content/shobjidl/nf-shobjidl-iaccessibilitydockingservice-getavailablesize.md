@@ -9,8 +9,6 @@ ms.assetid: B447D464-EFAF-4743-900F-E77A2FE140DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAvailableSize, GetAvailableSize method [Windows Shell], GetAvailableSize method [Windows Shell],IAccessibilityDockingService interface, IAccessibilityDockingService interface [Windows Shell],GetAvailableSize method, IAccessibilityDockingService.GetAvailableSize, IAccessibilityDockingService::GetAvailableSize, shell.IAccessibilityDockingService_GetAvailableSize, shobjidl/IAccessibilityDockingService::GetAvailableSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

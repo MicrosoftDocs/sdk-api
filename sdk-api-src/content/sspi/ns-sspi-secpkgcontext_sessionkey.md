@@ -9,8 +9,6 @@ ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -9,8 +9,6 @@ ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

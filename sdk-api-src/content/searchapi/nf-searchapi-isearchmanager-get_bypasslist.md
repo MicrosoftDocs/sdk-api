@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchManager.get_BypassList, ISearchManager::get_BypassList, _search_ISearchManager_get_BypassList, get_BypassList, get_BypassList method [search], get_BypassList method [search],ISearchManager interface, search._search_ISearchManager_get_BypassList, searchapi/ISearchManager::get_BypassList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

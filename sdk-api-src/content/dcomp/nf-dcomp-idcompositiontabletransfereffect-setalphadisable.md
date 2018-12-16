@@ -9,8 +9,6 @@ ms.assetid: BC05E32A-787C-4472-8C18-D21D32324373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaDisable method, IDCompositionTableTransferEffect.SetAlphaDisable, IDCompositionTableTransferEffect::SetAlphaDisable, SetAlphaDisable, SetAlphaDisable method [DirectComposition], SetAlphaDisable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaDisable, directcomp.idcompositiontabletransfereffect_setalphadisable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

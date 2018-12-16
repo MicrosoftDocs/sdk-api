@@ -9,8 +9,6 @@ ms.assetid: bbf05fe7-91b7-40ce-895c-82e60fa456e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5e162a9f-4e8f-4852-65fb-df19d695af47, GetRetrievalFilter, GetRetrievalFilter method [Direct3D 11], GetRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetRetrievalFilter method, ID3D11InfoQueue.GetRetrievalFilter, ID3D11InfoQueue::GetRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::GetRetrievalFilter, direct3d11.id3d11infoqueue_getretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME function [Failover Cluster], ResUtilGetResourceName, ResUtilGetResourceName function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME, resapi/ResUtilGetResourceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

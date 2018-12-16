@@ -9,8 +9,6 @@ ms.assetid: 764c7f5a-00df-461d-99ee-07f9e1f77ec7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PNL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD structure [MIB], PNL_INTERFACE_OFFLOAD_ROD, PNL_INTERFACE_OFFLOAD_ROD structure pointer [MIB], mib.nl_interface_offload_rod, nldef/NL_INTERFACE_OFFLOAD_ROD, nldef/PNL_INTERFACE_OFFLOAD_ROD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h

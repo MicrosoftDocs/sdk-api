@@ -9,8 +9,6 @@ ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRONG, EXTCONN_WEAK, _com_EXTCONN, com.extconn, objidlbase/EXTCONN, objidlbase/EXTCONN_CALLABLE, objidlbase/EXTCONN_STRONG, objidlbase/EXTCONN_WEAK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h

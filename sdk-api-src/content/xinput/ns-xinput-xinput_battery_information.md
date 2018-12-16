@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_BATTERY_INFORMATION
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION structure pointer [XInput Game Controller APIs], XINPUT_BATTERY_INFORMATION, XINPUT_BATTERY_INFORMATION structure [XInput Game Controller APIs], xinput.xinput_battery_information, xinput/PXINPUT_BATTERY_INFORMATION, xinput/XINPUT_BATTERY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

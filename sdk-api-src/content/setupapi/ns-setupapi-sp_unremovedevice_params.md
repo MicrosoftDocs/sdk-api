@@ -9,8 +9,6 @@ ms.assetid: 89f5e2a9-5336-421f-b781-688588695027
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_UNREMOVEDEVICE_PARAMS, SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation], devinst.sp_unremovedevice_params, di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml, setupapi/PSP_UNREMOVEDEVICE_PARAMS, setupapi/SP_UNREMOVEDEVICE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

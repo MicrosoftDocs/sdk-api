@@ -9,8 +9,6 @@ ms.assetid: 428dfb97-0dfa-442c-819e-291e6a58f712
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], IQualProp interface [DirectShow],described, IQualPropInterface, amvideo/IQualProp, dshow.iqualprop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amvideo.h
 req.include-header: Dshow.h

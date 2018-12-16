@@ -9,8 +9,6 @@ ms.assetid: 80cc20e1-88e2-4dee-a0fb-d75fffdfc097
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Properties], GetPropertyStore method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStore method, IPropertyStoreFactory.GetPropertyStore, IPropertyStoreFactory::GetPropertyStore, _shell_IPropertyStoreFactory_GetPropertyStore, properties.IPropertyStoreFactory_GetPropertyStore, propsys/IPropertyStoreFactory::GetPropertyStore, shell.IPropertyStoreFactory_GetPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

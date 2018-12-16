@@ -9,8 +9,6 @@ ms.assetid: d4ba2fbd-4349-48e3-81dd-622442409060
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbDownloadContentDescriptor.GetComponentTag, IIsdbDownloadContentDescriptor::GetComponentTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag, mstv.iisdbdownloadcontentdescriptor_getcomponenttag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

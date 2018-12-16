@@ -9,8 +9,6 @@ ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

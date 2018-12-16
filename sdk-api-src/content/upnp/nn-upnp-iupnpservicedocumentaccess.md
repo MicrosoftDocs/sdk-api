@@ -9,8 +9,6 @@ ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

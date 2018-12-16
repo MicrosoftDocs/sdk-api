@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwitchToThisWindow, SwitchToThisWindow function [Windows and Messages], _win32_SwitchToThisWindow, _win32_switchtothiswindow_cpp, winmsg.switchtothiswindow, winui._win32_switchtothiswindow, winuser/SwitchToThisWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

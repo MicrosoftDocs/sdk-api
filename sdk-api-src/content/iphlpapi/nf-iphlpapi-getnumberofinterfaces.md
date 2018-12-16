@@ -9,8 +9,6 @@ ms.assetid: 655d63eb-455a-4a5e-97e2-7b7588eee4d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], _iphlp_getnumberofinterfaces, iphlp.getnumberofinterfaces, iphlpapi/GetNumberOfInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

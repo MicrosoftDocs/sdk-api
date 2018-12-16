@@ -9,8 +9,6 @@ ms.assetid: 8ba1f5e4-9af3-4c8a-8b57-b6075d0560d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS enumeration [Files], ClfsIoStatsDefault, ClfsIoStatsMax, PCLFS_IOSTATS_CLASS, PCLFS_IOSTATS_CLASS enumeration pointer [Files], PPCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS enumeration pointer [Files], clfs/CLFS_IOSTATS_CLASS, clfs/ClfsIoStatsDefault, clfs/ClfsIoStatsMax, clfs/PCLFS_IOSTATS_CLASS, clfs/PPCLFS_IOSTATS_CLASS, fs.clfs_iostats_class"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clfs.h
 req.include-header: Clfsw32.h

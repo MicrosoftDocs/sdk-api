@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddTab, AddTab method [Windows Controls], AddTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],AddTab method, ITextPara.AddTab, ITextPara::AddTab, _win32_ITextPara_AddTab, _win32_ITextPara_AddTab_cpp, controls.ITextPara_AddTab, controls._win32_ITextPara_AddTab, tom/ITextPara::AddTab, tomAlignBar, tomAlignCenter, tomAlignDecimal, tomAlignLeft, tomAlignRight, tomDashes, tomDots, tomLines, tomSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

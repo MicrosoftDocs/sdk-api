@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\animation\macros\animate_openex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

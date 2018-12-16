@@ -9,8 +9,6 @@ ms.assetid: 01ddc659-0ed9-41e9-bde9-92aad9d74716
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],UnadviseSink method, ITextStoreAnchor.UnadviseSink, ITextStoreAnchor::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::UnadviseSink, tsf.itextstoreanchor_unadvisesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

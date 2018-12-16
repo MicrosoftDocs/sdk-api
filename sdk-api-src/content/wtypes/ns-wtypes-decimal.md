@@ -9,8 +9,6 @@ ms.assetid: 0b3295be-1ec2-4dd7-9197-cef335f7d8b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDECIMAL, DECIMAL, DECIMAL structure [Automation], _oa96_DECIMAL, automat.decimal, tagDEC, wtypes/DECIMAL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

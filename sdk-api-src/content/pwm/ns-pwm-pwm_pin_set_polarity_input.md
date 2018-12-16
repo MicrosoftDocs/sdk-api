@@ -9,8 +9,6 @@ ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, base.pwm_pin_set_polarity_input, pwm/PWM_PIN_SET_POLARITY_INPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h

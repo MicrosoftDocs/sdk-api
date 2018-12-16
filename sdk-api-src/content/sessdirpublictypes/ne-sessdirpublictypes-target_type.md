@@ -9,8 +9,6 @@ ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop Services], UNKNOWN, sessdirpublictypes/FARM, sessdirpublictypes/NONFARM, sessdirpublictypes/TARGET_TYPE, sessdirpublictypes/UNKNOWN, termserv.target_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 

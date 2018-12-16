@@ -9,8 +9,6 @@ ms.assetid: 9cc52104-aa5e-4baa-86f1-8c6dcdd661ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 9092dd7a-ff5b-465f-a808-ef4e0067f540
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPARSEDURLW, PARSEDURL, PARSEDURL structure [Windows Shell], PARSEDURLA, PARSEDURLW, PPARSEDURL, PPARSEDURL structure pointer [Windows Shell], _win32_PARSEDURL, shell.PARSEDURL, shlwapi/PARSEDURL, shlwapi/PARSEDURLA, shlwapi/PARSEDURLW, shlwapi/PPARSEDURL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 

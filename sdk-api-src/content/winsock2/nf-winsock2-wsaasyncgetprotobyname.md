@@ -9,8 +9,6 @@ ms.assetid: 747c40fd-5dc1-4533-896e-bc1c4368d7bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], _win32_wsaasyncgetprotobyname_2, winsock.wsaasyncgetprotobyname_2, winsock/WSAAsyncGetProtoByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

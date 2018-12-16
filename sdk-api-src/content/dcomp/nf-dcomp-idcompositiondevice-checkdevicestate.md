@@ -9,8 +9,6 @@ ms.assetid: F9916B1E-8713-4758-963A-DFD0F916FF2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckDeviceState, CheckDeviceState method [DirectComposition], CheckDeviceState method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CheckDeviceState method, IDCompositionDevice.CheckDeviceState, IDCompositionDevice::CheckDeviceState, dcomp/IDCompositionDevice::CheckDeviceState, directcomp.idcompositiondevice_checkdevicestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

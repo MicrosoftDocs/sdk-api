@@ -9,8 +9,6 @@ ms.assetid: 6e9b5278-a959-40a7-a4dc-88400a80b0e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetFrameRateThreshold method, IUIAnimationTimer.SetFrameRateThreshold, IUIAnimationTimer::SetFrameRateThreshold, SetFrameRateThreshold, SetFrameRateThreshold method [Windows Animation], SetFrameRateThreshold method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_setframeratethreshold, uianimation/IUIAnimationTimer::SetFrameRateThreshold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

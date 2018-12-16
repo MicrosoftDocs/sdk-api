@@ -9,8 +9,6 @@ ms.assetid: bcbc8f16-855d-4835-966c-73773f3ac6d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPISharingSession interface, Attendees property [RDP],IRDPSRAPISharingSession2 interface, Attendees property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],Attendees property, IRDPSRAPISharingSession.Attendees, IRDPSRAPISharingSession.get_Attendees, IRDPSRAPISharingSession2 interface [RDP],Attendees property, IRDPSRAPISharingSession2.Attendees, IRDPSRAPISharingSession2::Attendees, IRDPSRAPISharingSession2::get_Attendees, IRDPSRAPISharingSession::get_Attendees, RDPSession object [RDP],Attendees property, get_Attendees, rdp.irdpsrapisharingsession_attendees, rdpencomapi/IRDPSRAPISharingSession2::Attendees, rdpencomapi/IRDPSRAPISharingSession2::get_Attendees, rdpencomapi/IRDPSRAPISharingSession::Attendees, rdpencomapi/IRDPSRAPISharingSession::get_Attendees
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

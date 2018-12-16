@@ -9,8 +9,6 @@ ms.assetid: 3c7b4cd4-fb72-40a6-9450-4edf82cade2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NDR_USER_MARSHAL_INFO, NDR_USER_MARSHAL_INFO structure [RPC], _rpc_ndr_user_marshal_info, rpc.ndr_user_marshal_info, rpcndr/NDR_USER_MARSHAL_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h

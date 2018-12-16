@@ -9,8 +9,6 @@ ms.assetid: 60ED145A-7712-43b7-A2AD-C366DD32E19E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

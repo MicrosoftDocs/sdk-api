@@ -9,8 +9,6 @@ ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

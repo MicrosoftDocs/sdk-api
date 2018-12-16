@@ -9,8 +9,6 @@ ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receptionQuality method, IWMPNetwork.get_receptionQuality, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

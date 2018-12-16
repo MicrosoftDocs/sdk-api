@@ -9,8 +9,6 @@ ms.assetid: 96756b27-cbcf-47ce-a8c8-88795a81edde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],Indicate method, IWbemObjectSink.Indicate, IWbemObjectSink::Indicate, IWbemObjectSinkEx interface [Windows Management Instrumentation],Indicate method, IWbemObjectSinkEx::Indicate, Indicate, Indicate method [Windows Management Instrumentation], Indicate method [Windows Management Instrumentation],IWbemObjectSink interface, Indicate method [Windows Management Instrumentation],IWbemObjectSinkEx interface, _hmm_iwbemobjectsink_indicate, wbemcli/IWbemObjectSink::Indicate, wbemcli/IWbemObjectSinkEx::Indicate, wmi.iwbemobjectsink_indicate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

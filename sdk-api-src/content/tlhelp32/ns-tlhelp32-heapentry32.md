@@ -9,8 +9,6 @@ ms.assetid: c5f1dc66-d44f-4491-b0b7-961b163d0f1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPHEAPENTRY32, *PHEAPENTRY32, HEAPENTRY32, HEAPENTRY32 structure [ToolHelp], LF32_FIXED, LF32_FREE, LF32_MOVEABLE, PHEAPENTRY32, PHEAPENTRY32 structure pointer [ToolHelp], _win32_heapentry32_str, base.heapentry32_str, tlhelp32/HEAPENTRY32, tlhelp32/PHEAPENTRY32, toolhelp.heapentry32_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 

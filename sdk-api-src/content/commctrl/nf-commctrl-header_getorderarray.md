@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls], _win32_Header_GetOrderArray, _win32_Header_GetOrderArray_cpp, commctrl/Header_GetOrderArray, controls.Header_GetOrderArray, controls._win32_Header_GetOrderArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

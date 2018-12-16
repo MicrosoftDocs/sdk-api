@@ -9,8 +9,6 @@ ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
 req.include-header: Windows.h

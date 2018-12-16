@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_AddString, ListBox_AddString macro [Windows Controls], _win32_ListBox_AddString, _win32_ListBox_AddString_cpp, controls.ListBox_AddString, controls._win32_ListBox_AddString, windowsx/ListBox_AddString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

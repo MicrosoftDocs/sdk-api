@@ -9,8 +9,6 @@ ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

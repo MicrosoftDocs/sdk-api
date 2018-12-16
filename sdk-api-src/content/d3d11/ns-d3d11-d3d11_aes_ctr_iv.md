@@ -9,8 +9,6 @@ ms.assetid: 2D1B24CA-6386-4406-9195-40913744C9CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_AES_CTR_IV, D3D11_AES_CTR_IV structure [Media Foundation], d3d11/D3D11_AES_CTR_IV, mf.d3d11_aes_ctr_iv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

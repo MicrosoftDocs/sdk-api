@@ -9,8 +9,6 @@ ms.assetid: 8cb3e41f-803f-4f88-81bb-b2222c070610
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8cb3e41f-803f-4f88-81bb-b2222c070610, CharacterAutoCompletionMode property [Tablet PC], CharacterAutoCompletionMode property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],CharacterAutoCompletionMode property, IInkRecognizerContext.CharacterAutoCompletionMode, IInkRecognizerContext.get_CharacterAutoCompletionMode, IInkRecognizerContext::CharacterAutoCompletionMode, IInkRecognizerContext::get_CharacterAutoCompletionMode, IInkRecognizerContext::put_CharacterAutoCompletionMode, InkRecognizerContext.get_CharacterAutoCompletion, InkRecognizerContext.put_CharacterAutoCompletion, get_CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::get_CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::put_CharacterAutoCompletionMode, put_CharacterAutoCompletionMode, tablet.inkrecognizercontext_characterautocompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

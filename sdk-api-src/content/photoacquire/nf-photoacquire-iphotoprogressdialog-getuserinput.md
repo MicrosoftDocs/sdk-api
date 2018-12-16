@@ -9,8 +9,6 @@ ms.assetid: 1f797e68-f87d-4f90-853b-60c6c9309f58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetUserInput method, IPhotoProgressDialog.GetUserInput, IPhotoProgressDialog::GetUserInput, IPhotoProgressDialogGetUserInput, photoacquire/IPhotoProgressDialog::GetUserInput, picacq.iphotoprogressdialog_getuserinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

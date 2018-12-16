@@ -9,8 +9,6 @@ ms.assetid: 62d4f139-ab18-4d65-bda5-1cf09d7ddab9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistStartup, PeerDistStartup function [Peer Networking], p2p.peerdiststartup, peerdist/PeerDistStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

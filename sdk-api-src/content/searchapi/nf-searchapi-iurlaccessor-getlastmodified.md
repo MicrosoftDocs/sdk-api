@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetLastModified method, IUrlAccessor.GetLastModified, IUrlAccessor::GetLastModified, _search_IUrlAccessor_GetLastModified, search._search_IUrlAccessor_GetLastModified, searchapi/IUrlAccessor::GetLastModified
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

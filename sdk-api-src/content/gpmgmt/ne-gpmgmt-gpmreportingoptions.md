@@ -9,8 +9,6 @@ ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 

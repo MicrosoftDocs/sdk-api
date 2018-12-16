@@ -9,8 +9,6 @@ ms.assetid: 2d7b6c78-fb8e-42df-89cd-0693da6da113
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecDospGetSecurityInfo0, IPsecDospGetSecurityInfo0 function [Filtering], fwp.ipsecdospgetsecurityinfo0, fwpmu/IPsecDospGetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

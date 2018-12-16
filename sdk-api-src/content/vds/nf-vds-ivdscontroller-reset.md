@@ -9,8 +9,6 @@ ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsController interface [VDS],Reset method, IVdsController.Reset, IVdsController::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsController interface, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

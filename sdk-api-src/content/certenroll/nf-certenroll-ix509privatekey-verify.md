@@ -9,8 +9,6 @@ ms.assetid: 4a792c39-71a7-4289-854d-98e6f749a526
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509PrivateKey interface [Security],Verify method, IX509PrivateKey.Verify, IX509PrivateKey::Verify, Verify, Verify method [Security], Verify method [Security],IX509PrivateKey interface, VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, certenroll/IX509PrivateKey::Verify, security.ix509privatekey_verify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

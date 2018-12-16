@@ -9,8 +9,6 @@ ms.assetid: 27eef026-e401-44a2-9b46-a16b61026d2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

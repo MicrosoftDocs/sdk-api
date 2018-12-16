@@ -9,8 +9,6 @@ ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

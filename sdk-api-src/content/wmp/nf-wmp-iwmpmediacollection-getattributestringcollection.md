@@ -9,8 +9,6 @@ ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAttributeStringCollection method, IWMPMediaCollection.getAttributeStringCollection, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

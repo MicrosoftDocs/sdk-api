@@ -9,8 +9,6 @@ ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 90CB9B2E-16CA-48A0-AF16-937D816718D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateDeviceServices, EnumerateDeviceServices method [Microsoft Broadband Networks], EnumerateDeviceServices method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],EnumerateDeviceServices method, IMbnDeviceServicesContext.EnumerateDeviceServices, IMbnDeviceServicesContext::EnumerateDeviceServices, mbn.imbndeviceservicescontext_enumeratedeviceservices, mbnapi/IMbnDeviceServicesContext::EnumerateDeviceServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

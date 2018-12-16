@@ -9,8 +9,6 @@ ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

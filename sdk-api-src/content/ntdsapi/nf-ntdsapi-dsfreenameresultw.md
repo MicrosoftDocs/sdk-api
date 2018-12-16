@@ -9,8 +9,6 @@ ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

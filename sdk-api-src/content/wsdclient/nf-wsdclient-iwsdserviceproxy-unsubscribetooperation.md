@@ -9,8 +9,6 @@ ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDServiceProxy interface,UnsubscribeToOperation method, IWSDServiceProxy.UnsubscribeToOperation, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

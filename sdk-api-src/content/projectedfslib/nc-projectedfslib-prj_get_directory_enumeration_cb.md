@@ -9,8 +9,6 @@ ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 

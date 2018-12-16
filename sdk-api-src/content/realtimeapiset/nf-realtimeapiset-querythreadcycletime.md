@@ -9,8 +9,6 @@ ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

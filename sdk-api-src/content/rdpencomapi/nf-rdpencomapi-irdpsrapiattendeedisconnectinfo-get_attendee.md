@@ -9,8 +9,6 @@ ms.assetid: 08847b58-1860-45dc-9145-b5e7a745a21c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attendee property [RDP], Attendee property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Attendee property [RDP],RDPSRAPIAttendeeDisconnectInfo object, IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Attendee property, IRDPSRAPIAttendeeDisconnectInfo.Attendee, IRDPSRAPIAttendeeDisconnectInfo.get_Attendee, IRDPSRAPIAttendeeDisconnectInfo::Attendee, IRDPSRAPIAttendeeDisconnectInfo::get_Attendee, RDPSRAPIAttendeeDisconnectInfo object [RDP],Attendee property, get_Attendee, rdp.irdpsrapiattendeedisconnectinfo_attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5bf0ae2e-504b-471b-bfc9-aa48f534e03f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [windows Media Format], IAMWMBufferPassCallback interface [windows Media Format],described, IAMWMBufferPassCallbackInterface, dshowasf/IAMWMBufferPassCallback, wmformat.iamwmbufferpasscallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2c795cbe-b587-42ef-9200-b7d0d972e7c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetCreationVersion method, ISyncChange.GetCreationVersion, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

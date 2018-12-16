@@ -9,8 +9,6 @@ ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

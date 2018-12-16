@@ -9,8 +9,6 @@ ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

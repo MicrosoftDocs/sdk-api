@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroot
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchRoots interface, IEnumSearchRoots interface [search],Clone method, IEnumSearchRoots.Clone, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

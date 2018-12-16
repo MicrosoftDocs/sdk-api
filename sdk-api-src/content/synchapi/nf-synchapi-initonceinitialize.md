@@ -9,8 +9,6 @@ ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

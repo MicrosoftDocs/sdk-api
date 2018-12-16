@@ -9,8 +9,6 @@ ms.assetid: c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_enableErrorDialogs method, IWMPSettings.put_enableErrorDialogs, IWMPSettings::put_enableErrorDialogs, IWMPSettingsput_enableErrorDialogs, put_enableErrorDialogs, put_enableErrorDialogs method [Windows Media Player], put_enableErrorDialogs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_enableerrordialogs, wmp/IWMPSettings::put_enableErrorDialogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

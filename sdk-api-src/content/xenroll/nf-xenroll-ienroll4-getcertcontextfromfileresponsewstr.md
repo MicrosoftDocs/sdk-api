@@ -9,8 +9,6 @@ ms.assetid: 04a57bd4-4e04-41eb-97c9-87bfb51be645
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromFileResponseWStr method, IEnroll4.getCertContextFromFileResponseWStr, IEnroll4::getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr method [Security], getCertContextFromFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromfileresponsewstr, xenroll/IEnroll4::getCertContextFromFileResponseWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

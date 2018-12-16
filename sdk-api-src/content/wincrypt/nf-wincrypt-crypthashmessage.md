@@ -9,8 +9,6 @@ ms.assetid: 85a04c01-fd7c-4d87-b6e1-a0f2aea45d16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptHashMessage, CryptHashMessage function [Security], _crypto2_crypthashmessage, security.crypthashmessage, wincrypt/CryptHashMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

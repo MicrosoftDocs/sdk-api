@@ -9,8 +9,6 @@ ms.assetid: 40468bf2-0e91-448b-a2e5-b84b786c67a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

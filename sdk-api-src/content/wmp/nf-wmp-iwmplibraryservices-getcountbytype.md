@@ -9,8 +9,6 @@ ms.assetid: e592fc2e-97d8-4d3c-bbef-7cbaa63a6909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibraryServices interface [Windows Media Player],getCountByType method, IWMPLibraryServices.getCountByType, IWMPLibraryServices::getCountByType, IWMPLibraryServicesgetCountByType, getCountByType, getCountByType method [Windows Media Player], getCountByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getcountbytype, wmp/IWMPLibraryServices::getCountByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

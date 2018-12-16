@@ -9,8 +9,6 @@ ms.assetid: D7D3A6D3-52DF-4634-A6FC-F5081E2E13B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ThreadingType, ThreadingType enumeration [Windows Runtime], ThreadingType_BOTH, ThreadingType_MTA, ThreadingType_STA, activationregistration/ThreadingType, activationregistration/ThreadingType_BOTH, activationregistration/ThreadingType_MTA, activationregistration/ThreadingType_STA, winrt.threadingtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

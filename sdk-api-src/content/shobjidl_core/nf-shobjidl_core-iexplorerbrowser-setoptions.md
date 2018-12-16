@@ -9,8 +9,6 @@ ms.assetid: b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetOptions method, IExplorerBrowser.SetOptions, IExplorerBrowser::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetOptions, shell.IExplorerBrowser_SetOptions, shobjidl_core/IExplorerBrowser::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

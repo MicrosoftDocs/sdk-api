@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEngrave method, ITextFont.SetEngrave, ITextFont::SetEngrave, SetEngrave, SetEngrave method [Windows Controls], SetEngrave method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEngrave, _win32_ITextFont_SetEngrave_cpp, controls.ITextFont_SetEngrave, controls._win32_ITextFont_SetEngrave, tom/ITextFont::SetEngrave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

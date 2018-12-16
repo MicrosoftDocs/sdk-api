@@ -9,8 +9,6 @@ ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

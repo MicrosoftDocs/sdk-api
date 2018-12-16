@@ -9,8 +9,6 @@ ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAServiceDescriptor.GetTag, IIsdbCAServiceDescriptor::GetTag, dvbsiparser/IIsdbCAServiceDescriptor::GetTag, mstv.iisdbcaservicedescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

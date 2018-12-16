@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDialog, EndDialog function [Dialog Boxes], _win32_EndDialog, _win32_enddialog_cpp, dlgbox.enddialog, winui._win32_enddialog, winuser/EndDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

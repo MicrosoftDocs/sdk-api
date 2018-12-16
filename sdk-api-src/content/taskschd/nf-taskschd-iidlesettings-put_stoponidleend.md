@@ -9,8 +9,6 @@ ms.assetid: 0799194f-dd3d-4aa6-b17b-0abe933f9b55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],StopOnIdleEnd property, IIdleSettings.StopOnIdleEnd, IIdleSettings.put_StopOnIdleEnd, IIdleSettings::StopOnIdleEnd, IIdleSettings::get_StopOnIdleEnd, IIdleSettings::put_StopOnIdleEnd, StopOnIdleEnd property [Task Scheduler], StopOnIdleEnd property [Task Scheduler],IIdleSettings interface, put_StopOnIdleEnd, taskschd.iidlesettings_stoponidleend, taskschd/IIdleSettings::StopOnIdleEnd, taskschd/IIdleSettings::get_StopOnIdleEnd, taskschd/IIdleSettings::put_StopOnIdleEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

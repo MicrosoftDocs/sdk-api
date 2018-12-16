@@ -9,8 +9,6 @@ ms.assetid: 1c8119ec-22ce-4405-8b30-8cb0c3e2f1c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],ServerWeight property, ITsSbEnvironment.ServerWeight, ITsSbEnvironment.get_ServerWeight, ITsSbEnvironment::ServerWeight, ITsSbEnvironment::get_ServerWeight, ServerWeight property [Remote Desktop Services], ServerWeight property [Remote Desktop Services],ITsSbEnvironment interface, get_ServerWeight, sbtsv/ITsSbEnvironment::ServerWeight, sbtsv/ITsSbEnvironment::get_ServerWeight, termserv.itssbenvironment_serverweight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

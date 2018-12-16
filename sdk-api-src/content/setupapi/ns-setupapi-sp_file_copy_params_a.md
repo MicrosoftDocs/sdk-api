@@ -9,8 +9,6 @@ ms.assetid: 4c4d418d-e279-40ea-9ec1-42ced523db34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSP_FILE_COPY_PARAMS_A, PSP_FILE_COPY_PARAMS, PSP_FILE_COPY_PARAMS structure pointer [Setup API], SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SP_FILE_COPY_PARAMS, SP_FILE_COPY_PARAMS structure [Setup API], SP_FILE_COPY_PARAMS_A, _setupapi_sp_file_copy_params, setup.sp_file_copy_params, setupapi/PSP_FILE_COPY_PARAMS, setupapi/SP_FILE_COPY_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

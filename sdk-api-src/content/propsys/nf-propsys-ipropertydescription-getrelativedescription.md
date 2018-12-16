@@ -9,8 +9,6 @@ ms.assetid: d98cc2de-8f1c-4827-99b9-2b770d1270e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRelativeDescription, GetRelativeDescription method [Windows Properties], GetRelativeDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescription method, IPropertyDescription.GetRelativeDescription, IPropertyDescription::GetRelativeDescription, properties.IPropertyDescription_GetRelativeDescription, propsys/IPropertyDescription::GetRelativeDescription, shell.IPropertyDescription_GetRelativeDescription, shell_IPropertyDescription_GetRelativeDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

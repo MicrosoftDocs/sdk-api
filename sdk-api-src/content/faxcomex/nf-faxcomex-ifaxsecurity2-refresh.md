@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\refresh.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity2 interface [Fax Service],Refresh method, IFaxSecurity2.Refresh, IFaxSecurity2::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxSecurity2 interface, _mfax_faxsecurity2.refresh, fax._mfax_faxsecurity2_cpp_mfax_faxsecurity2_refresh_cpp, fax._mfax_faxsecurity2_refresh, faxcomex/IFaxSecurity2::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

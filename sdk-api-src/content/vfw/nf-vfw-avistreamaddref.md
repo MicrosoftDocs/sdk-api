@@ -9,8 +9,6 @@ ms.assetid: 4d5e6b0f-6753-4ac0-b074-51016634cc10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamAddRef, AVIStreamAddRef function [Windows Multimedia], _win32_AVIStreamAddRef, multimedia.avistreamaddref, vfw/AVIStreamAddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

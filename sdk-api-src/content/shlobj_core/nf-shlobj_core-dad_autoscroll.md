@@ -9,8 +9,6 @@ ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

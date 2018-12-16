@@ -9,8 +9,6 @@ ms.assetid: f33c7223-da7d-4582-9a23-7dc34be97a9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstanceLic, CreateInstanceLic method [COM], CreateInstanceLic method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],CreateInstanceLic method, IClassFactory2.CreateInstanceLic, IClassFactory2::CreateInstanceLic, _com_iclassfactory2_createinstancelic, com.iclassfactory2_createinstancelic, ocidl/IClassFactory2::CreateInstanceLic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

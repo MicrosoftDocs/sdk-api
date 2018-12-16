@@ -9,8 +9,6 @@ ms.assetid: 451B8B33-4EA5-4BE3-A126-AAC01D35CE35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],CreateFontFace method, IDWriteFont3.CreateFontFace, IDWriteFont3::CreateFontFace, directwrite.idwritefont3_createfontface, dwrite_3/IDWriteFont3::CreateFontFace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

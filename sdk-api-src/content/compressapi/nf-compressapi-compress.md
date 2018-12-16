@@ -9,8 +9,6 @@ ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

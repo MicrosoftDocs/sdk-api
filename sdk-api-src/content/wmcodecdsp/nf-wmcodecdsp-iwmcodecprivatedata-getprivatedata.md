@@ -9,8 +9,6 @@ ms.assetid: 20e61bf6-f242-4f8e-84e6-f6158a0947bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation],IWMCodecPrivateData interface, IWMCodecPrivateData interface [Media Foundation],GetPrivateData method, IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/IWMCodecPrivateData::GetPrivateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

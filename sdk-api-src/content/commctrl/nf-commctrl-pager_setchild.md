@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\pager\macros\pager_setchild.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pager_SetChild, Pager_SetChild macro [Windows Controls], _win32_Pager_SetChild, _win32_Pager_SetChild_cpp, commctrl/Pager_SetChild, controls.Pager_SetChild, controls._win32_Pager_SetChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ca92c9e8-4d15-4b3c-8420-3eac18a7c2f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP structure [VDS], base.vds_iscsi_target_prop, vds/VDS_ISCSI_TARGET_PROP, vdshwprv/VDS_ISCSI_TARGET_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

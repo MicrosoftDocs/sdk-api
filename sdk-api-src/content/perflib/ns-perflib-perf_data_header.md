@@ -9,8 +9,6 @@ ms.assetid: 0B30B30A-2B2D-43D8-B6DD-58C70D54EB58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPERF_DATA_HEADER, PERF_DATA_HEADER, PERF_DATA_HEADER structure [Perf], PPERF_DATA_HEADER, PPERF_DATA_HEADER structure pointer [Perf], perf.perf_data_header, perflib/PERF_DATA_HEADER, perflib/PPERF_DATA_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 

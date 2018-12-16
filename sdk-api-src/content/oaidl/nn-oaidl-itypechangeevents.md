@@ -9,8 +9,6 @@ ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

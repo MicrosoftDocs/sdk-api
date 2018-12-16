@@ -9,8 +9,6 @@ ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

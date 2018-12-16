@@ -9,8 +9,6 @@ ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

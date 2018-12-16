@@ -9,8 +9,6 @@ ms.assetid: e29e626f-3e63-4c27-934b-64be51dcf3db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFont, IDWriteFont interface [Direct Write], IDWriteFont interface [Direct Write],described, directwrite.IDWriteFont, dwrite/IDWriteFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

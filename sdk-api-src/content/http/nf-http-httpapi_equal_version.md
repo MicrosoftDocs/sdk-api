@@ -9,8 +9,6 @@ ms.assetid: e6af7b3a-2e2f-4a50-bef6-9e5b6503cd71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9a61943a-8ff9-4504-b76f-25e3c5c8d4a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetUDPPortRanges method, IWMReaderNetworkConfig.SetUDPPortRanges, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

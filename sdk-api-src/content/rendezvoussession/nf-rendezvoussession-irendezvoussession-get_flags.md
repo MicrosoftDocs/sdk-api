@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistance],IRendezvousSession interface, IRendezvousSession interface [Remote Assistance],Flags property, IRendezvousSession.Flags, IRendezvousSession.get_Flags, IRendezvousSession::Flags, IRendezvousSession::get_Flags, get_Flags, remoteassist.remoteassist_IRendezvousSession_Flags, remoteassist_IRendezvousSession_Flags, rendezvoussession/IRendezvousSession::Flags, rendezvoussession/IRendezvousSession::get_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

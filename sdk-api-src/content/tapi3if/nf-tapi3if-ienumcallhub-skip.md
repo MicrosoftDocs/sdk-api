@@ -9,8 +9,6 @@ ms.assetid: 6650d0c7-d067-47fa-a597-c45924b03351
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Skip method, IEnumCallHub.Skip, IEnumCallHub::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_skip, tapi3.ienumcallhub_skip, tapi3if/IEnumCallHub::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

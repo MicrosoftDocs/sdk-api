@@ -9,8 +9,6 @@ ms.assetid: 1e43524c-1c6a-49fc-a962-e804e98454c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NAPPROPERTIES, NAPPROPERTIES enumeration [Network Policy Server], PROPERTY_NAP_POLICIES_COLLECTION, PROPERTY_SHV_TEMPLATES_COLLECTION, _sdo_napproperties, nps.SDO_napproperties, sdo.napproperties, sdoias/NAPPROPERTIES, sdoias/PROPERTY_NAP_POLICIES_COLLECTION, sdoias/PROPERTY_SHV_TEMPLATES_COLLECTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

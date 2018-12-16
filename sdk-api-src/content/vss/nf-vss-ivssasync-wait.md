@@ -9,8 +9,6 @@ ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 

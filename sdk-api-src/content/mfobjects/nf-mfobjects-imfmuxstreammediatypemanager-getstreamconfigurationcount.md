@@ -9,8 +9,6 @@ ms.assetid: 9591BFEC-DD25-41A8-9DA8-7F39158CB442
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamConfigurationCount, GetStreamConfigurationCount method [Media Foundation], GetStreamConfigurationCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfigurationCount method, IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount, IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount, mf.imfmuxstreammediatypemanager_getstreamconfigurationcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

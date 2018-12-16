@@ -9,8 +9,6 @@ ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathIsUNCServer, PathIsUNCServer function [Windows Shell], PathIsUNCServerA, PathIsUNCServerW, _win32_PathIsUNCServer, shell.PathIsUNCServer, shlwapi/PathIsUNCServer, shlwapi/PathIsUNCServerA, shlwapi/PathIsUNCServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

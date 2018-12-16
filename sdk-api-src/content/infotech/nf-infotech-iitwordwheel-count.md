@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

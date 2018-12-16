@@ -9,8 +9,6 @@ ms.assetid: 2381bf3e-37d3-460a-acb2-e2d59cd7d847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY_EX, PWLX_CHANGE_PASSWORD_NOTIFY_EX callback, WlxChangePasswordNotifyEx, WlxChangePasswordNotifyEx callback function [Security], _gina_wlxchangepasswordnotifyex, security.wlxchangepasswordnotifyex, winwlx/WlxChangePasswordNotifyEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

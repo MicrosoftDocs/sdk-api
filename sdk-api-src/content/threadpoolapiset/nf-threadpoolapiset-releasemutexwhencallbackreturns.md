@@ -9,8 +9,6 @@ ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReleaseMutexWhenCallbackReturns, ReleaseMutexWhenCallbackReturns function, base.releasemutexwhencallbackreturns, threadpoolapiset/ReleaseMutexWhenCallbackReturns, winbase/ReleaseMutexWhenCallbackReturns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

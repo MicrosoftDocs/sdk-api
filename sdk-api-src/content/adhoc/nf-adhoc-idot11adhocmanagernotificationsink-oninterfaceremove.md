@@ -9,8 +9,6 @@ ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 529FDC80-3B4D-4B9A-90D6-054B05E68367
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnapshotEncodingDataUri, SnapshotEncodingType, SnapshotEncodingType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotEncodingDataUri, rdpappcontainerclient/SnapshotEncodingType, termserv.snapshotencodingtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpappcontainerclient.h
 req.include-header: 

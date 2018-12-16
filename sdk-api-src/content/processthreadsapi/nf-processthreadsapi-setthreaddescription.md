@@ -9,8 +9,6 @@ ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

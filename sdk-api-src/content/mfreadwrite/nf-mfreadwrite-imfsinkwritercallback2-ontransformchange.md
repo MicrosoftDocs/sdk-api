@@ -9,8 +9,6 @@ ms.assetid: A0D93B37-1A74-486E-8A7C-6D909E2F25FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnTransformChange method, IMFSinkWriterCallback2.OnTransformChange, IMFSinkWriterCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSinkWriterCallback2 interface, mf.imfsinkwritercallback2_ontransformchange, mfreadwrite/IMFSinkWriterCallback2::OnTransformChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

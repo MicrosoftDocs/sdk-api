@@ -9,8 +9,6 @@ ms.assetid: e4d3da3c-3631-41c2-b463-a90cd54e42f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_NIT.GetRecordDescriptorByTag, IDVB_NIT::GetRecordDescriptorByTag, IDVB_NITGetRecordDescriptorByTag, dvbsiparser/IDVB_NIT::GetRecordDescriptorByTag, mstv.idvb_nit_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

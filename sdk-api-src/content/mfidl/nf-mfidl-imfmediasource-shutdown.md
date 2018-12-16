@@ -9,8 +9,6 @@ ms.assetid: c7f890a8-74bd-4418-bb02-a3fee62dec6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Shutdown method, IMFMediaSource.Shutdown, IMFMediaSource::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSource interface, c7f890a8-74bd-4418-bb02-a3fee62dec6d, mf.imfmediasource_shutdown, mfidl/IMFMediaSource::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

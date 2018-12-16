@@ -9,8 +9,6 @@ ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

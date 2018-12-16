@@ -9,8 +9,6 @@ ms.assetid: c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetFileProperty method, GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager.GetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager2::GetFileProperty, IFsrmClassificationManager::GetFileProperty, fs.ifsrmclassificationmanager_getfileproperty, fsrm.ifsrmclassificationmanager_getfileproperty, fsrmpipeline/IFsrmClassificationManager2::GetFileProperty, fsrmpipeline/IFsrmClassificationManager::GetFileProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

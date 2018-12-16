@@ -9,8 +9,6 @@ ms.assetid: 764dc583-62b4-41fc-98df-69a2f1a6fcf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 764dc583-62b4-41fc-98df-69a2f1a6fcf5, IInkRecognizerGuide interface [Tablet PC],Midline property, IInkRecognizerGuide.Midline, IInkRecognizerGuide.get_Midline, IInkRecognizerGuide::Midline, IInkRecognizerGuide::get_Midline, IInkRecognizerGuide::put_Midline, InkRecognizerGuide.get_Midline, InkRecognizerGuide.put_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognizerGuide interface, get_Midline, msinkaut/IInkRecognizerGuide::Midline, msinkaut/IInkRecognizerGuide::get_Midline, msinkaut/IInkRecognizerGuide::put_Midline, put_Midline, tablet.inkrecognizerguide_midline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

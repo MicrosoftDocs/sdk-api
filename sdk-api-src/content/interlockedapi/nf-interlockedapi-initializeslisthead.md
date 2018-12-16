@@ -9,8 +9,6 @@ ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializeslisthead, base.initializeslisthead, interlockedapi/InitializeSListHead, winbase/InitializeSListHead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

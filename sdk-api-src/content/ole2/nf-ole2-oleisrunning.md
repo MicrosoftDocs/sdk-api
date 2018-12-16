@@ -9,8 +9,6 @@ ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumMgmtObject interface, IVssEnumMgmtObject interface [VSS],Clone method, IVssEnumMgmtObject.Clone, IVssEnumMgmtObject::Clone, base.ivssenummgmtobject_clone, vsmgmt/IVssEnumMgmtObject::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

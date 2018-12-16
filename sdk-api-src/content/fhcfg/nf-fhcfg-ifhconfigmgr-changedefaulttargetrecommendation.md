@@ -9,8 +9,6 @@ ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API],FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr interface [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr.ChangeDefaultTargetRecommendation, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

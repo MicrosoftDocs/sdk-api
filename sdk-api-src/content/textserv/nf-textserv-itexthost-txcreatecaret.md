@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost interface [Windows Controls],TxCreateCaret method, ITextHost.TxCreateCaret, ITextHost::TxCreateCaret, TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a6d546bd-26ba-4f49-aeed-1f5462cc0bab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_WWN, VDS_WWN structure [VDS], base.vds_wwn, vds/VDS_WWN, vdshwprv/VDS_WWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

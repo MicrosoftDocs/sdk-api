@@ -9,8 +9,6 @@ ms.assetid: 789b2003-1538-4617-a44b-38b80320e21c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

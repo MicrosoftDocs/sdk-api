@@ -9,8 +9,6 @@ ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

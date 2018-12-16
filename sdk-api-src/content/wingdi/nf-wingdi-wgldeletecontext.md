@@ -9,8 +9,6 @@ ms.assetid: 51d4cce1-fd2d-436e-816b-b89d3cd66f3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ogl_wglDeleteContext, opengl.wgldeletecontext, wglDeleteContext, wglDeleteContext function [OpenGL], wingdi/wglDeleteContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

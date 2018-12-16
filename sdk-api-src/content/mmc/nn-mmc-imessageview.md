@@ -9,8 +9,6 @@ ms.assetid: e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMessageView, IMessageView interface [MMC], IMessageView interface [MMC],described, _slate_imessageview, mmc.imessageview, mmc/IMessageView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

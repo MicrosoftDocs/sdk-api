@@ -9,8 +9,6 @@ ms.assetid: 56ed44ee-44dd-4a56-a4cc-2983d4802773
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventDrivenCapable, GetEventDrivenCapable method [Remote Desktop Services], GetEventDrivenCapable method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetEventDrivenCapable method, IAudioDeviceEndpoint.GetEventDrivenCapable, IAudioDeviceEndpoint::GetEventDrivenCapable, audioengineendpoint/IAudioDeviceEndpoint::GetEventDrivenCapable, termserv.iaudiodeviceendpoint_geteventdrivencapable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

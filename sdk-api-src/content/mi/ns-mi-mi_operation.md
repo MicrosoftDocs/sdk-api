@@ -9,8 +9,6 @@ ms.assetid: a62b3656-c281-4f30-9690-de453df9f2db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Operation, MI_Operation structure [Windows Management Infrastructure (MI)], mi/MI_Operation, wmi_v2.mi_operation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D56B3B15-6437-46A3-B1F9-88F5BC4A9BB2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetClampOutput method, IDCompositionLinearTransferEffect.SetClampOutput, IDCompositionLinearTransferEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetClampOutput, directcomp.idcompositionlineartransfereffect_setclampoutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

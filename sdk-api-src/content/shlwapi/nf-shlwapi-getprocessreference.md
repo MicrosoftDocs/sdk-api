@@ -9,8 +9,6 @@ ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

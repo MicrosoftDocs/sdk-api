@@ -9,8 +9,6 @@ ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: E09D287B-7223-4CAF-B404-61FB6871B622
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSAFER_CODE_PROPERTIES_V1, PSAFER_CODE_PROPERTIES_V1, PSAFER_CODE_PROPERTIES_V1 structure pointer [Security], SAFER_CODE_PROPERTIES_V1, SAFER_CODE_PROPERTIES_V1  [Security] See also,SAFER_CODE_PROPERTIES  [Security], SAFER_CODE_PROPERTIES_V1 [Security], SAFER_CODE_PROPERTIES_V1 structure [Security], SAFER_CRITERIA_AUTHENTICODE, SAFER_CRITERIA_IMAGEHASH, SAFER_CRITERIA_IMAGEPATH, SAFER_CRITERIA_IMAGEPATH_NT, SAFER_CRITERIA_URLZONE, security.safer_code_properties_v1, winsafer/PSAFER_CODE_PROPERTIES_V1, winsafer/SAFER_CODE_PROPERTIES_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 20667a28-e6e0-4ec0-905b-6735291063db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableHTTP method, IWMReaderNetworkConfig.SetEnableHTTP, IWMReaderNetworkConfig::SetEnableHTTP, IWMReaderNetworkConfigSetEnableHTTP, SetEnableHTTP, SetEnableHTTP method [windows Media Format], SetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablehttp, wmsdkidl/IWMReaderNetworkConfig::SetEnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

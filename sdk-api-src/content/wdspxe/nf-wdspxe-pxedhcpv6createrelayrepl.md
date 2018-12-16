@@ -9,8 +9,6 @@ ms.assetid: 0FE31279-64CA-4B5E-87E4-6BD035A59A02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeDhcpv6CreateRelayRepl, PxeDhcpv6CreateRelayRepl function [Windows Deployment Services], wds.pxedhcpv6createrelayrepl, wdspxe/PxeDhcpv6CreateRelayRepl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4641f827-5408-4a4b-8454-41e960926621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalIPAddress method, IStaticPortMapping.get_ExternalIPAddress, IStaticPortMapping::get_ExternalIPAddress, _ics_istaticportmapping_get_externalipaddress, get_ExternalIPAddress, get_ExternalIPAddress method [ICS/ICF], get_ExternalIPAddress method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalipaddress, natupnp/IStaticPortMapping::get_ExternalIPAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

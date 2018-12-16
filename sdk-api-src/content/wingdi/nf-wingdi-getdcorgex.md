@@ -9,8 +9,6 @@ ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

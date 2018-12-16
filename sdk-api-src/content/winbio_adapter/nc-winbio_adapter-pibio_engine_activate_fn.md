@@ -9,8 +9,6 @@ ms.assetid: 0E98D887-A974-4B86-934E-939DEB1946DF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterActivate, EngineAdapterActivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACTIVATE_FN, PIBIO_ENGINE_ACTIVATE_FN callback, secbiomet.engineadapteractivate, winbio_adapter/EngineAdapterActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

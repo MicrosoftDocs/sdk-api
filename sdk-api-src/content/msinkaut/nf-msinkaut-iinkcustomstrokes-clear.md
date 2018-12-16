@@ -9,8 +9,6 @@ ms.assetid: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Clear method, IInkCustomStrokes.Clear, IInkCustomStrokes::Clear, msinkaut/IInkCustomStrokes::Clear, tablet.iinkcustomstrokes_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

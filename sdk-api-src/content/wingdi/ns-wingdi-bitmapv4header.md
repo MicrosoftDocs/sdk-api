@@ -9,8 +9,6 @@ ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

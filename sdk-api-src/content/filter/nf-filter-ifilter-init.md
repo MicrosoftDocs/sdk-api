@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFilter::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IFilter interface, _idxs_IFilter_Init, filter/IFilter::Init, indexsrv.ifilter_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filter.h
 req.include-header: 

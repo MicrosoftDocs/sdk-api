@@ -9,8 +9,6 @@ ms.assetid: 4fb27073-674c-4bac-9a62-6e33e1a5785e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 92406043-f4a4-43e4-9b17-087066823ce4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessControl interface [COM],SetOwner method, IAccessControl.SetOwner, IAccessControl::SetOwner, SetOwner, SetOwner method [COM], SetOwner method [COM],IAccessControl interface, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 

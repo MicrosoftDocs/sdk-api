@@ -9,8 +9,6 @@ ms.assetid: 3343a018-e974-4821-8b10-57194c29873b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],ItemByIndex property, IX509PolicyServerListManager.ItemByIndex, IX509PolicyServerListManager.get_ItemByIndex, IX509PolicyServerListManager::ItemByIndex, IX509PolicyServerListManager::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::ItemByIndex, certenroll/IX509PolicyServerListManager::get_ItemByIndex, get_ItemByIndex, security.ix509policyserverlistmanager_itembyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

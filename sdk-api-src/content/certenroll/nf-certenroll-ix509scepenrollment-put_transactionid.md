@@ -9,8 +9,6 @@ ms.assetid: f0688ce9-9c20-4726-ae15-69285c3b30f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],TransactionId property, IX509SCEPEnrollment.TransactionId, IX509SCEPEnrollment.put_TransactionId, IX509SCEPEnrollment::TransactionId, IX509SCEPEnrollment::get_TransactionId, IX509SCEPEnrollment::put_TransactionId, TransactionId property [Security], TransactionId property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::TransactionId, certenroll/IX509SCEPEnrollment::get_TransactionId, certenroll/IX509SCEPEnrollment::put_TransactionId, put_TransactionId, security.ix509scepenrollment_transactionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

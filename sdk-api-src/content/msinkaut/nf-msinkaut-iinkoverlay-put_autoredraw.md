@@ -9,8 +9,6 @@ ms.assetid: b6e7c212-5d1d-41c2-85ee-24365c2246cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],AutoRedraw property, IInkOverlay.AutoRedraw, IInkOverlay.put_AutoRedraw, IInkOverlay::AutoRedraw, IInkOverlay::get_AutoRedraw, IInkOverlay::put_AutoRedraw, InkOverlay.get_AutoRedraw, InkOverlay.put_AutoRedraw, msinkaut/IInkOverlay::AutoRedraw, msinkaut/IInkOverlay::get_AutoRedraw, msinkaut/IInkOverlay::put_AutoRedraw, put_AutoRedraw, tablet.inkoverlay_autoredraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

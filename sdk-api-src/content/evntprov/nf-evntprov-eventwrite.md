@@ -9,8 +9,6 @@ ms.assetid: 93070eb7-c167-4419-abff-e861877dad07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventWrite, EventWrite function [ETW], base.eventwrite_func, etw.eventwrite_func, evntprov/EventWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

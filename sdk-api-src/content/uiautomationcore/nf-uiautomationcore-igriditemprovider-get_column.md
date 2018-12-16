@@ -9,8 +9,6 @@ ms.assetid: 51a53a29-70eb-4838-bb18-bfaca2cef467
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Column property [Windows Accessibility], Column property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],Column property, IGridItemProvider.Column, IGridItemProvider.get_Column, IGridItemProvider::Column, IGridItemProvider::get_Column, get_Column, uiauto.uiauto_IGridItemProvider_Column, uiauto_IGridItemProvider_Column, uiautomationcore/IGridItemProvider::Column, uiautomationcore/IGridItemProvider::get_Column, winauto.uiauto_IGridItemProvider_Column
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

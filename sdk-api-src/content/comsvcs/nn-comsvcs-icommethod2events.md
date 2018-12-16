@@ -9,8 +9,6 @@ ms.assetid: e0642cb2-d5f2-4e4b-ad35-7818983ed467
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2Events interface [COM+],described, _dtc_IComMethod2Events, comsvcs/IComMethod2Events, cos.icommethod2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

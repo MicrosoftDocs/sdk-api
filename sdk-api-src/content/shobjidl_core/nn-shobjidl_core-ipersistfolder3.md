@@ -9,8 +9,6 @@ ms.assetid: 77a10997-1512-41ee-a84c-f3fa2e500d20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersistFolder3 interface [Windows Shell],described, _win32_IPersistFolder3, shell.IPersistFolder3, shobjidl_core/IPersistFolder3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

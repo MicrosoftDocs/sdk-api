@@ -9,8 +9,6 @@ ms.assetid: d8c716fe-6731-4b54-9b4b-3b0f896f176b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSampleTimes, GetSampleTimes method [DirectShow], GetSampleTimes method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetSampleTimes method, IStreamSample.GetSampleTimes, IStreamSample::GetSampleTimes, IStreamSampleGetSampleTimes, dshow.istreamsample_getsampletimes, mmstream/IStreamSample::GetSampleTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

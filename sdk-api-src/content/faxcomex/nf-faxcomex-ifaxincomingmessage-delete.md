@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_025h.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [Fax Service], Delete method [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],Delete method, IFaxIncomingMessage.Delete, IFaxIncomingMessage::Delete, _mfax_faxincomingmessage.delete, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_delete_cpp, fax._mfax_faxincomingmessage_delete, faxcomex/IFaxIncomingMessage::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

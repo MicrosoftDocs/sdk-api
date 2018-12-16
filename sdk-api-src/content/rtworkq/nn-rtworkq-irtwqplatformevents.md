@@ -9,8 +9,6 @@ ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rtworkq.h
 req.include-header: 

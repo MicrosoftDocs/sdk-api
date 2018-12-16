@@ -9,8 +9,6 @@ ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

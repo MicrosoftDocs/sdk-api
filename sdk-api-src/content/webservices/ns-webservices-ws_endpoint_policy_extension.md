@@ -9,8 +9,6 @@ ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION, WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION, wsw.ws_endpoint_policy_extension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

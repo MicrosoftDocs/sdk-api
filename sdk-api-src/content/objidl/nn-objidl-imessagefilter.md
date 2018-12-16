@@ -9,8 +9,6 @@ ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

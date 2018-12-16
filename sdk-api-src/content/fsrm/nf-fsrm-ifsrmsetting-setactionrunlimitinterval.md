@@ -9,8 +9,6 @@ ms.assetid: 4cd4d583-2906-4ba0-b113-c21db143dec2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting interface [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting.SetActionRunLimitInterval, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

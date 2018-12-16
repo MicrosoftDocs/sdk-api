@@ -9,8 +9,6 @@ ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamAttribute method, IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

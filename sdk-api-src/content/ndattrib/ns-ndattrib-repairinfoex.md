@@ -9,8 +9,6 @@ ms.assetid: 9357f463-946c-47ad-bb8d-ff9de210e7e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [NDF], RepairInfoEx, RepairInfoEx structure [NDF], ndattrib/PRepairInfoEx, ndattrib/RepairInfoEx, ndf.repairinfoex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

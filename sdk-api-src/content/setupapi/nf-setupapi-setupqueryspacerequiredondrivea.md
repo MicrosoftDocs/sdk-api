@@ -9,8 +9,6 @@ ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

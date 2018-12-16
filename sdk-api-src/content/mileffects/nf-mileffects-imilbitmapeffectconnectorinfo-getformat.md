@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormat, GetFormat method [WPF Bitmap Effects], GetFormat method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetFormat method, IMILBitmapEffectConnectorInfo.GetFormat, IMILBitmapEffectConnectorInfo::GetFormat, _wibe_imilbitmapeffectconnectorinfo_getformat, mileffects/IMILBitmapEffectConnectorInfo::GetFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMINT3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMINT3, XMINT3 structure [DirectX Math Support APIs], directxmath/XMINT3, dxmath.xmint3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 

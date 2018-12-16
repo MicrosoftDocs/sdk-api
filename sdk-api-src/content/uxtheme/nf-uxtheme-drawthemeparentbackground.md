@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackground.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Windows Controls], controls.DrawThemeParentBackground, controls.inet_DrawThemeParentBackground, inet_DrawThemeParentBackground, inet_DrawThemeParentBackground_cpp, uxtheme/DrawThemeParentBackground
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

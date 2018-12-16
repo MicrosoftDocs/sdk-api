@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRID_DEVICE_INFO_MOUSE, PRID_DEVICE_INFO_MOUSE, PRID_DEVICE_INFO_MOUSE structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_MOUSE, RID_DEVICE_INFO_MOUSE structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_MOUSE_str, _win32_rid_device_info_mouse_str_cpp, inputdev.rid_device_info_mouse, winui._win32_rid_device_info_mouse_str, winuser/PRID_DEVICE_INFO_MOUSE, winuser/RID_DEVICE_INFO_MOUSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

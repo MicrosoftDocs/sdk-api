@@ -9,8 +9,6 @@ ms.assetid: a3bdb4b1-8479-484f-92db-2b73a0c40bfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],startBackgroundProcessing method, IWMPSubscriptionService.startBackgroundProcessing, IWMPSubscriptionService::startBackgroundProcessing, IWMPSubscriptionServicestartBackgroundProcessing, startBackgroundProcessing, startBackgroundProcessing method [Windows Media Player], startBackgroundProcessing method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing, wmp.iwmpsubscriptionservice_startbackgroundprocessing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 

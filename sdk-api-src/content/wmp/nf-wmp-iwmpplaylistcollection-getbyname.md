@@ -9,8 +9,6 @@ ms.assetid: 9d837c57-8612-47ef-a0fa-a3ffa77ac704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getByName method, IWMPPlaylistCollection.getByName, IWMPPlaylistCollection::getByName, IWMPPlaylistCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getbyname, wmp/IWMPPlaylistCollection::getByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

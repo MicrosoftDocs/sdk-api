@@ -9,8 +9,6 @@ ms.assetid: 8F97E69B-5534-409F-9702-9FC6D7940D65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [DXGI], GetNumMessagesDiscardedByMessageCountLimit method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDiscardedByMessageCountLimit method, IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit, IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3ddxgi.idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit, dxgidebug/IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

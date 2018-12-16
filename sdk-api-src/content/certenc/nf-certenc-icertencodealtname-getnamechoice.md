@@ -9,8 +9,6 @@ ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

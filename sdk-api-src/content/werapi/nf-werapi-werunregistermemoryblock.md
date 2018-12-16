@@ -9,8 +9,6 @@ ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

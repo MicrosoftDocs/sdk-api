@@ -9,8 +9,6 @@ ms.assetid: b83e6f87-be79-4743-bc52-b9310853c4f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PATHOBJ_vEnumStart, PATHOBJ_vEnumStart function [Display Devices], display.pathobj_venumstart, gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml, winddi/PATHOBJ_vEnumStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

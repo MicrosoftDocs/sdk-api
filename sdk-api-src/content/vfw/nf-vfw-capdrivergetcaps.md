@@ -9,8 +9,6 @@ ms.assetid: 2ca3a1b1-1d88-480f-b079-82da111c4565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

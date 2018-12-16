@@ -9,8 +9,6 @@ ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9FDC1B01-4768-4621-9B0E-6EC9AB4275A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],SetHomeProvider method, IMbnMultiCarrier.SetHomeProvider, IMbnMultiCarrier::SetHomeProvider, SetHomeProvider, SetHomeProvider method [Microsoft Broadband Networks], SetHomeProvider method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_sethomeprovider, mbnapi/IMbnMultiCarrier::SetHomeProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

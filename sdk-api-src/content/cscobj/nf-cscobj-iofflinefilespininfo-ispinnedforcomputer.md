@@ -9,8 +9,6 @@ ms.assetid: 67d2c444-2498-4848-a4fb-8cae5ff77eaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForComputer method, IOfflineFilesPinInfo.IsPinnedForComputer, IOfflineFilesPinInfo::IsPinnedForComputer, IsPinnedForComputer, IsPinnedForComputer method [Offline Files], IsPinnedForComputer method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForComputer, of.iofflinefilespininfo_ispinnedforcomputer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

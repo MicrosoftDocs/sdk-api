@@ -9,8 +9,6 @@ ms.assetid: 3a3c99e5-9a73-4688-8192-baee0078c17c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ACTCTX_COMPATIBILITY_ELEMENT_TYPE, ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration [Side-by-side Assemblies], ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN, setup.actctx_compatibility_element_type, winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

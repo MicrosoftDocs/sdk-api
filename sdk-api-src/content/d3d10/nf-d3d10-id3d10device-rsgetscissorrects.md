@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_rsgetscissorrects.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6718274a-41d0-5a45-3471-07f2693cff9f, ID3D10Device interface [Direct3D 10],RSGetScissorRects method, ID3D10Device.RSGetScissorRects, ID3D10Device::RSGetScissorRects, RSGetScissorRects, RSGetScissorRects method [Direct3D 10], RSGetScissorRects method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetScissorRects, direct3d10.id3d10device_rsgetscissorrects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

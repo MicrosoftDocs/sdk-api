@@ -9,8 +9,6 @@ ms.assetid: DBABC959-0692-4DB9-9726-AFE6972A6B52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResourceBindingDesc, GetResourceBindingDesc method, GetResourceBindingDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetResourceBindingDesc method, ID3D12FunctionReflection.GetResourceBindingDesc, ID3D12FunctionReflection::GetResourceBindingDesc, d3d12shader/ID3D12FunctionReflection::GetResourceBindingDesc, direct3d12.id3d12functionreflection_getresourcebindingdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

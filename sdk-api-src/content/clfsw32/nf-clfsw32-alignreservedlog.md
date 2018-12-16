@@ -9,8 +9,6 @@ ms.assetid: 1ac8ecc7-a937-40cb-8a8b-8b168d9fce61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AlignReservedLog, AlignReservedLog function [Files], clfsw32/AlignReservedLog, fs.alignreservedlog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

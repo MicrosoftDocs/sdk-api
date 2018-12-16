@@ -9,8 +9,6 @@ ms.assetid: 857111cc-f590-4383-994c-a72402f8a4aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCounter, CreateCounter method [Direct3D 11], CreateCounter method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateCounter method, ID3D11Device.CreateCounter, ID3D11Device::CreateCounter, ac3cd491-a912-ddaf-0f13-ac5555a100ca, d3d11/ID3D11Device::CreateCounter, direct3d11.id3d11device_createcounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

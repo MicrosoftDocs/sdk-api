@@ -9,8 +9,6 @@ ms.assetid: f5ebcf96-d008-448e-852b-39bdf1f39c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [DirectShow], GetOutputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputCurrentType method, IMediaObject.GetOutputCurrentType, IMediaObject::GetOutputCurrentType, IMediaObjectGetOutputCurrentType, dshow.imediaobject_getoutputcurrenttype, mediaobj/IMediaObject::GetOutputCurrentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

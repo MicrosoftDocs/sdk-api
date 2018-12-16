@@ -9,8 +9,6 @@ ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

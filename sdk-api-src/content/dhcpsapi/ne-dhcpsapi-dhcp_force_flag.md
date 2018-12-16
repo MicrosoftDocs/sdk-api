@@ -9,8 +9,6 @@ ms.assetid: 2ec45a99-432d-4218-9048-81714ceff36b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_FORCE_FLAG, DHCP_FORCE_FLAG, DHCP_FORCE_FLAG enumeration [DHCP], DhcpFailoverForce, DhcpFullForce, DhcpNoForce, LPDHCP_FORCE_FLAG, LPDHCP_FORCE_FLAG enumeration pointer [DHCP], dhcp.dhcp_force_flag, dhcpsapi/DHCP_FORCE_FLAG, dhcpsapi/DhcpFailoverForce, dhcpsapi/DhcpFullForce, dhcpsapi/DhcpNoForce, dhcpsapi/LPDHCP_FORCE_FLAG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

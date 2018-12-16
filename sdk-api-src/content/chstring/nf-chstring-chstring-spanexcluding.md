@@ -9,8 +9,6 @@ ms.assetid: 5ddadf16-0177-4f96-a5ca-e1b8891473e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcluding method, CHString.SpanExcluding, CHString::SpanExcluding, SpanExcluding, SpanExcluding method [Windows Management Instrumentation], SpanExcluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanexcluding, chstring/CHString::SpanExcluding, wmi.chstring_spanexcluding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

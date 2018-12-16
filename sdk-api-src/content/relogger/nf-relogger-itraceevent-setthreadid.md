@@ -9,8 +9,6 @@ ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

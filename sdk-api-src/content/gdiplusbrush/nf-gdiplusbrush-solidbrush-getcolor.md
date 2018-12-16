@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],GetColor method, SolidBrush.GetColor, SolidBrush::GetColor, _gdiplus_CLASS_SolidBrush_GetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_GetColor_color_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

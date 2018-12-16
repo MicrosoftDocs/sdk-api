@@ -9,8 +9,6 @@ ms.assetid: 26b75edc-eb43-4ee0-8040-da8b3252cf21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], IUpdateServiceManager2 interface [Windows Update Agent],described, wua.iupdateservicemanager2, wuapi/IUpdateServiceManager2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

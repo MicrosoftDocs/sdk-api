@@ -9,8 +9,6 @@ ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllEncodeAlgorithm, CryptXmlDllEncodeAlgorithm callback, CryptXmlDllEncodeAlgorithm callback function [Security], cryptxml/CryptXmlDllEncodeAlgorithm, security.cryptxmldllencodealgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

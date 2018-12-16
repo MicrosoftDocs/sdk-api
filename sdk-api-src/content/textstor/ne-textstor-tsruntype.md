@@ -9,8 +9,6 @@ ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enumeration [Text Services Framework], _tsf_tsruntype_ref, textstor/TS_RT_HIDDEN, textstor/TS_RT_OPAQUE, textstor/TS_RT_PLAIN, textstor/TsRunType, tsf.tsruntype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 

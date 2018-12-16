@@ -9,8 +9,6 @@ ms.assetid: da78b4ed-17e3-4953-9e5e-310e55349058
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsAdmin interface [VDS],UnregisterProvider method, IVdsAdmin.UnregisterProvider, IVdsAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VDS], UnregisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_unregisterprovider, vdshwprv/IVdsAdmin::UnregisterProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

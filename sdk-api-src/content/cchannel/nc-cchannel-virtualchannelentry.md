@@ -9,8 +9,6 @@ ms.assetid: 1fd185fb-6dc9-4b32-9fa7-15ef76776305
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VirtualChannelEntry, VirtualChannelEntry callback, VirtualChannelEntry callback function [Remote Desktop Services], _win32_virtualchannelentry, cchannel/VirtualChannelEntry, termserv.virtualchannelentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

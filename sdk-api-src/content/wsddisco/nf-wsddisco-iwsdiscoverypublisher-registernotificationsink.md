@@ -9,8 +9,6 @@ ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

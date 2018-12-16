@@ -9,8 +9,6 @@ ms.assetid: ed3046ad-b987-479a-a2ba-d761b2d83c86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordItemRawBytes, GetRecordItemRawBytes method [Microsoft TV Technologies], GetRecordItemRawBytes method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemRawBytes method, IDvbExtendedEventDescriptor.GetRecordItemRawBytes, IDvbExtendedEventDescriptor::GetRecordItemRawBytes, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes, mstv.idvbextendedeventdescriptor_getrecorditemrawbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

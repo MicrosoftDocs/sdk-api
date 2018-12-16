@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iabcontainer\iabcontainer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABContainer interface [Windows Address Book],described, _wab_IABContainer, wab._wab_IABContainer, wabdefs/IABContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wabdefs.h
 req.include-header: 

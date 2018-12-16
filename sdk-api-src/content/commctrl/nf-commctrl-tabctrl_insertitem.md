@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_insertitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_InsertItem, TabCtrl_InsertItem macro [Windows Controls], _win32_TabCtrl_InsertItem, _win32_TabCtrl_InsertItem_cpp, commctrl/TabCtrl_InsertItem, controls.TabCtrl_InsertItem, controls._win32_TabCtrl_InsertItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

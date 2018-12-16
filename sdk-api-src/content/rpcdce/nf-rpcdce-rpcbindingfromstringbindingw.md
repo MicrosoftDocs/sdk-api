@@ -9,8 +9,6 @@ ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

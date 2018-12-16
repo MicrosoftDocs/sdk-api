@@ -9,8 +9,6 @@ ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

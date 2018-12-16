@@ -9,8 +9,6 @@ ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutg
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingMessageAdded, OnOutgoingMessageAdded, OnOutgoingMessageAdded method [Fax Service], OnOutgoingMessageAdded method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingMessageAdded method, _IFaxAccountNotify.OnOutgoingMessageAdded, _IFaxAccountNotify::OnOutgoingMessageAdded, _mfax_ifaxaccountnotify_onoutgoingmessageadded, fax._mfax_ifaxaccountnotify_onoutgoingmessageadded, faxcomex/_IFaxAccountNotify::OnOutgoingMessageAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

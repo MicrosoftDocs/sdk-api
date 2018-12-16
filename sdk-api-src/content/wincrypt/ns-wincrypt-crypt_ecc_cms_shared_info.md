@@ -9,8 +9,6 @@ ms.assetid: 858dbf61-5c4f-4bd6-b47c-0a1379119693
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO structure [Security], CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH, PCRYPT_ECC_CMS_SHARED_INFO, PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security], security.crypt_ecc_cms_shared_info, wincrypt/CRYPT_ECC_CMS_SHARED_INFO, wincrypt/PCRYPT_ECC_CMS_SHARED_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

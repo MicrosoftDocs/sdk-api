@@ -9,8 +9,6 @@ ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition.get_Type, IFsrmPropertyDefinition::Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, get_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

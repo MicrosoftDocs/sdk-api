@@ -9,8 +9,6 @@ ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

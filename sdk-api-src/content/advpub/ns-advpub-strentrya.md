@@ -9,8 +9,6 @@ ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 

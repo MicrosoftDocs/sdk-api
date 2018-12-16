@@ -9,8 +9,6 @@ ms.assetid: f30392f6-7100-43dd-ab20-419cd02d9ea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzApplication object, AddDelegatedPolicyUserName method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUserName method, IAzApplication interface [Security],AddDelegatedPolicyUserName method, IAzApplication.AddDelegatedPolicyUserName, IAzApplication::AddDelegatedPolicyUserName, azroles/IAzApplication::AddDelegatedPolicyUserName, security.iazapplication_adddelegatedpolicyusername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

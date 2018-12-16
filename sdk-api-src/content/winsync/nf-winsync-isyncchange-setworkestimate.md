@@ -9,8 +9,6 @@ ms.assetid: 2f26cc10-ff0c-448e-a174-edca0b0b2e10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncChange interface [Windows Sync],SetWorkEstimate method, ISyncChange.SetWorkEstimate, ISyncChange::SetWorkEstimate, SetWorkEstimate, SetWorkEstimate method [Windows Sync], SetWorkEstimate method [Windows Sync],ISyncChange interface, winsync.isyncchange_setworkestimate, winsync/ISyncChange::SetWorkEstimate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

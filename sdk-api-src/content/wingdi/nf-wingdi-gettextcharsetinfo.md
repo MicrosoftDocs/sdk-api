@@ -9,8 +9,6 @@ ms.assetid: 1c8c114a-b261-457c-b541-4648a8f38ee8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextCharsetInfo, GetTextCharsetInfo function [Internationalization for Windows Applications], _win32_GetTextCharsetInfo, intl.gettextcharsetinfo, wingdi/GetTextCharsetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

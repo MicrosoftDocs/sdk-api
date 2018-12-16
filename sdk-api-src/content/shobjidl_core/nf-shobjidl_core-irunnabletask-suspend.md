@@ -9,8 +9,6 @@ ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 38467491-c432-456a-9128-723fc7dde189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIdentityString, GetIdentityString method [Windows Accessibility], GetIdentityString method [Windows Accessibility],IAccIdentity interface, IAccIdentity interface [Windows Accessibility],GetIdentityString method, IAccIdentity.GetIdentityString, IAccIdentity::GetIdentityString, _msaa_IAccIdentity_GetIdentityString, msaa.iaccidentity_iaccidentity__getidentitystring, oleacc/IAccIdentity::GetIdentityString, winauto.iaccidentity_iaccidentity__getidentitystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

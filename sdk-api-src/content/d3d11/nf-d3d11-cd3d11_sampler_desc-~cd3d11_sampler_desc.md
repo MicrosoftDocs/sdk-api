@@ -9,8 +9,6 @@ ms.assetid: 046C9BA3-5EC0-42D4-99F9-38BA7319519C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_SAMPLER_DESC interface [Direct3D 11],~CD3D11_SAMPLER_DESC destructor, CD3D11_SAMPLER_DESC.~CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC(), d3d11/CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC, direct3d11.cd3d11_sampler_desc__cd3d11_sampler_desc__, ~CD3D11_SAMPLER_DESC, ~CD3D11_SAMPLER_DESC destructor [Direct3D 11], ~CD3D11_SAMPLER_DESC destructor [Direct3D 11],CD3D11_SAMPLER_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

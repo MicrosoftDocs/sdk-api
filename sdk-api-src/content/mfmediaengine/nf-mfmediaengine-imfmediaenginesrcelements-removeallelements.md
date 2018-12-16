@@ -9,8 +9,6 @@ ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Button_Enable, _win32_Button_Enable_cpp, controls.Button_Enable, controls._win32_Button_Enable, windowsx/Button_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

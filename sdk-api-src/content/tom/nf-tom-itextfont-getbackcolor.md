@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBackColor, GetBackColor method [Windows Controls], GetBackColor method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetBackColor method, ITextFont.GetBackColor, ITextFont::GetBackColor, _win32_ITextFont_GetBackColor, _win32_ITextFont_GetBackColor_cpp, controls.ITextFont_GetBackColor, controls._win32_ITextFont_GetBackColor, tom/ITextFont::GetBackColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

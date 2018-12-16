@@ -9,8 +9,6 @@ ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],IsVisible method, IMathInputControl.IsVisible, IMathInputControl::IsVisible, IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

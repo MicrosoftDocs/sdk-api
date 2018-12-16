@@ -9,8 +9,6 @@ ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

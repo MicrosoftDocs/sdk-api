@@ -9,8 +9,6 @@ ms.assetid: 9f41c273-d56a-4e8f-aa9f-e2a49741f7e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameISO9660 method, IFileSystemImage.get_VolumeNameISO9660, IFileSystemImage::get_VolumeNameISO9660, get_VolumeNameISO9660, get_VolumeNameISO9660 method [IMAPI], get_VolumeNameISO9660 method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameiso9660, imapi2fs/IFileSystemImage::get_VolumeNameISO9660
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

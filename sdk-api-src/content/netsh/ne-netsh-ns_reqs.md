@@ -9,8 +9,6 @@ ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], netsh/NS_REQS, netshell.ns_reqs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: netsh.h
 req.include-header: 

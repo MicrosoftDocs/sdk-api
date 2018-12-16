@@ -9,8 +9,6 @@ ms.assetid: 604c4d7a-1f85-4e5b-9879-be502c5c7bff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, ICommonQuery interface [Active Directory],OpenQueryWindow method, ICommonQuery.OpenQueryWindow, ICommonQuery::OpenQueryWindow, OpenQueryWindow, OpenQueryWindow method [Active Directory], OpenQueryWindow method [Active Directory],ICommonQuery interface, _glines_icommonquery_openquerywindow, ad.icommonquery__openquerywindow, ad.icommonquery_openquerywindow, cmnquery/ICommonQuery::OpenQueryWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 

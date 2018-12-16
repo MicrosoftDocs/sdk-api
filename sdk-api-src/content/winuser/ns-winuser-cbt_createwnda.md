@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCBT_CREATEWNDA, CBT_CREATEWND, CBT_CREATEWND structure [Windows and Messages], CBT_CREATEWNDA, CBT_CREATEWNDW, LPCBT_CREATEWND, LPCBT_CREATEWND structure pointer [Windows and Messages], _win32_CBT_CREATEWND_str, _win32_cbt_createwnd_str_cpp, winmsg.cbt_createwnd, winui._win32_cbt_createwnd_str, winuser/CBT_CREATEWND, winuser/CBT_CREATEWNDA, winuser/CBT_CREATEWNDW, winuser/LPCBT_CREATEWND"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

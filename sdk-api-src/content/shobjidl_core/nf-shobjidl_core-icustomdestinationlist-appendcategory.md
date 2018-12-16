@@ -9,8 +9,6 @@ ms.assetid: 091a2b28-b4cf-46a9-845a-46b5aa86522d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendCategory, AppendCategory method [Windows Shell], AppendCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendCategory method, ICustomDestinationList.AppendCategory, ICustomDestinationList::AppendCategory, _shell_ICustomDestinationList_AppendCategory, shell.ICustomDestinationList_AppendCategory, shobjidl_core/ICustomDestinationList::AppendCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

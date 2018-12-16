@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_1vot.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FAX_SMTP_AUTHENTICATION_TYPE_ENUM, FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration [Fax Service], _mfax_fax_smtp_authentication_type_enum, fax._mfax_fax_smtp_authentication_type_enum, faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM, faxcomex/fsatANONYMOUS, faxcomex/fsatBASIC, faxcomex/fsatNTLM, fsatANONYMOUS, fsatBASIC, fsatNTLM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

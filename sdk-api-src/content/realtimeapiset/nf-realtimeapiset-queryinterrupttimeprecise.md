@@ -9,8 +9,6 @@ ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 78496DA1-1C8F-4C63-83E1-45FC0BC80779
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsole interface [MMC],NewWindow method, IConsole.NewWindow, IConsole::NewWindow, MMC_NW_OPTION_CUSTOMTITLE, MMC_NW_OPTION_NONE, MMC_NW_OPTION_NOPERSIST, MMC_NW_OPTION_NOSCOPEPANE, MMC_NW_OPTION_NOTOOLBARS, MMC_NW_OPTION_SHORTTITLE, NewWindow, NewWindow method [MMC], NewWindow method [MMC],IConsole interface, mmc.iconsole_newwindow, mmc/IConsole::NewWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

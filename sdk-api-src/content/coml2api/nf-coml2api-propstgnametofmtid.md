@@ -9,8 +9,6 @@ ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h

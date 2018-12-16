@@ -9,8 +9,6 @@ ms.assetid: 2ed030cf-6d26-4bde-8d63-83fd6848ec0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

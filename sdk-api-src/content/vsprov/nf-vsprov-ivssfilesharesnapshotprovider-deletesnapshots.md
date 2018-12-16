@@ -9,8 +9,6 @@ ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],DeleteSnapshots method, IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

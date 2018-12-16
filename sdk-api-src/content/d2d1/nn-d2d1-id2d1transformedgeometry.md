@@ -9,8 +9,6 @@ ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

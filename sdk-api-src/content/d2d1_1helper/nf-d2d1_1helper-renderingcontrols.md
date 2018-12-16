@@ -9,8 +9,6 @@ ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

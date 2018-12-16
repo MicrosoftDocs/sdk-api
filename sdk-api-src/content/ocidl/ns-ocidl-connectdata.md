@@ -9,8 +9,6 @@ ms.assetid: 23312f89-2985-402d-aae4-cd7388137153
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCONNECTDATA, *PCONNECTDATA, CONNECTDATA, CONNECTDATA structure [COM], LPCONNECTDATA, LPCONNECTDATA structure pointer [COM], PCONNECTDATA, PCONNECTDATA structure pointer [COM], _com_CONNECTDATA, com.connectdata, ocidl/CONNECTDATA, ocidl/LPCONNECTDATA, ocidl/PCONNECTDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

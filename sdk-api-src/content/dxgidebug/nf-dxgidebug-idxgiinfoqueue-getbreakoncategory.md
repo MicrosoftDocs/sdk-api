@@ -9,8 +9,6 @@ ms.assetid: 12099FA2-2801-45E7-98C3-5A29F5764B8D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [DXGI], GetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnCategory method, IDXGIInfoQueue.GetBreakOnCategory, IDXGIInfoQueue::GetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_getbreakoncategory, dxgidebug/IDXGIInfoQueue::GetBreakOnCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentProperties method, ISearchQueryHelper.put_QueryContentProperties, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

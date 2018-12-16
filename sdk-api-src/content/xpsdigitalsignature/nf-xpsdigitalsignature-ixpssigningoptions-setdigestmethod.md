@@ -9,8 +9,6 @@ ms.assetid: d9f72cc4-38b2-4a91-8813-183483d47986
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetDigestMethod method, IXpsSigningOptions.SetDigestMethod, IXpsSigningOptions::SetDigestMethod, SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

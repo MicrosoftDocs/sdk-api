@@ -9,8 +9,6 @@ ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecFromBool, VarDecFromBool function [Automation], _oa96_VarDecFromBool, automat.vardecfrombool, oleauto/VarDecFromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

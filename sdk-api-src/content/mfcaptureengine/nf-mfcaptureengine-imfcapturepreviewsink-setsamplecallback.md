@@ -9,8 +9,6 @@ ms.assetid: 0E14E3E4-25C7-4FCA-B220-20E346E66933
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetSampleCallback method, IMFCapturePreviewSink.SetSampleCallback, IMFCapturePreviewSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setsamplecallback, mfcaptureengine/IMFCapturePreviewSink::SetSampleCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

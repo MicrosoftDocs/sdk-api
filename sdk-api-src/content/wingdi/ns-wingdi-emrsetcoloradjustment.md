@@ -9,8 +9,6 @@ ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

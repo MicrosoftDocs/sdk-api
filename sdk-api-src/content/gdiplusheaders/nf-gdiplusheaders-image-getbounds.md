@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Image class, Image class [GDI+],GetBounds method, Image.GetBounds, Image::GetBounds, _gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_, gdiplus._gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 1E008D8E-B28A-4E79-9653-587DF0CB5DD7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomLeftRadiusX, IDCompositionRectangleClip::SetBottomLeftRadiusX, SetBottomLeftRadiusX, SetBottomLeftRadiusX methods [DirectComposition], dcomp/SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

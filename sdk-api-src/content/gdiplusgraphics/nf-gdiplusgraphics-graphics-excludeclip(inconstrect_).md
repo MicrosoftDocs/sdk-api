@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExcludeClip, ExcludeClip method [GDI+], ExcludeClip method [GDI+],Graphics class, Graphics class [GDI+],ExcludeClip method, Graphics.ExcludeClip, Graphics.ExcludeClip(IN const Rect &), Graphics.ExcludeClip(const Rect&), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const Rect &), _gdiplus_CLASS_Graphics_ExcludeClip_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_Rect_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

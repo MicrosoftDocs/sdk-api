@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_inf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

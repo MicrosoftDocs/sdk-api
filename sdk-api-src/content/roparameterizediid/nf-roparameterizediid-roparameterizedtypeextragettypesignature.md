@@ -9,8 +9,6 @@ ms.assetid: E51A7A3D-F4BF-44BD-ACF2-B0AC7A4161EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime], roparameterizediid/RoParameterizedTypeExtraGetTypeSignature, winrt.roparameterizedtypeextragettypesignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: roparameterizediid.h
 req.include-header: 

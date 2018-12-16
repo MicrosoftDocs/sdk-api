@@ -9,8 +9,6 @@ ms.assetid: 79315dbc-70b4-4667-8187-9b26b971baee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AzRole object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzRole object, DeletePropertyItem method [Security],IAzRole interface, IAzRole interface [Security],DeletePropertyItem method, IAzRole.DeletePropertyItem, IAzRole::DeletePropertyItem, azroles/IAzRole::DeletePropertyItem, security.iazrole_deletepropertyitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

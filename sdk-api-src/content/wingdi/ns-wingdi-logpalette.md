@@ -9,8 +9,6 @@ ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

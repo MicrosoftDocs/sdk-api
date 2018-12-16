@@ -9,8 +9,6 @@ ms.assetid: 357ac313-7ad2-411f-802e-d08ecf648710
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_PARAMETER_DESCRIPTION, WS_PARAMETER_DESCRIPTION structure [Web Services for Windows], webservices/WS_PARAMETER_DESCRIPTION, wsw.ws_parameter_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

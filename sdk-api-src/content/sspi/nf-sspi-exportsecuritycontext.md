@@ -9,8 +9,6 @@ ms.assetid: 4ebc7f37-b948-4c78-973f-0a74e55c7ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExportSecurityContext, ExportSecurityContext function [Security], SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SECPKG_CONTEXT_EXPORT_TO_KERNEL, _ssp_exportsecuritycontext, security.exportsecuritycontext, sspi/ExportSecurityContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

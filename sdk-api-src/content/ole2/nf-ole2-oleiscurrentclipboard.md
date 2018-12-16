@@ -9,8 +9,6 @@ ms.assetid: 12844504-ef47-4a4d-b31b-f765e0f2ace6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleIsCurrentClipboard, OleIsCurrentClipboard function [COM], _ole_OleIsCurrentClipboard, com.oleiscurrentclipboard, ole2/OleIsCurrentClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

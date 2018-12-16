@@ -9,8 +9,6 @@ ms.assetid: 8CF6673B-9D9C-40B9-AC91-B2F63450FE64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTable method, IDCompositionTableTransferEffect.SetAlphaTable, IDCompositionTableTransferEffect::SetAlphaTable, SetAlphaTable, SetAlphaTable method [DirectComposition], SetAlphaTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTable, directcomp.idcompositiontabletransfereffect_setalphatable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

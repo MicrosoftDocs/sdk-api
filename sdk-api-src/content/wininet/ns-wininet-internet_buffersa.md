@@ -9,8 +9,6 @@ ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_BUFFERSA, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

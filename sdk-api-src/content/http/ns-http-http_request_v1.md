@@ -9,8 +9,6 @@ ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

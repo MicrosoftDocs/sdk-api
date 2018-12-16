@@ -9,8 +9,6 @@ ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

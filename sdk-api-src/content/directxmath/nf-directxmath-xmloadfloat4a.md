@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4A(const XMFLOAT4A)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadFloat4A, XMLoadFloat4A, XMLoadFloat4A method [DirectX Math Support APIs], dxmath.xmloadfloat4a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

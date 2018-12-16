@@ -9,8 +9,6 @@ ms.assetid: 111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS structure [Remote Desktop Services], PBITMAP_RENDERER_STATISTICS, PBITMAP_RENDERER_STATISTICS structure pointer [Remote Desktop Services], termserv.bitmap_renderer_statistics, tsvirtualchannels/BITMAP_RENDERER_STATISTICS, tsvirtualchannels/PBITMAP_RENDERER_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tsvirtualchannels.h
 req.include-header: 

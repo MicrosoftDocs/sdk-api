@@ -9,8 +9,6 @@ ms.assetid: 1c5b35f2-b738-4d23-b90f-87cb559877b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Next method, IEnumNetworkConnections.Next, IEnumNetworkConnections::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Next, nla.ienumnetworkconnections_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

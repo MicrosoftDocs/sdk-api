@@ -9,8 +9,6 @@ ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

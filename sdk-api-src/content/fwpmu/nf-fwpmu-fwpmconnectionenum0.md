@@ -9,8 +9,6 @@ ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

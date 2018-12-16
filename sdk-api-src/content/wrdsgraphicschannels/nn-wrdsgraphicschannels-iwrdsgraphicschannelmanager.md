@@ -9,8 +9,6 @@ ms.assetid: 629589cb-9879-491d-a224-6ae2ce8b0ea3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsGraphicsChannelManager, IWRdsGraphicsChannelManager interface [Remote Desktop Services], IWRdsGraphicsChannelManager interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelmanager, wrdsgraphicschannels/IWRdsGraphicsChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wrdsgraphicschannels.h
 req.include-header: 

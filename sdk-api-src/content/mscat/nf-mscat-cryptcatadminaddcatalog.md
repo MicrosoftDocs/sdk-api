@@ -9,8 +9,6 @@ ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATAdminAddCatalog, CryptCATAdminAddCatalog function [Security], mscat/CryptCATAdminAddCatalog, security.cryptcatadminaddcatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetCursorPos, SetCursorPos function [Menus and Other Resources], _win32_SetCursorPos, _win32_setcursorpos_cpp, menurc.setcursorpos, winui._win32_setcursorpos, winuser/SetCursorPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

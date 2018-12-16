@@ -9,8 +9,6 @@ ms.assetid: 9b6e9be5-39e7-47e3-846f-ea2e5e04597f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE structure pointer [Files], TXF_LOG_RECORD_TRUNCATE, TXF_LOG_RECORD_TRUNCATE structure [Files], fs.txf_log_record_truncate, txfw32/PTXF_LOG_RECORD_TRUNCATE, txfw32/TXF_LOG_RECORD_TRUNCATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 

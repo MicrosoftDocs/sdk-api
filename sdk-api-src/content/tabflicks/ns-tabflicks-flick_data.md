@@ -9,8 +9,6 @@ ms.assetid: f83994ca-7ebe-42bc-bb54-f101a0a62e52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FLICK_DATA, FLICK_DATA structure [Tablet PC], f83994ca-7ebe-42bc-bb54-f101a0a62e52, tabflicks/FLICK_DATA, tablet.flick_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tabflicks.h
 req.include-header: 

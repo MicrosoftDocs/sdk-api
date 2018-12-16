@@ -9,8 +9,6 @@ ms.assetid: f7e69ede-c567-4285-a017-096c94fb3fe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], IEnumNetworkConnections interface [Network Awareness],described, netlistmgr/IEnumNetworkConnections, nla.ienumnetworkconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

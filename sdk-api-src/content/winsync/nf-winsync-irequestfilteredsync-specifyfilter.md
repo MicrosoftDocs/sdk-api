@@ -9,8 +9,6 @@ ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

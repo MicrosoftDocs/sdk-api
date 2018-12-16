@@ -9,8 +9,6 @@ ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

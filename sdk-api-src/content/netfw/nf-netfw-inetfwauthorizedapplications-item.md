@@ -9,8 +9,6 @@ ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

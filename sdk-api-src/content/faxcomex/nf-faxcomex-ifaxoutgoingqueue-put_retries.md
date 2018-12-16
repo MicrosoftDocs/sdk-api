@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_9a9f.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],Retries property, IFaxOutgoingQueue.Retries, IFaxOutgoingQueue.get_Retries, IFaxOutgoingQueue.put_Retries, IFaxOutgoingQueue::Retries, IFaxOutgoingQueue::get_Retries, IFaxOutgoingQueue::put_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.retries, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp, fax._mfax_faxoutgoingqueue_retries, faxcomex/IFaxOutgoingQueue::Retries, faxcomex/IFaxOutgoingQueue::get_Retries, faxcomex/IFaxOutgoingQueue::put_Retries, put_Retries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

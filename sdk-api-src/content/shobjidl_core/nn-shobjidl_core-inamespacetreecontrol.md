@@ -9,8 +9,6 @@ ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControl, INameSpaceTreeControl interface [Windows Shell], INameSpaceTreeControl interface [Windows Shell],described, _shell_INameSpaceTreeControl, shell.INameSpaceTreeControl, shobjidl_core/INameSpaceTreeControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

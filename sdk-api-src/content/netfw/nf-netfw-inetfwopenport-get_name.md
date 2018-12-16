@@ -9,8 +9,6 @@ ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Name property, INetFwOpenPort.Name, INetFwOpenPort.get_Name, INetFwOpenPort::Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwOpenPort interface, get_Name, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

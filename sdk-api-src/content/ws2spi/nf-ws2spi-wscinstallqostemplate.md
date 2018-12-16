@@ -9,8 +9,6 @@ ms.assetid: b83cfb67-c3be-49aa-930d-d6b056f7bde2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCInstallQOSTemplate, WSCInstallQOSTemplate function [Winsock], winsock.wscinstallqostemplate, ws2spi/WSCInstallQOSTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

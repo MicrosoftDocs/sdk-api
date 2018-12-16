@@ -9,8 +9,6 @@ ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

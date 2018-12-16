@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1vc6.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],CopyTiff method, IFaxIncomingMessage.CopyTiff, IFaxIncomingMessage::CopyTiff, _mfax_faxincomingmessage.copytiff, fax._mfax_faxincomingmessage_copytiff, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_copytiff_cpp, faxcomex/IFaxIncomingMessage::CopyTiff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

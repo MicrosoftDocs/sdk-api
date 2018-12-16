@@ -9,8 +9,6 @@ ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

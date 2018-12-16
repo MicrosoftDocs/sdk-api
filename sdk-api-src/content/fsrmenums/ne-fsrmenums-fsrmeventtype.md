@@ -9,8 +9,6 @@ ms.assetid: 517992e2-ecbe-40bf-b93c-81f509f26162
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmEventType, FsrmEventType enumeration [File Server Resource Manager], FsrmEventType_Error, FsrmEventType_Information, FsrmEventType_Unknown, FsrmEventType_Warning, fs.fsrmeventtype, fsrm.fsrmeventtype, fsrmenums/FsrmEventType, fsrmenums/FsrmEventType_Error, fsrmenums/FsrmEventType_Information, fsrmenums/FsrmEventType_Unknown, fsrmenums/FsrmEventType_Warning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

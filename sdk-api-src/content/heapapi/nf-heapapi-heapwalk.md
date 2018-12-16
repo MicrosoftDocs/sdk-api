@@ -9,8 +9,6 @@ ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapapi/HeapWalk, winbase/HeapWalk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

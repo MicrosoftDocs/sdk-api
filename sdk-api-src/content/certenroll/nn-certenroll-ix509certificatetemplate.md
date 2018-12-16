@@ -9,8 +9,6 @@ ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

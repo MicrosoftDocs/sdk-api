@@ -9,8 +9,6 @@ ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

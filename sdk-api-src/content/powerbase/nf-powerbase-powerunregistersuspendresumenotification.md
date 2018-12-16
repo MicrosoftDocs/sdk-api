@@ -9,8 +9,6 @@ ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 

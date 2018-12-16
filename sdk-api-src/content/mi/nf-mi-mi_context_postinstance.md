@@ -9,8 +9,6 @@ ms.assetid: b7c5e677-5b49-48b8-8273-4fd04c2f4a90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Context_PostInstance, MI_Context_PostInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_PostInstance, wmi.mi_postinstance, wmi_v2.mi_context_postinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

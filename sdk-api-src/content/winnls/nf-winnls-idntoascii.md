@@ -9,8 +9,6 @@ ms.assetid: e39aa5c2-3f76-40b2-9948-bbd795c6c525
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDN_ALLOW_UNASSIGNED, IDN_EMAIL_ADDRESS, IDN_RAW_PUNYCODE, IDN_USE_STD3_ASCII_RULES, IdnToAscii, IdnToAscii function [Internationalization for Windows Applications], intl.idntoascii, winnls/IdnToAscii
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

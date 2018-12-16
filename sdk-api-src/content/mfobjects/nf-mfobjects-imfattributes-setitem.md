@@ -9,8 +9,6 @@ ms.assetid: 1ac6e1c3-cf78-4cff-a992-4f92f243c443
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1ac6e1c3-cf78-4cff-a992-4f92f243c443, IMFAttributes interface [Media Foundation],SetItem method, IMFAttributes.SetItem, IMFAttributes::SetItem, SetItem, SetItem method [Media Foundation], SetItem method [Media Foundation],IMFAttributes interface, mf.imfattributes_setitem, mfobjects/IMFAttributes::SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

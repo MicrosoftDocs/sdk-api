@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallbac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnProcessingPassStart method, IXAudio2EngineCallback.OnProcessingPassStart, IXAudio2EngineCallback::OnProcessingPassStart, OnProcessingPassStart, OnProcessingPassStart method [XAudio2 Audio Mixing APIs], OnProcessingPassStart method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_onprocessingpassstart, xaudio2/IXAudio2EngineCallback::OnProcessingPassStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

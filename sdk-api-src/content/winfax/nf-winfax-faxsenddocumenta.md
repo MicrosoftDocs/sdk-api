@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7t6c.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxSendDocument, FaxSendDocument function [Fax Service], FaxSendDocumentA, FaxSendDocumentW, _mfax_faxsenddocument, fax._mfax_faxsenddocument, winfax/FaxSendDocument, winfax/FaxSendDocumentA, winfax/FaxSendDocumentW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

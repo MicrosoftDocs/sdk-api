@@ -9,8 +9,6 @@ ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

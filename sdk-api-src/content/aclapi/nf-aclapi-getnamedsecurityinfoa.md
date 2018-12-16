@@ -9,8 +9,6 @@ ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

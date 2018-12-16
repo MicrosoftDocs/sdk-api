@@ -9,8 +9,6 @@ ms.assetid: 5A34F900-73F1-4FFC-B251-F22E0EDDB873
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteFrameThumbnail method, IWICImageEncoder.WriteFrameThumbnail, IWICImageEncoder::WriteFrameThumbnail, WriteFrameThumbnail, WriteFrameThumbnail method [Windows Imaging Component], WriteFrameThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writeframethumbnail, wincodec/IWICImageEncoder::WriteFrameThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

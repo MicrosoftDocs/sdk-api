@@ -9,8 +9,6 @@ ms.assetid: b8b6c479-2e35-4cc9-b864-d495c3bded25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_RESOURCE_CLASS_INFO, CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, CLUS_RESOURCE_CLASS_INFO, CLUS_RESOURCE_CLASS_INFO structure [Failover Cluster], CLUS_RESSUBCLASS_SHARED, PCLUS_RESOURCE_CLASS_INFO, PCLUS_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clus_resource_class_info, clusapi/CLUS_RESOURCE_CLASS_INFO, clusapi/PCLUS_RESOURCE_CLASS_INFO, mscs.clus_resource_class_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

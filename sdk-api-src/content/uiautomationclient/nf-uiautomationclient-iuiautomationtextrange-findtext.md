@@ -9,8 +9,6 @@ ms.assetid: 1d6e9216-747b-45b5-90ac-ec19d36e5a0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindText, FindText method [Windows Accessibility], FindText method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindText method, IUIAutomationTextRange.FindText, IUIAutomationTextRange::FindText, uiauto.uiauto_IUIAutomationTextRange_FindText, uiauto_IUIAutomationTextRange_FindText, uiautomationclient/IUIAutomationTextRange::FindText, winauto.uiauto_IUIAutomationTextRange_FindText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

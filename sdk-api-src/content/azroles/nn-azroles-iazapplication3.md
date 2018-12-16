@@ -9,8 +9,6 @@ ms.assetid: 9d0b2c3b-b8b6-4fae-9308-9dd29da0724f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzApplication3, IAzApplication3 interface [Security], IAzApplication3 interface [Security],described, azroles/IAzApplication3, security.iazapplication3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

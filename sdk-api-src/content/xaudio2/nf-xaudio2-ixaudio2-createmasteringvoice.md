@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAud
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMasteringVoice, CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateMasteringVoice method, IXAudio2.CreateMasteringVoice, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

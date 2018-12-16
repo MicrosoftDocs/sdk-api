@@ -9,8 +9,6 @@ ms.assetid: A8F4194E-6E9A-4173-8F88-FC2923B11CF0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], INetworkCostManagerEvents interface [Network Awareness],described, netlistmgr/INetworkCostManagerEvents, nla.inetworkcostmanagerevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

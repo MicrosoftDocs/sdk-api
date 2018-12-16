@@ -9,8 +9,6 @@ ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Security.h

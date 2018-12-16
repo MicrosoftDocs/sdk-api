@@ -9,8 +9,6 @@ ms.assetid: 0b3f38d2-80fe-4242-a99d-5d82f9dd50e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResources.Reset, IEnumResources::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Reset, shell.IEnumResources_Reset, shobjidl_core/IEnumResources::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

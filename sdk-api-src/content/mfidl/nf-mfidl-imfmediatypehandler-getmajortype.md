@@ -9,8 +9,6 @@ ms.assetid: 1560d113-80a9-48bb-9f3d-6e3a288db962
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1560d113-80a9-48bb-9f3d-6e3a288db962, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMajorType method, IMFMediaTypeHandler.GetMajorType, IMFMediaTypeHandler::GetMajorType, mf.imfmediatypehandler_getmajortype, mfidl/IMFMediaTypeHandler::GetMajorType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

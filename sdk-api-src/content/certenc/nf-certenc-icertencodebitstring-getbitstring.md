@@ -9,8 +9,6 @@ ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

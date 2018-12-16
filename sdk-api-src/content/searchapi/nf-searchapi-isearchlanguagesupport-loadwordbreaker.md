@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguage
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadWordBreaker method, ISearchLanguageSupport.LoadWordBreaker, ISearchLanguageSupport::LoadWordBreaker, LoadWordBreaker, LoadWordBreaker method [search], LoadWordBreaker method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadWordBreaker, search._search_ISearchLanguageSupport_LoadWordBreaker, searchapi/ISearchLanguageSupport::LoadWordBreaker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

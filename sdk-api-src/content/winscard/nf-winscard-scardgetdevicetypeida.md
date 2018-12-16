@@ -9,8 +9,6 @@ ms.assetid: E637B5D6-B605-4216-9581-7E4ADC75F75A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardGetDeviceTypeId, SCardGetDeviceTypeId function [Security], SCardGetDeviceTypeIdA, SCardGetDeviceTypeIdW, security.scardgetdevicetypeid, winscard/SCardGetDeviceTypeId, winscard/SCardGetDeviceTypeIdA, winscard/SCardGetDeviceTypeIdW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

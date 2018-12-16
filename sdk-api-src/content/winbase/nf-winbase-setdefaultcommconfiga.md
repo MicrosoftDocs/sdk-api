@@ -9,8 +9,6 @@ ms.assetid: 3b228b56-34ca-4b37-af67-4e4e1fa60df2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

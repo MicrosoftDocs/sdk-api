@@ -9,8 +9,6 @@ ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetMetadataProperty, WsGetMetadataProperty function [Web Services for Windows], webservices/WsGetMetadataProperty, wsw.wsgetmetadataproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

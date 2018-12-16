@@ -9,8 +9,6 @@ ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

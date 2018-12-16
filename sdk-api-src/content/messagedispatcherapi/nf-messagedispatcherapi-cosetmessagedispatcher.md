@@ -9,8 +9,6 @@ ms.assetid: 3D6CFE01-8D3D-474E-A7D0-9B129ECD4EEA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: messagedispatcherapi.h
 req.include-header: 

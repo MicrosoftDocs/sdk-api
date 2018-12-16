@@ -9,8 +9,6 @@ ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepwrscheme, base.setactivepwrscheme, powrprof/SetActivePwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

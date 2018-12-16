@@ -9,8 +9,6 @@ ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d0c9c783-c095-487e-a007-8a10700f9fea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_PID, PMIB_TCP6ROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCP6ROW_OWNER_PID, iprtrmib/PMIB_TCP6ROW_OWNER_PID, mib.mib_tcp6row_owner_pid, tcpmib/MIB_TCP6ROW_OWNER_PID, tcpmib/PMIB_TCP6ROW_OWNER_PID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

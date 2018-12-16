@@ -9,8 +9,6 @@ ms.assetid: 0c80a357-0967-413f-a211-c3bae8700b36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustData, GetCustData method [Automation], GetCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetCustData method, ITypeInfo2.GetCustData, ITypeInfo2::GetCustData, _oa96_ITypeInfo2_GetCustData, automat.itypeinfo2_getcustdata, oaidl/ITypeInfo2::GetCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

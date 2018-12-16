@@ -9,8 +9,6 @@ ms.assetid: fd2d5330-2b31-4dbb-b57b-4ca5579fa03f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToInt32WithDefault, VariantToInt32WithDefault function [Windows Properties], _shell_VariantToInt32WithDefault, properties.VariantToInt32WithDefault, propvarutil/VariantToInt32WithDefault, shell.VariantToInt32WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

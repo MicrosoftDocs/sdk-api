@@ -9,8 +9,6 @@ ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

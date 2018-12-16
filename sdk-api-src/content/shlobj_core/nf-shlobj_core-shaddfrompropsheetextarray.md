@@ -9,8 +9,6 @@ ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

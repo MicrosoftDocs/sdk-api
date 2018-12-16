@@ -9,8 +9,6 @@ ms.assetid: 3c3f3bed-531a-4962-8eb3-bebe16bed3a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioRemoveAllCredentials, WinBioRemoveAllCredentials function [Windows Biometric Framework API], secbiomet.winbioremoveallcredentials, winbio/WinBioRemoveAllCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

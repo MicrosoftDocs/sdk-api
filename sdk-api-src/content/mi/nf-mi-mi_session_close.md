@@ -9,8 +9,6 @@ ms.assetid: c77a93b0-446c-417b-81ab-746c639477f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Session_Close, MI_Session_Close function [Windows Management Infrastructure (MI)], mi/MI_Session_Close, wmi_v2.mi_session_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

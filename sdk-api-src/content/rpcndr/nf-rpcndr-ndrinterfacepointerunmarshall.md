@@ -9,8 +9,6 @@ ms.assetid: b6ed9308-a935-44ed-a0e7-17d05d4762e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerUnmarshall, NdrInterfacePointerUnmarshall function [RPC], rpc.ndrinterfacepointerunmarshall, rpcndr/NdrInterfacePointerUnmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

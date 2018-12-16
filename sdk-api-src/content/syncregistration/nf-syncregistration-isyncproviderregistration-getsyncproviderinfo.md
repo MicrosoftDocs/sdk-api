@@ -9,8 +9,6 @@ ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

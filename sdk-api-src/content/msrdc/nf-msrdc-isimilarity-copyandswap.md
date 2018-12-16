@@ -9,8 +9,6 @@ ms.assetid: 3a31530e-da6d-4ac8-9fd4-d91419777ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyAndSwap, CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CopyAndSwap method, ISimilarity.CopyAndSwap, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

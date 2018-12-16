@@ -9,8 +9,6 @@ ms.assetid: 10b25552-e923-4cd5-afb7-52164057f2e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawStreamSample interface [DirectShow],SetRect method, IDirectDrawStreamSample.SetRect, IDirectDrawStreamSample::SetRect, IDirectDrawStreamSampleSetRect, SetRect, SetRect method [DirectShow], SetRect method [DirectShow],IDirectDrawStreamSample interface, ddstream/IDirectDrawStreamSample::SetRect, dshow.idirectdrawstreamsample_setrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 

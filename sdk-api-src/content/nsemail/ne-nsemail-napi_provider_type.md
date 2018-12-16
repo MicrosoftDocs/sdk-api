@@ -9,8 +9,6 @@ ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: nsemail.h
 req.include-header: 

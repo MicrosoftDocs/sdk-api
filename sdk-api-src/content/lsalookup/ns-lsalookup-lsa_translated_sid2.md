@@ -9,8 +9,6 @@ ms.assetid: 792de958-8e24-46d8-b484-159435bc96e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 structure [Security], PLSA_TRANSLATED_SID2, PLSA_TRANSLATED_SID2 structure pointer [Security], _lsa_lsa_translated_sid2, lsalookup/LSA_TRANSLATED_SID2, lsalookup/PLSA_TRANSLATED_SID2, security.lsa_translated_sid2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 

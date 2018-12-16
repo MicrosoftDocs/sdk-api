@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPath, GraphicsPath constructors [GDI+], GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(GpPath), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(GpPath), _gdiplus_CLASS_GraphicsPath_Constructors, gdiplus._gdiplus_CLASS_GraphicsPath_Constructors, gdipluspath/GraphicsPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

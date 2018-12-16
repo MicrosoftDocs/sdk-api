@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMONERRSTRUCT, MONERRSTRUCT, MONERRSTRUCT structure [Data Exchange], PMONERRSTRUCT, PMONERRSTRUCT structure pointer [Data Exchange], _win32_MONERRSTRUCT_str, _win32_monerrstruct_str_cpp, dataxchg.monerrstruct_str, ddeml/MONERRSTRUCT, ddeml/PMONERRSTRUCT, winui._win32_monerrstruct_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

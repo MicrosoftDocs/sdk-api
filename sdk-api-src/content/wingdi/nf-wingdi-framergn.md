@@ -9,8 +9,6 @@ ms.assetid: d2c95392-7950-4963-8f10-2387daf23e93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FrameRgn, FrameRgn function [Windows GDI], _win32_FrameRgn, gdi.framergn, wingdi/FrameRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

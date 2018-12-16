@@ -9,8 +9,6 @@ ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33b13cd5-ea60-4928-a220-db563c00a43c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProvider interface,SetAddressFamily method, IWSDiscoveryProvider.SetAddressFamily, IWSDiscoveryProvider::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryProvider interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoveryprovider_setaddressfamily, wsddisco/IWSDiscoveryProvider::SetAddressFamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: 

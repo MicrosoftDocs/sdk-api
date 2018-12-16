@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorInsert(XMVECTOR,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorInsert, XMVectorInsert, XMVectorInsert method [DirectX Math Support APIs], dxmath.xmvectorinsert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

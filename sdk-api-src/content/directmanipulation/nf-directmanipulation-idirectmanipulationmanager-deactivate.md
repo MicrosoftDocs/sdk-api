@@ -9,8 +9,6 @@ ms.assetid: 7f80fe8a-e088-41fa-b72e-2b248307ac4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Deactivate, Deactivate method [Direct Manipulation], Deactivate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Deactivate method, IDirectManipulationManager.Deactivate, IDirectManipulationManager::Deactivate, directmanipulation.idirectmanipulationmanager_deactivate, directmanipulation/IDirectManipulationManager::Deactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

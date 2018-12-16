@@ -9,8 +9,6 @@ ms.assetid: 8b098985-4eb2-4292-a9b9-cfdd051e9c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetMaxStreamSampleSize method, IWMSyncReader.GetMaxStreamSampleSize, IWMSyncReader::GetMaxStreamSampleSize, IWMSyncReaderGetMaxStreamSampleSize, wmformat.iwmsyncreader_getmaxstreamsamplesize, wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: D529B7BB-380F-462E-99B8-E565B9636D97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, PWRDS_DYNAMIC_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], WRDS_DYNAMIC_TIME_ZONE_INFORMATION, WRDS_DYNAMIC_TIME_ZONE_INFORMATION structure [Remote Desktop Services], termserv.wrds_dynamic_time_zone_information, wtsdefs/PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, wtsdefs/WRDS_DYNAMIC_TIME_ZONE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

@@ -9,8 +9,6 @@ ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetSize method, IWICBitmapSource.GetSize, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

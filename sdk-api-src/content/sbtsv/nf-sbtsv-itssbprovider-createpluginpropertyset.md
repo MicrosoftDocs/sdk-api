@@ -9,8 +9,6 @@ ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

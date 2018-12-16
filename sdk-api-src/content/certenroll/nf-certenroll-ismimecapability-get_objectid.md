@@ -9,8 +9,6 @@ ms.assetid: 3bd773f2-f3ea-45e5-9b37-8346070049d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISmimeCapability interface [Security],ObjectId property, ISmimeCapability.ObjectId, ISmimeCapability.get_ObjectId, ISmimeCapability::ObjectId, ISmimeCapability::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ISmimeCapability interface, certenroll/ISmimeCapability::ObjectId, certenroll/ISmimeCapability::get_ObjectId, get_ObjectId, security.ismimecapability_objectid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

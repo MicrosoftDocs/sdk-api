@@ -9,8 +9,6 @@ ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls property, IUpdateService.RedirectUrls, IUpdateService.get_RedirectUrls, IUpdateService::RedirectUrls, IUpdateService::get_RedirectUrls, RedirectUrls property [Windows Update Agent], RedirectUrls property [Windows Update Agent],IUpdateService interface, get_RedirectUrls, wua.iupdateservice_redirecturls, wuapi/IUpdateService::RedirectUrls, wuapi/IUpdateService::get_RedirectUrls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

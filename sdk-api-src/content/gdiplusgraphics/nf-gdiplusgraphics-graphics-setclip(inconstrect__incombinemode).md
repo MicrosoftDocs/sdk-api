@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(IN const Rect &,IN CombineMode), Graphics.SetClip(const Rect&,CombineMode), Graphics::SetClip, Graphics::SetClip(IN const Rect &,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

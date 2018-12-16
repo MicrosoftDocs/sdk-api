@@ -9,8 +9,6 @@ ms.assetid: 3adbd380-4500-4701-bfc3-dc03d51e5155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentPropertyValueEx, GetCurrentPropertyValueEx method [Windows Accessibility], GetCurrentPropertyValueEx method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPropertyValueEx method, IUIAutomationElement.GetCurrentPropertyValueEx, IUIAutomationElement::GetCurrentPropertyValueEx, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValueEx, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

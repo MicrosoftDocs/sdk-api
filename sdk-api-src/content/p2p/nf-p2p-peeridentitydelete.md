@@ -9,8 +9,6 @@ ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 68fcb122-5d61-464a-99ae-d99e0d4a8117
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSidLength, GetSidLength method [Files], GetSidLength method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSidLength method, IDiskQuotaUser.GetSidLength, IDiskQuotaUser::GetSidLength, _win32_idiskquotauser_getsidlength, base.idiskquotauser_getsidlength, dskquota/IDiskQuotaUser::GetSidLength, fs.idiskquotauser_getsidlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ModeChange method, IWMPEvents.ModeChange, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

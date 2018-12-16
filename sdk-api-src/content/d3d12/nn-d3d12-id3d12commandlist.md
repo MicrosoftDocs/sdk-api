@@ -9,8 +9,6 @@ ms.assetid: 1E0359CC-0F53-4C82-9F1A-092F6F72EE20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12CommandList, ID3D12CommandList interface, ID3D12CommandList interface,described, d3d12/ID3D12CommandList, direct3d12.id3d12commandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

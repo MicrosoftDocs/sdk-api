@@ -9,8 +9,6 @@ ms.assetid: e31985e3-e5ab-4a29-b0d7-9a1cda58bca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],get_SAMIStyleCount method, IWMPClosedCaption2.get_SAMIStyleCount, IWMPClosedCaption2::get_SAMIStyleCount, IWMPClosedCaption2get_SAMIStyleCount, get_SAMIStyleCount, get_SAMIStyleCount method [Windows Media Player], get_SAMIStyleCount method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_get_samistylecount, wmp/IWMPClosedCaption2::get_SAMIStyleCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7d0399c8-2161-4d6e-8c14-7fd5bc2757b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCompleted method, ITsSbProvisioningPluginNotifySink.OnJobCompleted, ITsSbProvisioningPluginNotifySink::OnJobCompleted, OnJobCompleted, OnJobCompleted method [Remote Desktop Services], OnJobCompleted method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted, termserv.itssbprovisioningpluginnotifysink_onjobcompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

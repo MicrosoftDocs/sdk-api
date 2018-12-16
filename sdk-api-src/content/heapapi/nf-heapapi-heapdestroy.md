@@ -9,8 +9,6 @@ ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

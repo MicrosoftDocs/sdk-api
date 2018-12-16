@@ -9,8 +9,6 @@ ms.assetid: fef435a6-b6cd-47be-bf63-358478ec3cb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiSelectBestCompatDrv, SetupDiSelectBestCompatDrv function [Device and Driver Installation], devinst.setupdiselectbestcompatdrv, di-rtns_3dee9465-1e0f-4efc-beb2-280c6b2621e9.xml, setupapi/SetupDiSelectBestCompatDrv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

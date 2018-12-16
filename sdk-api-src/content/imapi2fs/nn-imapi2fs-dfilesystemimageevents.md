@@ -9,8 +9,6 @@ ms.assetid: cff27ceb-d14a-48c2-941e-d27d6505e2c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DFileSystemImageEvents, DFileSystemImageEvents interface [IMAPI], DFileSystemImageEvents interface [IMAPI],described, imapi.dfilesystemimageevents, imapi2fs/DFileSystemImageEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

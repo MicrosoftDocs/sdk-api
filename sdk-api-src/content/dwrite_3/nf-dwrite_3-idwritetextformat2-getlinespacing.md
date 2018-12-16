@@ -9,8 +9,6 @@ ms.assetid: 1e05687f-137e-06f8-b9c8-983f434f7578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, IDWriteTextFormat2 interface [Direct Write],GetLineSpacing method, IDWriteTextFormat2.GetLineSpacing, IDWriteTextFormat2::GetLineSpacing, directwrite.idwritetextformat2_getlinespacing, dwrite_3/IDWriteTextFormat2::GetLineSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

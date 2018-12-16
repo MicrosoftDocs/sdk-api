@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.operator uint16_t
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMUNIBBLE4.operator uint16_t, DirectX::PackedVector::XMUNIBBLE4::operator uint16_t, XMUNIBBLE4 structure [DirectX Math Support APIs],operator uint16_t method, XMUNIBBLE4.operator uint16_t, XMUNIBBLE4::operator uint16_t, dxmath.xmunibble4_operator_uint16_t, operator uint16_t, operator uint16_t method [DirectX Math Support APIs], operator uint16_t method [DirectX Math Support APIs],XMUNIBBLE4 structure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

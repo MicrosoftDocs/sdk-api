@@ -9,8 +9,6 @@ ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],TiledResourceBarrier method, ID3D11DeviceContext2.TiledResourceBarrier, ID3D11DeviceContext2::TiledResourceBarrier, TiledResourceBarrier, TiledResourceBarrier method [Direct3D 11], TiledResourceBarrier method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier, direct3d11.id3d11devicecontext2_tiledresourcebarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d78556ae-0d22-4df0-b850-dd7077fa3f85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],NonMembersName property, IAzApplicationGroup interface [Security],NonMembersName property, IAzApplicationGroup.NonMembersName, IAzApplicationGroup.get_NonMembersName, IAzApplicationGroup::NonMembersName, IAzApplicationGroup::get_NonMembersName, NonMembersName property [Security], NonMembersName property [Security],AzApplicationGroup object, NonMembersName property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::NonMembersName, azroles/IAzApplicationGroup::get_NonMembersName, get_NonMembersName, security.iazapplicationgroup_nonmembersname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

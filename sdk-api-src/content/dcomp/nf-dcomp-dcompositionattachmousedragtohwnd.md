@@ -9,8 +9,6 @@ ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

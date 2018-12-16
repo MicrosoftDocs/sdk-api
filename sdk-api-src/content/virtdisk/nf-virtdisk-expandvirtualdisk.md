@@ -9,8 +9,6 @@ ms.assetid: 96d1b603-c019-4868-9b81-3a5628fbb50c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

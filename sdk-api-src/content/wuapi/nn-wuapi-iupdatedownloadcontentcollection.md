@@ -9,8 +9,6 @@ ms.assetid: cfb5b023-e31c-4a67-a5d8-47ea453a6e4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], IUpdateDownloadContentCollection interface [Windows Update Agent],described, wua.iupdatedownloadcontentcollection, wuapi/IUpdateDownloadContentCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

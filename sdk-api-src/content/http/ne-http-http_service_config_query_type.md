@@ -9,8 +9,6 @@ ms.assetid: 63b2503f-7e71-4c62-8e9c-ad0f5103a9e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE enumeration [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryMax, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_QUERY_TYPE, PHTTP_SERVICE_CONFIG_QUERY_TYPE enumeration pointer [HTTP], _http_http_service_config_query_type, http.http_service_config_query_type, http/HTTP_SERVICE_CONFIG_QUERY_TYPE, http/HttpServiceConfigQueryExact, http/HttpServiceConfigQueryMax, http/HttpServiceConfigQueryNext, http/PHTTP_SERVICE_CONFIG_QUERY_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

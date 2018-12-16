@@ -9,8 +9,6 @@ ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

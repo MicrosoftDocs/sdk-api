@@ -9,8 +9,6 @@ ms.assetid: 424d1507-e42a-43d7-8904-347bfb311dd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFolder method, IFileDialog.GetFolder, IFileDialog::GetFolder, shell.IFileDialog_GetFolder, shell_IFileDialog_GetFolder, shobjidl_core/IFileDialog::GetFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

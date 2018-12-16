@@ -9,8 +9,6 @@ ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

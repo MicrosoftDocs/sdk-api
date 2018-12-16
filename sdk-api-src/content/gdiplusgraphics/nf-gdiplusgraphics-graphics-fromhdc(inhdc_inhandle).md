@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FromHDC, FromHDC method [GDI+], FromHDC method [GDI+],Graphics class, Graphics class [GDI+],FromHDC method, Graphics.FromHDC, Graphics.FromHDC(HDD,HANDLE), Graphics.FromHDC(IN HDC,IN HANDLE), Graphics::FromHDC, Graphics::FromHDC(IN HDC,IN HANDLE), _gdiplus_CLASS_Graphics_FromHDC_hdc_hdevice_, gdiplus._gdiplus_CLASS_Graphics_FromHDC_hdc_hdevice_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

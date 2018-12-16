@@ -9,8 +9,6 @@ ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRemoteInfo, GetRemoteInfo method [Offline Files], GetRemoteInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetRemoteInfo method, IOfflineFilesSyncErrorInfo.GetRemoteInfo, IOfflineFilesSyncErrorInfo::GetRemoteInfo, cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo, of.iofflinefilessyncerrorinfo_getremoteinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

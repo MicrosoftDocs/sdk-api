@@ -9,8 +9,6 @@ ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

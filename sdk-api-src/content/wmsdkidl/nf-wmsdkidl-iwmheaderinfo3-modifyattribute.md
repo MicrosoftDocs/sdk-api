@@ -9,8 +9,6 @@ ms.assetid: 503099e9-a1a9-406f-abc9-7c632d757cca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMHeaderInfo3 interface [windows Media Format],ModifyAttribute method, IWMHeaderInfo3.ModifyAttribute, IWMHeaderInfo3::ModifyAttribute, IWMHeaderInfo3ModifyAttribute, ModifyAttribute, ModifyAttribute method [windows Media Format], ModifyAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo3_modifyattribute, wmsdkidl/IWMHeaderInfo3::ModifyAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

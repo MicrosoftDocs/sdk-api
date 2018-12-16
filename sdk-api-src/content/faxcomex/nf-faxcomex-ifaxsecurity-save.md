@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_9qzp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Save method, IFaxSecurity.Save, IFaxSecurity::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.save, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp, fax._mfax_faxsecurity_save, faxcomex/IFaxSecurity::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

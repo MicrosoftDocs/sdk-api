@@ -9,8 +9,6 @@ ms.assetid: F542C4E4-5B65-4909-AF08-C129297A1085
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMode, GetMode method [Windows Runtime], GetMode method [Windows Runtime],IRandomAccessStreamFileAccessMode interface, IRandomAccessStreamFileAccessMode interface [Windows Runtime],GetMode method, IRandomAccessStreamFileAccessMode.GetMode, IRandomAccessStreamFileAccessMode::GetMode, windowsstoragecom/IRandomAccessStreamFileAccessMode::GetMode, winrt.irandomaccessstreamfileaccessmode_getmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 

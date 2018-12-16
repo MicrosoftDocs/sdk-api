@@ -9,8 +9,6 @@ ms.assetid: fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

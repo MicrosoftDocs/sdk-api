@@ -9,8 +9,6 @@ ms.assetid: 0d4449aa-ffcc-41d9-99b1-7352edaf3700
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateReader, WsCreateReader function [Web Services for Windows], webservices/WsCreateReader, wsw.wscreatereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

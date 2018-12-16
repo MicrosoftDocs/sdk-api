@@ -9,8 +9,6 @@ ms.assetid: c56b07b5-f595-4933-9af6-868fc8938849
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Shutdown method, IMFPMediaPlayer.Shutdown, IMFPMediaPlayer::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

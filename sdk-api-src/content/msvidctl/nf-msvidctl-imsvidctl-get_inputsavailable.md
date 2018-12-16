@@ -9,8 +9,6 @@ ms.assetid: 7ed22c3e-745a-4680-a5fc-accef56ab348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputsAvailable method, IMSVidCtl.get_InputsAvailable, IMSVidCtl::get_InputsAvailable, IMSVidCtlget_InputsAvailable, get_InputsAvailable, get_InputsAvailable method [Microsoft TV Technologies], get_InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputsavailable, msvidctl/IMSVidCtl::get_InputsAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

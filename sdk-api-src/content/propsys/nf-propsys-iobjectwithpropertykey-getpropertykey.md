@@ -9,8 +9,6 @@ ms.assetid: e864f1d2-b83e-4196-8cd4-a7c7fdcddfec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, IObjectWithPropertyKey interface [Windows Shell],GetPropertyKey method, IObjectWithPropertyKey.GetPropertyKey, IObjectWithPropertyKey::GetPropertyKey, _shell_IObjectWithPropertyKey_GetPropertyKey, propsys/IObjectWithPropertyKey::GetPropertyKey, shell.IObjectWithPropertyKey_GetPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

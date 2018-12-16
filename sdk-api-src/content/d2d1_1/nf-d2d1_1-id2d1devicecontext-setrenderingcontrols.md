@@ -9,8 +9,6 @@ ms.assetid: 6a066126-89d0-4372-bc01-6b6fa1d65440
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetRenderingControls method, ID2D1DeviceContext.SetRenderingControls, ID2D1DeviceContext::SetRenderingControls, SetRenderingControls, SetRenderingControls method [Direct2D], SetRenderingControls method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetRenderingControls, direct2d.id2d1devicecontext_setrenderingcontrols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

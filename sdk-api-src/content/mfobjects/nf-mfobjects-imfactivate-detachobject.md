@@ -9,8 +9,6 @@ ms.assetid: 15216c57-f85d-4087-ad52-d35059647828
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject method [Media Foundation], DetachObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],DetachObject method, IMFActivate.DetachObject, IMFActivate::DetachObject, mf.imfactivate_detachobject, mfobjects/IMFActivate::DetachObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eb51a015-cb99-4cbc-8fba-8c4834adcf65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassID property, IEventClass.EventClassID, IEventClass.put_EventClassID, IEventClass::EventClassID, IEventClass::get_EventClassID, IEventClass::put_EventClassID, cos.ieventclass_eventclassid, eventsys/IEventClass::EventClassID, eventsys/IEventClass::get_EventClassID, eventsys/IEventClass::put_EventClassID, put_EventClassID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h

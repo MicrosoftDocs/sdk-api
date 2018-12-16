@@ -9,8 +9,6 @@ ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_enablentmsobject, base.enablentmsobject, fs.enablentmsobject, ntmsapi/EnableNtmsObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

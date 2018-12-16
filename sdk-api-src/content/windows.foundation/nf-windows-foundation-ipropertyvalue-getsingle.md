@@ -9,8 +9,6 @@ ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingle method, IPropertyValue.GetSingle, IPropertyValue.IPropertyValue, IPropertyValue::GetSingle, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cb480110-0cf4-4b46-af06-f6c42907a184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IDVB_EIT.GetRecordDuration, IDVB_EIT::GetRecordDuration, IDVB_EITGetRecordDuration, dvbsiparser/IDVB_EIT::GetRecordDuration, mstv.idvb_eit_getrecordduration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 63814933-1366-47b9-8cf4-0d8685053a30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetCLSID method, IWICComponentInfo.GetCLSID, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

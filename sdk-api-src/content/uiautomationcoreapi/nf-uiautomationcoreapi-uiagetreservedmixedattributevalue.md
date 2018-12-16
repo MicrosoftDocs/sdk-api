@@ -9,8 +9,6 @@ ms.assetid: 597ace91-197a-4cda-9386-78c6e429871b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\ongene
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnGeneralServerConfigChanged method, IFaxServerNotify2.OnGeneralServerConfigChanged, IFaxServerNotify2::OnGeneralServerConfigChanged, OnGeneralServerConfigChanged, OnGeneralServerConfigChanged method [Fax Service], OnGeneralServerConfigChanged method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnGeneralServerConfigChanged, _IFaxServerNotify2::OnGeneralServerConfigChanged, _mfax_ifaxservernotify2_ongeneralserverconfigchanged, fax._mfax_ifaxservernotify2_ongeneralserverconfigchanged, faxcomex/IFaxServerNotify2::OnGeneralServerConfigChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

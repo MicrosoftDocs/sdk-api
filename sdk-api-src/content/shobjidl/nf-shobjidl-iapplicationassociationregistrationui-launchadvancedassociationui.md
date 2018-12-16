@@ -9,8 +9,6 @@ ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

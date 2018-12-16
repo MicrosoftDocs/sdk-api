@@ -9,8 +9,6 @@ ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

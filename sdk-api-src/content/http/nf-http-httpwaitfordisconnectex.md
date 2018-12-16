@@ -9,8 +9,6 @@ ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

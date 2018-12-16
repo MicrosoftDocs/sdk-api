@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Add method, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

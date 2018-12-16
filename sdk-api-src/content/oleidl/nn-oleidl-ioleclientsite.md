@@ -9,8 +9,6 @@ ms.assetid: dafee149-926a-4d08-a43d-5847682db645
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 392a5258-306d-4c06-a632-85e6fc65ddc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vdssys/GetVirtualDiskOperationProgress, vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

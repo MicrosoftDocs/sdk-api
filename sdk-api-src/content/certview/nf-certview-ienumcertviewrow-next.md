@@ -9,8 +9,6 @@ ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

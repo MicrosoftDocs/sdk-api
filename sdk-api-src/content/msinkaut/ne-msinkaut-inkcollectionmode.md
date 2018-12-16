@@ -9,8 +9,6 @@ ms.assetid: 41928d0a-e485-4542-860c-5ffd260d3cb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 41928d0a-e485-4542-860c-5ffd260d3cb8, ICM_GestureOnly, ICM_InkAndGesture, ICM_InkOnly, InkCollectionMode, InkCollectionMode enumeration [Tablet PC], msinkaut/ICM_GestureOnly, msinkaut/ICM_InkAndGesture, msinkaut/ICM_InkOnly, msinkaut/InkCollectionMode, tablet.inkcollectionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 69b1851b-b8a9-4dfe-be6b-ffadd2a83b12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_BIT.GetCountOfTableDescriptors, IISDB_BIT::GetCountOfTableDescriptors, dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors, mstv.iisdb_bit_getcountoftabledescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

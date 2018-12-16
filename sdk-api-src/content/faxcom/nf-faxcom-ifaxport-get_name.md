@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxPort interface [Fax Service],Name property, IFaxPort.Name, IFaxPort.get_Name, IFaxPort::Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_mfax_ifaxport_get_name_cpp, faxcom/IFaxPort::Name, faxcom/IFaxPort::get_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

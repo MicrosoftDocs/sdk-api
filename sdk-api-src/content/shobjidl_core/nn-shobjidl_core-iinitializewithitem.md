@@ -9,8 +9,6 @@ ms.assetid: 95f3917e-66ca-45de-a3ed-811680a179e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInitializeWithItem, IInitializeWithItem interface [Windows Shell], IInitializeWithItem interface [Windows Shell],described, shell.IInitializeWithItem, shell_IInitializeWithItem, shobjidl_core/IInitializeWithItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

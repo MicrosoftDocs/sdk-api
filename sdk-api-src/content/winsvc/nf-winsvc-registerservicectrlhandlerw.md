@@ -9,8 +9,6 @@ ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterServiceCtrlHandler, RegisterServiceCtrlHandler function, RegisterServiceCtrlHandlerA, RegisterServiceCtrlHandlerW, _win32_registerservicectrlhandler, base.registerservicectrlhandler, winsvc/RegisterServiceCtrlHandler, winsvc/RegisterServiceCtrlHandlerA, winsvc/RegisterServiceCtrlHandlerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

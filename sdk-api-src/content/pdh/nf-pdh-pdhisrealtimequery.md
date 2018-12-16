@@ -9,8 +9,6 @@ ms.assetid: 4f6b2d8d-3a0f-4346-8b8e-a7aea11fbc40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhIsRealTimeQuery, PdhIsRealTimeQuery function [Perf], _win32_pdhisrealtimequery, base.pdhisrealtimequery, pdh/PdhIsRealTimeQuery, perf.pdhisrealtimequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

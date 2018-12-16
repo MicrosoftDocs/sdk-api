@@ -9,8 +9,6 @@ ms.assetid: 1ce0cd1b-e80f-45dc-b64e-1aa09bb53dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioLoudness interface, IAudioLoudness interface [Core Audio],GetEnabled method, IAudioLoudness.GetEnabled, IAudioLoudness::GetEnabled, IAudioLoudnessGetEnabled, coreaudio.iaudioloudness_getenabled, devicetopology/IAudioLoudness::GetEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

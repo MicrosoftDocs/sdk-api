@@ -9,8 +9,6 @@ ms.assetid: dcb93b9c-3292-4cbf-9d44-5367bdbd4878
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], IDot11AdHocManager interface [NativeWIFI],described, adhoc/IDot11AdHocManager, nwifi.idot11adhocmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

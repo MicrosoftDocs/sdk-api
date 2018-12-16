@@ -9,8 +9,6 @@ ms.assetid: af7d4b22-c4e2-4f3d-bef6-5a0cc4f4d5a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandlerID property [Windows Update Agent], HandlerID property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],HandlerID property, IUpdate.HandlerID, IUpdate.get_HandlerID, IUpdate::HandlerID, IUpdate::get_HandlerID, get_HandlerID, wua.iupdate_handlerid, wuapi/IUpdate::HandlerID, wuapi/IUpdate::get_HandlerID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

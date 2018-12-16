@@ -9,8 +9,6 @@ ms.assetid: 8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

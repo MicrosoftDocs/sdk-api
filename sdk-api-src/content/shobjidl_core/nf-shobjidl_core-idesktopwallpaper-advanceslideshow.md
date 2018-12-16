@@ -9,8 +9,6 @@ ms.assetid: A68F6EFA-DD74-453f-A7D3-7CEC2E760FD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdvanceSlideshow, AdvanceSlideshow method [Windows Shell], AdvanceSlideshow method [Windows Shell],IDesktopWallpaper interface, DSD_BACKWARD, DSD_FORWARD, IDesktopWallpaper interface [Windows Shell],AdvanceSlideshow method, IDesktopWallpaper.AdvanceSlideshow, IDesktopWallpaper::AdvanceSlideshow, shell.IDesktopWallpaper_AdvanceSlideshow, shobjidl_core/IDesktopWallpaper::AdvanceSlideshow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

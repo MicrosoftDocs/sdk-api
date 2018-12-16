@@ -9,8 +9,6 @@ ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

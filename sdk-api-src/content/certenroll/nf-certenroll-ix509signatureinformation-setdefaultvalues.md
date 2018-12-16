@@ -9,8 +9,6 @@ ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509SignatureInformation interface [Security],SetDefaultValues method, IX509SignatureInformation.SetDefaultValues, IX509SignatureInformation::SetDefaultValues, SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

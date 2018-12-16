@@ -9,8 +9,6 @@ ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

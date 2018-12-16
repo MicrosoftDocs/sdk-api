@@ -9,8 +9,6 @@ ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h

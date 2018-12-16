@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUnderline, GetUnderline method [Windows Controls], GetUnderline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetUnderline method, ITextFont.GetUnderline, ITextFont::GetUnderline, _win32_ITextFont_GetUnderline, _win32_ITextFont_GetUnderline_cpp, controls.ITextFont_GetUnderline, controls._win32_ITextFont_GetUnderline, tom/ITextFont::GetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

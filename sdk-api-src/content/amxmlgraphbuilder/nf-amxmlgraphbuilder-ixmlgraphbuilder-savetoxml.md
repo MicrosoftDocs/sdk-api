@@ -9,8 +9,6 @@ ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amxmlgraphbuilder.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c183b671-20f8-468c-af0d-9f03cbc4b170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRValue, GetRValue macro [Windows GDI], _win32_GetRValue, gdi.getrvalue, wingdi/GetRValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

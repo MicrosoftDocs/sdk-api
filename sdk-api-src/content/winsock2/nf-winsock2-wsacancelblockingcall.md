@@ -9,8 +9,6 @@ ms.assetid: b3597d29-51a5-410f-9925-4d678dd641c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSACancelBlockingCall, WSACancelBlockingCall function [Winsock], _win32_wsacancelblockingcall_2, winsock.wsacancelblockingcall_2, winsock2/WSACancelBlockingCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

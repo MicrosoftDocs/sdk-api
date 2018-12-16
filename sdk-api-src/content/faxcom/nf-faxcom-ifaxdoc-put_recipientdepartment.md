@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3mk4.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientDepartment property, IFaxDoc.RecipientDepartment, IFaxDoc.put_RecipientDepartment, IFaxDoc::RecipientDepartment, IFaxDoc::get_RecipientDepartment, IFaxDoc::put_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp, faxcom/IFaxDoc::RecipientDepartment, faxcom/IFaxDoc::get_RecipientDepartment, faxcom/IFaxDoc::put_RecipientDepartment, put_RecipientDepartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B3F06500-0BC9-4E2C-87EE-2B500E36AA4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Factory2, ID2D1Factory2 interface [Direct2D], ID2D1Factory2 interface [Direct2D],described, d2d1_2/ID2D1Factory2, direct2d.id2d1factory2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_2.h
 req.include-header: 

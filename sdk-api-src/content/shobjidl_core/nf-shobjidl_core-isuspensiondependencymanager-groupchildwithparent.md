@@ -9,8 +9,6 @@ ms.assetid: E9E5FDCB-83AA-4EC1-9CE2-1EABDD7DF39C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GroupChildWithParent, GroupChildWithParent method [Windows Shell], GroupChildWithParent method [Windows Shell],ISuspensionDependencyManager interface, ISuspensionDependencyManager interface [Windows Shell],GroupChildWithParent method, ISuspensionDependencyManager.GroupChildWithParent, ISuspensionDependencyManager::GroupChildWithParent, shell.ISuspensionDependencyManager_GroupChildWithParent, shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

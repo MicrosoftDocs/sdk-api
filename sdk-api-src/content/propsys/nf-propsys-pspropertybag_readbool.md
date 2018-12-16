@@ -9,8 +9,6 @@ ms.assetid: 95F9CB5E-E690-4d83-A094-02981F0578CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadBOOL, PSPropertyBag_ReadBOOL function [Windows Properties], properties.PSPropertyBag_ReadBOOL, propsys/PSPropertyBag_ReadBOOL, shell.PSPropertyBag_ReadBOOL, shell_PSPropertyBag_ReadBOOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

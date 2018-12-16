@@ -9,8 +9,6 @@ ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

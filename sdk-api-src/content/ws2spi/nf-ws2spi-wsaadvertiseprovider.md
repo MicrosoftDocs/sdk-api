@@ -9,8 +9,6 @@ ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAdvertiseProvider, WSAAdvertiseProvider function [Winsock], winsock.wsaadvertiseprovider, ws2spi/WSAAdvertiseProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

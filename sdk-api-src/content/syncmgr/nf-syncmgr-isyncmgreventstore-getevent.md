@@ -9,8 +9,6 @@ ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

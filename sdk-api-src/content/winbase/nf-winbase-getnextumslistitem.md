@@ -9,8 +9,6 @@ ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

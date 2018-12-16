@@ -9,8 +9,6 @@ ms.assetid: 8b75ba1a-ab31-4d54-b997-86dd3445fd79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Count property, IInkExtendedProperties.Count, IInkExtendedProperties.get_Count, IInkExtendedProperties::Count, IInkExtendedProperties::get_Count, get_Count, msinkaut/IInkExtendedProperties::Count, msinkaut/IInkExtendedProperties::get_Count, tablet.iinkextendedproperties_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

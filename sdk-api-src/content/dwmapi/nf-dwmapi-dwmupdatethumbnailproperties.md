@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatet
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

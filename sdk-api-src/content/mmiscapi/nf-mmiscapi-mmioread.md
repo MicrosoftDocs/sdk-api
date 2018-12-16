@@ -9,8 +9,6 @@ ms.assetid: 1053eb3a-15ea-4a4d-9d26-1ef9cf86a610
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioRead, mmioRead, mmioRead function [Windows Multimedia], mmsystem/mmioRead, multimedia.mmioread"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

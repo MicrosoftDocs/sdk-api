@@ -9,8 +9,6 @@ ms.assetid: 0c0fbd78-ed4f-40da-a63d-a2f38136ecb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetWriterPosition, WsGetWriterPosition function [Web Services for Windows], webservices/WsGetWriterPosition, wsw.wsgetwriterposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

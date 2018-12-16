@@ -9,8 +9,6 @@ ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

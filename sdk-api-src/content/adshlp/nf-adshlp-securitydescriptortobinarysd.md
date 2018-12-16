@@ -9,8 +9,6 @@ ms.assetid: b1c814fd-df0f-406b-adfc-c356ce37d524
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SecurityDescriptorToBinarySD, SecurityDescriptorToBinarySD function [ADSI], adshlp/SecurityDescriptorToBinarySD, adsi.securitydescriptortobinarysd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

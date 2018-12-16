@@ -9,8 +9,6 @@ ms.assetid: eea402d3-9a5f-4446-bf6c-9ab8430f9c60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanSetPsdIEDataList, WlanSetPsdIEDataList function [NativeWIFI], nwifi.wlansetpsdiedatalist, wlanapi/WlanSetPsdIEDataList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

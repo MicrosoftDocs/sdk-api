@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitwordwheelopen.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Open method, IITWordWheel.Open, IITWordWheel::Open, ITWW_OPEN_CONNECT, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_open, infotech/IITWordWheel::Open, refIITWordWheelOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

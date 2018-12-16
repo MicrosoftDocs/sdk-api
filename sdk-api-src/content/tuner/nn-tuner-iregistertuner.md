@@ -9,8 +9,6 @@ ms.assetid: 99e88361-f5d3-43b7-b879-2e1c44859af4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], IRegisterTuner interface [Microsoft TV Technologies],described, IRegisterTunerInterface, mstv.iregistertuner, tuner/IRegisterTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

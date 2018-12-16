@@ -9,8 +9,6 @@ ms.assetid: 6b412a88-7096-44b4-8d80-356a3488c957
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],_NewEnum property, ITaskFolderCollection._NewEnum, ITaskFolderCollection.get__NewEnum, ITaskFolderCollection::_NewEnum, ITaskFolderCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskFolderCollection interface, get__NewEnum, taskschd.itaskfoldercollection__newenum, taskschd/ITaskFolderCollection::_NewEnum, taskschd/ITaskFolderCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

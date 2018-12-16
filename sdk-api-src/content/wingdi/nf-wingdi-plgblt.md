@@ -9,8 +9,6 @@ ms.assetid: 2a56c71b-2e96-418b-8625-a808d76e0c85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PlgBlt, PlgBlt function [Windows GDI], _win32_PlgBlt, gdi.plgblt, wingdi/PlgBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

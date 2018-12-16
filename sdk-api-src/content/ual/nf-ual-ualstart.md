@@ -9,8 +9,6 @@ ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ual.h
 req.include-header: 

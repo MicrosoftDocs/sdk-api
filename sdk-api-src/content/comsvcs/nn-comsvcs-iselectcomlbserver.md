@@ -9,8 +9,6 @@ ms.assetid: ce2edece-6375-4101-b288-c250fb21cfb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

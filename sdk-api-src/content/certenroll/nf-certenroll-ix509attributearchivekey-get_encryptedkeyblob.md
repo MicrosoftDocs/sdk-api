@@ -9,8 +9,6 @@ ms.assetid: 3230cfbf-5486-4f77-9efe-5bc542e3e096
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptedKeyBlob property [Security], EncryptedKeyBlob property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptedKeyBlob property, IX509AttributeArchiveKey.EncryptedKeyBlob, IX509AttributeArchiveKey.get_EncryptedKeyBlob, IX509AttributeArchiveKey::EncryptedKeyBlob, IX509AttributeArchiveKey::get_EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::get_EncryptedKeyBlob, get_EncryptedKeyBlob, security.ix509attributearchivekey_encryptedkeyblob_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

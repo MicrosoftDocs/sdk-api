@@ -9,8 +9,6 @@ ms.assetid: d3d1e582-db1d-413d-8ec8-7fdb7c6e3609
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticationFailed method, ITSGAuthenticateUserSink.OnUserAuthenticationFailed, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 

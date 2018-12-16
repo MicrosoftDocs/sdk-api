@@ -9,8 +9,6 @@ ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

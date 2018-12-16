@@ -9,8 +9,6 @@ ms.assetid: 0b054233-1792-4845-81c9-cf20c81d135f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Move method, IMDSPObject.Move, IMDSPObject::Move, IMDSPObjectMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Move, wmdm.imdspobject_move
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

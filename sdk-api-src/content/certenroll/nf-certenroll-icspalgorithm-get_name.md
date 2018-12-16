@@ -9,8 +9,6 @@ ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspAlgorithm interface [Security],Name property, ICspAlgorithm.Name, ICspAlgorithm.get_Name, ICspAlgorithm::Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name, security.icspalgorithm_name_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

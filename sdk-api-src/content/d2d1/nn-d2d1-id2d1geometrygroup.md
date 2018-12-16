@@ -9,8 +9,6 @@ ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1GeometryGroup, ID2D1GeometryGroup interface [Direct2D], ID2D1GeometryGroup interface [Direct2D],described, d2d1/ID2D1GeometryGroup, direct2d.ID2D1GeometryGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

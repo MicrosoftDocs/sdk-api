@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclas
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRectangle, GetRectangle method [GDI+], GetRectangle method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetRectangle method, LinearGradientBrush.GetRectangle, LinearGradientBrush.GetRectangle(OUT Rect), LinearGradientBrush.GetRectangle(Rect*), LinearGradientBrush::GetRectangle, LinearGradientBrush::GetRectangle(OUT Rect), _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

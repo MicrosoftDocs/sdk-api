@@ -9,8 +9,6 @@ ms.assetid: 1d40c247-9e61-4f8b-85f9-eddc90727a17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPS_FLOW_STATS, PPS_FLOW_STATS, PPS_FLOW_STATS structure pointer [QOS], PS_FLOW_STATS, PS_FLOW_STATS structure [QOS], _gqos_ps_flow_stats, ntddpsch/PPS_FLOW_STATS, ntddpsch/PS_FLOW_STATS, qos.ps_flow_stats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 

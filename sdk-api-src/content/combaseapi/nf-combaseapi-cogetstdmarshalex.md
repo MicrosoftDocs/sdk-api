@@ -9,8 +9,6 @@ ms.assetid: 405c5ff3-8702-48b3-9be9-df4a9461696e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER, SMEXF_SERVER, _com_CoGetStdMarshalEx, com.cogetstdmarshalex, combaseapi/CoGetStdMarshalEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

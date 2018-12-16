@@ -9,8 +9,6 @@ ms.assetid: 38b85fa8-f5e7-4ac8-9f38-1cad83417797
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertPolicy object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertPolicy object, GetDescription method [Security],ICertPolicy interface, GetDescription method [Security],ICertPolicy2 interface, ICertPolicy interface [Security],GetDescription method, ICertPolicy.GetDescription, ICertPolicy2 interface [Security],GetDescription method, ICertPolicy2::GetDescription, ICertPolicy::GetDescription, _certsrv_icertpolicy_getdescription, certpol/ICertPolicy2::GetDescription, certpol/ICertPolicy::GetDescription, security.icertpolicy2_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: Certsrv.h

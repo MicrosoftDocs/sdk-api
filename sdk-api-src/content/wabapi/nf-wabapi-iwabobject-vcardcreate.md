@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardcreate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWABObject.VCardCreate, IWABObject::VCardCreate, VCardCreate, VCardCreate method [Windows Address Book], VCardCreate method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardCreate, wab._wab_IWABObject_VCardCreate, wabapi/IWABObject::VCardCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 

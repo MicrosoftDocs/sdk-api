@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

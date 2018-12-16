@@ -9,8 +9,6 @@ ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

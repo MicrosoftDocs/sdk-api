@@ -9,8 +9,6 @@ ms.assetid: ad910f0b-f8fb-4246-830e-1edb23e06f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_CLOSE_USER_DESKTOP, PWLX_CLOSE_USER_DESKTOP callback, WlxCloseUserDesktop, WlxCloseUserDesktop callback function [Security], _gina_wlxcloseuserdesktop, security.wlxcloseuserdesktop, winwlx/WlxCloseUserDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e8385fe5-8a65-48be-b997-dbddd638ddbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarterGPOCollection.Item, IGPMStarterGPOCollection.get_Item, IGPMStarterGPOCollection::Item, IGPMStarterGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOCollection interface, get_Item, gpmc.igpmstartergpocollection_get_item, gpmgmt/IGPMStarterGPOCollection::Item, gpmgmt/IGPMStarterGPOCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

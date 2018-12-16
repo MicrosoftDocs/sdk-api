@@ -9,8 +9,6 @@ ms.assetid: 2c96379e-7c9f-440c-a98b-bda38bacd33f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: POINTER_DEVICE_PROPERTY, POINTER_DEVICE_PROPERTY structure, input_pointerdevice.pointer_device_property, tagPOINTER_DEVICE_PROPERTY, unifiedinputstack.pointer_device_property, winuser/POINTER_DEVICE_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 

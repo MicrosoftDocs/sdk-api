@@ -9,8 +9,6 @@ ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], IWRdsGraphicsChannelEvents interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelevents, wrdsgraphicschannels/IWRdsGraphicsChannelEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wrdsgraphicschannels.h
 req.include-header: 

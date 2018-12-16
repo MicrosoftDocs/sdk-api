@@ -9,8 +9,6 @@ ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Storage], _stg_gethglobalfromstream, combaseapi/GetHGlobalFromStream, stg.gethglobalfromstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

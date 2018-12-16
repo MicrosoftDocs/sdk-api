@@ -9,8 +9,6 @@ ms.assetid: 0a9ee4b8-89d9-4db9-9b79-f84165e6132f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstInstanceA, MI_ConstInstanceA structure [Windows Management Infrastructure (MI)], mi/MI_ConstInstanceA, wmi._mi_constinstancea, wmi_v2.mi_constinstancea
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

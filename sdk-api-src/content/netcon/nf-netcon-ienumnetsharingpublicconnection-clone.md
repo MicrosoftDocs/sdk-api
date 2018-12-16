@@ -9,8 +9,6 @@ ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

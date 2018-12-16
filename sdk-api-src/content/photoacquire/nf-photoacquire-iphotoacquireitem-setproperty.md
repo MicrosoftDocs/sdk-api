@@ -9,8 +9,6 @@ ms.assetid: 24c8ee32-eb10-416f-81bd-ddccb0f81fd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireItem interface [Picture Acquisition],SetProperty method, IPhotoAcquireItem.SetProperty, IPhotoAcquireItem::SetProperty, IPhotoAcquireItemSetProperty, SetProperty, SetProperty method [Picture Acquisition], SetProperty method [Picture Acquisition],IPhotoAcquireItem interface, photoacquire/IPhotoAcquireItem::SetProperty, picacq.iphotoacquireitem_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

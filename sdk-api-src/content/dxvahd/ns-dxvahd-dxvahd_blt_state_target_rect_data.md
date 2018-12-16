@@ -9,8 +9,6 @@ ms.assetid: 2a810071-b5f7-4216-8108-83dce5c12836
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_BLT_STATE_TARGET_RECT_DATA, DXVAHD_BLT_STATE_TARGET_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_BLT_STATE_TARGET_RECT_DATA, mf.dxvahd_blt_state_target_rect_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

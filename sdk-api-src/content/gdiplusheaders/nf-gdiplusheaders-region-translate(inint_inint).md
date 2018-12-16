@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Translate(IN INT,IN INT), Region.Translate(INT,INT), Region::Translate, Region::Translate(IN INT,IN INT), Translate, Translate method [GDI+], Translate method [GDI+],Region class, _gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_, gdiplus._gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

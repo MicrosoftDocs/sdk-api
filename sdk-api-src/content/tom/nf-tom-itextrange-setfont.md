@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFont method, ITextRange.SetFont, ITextRange::SetFont, SetFont, SetFont method [Windows Controls], SetFont method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFont, _win32_ITextRange_SetFont_cpp, controls.ITextRange_SetFont, controls._win32_ITextRange_SetFont, tom/ITextRange::SetFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

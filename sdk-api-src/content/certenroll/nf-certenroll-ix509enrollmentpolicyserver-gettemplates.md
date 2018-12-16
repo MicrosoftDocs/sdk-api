@@ -9,8 +9,6 @@ ms.assetid: 52dd85aa-033b-43ab-9b71-1080f969bebc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTemplates, GetTemplates method [Security], GetTemplates method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetTemplates method, IX509EnrollmentPolicyServer.GetTemplates, IX509EnrollmentPolicyServer::GetTemplates, certenroll/IX509EnrollmentPolicyServer::GetTemplates, security.ix509enrollmentpolicyserver_gettemplates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

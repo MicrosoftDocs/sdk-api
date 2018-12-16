@@ -9,8 +9,6 @@ ms.assetid: E471FC60-9FFC-4269-92A0-7CCA53D3475B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterQueryExtendedEnrollmentStatus, EngineAdapterQueryExtendedEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN callback, secbiomet.engineadapterqueryextendedenrollmentstatus, winbio_adapter/EngineAdapterQueryExtendedEnrollmentStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

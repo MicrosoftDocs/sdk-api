@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), Graphics.FillPie(const Brush*,const Rect&,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

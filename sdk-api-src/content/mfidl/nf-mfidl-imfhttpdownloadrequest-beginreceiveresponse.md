@@ -9,8 +9,6 @@ ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

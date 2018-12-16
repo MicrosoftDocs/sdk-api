@@ -9,8 +9,6 @@ ms.assetid: ca1b67b3-2dd0-47c1-9e91-ae94b6d78cc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_AvgBytesPerSec method, ITScriptableAudioFormat.put_AvgBytesPerSec, ITScriptableAudioFormat::put_AvgBytesPerSec, _tapi3_itscriptableaudioformat_put_avgbytespersec, put_AvgBytesPerSec, put_AvgBytesPerSec method [TAPI 2.2], put_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_avgbytespersec, tapi3if/ITScriptableAudioFormat::put_AvgBytesPerSec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

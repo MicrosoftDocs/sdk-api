@@ -9,8 +9,6 @@ ms.assetid: cad0ead4-cfd4-450e-95f3-9a52774b6c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPMBackupCollection interface [GPMC],get__NewEnum method, IGPMBackupCollection.get__NewEnum, IGPMBackupCollection::get__NewEnum, _win32_igpmbackupcollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMBackupCollection interface, gpmc.igpmbackupcollection_get__newenum, gpmgmt/IGPMBackupCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

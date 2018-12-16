@@ -9,8 +9,6 @@ ms.assetid: a1ca16d1-bf91-4986-a4f8-6e6ad382730f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPPP_EAP_PACKET, EAPCODE_Failure, EAPCODE_Request, EAPCODE_Response, EAPCODE_Success, PPPP_EAP_PACKET, PPPP_EAP_PACKET structure pointer [EAP], PPP_EAP_PACKET, PPP_EAP_PACKET structure [EAP], _eap_ppp_eap_packet, eap.ppp_eap_packet, raseapif/PPPP_EAP_PACKET, raseapif/PPP_EAP_PACKET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeConnectList, DdeConnectList function [Data Exchange], _win32_DdeConnectList, _win32_ddeconnectlist_cpp, dataxchg.ddeconnectlist, ddeml/DdeConnectList, winui._win32_ddeconnectlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

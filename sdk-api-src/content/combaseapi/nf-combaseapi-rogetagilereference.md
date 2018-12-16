@@ -9,8 +9,6 @@ ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

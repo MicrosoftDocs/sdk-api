@@ -9,8 +9,6 @@ ms.assetid: 1000511f-40a6-4d5e-a55f-97e25f6c1e11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Acquire, Acquire method [Picture Acquisition], Acquire method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],Acquire method, IPhotoAcquire.Acquire, IPhotoAcquire::Acquire, IPhotoAcquireAcquire, photoacquire/IPhotoAcquire::Acquire, picacq.iphotoacquire_acquire
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

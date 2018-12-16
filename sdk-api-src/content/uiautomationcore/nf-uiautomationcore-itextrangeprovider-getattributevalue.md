@@ -9,8 +9,6 @@ ms.assetid: a72e780e-30e3-4feb-8f47-46b9f1714061
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetAttributeValue method, ITextRangeProvider.GetAttributeValue, ITextRangeProvider::GetAttributeValue, uiauto.uiauto_ITextRangeProvider_GetAttributeValue, uiauto_ITextRangeProvider_GetAttributeValue, uiautomationcore/ITextRangeProvider::GetAttributeValue, winauto.uiauto_ITextRangeProvider_GetAttributeValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\progbar\structures\pbrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPBRANGE, PBRANGE, PBRANGE structure [Windows Controls], PPBRANGE, PPBRANGE structure pointer [Windows Controls], _win32_PBRANGE, _win32_PBRANGE_cpp, commctrl/PBRANGE, commctrl/PPBRANGE, controls.PBRANGE, controls._win32_PBRANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

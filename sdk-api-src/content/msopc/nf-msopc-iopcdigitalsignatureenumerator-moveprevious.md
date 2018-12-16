@@ -9,8 +9,6 @@ ms.assetid: a3972c08-82a1-44e8-b6c6-782294eacfa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcDigitalSignatureEnumerator.MovePrevious, IOpcDigitalSignatureEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MovePrevious, opc.iopcdigitalsignatureenumerator_moveprevious
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

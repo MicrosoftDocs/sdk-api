@@ -9,8 +9,6 @@ ms.assetid: b7c7becc-667a-4ee2-ae61-0a009d0c87e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckPublicKeySignature, CheckPublicKeySignature method [Security], CheckPublicKeySignature method [Security],IX509CertificateRequestCertificate interface, IX509CertificateRequestCertificate interface [Security],CheckPublicKeySignature method, IX509CertificateRequestCertificate.CheckPublicKeySignature, IX509CertificateRequestCertificate::CheckPublicKeySignature, certenroll/IX509CertificateRequestCertificate::CheckPublicKeySignature, security.ix509certificaterequestcertificate_checkpublickeysignature_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e022d0bc-f5ae-4c04-80f7-40ec77e2fa80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigTransportDelete, MprConfigTransportDelete function [RAS], _mpr_mprconfigtransportdelete, mprapi/MprConfigTransportDelete, rras.mprconfigtransportdelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

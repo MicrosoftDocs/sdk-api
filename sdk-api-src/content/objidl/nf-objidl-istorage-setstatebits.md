@@ -9,8 +9,6 @@ ms.assetid: 52606df8-10ea-40e7-bb61-c86c7b7262d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStorage interface [Structured Storage],SetStateBits method, IStorage.SetStateBits, IStorage::SetStateBits, SetStateBits, SetStateBits method [Structured Storage], SetStateBits method [Structured Storage],IStorage interface, _stg_istorage_setstatebits, objidl/IStorage::SetStateBits, stg.istorage_setstatebits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

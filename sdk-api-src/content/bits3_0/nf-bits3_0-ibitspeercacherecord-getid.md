@@ -9,8 +9,6 @@ ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

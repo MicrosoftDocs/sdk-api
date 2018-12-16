@@ -9,8 +9,6 @@ ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

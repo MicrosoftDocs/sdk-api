@@ -9,8 +9,6 @@ ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

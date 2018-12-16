@@ -9,8 +9,6 @@ ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

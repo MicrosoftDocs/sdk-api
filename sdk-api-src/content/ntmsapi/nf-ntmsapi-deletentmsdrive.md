@@ -9,8 +9,6 @@ ms.assetid: 301900a1-9ccb-45ed-aba7-c398cda7d4a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsdrive, base.deletentmsdrive, fs.deletentmsdrive, ntmsapi/DeleteNtmsDrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

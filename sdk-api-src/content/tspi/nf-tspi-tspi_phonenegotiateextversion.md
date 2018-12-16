@@ -9,8 +9,6 @@ ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneNegotiateExtVersion, TSPI_phoneNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_phonenegotiateextversion, tspi.tspi_phonenegotiateextversion, tspi/TSPI_phoneNegotiateExtVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

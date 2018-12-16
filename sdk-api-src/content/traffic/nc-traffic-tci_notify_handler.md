@@ -9,8 +9,6 @@ ms.assetid: cacf4c21-d831-462c-b9e8-fd51fcf8e4e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClNotifyHandler, ClNotifyHandler callback, ClNotifyHandler callback function [QOS], TCI_NOTIFY_HANDLER, TCI_NOTIFY_HANDLER callback function [QOS], _gqos_clnotifyhandler, qos.clnotifyhandler, traffic/ClNotifyHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 

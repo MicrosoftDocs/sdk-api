@@ -9,8 +9,6 @@ ms.assetid: 4477600b-311e-4425-b1de-9ed9c396fbdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDynamicInfo, GetDynamicInfo method [Windows Shell], GetDynamicInfo method [Windows Shell],IDynamicHWHandler interface, IDynamicHWHandler interface [Windows Shell],GetDynamicInfo method, IDynamicHWHandler.GetDynamicInfo, IDynamicHWHandler::GetDynamicInfo, _shell_IDynamicHWHandler_GetDynamicInfo, shell.IDynamicHWHandler_GetDynamicInfo, shobjidl/IDynamicHWHandler::GetDynamicInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

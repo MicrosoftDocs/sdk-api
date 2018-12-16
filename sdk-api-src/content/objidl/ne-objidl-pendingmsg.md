@@ -9,8 +9,6 @@ ms.assetid: 105bbcd4-b1b2-444d-bd55-7f6e564fec42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PENDINGMSG, PENDINGMSG enumeration [COM], PENDINGMSG_CANCELCALL, PENDINGMSG_WAITDEFPROCESS, PENDINGMSG_WAITNOPROCESS, _com_PENDINGMSG, com.pendingmsg, objidl/PENDINGMSG, objidl/PENDINGMSG_CANCELCALL, objidl/PENDINGMSG_WAITDEFPROCESS, objidl/PENDINGMSG_WAITNOPROCESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

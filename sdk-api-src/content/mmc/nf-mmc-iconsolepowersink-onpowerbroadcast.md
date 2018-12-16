@@ -9,8 +9,6 @@ ms.assetid: 69589335-4b80-4f2b-a8d6-74805969c85c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsolePowerSink interface [MMC],OnPowerBroadcast method, IConsolePowerSink.OnPowerBroadcast, IConsolePowerSink::OnPowerBroadcast, OnPowerBroadcast, OnPowerBroadcast method [MMC], OnPowerBroadcast method [MMC],IConsolePowerSink interface, PBT_APMBATTERYLOW, PBT_APMOEMEVENT, PBT_APMPOWERSTATUSCHANGE, PBT_APMQUERYSUSPEND, PBT_APMQUERYSUSPENDFAILED, PBT_APMRESUMEAUTOMATIC, PBT_APMRESUMECRITICAL, PBT_APMRESUMESUSPEND, PBT_APMSUSPEND, _slate_iconsolepowersink_onpowerbroadcast, mmc.iconsolepowersink_onpowerbroadcast, mmc/IConsolePowerSink::OnPowerBroadcast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

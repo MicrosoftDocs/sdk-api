@@ -9,8 +9,6 @@ ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

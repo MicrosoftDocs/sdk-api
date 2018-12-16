@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStoryCount, GetStoryCount method [Windows Controls], GetStoryCount method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryCount method, ITextDocument.GetStoryCount, ITextDocument::GetStoryCount, _win32_ITextDocument_GetStoryCount, _win32_ITextDocument_GetStoryCount_cpp, controls.ITextDocument_GetStoryCount, controls._win32_ITextDocument_GetStoryCount, tom/ITextDocument::GetStoryCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

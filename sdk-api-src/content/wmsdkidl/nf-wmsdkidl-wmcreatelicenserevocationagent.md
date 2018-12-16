@@ -9,8 +9,6 @@ ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

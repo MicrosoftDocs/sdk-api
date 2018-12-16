@@ -9,8 +9,6 @@ ms.assetid: FFDC3E04-2A0C-42AD-9726-60FC951F68B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_BLEND_DESC interface [Direct3D 11],~CD3D11_BLEND_DESC destructor, CD3D11_BLEND_DESC.~CD3D11_BLEND_DESC, CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC, CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC(), d3d11/CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc__cd3d11_blend_desc__destructor, ~CD3D11_BLEND_DESC, ~CD3D11_BLEND_DESC destructor [Direct3D 11], ~CD3D11_BLEND_DESC destructor [Direct3D 11],CD3D11_BLEND_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

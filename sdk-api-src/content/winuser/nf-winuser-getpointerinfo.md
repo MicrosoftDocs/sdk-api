@@ -9,8 +9,6 @@ ms.assetid: 75faea24-91cd-448b-b67a-19fe530f1800
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notifications], inputmsg.getpointerinfo, winuser/GetPointerInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

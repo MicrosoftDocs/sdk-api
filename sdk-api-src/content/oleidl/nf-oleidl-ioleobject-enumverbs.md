@@ -9,8 +9,6 @@ ms.assetid: c67770d0-e478-41dc-9028-1e0a6cb9e3c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumVerbs, EnumVerbs method [COM], EnumVerbs method [COM],IOleObject interface, IOleObject interface [COM],EnumVerbs method, IOleObject.EnumVerbs, IOleObject::EnumVerbs, _ole_ioleobject_enumverbs, com.ioleobject_enumverbs, oleidl/IOleObject::EnumVerbs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 515e5f01-a68f-4e67-acf5-cac1923d485e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework],described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

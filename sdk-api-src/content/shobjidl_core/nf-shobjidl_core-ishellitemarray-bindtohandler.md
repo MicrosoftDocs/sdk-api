@@ -9,8 +9,6 @@ ms.assetid: 7632d876-c00b-4dfc-862b-9a68f01bd8da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_SFUIObject, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],BindToHandler method, IShellItemArray.BindToHandler, IShellItemArray::BindToHandler, _shell_IShellItemArray_BindToHandler, shell.IShellItemArray_BindToHandler, shobjidl_core/IShellItemArray::BindToHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

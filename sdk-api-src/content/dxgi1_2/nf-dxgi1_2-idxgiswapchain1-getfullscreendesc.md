@@ -9,8 +9,6 @@ ms.assetid: 6056239A-B3CA-4C70-9081-499B0AAEFBEF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFullscreenDesc, GetFullscreenDesc method [DXGI], GetFullscreenDesc method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetFullscreenDesc method, IDXGISwapChain1.GetFullscreenDesc, IDXGISwapChain1::GetFullscreenDesc, direct3ddxgi.idxgiswapchain1_getfullscreendesc, dxgi1_2/IDXGISwapChain1::GetFullscreenDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

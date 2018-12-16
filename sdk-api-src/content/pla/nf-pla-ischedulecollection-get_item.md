@@ -9,8 +9,6 @@ ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollection.Item, IScheduleCollection.get_Item, IScheduleCollection::Item, IScheduleCollection::get_Item, Item property [PLA], Item property [PLA],IScheduleCollection interface, base.ischedulecollection_item, get_Item, pla.ischedulecollection_item, pla/IScheduleCollection::Item, pla/IScheduleCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

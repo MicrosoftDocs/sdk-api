@@ -9,8 +9,6 @@ ms.assetid: be3ffa3f-b343-4e38-8b1e-aeccf35d92b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, GetDIBits, GetDIBits function [Windows GDI], _win32_GetDIBits, gdi.getdibits, wingdi/GetDIBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

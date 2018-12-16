@@ -9,8 +9,6 @@ ms.assetid: 1c110ea3-651c-4e2c-9675-64f6975e5fc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventDescSetId, EventDescSetId function [ETW], base.eventdescsetid_func, etw.eventdescsetid_func, evntprov/EventDescSetId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de625328-59ba-4574-9b7b-3e8fc643c8ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLinkReference, GetLinkReference method [Windows Shell], GetLinkReference method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkReference method, ISyncMgrEvent.GetLinkReference, ISyncMgrEvent::GetLinkReference, _shell_ISyncMgrEvent_GetLinkReference, shell.ISyncMgrEvent_GetLinkReference, syncmgr/ISyncMgrEvent::GetLinkReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

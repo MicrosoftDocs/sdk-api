@@ -9,8 +9,6 @@ ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

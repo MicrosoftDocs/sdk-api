@@ -9,8 +9,6 @@ ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

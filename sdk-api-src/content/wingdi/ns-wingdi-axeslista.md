@@ -9,8 +9,6 @@ ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAXESLISTA, *PAXESLISTA, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

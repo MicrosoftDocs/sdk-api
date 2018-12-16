@@ -9,8 +9,6 @@ ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

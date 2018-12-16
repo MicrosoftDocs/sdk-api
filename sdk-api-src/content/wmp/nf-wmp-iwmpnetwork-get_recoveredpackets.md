@@ -9,8 +9,6 @@ ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

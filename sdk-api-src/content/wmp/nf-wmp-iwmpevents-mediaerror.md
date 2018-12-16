@@ -9,8 +9,6 @@ ms.assetid: 3c48ff94-01d6-492c-912c-ee74b619730b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaError method, IWMPEvents.MediaError, IWMPEvents::MediaError, IWMPEventsMediaError, MediaError, MediaError method [Windows Media Player], MediaError method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediaerror, wmp/IWMPEvents::MediaError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

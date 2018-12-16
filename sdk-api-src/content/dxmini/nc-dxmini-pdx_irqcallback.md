@@ -9,8 +9,6 @@ ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, PDX_IRQCALLBACK callback, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PICONINFOEXW, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

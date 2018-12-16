@@ -9,8 +9,6 @@ ms.assetid: f5975443-00e3-44f0-9a69-02460d4312c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_SERVICE_METADATA_LIST, WSD_SERVICE_METADATA_LIST structure, ncd.wsd_service_metadata_list_struct, wsdtypes/WSD_SERVICE_METADATA_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

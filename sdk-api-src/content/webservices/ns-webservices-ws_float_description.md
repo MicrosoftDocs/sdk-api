@@ -9,8 +9,6 @@ ms.assetid: 54af331f-92bd-4970-945d-13f3a2e62c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_FLOAT_DESCRIPTION, WS_FLOAT_DESCRIPTION structure [Web Services for Windows], webservices/WS_FLOAT_DESCRIPTION, wsw.ws_float_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

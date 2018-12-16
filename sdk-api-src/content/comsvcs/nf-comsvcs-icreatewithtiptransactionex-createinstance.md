@@ -9,8 +9,6 @@ ms.assetid: 3f0572eb-8633-4dc3-a013-9cf859241cd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

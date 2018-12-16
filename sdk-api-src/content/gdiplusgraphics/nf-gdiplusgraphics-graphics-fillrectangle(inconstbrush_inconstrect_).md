@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillRectangle, FillRectangle method [GDI+], FillRectangle method [GDI+],Graphics class, Graphics class [GDI+],FillRectangle method, Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN const Rect &), Graphics.FillRectangle(const Brush*,const Rect&), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN const Rect &), _gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_Rect_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

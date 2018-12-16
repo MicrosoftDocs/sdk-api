@@ -9,8 +9,6 @@ ms.assetid: f2681fe3-744b-4172-8908-1d823d2e2371
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

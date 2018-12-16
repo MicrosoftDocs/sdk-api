@@ -9,8 +9,6 @@ ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD], MIRROR_VIRTUAL_DISK_VERSION_1, MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/MIRROR_VIRTUAL_DISK_VERSION, vdssys/MIRROR_VIRTUAL_DISK_VERSION_1, vdssys/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.mirror_virtual_disk_version, virtdisk/MIRROR_VIRTUAL_DISK_VERSION, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 

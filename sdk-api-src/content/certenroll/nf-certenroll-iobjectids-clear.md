@@ -9,8 +9,6 @@ ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IObjectIds interface, IObjectIds interface [Security],Clear method, IObjectIds.Clear, IObjectIds::Clear, certenroll/IObjectIds::Clear, security.iobjectids_clear_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

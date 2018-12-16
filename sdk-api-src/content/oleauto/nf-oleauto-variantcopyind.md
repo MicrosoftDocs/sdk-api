@@ -9,8 +9,6 @@ ms.assetid: 5d9be6cd-92e5-485c-ba0d-8630d3e414b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_VariantCopyInd, automat.variantcopyind, oleauto/VariantCopyInd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

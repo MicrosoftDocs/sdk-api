@@ -9,8 +9,6 @@ ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

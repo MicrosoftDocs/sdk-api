@@ -9,8 +9,6 @@ ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

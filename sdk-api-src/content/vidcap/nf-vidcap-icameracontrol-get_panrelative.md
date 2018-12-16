@@ -9,8 +9,6 @@ ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanRelative method, ICameraControl.get_PanRelative, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

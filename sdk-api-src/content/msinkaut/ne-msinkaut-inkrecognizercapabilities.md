@@ -9,8 +9,6 @@ ms.assetid: df405aeb-fefd-4bba-9c02-c1865418f76a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRC_AdviseInkChange, IRC_ArbitraryAngle, IRC_BoxedInput, IRC_CharacterAutoCompletionInput, IRC_DownAndLeft, IRC_DownAndRight, IRC_FreeInput, IRC_Lattice, IRC_LeftAndDown, IRC_LinedInput, IRC_Object, IRC_Personalizable, IRC_RightAndDown, IRC_StrokeReorder, InkRecognizerCapabilities, InkRecognizerCapabilities enumeration [Tablet PC], [Hidden] IRC_DontCare, df405aeb-fefd-4bba-9c02-c1865418f76a, msinkaut/IRC_AdviseInkChange, msinkaut/IRC_ArbitraryAngle, msinkaut/IRC_BoxedInput, msinkaut/IRC_CharacterAutoCompletionInput, msinkaut/IRC_DownAndLeft, msinkaut/IRC_DownAndRight, msinkaut/IRC_FreeInput, msinkaut/IRC_Lattice, msinkaut/IRC_LeftAndDown, msinkaut/IRC_LinedInput, msinkaut/IRC_Object, msinkaut/IRC_Personalizable, msinkaut/IRC_RightAndDown, msinkaut/IRC_StrokeReorder, msinkaut/InkRecognizerCapabilities, msinkaut/[Hidden] IRC_DontCare, tablet.inkrecognizercapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

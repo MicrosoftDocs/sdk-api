@@ -9,8 +9,6 @@ ms.assetid: a23d968e-113f-470e-a629-18c22882c77f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 

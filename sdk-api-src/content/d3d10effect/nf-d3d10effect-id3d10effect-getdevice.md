@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effect_getdevice.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 92eb984e-62b3-6a6f-ab2b-93b561a93fc3, GetDevice, GetDevice method [Direct3D 10], GetDevice method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetDevice method, ID3D10Effect.GetDevice, ID3D10Effect::GetDevice, d3d10effect/ID3D10Effect::GetDevice, direct3d10.id3d10effect_getdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

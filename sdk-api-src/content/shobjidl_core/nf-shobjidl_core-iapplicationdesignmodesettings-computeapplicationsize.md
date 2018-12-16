@@ -9,8 +9,6 @@ ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 2f60209f-7777-4130-b212-245673dd0055
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNETINFOSTRUCT, ERROR_BUSY, ERROR_NO_NETWORK, LPNETINFOSTRUCT, LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)], NETINFOSTRUCT, NETINFOSTRUCT structure [Windows Networking (WNet)], NETINFO_DISKRED, NETINFO_DLL16, NETINFO_PRINTERRED, NO_ERROR, _win32_netinfostruct_str, winnetwk/LPNETINFOSTRUCT, winnetwk/NETINFOSTRUCT, wnet.netinfostruct_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 

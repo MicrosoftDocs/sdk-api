@@ -9,8 +9,6 @@ ms.assetid: 5c371d5a-26cf-4a99-a8e1-006b6b3cc91f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

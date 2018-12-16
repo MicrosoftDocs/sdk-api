@@ -9,8 +9,6 @@ ms.assetid: 2b16b66d-5e71-4204-984d-e9a9d677f4a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbSubtitlingDescriptor.GetTag, IDvbSubtitlingDescriptor::GetTag, dvbsiparser/IDvbSubtitlingDescriptor::GetTag, mstv.idvbsubtitlingdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

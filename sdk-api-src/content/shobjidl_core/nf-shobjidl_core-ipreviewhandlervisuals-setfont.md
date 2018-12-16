@@ -9,8 +9,6 @@ ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetFont method, IPreviewHandlerVisuals.SetFont, IPreviewHandlerVisuals::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetFont, shell.IPreviewHandlerVisuals_SetFont, shobjidl_core/IPreviewHandlerVisuals::SetFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

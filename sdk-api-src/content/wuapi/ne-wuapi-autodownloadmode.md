@@ -9,8 +9,6 @@ ms.assetid: cabf21b8-790b-401b-9de2-0d8c5fa858e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AutoDownloadMode, AutoDownloadMode enumeration [Windows Update Agent], adAlwaysAutoDownload, adLetWindowsUpdateDecide, adNeverAutoDownload, wua.autodownloadmode, wuapi/AutoDownloadMode, wuapi/adAlwaysAutoDownload, wuapi/adLetWindowsUpdateDecide, wuapi/adNeverAutoDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

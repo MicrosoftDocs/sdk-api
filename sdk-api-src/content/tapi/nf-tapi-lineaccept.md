@@ -9,8 +9,6 @@ ms.assetid: 185f129a-ba8c-496b-ab1a-ba22e5928c54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

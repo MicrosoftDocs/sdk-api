@@ -9,8 +9,6 @@ ms.assetid: 61eb7452-2ada-4832-bd16-87ac56fedc6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnConfigureRegisterWord interface [Text Services Framework],Show method, ITfFnConfigureRegisterWord.Show, ITfFnConfigureRegisterWord::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterWord interface, _tsf_itffnconfigureregisterword_show_ref, ctffunc/ITfFnConfigureRegisterWord::Show, tsf.itffnconfigureregisterword_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

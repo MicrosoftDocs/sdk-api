@@ -9,8 +9,6 @@ ms.assetid: 5217142d-fe1a-4d9f-a4e4-5d9e103ee573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPNotifyPluginAddRemove_Subscriptions, WMPNotifySubscriptionPluginAddRemove, WMPNotifySubscriptionPluginAddRemove function [Windows Media Player], contentpartner/WMPNotifySubscriptionPluginAddRemove, wmp.wmpnotifysubscriptionpluginaddremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: contentpartner.h
 req.include-header: Subscriptionservices.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6lwk.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],MajorBuild property, IFaxServer.MajorBuild, IFaxServer.get_MajorBuild, IFaxServer::MajorBuild, IFaxServer::get_MajorBuild, MajorBuild property [Fax Service], MajorBuild property [Fax Service],IFaxServer interface, _mfax_faxserver.majorbuild, fax._mfax_faxserver_cpp_mfax_faxserver_majorbuild_cpp, fax._mfax_faxserver_majorbuild, faxcomex/IFaxServer::MajorBuild, faxcomex/IFaxServer::get_MajorBuild, get_MajorBuild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

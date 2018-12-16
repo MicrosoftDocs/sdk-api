@@ -9,8 +9,6 @@ ms.assetid: d7b69627-5847-47ec-8ada-2df9b427e870
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_HANDLER_CONTEXT, WSD_HANDLER_CONTEXT structure, ncd.wsd_handler_context_struct, wsdtypes/WSD_HANDLER_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 69861a6d-3dc5-4871-8e99-0d46d2896dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files], PFSCTL_QUERY_REGION_INFO_OUTPUT, PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files], fs.fsctl_query_region_info_output, winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT, winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 

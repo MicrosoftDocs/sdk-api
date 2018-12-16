@@ -9,8 +9,6 @@ ms.assetid: cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererEvent interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent.OverlayUnavailable, IMSVidVideoRendererEvent::OverlayUnavailable, IMSVidVideoRendererEventOverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent interface, mstv.imsvidvideorendererevent_overlayunavailable, segment/IMSVidVideoRendererEvent::OverlayUnavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

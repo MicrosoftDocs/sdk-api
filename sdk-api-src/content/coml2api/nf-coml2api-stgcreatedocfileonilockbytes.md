@@ -9,8 +9,6 @@ ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

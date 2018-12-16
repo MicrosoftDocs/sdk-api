@@ -9,8 +9,6 @@ ms.assetid: 2a5c53e3-bbb4-4245-a640-86b58d1a3c52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtGetEventMetadataProperty, EvtGetEventMetadataProperty function [EventLog], wes.evtgeteventmetadataproperty, winevt/EvtGetEventMetadataProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

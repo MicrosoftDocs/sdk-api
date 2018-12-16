@@ -9,8 +9,6 @@ ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: adsprop.h
 req.include-header: 

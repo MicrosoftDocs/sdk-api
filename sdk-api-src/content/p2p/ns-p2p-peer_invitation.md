@@ -9,8 +9,6 @@ ms.assetid: b74b45c0-760f-4008-87dd-9fdea0d4be05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_INVITATION, PEER_INVITATION, PEER_INVITATION structure [Peer Networking], PPEER_INVITATION, PPEER_INVITATION structure pointer [Peer Networking], p2p.peer_invitation, p2p/PEER_INVITATION, p2p/PPEER_INVITATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

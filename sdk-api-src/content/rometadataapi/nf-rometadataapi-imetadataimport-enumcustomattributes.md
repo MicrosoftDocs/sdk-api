@@ -9,8 +9,6 @@ ms.assetid: d5ecb71e-a52f-421b-aab9-48efcc77ec2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumCustomAttributes, EnumCustomAttributes method [Windows Runtime], EnumCustomAttributes method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumCustomAttributes method, IMetaDataImport.EnumCustomAttributes, IMetaDataImport::EnumCustomAttributes, rometadataapi/IMetaDataImport::EnumCustomAttributes, winrt.imetadataimport_enumcustomattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: A286F5C1-764F-4FAF-B2D2-92820BD2E709
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateColorMatrixEffect, CreateColorMatrixEffect method [DirectComposition], CreateColorMatrixEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateColorMatrixEffect method, IDCompositionDevice3.CreateColorMatrixEffect, IDCompositionDevice3::CreateColorMatrixEffect, dcomp/IDCompositionDevice3::CreateColorMatrixEffect, directcomp.idcompositiondevice3_createcolormatrixeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

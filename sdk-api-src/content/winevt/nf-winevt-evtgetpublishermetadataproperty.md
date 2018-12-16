@@ -9,8 +9,6 @@ ms.assetid: f85a46ef-873c-4dd9-8b5c-3763fd67fc06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtGetPublisherMetadataProperty, EvtGetPublisherMetadataProperty function [EventLog], wes.evtgetpublishermetadataproperty, winevt/EvtGetPublisherMetadataProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

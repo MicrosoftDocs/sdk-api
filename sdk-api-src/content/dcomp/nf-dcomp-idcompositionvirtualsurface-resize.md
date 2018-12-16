@@ -9,8 +9,6 @@ ms.assetid: BB86CDA8-1DF0-436D-9FA3-95293E2B8C0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Resize method, IDCompositionVirtualSurface.Resize, IDCompositionVirtualSurface::Resize, Resize, Resize method [DirectComposition], Resize method [DirectComposition],IDCompositionVirtualSurface interface, dcomp/IDCompositionVirtualSurface::Resize, directcomp.idcompositionvirtualsurface_resize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

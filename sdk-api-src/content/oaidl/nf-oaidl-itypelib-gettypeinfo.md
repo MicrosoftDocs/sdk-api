@@ -9,8 +9,6 @@ ms.assetid: 7661faa8-eb06-4bbe-88e9-9662a0d6984b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfo method, ITypeLib.GetTypeInfo, ITypeLib::GetTypeInfo, _oa96_ITypeLib_GetTypeInfo, automat.itypelib_gettypeinfo, oaidl/ITypeLib::GetTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

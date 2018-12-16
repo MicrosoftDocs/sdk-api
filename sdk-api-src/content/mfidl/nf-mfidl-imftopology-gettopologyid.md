@@ -9,8 +9,6 @@ ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

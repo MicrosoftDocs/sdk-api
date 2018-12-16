@@ -9,8 +9,6 @@ ms.assetid: d682fb7c-de80-4285-baa2-f86c997f0987
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],NameValuePairs property, IX509Enrollment.NameValuePairs, IX509Enrollment.get_NameValuePairs, IX509Enrollment::NameValuePairs, IX509Enrollment::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::NameValuePairs, certenroll/IX509Enrollment::get_NameValuePairs, get_NameValuePairs, security.ix509enrollment_namevaluepairs_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

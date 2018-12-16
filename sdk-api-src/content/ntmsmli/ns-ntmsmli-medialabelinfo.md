@@ -9,8 +9,6 @@ ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntmsmli.h
 req.include-header: 

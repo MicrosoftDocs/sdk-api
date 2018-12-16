@@ -9,8 +9,6 @@ ms.assetid: c05a8d78-41f4-4c19-a25e-ef4885869584
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [Distributed File System], _win32_netdfsenum, dfs.netdfsenum, fs.netdfsenum, lmdfs/NetDfsEnum, netmgmt.netdfsenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

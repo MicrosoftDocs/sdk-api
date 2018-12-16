@@ -9,8 +9,6 @@ ms.assetid: 3127a3bb-380d-46f9-82a3-d584705b1c60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Unlock method, IWMSecureChannel.WMSC_Unlock, IWMSecureChannel::WMSC_Unlock, WMSC_Unlock, WMSC_Unlock method [windows Media Format], WMSC_Unlock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_unlock, wmsecure/IWMSecureChannel::WMSC_Unlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

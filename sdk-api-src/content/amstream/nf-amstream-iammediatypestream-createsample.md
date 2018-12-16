@@ -9,8 +9,6 @@ ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

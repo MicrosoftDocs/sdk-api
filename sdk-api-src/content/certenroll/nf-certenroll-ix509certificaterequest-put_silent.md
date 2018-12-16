@@ -9,8 +9,6 @@ ms.assetid: 339c8d47-4406-4f2e-b927-b2dd5f58d1ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequest interface [Security],Silent property, IX509CertificateRequest.Silent, IX509CertificateRequest.put_Silent, IX509CertificateRequest::Silent, IX509CertificateRequest::get_Silent, IX509CertificateRequest::put_Silent, Silent property [Security], Silent property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Silent, certenroll/IX509CertificateRequest::get_Silent, certenroll/IX509CertificateRequest::put_Silent, put_Silent, security.ix509certificaterequest_silent_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

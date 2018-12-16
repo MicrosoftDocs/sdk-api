@@ -9,8 +9,6 @@ ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dxvahd.h
 req.include-header: 

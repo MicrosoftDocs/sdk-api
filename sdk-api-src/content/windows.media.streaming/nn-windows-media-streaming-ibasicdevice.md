@@ -9,8 +9,6 @@ ms.assetid: E4F99A11-4ED5-44CB-BE16-CBB558412ED4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicDevice interface [Media Streaming API],described, mediastreaming.ibasicdevice, windows/IBasicDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

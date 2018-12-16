@@ -9,8 +9,6 @@ ms.assetid: c42bdca5-fdc9-476a-9a32-1ac08e6dd6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveAllNamespaces method, IWbemPath.RemoveAllNamespaces, IWbemPath::RemoveAllNamespaces, RemoveAllNamespaces, RemoveAllNamespaces method [Windows Management Instrumentation], RemoveAllNamespaces method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removeallnamespaces, wmi.iwbempath_removeallnamespaces, wmiutils/IWbemPath::RemoveAllNamespaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

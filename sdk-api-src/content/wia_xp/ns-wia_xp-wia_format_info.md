@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\structs\wia_format_info.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

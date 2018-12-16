@@ -9,8 +9,6 @@ ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

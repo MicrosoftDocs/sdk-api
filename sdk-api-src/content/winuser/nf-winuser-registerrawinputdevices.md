@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterRawInputDevices, RegisterRawInputDevices function [Keyboard and Mouse Input], _win32_RegisterRawInputDevices, _win32_registerrawinputdevices_cpp, inputdev.registerrawinputdevices, winui._win32_registerrawinputdevices, winuser/RegisterRawInputDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 70e2eaae-dd75-4acc-87fb-ab2ad450a234
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_CALLOUT_CHANGE0, FWPM_CALLOUT_CHANGE0 structure [Filtering], fwp.fwpm_callout_change0_struct, fwpmtypes/FWPM_CALLOUT_CHANGE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

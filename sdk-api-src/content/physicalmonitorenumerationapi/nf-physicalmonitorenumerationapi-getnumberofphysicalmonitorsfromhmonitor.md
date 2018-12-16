@@ -9,8 +9,6 @@ ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromHMONITOR, GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: FED6C183-7AA9-428F-8815-F6BC9844B360
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement function [App packaging and management], appmodel/AppPolicyGetLifecycleManagement, appxpkg.apppolicygetlifecyclemanagement_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

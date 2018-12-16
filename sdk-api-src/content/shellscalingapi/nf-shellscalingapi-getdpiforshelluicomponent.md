@@ -9,8 +9,6 @@ ms.assetid: D5198497-DBD5-439E-809C-A36211C2774C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShellUiComponent function [Windows Shell], shell.getdpiforshelluicomponent, shellscalingapi/GetDpiForShellUiComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

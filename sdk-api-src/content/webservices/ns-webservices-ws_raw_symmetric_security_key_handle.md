@@ -9,8 +9,6 @@ ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 29e04edd-fa39-47d0-a24c-ef3f539ce171
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], webservices/WS_ITEM_RANGE, wsw.ws_item_range
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [VHD], OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/OPEN_VIRTUAL_DISK_VERSION, vdssys/OPEN_VIRTUAL_DISK_VERSION_1, vdssys/OPEN_VIRTUAL_DISK_VERSION_2, vdssys/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.open_virtual_disk_version, virtdisk/OPEN_VIRTUAL_DISK_VERSION, virtdisk/OPEN_VIRTUAL_DISK_VERSION_1, virtdisk/OPEN_VIRTUAL_DISK_VERSION_2, virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 338c31ac-d5eb-4d2d-8ee1-953963c1a8b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

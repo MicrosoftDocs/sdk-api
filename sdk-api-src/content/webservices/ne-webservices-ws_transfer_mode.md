@@ -9,8 +9,6 @@ ms.assetid: 6153bef6-f37f-4bc6-b1c5-5fbedd6bd234
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_BUFFERED_TRANSFER_MODE, WS_STREAMED_INPUT_TRANSFER_MODE, WS_STREAMED_OUTPUT_TRANSFER_MODE, WS_STREAMED_TRANSFER_MODE, WS_TRANSFER_MODE, WS_TRANSFER_MODE enumeration [Web Services for Windows], webservices/WS_BUFFERED_TRANSFER_MODE, webservices/WS_STREAMED_INPUT_TRANSFER_MODE, webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE, webservices/WS_STREAMED_TRANSFER_MODE, webservices/WS_TRANSFER_MODE, wsw.ws_transfer_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

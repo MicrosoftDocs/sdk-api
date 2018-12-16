@@ -9,8 +9,6 @@ ms.assetid: 9567e731-4240-4b37-8757-2e25824bba0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Network Policy Server], GetProperty method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetProperty method, ISdo.GetProperty, ISdo::GetProperty, _sdo_isdo_getproperty, nps.SDO_isdo_getproperty, sdo.isdo_getproperty, sdoias/ISdo::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 005c2039-e821-42ab-bead-1bf40f2ab171
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetStatistics method, IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

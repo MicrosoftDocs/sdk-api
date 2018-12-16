@@ -9,8 +9,6 @@ ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

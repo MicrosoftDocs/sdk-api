@@ -9,8 +9,6 @@ ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

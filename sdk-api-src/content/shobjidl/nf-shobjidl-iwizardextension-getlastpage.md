@@ -9,8 +9,6 @@ ms.assetid: b4fc1089-d0fb-406d-bf05-b43b3f2cc87e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastPage, GetLastPage method [Windows Shell], GetLastPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetLastPage method, IWizardExtension.GetLastPage, IWizardExtension::GetLastPage, _shell_IWizardExtension_GetLastPage, shell.IWizardExtension_GetLastPage, shobjidl/IWizardExtension::GetLastPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

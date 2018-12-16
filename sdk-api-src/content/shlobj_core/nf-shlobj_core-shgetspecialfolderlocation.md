@@ -9,8 +9,6 @@ ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

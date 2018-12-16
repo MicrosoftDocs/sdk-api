@@ -9,8 +9,6 @@ ms.assetid: 32a1388a-b8b9-455b-af94-0a09e98f9108
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],Delete method, IGPMStarterGPOBackup.Delete, IGPMStarterGPOBackup::Delete, _win32_igpmstartergpobackup_delete, gpmc.igpmstartergpobackup_delete, gpmgmt/IGPMStarterGPOBackup::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

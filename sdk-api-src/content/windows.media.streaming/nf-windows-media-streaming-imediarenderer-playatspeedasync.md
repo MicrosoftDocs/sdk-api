@@ -9,8 +9,6 @@ ms.assetid: 368510CF-FC36-4D92-AE92-024D53EE3BAD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAtSpeedAsync method, IMediaRenderer.PlayAtSpeedAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAtSpeedAsync, IMediaRenderer::streaming, PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

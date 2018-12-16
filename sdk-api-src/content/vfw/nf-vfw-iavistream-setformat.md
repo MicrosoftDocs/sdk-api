@@ -9,8 +9,6 @@ ms.assetid: 8693ce01-1f73-4d1b-ba8a-12f6453def22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStream.SetFormat, IAVIStream::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

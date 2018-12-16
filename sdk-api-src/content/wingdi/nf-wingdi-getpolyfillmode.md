@@ -9,8 +9,6 @@ ms.assetid: febf96fb-bf2e-4eb2-ab5f-89741a1decad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPolyFillMode, GetPolyFillMode function [Windows GDI], _win32_GetPolyFillMode, gdi.getpolyfillmode, wingdi/GetPolyFillMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

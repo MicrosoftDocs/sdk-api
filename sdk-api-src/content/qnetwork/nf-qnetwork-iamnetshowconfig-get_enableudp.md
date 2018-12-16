@@ -9,8 +9,6 @@ ms.assetid: 95c689c9-34f6-49b2-bd3b-0f68a110c4f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableUDP method, IAMNetShowConfig.get_EnableUDP, IAMNetShowConfig::get_EnableUDP, IAMNetShowConfigget_EnableUDP, dshow.iamnetshowconfig_get_enableudp, get_EnableUDP, get_EnableUDP method [DirectShow], get_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableUDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

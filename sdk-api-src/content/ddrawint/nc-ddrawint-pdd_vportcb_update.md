@@ -9,8 +9,6 @@ ms.assetid: 50a55a89-bae0-4a65-96ef-3e9903f45a0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdVideoPortUpdate, DdVideoPortUpdate callback function [Display Devices], PDD_VPORTCB_UPDATE, PDD_VPORTCB_UPDATE callback, ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml, ddrawint/DdVideoPortUpdate, display.ddvideoportupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

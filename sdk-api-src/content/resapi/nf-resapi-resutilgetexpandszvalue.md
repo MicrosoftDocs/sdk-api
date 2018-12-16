@@ -9,8 +9,6 @@ ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilGetExpandSzValue, ResUtilGetExpandSzValue function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE, resapi/ResUtilGetExpandSzValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactManager interface [Windows Contacts],Load method, IContactManager.Load, IContactManager::Load, Load, Load method [Windows Contacts], Load method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

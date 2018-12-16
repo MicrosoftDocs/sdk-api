@@ -9,8 +9,6 @@ ms.assetid: d5370d39-dd66-49c1-8774-cf335aa88e96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd method, IOfflineFilesEvents3.PrefetchFileEnd, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

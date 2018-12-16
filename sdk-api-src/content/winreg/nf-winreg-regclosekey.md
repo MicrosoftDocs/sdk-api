@@ -9,8 +9,6 @@ ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c24d3e9b-5a4e-43e1-a903-b612d022aa97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolCallbackPriority, SetThreadpoolCallbackPriority function, TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, base.setthreadpoolcallbackpriority, winbase/SetThreadpoolCallbackPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

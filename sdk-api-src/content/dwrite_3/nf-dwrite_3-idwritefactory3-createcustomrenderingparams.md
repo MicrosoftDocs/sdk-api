@@ -9,8 +9,6 @@ ms.assetid: 60FA5675-C1E2-40CC-874D-F7E8942165CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory3.CreateCustomRenderingParams, IDWriteFactory3::CreateCustomRenderingParams, directwrite.idwritefactory3_createcustomrenderingparams, dwrite_3/IDWriteFactory3::CreateCustomRenderingParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fdf96400-8fd9-4989-9977-026a9bec37ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Range method, IBDA_FrequencyFilter.get_Range, IBDA_FrequencyFilter::get_Range, IBDA_FrequencyFilterget_Range, bdaiface/IBDA_FrequencyFilter::get_Range, get_Range, get_Range method [Microsoft TV Technologies], get_Range method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_range
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

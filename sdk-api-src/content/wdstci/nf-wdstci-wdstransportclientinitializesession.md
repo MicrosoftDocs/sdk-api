@@ -9,8 +9,6 @@ ms.assetid: 0ece4ac8-372c-46ec-a6a1-ff1b547a85ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportClientInitializeSession, WdsTransportClientInitializeSession function [Windows Deployment Services], wds.wdstransportclientinitializesession, wdstci/WdsTransportClientInitializeSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

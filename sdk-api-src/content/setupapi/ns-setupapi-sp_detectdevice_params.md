@@ -9,8 +9,6 @@ ms.assetid: 77682651-217f-4e3a-9d0e-0a93d315de53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_DETECTDEVICE_PARAMS, SP_DETECTDEVICE_PARAMS structure [Device and Driver Installation], devinst.sp_detectdevice_params, di-struct_6de1fd38-be9a-42e6-ae10-5825aef12880.xml, setupapi/PSP_DETECTDEVICE_PARAMS, setupapi/SP_DETECTDEVICE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

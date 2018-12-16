@@ -9,8 +9,6 @@ ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

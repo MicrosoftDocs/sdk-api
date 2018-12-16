@@ -9,8 +9,6 @@ ms.assetid: F811E606-461A-4D18-B49B-3DD11BF991BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ValueGetter, ValueGetter function [Direct2D], d2d1effecthelpers/ValueGetter, direct2d.valuegetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1effecthelpers.h
 req.include-header: 

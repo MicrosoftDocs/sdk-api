@@ -9,8 +9,6 @@ ms.assetid: 64343c1f-3543-406f-a64c-94196b8aa17e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST structure pointer [NativeWIFI], WLAN_COUNTRY_OR_REGION_STRING_LIST, WLAN_COUNTRY_OR_REGION_STRING_LIST structure [NativeWIFI], nwifi.wlan_country_or_region_string_list, wlanapi/PWLAN_COUNTRY_OR_REGION_STRING_LIST, wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

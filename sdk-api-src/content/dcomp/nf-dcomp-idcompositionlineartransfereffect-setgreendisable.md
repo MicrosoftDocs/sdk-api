@@ -9,8 +9,6 @@ ms.assetid: 5C0C9E9C-F332-4F4E-A3F0-423A302AC6FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenDisable method, IDCompositionLinearTransferEffect.SetGreenDisable, IDCompositionLinearTransferEffect::SetGreenDisable, SetGreenDisable, SetGreenDisable method [DirectComposition], SetGreenDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenDisable, directcomp.idcompositionlineartransfereffect_setgreendisable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

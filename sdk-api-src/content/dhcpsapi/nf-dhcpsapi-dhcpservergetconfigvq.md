@@ -9,8 +9,6 @@ ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

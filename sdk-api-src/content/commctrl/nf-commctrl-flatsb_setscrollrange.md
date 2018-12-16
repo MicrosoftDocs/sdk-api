@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlatSB_SetScrollRange, FlatSB_SetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollRange, _win32_FlatSB_SetScrollRange_cpp, commctrl/FlatSB_SetScrollRange, controls.FlatSB_SetScrollRange, controls._win32_FlatSB_SetScrollRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

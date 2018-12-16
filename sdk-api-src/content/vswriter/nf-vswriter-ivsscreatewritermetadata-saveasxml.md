@@ -9,8 +9,6 @@ ms.assetid: 0894912b-85e3-4a5b-bf1b-6bbfe8c9e820
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCreateWriterMetadata.SaveAsXML, IVssCreateWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_saveasxml, base.ivsscreatewritermetadata_saveasxml, vswriter/IVssCreateWriterMetadata::SaveAsXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

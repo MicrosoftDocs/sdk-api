@@ -9,8 +9,6 @@ ms.assetid: bad1a042-fda8-4a2a-a8c1-26ed1f87c442
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_BINDING_A, HTTP_SERVICE_BINDING_A, HTTP_SERVICE_BINDING_A structure [HTTP], PHTTP_SERVICE_BINDING_A, PHTTP_SERVICE_BINDING_A structure pointer [HTTP], http.http_service_binding_a, http/HTTP_SERVICE_BINDING_A, http/PHTTP_SERVICE_BINDING_A"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

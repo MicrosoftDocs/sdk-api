@@ -9,8 +9,6 @@ ms.assetid: 28cca237-31a5-4018-a382-17d0a13a254b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkAdd method, IDot11AdHocManagerNotificationSink.OnNetworkAdd, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

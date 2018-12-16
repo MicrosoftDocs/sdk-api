@@ -9,8 +9,6 @@ ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateClipper method, IDirectDraw7.CreateClipper, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

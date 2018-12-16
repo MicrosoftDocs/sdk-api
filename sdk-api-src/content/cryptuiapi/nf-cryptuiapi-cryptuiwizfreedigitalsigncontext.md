@@ -9,8 +9,6 @@ ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

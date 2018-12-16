@@ -9,8 +9,6 @@ ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certpol.h
 req.include-header: 

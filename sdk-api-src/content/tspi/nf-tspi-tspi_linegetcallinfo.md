@@ -9,8 +9,6 @@ ms.assetid: 9ef43928-05aa-4ec6-bc44-f07a63d8ecdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetCallInfo, TSPI_lineGetCallInfo function [TAPI 2.2], _tspi_tspi_linegetcallinfo, tspi.tspi_linegetcallinfo, tspi/TSPI_lineGetCallInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

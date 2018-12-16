@@ -9,8 +9,6 @@ ms.assetid: 9a286298-b4a1-4386-99b1-bb6044ade87e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.ndrdllunregisterproxy, rpcproxy/NdrDllUnregisterProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

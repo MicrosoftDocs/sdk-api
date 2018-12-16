@@ -9,8 +9,6 @@ ms.assetid: EEBEDC7B-48B5-4074-8B85-1DC8B47A90AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomationEventHandlerGroup.AddAutomationEventHandler, IUIAutomationEventHandlerGroup::AddAutomationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddAutomationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addautomationeventhandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

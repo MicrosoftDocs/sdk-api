@@ -9,8 +9,6 @@ ms.assetid: 43BDE7F5-67DF-4DE5-AEDE-068421375E07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveEventHandlerGroup method, IUIAutomation6.RemoveEventHandlerGroup, IUIAutomation6::RemoveEventHandlerGroup, RemoveEventHandlerGroup, RemoveEventHandlerGroup method [Windows Accessibility], RemoveEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup, winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

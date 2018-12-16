@@ -9,8 +9,6 @@ ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

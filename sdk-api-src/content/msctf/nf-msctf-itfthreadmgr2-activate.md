@@ -9,8 +9,6 @@ ms.assetid: FD1548F5-15F6-4BBC-A7D1-B0F4B881D9F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],Activate method, ITfThreadMgr2.Activate, ITfThreadMgr2::Activate, msctf/ITfThreadMgr2::Activate, tsf.itfthreadmgr2_activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

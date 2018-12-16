@@ -9,8 +9,6 @@ ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

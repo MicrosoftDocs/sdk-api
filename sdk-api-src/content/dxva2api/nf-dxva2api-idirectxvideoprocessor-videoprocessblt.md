@@ -9,8 +9,6 @@ ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interface [Media Foundation],VideoProcessBlt method, IDirectXVideoProcessor.VideoProcessBlt, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation],IDirectXVideoProcessor interface, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

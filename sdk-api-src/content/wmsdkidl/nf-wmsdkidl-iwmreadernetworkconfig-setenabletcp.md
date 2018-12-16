@@ -9,8 +9,6 @@ ms.assetid: 8afc62b8-a2f6-4470-8005-804e0980b599
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableTCP method, IWMReaderNetworkConfig.SetEnableTCP, IWMReaderNetworkConfig::SetEnableTCP, IWMReaderNetworkConfigSetEnableTCP, SetEnableTCP, SetEnableTCP method [windows Media Format], SetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenabletcp, wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

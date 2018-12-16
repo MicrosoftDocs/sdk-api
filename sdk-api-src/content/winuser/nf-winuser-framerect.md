@@ -9,8 +9,6 @@ ms.assetid: a1083cb5-5e6c-4134-badf-9fc5142d1453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FrameRect, FrameRect function [Windows GDI], _win32_FrameRect, gdi.framerect, winuser/FrameRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 

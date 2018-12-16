@@ -9,8 +9,6 @@ ms.assetid: 2dfffd9a-af4f-4a93-8b3c-966e4f7c455f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSiteNameA, DsGetSiteNameW, _glines_dsgetsitename, ad.dsgetsitename, dsgetdc/DsGetSiteName, dsgetdc/DsGetSiteNameA, dsgetdc/DsGetSiteNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

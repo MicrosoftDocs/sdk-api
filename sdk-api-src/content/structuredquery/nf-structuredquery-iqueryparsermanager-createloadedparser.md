@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanag
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

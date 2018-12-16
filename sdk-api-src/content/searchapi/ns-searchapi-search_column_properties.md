@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: Searchapi.h

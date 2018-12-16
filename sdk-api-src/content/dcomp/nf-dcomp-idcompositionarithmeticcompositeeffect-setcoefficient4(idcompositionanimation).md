@@ -9,8 +9,6 @@ ms.assetid: F495A5CC-4FAA-482F-83E4-C6CF887EA00F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient4 method, IDCompositionArithmeticCompositeEffect.SetCoefficient4, IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation), SetCoefficient4, SetCoefficient4 method [DirectComposition], SetCoefficient4 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

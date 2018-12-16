@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DI_COMPAT, DI_DEFAULTSIZE, DI_IMAGE, DI_MASK, DI_NOMIRROR, DI_NORMAL, DrawIconEx, DrawIconEx function [Menus and Other Resources], _win32_DrawIconEx, _win32_drawiconex_cpp, menurc.drawiconex, winui._win32_drawiconex, winuser/DrawIconEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

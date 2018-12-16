@@ -9,8 +9,6 @@ ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.get_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value, security.iocspproperty_value_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

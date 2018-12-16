@@ -9,8 +9,6 @@ ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModule64 function, _win32_symloadmodule64, base.symloadmodule64, dbghelp/SymLoadModule, dbghelp/SymLoadModule64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

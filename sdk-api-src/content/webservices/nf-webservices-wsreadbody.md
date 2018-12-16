@@ -9,8 +9,6 @@ ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

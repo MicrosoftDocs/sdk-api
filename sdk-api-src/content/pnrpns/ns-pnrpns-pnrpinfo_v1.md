@@ -9,8 +9,6 @@ ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPNRPINFO_V1, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pnrpns.h
 req.include-header: 

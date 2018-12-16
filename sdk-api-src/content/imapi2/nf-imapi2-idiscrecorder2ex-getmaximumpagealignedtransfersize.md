@@ -9,8 +9,6 @@ ms.assetid: 6bf25c61-e87c-4ccf-a989-1c2715709d4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaximumPageAlignedTransferSize, GetMaximumPageAlignedTransferSize method [IMAPI], GetMaximumPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

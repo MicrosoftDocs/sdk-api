@@ -9,8 +9,6 @@ ms.assetid: 8edfee71-2478-4292-82e0-678901ab67eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [MMC], Clone method [MMC],IEnumTASK interface, IEnumTASK interface [MMC],Clone method, IEnumTASK.Clone, IEnumTASK::Clone, _slate_ienumtask_clone, mmc.ienumtask_clone, mmc/IEnumTASK::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

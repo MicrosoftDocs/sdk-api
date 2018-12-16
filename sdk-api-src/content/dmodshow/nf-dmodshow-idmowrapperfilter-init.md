@@ -9,8 +9,6 @@ ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmodshow.h
 req.include-header: 

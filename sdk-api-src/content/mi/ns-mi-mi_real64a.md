@@ -9,8 +9,6 @@ ms.assetid: fbcab0cf-ae1d-4f0b-a315-c1936e53c49f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Real64A, MI_Real64A structure [Windows Management Infrastructure (MI)], mi/MI_Real64A, wmi._mi_real64a, wmi_v2.mi_real64a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

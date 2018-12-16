@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowText, GetWindowText function [Windows and Messages], GetWindowTextA, GetWindowTextW, _win32_GetWindowText, _win32_getwindowtext_cpp, winmsg.getwindowtext, winui._win32_getwindowtext, winuser/GetWindowText, winuser/GetWindowTextA, winuser/GetWindowTextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

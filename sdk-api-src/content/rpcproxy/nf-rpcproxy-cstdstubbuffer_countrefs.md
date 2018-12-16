@@ -9,8 +9,6 @@ ms.assetid: ad330a86-27d9-453d-af9b-4a7f62d641bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdStubBuffer_CountRefs, CStdStubBuffer_CountRefs function [RPC], rpc.cstdstubbuffer_countrefs, rpcproxy/CStdStubBuffer_CountRefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

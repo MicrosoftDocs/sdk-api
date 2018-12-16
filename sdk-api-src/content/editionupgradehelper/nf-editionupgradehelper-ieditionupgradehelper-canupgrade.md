@@ -9,8 +9,6 @@ ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 

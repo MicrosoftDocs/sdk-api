@@ -9,8 +9,6 @@ ms.assetid: 2078cefe-3b66-455b-a4cc-144d643f74e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvResetDevice, DrvResetDevice function [Display Devices], ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml, display.drvresetdevice, winddi/DrvResetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

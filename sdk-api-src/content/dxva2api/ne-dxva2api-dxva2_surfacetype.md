@@ -9,8 +9,6 @@ ms.assetid: 7ede2247-7878-4b70-9a74-56b626013989
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7ede2247-7878-4b70-9a74-56b626013989, DXVA2_SurfaceType, DXVA2_SurfaceType enumeration [Media Foundation], DXVA2_SurfaceType_D3DRenderTargetTexture, DXVA2_SurfaceType_DecoderRenderTarget, DXVA2_SurfaceType_ProcessorRenderTarget, dxva2api/DXVA2_SurfaceType, dxva2api/DXVA2_SurfaceType_D3DRenderTargetTexture, dxva2api/DXVA2_SurfaceType_DecoderRenderTarget, dxva2api/DXVA2_SurfaceType_ProcessorRenderTarget, mf.dxva2_surfacetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxva2api.h
 req.include-header: 

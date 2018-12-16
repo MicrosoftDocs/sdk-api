@@ -9,8 +9,6 @@ ms.assetid: 90a1f4cf-2641-4033-a369-ad6bf6fe5f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoesSupportLossless, DoesSupportLossless method [Windows Imaging Component], DoesSupportLossless method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportLossless method, IWICBitmapCodecInfo.DoesSupportLossless, IWICBitmapCodecInfo::DoesSupportLossless, _wic_codec_iwicbitmapcodecinfo_doessupportlossless, wic._wic_codec_iwicbitmapcodecinfo_doessupportlossless, wincodec/IWICBitmapCodecInfo::DoesSupportLossless
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

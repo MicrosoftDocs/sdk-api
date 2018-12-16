@@ -9,8 +9,6 @@ ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW], etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

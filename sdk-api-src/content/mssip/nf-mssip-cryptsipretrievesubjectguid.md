@@ -9,8 +9,6 @@ ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

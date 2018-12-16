@@ -9,8 +9,6 @@ ms.assetid: 37b2fc18-a320-41c0-8717-dcd561a2f2df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_BRUSH_PROPERTIES, D2D1_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_BRUSH_PROPERTIES, direct2d.D2D1_BRUSH_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

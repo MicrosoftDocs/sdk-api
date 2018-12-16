@@ -9,8 +9,6 @@ ms.assetid: e1aa573d-add9-42b7-8b2b-773dc12aa51b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransactionManagerId, GetTransactionManagerId function [Files], fs.getidentitytransactionmanager_func, fs.gettransactionmanagerid, ktmw32/GetTransactionManagerId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

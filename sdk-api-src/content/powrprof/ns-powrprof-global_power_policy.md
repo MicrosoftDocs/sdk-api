@@ -9,8 +9,6 @@ ms.assetid: 5c177093-0c16-4a84-9212-f2376de6965b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PGLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY structure, PGLOBAL_POWER_POLICY, PGLOBAL_POWER_POLICY structure pointer, _win32_global_power_policy_str, base.global_power_policy_str, powrprof/GLOBAL_POWER_POLICY, powrprof/PGLOBAL_POWER_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_FindItemData, ComboBox_FindItemData macro [Windows Controls], _win32_ComboBox_FindItemData, _win32_ComboBox_FindItemData_cpp, controls.ComboBox_FindItemData, controls._win32_ComboBox_FindItemData, windowsx/ComboBox_FindItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

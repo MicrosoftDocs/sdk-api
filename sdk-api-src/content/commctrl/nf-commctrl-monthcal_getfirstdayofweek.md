@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getfirstdayofweek.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_GetFirstDayOfWeek, MonthCal_GetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_GetFirstDayOfWeek, _win32_MonthCal_GetFirstDayOfWeek_cpp, commctrl/MonthCal_GetFirstDayOfWeek, controls.MonthCal_GetFirstDayOfWeek, controls._win32_MonthCal_GetFirstDayOfWeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

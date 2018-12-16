@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedatainterface.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateDataInterface method, ID3D10DeviceChild.SetPrivateDataInterface, ID3D10DeviceChild::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 10], SetPrivateDataInterface method [Direct3D 10],ID3D10DeviceChild interface, adb67004-d0c8-2bcc-dda9-a0dbc070dbda, d3d10/ID3D10DeviceChild::SetPrivateDataInterface, direct3d10.id3d10devicechild_setprivatedatainterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

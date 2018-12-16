@@ -9,8 +9,6 @@ ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 942aafda-3c7e-4130-ac64-ed32f1cd66f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBoolFromUI4, VarBoolFromUI4 function [Automation], _oa96_VarBoolFromUI4, automat.varboolfromui4, oleauto/VarBoolFromUI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

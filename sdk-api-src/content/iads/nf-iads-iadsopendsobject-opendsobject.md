@@ -9,8 +9,6 @@ ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

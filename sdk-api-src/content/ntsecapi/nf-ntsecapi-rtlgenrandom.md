@@ -9,8 +9,6 @@ ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

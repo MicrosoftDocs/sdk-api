@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetToolTips, TabCtrl_GetToolTips macro [Windows Controls], _win32_TabCtrl_GetToolTips, _win32_TabCtrl_GetToolTips_cpp, commctrl/TabCtrl_GetToolTips, controls.TabCtrl_GetToolTips, controls._win32_TabCtrl_GetToolTips
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

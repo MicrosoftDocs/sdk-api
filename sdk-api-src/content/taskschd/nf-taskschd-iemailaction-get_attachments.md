@@ -9,8 +9,6 @@ ms.assetid: 06a3cf8f-d7fd-4ed6-9fd6-ea45face034a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attachments property [Task Scheduler], Attachments property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Attachments property, IEmailAction.Attachments, IEmailAction.get_Attachments, IEmailAction::Attachments, IEmailAction::get_Attachments, IEmailAction::put_Attachments, get_Attachments, taskschd.iemailaction_attachments, taskschd/IEmailAction::Attachments, taskschd/IEmailAction::get_Attachments, taskschd/IEmailAction::put_Attachments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

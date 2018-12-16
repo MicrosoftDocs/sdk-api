@@ -9,8 +9,6 @@ ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h

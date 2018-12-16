@@ -9,8 +9,6 @@ ms.assetid: 05776188-1299-40BC-AD53-88DD01B65331
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LocalizedName property, ISpellCheckProvider.LocalizedName, ISpellCheckProvider.get_LocalizedName, ISpellCheckProvider::LocalizedName, ISpellCheckProvider::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LocalizedName, intl.ispellcheckprovider_localizedname, spellcheckprovider/ISpellCheckProvider::LocalizedName, spellcheckprovider/ISpellCheckProvider::get_LocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

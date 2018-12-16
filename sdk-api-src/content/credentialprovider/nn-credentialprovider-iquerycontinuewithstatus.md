@@ -9,8 +9,6 @@ ms.assetid: 3f41714e-d8f6-46ea-aea4-19dca4723ca5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

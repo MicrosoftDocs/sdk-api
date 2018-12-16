@@ -9,8 +9,6 @@ ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

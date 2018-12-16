@@ -9,8 +9,6 @@ ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

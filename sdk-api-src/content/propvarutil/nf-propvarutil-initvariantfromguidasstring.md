@@ -9,8 +9,6 @@ ms.assetid: 2a78257a-a8ce-45e8-aea2-dfa9f380528a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromGUIDAsString, InitVariantFromGUIDAsString function [Windows Shell], _shell_InitVariantFromGUIDAsString, properties.InitVariantFromGUIDAsString, propvarutil/InitVariantFromGUIDAsString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

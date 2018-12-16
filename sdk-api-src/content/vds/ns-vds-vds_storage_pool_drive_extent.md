@@ -9,8 +9,6 @@ ms.assetid: e8b4a4c7-04d5-48b5-ba44-bb99cbf9fc60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT structure pointer, VDS_STORAGE_POOL_DRIVE_EXTENT, VDS_STORAGE_POOL_DRIVE_EXTENT structure, base.vds_storage_pool_drive_extent, vds/PVDS_STORAGE_POOL_DRIVE_EXTENT, vds/VDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/PVDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

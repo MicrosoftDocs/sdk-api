@@ -9,8 +9,6 @@ ms.assetid: 8C1477F8-8342-4405-8FE1-8109E6147EE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

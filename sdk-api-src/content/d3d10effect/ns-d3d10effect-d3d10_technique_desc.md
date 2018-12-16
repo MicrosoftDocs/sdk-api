@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_technique_desc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 506d7648-e159-3365-396e-418be67bb2d9, D3D10_TECHNIQUE_DESC, D3D10_TECHNIQUE_DESC structure [Direct3D 10], d3d10effect/D3D10_TECHNIQUE_DESC, direct3d10.d3d10_technique_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10effect.h
 req.include-header: D3D10.h

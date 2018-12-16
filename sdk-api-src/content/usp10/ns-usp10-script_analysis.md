@@ -9,8 +9,6 @@ ms.assetid: c673d5cc-c4ca-4238-8090-55abe3db324b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, SCRIPT_ANALYSIS, SCRIPT_ANALYSIS structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_ANALYSIS_str, intl.script_analysis, usp10/SCRIPT_ANALYSIS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

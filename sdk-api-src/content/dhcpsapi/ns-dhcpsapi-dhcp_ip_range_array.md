@@ -9,8 +9,6 @@ ms.assetid: BC6C85D6-D123-44D6-BFE4-3073EC51B7EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY structure [DHCP], LPDHCP_IP_RANGE_ARRAY, LPDHCP_IP_RANGE_ARRAY structure pointer [DHCP], PDHCP_IP_RANGE_ARRAY, PDHCP_IP_RANGE_ARRAY structure pointer [DHCP], dhcp.dhcp_ip_range_array, dhcpsapi/DHCP_IP_RANGE_ARRAY, dhcpsapi/LPDHCP_IP_RANGE_ARRAY, dhcpsapi/PDHCP_IP_RANGE_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

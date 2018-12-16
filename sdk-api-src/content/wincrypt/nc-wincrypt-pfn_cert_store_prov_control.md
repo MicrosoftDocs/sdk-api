@@ -9,8 +9,6 @@ ms.assetid: 0725d562-d04c-4fde-97f4-a294290266ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertStoreProvControl, CertStoreProvControl callback function [Security], PFN_CERT_STORE_PROV_CONTROL, PFN_CERT_STORE_PROV_CONTROL callback, _crypto2_certstoreprovcontrol, security.certstoreprovcontrol, wincrypt/CertStoreProvControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

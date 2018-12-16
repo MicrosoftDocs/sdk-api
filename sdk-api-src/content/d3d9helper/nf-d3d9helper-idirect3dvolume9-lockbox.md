@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dvolume9__lockbox.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 12716af9-b250-6fc9-e8ab-a4053a1ce97a, IDirect3DVolume9 interface [Direct3D 9],LockBox method, IDirect3DVolume9.LockBox, IDirect3DVolume9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::LockBox, direct3d9.idirect3dvolume9__lockbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

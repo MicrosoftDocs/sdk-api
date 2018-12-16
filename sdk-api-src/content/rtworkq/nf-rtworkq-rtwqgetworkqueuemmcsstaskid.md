@@ -9,8 +9,6 @@ ms.assetid: b83314a4-1630-4e58-ba5b-e541002f23a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqGetWorkQueueMMCSSTaskId, RtwqGetWorkQueueMMCSSTaskId function, base.rtwqgetworkqueuemmcsstaskid, rtworkq/RtwqGetWorkQueueMMCSSTaskId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

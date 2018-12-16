@@ -9,8 +9,6 @@ ms.assetid: 02A98C38-1D6E-43ED-8744-D3029F4BF573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficients method, IDCompositionArithmeticCompositeEffect.SetCoefficients, IDCompositionArithmeticCompositeEffect::SetCoefficients, SetCoefficients, SetCoefficients method [DirectComposition], SetCoefficients method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficients, directcomp.idcompositionarithmeticcompositeeffect_setcoefficients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

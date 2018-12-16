@@ -9,8 +9,6 @@ ms.assetid: DE86D551-974F-4A03-BDBE-348592CAB81F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThreadDpiAwarenessContext, GetThreadDpiAwarenessContext function [High DPI], hidpi.getthreaddpiawarenesscontext, winuser/GetThreadDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

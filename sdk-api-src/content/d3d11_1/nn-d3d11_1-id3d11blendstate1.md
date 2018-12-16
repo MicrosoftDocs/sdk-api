@@ -9,8 +9,6 @@ ms.assetid: 5562F0B2-77FC-4614-BFA9-077323D4A2FA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11BlendState1, ID3D11BlendState1 interface [Direct3D 11], ID3D11BlendState1 interface [Direct3D 11],described, d3d11_1/ID3D11BlendState1, direct3d11.id3d11blendstate1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7ae1ec12-aa67-40ff-9641-410099685234
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE structure [MIB], PMIB_MULTICASTIPADDRESS_TABLE, PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_MULTICASTIPADDRESS_TABLE, mib.mib_multicastipaddress_table, netioapi/MIB_MULTICASTIPADDRESS_TABLE, netioapi/PMIB_MULTICASTIPADDRESS_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

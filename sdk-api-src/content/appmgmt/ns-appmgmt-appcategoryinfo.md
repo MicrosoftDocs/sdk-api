@@ -9,8 +9,6 @@ ms.assetid: 7a0e61cb-97f8-4ca2-a85a-889e671099d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, inet_APPCATEGORYINFO, shell.APPCATEGORYINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 

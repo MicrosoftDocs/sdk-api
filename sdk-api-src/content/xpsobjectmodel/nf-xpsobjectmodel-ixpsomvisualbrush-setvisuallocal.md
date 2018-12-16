@@ -9,8 +9,6 @@ ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLocal method, IXpsOMVisualBrush.SetVisualLocal, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

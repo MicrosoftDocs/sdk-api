@@ -9,8 +9,6 @@ ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

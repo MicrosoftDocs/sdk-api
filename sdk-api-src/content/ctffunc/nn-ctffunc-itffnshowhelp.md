@@ -9,8 +9,6 @@ ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

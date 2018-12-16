@@ -9,8 +9,6 @@ ms.assetid: 8dc20701-0808-4308-92fc-8be6c4b039ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable.SetVariableIntegerChangeHandler, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

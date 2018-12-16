@@ -9,8 +9,6 @@ ms.assetid: d134cff1-7cc8-4284-a216-3819615e3017
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysReAllocStringLen, SysReAllocStringLen function [Automation], _oa96_SysReAllocStringLen, automat.sysreallocstringlen, oleauto/SysReAllocStringLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

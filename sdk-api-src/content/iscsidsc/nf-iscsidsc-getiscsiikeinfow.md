@@ -9,8 +9,6 @@ ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIScsiIKEInfoW, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI Discovery Library API], GetIscsiIKEInfoA, GetIscsiIKEInfoW, iscsidisc.getiscsiikeinfo, iscsidsc/GetIscsiIKEInfo, iscsidsc/GetIscsiIKEInfoA, iscsidsc/GetIscsiIKEInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

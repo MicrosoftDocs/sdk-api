@@ -9,8 +9,6 @@ ms.assetid: 873b4dbe-f808-4731-9314-a595ef7ef3c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMailslotInfo, GetMailslotInfo function, MAILSLOT_NO_MESSAGE, _win32_getmailslotinfo, base.getmailslotinfo, winbase/GetMailslotInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

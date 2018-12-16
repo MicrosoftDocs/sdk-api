@@ -9,8 +9,6 @@ ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStream method, ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

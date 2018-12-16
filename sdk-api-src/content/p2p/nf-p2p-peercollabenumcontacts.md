@@ -9,8 +9,6 @@ ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

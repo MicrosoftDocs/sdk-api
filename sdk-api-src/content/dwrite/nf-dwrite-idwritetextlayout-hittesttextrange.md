@@ -9,8 +9,6 @@ ms.assetid: 970ea72c-d097-42c2-9d93-774387ba7881
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HitTestTextRange, HitTestTextRange method [Direct Write], HitTestTextRange method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextRange method, IDWriteTextLayout.HitTestTextRange, IDWriteTextLayout::HitTestTextRange, directwrite.IDWriteTextLayout_HitTestTextRange, dwrite/IDWriteTextLayout::HitTestTextRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bd06118c-ea1b-46e4-b499-67039430a52e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies],described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

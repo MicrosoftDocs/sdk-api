@@ -9,8 +9,6 @@ ms.assetid: 3c131363-9403-4c7a-984d-6602b879c08e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Microsoft Broadband Networks], Activate method [Microsoft Broadband Networks],IMbnServiceActivation interface, IMbnServiceActivation interface [Microsoft Broadband Networks],Activate method, IMbnServiceActivation.Activate, IMbnServiceActivation::Activate, mbn.imbnserviceactivation_activate, mbnapi/IMbnServiceActivation::Activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

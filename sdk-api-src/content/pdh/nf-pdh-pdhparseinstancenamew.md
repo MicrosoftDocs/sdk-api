@@ -9,8 +9,6 @@ ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

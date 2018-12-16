@@ -9,8 +9,6 @@ ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

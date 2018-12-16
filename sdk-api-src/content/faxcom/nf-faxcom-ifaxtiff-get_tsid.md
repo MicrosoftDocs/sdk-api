@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7tes.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff interface [Fax Service],Tsid property, IFaxTiff.Tsid, IFaxTiff.get_Tsid, IFaxTiff::Tsid, IFaxTiff::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_tsid_cpp, faxcom/IFaxTiff::Tsid, faxcom/IFaxTiff::get_Tsid, get_Tsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

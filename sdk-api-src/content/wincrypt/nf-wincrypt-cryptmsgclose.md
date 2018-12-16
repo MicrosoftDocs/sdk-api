@@ -9,8 +9,6 @@ ms.assetid: 2478dd60-233a-4ef3-86e9-62d2a59ab28a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptMsgClose, CryptMsgClose function [Security], _crypto2_cryptmsgclose, security.cryptmsgclose, wincrypt/CryptMsgClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

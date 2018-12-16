@@ -9,8 +9,6 @@ ms.assetid: 95fe1336-4bf2-4a4b-a451-90f2ae2639c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupExportConfig, PeerGroupExportConfig function [Peer Networking], p2p.peergroupexportconfig, p2p/PeerGroupExportConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

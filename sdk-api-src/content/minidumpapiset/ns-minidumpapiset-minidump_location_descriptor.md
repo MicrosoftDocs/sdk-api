@@ -9,8 +9,6 @@ ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structure, MINIDUMP_LOCATION_DESCRIPTOR64, _MINIDUMP_LOCATION_DESCRIPTOR, _win32_minidump_location_descriptor_str, base.minidump_location_descriptor_str, minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h

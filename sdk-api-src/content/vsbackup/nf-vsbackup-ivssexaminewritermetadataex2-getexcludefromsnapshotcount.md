@@ -9,8 +9,6 @@ ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

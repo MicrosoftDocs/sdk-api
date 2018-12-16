@@ -9,8 +9,6 @@ ms.assetid: 1bd8c906-7e17-4d8c-93e8-8901f9104d58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ENUM_PERIOD, ENUM_PERIOD enumeration [Security], ENUM_PERIOD_DAYS, ENUM_PERIOD_HOURS, ENUM_PERIOD_INVALID, ENUM_PERIOD_MINUTES, ENUM_PERIOD_MONTHS, ENUM_PERIOD_SECONDS, ENUM_PERIOD_WEEKS, ENUM_PERIOD_YEARS, celib/ENUM_PERIOD, celib/ENUM_PERIOD_DAYS, celib/ENUM_PERIOD_HOURS, celib/ENUM_PERIOD_INVALID, celib/ENUM_PERIOD_MINUTES, celib/ENUM_PERIOD_MONTHS, celib/ENUM_PERIOD_SECONDS, celib/ENUM_PERIOD_WEEKS, celib/ENUM_PERIOD_YEARS, security.enum_period
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: celib.h
 req.include-header: Certca.h

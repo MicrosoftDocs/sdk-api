@@ -9,8 +9,6 @@ ms.assetid: a794e054-1389-4b54-9ad3-eb32b9dd0a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_PROVIDER_TYPE, VDS_PROVIDER_TYPE enumeration [VDS], VDS_PT_HARDWARE, VDS_PT_MAX, VDS_PT_SOFTWARE, VDS_PT_UNKNOWN, VDS_PT_VIRTUALDISK, base.vds_provider_type, vds/VDS_PROVIDER_TYPE, vds/VDS_PT_HARDWARE, vds/VDS_PT_MAX, vds/VDS_PT_SOFTWARE, vds/VDS_PT_UNKNOWN, vds/VDS_PT_VIRTUALDISK, vdshwprv/VDS_PROVIDER_TYPE, vdshwprv/VDS_PT_HARDWARE, vdshwprv/VDS_PT_MAX, vdshwprv/VDS_PT_SOFTWARE, vdshwprv/VDS_PT_UNKNOWN, vdshwprv/VDS_PT_VIRTUALDISK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

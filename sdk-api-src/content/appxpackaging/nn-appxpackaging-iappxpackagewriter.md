@@ -9,8 +9,6 @@ ms.assetid: 097B7451-9A54-4C39-8F83-16DB49691B42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], IAppxPackageWriter interface [App packaging and management],described, appxpackaging/IAppxPackageWriter, appxpkg.iappxpackagewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

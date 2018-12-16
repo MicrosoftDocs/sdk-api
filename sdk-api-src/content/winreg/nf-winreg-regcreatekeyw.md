@@ -9,8 +9,6 @@ ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegCreateKey, RegCreateKey function, RegCreateKeyA, RegCreateKeyW, _win32_regcreatekey, base.regcreatekey, winreg/RegCreateKey, winreg/RegCreateKeyA, winreg/RegCreateKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

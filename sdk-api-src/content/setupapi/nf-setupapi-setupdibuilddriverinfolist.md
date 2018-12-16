@@ -9,8 +9,6 @@ ms.assetid: 9e377865-8029-41c1-85b9-fdb2cbc09346
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, SetupDiBuildDriverInfoList function [Device and Driver Installation], devinst.setupdibuilddriverinfolist, di-rtns_dd9aa1be-1a67-4cc6-8a06-5db71eecd322.xml, setupapi/SetupDiBuildDriverInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

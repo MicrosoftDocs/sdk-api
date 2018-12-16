@@ -9,8 +9,6 @@ ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

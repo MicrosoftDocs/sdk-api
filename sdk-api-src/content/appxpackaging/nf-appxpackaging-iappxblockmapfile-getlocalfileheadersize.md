@@ -9,8 +9,6 @@ ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalFileHeaderSize, GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetLocalFileHeaderSize method, IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

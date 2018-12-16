@@ -9,8 +9,6 @@ ms.assetid: b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioChannelConfig, IAudioChannelConfig interface [Core Audio], IAudioChannelConfig interface [Core Audio],described, coreaudio.iaudiochannelconfig, devicetopology/IAudioChannelConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

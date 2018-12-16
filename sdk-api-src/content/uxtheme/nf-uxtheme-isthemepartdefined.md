@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsThemePartDefined, IsThemePartDefined function [Windows Controls], controls.IsThemePartDefined, controls.inet_IsThemePartDefined, inet_IsThemePartDefined, inet_IsThemePartDefined_cpp, uxtheme/IsThemePartDefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

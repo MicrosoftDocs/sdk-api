@@ -9,8 +9,6 @@ ms.assetid: 829C8CC6-3E2C-480A-9F36-41EB93CA8536
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base.createsemaphorea, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

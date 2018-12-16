@@ -9,8 +9,6 @@ ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSERVICE_NOTIFYW, *PSERVICE_NOTIFY_2W, PFN_SC_NOTIFY_CALLBACK, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2W, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

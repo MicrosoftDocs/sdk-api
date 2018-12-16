@@ -9,8 +9,6 @@ ms.assetid: EDD711F1-9D1B-4B6B-8052-E9258759F46E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], IAnnotationProvider interface [Windows Accessibility],described, uiautomationcore/IAnnotationProvider, winauto.uiauto_IAnnotationProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

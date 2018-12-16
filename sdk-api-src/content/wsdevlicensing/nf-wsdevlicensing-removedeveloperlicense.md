@@ -9,8 +9,6 @@ ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b278947f-4e84-4438-bb93-11bfd2d56be3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMemberProps, GetMemberProps method [Windows Runtime], GetMemberProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMemberProps method, IMetaDataImport.GetMemberProps, IMetaDataImport::GetMemberProps, rometadataapi/IMetaDataImport::GetMemberProps, winrt.imetadataimport_getmemberprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

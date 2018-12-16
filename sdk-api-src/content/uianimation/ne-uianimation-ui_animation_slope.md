@@ -9,8 +9,6 @@ ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

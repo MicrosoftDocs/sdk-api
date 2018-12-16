@@ -9,8 +9,6 @@ ms.assetid: 2962b170-941f-4cf1-9969-4066ee0c57d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndItemDelete, EndItemDelete method [Picture Acquisition], EndItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemDelete method, IPhotoAcquireProgressCB.EndItemDelete, IPhotoAcquireProgressCB::EndItemDelete, IPhotoAcquireProgressCBEndItemDelete, photoacquire/IPhotoAcquireProgressCB::EndItemDelete, picacq.iphotoacquireprogresscb_enditemdelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

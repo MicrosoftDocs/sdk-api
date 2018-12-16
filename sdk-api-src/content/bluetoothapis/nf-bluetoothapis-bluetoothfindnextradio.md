@@ -9,8 +9,6 @@ ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

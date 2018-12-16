@@ -9,8 +9,6 @@ ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincred.h
 req.include-header: 

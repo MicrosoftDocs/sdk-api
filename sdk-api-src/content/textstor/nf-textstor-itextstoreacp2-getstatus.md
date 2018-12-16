@@ -9,8 +9,6 @@ ms.assetid: 6b767f85-0a92-467c-b358-3629582f0d43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetStatus method, ITextStoreACP2.GetStatus, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

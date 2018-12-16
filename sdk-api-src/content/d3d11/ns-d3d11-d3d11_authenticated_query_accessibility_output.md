@@ -9,8 +9,6 @@ ms.assetid: 1E2EBE2C-3749-47B5-B7A8-3EAE371981DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, mf.d3d11_authenticated_query_accessibility_output
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

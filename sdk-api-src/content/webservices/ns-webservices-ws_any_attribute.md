@@ -9,8 +9,6 @@ ms.assetid: 31900554-24d9-44f5-a774-7d3245f5e646
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ANY_ATTRIBUTE, WS_ANY_ATTRIBUTE structure [Web Services for Windows], webservices/WS_ANY_ATTRIBUTE, wsw.ws_any_attribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

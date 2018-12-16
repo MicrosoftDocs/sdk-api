@@ -9,8 +9,6 @@ ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: cf7cabcd-b469-492a-b855-8870465ea1cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRL_CONTEXT, CRL_CONTEXT, CRL_CONTEXT structure [Security], PCCRL_CONTEXT, PCCRL_CONTEXT structure pointer [Security], PCRL_CONTEXT, PCRL_CONTEXT structure pointer [Security], _crypto2_crl_context, security.crl_context, wincrypt/CRL_CONTEXT, wincrypt/PCCRL_CONTEXT, wincrypt/PCRL_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e1ffe49b-b7d6-46ae-b83b-8d8487bd7b24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [Picture Acquisition], Delete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],Delete method, IPhotoAcquireItem.Delete, IPhotoAcquireItem::Delete, IPhotoAcquireItemDelete, photoacquire/IPhotoAcquireItem::Delete, picacq.iphotoacquireitem_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

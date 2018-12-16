@@ -9,8 +9,6 @@ ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_isreparsetagmicrosoft, base.isreparsetagmicrosoft, fs.isreparsetagmicrosoft, winnt/IsReparseTagMicrosoft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 90b2ef29-c488-4d32-a315-312b25a0e585
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryCompressorInformation, QueryCompressorInformation function [Compression API], cmpapi.querycompressorinformation, compressapi/QueryCompressorInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

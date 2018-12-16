@@ -9,8 +9,6 @@ ms.assetid: 4448bbfb-5942-42f9-8daf-3bf86e124052
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV6GetFreeIPAddress, DhcpV6GetFreeIPAddress function [DHCP], dhcp.dhcpv6getfreeipaddress, dhcpsapi/DhcpV6GetFreeIPAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

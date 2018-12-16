@@ -9,8 +9,6 @@ ms.assetid: 47a167fb-4714-4353-b924-a161f367673c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WaitForMultipleObjectsEx, WaitForMultipleObjectsEx function, _win32_waitformultipleobjectsex, base.waitformultipleobjectsex, synchapi/WaitForMultipleObjectsEx, winbase/WaitForMultipleObjectsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

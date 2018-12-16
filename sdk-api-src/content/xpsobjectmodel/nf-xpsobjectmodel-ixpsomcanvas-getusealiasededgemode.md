@@ -9,8 +9,6 @@ ms.assetid: 9d3f0660-227a-4b0f-bd41-112bd89e4605
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, GetUseAliasedEdgeMode, GetUseAliasedEdgeMode method [XPS Documents and Packaging], GetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetUseAliasedEdgeMode method, IXpsOMCanvas.GetUseAliasedEdgeMode, IXpsOMCanvas::GetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_getusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

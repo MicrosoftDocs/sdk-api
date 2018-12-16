@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgifactory_makewindowassociation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFactory.MakeWindowAssociation, IDXGIFactory::MakeWindowAssociation, MakeWindowAssociation, MakeWindowAssociation method [DXGI], MakeWindowAssociation method [DXGI],IDXGIFactory interface, cae30f32-d52e-b4d6-69fc-2b5a2a52afef, direct3ddxgi.idxgifactory_makewindowassociation, dxgi/IDXGIFactory::MakeWindowAssociation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

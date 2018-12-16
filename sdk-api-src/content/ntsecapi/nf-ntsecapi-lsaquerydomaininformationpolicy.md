@@ -9,8 +9,6 @@ ms.assetid: 39a511d7-46fc-4d12-ba43-771f6db2a33b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaQueryDomainInformationPolicy, LsaQueryDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaQueryDomainInformationPolicy, security.lsaquerydomaininformationpolicy, security.lsaquerydomaininformationpolicy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

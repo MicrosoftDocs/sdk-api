@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT4, XMFLOAT4 structure [DirectX Math Support APIs], directxmath/XMFLOAT4, dxmath.xmfloat4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWNDCLASSEXW, *NPWNDCLASSEXW, *PWNDCLASSEXW, PWNDCLASSEX, PWNDCLASSEX structure pointer [Windows and Messages], WNDCLASSEX, WNDCLASSEX structure [Windows and Messages], WNDCLASSEXA, WNDCLASSEXW, _win32_WNDCLASSEX_str, _win32_wndclassex_str_cpp, winmsg.wndclassex, winui._win32_wndclassex_str, winuser/PWNDCLASSEX, winuser/WNDCLASSEX, winuser/WNDCLASSEXA, winuser/WNDCLASSEXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

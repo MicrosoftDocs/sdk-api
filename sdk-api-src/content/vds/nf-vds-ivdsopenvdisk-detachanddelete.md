@@ -9,8 +9,6 @@ ms.assetid: 79179da4-3c88-480b-bfb8-c4315fa56c4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,DetachAndDelete method, IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

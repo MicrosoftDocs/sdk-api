@@ -9,8 +9,6 @@ ms.assetid: c0ddbc25-6abe-484b-a545-3b9376c514df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

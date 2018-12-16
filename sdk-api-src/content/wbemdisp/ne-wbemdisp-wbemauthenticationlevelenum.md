@@ -9,8 +9,6 @@ ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

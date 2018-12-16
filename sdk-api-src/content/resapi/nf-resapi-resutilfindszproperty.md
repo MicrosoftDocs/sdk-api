@@ -9,8 +9,6 @@ ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

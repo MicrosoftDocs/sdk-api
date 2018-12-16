@@ -9,8 +9,6 @@ ms.assetid: 81150d1e-4ce9-4c8f-a4d5-77f7c8759e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmRuleFlags, FsrmRuleFlags enumeration [File Server Resource Manager], FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, FsrmRuleFlags_ClearManuallyClassifiedProperty, FsrmRuleFlags_Disabled, FsrmRuleFlags_Invalid, fs.fsrmruleflags, fsrm.fsrmruleflags, fsrmenums/FsrmRuleFlags, fsrmenums/FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, fsrmenums/FsrmRuleFlags_ClearManuallyClassifiedProperty, fsrmenums/FsrmRuleFlags_Disabled, fsrmenums/FsrmRuleFlags_Invalid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -9,8 +9,6 @@ ms.assetid: 2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrConflict interface, IEnumSyncMgrConflict interface [Windows Shell],Clone method, IEnumSyncMgrConflict.Clone, IEnumSyncMgrConflict::Clone, _shell_IEnumSyncMgrConflict_Clone, shell.IEnumSyncMgrConflict_Clone, syncmgr/IEnumSyncMgrConflict::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

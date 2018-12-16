@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_getcreationflags.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4822c55e-f89a-b10d-ccba-aa989735a00f, GetCreationFlags, GetCreationFlags method [Direct3D 10], GetCreationFlags method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetCreationFlags method, ID3D10Device.GetCreationFlags, ID3D10Device::GetCreationFlags, d3d10/ID3D10Device::GetCreationFlags, direct3d10.id3d10device_getcreationflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

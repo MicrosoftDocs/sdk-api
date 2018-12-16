@@ -9,8 +9,6 @@ ms.assetid: df4b4e7b-cf30-4eb0-b646-49b17c883a16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_PLUGIN_COMMAND, WSMAN_PLUGIN_COMMAND callback, WSMAN_PLUGIN_COMMAND callback function [Windows Remote Management], WSManPluginCommand, winrm.wsman_plugin_command, wsman/WSMAN_PLUGIN_COMMAND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

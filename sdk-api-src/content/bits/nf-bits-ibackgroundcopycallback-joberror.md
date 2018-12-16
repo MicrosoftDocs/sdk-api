@@ -9,8 +9,6 @@ ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgroundCopyCallback.JobError, IBackgroundCopyCallback::JobError, JobError, JobError method [BITS], JobError method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 732e91a3-dcd2-491a-ba4f-e22b75b5a71e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT structure [Security], PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], PCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], security.cert_server_ocsp_response_context, wincrypt/CERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCERT_SERVER_OCSP_RESPONSE_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

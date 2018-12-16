@@ -9,8 +9,6 @@ ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

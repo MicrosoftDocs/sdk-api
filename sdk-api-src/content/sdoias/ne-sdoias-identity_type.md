@@ -9,8 +9,6 @@ ms.assetid: b5b5a8a3-790a-4103-a8a1-718bd77eeb7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAS_IDENTITY_NO_DEFAULT, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Network Policy Server], nps.SDO_identity_type, sdo.identity_type, sdoias/IAS_IDENTITY_NO_DEFAULT, sdoias/IDENTITY_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

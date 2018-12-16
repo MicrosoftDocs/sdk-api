@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

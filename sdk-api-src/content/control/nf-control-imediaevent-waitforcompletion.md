@@ -9,8 +9,6 @@ ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

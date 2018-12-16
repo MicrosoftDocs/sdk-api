@@ -9,8 +9,6 @@ ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

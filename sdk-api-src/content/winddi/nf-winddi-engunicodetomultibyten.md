@@ -9,8 +9,6 @@ ms.assetid: 5c36322f-7a88-4c24-9f98-aaf3d30f3be4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngUnicodeToMultiByteN, EngUnicodeToMultiByteN function [Display Devices], display.engunicodetomultibyten, gdifncs_4c6f2a59-787b-48a8-9676-c9a88f4201f4.xml, winddi/EngUnicodeToMultiByteN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

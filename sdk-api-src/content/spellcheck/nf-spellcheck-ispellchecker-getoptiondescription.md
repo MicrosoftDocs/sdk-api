@@ -9,8 +9,6 @@ ms.assetid: 5947f6ee-ad52-4d4d-a013-0c7dced273c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellChecker.GetOptionDescription, ISpellChecker::GetOptionDescription, intl.ispellchecker_getoptiondescription, spellcheck/ISpellChecker::GetOptionDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

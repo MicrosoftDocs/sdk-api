@@ -9,8 +9,6 @@ ms.assetid: 498fe365-e9a1-490c-a361-2312ea698977
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

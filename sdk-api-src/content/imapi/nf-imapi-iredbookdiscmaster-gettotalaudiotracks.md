@@ -9,8 +9,6 @@ ms.assetid: ef284941-0724-4e0a-8ce9-c47d5a53a30e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTotalAudioTracks, GetTotalAudioTracks method [IMAPI], GetTotalAudioTracks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioTracks method, IRedbookDiscMaster.GetTotalAudioTracks, IRedbookDiscMaster::GetTotalAudioTracks, _win32_iredbookdiscmaster_gettotalaudiotracks, base.iredbookdiscmaster_gettotalaudiotracks, imapi.iredbookdiscmaster_gettotalaudiotracks, imapi/IRedbookDiscMaster::GetTotalAudioTracks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

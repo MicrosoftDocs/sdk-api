@@ -9,8 +9,6 @@ ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5350a1b1-a099-4b09-af89-f652e40b1d20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHPropStgReadMultiple, SHPropStgReadMultiple function [Windows Properties], _win32_SHPropStgReadMultiple, properties.SHPropStgReadMultiple, shell.SHPropStgReadMultiple, shlobj_core/SHPropStgReadMultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 

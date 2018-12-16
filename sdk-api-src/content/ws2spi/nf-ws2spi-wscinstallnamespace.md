@@ -9,8 +9,6 @@ ms.assetid: f17f6174-879e-45e7-a250-975d1ee24fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCInstallNameSpace, WSCInstallNameSpace function [Winsock], _win32_wscinstallnamespace_2, winsock.wscinstallnamespace_2, ws2spi/WSCInstallNameSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

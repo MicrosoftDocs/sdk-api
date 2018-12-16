@@ -9,8 +9,6 @@ ms.assetid: ffa5566c-a6ad-4e96-a009-1e2006359f87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressState method, ITaskbarList3.SetProgressState, ITaskbarList3::SetProgressState, SetProgressState, SetProgressState method [Windows Shell], SetProgressState method [Windows Shell],ITaskbarList3 interface, TBPF_ERROR, TBPF_INDETERMINATE, TBPF_NOPROGRESS, TBPF_NORMAL, TBPF_PAUSED, _shell_ITaskbarList3_SetProgressState, shell.ITaskbarList3_SetProgressState, shobjidl_core/ITaskbarList3::SetProgressState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

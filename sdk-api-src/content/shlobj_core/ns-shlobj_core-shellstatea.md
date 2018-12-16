@@ -9,8 +9,6 @@ ms.assetid: a5ba0e9f-d164-4fe6-97ab-34d61289ce1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSHELLSTATEA, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: 

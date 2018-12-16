@@ -9,8 +9,6 @@ ms.assetid: 3a48365f-3b8a-493d-9fd9-dde77be9ced2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetTypeFromName, SymGetTypeFromName function, SymGetTypeFromNameW, _win32_symgettypefromname, base.symgettypefromname, dbghelp/SymGetTypeFromName, dbghelp/SymGetTypeFromNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

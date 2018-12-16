@@ -9,8 +9,6 @@ ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

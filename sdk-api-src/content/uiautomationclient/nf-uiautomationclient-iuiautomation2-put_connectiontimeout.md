@@ -9,8 +9,6 @@ ms.assetid: 636838C8-A5F6-4757-923D-2C69282B04EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2.put_ConnectionTimeout, IUIAutomation2::ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, put_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

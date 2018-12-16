@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_fl
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RENDEZVOUS_SESSION_FLAGS, RENDEZVOUS_SESSION_FLAGS enumeration [Remote Assistance], RSF_INVITEE, RSF_INVITER, RSF_NONE, RSF_ORIGINAL_INVITER, RSF_REMOTE_LEGACYSESSION, remoteassist.remoteassist_RENDEZVOUS_SESSION_FLAGS, remoteassist_RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RSF_INVITEE, rendezvoussession/RSF_INVITER, rendezvoussession/RSF_NONE, rendezvoussession/RSF_ORIGINAL_INVITER, rendezvoussession/RSF_REMOTE_LEGACYSESSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rendezvoussession.h
 req.include-header: 

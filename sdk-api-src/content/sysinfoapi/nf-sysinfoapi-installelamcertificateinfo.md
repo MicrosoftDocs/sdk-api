@@ -9,8 +9,6 @@ ms.assetid: 0EF40169-A078-4B1E-96EC-5390C75639F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstallELAMCertificateInfo, InstallELAMCertificateInfo function, base.installelamcertificateinfo, sysinfoapi/InstallELAMCertificateInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

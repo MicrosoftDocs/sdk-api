@@ -9,8 +9,6 @@ ms.assetid: 4f2138fb-1f80-4345-a3cb-9c11023457b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

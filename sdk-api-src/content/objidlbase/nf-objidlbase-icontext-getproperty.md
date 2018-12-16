@@ -9,8 +9,6 @@ ms.assetid: 76c6f790-9103-4cee-8a67-0f69b00ba0a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

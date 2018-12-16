@@ -9,8 +9,6 @@ ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSymbolicLinkTransacted, CreateSymbolicLinkTransacted function [Files], CreateSymbolicLinkTransactedA, CreateSymbolicLinkTransactedW, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclinktransacted, winbase/CreateSymbolicLinkTransacted, winbase/CreateSymbolicLinkTransactedA, winbase/CreateSymbolicLinkTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

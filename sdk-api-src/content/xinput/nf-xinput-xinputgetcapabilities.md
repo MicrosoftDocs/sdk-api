@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetCapabilities(DWORD,DWORD,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xinput.h
 req.include-header: 

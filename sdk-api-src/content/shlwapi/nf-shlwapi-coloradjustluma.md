@@ -9,8 +9,6 @@ ms.assetid: d113ad59-cde4-4f11-b7f1-53b3fb69ec10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorAdjustLuma, ColorAdjustLuma function [Windows Shell], _win32_ColorAdjustLuma, shell.ColorAdjustLuma, shlwapi/ColorAdjustLuma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

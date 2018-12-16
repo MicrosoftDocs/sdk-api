@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Image class, Image class [GDI+],GetWidth method, Image.GetWidth, Image::GetWidth, _gdiplus_CLASS_Image_GetWidth_, gdiplus._gdiplus_CLASS_Image_GetWidth_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

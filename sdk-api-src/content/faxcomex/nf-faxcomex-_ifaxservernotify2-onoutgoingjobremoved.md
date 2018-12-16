@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobremoved.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingJobRemoved method, IFaxServerNotify2.OnOutgoingJobRemoved, IFaxServerNotify2::OnOutgoingJobRemoved, OnOutgoingJobRemoved, OnOutgoingJobRemoved method [Fax Service], OnOutgoingJobRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingJobRemoved, _IFaxServerNotify2::OnOutgoingJobRemoved, _mfax_ifaxservernotify2_onoutgoingjobremoved, fax._mfax_ifaxservernotify2_onoutgoingjobremoved, faxcomex/IFaxServerNotify2::OnOutgoingJobRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

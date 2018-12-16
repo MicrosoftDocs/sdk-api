@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), dxmath.boundingbox_ctor_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

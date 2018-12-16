@@ -9,8 +9,6 @@ ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

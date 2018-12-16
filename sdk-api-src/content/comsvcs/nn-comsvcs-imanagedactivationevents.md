@@ -9,8 +9,6 @@ ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

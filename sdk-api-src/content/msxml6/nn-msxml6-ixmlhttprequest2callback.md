@@ -9,8 +9,6 @@ ms.assetid: AA4B3F4C-6E28-458B-BE25-6CCE8865FC71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], IXMLHTTPRequest2Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2callback, msxml6/IXMLHTTPRequest2Callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 

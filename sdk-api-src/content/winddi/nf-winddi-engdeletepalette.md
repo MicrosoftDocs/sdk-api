@@ -9,8 +9,6 @@ ms.assetid: ebdbbb4e-aaa8-4fb7-9546-545dce803054
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeletePalette, EngDeletePalette function [Display Devices], display.engdeletepalette, gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml, winddi/EngDeletePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

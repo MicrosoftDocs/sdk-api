@@ -9,8 +9,6 @@ ms.assetid: 06430DD6-B6BF-4F55-A99C-13860B800444
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect, IDCompositionArithmeticCompositeEffect interface [DirectComposition], IDCompositionArithmeticCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionArithmeticCompositeEffect, directcomp.idcompositionarithmeticcompositeeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

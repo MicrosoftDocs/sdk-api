@@ -9,8 +9,6 @@ ms.assetid: D33AE0A7-42B2-4924-B670-7C053B40F464
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_RASTERIZER_DESC interface [Direct3D 11],operator const D3D11_RASTERIZER_DESC& method, CD3D11_RASTERIZER_DESC.operator const D3D11_RASTERIZER_DESC&, CD3D11_RASTERIZER_DESC::operator const D3D11_RASTERIZER_DESC&, CD3D11_RASTERIZER_DESC::operator const D3D11_RASTERIZER_DESC&(), d3d11/CD3D11_RASTERIZER_DESC::operator const D3D11_RASTERIZER_DESC&, direct3d11.cd3d11_rasterizer_desc_d3d11_rasterizer_desc__, operator const D3D11_RASTERIZER_DESC&, operator const D3D11_RASTERIZER_DESC& method [Direct3D 11], operator const D3D11_RASTERIZER_DESC& method [Direct3D 11],CD3D11_RASTERIZER_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

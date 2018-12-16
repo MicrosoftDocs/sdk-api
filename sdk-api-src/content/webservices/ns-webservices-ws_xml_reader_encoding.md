@@ -9,8 +9,6 @@ ms.assetid: 54d9683e-c2d1-4e18-92a2-a68558999e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_READER_ENCODING, WS_XML_READER_ENCODING structure [Web Services for Windows], webservices/WS_XML_READER_ENCODING, wsw.ws_xml_reader_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

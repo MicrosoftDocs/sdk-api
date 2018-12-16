@@ -9,8 +9,6 @@ ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

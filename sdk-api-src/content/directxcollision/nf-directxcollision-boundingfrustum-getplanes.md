@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetPlanes(XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetPlanes method, BoundingFrustum.GetPlanes, BoundingFrustum::GetPlanes, GetPlanes, GetPlanes method [DirectX Math Support APIs], GetPlanes method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getplanes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

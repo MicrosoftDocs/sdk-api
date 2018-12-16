@@ -9,8 +9,6 @@ ms.assetid: b929543c-d5b3-4d48-b13f-bbef568287a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Run method, IRunnableTask.Run, IRunnableTask::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Run, shell.IRunnableTask_Run, shobjidl_core/IRunnableTask::Run
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

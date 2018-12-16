@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrintDialogCallback interface [Dialog Boxes],SelectionChange method, IPrintDialogCallback.SelectionChange, IPrintDialogCallback::SelectionChange, SelectionChange, SelectionChange method [Dialog Boxes], SelectionChange method [Dialog Boxes],IPrintDialogCallback interface, _win32_IPrintDialogCallback_SelectionChange, _win32_iprintdialogcallback_selectionchange_cpp, commdlg/IPrintDialogCallback::SelectionChange, dlgbox.iprintdialogcallback_selectionchange, winui._win32_iprintdialogcallback_selectionchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: commdlg.h
 req.include-header: Windows.h

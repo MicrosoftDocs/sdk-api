@@ -9,8 +9,6 @@ ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

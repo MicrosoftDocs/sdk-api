@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowtransform.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

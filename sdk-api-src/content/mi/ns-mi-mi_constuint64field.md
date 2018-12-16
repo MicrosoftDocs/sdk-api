@@ -9,8 +9,6 @@ ms.assetid: 48b9f863-381e-4f91-8f29-3119e1be435c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstUint64Field, MI_ConstUint64Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstUint64Field, wmi._mi_constuint64field, wmi_v2.mi_constuint64field
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

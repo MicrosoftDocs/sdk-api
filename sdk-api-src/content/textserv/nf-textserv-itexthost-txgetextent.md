@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetExtent method, ITextHost.TxGetExtent, ITextHost::TxGetExtent, TxGetExtent, TxGetExtent method [Windows Controls], TxGetExtent method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetExtent, _win32_ITextHost_TxGetExtent_cpp, controls.ITextHost_TxGetExtent, controls._win32_ITextHost_TxGetExtent, textserv/ITextHost::TxGetExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

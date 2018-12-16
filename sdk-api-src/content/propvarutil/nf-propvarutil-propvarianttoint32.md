@@ -9,8 +9,6 @@ ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

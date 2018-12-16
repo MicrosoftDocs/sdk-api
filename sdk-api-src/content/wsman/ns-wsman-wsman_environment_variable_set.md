@@ -9,8 +9,6 @@ ms.assetid: 3d9b4374-241f-489e-946a-9c180d77de3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE_SET, WSMAN_ENVIRONMENT_VARIABLE_SET structure [Windows Remote Management], winrm.wsman_environment_variable_set, wsman/WSMAN_ENVIRONMENT_VARIABLE_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

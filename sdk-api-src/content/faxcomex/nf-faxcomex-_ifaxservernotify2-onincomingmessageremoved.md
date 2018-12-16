@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onincomingmessageremoved.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingMessageRemoved method, IFaxServerNotify2.OnIncomingMessageRemoved, IFaxServerNotify2::OnIncomingMessageRemoved, OnIncomingMessageRemoved, OnIncomingMessageRemoved method [Fax Service], OnIncomingMessageRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingMessageRemoved, _IFaxServerNotify2::OnIncomingMessageRemoved, _mfax_ifaxservernotify2_onincomingmessageremoved, fax._mfax_ifaxservernotify2_onincomingmessageremoved, faxcomex/IFaxServerNotify2::OnIncomingMessageRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

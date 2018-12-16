@@ -9,8 +9,6 @@ ms.assetid: 2e71e434-b055-4e45-b8fd-f9c1ac84d308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2e71e434-b055-4e45-b8fd-f9c1ac84d308, IInkDisp interface [Tablet PC],Load method, IInkDisp.Load, IInkDisp::Load, Load, Load method [Tablet PC], Load method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Load, tablet.inkdisp_load
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

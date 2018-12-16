@@ -9,8 +9,6 @@ ms.assetid: 6296d45c-e582-45d6-9f13-e758691ef5de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetSecondaryBufferInterface method, IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 

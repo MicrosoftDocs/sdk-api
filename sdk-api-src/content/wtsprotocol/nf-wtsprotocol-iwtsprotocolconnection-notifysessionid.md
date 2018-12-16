@@ -9,8 +9,6 @@ ms.assetid: 5a545f66-7143-419d-9e0c-a96070472ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWTSProtocolConnection.NotifySessionId, IWTSProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

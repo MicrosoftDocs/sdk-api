@@ -9,8 +9,6 @@ ms.assetid: cd60f9d0-3ac3-4661-aefe-ddb9052db3e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6 structure [DHCP], PDHCP_SUBNET_INFO_V6, PDHCP_SUBNET_INFO_V6 structure pointer [DHCP], dhcp.dhcp_subnet_info_v6, dhcpsapi/DHCP_SUBNET_INFO_V6, dhcpsapi/PDHCP_SUBNET_INFO_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

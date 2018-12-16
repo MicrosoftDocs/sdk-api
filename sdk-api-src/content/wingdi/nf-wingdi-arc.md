@@ -9,8 +9,6 @@ ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

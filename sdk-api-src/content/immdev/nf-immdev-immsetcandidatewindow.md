@@ -9,8 +9,6 @@ ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 07de4fc4-e68f-405d-bb96-14ccad37e8e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GiveUserNameResolutionPriority, GiveUserNameResolutionPriority method [Files], GiveUserNameResolutionPriority method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GiveUserNameResolutionPriority method, IDiskQuotaControl.GiveUserNameResolutionPriority, IDiskQuotaControl::GiveUserNameResolutionPriority, _win32_idiskquotacontrol_giveusernameresolutionpriority, base.idiskquotacontrol_giveusernameresolutionpriority, dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority, fs.idiskquotacontrol_giveusernameresolutionpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

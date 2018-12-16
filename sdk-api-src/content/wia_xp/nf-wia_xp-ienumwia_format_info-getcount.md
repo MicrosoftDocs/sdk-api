@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_format_info\getcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],GetCount method, IEnumWIA_FORMAT_INFO.GetCount, IEnumWIA_FORMAT_INFO::GetCount, _wia_IEnumWIA_FORMAT_INFO_GetCount, wia._wia_IEnumWIA_FORMAT_INFO_GetCount, wia_xp/IEnumWIA_FORMAT_INFO::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

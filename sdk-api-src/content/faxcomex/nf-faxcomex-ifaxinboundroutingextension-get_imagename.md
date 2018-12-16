@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_144l.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],ImageName property, IFaxInboundRoutingExtension.ImageName, IFaxInboundRoutingExtension.get_ImageName, IFaxInboundRoutingExtension::ImageName, IFaxInboundRoutingExtension::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.imagename, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_imagename_cpp, fax._mfax_faxinboundroutingextension_imagename, faxcomex/IFaxInboundRoutingExtension::ImageName, faxcomex/IFaxInboundRoutingExtension::get_ImageName, get_ImageName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

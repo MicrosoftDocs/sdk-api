@@ -9,8 +9,6 @@ ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponent method, IVssWriterComponents.GetComponent, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

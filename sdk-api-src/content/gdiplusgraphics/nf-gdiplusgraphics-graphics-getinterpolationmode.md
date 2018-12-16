@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [GDI+], GetInterpolationMode method [GDI+],Graphics class, Graphics class [GDI+],GetInterpolationMode method, Graphics.GetInterpolationMode, Graphics::GetInterpolationMode, _gdiplus_CLASS_Graphics_GetInterpolationMode_, gdiplus._gdiplus_CLASS_Graphics_GetInterpolationMode_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

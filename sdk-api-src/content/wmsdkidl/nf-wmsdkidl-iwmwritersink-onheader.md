@@ -9,8 +9,6 @@ ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnHeader method, IWMWriterSink.OnHeader, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

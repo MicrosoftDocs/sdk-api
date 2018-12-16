@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(GpGraphics), Graphics::Graphics, Graphics::Graphics(GpGraphics), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

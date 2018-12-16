@@ -9,8 +9,6 @@ ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 

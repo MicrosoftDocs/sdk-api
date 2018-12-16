@@ -9,8 +9,6 @@ ms.assetid: 3a392b33-6c2b-4465-86b4-6614940d7383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_WEBSTREAM_FORMAT, WMT_WEBSTREAM_FORMAT structure [windows Media Format], wmformat.wmt_webstream_format, wmsdkidl/WMT_WEBSTREAM_FORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

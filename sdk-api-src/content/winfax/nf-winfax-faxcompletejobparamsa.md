@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_9b8z.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxCompleteJobParams, FaxCompleteJobParams function [Fax Service], FaxCompleteJobParamsA, FaxCompleteJobParamsW, _mfax_faxcompletejobparams, fax._mfax_faxcompletejobparams, winfax/FaxCompleteJobParams, winfax/FaxCompleteJobParamsA, winfax/FaxCompleteJobParamsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

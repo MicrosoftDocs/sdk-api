@@ -9,8 +9,6 @@ ms.assetid: 868938fd-9da2-45fd-a00e-5dda85b4fd61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotAvailableOffline method, IOfflineFilesEvents.ItemNotAvailableOffline, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

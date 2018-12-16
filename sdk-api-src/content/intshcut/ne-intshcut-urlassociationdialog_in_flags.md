@@ -9,8 +9,6 @@ ms.assetid: bbfb0063-0d7e-432b-8428-a7652933c670
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLASSOCIATIONDIALOG_IN_FLAGS, URLASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_URLASSOCIATIONDIALOG_IN_FLAGS, intshcut/URLASSOCDLG_FL_REGISTER_ASSOC, intshcut/URLASSOCDLG_FL_USE_DEFAULT_NAME, intshcut/URLASSOCIATIONDIALOG_IN_FLAGS, shell.URLASSOCIATIONDIALOG_IN_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: intshcut.h
 req.include-header: 

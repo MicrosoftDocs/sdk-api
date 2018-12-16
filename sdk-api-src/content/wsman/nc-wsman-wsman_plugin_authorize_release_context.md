@@ -9,8 +9,6 @@ ms.assetid: f6cdf6cd-b62a-4678-a36e-a2a14662a9a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback function [Windows Remote Management], winrm.wsman_plugin_authorize_release_context, wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

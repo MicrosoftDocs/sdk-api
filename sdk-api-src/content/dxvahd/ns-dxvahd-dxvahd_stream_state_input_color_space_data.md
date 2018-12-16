@@ -9,8 +9,6 @@ ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

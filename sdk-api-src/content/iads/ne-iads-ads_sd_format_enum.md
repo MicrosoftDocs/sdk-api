@@ -9,8 +9,6 @@ ms.assetid: 503247b6-3119-4514-9831-c8f0ef50c0fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADS_SD_FORMAT_ENUM, ADS_SD_FORMAT_ENUM enumeration [ADSI], ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, _ds_ads_sd_format_enum, adsi.ads__sd__format__enum, adsi.ads_sd_format_enum, iads/ADS_SD_FORMAT_ENUM, iads/ADS_SD_FORMAT_HEXSTRING, iads/ADS_SD_FORMAT_IID, iads/ADS_SD_FORMAT_RAW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

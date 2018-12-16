@@ -9,8 +9,6 @@ ms.assetid: aca1700b-1cdf-44b7-b3bf-02d30ba74aeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_sspi_transport_security_binding_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

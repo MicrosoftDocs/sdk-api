@@ -9,8 +9,6 @@ ms.assetid: 4d2c8943-cef5-4df3-96fe-447bd5bf37e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime function [Peer Networking], p2p.peergraphuniversaltimetopeertime, p2p/PeerGraphUniversalTimeToPeerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

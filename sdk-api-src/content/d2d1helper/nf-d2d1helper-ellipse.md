@@ -9,8 +9,6 @@ ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bd67e0b5-3bfa-46c1-996d-6b026c1144cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetConnectionName method, IWMStreamConfig.SetConnectionName, IWMStreamConfig::SetConnectionName, IWMStreamConfigSetConnectionName, SetConnectionName, SetConnectionName method [windows Media Format], SetConnectionName method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setconnectionname, wmsdkidl/IWMStreamConfig::SetConnectionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

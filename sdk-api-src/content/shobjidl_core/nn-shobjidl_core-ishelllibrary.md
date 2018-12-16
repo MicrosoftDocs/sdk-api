@@ -9,8 +9,6 @@ ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

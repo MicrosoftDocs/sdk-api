@@ -9,8 +9,6 @@ ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface [Tablet PC],Reset method, IGestureRecognizer.Reset, IGestureRecognizer::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IGestureRecognizer interface, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

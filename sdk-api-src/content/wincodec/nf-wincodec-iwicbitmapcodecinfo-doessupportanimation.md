@@ -9,8 +9,6 @@ ms.assetid: 17635459-e067-4fdb-a801-4ad6cc622215
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoesSupportAnimation, DoesSupportAnimation method [Windows Imaging Component], DoesSupportAnimation method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportAnimation method, IWICBitmapCodecInfo.DoesSupportAnimation, IWICBitmapCodecInfo::DoesSupportAnimation, _wic_codec_iwicbitmapcodecinfo_doessupportanimation, wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation, wincodec/IWICBitmapCodecInfo::DoesSupportAnimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

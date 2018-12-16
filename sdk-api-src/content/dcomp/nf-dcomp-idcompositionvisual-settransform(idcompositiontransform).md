@@ -9,8 +9,6 @@ ms.assetid: 448B853E-B045-4D06-BCC8-E1578E36C20A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual.SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform(IDCompositionTransform*), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_idcompositiontransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

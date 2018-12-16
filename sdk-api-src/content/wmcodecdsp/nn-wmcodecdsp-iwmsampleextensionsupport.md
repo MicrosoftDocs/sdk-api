@@ -9,8 +9,6 @@ ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

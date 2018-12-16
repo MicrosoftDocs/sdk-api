@@ -9,8 +9,6 @@ ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEntry, GetEntry method [Windows Accessibility], GetEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetEntry method, IUIAutomationProxyFactoryMapping.GetEntry, IUIAutomationProxyFactoryMapping::GetEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

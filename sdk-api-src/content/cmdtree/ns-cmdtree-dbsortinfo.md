@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_2mpb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBSORTINFO, DBSORTINFO structure [Indexing Service], _idxs_DBSORTINFO, cmdtree/DBSORTINFO, indexsrv.dbsortinfo, tagDBSORTINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

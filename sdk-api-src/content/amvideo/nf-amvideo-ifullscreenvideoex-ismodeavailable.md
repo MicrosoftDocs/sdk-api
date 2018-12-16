@@ -9,8 +9,6 @@ ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

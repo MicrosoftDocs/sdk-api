@@ -9,8 +9,6 @@ ms.assetid: 9b9bcd3f-06d9-47f1-aecb-1c611c9866bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Management Instrumentation],GetSize method, CHPtrArray.GetSize, CHPtrArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

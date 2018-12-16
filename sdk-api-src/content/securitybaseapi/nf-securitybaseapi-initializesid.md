@@ -9,8 +9,6 @@ ms.assetid: b2d803a5-faaf-4066-ba2c-0442c71bb150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeSid, InitializeSid function [Security], _win32_initializesid, security.initializesid, securitybaseapi/InitializeSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

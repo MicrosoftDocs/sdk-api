@@ -9,8 +9,6 @@ ms.assetid: 2f850553-ec79-4e2f-a4d5-c40dbaca0f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetStatus method, ITfLangBarItem.GetStatus, ITfLangBarItem::GetStatus, _tsf_itflangbaritem_getstatus_ref, ctfutb/ITfLangBarItem::GetStatus, tsf.itflangbaritem_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

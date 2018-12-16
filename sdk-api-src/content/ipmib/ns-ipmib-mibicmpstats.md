@@ -9,8 +9,6 @@ ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

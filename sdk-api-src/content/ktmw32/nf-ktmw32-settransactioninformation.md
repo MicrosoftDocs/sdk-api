@@ -9,8 +9,6 @@ ms.assetid: e33d221b-cd06-4f20-a4b5-407a04362ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetTransactionInformation, SetTransactionInformation function [Files], fs.settransactioninformation, ktmw32/SetTransactionInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

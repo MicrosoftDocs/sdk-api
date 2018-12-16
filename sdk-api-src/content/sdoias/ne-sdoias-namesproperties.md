@@ -9,8 +9,6 @@ ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NAMESPROPERTIES, NAMESPROPERTIES enumeration [Network Policy Server], PROPERTY_NAMES_REALMS, _sdo_namesproperties, nps.SDO_namesproperties, sdo.namesproperties, sdoias/NAMESPROPERTIES, sdoias/PROPERTY_NAMES_REALMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

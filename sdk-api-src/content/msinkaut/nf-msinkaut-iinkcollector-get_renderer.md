@@ -9,8 +9,6 @@ ms.assetid: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5, IInkCollector interface [Tablet PC],Renderer property, IInkCollector.Renderer, IInkCollector.get_Renderer, IInkCollector::Renderer, IInkCollector::get_Renderer, IInkCollector::putref_Renderer, InkCollector.get_Renderer, Put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkCollector interface, get_Renderer, msinkaut/IInkCollector::Renderer, msinkaut/IInkCollector::get_Renderer, msinkaut/IInkCollector::putref_Renderer, tablet.inkcollector_renderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetOutputMatrix(
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputMatrix, GetOutputMatrix method [XAudio2 Audio Mixing APIs], GetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetOutputMatrix method, IXAudio2Voice.GetOutputMatrix, IXAudio2Voice::GetOutputMatrix, xaudio2.ixaudio2voice_interface_getoutputmatrix, xaudio2/IXAudio2Voice::GetOutputMatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

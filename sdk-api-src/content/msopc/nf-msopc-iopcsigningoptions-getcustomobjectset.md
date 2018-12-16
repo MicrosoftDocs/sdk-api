@@ -9,8 +9,6 @@ ms.assetid: 1b4d31cb-f12a-4b51-8b28-470e065e1661
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomObjectSet, GetCustomObjectSet method [Open Packaging Conventions], GetCustomObjectSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomObjectSet method, IOpcSigningOptions.GetCustomObjectSet, IOpcSigningOptions::GetCustomObjectSet, msopc/IOpcSigningOptions::GetCustomObjectSet, opc.iopcsigningoptions_getcustomobjectset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

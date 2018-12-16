@@ -9,8 +9,6 @@ ms.assetid: 19F2776E-0B5F-45c9-962A-08BFC0273066
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSS_DISABLED_BY_REMOTE_SESSION, DSS_ENABLED, DSS_SLIDESHOW, GetStatus, GetStatus method [Windows Shell], GetStatus method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetStatus method, IDesktopWallpaper.GetStatus, IDesktopWallpaper::GetStatus, shell.IDesktopWallpaper_GetStatus, shobjidl_core/IDesktopWallpaper::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

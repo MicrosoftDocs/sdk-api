@@ -9,8 +9,6 @@ ms.assetid: 047278fe-37d5-4fd6-8b36-9e28ead0cc5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTHelperGetProvCertFromChain, WTHelperGetProvCertFromChain function [Security], security.wthelpergetprovcertfromchain, wintrust/WTHelperGetProvCertFromChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

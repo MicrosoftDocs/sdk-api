@@ -9,8 +9,6 @@ ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

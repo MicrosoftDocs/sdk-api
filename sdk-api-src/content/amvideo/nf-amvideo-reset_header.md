@@ -9,8 +9,6 @@ ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h

@@ -9,8 +9,6 @@ ms.assetid: 90256fcd-54ce-48e1-aa12-d8f91cd4dfb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReadClassStg, ReadClassStg function [Structured Storage], _stg_readclassstg, coml2api/ReadClassStg, stg.readclassstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h

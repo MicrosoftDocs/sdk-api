@@ -9,8 +9,6 @@ ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

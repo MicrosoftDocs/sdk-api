@@ -9,8 +9,6 @@ ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

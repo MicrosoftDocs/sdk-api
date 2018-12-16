@@ -9,8 +9,6 @@ ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

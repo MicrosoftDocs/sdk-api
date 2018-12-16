@@ -9,8 +9,6 @@ ms.assetid: bbf3df75-f061-44d8-9ad4-e8524b6cb186
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawKernel interface [Display Devices],ReleaseKernelHandle method, IDirectDrawKernel.ReleaseKernelHandle, IDirectDrawKernel::ReleaseKernelHandle, ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices],IDirectDrawKernel interface, ddfncs_5bb4adb5-8149-43bf-9a1a-b6447a68adac.xml, ddkernel/IDirectDrawKernel::ReleaseKernelHandle, display.idirectdrawkernel_releasekernelhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddkernel.h
 req.include-header: Ddkernel.h

@@ -9,8 +9,6 @@ ms.assetid: ce1f1dbb-287b-483a-9e7e-87af0d07e4e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

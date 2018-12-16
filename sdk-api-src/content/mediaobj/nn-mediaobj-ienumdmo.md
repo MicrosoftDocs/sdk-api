@@ -9,8 +9,6 @@ ms.assetid: 221248f2-5c8f-442e-a6ad-e0372ddc1aae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow],described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h

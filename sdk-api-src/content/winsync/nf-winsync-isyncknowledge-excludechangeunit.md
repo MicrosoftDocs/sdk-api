@@ -9,8 +9,6 @@ ms.assetid: 0b9e39a8-6610-468a-a0e6-3950b8c17d58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeChangeUnit method, ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

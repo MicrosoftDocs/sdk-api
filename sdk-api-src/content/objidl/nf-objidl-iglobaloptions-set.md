@@ -9,8 +9,6 @@ ms.assetid: 5a59c862-64a4-45b5-8b6b-dacbfb4d170b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

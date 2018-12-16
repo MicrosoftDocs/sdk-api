@@ -9,8 +9,6 @@ ms.assetid: a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: 

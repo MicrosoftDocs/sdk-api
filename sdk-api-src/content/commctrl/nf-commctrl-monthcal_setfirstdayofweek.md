@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setfirstdayofweek.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_SetFirstDayOfWeek, MonthCal_SetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_SetFirstDayOfWeek, _win32_MonthCal_SetFirstDayOfWeek_cpp, commctrl/MonthCal_SetFirstDayOfWeek, controls.MonthCal_SetFirstDayOfWeek, controls._win32_MonthCal_SetFirstDayOfWeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

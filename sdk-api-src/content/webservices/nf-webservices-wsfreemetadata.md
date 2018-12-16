@@ -9,8 +9,6 @@ ms.assetid: 4e159619-3807-4e7f-9198-fb74962ae141
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeMetadata, WsFreeMetadata function [Web Services for Windows], webservices/WsFreeMetadata, wsw.wsfreemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

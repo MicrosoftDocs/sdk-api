@@ -9,8 +9,6 @@ ms.assetid: b6fae1df-1c27-4ce9-a7f6-c5488f080ef3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation method, IOperationsProgressDialog.SetOperation, IOperationsProgressDialog::SetOperation, SetOperation, SetOperation method [Windows Shell], SetOperation method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetOperation, shell.IOperationsProgressDialog_SetOperation, shobjidl_core/IOperationsProgressDialog::SetOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

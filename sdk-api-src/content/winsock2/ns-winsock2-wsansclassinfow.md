@@ -9,8 +9,6 @@ ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSANSCLASSINFOW, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOW, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOW, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

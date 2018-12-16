@@ -9,8 +9,6 @@ ms.assetid: 4d69a503-f998-4197-824f-4df48825c941
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], IDirectManipulationContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcontent, directmanipulation/IDirectManipulationContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

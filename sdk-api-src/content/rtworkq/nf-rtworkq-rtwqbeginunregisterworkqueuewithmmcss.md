@@ -9,8 +9,6 @@ ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

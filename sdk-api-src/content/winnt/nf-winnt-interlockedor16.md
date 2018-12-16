@@ -9,8 +9,6 @@ ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedOr16, InterlockedOr16 function, base.interlockedor16, winnt/InterlockedOr16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

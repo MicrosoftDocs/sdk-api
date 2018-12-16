@@ -9,8 +9,6 @@ ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster], clusapi/ClusterRegGetBatchNotification, clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterreggetbatchnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

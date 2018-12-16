@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\informatio
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity2 interface [Fax Service],InformationType property, IFaxSecurity2.InformationType, IFaxSecurity2.get_InformationType, IFaxSecurity2.put_InformationType, IFaxSecurity2::InformationType, IFaxSecurity2::get_InformationType, IFaxSecurity2::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity2 interface, _mfax_faxsecurity2.informationtype, fax._mfax_faxsecurity2_cpp_mfax_faxsecurity2_informationtype_cpp, fax._mfax_faxsecurity2_informationtype, faxcomex/IFaxSecurity2::InformationType, faxcomex/IFaxSecurity2::get_InformationType, faxcomex/IFaxSecurity2::put_InformationType, get_InformationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

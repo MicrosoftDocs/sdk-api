@@ -9,8 +9,6 @@ ms.assetid: 8642404a-33ff-40b7-b05a-f193e8feadf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IWMDMObjectInfo.GetPlayOffset, IWMDMObjectInfo::GetPlayOffset, IWMDMObjectInfoGetPlayOffset, mswmdm/IWMDMObjectInfo::GetPlayOffset, wmdm.iwmdmobjectinfo_getplayoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

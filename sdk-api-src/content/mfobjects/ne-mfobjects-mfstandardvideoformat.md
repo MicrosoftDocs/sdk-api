@@ -9,8 +9,6 @@ ms.assetid: 559ea2e9-308b-428a-ae24-bf3fdc27e24e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 559ea2e9-308b-428a-ae24-bf3fdc27e24e, MFStandardVideoFormat, MFStandardVideoFormat enumeration [Media Foundation], MFStdVideoFormat_ATSC_HD1080i, MFStdVideoFormat_ATSC_HD720p, MFStdVideoFormat_ATSC_SD480i, MFStdVideoFormat_DVD_NTSC, MFStdVideoFormat_DVD_PAL, MFStdVideoFormat_DV_NTSC, MFStdVideoFormat_DV_PAL, MFStdVideoFormat_NTSC, MFStdVideoFormat_PAL, MFStdVideoFormat_reserved, mf.mfstandardvideoformat, mfobjects/MFStandardVideoFormat, mfobjects/MFStdVideoFormat_ATSC_HD1080i, mfobjects/MFStdVideoFormat_ATSC_HD720p, mfobjects/MFStdVideoFormat_ATSC_SD480i, mfobjects/MFStdVideoFormat_DVD_NTSC, mfobjects/MFStdVideoFormat_DVD_PAL, mfobjects/MFStdVideoFormat_DV_NTSC, mfobjects/MFStdVideoFormat_DV_PAL, mfobjects/MFStdVideoFormat_NTSC, mfobjects/MFStdVideoFormat_PAL, mfobjects/MFStdVideoFormat_reserved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

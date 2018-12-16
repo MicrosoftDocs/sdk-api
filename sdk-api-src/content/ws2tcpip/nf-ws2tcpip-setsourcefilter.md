@@ -9,8 +9,6 @@ ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

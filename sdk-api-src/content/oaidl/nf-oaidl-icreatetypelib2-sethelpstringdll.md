@@ -9,8 +9,6 @@ ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICreateTypeLib2.SetHelpStringDll, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

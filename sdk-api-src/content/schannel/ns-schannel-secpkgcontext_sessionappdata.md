@@ -9,8 +9,6 @@ ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h

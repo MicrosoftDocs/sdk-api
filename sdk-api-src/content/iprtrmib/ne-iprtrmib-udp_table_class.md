@@ -9,8 +9,6 @@ ms.assetid: 2e7304d1-b89c-46d4-9121-936a1c38cc51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUDP_TABLE_CLASS, PUDP_TABLE_CLASS, PUDP_TABLE_CLASS enumeration pointer [IP Helper], UDP_TABLE_BASIC, UDP_TABLE_CLASS, UDP_TABLE_CLASS enumeration [IP Helper], UDP_TABLE_OWNER_MODULE, UDP_TABLE_OWNER_PID, iphlp.udp_table_class, iphlpapi/PUDP_TABLE_CLASS, iphlpapi/UDP_TABLE_BASIC, iphlpapi/UDP_TABLE_CLASS, iphlpapi/UDP_TABLE_OWNER_MODULE, iphlpapi/UDP_TABLE_OWNER_PID, iprtrmib/PUDP_TABLE_CLASS, iprtrmib/UDP_TABLE_BASIC, iprtrmib/UDP_TABLE_CLASS, iprtrmib/UDP_TABLE_OWNER_MODULE, iprtrmib/UDP_TABLE_OWNER_PID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h

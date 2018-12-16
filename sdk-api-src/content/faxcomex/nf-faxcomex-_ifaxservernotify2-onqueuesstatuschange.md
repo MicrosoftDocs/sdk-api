@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onqueuesstatuschange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnQueuesStatusChange method, IFaxServerNotify2.OnQueuesStatusChange, IFaxServerNotify2::OnQueuesStatusChange, OnQueuesStatusChange, OnQueuesStatusChange method [Fax Service], OnQueuesStatusChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnQueuesStatusChange, _IFaxServerNotify2::OnQueuesStatusChange, _mfax_ifaxservernotify2_onqueuesstatuschange, fax._mfax_ifaxservernotify2_onqueuesstatuschange, faxcomex/IFaxServerNotify2::OnQueuesStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

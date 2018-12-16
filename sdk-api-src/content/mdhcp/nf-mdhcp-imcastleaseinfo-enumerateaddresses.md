@@ -9,8 +9,6 @@ ms.assetid: edbfe386-9b3d-4160-916e-6c9ea640cfbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],IMcastLeaseInfo interface, IMcastLeaseInfo interface [TAPI 2.2],EnumerateAddresses method, IMcastLeaseInfo.EnumerateAddresses, IMcastLeaseInfo::EnumerateAddresses, _tapi3_imcastleaseinfo_enumerateaddresses, mdhcp/IMcastLeaseInfo::EnumerateAddresses, tapi3.imcastleaseinfo_enumerateaddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

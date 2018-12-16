@@ -9,8 +9,6 @@ ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

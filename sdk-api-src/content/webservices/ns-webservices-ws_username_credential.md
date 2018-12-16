@@ -9,8 +9,6 @@ ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Services for Windows], webservices/WS_USERNAME_CREDENTIAL, wsw.ws_username_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

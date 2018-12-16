@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetPageBreakBefore method, ITextPara.SetPageBreakBefore, ITextPara::SetPageBreakBefore, SetPageBreakBefore, SetPageBreakBefore method [Windows Controls], SetPageBreakBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetPageBreakBefore, _win32_ITextPara_SetPageBreakBefore_cpp, controls.ITextPara_SetPageBreakBefore, controls._win32_ITextPara_SetPageBreakBefore, tom/ITextPara::SetPageBreakBefore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

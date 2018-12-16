@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan2Est(XMVECTOR,XMV
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorATan2Est, XMVectorATan2Est, XMVectorATan2Est method [DirectX Math Support APIs], dxmath.xmvectoratan2est
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: a6112bf8-5c1f-4f33-ba1f-b4903cc6befa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4GetPolicy, DhcpV4GetPolicy function [DHCP], dhcp.dhcpv4getpolicy, dhcpsapi/DhcpV4GetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnStreamEnd method, IXAudio2VoiceCallback.OnStreamEnd, IXAudio2VoiceCallback::OnStreamEnd, OnStreamEnd, OnStreamEnd method [XAudio2 Audio Mixing APIs], OnStreamEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onstreamend, xaudio2/IXAudio2VoiceCallback::OnStreamEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

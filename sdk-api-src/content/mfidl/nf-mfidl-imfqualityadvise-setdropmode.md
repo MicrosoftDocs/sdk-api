@@ -9,8 +9,6 @@ ms.assetid: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise interface [Media Foundation],SetDropMode method, IMFQualityAdvise.SetDropMode, IMFQualityAdvise::SetDropMode, SetDropMode, SetDropMode method [Media Foundation], SetDropMode method [Media Foundation],IMFQualityAdvise interface, mf.imfqualityadvise_setdropmode, mfidl/IMFQualityAdvise::SetDropMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

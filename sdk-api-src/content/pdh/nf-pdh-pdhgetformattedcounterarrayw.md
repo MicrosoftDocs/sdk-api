@@ -9,8 +9,6 @@ ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

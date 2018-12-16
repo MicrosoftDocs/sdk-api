@@ -9,8 +9,6 @@ ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

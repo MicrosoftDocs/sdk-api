@@ -9,8 +9,6 @@ ms.assetid: 0ee21ee8-1375-4b42-8d04-64368e299b3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketDeleteHandle, WebSocketDeleteHandle function [Websocket Protocol Component API], websock.websocketdeletehandle, websocket/WebSocketDeleteHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

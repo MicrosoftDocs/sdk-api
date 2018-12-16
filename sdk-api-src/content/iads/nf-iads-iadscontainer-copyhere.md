@@ -9,8 +9,6 @@ ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

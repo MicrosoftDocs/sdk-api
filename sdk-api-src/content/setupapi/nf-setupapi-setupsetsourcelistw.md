@@ -9,8 +9,6 @@ ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

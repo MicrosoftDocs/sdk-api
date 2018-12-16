@@ -9,8 +9,6 @@ ms.assetid: 446e4544-b25d-9b59-922c-ca5c896ea99f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontDownloadQueue, GetFontDownloadQueue method [Direct Write], GetFontDownloadQueue method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetFontDownloadQueue method, IDWriteFactory3.GetFontDownloadQueue, IDWriteFactory3::GetFontDownloadQueue, directwrite.idwritefactory3_getfontdownloadqueue, dwrite_3/IDWriteFactory3::GetFontDownloadQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

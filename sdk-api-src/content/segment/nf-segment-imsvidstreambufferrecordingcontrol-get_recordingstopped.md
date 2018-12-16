@@ -9,8 +9,6 @@ ms.assetid: 894bed11-7bb6-49b9-8036-c32536949dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingStopped method, IMSVidStreamBufferRecordingControl.get_RecordingStopped, IMSVidStreamBufferRecordingControl::get_RecordingStopped, IMSVidStreamBufferRecordingControlget_RecordingStopped, get_RecordingStopped, get_RecordingStopped method [Microsoft TV Technologies], get_RecordingStopped method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingstopped, segment/IMSVidStreamBufferRecordingControl::get_RecordingStopped
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

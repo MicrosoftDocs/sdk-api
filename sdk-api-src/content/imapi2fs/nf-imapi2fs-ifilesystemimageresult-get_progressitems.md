@@ -9,8 +9,6 @@ ms.assetid: c4ef572d-7e18-4537-847c-419441befe00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ProgressItems method, IFileSystemImageResult.get_ProgressItems, IFileSystemImageResult::get_ProgressItems, get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

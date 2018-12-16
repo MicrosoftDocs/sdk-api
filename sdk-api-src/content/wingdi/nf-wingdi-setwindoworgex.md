@@ -9,8 +9,6 @@ ms.assetid: 75409b5a-c003-49f2-aceb-a28330b92b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWindowOrgEx, SetWindowOrgEx function [Windows GDI], _win32_SetWindowOrgEx, gdi.setwindoworgex, wingdi/SetWindowOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2e8d5a94-6fa1-453b-bbd4-396d60bb2aa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESEvent interface [Microsoft TV Technologies],SetCompletionStatus method, IESEvent.SetCompletionStatus, IESEvent::SetCompletionStatus, SetCompletionStatus, SetCompletionStatus method [Microsoft TV Technologies], SetCompletionStatus method [Microsoft TV Technologies],IESEvent interface, mstv.iesevent_setcompletionstatus, tuner/IESEvent::SetCompletionStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

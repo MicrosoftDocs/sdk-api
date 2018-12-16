@@ -9,8 +9,6 @@ ms.assetid: 1bcba279-15ec-4733-8f76-6576b6e389ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI2FromDec, VarI2FromDec function [Automation], _oa96_VarI2FromDec, automat.vari2fromdec, oleauto/VarI2FromDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

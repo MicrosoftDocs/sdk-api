@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfobyindex.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

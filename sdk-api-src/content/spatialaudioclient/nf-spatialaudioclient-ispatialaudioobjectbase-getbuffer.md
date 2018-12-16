@@ -9,8 +9,6 @@ ms.assetid: CD777E2D-4CA0-4C2D-A475-22BF770DD59D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetBuffer method, ISpatialAudioObjectBase.GetBuffer, ISpatialAudioObjectBase::GetBuffer, coreaudio.ispatialaudioobject_getbuffer, spatialaudioclient/ISpatialAudioObjectBase::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

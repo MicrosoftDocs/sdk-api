@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

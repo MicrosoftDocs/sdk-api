@@ -9,8 +9,6 @@ ms.assetid: 6067f2be-883a-4271-95ad-16fd868b37a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenuToolbar method, IShellMenu.SetMenuToolbar, IShellMenu::SetMenuToolbar, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenuToolbar, SetMenuToolbar method [Windows Shell], SetMenuToolbar method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenuToolbar, shell.IShellMenu_SetMenuToolbar, shobjidl_core/IShellMenu::SetMenuToolbar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

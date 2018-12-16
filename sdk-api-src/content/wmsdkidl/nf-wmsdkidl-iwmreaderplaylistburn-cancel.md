@@ -9,8 +9,6 @@ ms.assetid: d126f13b-90ac-489e-8dd0-e507f4003a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],Cancel method, IWMReaderPlaylistBurn.Cancel, IWMReaderPlaylistBurn::Cancel, IWMReaderPlaylistBurnCancel, wmformat.iwmreaderplaylistburn_cancel, wmsdkidl/IWMReaderPlaylistBurn::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

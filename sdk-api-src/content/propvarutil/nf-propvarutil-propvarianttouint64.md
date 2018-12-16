@@ -9,8 +9,6 @@ ms.assetid: 3a6bdfb0-eae1-40e7-85c1-234732a4bc3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToUInt64, PropVariantToUInt64 function [Windows Properties], properties.PropVariantToUInt64, propvarutil/PropVariantToUInt64, shell.PropVariantToUInt64, shell_PropVariantToUInt64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

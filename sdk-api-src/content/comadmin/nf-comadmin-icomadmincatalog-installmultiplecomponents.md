@@ -9,8 +9,6 @@ ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleComponents method, ICOMAdminCatalog.InstallMultipleComponents, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

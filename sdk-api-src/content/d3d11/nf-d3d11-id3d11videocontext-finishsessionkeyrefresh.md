@@ -9,8 +9,6 @@ ms.assetid: 2F602A5E-B5D1-4749-8696-9F0594770B4F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh method [Media Foundation], FinishSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],FinishSessionKeyRefresh method, ID3D11VideoContext.FinishSessionKeyRefresh, ID3D11VideoContext::FinishSessionKeyRefresh, d3d11/ID3D11VideoContext::FinishSessionKeyRefresh, mf.id3d11videocontext_finishsessionkeyrefresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

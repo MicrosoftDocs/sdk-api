@@ -9,8 +9,6 @@ ms.assetid: 312d27b8-cfca-48fd-8d39-b0f504421d2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MMC_FILTERDATA, MMC_FILTERDATA structure [MMC], _slate_mmc_filterdata, mmc.mmc_filterdata, mmc/MMC_FILTERDATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

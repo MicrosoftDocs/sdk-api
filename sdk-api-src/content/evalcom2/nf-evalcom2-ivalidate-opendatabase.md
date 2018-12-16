@@ -9,8 +9,6 @@ ms.assetid: 3f295eea-5f6b-4afa-b0ac-55606086b2b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IValidate::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IValidate interface, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 

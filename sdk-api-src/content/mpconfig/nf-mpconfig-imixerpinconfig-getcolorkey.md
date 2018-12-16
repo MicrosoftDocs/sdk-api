@@ -9,8 +9,6 @@ ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetColorKey method, IMixerPinConfig.GetColorKey, IMixerPinConfig::GetColorKey, IMixerPinConfigGetColorKey, dshow.imixerpinconfig_getcolorkey, mpconfig/IMixerPinConfig::GetColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

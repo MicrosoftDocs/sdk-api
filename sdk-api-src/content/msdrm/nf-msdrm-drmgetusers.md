@@ -9,8 +9,6 @@ ms.assetid: 4c8c8249-2e90-4eea-9a3b-dd7d9970ba98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetUsers, DRMGetUsers function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsers, rm.drmgetusers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

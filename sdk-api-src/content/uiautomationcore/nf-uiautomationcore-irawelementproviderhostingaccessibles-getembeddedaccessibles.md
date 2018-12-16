@@ -9,8 +9,6 @@ ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEmbeddedAccessibles, GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility],IRawElementProviderHostingAccessibles interface, IRawElementProviderHostingAccessibles interface [Windows Accessibility],GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

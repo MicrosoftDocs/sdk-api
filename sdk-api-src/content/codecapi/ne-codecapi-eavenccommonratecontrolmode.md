@@ -9,8 +9,6 @@ ms.assetid: 6a8e538f-3d1e-4098-a001-a623c1212450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncCommonRateControlMode, codecapi/eAVEncCommonRateControlMode_CBR, codecapi/eAVEncCommonRateControlMode_GlobalLowDelayVBR, codecapi/eAVEncCommonRateControlMode_GlobalVBR, codecapi/eAVEncCommonRateControlMode_LowDelayVBR, codecapi/eAVEncCommonRateControlMode_PeakConstrainedVBR, codecapi/eAVEncCommonRateControlMode_Quality, codecapi/eAVEncCommonRateControlMode_UnconstrainedVBR, dshow.eavenccommonratecontrolmode, eAVEncCommonRateControlMode, eAVEncCommonRateControlMode enumeration [DirectShow], eAVEncCommonRateControlModeEnumeration, eAVEncCommonRateControlMode_CBR, eAVEncCommonRateControlMode_GlobalLowDelayVBR, eAVEncCommonRateControlMode_GlobalVBR, eAVEncCommonRateControlMode_LowDelayVBR, eAVEncCommonRateControlMode_PeakConstrainedVBR, eAVEncCommonRateControlMode_Quality, eAVEncCommonRateControlMode_UnconstrainedVBR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

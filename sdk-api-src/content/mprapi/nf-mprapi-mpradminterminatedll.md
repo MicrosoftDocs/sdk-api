@@ -9,8 +9,6 @@ ms.assetid: 7be485ce-fd45-4968-9e9d-2128d5a8967d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

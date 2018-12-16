@@ -9,8 +9,6 @@ ms.assetid: 995576a6-ccca-4c0d-8346-2155801a2fbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_SCRGB, XPS_COLOR_TYPE_SRGB, xps.xps_color_type, xpsobjectmodel/XPS_COLOR_TYPE, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT, xpsobjectmodel/XPS_COLOR_TYPE_SCRGB, xpsobjectmodel/XPS_COLOR_TYPE_SRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntcons.h
 req.include-header: 

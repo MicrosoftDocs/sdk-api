@@ -9,8 +9,6 @@ ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmnquery.h
 req.include-header: 

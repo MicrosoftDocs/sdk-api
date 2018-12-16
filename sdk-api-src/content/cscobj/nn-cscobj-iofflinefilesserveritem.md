@@ -9,8 +9,6 @@ ms.assetid: 724fabf6-fb27-49c9-8f99-dc61377ac921
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesServerItem, IOfflineFilesServerItem interface [Offline Files], IOfflineFilesServerItem interface [Offline Files],described, cscobj/IOfflineFilesServerItem, of.iofflinefilesserveritem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

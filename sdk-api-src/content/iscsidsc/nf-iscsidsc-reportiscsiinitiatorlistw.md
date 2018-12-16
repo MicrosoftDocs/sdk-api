@@ -9,8 +9,6 @@ ms.assetid: 7039fab5-ac76-4420-994b-b8c18196b022
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportIScsiInitiatorListW, ReportIscsiInitiatorList, ReportIscsiInitiatorList function [iSCSI Discovery Library API], ReportIscsiInitiatorListA, ReportIscsiInitiatorListW, iscsidisc.reportiscsiinitiatorlist, iscsidsc/ReportIscsiInitiatorList, iscsidsc/ReportIscsiInitiatorListA, iscsidsc/ReportIscsiInitiatorListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

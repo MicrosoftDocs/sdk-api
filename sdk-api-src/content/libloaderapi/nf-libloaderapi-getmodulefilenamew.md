@@ -9,8 +9,6 @@ ms.assetid: f124c99f-8be1-4a9c-a84c-b1b323921f1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetModuleFileName, GetModuleFileName function, GetModuleFileNameA, GetModuleFileNameW, _win32_getmodulefilename, base.getmodulefilename, libloaderapi/GetModuleFileName, libloaderapi/GetModuleFileNameA, libloaderapi/GetModuleFileNameW, winbase/GetModuleFileName, winbase/GetModuleFileNameA, winbase/GetModuleFileNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

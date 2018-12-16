@@ -9,8 +9,6 @@ ms.assetid: A4483E33-6D74-4194-BF85-51FF55F1BF9A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

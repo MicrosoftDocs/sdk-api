@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setmessagecountlimit.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 27e01700-9801-1813-918b-c6687b02eb6f, ID3D10InfoQueue interface [Direct3D 10],SetMessageCountLimit method, ID3D10InfoQueue.SetMessageCountLimit, ID3D10InfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [Direct3D 10], SetMessageCountLimit method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::SetMessageCountLimit, direct3d10.id3d10infoqueue_setmessagecountlimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Commit method, IDataCollectorSet.Commit, IDataCollectorSet::Commit, base.idatacollectorset_commit, pla.idatacollectorset_commit, pla/IDataCollectorSet::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

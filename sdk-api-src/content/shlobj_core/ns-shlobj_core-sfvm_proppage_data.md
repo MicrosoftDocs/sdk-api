@@ -9,8 +9,6 @@ ms.assetid: 9f214786-fc82-4f1b-a0ec-7bf61b1f3cf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _SFVM_PROPPAGE_DATA, _win32_SFVM_PROPPAGE_DATA, shell.SFVM_PROPPAGE_DATA, shlobj_core/SFVM_PROPPAGE_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

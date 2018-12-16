@@ -9,8 +9,6 @@ ms.assetid: aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, ITfFnPropertyUIStatus interface [Text Services Framework],GetStatus method, ITfFnPropertyUIStatus.GetStatus, ITfFnPropertyUIStatus::GetStatus, TF_PROPUI_STATUS_SAVETOFILE, _tsf_itffnpropertyuistatus_getstatus_ref, ctffunc/ITfFnPropertyUIStatus::GetStatus, tsf.itffnpropertyuistatus_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_omsetrendertargets.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device interface [Direct3D 10],OMSetRenderTargets method, ID3D10Device.OMSetRenderTargets, ID3D10Device::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 10], OMSetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetRenderTargets, direct3d10.id3d10device_omsetrendertargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

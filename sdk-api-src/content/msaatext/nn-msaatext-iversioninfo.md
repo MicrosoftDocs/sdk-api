@@ -9,8 +9,6 @@ ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 

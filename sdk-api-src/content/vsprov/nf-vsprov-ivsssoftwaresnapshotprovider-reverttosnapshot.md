@@ -9,8 +9,6 @@ ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

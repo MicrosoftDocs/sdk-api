@@ -9,8 +9,6 @@ ms.assetid: 951b6aa9-ea96-4256-a304-5b753f2a3656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_DOSP_STATISTICS0, IPSEC_DOSP_STATISTICS0 structure [Filtering], fwp.ipsec_dosp_statistics0, ipsectypes/IPSEC_DOSP_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8dae92da-e4b9-4512-b4f4-463b5a92a0d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComputeSiteCosts, ComputeSiteCosts method [Security], ComputeSiteCosts method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],ComputeSiteCosts method, ICertificationAuthorities.ComputeSiteCosts, ICertificationAuthorities::ComputeSiteCosts, certenroll/ICertificationAuthorities::ComputeSiteCosts, security.icertificationauthorities_computesitecosts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

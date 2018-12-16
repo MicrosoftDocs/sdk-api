@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f0a10671-9383-4935-b773-31f047732e27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClassificationRunningStatus property [File Server Resource Manager], ClassificationRunningStatus property [File Server Resource Manager],FsrmClassificationManager class, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager.ClassificationRunningStatus, IFsrmClassificationManager.get_ClassificationRunningStatus, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager2.ClassificationRunningStatus, IFsrmClassificationManager2::get_ClassificationRunningStatus, IFsrmClassificationManager::ClassificationRunningStatus, IFsrmClassificationManager::get_ClassificationRunningStatus, fs.ifsrmclassificationmanager_classificationrunningstatus, fsrm.ifsrmclassificationmanager_classificationrunningstatus, fsrmpipeline/IFsrmClassificationManager2::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::get_ClassificationRunningStatus, get_ClassificationRunningStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

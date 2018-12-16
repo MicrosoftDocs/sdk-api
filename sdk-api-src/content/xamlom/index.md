@@ -2,7 +2,7 @@
 UID: NA:xamlom
 ms.assetid: 95070ea0-5efb-36e5-b388-2bf9d19e9de5
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

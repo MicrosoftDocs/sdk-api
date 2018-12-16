@@ -9,8 +9,6 @@ ms.assetid: AB46E0D3-FFE0-4565-A971-191C0D266506
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomationEventHandlerGroup.AddChangesEventHandler, IUIAutomationEventHandlerGroup::AddChangesEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddChangesEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addchangeseventhandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

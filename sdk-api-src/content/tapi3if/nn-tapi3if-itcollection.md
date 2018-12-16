@@ -9,8 +9,6 @@ ms.assetid: 2286678a-68b9-4f4a-b36b-7fdf8cdad6a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCollection, ITCollection interface [TAPI 2.2], ITCollection interface [TAPI 2.2],described, _tapi3_itcollection, tapi3.itcollection, tapi3if/ITCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

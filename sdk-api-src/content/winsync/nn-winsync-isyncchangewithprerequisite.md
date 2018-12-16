@@ -9,8 +9,6 @@ ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

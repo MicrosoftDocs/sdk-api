@@ -9,8 +9,6 @@ ms.assetid: 993dfa23-4303-4601-b05d-70158e5e87ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcGetAuthorizationContextForClient, RpcGetAuthorizationContextForClient function [RPC], _rpc_rpcgetauthorizationcontextforclient, rpc.rpcgetauthorizationcontextforclient, rpcasync/RpcGetAuthorizationContextForClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

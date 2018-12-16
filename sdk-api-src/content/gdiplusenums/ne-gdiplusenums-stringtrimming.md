@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringtrimming.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringTrimming, StringTrimming enumeration [GDI+], StringTrimmingCharacter, StringTrimmingEllipsisCharacter, StringTrimmingEllipsisPath, StringTrimmingEllipsisWord, StringTrimmingNone, StringTrimmingWord, _gdiplus_ENUM_StringTrimming, gdiplus._gdiplus_ENUM_StringTrimming, gdiplusenums/StringTrimming, gdiplusenums/StringTrimmingCharacter, gdiplusenums/StringTrimmingEllipsisCharacter, gdiplusenums/StringTrimmingEllipsisPath, gdiplusenums/StringTrimmingEllipsisWord, gdiplusenums/StringTrimmingNone, gdiplusenums/StringTrimmingWord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

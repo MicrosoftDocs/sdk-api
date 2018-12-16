@@ -9,8 +9,6 @@ ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,described, base.ivssexaminewritermetadataex2, vsbackup/IVssExamineWriterMetadataEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

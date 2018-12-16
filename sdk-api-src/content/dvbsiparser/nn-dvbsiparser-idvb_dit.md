@@ -9,8 +9,6 @@ ms.assetid: 8acbb1ac-100f-47b9-b8db-580d1a845946
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVB_DIT, IDVB_DIT interface [Microsoft TV Technologies], IDVB_DIT interface [Microsoft TV Technologies],described, IDVB_DITInterface, dvbsiparser/IDVB_DIT, mstv.idvb_dit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

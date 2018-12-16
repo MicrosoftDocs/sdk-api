@@ -9,8 +9,6 @@ ms.assetid: c4ba0b54-e9e1-4c05-b4f8-ce5390cada17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleDuplicateData, OleDuplicateData function [COM], _ole_OleDuplicateData, com.oleduplicatedata, ole2/OleDuplicateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

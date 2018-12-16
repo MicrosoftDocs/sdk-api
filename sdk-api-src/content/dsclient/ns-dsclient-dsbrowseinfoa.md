@@ -9,8 +9,6 @@ ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDSBROWSEINFOA, DSBI_CHECKBOXES, DSBI_DONTSIGNSEAL, DSBI_ENTIREDIRECTORY, DSBI_EXPANDONOPEN, DSBI_HASCREDENTIALS, DSBI_IGNORETREATASLEAF, DSBI_INCLUDEHIDDEN, DSBI_NOBUTTONS, DSBI_NOLINES, DSBI_NOLINESATROOT, DSBI_NOROOT, DSBI_RETURNOBJECTCLASS, DSBI_RETURN_FORMAT, DSBI_SIMPLEAUTHENTICATE, DSBROWSEINFO, DSBROWSEINFO structure [Active Directory], DSBROWSEINFOA, DSBROWSEINFOW, DSBROWSEINFOW structure [Active Directory], PDSBROWSEINFOW, PDSBROWSEINFOW structure pointer [Active Directory], _glines_dsbrowseinfo, ad.dsbrowseinfo, dsclient/DSBROWSEINFO, dsclient/DSBROWSEINFOA, dsclient/DSBROWSEINFOW, dsclient/PDSBROWSEINFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

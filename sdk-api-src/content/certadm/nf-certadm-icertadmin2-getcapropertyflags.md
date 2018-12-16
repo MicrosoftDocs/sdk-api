@@ -9,8 +9,6 @@ ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertAdmin2 object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertAdmin2 object, GetCAPropertyFlags method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyFlags method, ICertAdmin2.GetCAPropertyFlags, ICertAdmin2::GetCAPropertyFlags, _certsrv_icertadmin2_getcapropertyflags, certadm/ICertAdmin2::GetCAPropertyFlags, security.icertadmin2_getcapropertyflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

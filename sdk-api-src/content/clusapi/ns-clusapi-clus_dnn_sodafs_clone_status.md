@@ -9,8 +9,6 @@ ms.assetid: 3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS structure [Failover Cluster], PCLUS_DNN_SODAFS_CLONE_STATUS, PCLUS_DNN_SODAFS_CLONE_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_SODAFS_CLONE_STATUS, clusapi/PCLUS_DNN_SODAFS_CLONE_STATUS, mscs.clus_dnn_sodafs_clone_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

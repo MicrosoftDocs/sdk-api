@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const XMHALF2 &), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const XMHALF2 &), dxmath.xmhalf2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

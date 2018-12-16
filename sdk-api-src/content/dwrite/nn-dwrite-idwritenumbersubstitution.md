@@ -9,8 +9,6 @@ ms.assetid: bf8caeea-6ede-4cd3-84f7-2e8314af50db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteNumberSubstitution, IDWriteNumberSubstitution interface [Direct Write], IDWriteNumberSubstitution interface [Direct Write],described, directwrite.IDWriteNumberSubstitution, dwrite/IDWriteNumberSubstitution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

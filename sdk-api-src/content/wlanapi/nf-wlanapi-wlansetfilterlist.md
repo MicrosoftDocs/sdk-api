@@ -9,8 +9,6 @@ ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

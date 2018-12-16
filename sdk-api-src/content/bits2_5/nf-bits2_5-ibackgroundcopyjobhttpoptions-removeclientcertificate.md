@@ -9,8 +9,6 @@ ms.assetid: b4fb7213-5f6b-407f-bc44-6d11886ed5ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],RemoveClientCertificate method, IBackgroundCopyJobHttpOptions.RemoveClientCertificate, IBackgroundCopyJobHttpOptions::RemoveClientCertificate, RemoveClientCertificate, RemoveClientCertificate method [BITS], RemoveClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_removeclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h

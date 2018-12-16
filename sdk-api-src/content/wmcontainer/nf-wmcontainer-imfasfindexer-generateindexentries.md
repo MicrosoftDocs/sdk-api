@@ -9,8 +9,6 @@ ms.assetid: febc5335-a8e8-4ae9-afb2-17f09b750477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateIndexEntries, GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GenerateIndexEntries method, IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

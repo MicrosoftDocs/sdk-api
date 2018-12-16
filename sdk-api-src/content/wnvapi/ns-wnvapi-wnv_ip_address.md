@@ -9,8 +9,6 @@ ms.assetid: 1FD137B6-74F4-4E75-A77E-65F093938662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWNV_IP_ADDRESS, PWNV_IP_ADDRESS, PWNV_IP_ADDRESS structure pointer [Windows Network Virtualization], WNV_IP_ADDRESS, WNV_IP_ADDRESS structure [Windows Network Virtualization], wnv.wnv_ip_address, wnvapi/PWNV_IP_ADDRESS, wnvapi/WNV_IP_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 

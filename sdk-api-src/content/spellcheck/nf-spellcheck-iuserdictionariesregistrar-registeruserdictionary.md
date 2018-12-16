@@ -9,8 +9,6 @@ ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],getProviderTypeWStr method, IEnroll4.getProviderTypeWStr, IEnroll4::getProviderTypeWStr, getProviderTypeWStr, getProviderTypeWStr method [Security], getProviderTypeWStr method [Security],IEnroll4 interface, security.ienroll4_getprovidertypewstr, xenroll/IEnroll4::getProviderTypeWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

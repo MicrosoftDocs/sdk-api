@@ -9,8 +9,6 @@ ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

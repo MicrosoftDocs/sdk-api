@@ -9,8 +9,6 @@ ms.assetid: 4e0178fb-1f9f-4ee4-9a83-f37cf71d35ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_KEY_VERIFY_MESSAGE_PARA, PCRYPT_KEY_VERIFY_MESSAGE_PARA structure pointer [Security], security.crypt_key_verify_message_para, wincrypt/CRYPT_KEY_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_KEY_VERIFY_MESSAGE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

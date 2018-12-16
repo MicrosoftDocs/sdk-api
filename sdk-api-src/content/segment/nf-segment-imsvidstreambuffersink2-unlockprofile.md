@@ -9,8 +9,6 @@ ms.assetid: 1394c3f9-943d-4b75-b650-fbb04c294e45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IMSVidStreamBufferSink2.UnlockProfile, IMSVidStreamBufferSink2::UnlockProfile, IMSVidStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IMSVidStreamBufferSink2 interface, mstv.imsvidstreambuffersink2_unlockprofile, segment/IMSVidStreamBufferSink2::UnlockProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

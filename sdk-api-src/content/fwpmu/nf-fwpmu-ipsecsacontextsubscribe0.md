@@ -9,8 +9,6 @@ ms.assetid: dadb22b2-6b20-401f-b2b5-256135a345b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filtering], fwp.ipsecsacontextsubscribe0, fwpmu/IPsecSaContextSubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

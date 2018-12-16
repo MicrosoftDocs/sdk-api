@@ -9,8 +9,6 @@ ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Buffer, Buffer method [Windows Runtime], Buffer method [Windows Runtime],IBufferByteAccess interface, IBufferByteAccess interface [Windows Runtime],Buffer method, IBufferByteAccess.Buffer, IBufferByteAccess::Buffer, robuffer/IBufferByteAccess::Buffer, winrt.ibufferbyteaccess_buffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: robuffer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 10a2312d-5969-4dde-bf62-308ad425569b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [RPC], _rpc_mesdecodebufferhandlecreate, midles/MesDecodeBufferHandleCreate, rpc.mesdecodebufferhandlecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h

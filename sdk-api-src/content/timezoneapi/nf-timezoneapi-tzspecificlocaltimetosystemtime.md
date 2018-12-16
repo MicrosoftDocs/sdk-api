@@ -9,8 +9,6 @@ ms.assetid: d671499a-027d-4b1f-ae16-8b1978eb9783
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TzSpecificLocalTimeToSystemTime, TzSpecificLocalTimeToSystemTime function, _win32_tzspecificlocaltimetosystemtime, base.tzspecificlocaltimetosystemtime, timezoneapi/TzSpecificLocalTimeToSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

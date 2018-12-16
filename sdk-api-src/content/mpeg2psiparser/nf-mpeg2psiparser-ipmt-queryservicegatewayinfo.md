@@ -9,8 +9,6 @@ ms.assetid: fead4140-5585-44eb-9d1f-7a686b79ac26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryServiceGatewayInfo method, IPMT.QueryServiceGatewayInfo, IPMT::QueryServiceGatewayInfo, IPMTQueryServiceGatewayInfo, QueryServiceGatewayInfo, QueryServiceGatewayInfo method [Microsoft TV Technologies], QueryServiceGatewayInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryServiceGatewayInfo, mstv.ipmt_queryservicegatewayinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

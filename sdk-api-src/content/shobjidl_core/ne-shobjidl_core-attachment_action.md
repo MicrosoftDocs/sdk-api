@@ -9,8 +9,6 @@ ms.assetid: 2deeb14b-2665-4970-923c-9da1f561979f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ATTACHMENT_ACTION, ATTACHMENT_ACTION enumeration [Windows Shell], ATTACHMENT_ACTION_CANCEL, ATTACHMENT_ACTION_EXEC, ATTACHMENT_ACTION_SAVE, _win32_ATTACHMENT_ACTION, shell.ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION_CANCEL, shobjidl_core/ATTACHMENT_ACTION_EXEC, shobjidl_core/ATTACHMENT_ACTION_SAVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

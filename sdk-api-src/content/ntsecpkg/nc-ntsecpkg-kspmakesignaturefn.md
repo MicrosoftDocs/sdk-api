@@ -9,8 +9,6 @@ ms.assetid: 9db828f3-b15c-4e22-bbd8-5daa223b2be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KspMakeSignatureFn, KspMakeSignatureFn callback, SpMakeSignature, SpMakeSignature callback function [Security], _ssp_spmakesignature, ntsecpkg/SpMakeSignature, security.spmakesignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

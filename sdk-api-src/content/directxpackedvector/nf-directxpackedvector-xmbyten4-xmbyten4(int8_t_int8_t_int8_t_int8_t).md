@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor(int8_t,int8_t,int8_
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(int8_t,int8_t,int8_t,int8_t), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(int8_t,int8_t,int8_t,int8_t), dxmath.xmbyten4_ctor_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

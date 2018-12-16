@@ -9,8 +9,6 @@ ms.assetid: 763c042b-2780-4202-9c3e-073cc8adc93a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, ICurrentWorkingDirectory interface [Windows Shell],GetDirectory method, ICurrentWorkingDirectory.GetDirectory, ICurrentWorkingDirectory::GetDirectory, _win32_ICurrentWorkingDirectory_GetDirectory, shell.ICurrentWorkingDirectory_GetDirectory, shlobj/ICurrentWorkingDirectory::GetDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 

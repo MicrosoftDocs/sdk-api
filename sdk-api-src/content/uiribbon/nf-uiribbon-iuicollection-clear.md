@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\clear.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Windows Ribbon], Clear method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Clear method, IUICollection.Clear, IUICollection::Clear, scenicintent_IUICollection_Clear, uiribbon/IUICollection::Clear, windowsribbon.windowsribbon_iuicollection_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

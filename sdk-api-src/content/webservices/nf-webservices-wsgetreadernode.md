@@ -9,8 +9,6 @@ ms.assetid: c8e5b5ea-f7b7-41ad-9669-7c88ec4ad28c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetReaderNode, WsGetReaderNode function [Web Services for Windows], webservices/WsGetReaderNode, wsw.wsgetreadernode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

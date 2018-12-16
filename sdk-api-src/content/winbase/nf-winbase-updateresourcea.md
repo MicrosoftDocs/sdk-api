@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

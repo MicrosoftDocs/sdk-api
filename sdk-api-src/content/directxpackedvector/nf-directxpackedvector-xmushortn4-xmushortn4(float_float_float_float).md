@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORTN4.#ctor(float,float,float
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUSHORTN4, XMUSHORTN4 constructor [DirectX Math Support APIs], XMUSHORTN4 constructor [DirectX Math Support APIs],XMUSHORTN4 structure, XMUSHORTN4 structure [DirectX Math Support APIs],XMUSHORTN4 constructor, XMUSHORTN4.XMUSHORTN4, XMUSHORTN4.XMUSHORTN4(float,float,float,float), XMUSHORTN4::XMUSHORTN4, XMUSHORTN4::XMUSHORTN4(float,float,float,float), dxmath.xmushortn4_ctor_4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

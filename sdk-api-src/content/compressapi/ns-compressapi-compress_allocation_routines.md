@@ -9,8 +9,6 @@ ms.assetid: 91f541c8-36b9-4ec2-ae37-0b41aa6fd623
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCOMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES structure [Compression API], PCOMPRESS_ALLOCATION_ROUTINES, PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API], cmpapi.compress_allocation_routines, compressapi/COMPRESS_ALLOCATION_ROUTINES, compressapi/PCOMPRESS_ALLOCATION_ROUTINES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compressapi.h
 req.include-header: 

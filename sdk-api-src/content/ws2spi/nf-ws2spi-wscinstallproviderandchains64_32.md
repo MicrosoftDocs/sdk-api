@@ -9,8 +9,6 @@ ms.assetid: 211d0d13-e8ce-422a-810d-416686ee1326
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCInstallProviderAndChains64_32, WSCInstallProviderAndChains64_32 function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains64_32, ws2spi/WSCInstallProviderAndChains64_32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

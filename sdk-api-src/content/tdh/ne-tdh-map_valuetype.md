@@ -9,8 +9,6 @@ ms.assetid: a17e5214-29d3-465f-9785-0cc8965a42c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVENTMAP_ENTRY_VALUETYPE_STRING, EVENTMAP_ENTRY_VALUETYPE_ULONG, MAP_VALUETYPE, MAP_VALUETYPE enumeration [ETW], etw.map_valuetype_enum, tdh.map_valuetype_enum, tdh/EVENTMAP_ENTRY_VALUETYPE_STRING, tdh/EVENTMAP_ENTRY_VALUETYPE_ULONG, tdh/MAP_VALUETYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fb08bdb5-4d2e-4a2e-9e23-bbff4cedc6e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],hWnd property, IInkOverlay.hWnd, IInkOverlay.put_hWnd, IInkOverlay::get_hWnd, IInkOverlay::hWnd, IInkOverlay::put_hWnd, InkOverlay.get_hWnd, InkOverlay.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::get_hWnd, msinkaut/IInkOverlay::hWnd, msinkaut/IInkOverlay::put_hWnd, put_hWnd, tablet.inkoverlay_hwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

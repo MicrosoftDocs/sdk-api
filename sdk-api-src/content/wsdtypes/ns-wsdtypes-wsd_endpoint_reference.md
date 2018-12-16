@@ -9,8 +9,6 @@ ms.assetid: 97d6870e-3633-4bea-9a50-984e6b0ba3a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE, WSD_ENDPOINT_REFERENCE structure, ncd.wsd_endpoint_reference_struct, wsdtypes/WSD_ENDPOINT_REFERENCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: 

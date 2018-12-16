@@ -9,8 +9,6 @@ ms.assetid: 253c09db-4b64-43d0-8040-b3a2ab95af30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Count method, ITCollection.get_Count, ITCollection::get_Count, _tapi3_itcollection_get_count, get_Count, get_Count method [TAPI 2.2], get_Count method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_count, tapi3if/ITCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 315d31d6-bf68-4495-9bae-1f624f497c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], mf.mfratio, mfobjects/MFRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

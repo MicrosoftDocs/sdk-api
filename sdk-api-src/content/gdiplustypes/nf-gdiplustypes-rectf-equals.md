@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],RectF class, RectF class [GDI+],Equals method, RectF.Equals, RectF::Equals, _gdiplus_CLASS_RectF_Equals_rect_, gdiplus._gdiplus_CLASS_RectF_Equals_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

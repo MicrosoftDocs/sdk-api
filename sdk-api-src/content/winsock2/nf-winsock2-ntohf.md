@@ -9,8 +9,6 @@ ms.assetid: FD98AE9D-C753-479C-BF44-7495B3B5C953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ntohf, ntohf function [Winsock], winsock.ntohf, winsock2/ntohf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

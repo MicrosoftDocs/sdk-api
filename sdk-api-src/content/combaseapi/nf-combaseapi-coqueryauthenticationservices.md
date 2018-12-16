@@ -9,8 +9,6 @@ ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

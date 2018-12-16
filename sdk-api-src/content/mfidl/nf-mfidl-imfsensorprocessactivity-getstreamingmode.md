@@ -9,8 +9,6 @@ ms.assetid: 1881652A-005C-4EFB-B4ED-3BEAC35A460A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamingMode, GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingMode method, IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

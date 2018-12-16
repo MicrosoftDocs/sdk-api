@@ -9,8 +9,6 @@ ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

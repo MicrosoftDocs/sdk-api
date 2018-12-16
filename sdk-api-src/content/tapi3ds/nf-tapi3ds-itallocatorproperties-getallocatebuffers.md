@@ -9,8 +9,6 @@ ms.assetid: 74058181-ab74-4a2d-8395-c8a1a7f02820
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllocateBuffers, GetAllocateBuffers method [TAPI 2.2], GetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocateBuffers method, ITAllocatorProperties.GetAllocateBuffers, ITAllocatorProperties::GetAllocateBuffers, _tapi3_itallocatorproperties_getallocatebuffers, tapi3.itallocatorproperties_getallocatebuffers, tapi3ds/ITAllocatorProperties::GetAllocateBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3ds.h
 req.include-header: Tapi3.h

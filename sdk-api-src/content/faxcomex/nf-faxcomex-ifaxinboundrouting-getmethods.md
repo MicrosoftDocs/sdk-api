@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2x9v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetMethods method, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods_cpp, fax._mfax_faxinboundrouting_getmethods_cpp, faxcomex/IFaxInboundRouting::GetMethods
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

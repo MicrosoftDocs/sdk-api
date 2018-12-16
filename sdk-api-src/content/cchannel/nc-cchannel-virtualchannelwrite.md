@@ -9,8 +9,6 @@ ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VirtualChannelWrite, VirtualChannelWrite callback, VirtualChannelWrite callback function [Remote Desktop Services], _win32_virtualchannelwrite, cchannel/VirtualChannelWrite, termserv.virtualchannelwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

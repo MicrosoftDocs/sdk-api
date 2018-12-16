@@ -9,8 +9,6 @@ ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOplockEventHandle, GetOplockEventHandle method [search], GetOplockEventHandle method [search],IOpLockStatus interface, IOpLockStatus interface [search],GetOplockEventHandle method, IOpLockStatus.GetOplockEventHandle, IOpLockStatus::GetOplockEventHandle, _search_IOpLockStatus_GetOplockEventHandle, search._search_IOpLockStatus_GetOplockEventHandle, searchapi/IOpLockStatus::GetOplockEventHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

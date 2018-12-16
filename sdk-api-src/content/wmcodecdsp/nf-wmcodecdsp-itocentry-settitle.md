@@ -9,8 +9,6 @@ ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

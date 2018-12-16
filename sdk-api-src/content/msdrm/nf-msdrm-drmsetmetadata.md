@@ -9,8 +9,6 @@ ms.assetid: dcf95e9e-e2de-449e-a45a-4974094ecb7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMSetMetaData, DRMSetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetMetaData, rm.drmsetmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], cryptxml/CryptXmlSetHMACSecret, security.cryptxmlsethmacsecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

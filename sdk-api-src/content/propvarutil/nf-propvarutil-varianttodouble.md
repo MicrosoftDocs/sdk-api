@@ -9,8 +9,6 @@ ms.assetid: 7bd756c6-f02a-4cf4-9458-b3304e2da2db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToDouble, VariantToDouble function [Windows Properties], _shell_VariantToDouble, properties.VariantToDouble, propvarutil/VariantToDouble, shell.VariantToDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

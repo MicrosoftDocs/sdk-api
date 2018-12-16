@@ -9,8 +9,6 @@ ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentRowHeaders, GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentRowHeaders method, IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

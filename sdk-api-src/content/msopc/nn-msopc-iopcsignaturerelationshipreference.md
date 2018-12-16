@@ -9,8 +9,6 @@ ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], IOpcSignatureRelationshipReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReference, opc.iopcsignaturerelationshipreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

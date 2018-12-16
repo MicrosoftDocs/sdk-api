@@ -9,8 +9,6 @@ ms.assetid: 2efe9d36-3179-486b-9691-78a88452d91c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetGain, TSPI_phoneGetGain function [TAPI 2.2], _tspi_tspi_phonegetgain, tspi.tspi_phonegetgain, tspi/TSPI_phoneGetGain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

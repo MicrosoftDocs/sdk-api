@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onincomingjobchanged.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingJobChanged method, IFaxServerNotify2.OnIncomingJobChanged, IFaxServerNotify2::OnIncomingJobChanged, OnIncomingJobChanged, OnIncomingJobChanged method [Fax Service], OnIncomingJobChanged method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingJobChanged, _IFaxServerNotify2::OnIncomingJobChanged, _mfax_ifaxservernotify2_onincomingjobchanged, fax._mfax_ifaxservernotify2_onincomingjobchanged, faxcomex/IFaxServerNotify2::OnIncomingJobChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

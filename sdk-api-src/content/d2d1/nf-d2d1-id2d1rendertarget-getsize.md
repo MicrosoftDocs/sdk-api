@@ -9,8 +9,6 @@ ms.assetid: a46ec1c6-b0ff-4822-ab92-0b0a2ab564ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [Direct2D], GetSize method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetSize method, ID2D1RenderTarget.GetSize, ID2D1RenderTarget::GetSize, d2d1/ID2D1RenderTarget::GetSize, direct2d.ID2D1RenderTarget_GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0ab234f2-a681-463f-8ba8-b23b05cf2626
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSignAndEncryptMessage, CryptSignAndEncryptMessage function [Security], _crypto2_cryptsignandencryptmessage, security.cryptsignandencryptmessage, wincrypt/CryptSignAndEncryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

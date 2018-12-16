@@ -9,8 +9,6 @@ ms.assetid: a3b5a92f-3a5b-4438-b788-91c9ac5a191f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTQuerySchemaVersionSupport, PTQuerySchemaVersionSupport function [Windows GDI], _win32_PTQuerySchemaVersionSupport, gdi.ptqueryschemaversionsupport, prntvpt/PTQuerySchemaVersionSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

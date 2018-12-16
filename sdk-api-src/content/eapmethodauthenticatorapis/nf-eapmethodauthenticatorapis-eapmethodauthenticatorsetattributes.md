@@ -9,8 +9,6 @@ ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

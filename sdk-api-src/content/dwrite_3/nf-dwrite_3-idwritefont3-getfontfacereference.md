@@ -9,8 +9,6 @@ ms.assetid: 8939ADA0-B2D9-4489-B9AC-EA37776F6340
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetFontFaceReference method, IDWriteFont3.GetFontFaceReference, IDWriteFont3::GetFontFaceReference, directwrite.idwritefont3_getfontfacereference, dwrite_3/IDWriteFont3::GetFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

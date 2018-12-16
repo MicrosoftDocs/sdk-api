@@ -9,8 +9,6 @@ ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_playerApplication method, IWMPPlayer4.get_playerApplication, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

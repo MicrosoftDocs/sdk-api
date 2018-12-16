@@ -9,8 +9,6 @@ ms.assetid: 21ed2286-e4df-4b77-ba31-e5d5927e16f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RadialGradientBrush, ID2D1RadialGradientBrush interface [Direct2D], ID2D1RadialGradientBrush interface [Direct2D],described, d2d1/ID2D1RadialGradientBrush, direct2d.ID2D1RadialGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

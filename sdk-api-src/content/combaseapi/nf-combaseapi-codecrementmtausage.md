@@ -9,8 +9,6 @@ ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecrementmtausage, combaseapi/CoDecrementMTAUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

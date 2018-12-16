@@ -9,8 +9,6 @@ ms.assetid: 59b66f33-486e-49c3-9fb8-0eab93146ed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoEnableCallCancellation, CoEnableCallCancellation function [COM], _com_CoEnableCallCancellation, com.coenablecallcancellation, combaseapi/CoEnableCallCancellation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

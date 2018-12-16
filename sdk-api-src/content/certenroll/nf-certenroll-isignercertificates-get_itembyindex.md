@@ -9,8 +9,6 @@ ms.assetid: 44f9ff7d-5ed2-4575-a9c2-50096fffcf07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISignerCertificates.ItemByIndex, ISignerCertificates.get_ItemByIndex, ISignerCertificates::ItemByIndex, ISignerCertificates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::ItemByIndex, certenroll/ISignerCertificates::get_ItemByIndex, get_ItemByIndex, security.isignercertificates_itembyindex_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

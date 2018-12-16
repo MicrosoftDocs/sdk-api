@@ -9,8 +9,6 @@ ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

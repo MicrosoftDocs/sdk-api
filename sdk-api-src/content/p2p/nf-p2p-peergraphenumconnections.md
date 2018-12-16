@@ -9,8 +9,6 @@ ms.assetid: ef4ea3e2-fd71-48d8-a9a8-db38ef06df20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphEnumConnections, PeerGraphEnumConnections function [Peer Networking], p2p.peergraphenumconnections, p2p/PeerGraphEnumConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

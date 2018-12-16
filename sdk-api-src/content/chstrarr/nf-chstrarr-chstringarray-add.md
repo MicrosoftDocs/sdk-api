@@ -9,8 +9,6 @@ ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

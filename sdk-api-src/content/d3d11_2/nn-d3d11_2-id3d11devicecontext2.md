@@ -9,8 +9,6 @@ ms.assetid: 8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ID3D11DeviceContext2 interface [Direct3D 11],described, d3d11_2/ID3D11DeviceContext2, direct3d11.id3d11devicecontext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_2.h
 req.include-header: 

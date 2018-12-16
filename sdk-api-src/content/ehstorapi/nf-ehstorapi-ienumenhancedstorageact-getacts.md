@@ -9,8 +9,6 @@ ms.assetid: 139bb8ed-faca-4fe7-ab6f-63c71d25a711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetACTs, GetACTs method [Enhanced Storage], GetACTs method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetACTs method, IEnumEnhancedStorageACT.GetACTs, IEnumEnhancedStorageACT::GetACTs, ehstorapi/IEnumEnhancedStorageACT::GetACTs, enstor.ienumenhancedstorageact_getacts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

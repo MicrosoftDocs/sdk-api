@@ -9,8 +9,6 @@ ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

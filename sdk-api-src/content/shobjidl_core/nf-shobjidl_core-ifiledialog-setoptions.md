@@ -9,8 +9,6 @@ ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

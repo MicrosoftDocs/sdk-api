@@ -9,8 +9,6 @@ ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

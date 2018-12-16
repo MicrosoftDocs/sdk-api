@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10preprocessshader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10PreprocessShader, D3D10PreprocessShader function [Direct3D 10], d3d10shader/D3D10PreprocessShader, d3e7d365-dba7-908d-52f5-76fc58522bad, direct3d10.d3d10preprocessshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

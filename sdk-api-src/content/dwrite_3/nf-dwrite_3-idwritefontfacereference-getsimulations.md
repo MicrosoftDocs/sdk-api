@@ -9,8 +9,6 @@ ms.assetid: 537e7a1a-894b-a569-b365-1d563a46eca7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetSimulations method, IDWriteFontFaceReference.GetSimulations, IDWriteFontFaceReference::GetSimulations, directwrite.idwritefontfacereference_getsimulations, dwrite_3/IDWriteFontFaceReference::GetSimulations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

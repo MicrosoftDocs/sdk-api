@@ -9,8 +9,6 @@ ms.assetid: 73ddb610-233a-470b-900d-ae62a1e7121a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST structure pointer [Windows Connection Manager], WCM_PROFILE_INFO_LIST, WCM_PROFILE_INFO_LIST structure [Windows Connection Manager], wcm.wcm_profile_info_list, wcmapi/PWCM_PROFILE_INFO_LIST, wcmapi/WCM_PROFILE_INFO_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

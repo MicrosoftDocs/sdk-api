@@ -9,8 +9,6 @@ ms.assetid: 6a1caa3f-e591-4176-90b9-80a4bd71533b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_ColorEnable method, IVideoProcAmp.put_ColorEnable, IVideoProcAmp::put_ColorEnable, IVideoProcAmpput_ColorEnable, dshow.ivideoprocamp_put_colorenable, put_ColorEnable, put_ColorEnable method [DirectShow], put_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_ColorEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

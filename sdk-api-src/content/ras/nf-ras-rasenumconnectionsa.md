@@ -9,8 +9,6 @@ ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

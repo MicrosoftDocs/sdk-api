@@ -9,8 +9,6 @@ ms.assetid: 6d341be9-6b10-495b-803b-059ead1114cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCAPDRIVERCAPS, *PCAPDRIVERCAPS, CAPDRIVERCAPS, CAPDRIVERCAPS structure [Windows Multimedia], _win32_CAPDRIVERCAPS_str, multimedia.capdrivercaps, vfw/CAPDRIVERCAPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

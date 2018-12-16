@@ -9,8 +9,6 @@ ms.assetid: 1f60657c-46b4-4491-a9e2-73868886f51d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyProps method, IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 

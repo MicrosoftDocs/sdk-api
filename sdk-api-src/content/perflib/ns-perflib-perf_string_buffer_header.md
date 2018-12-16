@@ -9,8 +9,6 @@ ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER structure [Perf], PPERF_STRING_BUFFER_HEADER, PPERF_STRING_BUFFER_HEADER structure pointer [Perf], perf.perf_string_buffer_header, perflib/PERF_STRING_BUFFER_HEADER, perflib/PPERF_STRING_BUFFER_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 

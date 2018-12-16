@@ -9,8 +9,6 @@ ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

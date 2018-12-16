@@ -9,8 +9,6 @@ ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

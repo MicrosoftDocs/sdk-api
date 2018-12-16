@@ -9,8 +9,6 @@ ms.assetid: e06153c1-707e-45a9-8d26-747d53e16cf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phoneinitialize, phoneInitialize, phoneInitialize function [TAPI 2.2], tapi/phoneInitialize, tapi2.phoneinitialize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

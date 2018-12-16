@@ -9,8 +9,6 @@ ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

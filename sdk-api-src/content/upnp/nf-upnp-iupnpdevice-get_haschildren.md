@@ -9,8 +9,6 @@ ms.assetid: 18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_HasChildren method, IUPnPDevice.get_HasChildren, IUPnPDevice::get_HasChildren, _upnp_iupnpdevice_haschildren, get_HasChildren, get_HasChildren method [UPnP APIs], get_HasChildren method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_haschildren, upnp/IUPnPDevice::get_HasChildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

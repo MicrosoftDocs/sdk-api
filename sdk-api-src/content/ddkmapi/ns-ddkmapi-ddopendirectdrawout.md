@@ -9,8 +9,6 @@ ms.assetid: 49fa1354-2b66-4e97-a8e6-aa7c995d6628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT structure [Display Devices], LPDDOPENDIRECTDRAWOUT, LPDDOPENDIRECTDRAWOUT structure pointer [Display Devices], ddkmapi/DDOPENDIRECTDRAWOUT, ddkmapi/LPDDOPENDIRECTDRAWOUT, ddstrcts_26b6b5d6-563a-4d01-b2f5-dc984b8d382e.xml, display.ddopendirectdrawout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

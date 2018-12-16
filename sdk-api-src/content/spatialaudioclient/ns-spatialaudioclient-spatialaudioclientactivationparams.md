@@ -9,8 +9,6 @@ ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSpatialAudioClientActivationParams, PSpatialAudioClientActivationParams structure pointer [Core Audio], SpatialAudioClientActivationParams, SpatialAudioClientActivationParams structure [Core Audio], coreaudio.spatialaudioclientactivationparams, spatialaudioclient/PSpatialAudioClientActivationParams, spatialaudioclient/SpatialAudioClientActivationParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 

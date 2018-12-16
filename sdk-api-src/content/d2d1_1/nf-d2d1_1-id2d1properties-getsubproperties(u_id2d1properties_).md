@@ -9,8 +9,6 @@ ms.assetid: D7A79C72-6BFC-4603-82AD-FFEEA91B6CBE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubProperties, GetSubProperties method [Direct2D], GetSubProperties method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetSubProperties method, ID2D1Properties.GetSubProperties, ID2D1Properties.GetSubProperties(U,ID2D1Properties,), ID2D1Properties::GetSubProperties, ID2D1Properties::GetSubProperties(U,ID2D1Properties**), ID2D1Properties::GetSubProperties(U,ID2D1Properties,), d2d1_1/ID2D1Properties::GetSubProperties, direct2d.id2d1properties_getsubproperties2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

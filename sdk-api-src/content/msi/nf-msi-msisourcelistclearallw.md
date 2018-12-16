@@ -9,8 +9,6 @@ ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

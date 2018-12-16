@@ -9,8 +9,6 @@ ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterNotificationSink method, IWSDiscoveryPublisher.UnRegisterNotificationSink, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

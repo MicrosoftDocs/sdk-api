@@ -9,8 +9,6 @@ ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FH_RETENTION_AGE_BASED, FH_RETENTION_DISABLED, FH_RETENTION_TYPES, FH_RETENTION_TYPES enumeration [Windows API], FH_RETENTION_UNLIMITED, MAX_RETENTION_TYPE, fhcfg/FH_RETENTION_AGE_BASED, fhcfg/FH_RETENTION_DISABLED, fhcfg/FH_RETENTION_TYPES, fhcfg/FH_RETENTION_UNLIMITED, fhcfg/MAX_RETENTION_TYPE, winprog.fh_retention_types
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 

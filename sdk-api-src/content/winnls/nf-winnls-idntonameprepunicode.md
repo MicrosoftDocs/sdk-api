@@ -9,8 +9,6 @@ ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

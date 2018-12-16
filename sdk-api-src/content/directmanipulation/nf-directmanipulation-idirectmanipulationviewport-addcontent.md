@@ -9,8 +9,6 @@ ms.assetid: 1c404e9a-832d-47af-b162-2783faa05237
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddContent method, IDirectManipulationViewport.AddContent, IDirectManipulationViewport::AddContent, directmanipulation.idirectmanipulationviewport_addcontent, directmanipulation/IDirectManipulationViewport::AddContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

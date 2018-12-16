@@ -9,8 +9,6 @@ ms.assetid: a5cba79f-2ae8-43ed-bef5-1ec86da9470a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC],Move method, IInkRenderer.Move, IInkRenderer::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkRenderer interface, a5cba79f-2ae8-43ed-bef5-1ec86da9470a, msinkaut/IInkRenderer::Move, tablet.inkrenderer_move
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

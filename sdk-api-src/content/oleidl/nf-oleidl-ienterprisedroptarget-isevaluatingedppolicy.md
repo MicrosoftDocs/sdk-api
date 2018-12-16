@@ -9,8 +9,6 @@ ms.assetid: EB28FF02-E747-4898-AEEF-811BAF7A6DBC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method, IEnterpriseDropTarget.IsEvaluatingEdpPolicy, IEnterpriseDropTarget::IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy method [COM], IsEvaluatingEdpPolicy method [COM],IEnterpriseDropTarget interface, com.isevaluatingedppolicy_isevaluatingedppolicy, com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync, oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

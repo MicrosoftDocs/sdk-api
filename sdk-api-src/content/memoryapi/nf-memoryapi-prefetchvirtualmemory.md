@@ -9,8 +9,6 @@ ms.assetid: a7aeeb66-afd0-4871-81a3-e4619ac84293
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetchvirtualmemory, winbase/PrefetchVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

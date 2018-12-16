@@ -9,8 +9,6 @@ ms.assetid: 40112da5-c7b6-42f9-9acf-887161aceabf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectivityInfo property [RDP], ConnectivityInfo property [RDP],IRDPSRAPIAttendee interface, ConnectivityInfo property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ConnectivityInfo property, IRDPSRAPIAttendee.ConnectivityInfo, IRDPSRAPIAttendee.get_ConnectivityInfo, IRDPSRAPIAttendee::ConnectivityInfo, IRDPSRAPIAttendee::get_ConnectivityInfo, RDPSRAPIAttendee object [RDP],ConnectivityInfo property, get_ConnectivityInfo, rdp.irdpsrapiattendee_connectivityinfo, rdpencomapi/IRDPSRAPIAttendee::ConnectivityInfo, rdpencomapi/IRDPSRAPIAttendee::get_ConnectivityInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

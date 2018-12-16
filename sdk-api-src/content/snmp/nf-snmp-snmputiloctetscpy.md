@@ -9,8 +9,6 @@ ms.assetid: 5ea92551-f6af-431d-8bf8-5b6c576f3392
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsCpy, SnmpUtilOctetsCpy function [SNMP], _snmp_snmputiloctetscpy, snmp.snmputiloctetscpy, snmp/SnmpUtilOctetsCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

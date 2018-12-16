@@ -9,8 +9,6 @@ ms.assetid: D1F2EBE7-FD6B-4CD4-BE4F-F536F08EE339
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface], amsi.amsiscanbuffer, amsi/AmsiScanBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

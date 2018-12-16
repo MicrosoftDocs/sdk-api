@@ -9,8 +9,6 @@ ms.assetid: 4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeUniquenessValue, ChangeUniquenessValue method [DirectDraw], ChangeUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],ChangeUniquenessValue method, IDirectDrawSurface7.ChangeUniquenessValue, IDirectDrawSurface7::ChangeUniquenessValue, ddraw/IDirectDrawSurface7::ChangeUniquenessValue, directdraw.idirectdrawsurface7_changeuniquenessvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

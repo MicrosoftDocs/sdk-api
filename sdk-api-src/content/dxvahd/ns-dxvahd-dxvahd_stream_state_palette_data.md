@@ -9,8 +9,6 @@ ms.assetid: 91f69451-72e6-4028-92d5-555dcf834cf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_STREAM_STATE_PALETTE_DATA, DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA, mf.dxvahd_stream_state_palette_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

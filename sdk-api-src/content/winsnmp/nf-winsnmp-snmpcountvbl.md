@@ -9,8 +9,6 @@ ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

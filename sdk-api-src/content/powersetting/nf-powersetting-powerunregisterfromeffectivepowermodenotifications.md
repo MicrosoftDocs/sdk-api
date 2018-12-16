@@ -9,8 +9,6 @@ ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 

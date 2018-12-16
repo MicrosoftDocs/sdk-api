@@ -9,8 +9,6 @@ ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeLongArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeLongArray object, Decode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Decode method, ICertEncodeLongArray.Decode, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: 95223ace-0c74-48d8-b49a-98b27c7b735f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],PreprocessSample method, IWMWriterPreprocess.PreprocessSample, IWMWriterPreprocess::PreprocessSample, IWMWriterPreprocessPreprocessSample, PreprocessSample, PreprocessSample method [windows Media Format], PreprocessSample method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_preprocesssample, wmsdkidl/IWMWriterPreprocess::PreprocessSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

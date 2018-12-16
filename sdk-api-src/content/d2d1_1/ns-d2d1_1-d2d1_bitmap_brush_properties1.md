@@ -9,8 +9,6 @@ ms.assetid: 0FECAD03-C35C-4729-9BBE-40DE11B34068
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_BITMAP_BRUSH_PROPERTIES1, D2D1_BITMAP_BRUSH_PROPERTIES1 structure [Direct2D], d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1, direct2d.d2d1_bitmap_brush_properties1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

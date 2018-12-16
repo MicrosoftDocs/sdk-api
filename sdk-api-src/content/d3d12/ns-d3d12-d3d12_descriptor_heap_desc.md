@@ -9,8 +9,6 @@ ms.assetid: 060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_DESC, D3D12_DESCRIPTOR_HEAP_DESC structure, d3d12/D3D12_DESCRIPTOR_HEAP_DESC, direct3d12.d3d12_descriptor_heap_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

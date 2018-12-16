@@ -9,8 +9,6 @@ ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

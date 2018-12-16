@@ -9,8 +9,6 @@ ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

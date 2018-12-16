@@ -9,8 +9,6 @@ ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeInfoOfGuid, GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoOfGuid method, ITypeLib.GetTypeInfoOfGuid, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

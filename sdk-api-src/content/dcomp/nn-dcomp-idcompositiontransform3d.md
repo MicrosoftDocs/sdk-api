@@ -9,8 +9,6 @@ ms.assetid: 81239AB4-C2A3-4E37-95E3-B3C10532EE15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTransform3D, IDCompositionTransform3D interface [DirectComposition], IDCompositionTransform3D interface [DirectComposition],described, dcomp/IDCompositionTransform3D, directcomp.idcompositiontransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method [MMC],IComponent interface, IComponent interface [MMC],CompareObjects method, IComponent.CompareObjects, IComponent::CompareObjects, _slate_icomponent_compareobjects, mmc.icomponent_compareobjects, mmc/IComponent::CompareObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

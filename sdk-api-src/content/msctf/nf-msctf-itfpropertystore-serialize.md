@@ -9,8 +9,6 @@ ms.assetid: b84bce22-684f-4326-9e28-0fc16b818732
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Serialize method, ITfPropertyStore.Serialize, ITfPropertyStore::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_serialize_ref, msctf/ITfPropertyStore::Serialize, tsf.itfpropertystore_serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

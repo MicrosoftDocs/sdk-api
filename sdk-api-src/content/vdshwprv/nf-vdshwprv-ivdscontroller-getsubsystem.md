@@ -9,8 +9,6 @@ ms.assetid: 8635d594-b58a-4ee1-9966-1340d954da81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsController interface, IVdsController interface [VDS],GetSubSystem method, IVdsController.GetSubSystem, IVdsController::GetSubSystem, base.ivdscontroller_getsubsystem, vds/IVdsController::GetSubSystem, vdshwprv/IVdsController::GetSubSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region::IsVisible, _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

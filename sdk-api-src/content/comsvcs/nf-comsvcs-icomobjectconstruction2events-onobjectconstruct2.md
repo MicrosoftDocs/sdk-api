@@ -9,8 +9,6 @@ ms.assetid: c71157b3-e5e4-4b20-bab7-7047587a20f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComObjectConstruction2Events interface [COM+],OnObjectConstruct2 method, IComObjectConstruction2Events.OnObjectConstruct2, IComObjectConstruction2Events::OnObjectConstruct2, OnObjectConstruct2, OnObjectConstruct2 method [COM+], OnObjectConstruct2 method [COM+],IComObjectConstruction2Events interface, _dtc_IComObjectConstruction2Events_OnObjectConstruct2, comsvcs/IComObjectConstruction2Events::OnObjectConstruct2, cos.icomobjectconstruction2events_onobjectconstruct2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

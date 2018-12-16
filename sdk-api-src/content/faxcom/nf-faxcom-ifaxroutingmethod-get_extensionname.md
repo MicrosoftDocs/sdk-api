@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0e91.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtensionName property [Fax Service], ExtensionName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],ExtensionName property, IFaxRoutingMethod.ExtensionName, IFaxRoutingMethod.get_ExtensionName, IFaxRoutingMethod::ExtensionName, IFaxRoutingMethod::get_ExtensionName, _mfax_ifaxroutingmethod_get_extensionname, fax._mfax_ifaxroutingmethod_get_extensionname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_extensionname_cpp, faxcom/IFaxRoutingMethod::ExtensionName, faxcom/IFaxRoutingMethod::get_ExtensionName, get_ExtensionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

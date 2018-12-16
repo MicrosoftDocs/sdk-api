@@ -9,8 +9,6 @@ ms.assetid: 1f40b0c1-2c5e-4520-9406-6bebb3da65d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompleteConnectTerminal, CompleteConnectTerminal method [TAPI 2.2], CompleteConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],CompleteConnectTerminal method, ITTerminalControl.CompleteConnectTerminal, ITTerminalControl::CompleteConnectTerminal, _tapi3_itterminalcontrol_completeconnectterminal, tapi3.itterminalcontrol_completeconnectterminal, termmgr/ITTerminalControl::CompleteConnectTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6ab4467a-f84a-403e-9327-b523ceead19f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, FindNextVolumeW, _win32_findnextvolume, base.findnextvolume, fileapi/FindNextVolume, fileapi/FindNextVolumeA, fileapi/FindNextVolumeW, fs.findnextvolume, winbase/FindNextVolume, winbase/FindNextVolumeA, winbase/FindNextVolumeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

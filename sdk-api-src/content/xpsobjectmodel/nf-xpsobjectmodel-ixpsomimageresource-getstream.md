@@ -9,8 +9,6 @@ ms.assetid: 30d90686-67f5-4e18-811b-472e6a00538f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetStream method, IXpsOMImageResource.GetStream, IXpsOMImageResource::GetStream, xps.ixpsomimageresource_getstream, xpsobjectmodel/IXpsOMImageResource::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

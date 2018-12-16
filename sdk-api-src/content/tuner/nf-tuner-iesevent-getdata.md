@@ -9,8 +9,6 @@ ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetData method, IESEvent.GetData, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

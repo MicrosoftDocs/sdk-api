@@ -9,8 +9,6 @@ ms.assetid: 84E61B19-EAE1-423F-A76E-E1853A8D0008
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC interface [Direct3D 11],~CD3D11_RENDER_TARGET_VIEW_DESC destructor, CD3D11_RENDER_TARGET_VIEW_DESC.~CD3D11_RENDER_TARGET_VIEW_DESC, CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC, CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC(), d3d11/CD3D11_RENDER_TARGET_VIEW_DESC::~CD3D11_RENDER_TARGET_VIEW_DESC, direct3d11.cd3d11_render_target_view_desc__cd3d11_render_target_view_desc__, ~CD3D11_RENDER_TARGET_VIEW_DESC, ~CD3D11_RENDER_TARGET_VIEW_DESC destructor [Direct3D 11], ~CD3D11_RENDER_TARGET_VIEW_DESC destructor [Direct3D 11],CD3D11_RENDER_TARGET_VIEW_DESC interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

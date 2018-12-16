@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\sub
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Subject property, IFaxIncomingMessage2.Subject, IFaxIncomingMessage2.get_Subject, IFaxIncomingMessage2.put_Subject, IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::get_Subject, IFaxIncomingMessage2::put_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.subject, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_subject_cpp, fax._mfax_faxincomingmessage_subject, faxcomex/IFaxIncomingMessage2::Subject, faxcomex/IFaxIncomingMessage2::get_Subject, faxcomex/IFaxIncomingMessage2::put_Subject, put_Subject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

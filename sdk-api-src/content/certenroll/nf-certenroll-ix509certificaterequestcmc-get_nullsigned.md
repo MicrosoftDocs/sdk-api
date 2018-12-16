@@ -9,8 +9,6 @@ ms.assetid: 99cefeed-caec-401e-bdcd-d167472b2cbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],NullSigned property, IX509CertificateRequestCmc.NullSigned, IX509CertificateRequestCmc.get_NullSigned, IX509CertificateRequestCmc::NullSigned, IX509CertificateRequestCmc::get_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::NullSigned, certenroll/IX509CertificateRequestCmc::get_NullSigned, get_NullSigned, security.ix509certificaterequestcmc_nullsigned_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

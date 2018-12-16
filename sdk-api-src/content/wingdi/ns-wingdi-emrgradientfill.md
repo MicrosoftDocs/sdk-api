@@ -9,8 +9,6 @@ ms.assetid: efd12e71-ee26-4fc8-8e9f-5b0105ebe057
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRGRADIENTFILL, EMRGRADIENTFILL, EMRGRADIENTFILL structure [Windows GDI], GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, PEMRGRADIENTFILL, PEMRGRADIENTFILL structure pointer [Windows GDI], _win32_EMRGRADIENTFILL_str, gdi.emrgradientfill, wingdi/EMRGRADIENTFILL, wingdi/PEMRGRADIENTFILL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

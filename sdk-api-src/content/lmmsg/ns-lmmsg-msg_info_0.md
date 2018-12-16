@@ -9,8 +9,6 @@ ms.assetid: bc409abd-8c76-4310-b9e3-05fc4e0d253e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMSG_INFO_0, *PMSG_INFO_0, LPMSG_INFO_0, LPMSG_INFO_0 structure pointer [Network Management], MSG_INFO_0, MSG_INFO_0 structure [Network Management], PMSG_INFO_0, PMSG_INFO_0 structure pointer [Network Management], _win32_msg_info_0_str, lmmsg/LPMSG_INFO_0, lmmsg/MSG_INFO_0, lmmsg/PMSG_INFO_0, netmgmt.msg_info_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmmsg.h
 req.include-header: Lm.h

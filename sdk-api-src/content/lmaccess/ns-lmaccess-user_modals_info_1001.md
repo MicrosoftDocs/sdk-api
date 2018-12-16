@@ -9,8 +9,6 @@ ms.assetid: ef6e63da-f092-4435-93f0-e50d2fdd5664
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1001, *PUSER_MODALS_INFO_1001, LPUSER_MODALS_INFO_1001, LPUSER_MODALS_INFO_1001 structure pointer [Network Management], PUSER_MODALS_INFO_1001, PUSER_MODALS_INFO_1001 structure pointer [Network Management], USER_MODALS_INFO_1001, USER_MODALS_INFO_1001 structure [Network Management], _win32_user_modals_info_1001_str, lmaccess/LPUSER_MODALS_INFO_1001, lmaccess/PUSER_MODALS_INFO_1001, lmaccess/USER_MODALS_INFO_1001, netmgmt.user_modals_info_1001_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

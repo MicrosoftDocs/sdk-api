@@ -9,8 +9,6 @@ ms.assetid: 56b0f15f-caf3-44e0-8cec-7ca3f2edb74d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGuidHeapSize, GetGuidHeapSize method [Windows Runtime], GetGuidHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuidHeapSize method, IMetaDataTables.GetGuidHeapSize, IMetaDataTables::GetGuidHeapSize, rometadataapi/IMetaDataTables::GetGuidHeapSize, winrt.imetadatatables_getguidheapsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

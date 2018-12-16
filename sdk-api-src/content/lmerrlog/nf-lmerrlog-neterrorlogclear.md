@@ -9,8 +9,6 @@ ms.assetid: 03e5f6ad-a497-443f-981b-866c675961a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetErrorLogClear, NetErrorLogClear function [Network Management], _win32_neterrorlogclear, lmerrlog/NetErrorLogClear, netmgmt.neterrorlogclear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmerrlog.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1e9e39f9-e728-4ed6-bc62-80d3bbe6302d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], IRangeValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IRangeValueProvider, uiauto_IRangeValueProvider, uiautomationcore/IRangeValueProvider, winauto.uiauto_IRangeValueProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

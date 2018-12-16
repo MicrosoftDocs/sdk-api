@@ -9,8 +9,6 @@ ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

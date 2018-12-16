@@ -9,8 +9,6 @@ ms.assetid: 3aca491f-2cbd-4f04-a06c-986c37e6ce5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],RegisterErrorLogMessage method, IWorkspaceReportMessage.RegisterErrorLogMessage, IWorkspaceReportMessage::RegisterErrorLogMessage, RegisterErrorLogMessage, RegisterErrorLogMessage method [Remote Desktop Services], RegisterErrorLogMessage method [Remote Desktop Services],IWorkspaceReportMessage interface, RegisterErrorLogMessage method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RegisterErrorLogMessage method, termserv.iworkspacereportmessage_registererrorlogmessage, workspaceruntime/IWorkspaceReportMessage::RegisterErrorLogMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 

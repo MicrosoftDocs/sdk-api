@@ -9,8 +9,6 @@ ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

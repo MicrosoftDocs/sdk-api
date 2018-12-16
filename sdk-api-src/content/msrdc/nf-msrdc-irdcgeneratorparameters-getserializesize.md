@@ -9,8 +9,6 @@ ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetSerializeSize method, IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

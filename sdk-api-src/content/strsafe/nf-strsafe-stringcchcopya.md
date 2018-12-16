@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringCchCopy, StringCchCopy function [Menus and Other Resources], StringCchCopyA, StringCchCopyW, _shell_StringCchCopy, _shell_stringcchcopy_cpp, menurc.stringcchcopy, strsafe/StringCchCopy, strsafe/StringCchCopyA, strsafe/StringCchCopyW, winui._shell_stringcchcopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

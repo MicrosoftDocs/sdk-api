@@ -9,8 +9,6 @@ ms.assetid: 14659de0-5cea-458a-bf57-fe8b071c778a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SDK],OnEvent method, IPortableDeviceEventCallback.OnEvent, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK],IPortableDeviceEventCallback interface, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

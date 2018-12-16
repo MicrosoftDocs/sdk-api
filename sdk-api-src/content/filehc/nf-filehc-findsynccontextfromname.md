@@ -9,8 +9,6 @@ ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

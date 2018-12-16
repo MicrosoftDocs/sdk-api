@@ -9,8 +9,6 @@ ms.assetid: 5548b75d-2d71-4ef1-828c-ae8fb5e9c165
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Context_ShouldContinue, MI_Context_ShouldContinue function [Windows Management Infrastructure (MI)], mi/MI_Context_ShouldContinue, wmi.mi_shouldcontinue, wmi_v2.mi_context_shouldcontinue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

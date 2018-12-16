@@ -9,8 +9,6 @@ ms.assetid: 4c96fad0-23c4-44cc-8b8f-2d62f08429d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventDescGetKeyword, EventDescGetKeyword function [ETW], base.eventdescgetkeyword_func, etw.eventdescgetkeyword_func, evntprov/EventDescGetKeyword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

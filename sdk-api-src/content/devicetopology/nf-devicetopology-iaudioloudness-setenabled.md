@@ -9,8 +9,6 @@ ms.assetid: a9102346-e853-40ae-ae10-a3e864ec5f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioLoudness interface [Core Audio],SetEnabled method, IAudioLoudness.SetEnabled, IAudioLoudness::SetEnabled, IAudioLoudnessSetEnabled, SetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio],IAudioLoudness interface, coreaudio.iaudioloudness_setenabled, devicetopology/IAudioLoudness::SetEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

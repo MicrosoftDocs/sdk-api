@@ -9,8 +9,6 @@ ms.assetid: 34b25d9d-daa5-48c6-8941-f3795ef1802b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators2, i8042ref_45e33d11-eb35-4f90-b7c8-52f75afb60ef.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

@@ -9,8 +9,6 @@ ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

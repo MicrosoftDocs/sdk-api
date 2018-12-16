@@ -9,8 +9,6 @@ ms.assetid: cf4fac68-65c8-456e-8381-e3f582fc836c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Change, Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Change method, IMbnPin.Change, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

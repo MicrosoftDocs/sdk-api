@@ -9,8 +9,6 @@ ms.assetid: c5453d16-4aa4-4c25-bfc7-514693317473
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollector interface [PLA],OutputLocation property, IDataCollector.OutputLocation, IDataCollector.get_OutputLocation, IDataCollector::OutputLocation, IDataCollector::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollector interface, base.idatacollector_outputlocation, get_OutputLocation, pla.idatacollector_outputlocation, pla/IDataCollector::OutputLocation, pla/IDataCollector::get_OutputLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

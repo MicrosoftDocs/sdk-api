@@ -9,8 +9,6 @@ ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzAuthorizationStore object [Security],ScriptEngineTimeout property, IAzAuthorizationStore interface [Security],ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore.get_ScriptEngineTimeout, IAzAuthorizationStore::ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security],AzAuthorizationStore object, ScriptEngineTimeout property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, get_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

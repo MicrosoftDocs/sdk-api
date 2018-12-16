@@ -9,8 +9,6 @@ ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

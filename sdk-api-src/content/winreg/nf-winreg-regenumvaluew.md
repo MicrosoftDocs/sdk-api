@@ -9,8 +9,6 @@ ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

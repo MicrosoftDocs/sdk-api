@@ -9,8 +9,6 @@ ms.assetid: 2826ee4f-55b7-4161-8698-3a9b59190dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

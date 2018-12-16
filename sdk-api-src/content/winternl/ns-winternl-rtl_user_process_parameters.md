@@ -9,8 +9,6 @@ ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

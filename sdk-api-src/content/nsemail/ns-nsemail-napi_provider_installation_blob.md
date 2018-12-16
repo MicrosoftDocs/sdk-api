@@ -9,8 +9,6 @@ ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock], PNAPI_PROVIDER_INSTALLATION_BLOB, PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock], nsemail/NAPI_PROVIDER_INSTALLATION_BLOB, nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB, winsock.napi_provider_installation_blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nsemail.h
 req.include-header: 

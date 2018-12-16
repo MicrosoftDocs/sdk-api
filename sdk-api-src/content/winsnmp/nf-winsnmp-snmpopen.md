@@ -9,8 +9,6 @@ ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

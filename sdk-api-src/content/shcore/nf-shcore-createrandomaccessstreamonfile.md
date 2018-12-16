@@ -9,8 +9,6 @@ ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shcore.h
 req.include-header: 

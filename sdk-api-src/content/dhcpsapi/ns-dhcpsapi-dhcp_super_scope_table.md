@@ -9,8 +9,6 @@ ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE, LPDHCP_SUPER_SCOPE_TABLE structure pointer [DHCP], dhcp.dhcp_super_scope_table, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

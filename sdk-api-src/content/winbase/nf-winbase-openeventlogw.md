@@ -9,8 +9,6 @@ ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

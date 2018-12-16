@@ -9,8 +9,6 @@ ms.assetid: 0a139936-bda4-40c8-85d6-b52ff042f2d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPOLEUIEDITLINKSW, *POLEUIEDITLINKSW, ELF_DISABLECANCELLINK, ELF_DISABLECHANGESOURCE, ELF_DISABLEOPENSOURCE, ELF_DISABLEUPDATENOW, ELF_SHOWHELP, LPOLEUIEDITLINKS, LPOLEUIEDITLINKS structure pointer [COM], OLEUIEDITLINKS, OLEUIEDITLINKS structure [COM], OLEUIEDITLINKSA, OLEUIEDITLINKSW, POLEUIEDITLINKS, POLEUIEDITLINKS structure pointer [COM], _ole_OLEUIEDITLINKS_str, com.oleuieditlinks_struct, oledlg/LPOLEUIEDITLINKS, oledlg/OLEUIEDITLINKS, oledlg/OLEUIEDITLINKSA, oledlg/OLEUIEDITLINKSW, oledlg/POLEUIEDITLINKS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

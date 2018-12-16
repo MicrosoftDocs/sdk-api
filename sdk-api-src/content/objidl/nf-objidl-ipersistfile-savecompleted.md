@@ -9,8 +9,6 @@ ms.assetid: eda29981-0c24-409a-8fb9-2dc2eb96d108
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistFile interface [COM],SaveCompleted method, IPersistFile.SaveCompleted, IPersistFile::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistFile interface, _com_ipersistfile_savecompleted, com.ipersistfile_savecompleted, objidl/IPersistFile::SaveCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

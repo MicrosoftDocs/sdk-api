@@ -9,8 +9,6 @@ ms.assetid: 101bebbf-854c-49fa-bc5c-8c81c5d2f7f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetGradientOrigin method, IXpsOMRadialGradientBrush.SetGradientOrigin, IXpsOMRadialGradientBrush::SetGradientOrigin, SetGradientOrigin, SetGradientOrigin method [XPS Documents and Packaging], SetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

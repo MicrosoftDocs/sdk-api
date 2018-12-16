@@ -9,8 +9,6 @@ ms.assetid: dce84308-aecc-4841-88da-e948313b90b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectId interface [Security],InitializeFromName method, IObjectId.InitializeFromName, IObjectId::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

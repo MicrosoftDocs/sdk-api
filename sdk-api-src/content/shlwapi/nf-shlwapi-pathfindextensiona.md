@@ -9,8 +9,6 @@ ms.assetid: afebd4b7-2685-4b6e-8f8a-d43944dacef5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathFindExtension, PathFindExtension function [Windows Shell], PathFindExtensionA, PathFindExtensionW, _win32_PathFindExtension, shell.PathFindExtension, shlwapi/PathFindExtension, shlwapi/PathFindExtensionA, shlwapi/PathFindExtensionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

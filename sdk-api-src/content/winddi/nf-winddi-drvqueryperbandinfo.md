@@ -9,8 +9,6 @@ ms.assetid: 2e2c1aa7-9ba4-4bf9-acfb-43212d3d4899
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvQueryPerBandInfo, DrvQueryPerBandInfo function [Display Devices], ddifncs_8a5e262c-23e5-4e49-bd36-6674efe7090f.xml, display.drvqueryperbandinfo, winddi/DrvQueryPerBandInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

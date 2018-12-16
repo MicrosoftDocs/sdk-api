@@ -9,8 +9,6 @@ ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

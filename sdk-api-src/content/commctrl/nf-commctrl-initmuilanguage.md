@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\initmuilanguage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitMUILanguage, InitMUILanguage function [Windows Controls], _win32_InitMUILanguage, _win32_InitMUILanguage_cpp, commctrl/InitMUILanguage, controls.InitMUILanguage, controls._win32_InitMUILanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

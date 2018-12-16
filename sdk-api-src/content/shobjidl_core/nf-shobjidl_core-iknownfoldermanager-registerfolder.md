@@ -9,8 +9,6 @@ ms.assetid: 1b3d492f-26a3-4f04-ba01-768ebad39e1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],RegisterFolder method, IKnownFolderManager.RegisterFolder, IKnownFolderManager::RegisterFolder, RegisterFolder, RegisterFolder method [Windows Shell], RegisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_RegisterFolder, shell.IKnownFolderManager_RegisterFolder, shobjidl_core/IKnownFolderManager::RegisterFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

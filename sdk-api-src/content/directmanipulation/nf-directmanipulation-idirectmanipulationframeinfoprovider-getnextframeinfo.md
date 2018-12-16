@@ -9,8 +9,6 @@ ms.assetid: 3f561b81-241f-4f7a-bb5f-a89faf253c98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation],IDirectManipulationFrameInfoProvider interface, IDirectManipulationFrameInfoProvider interface [Direct Manipulation],GetNextFrameInfo method, IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

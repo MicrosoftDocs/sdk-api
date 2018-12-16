@@ -9,8 +9,6 @@ ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

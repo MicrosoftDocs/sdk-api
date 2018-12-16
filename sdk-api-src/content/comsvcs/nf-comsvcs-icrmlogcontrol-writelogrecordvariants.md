@@ -9,8 +9,6 @@ ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

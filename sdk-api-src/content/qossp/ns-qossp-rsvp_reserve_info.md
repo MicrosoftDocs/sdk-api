@@ -9,8 +9,6 @@ ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

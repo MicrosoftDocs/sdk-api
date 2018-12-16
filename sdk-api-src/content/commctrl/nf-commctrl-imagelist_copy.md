@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILCF_MOVE, ILCF_SWAP, ImageList_Copy, ImageList_Copy function [Windows Controls], _win32_ImageList_Copy, _win32_ImageList_Copy_cpp, commctrl/ImageList_Copy, controls.ImageList_Copy, controls._win32_ImageList_Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: NA:swdevicedef
 ms.assetid: cc3029b5-2552-335e-8f05-b135a0447e74
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

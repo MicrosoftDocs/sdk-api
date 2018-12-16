@@ -9,8 +9,6 @@ ms.assetid: 83a3d4cf-e0ab-467a-8c5a-b7372c76cca3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIASOSTYPE, IASOSTYPE, IASOSTYPE enumeration [Network Policy Server], PIASOSTYPE, PIASOSTYPE enumeration pointer [Network Policy Server], SYSTEM_TYPE_NT4_SERVER, SYSTEM_TYPE_NT4_WORKSTATION, SYSTEM_TYPE_NT5_SERVER, SYSTEM_TYPE_NT5_WORKSTATION, SYSTEM_TYPE_NT6_SERVER, SYSTEM_TYPE_NT6_WORKSTATION, _sdo_iasostype, nps.SDO_iasostype, sdo.iasostype, sdoias/IASOSTYPE, sdoias/PIASOSTYPE, sdoias/SYSTEM_TYPE_NT4_SERVER, sdoias/SYSTEM_TYPE_NT4_WORKSTATION, sdoias/SYSTEM_TYPE_NT5_SERVER, sdoias/SYSTEM_TYPE_NT5_WORKSTATION, sdoias/SYSTEM_TYPE_NT6_SERVER, sdoias/SYSTEM_TYPE_NT6_WORKSTATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

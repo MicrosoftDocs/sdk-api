@@ -9,8 +9,6 @@ ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

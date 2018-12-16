@@ -9,8 +9,6 @@ ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

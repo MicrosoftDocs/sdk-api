@@ -9,8 +9,6 @@ ms.assetid: c7527d29-7ab4-4f98-991b-411059e14237
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionSupport, GetVersionSupport method, GetVersionSupport method,IVdsProviderSupport interface, IVdsProviderSupport interface,GetVersionSupport method, IVdsProviderSupport.GetVersionSupport, IVdsProviderSupport::GetVersionSupport, base.ivdsprovidersupport_getversionsupport, vds/IVdsProviderSupport::GetVersionSupport, vdshwprv/IVdsProviderSupport::GetVersionSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

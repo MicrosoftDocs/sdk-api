@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCenterPoint, GetCenterPoint methods [GDI+], PathGradientBrush.GetCenterPoint, PathGradientBrush::GetCenterPoint, _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdipluspath/GetCenterPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

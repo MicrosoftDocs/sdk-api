@@ -9,8 +9,6 @@ ms.assetid: c03b5edd-e2b2-4ac9-b2e7-080f3796a6cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamespace, GetNamespace method [Microsoft TV Technologies], GetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetNamespace method, IStreamBufferConfigure3.GetNamespace, IStreamBufferConfigure3::GetNamespace, IStreamBufferConfigure3GetNamespace, mstv.istreambufferconfigure3_getnamespace, sbe/IStreamBufferConfigure3::GetNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

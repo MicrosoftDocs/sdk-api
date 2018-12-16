@@ -9,8 +9,6 @@ ms.assetid: 36139a95-141c-4f44-9627-9ed6c3fed0c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ENUM enumeration [Failover Cluster], FILESHARE_CHANGE_MODIFY, FILESHARE_CHANGE_NONE, clusapi/FILESHARE_CHANGE_ADD, clusapi/FILESHARE_CHANGE_DEL, clusapi/FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_MODIFY, clusapi/FILESHARE_CHANGE_NONE, mscs.fileshare_change_enum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

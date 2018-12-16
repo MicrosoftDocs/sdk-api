@@ -9,8 +9,6 @@ ms.assetid: 6e3ce718-16f9-47df-aff9-38e922fe505c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, IX509ExtensionSmimeCapabilities::SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

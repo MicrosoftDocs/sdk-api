@@ -9,8 +9,6 @@ ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

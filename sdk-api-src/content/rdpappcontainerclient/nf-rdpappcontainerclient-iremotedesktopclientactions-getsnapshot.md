@@ -9,8 +9,6 @@ ms.assetid: c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSnapshot, GetSnapshot method [Remote Desktop Services], GetSnapshot method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],GetSnapshot method, IRemoteDesktopClientActions.GetSnapshot, IRemoteDesktopClientActions::GetSnapshot, rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot, termserv.iremotedesktopclientactions_getsnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

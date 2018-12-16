@@ -9,8 +9,6 @@ ms.assetid: 792ab9be-853f-427d-a762-2da8e81423f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFileStream, IDWriteFontFileStream interface [Direct Write], IDWriteFontFileStream interface [Direct Write],described, directwrite.IDWriteFontFileStream, dwrite/IDWriteFontFileStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

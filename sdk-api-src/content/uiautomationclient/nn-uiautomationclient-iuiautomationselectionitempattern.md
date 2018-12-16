@@ -9,8 +9,6 @@ ms.assetid: b76d5003-b9af-4a48-91d3-8075f45cf131
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], IUIAutomationSelectionItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationSelectionItemPattern, uiauto_IUIAutomationSelectionItemPattern, uiautomationclient/IUIAutomationSelectionItemPattern, winauto.uiauto_IUIAutomationSelectionItemPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

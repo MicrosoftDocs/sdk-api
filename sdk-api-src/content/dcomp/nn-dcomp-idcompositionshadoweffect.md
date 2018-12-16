@@ -9,8 +9,6 @@ ms.assetid: 115FD667-64D2-4538-9EB4-B133D5DCAF30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionShadowEffect, IDCompositionShadowEffect interface [DirectComposition], IDCompositionShadowEffect interface [DirectComposition],described, dcomp/IDCompositionShadowEffect, directcomp.idcompositionshadoweffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

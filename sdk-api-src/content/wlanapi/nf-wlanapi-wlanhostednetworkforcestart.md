@@ -9,8 +9,6 @@ ms.assetid: d3e3b44f-ff52-4062-b54d-a0e3f2cf7785
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanHostedNetworkForceStart, WlanHostedNetworkForceStart function [NativeWIFI], nwifi.wlanhostednetworkforcestart, wlanapi/WlanHostedNetworkForceStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

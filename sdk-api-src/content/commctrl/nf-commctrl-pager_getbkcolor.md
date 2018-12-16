@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pager_GetBkColor, Pager_GetBkColor macro [Windows Controls], _win32_Pager_GetBkColor, _win32_Pager_GetBkColor_cpp, commctrl/Pager_GetBkColor, controls.Pager_GetBkColor, controls._win32_Pager_GetBkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

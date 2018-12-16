@@ -9,8 +9,6 @@ ms.assetid: 296ff94a-81ec-49ac-95a3-92c7ca76c9bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Reset method, IEnumExplorerCommand.Reset, IEnumExplorerCommand::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Reset, shell.IEnumExplorerCommand_Reset, shobjidl_core/IEnumExplorerCommand::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

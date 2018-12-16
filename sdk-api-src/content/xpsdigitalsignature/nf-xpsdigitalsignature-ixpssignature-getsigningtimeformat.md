@@ -9,8 +9,6 @@ ms.assetid: a75df35c-dd12-4217-a6f8-91401be46225
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSignature.GetSigningTimeFormat, IXpsSignature::GetSigningTimeFormat, xps.ixpssignature_getsigningtimeformat, xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

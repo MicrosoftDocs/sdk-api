@@ -9,8 +9,6 @@ ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLayer, CreateLayer methods [Direct2D], ID2D1RenderTarget.CreateLayer, ID2D1RenderTarget::CreateLayer, d2d1/CreateLayer, direct2d.id2d1rendertarget_createlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

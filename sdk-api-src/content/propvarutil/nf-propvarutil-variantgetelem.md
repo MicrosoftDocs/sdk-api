@@ -9,8 +9,6 @@ ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

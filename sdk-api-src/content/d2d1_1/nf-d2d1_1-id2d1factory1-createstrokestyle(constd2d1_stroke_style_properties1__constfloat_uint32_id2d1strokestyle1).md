@@ -9,8 +9,6 @@ ms.assetid: 4DEB9CDE-ABE2-47CB-BB06-27535F89D793
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateStrokeStyle method, ID2D1Factory1.CreateStrokeStyle, ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), ID2D1Factory1::CreateStrokeStyle, ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), d2d1_1/ID2D1Factory1::CreateStrokeStyle, direct2d.id2d1factory1_createstrokestyle2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

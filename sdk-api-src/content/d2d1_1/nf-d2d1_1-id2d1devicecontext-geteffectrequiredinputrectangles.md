@@ -9,8 +9,6 @@ ms.assetid: B34548A9-1E23-496F-A1D9-87B74EF67C72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEffectRequiredInputRectangles, GetEffectRequiredInputRectangles method [Direct2D], GetEffectRequiredInputRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectRequiredInputRectangles method, ID2D1DeviceContext.GetEffectRequiredInputRectangles, ID2D1DeviceContext::GetEffectRequiredInputRectangles, d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles, direct2d.id2d1devicecontext_geteffectrequiredinputrectangles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

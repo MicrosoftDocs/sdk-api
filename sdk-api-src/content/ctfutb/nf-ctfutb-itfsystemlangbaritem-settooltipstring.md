@@ -9,8 +9,6 @@ ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltipString method, ITfSystemLangBarItem.SetTooltipString, ITfSystemLangBarItem::SetTooltipString, SetTooltipString, SetTooltipString method [Text Services Framework], SetTooltipString method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_settooltipstring_ref, ctfutb/ITfSystemLangBarItem::SetTooltipString, tsf.itfsystemlangbaritem_settooltipstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

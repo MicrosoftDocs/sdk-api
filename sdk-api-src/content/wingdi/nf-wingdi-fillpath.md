@@ -9,8 +9,6 @@ ms.assetid: a80b299a-c3f9-411b-9936-33d32fc71853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillPath, FillPath function [Windows GDI], _win32_FillPath, gdi.fillpath, wingdi/FillPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

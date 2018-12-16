@@ -9,8 +9,6 @@ ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

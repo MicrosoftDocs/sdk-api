@@ -9,8 +9,6 @@ ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort.put_Enabled, INetFwOpenPort::Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

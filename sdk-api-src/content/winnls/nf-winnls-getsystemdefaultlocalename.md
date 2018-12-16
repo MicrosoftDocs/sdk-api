@@ -9,8 +9,6 @@ ms.assetid: 1e925e41-64db-44aa-ab73-05d0f2036c8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemDefaultLocaleName, GetSystemDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetSystemDefaultLocaleName, intl.getsystemdefaultlocalename, winnls/GetSystemDefaultLocaleName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

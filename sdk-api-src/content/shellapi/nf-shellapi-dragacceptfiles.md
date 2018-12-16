@@ -9,8 +9,6 @@ ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

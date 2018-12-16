@@ -9,8 +9,6 @@ ms.assetid: 2e06f69e-8210-4773-8080-5c58e6f59792
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DeleteSnapshots method, IVssBackupComponents.DeleteSnapshots, IVssBackupComponents::DeleteSnapshots, _win32_ivssbackupcomponents_deletesnapshots, base.ivssbackupcomponents_deletesnapshots, vsbackup/IVssBackupComponents::DeleteSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

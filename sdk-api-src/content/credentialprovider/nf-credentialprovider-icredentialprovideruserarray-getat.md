@@ -9,8 +9,6 @@ ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

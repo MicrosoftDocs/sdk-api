@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

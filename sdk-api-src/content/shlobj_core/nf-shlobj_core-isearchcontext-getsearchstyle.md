@@ -9,8 +9,6 @@ ms.assetid: d2ea6201-fd70-46de-8270-c0cc34c728aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSearchStyle, GetSearchStyle method [Windows Shell], GetSearchStyle method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchStyle method, ISearchContext.GetSearchStyle, ISearchContext::GetSearchStyle, _shell_ISearchContext_GetSearchStyle, shell.ISearchContext_GetSearchStyle, shlobj_core/ISearchContext::GetSearchStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

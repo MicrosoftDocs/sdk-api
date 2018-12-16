@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\replac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollection.Replace, IUICollection::Replace, Replace, Replace method [Windows Ribbon], Replace method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Replace, uiribbon/IUICollection::Replace, windowsribbon.windowsribbon_iuicollection_replace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

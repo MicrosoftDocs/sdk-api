@@ -9,8 +9,6 @@ ms.assetid: ead9bf4d-44a1-4237-ad03-28a4253819b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentExtent, GetContentExtent method [COM], GetContentExtent method [COM],IQuickActivate interface, IQuickActivate interface [COM],GetContentExtent method, IQuickActivate.GetContentExtent, IQuickActivate::GetContentExtent, _ctrl_iquickactivate_getcontentextent, com.iquickactivate_getcontentextent, ocidl/IQuickActivate::GetContentExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

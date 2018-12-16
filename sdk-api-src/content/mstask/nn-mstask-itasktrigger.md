@@ -9,8 +9,6 @@ ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], ITaskTrigger interface [Task Scheduler],described, _msb_itasktrigger, mstask/ITaskTrigger, taskschd.itasktrigger, triggers [Task Scheduler],interfaces,ITaskTrigger (obsolete)
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 

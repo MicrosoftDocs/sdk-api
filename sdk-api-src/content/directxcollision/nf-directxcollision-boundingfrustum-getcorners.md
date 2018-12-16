@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetCorners(XMFLO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetCorners method, BoundingFrustum.GetCorners, BoundingFrustum::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getcorners
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

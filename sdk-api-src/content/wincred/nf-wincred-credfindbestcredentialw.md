@@ -9,8 +9,6 @@ ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateSystemTimeSource, MFCreateSystemTimeSource function [Media Foundation], f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f, mf.mfcreatesystemtimesource, mfidl/MFCreateSystemTimeSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

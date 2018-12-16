@@ -9,8 +9,6 @@ ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget, d2d1/CreateHwndRenderTarget, direct2d.id2d1factory_createhwndrendertarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

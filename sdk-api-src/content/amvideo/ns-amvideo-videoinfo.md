@@ -9,8 +9,6 @@ ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

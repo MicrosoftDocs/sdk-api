@@ -9,8 +9,6 @@ ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

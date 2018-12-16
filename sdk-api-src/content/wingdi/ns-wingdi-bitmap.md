@@ -9,8 +9,6 @@ ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBITMAP, *NPBITMAP, *PBITMAP, BITMAP, BITMAP structure [Windows GDI], PBITMAP, PBITMAP structure pointer [Windows GDI], _win32_BITMAP_str, gdi.bitmap, wingdi/BITMAP, wingdi/PBITMAP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

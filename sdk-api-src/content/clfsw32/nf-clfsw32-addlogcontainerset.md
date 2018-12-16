@@ -9,8 +9,6 @@ ms.assetid: b3dec3bd-3e39-42fa-8f73-71784b3d5be2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/AddLogContainerSet, fs.addlogcontainerset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

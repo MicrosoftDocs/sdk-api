@@ -9,8 +9,6 @@ ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLOGCOLORSPACEW, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEW, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

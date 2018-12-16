@@ -9,8 +9,6 @@ ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

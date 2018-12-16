@@ -9,8 +9,6 @@ ms.assetid: 24163117-a283-4067-8ce6-118ca2de62c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetCandidateList, ImmGetCandidateList function [Internationalization for Windows Applications], ImmGetCandidateListA, ImmGetCandidateListW, _win32_ImmGetCandidateList, imm/ImmGetCandidateList, imm/ImmGetCandidateListA, imm/ImmGetCandidateListW, intl.immgetcandidatelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

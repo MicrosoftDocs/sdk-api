@@ -9,8 +9,6 @@ ms.assetid: 0f7f1b2c-a191-45f5-a645-367e898b6ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], IFrequencyMap interface [Microsoft TV Technologies],described, IFrequencyMapInterface, bdaiface/IFrequencyMap, mstv.ifrequencymap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

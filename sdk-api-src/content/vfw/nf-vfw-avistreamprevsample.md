@@ -9,8 +9,6 @@ ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f7570ba3-d738-40d3-aefc-fbf6f4ca633e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetGUID method, ICreateErrorInfo.SetGUID, ICreateErrorInfo::SetGUID, SetGUID, SetGUID method [Automation], SetGUID method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetGUID, automat.icreateerrorinfo_setguid, oaidl/ICreateErrorInfo::SetGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

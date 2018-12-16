@@ -9,8 +9,6 @@ ms.assetid: 20E05261-E5B6-4F48-B595-F2AD8B96AB2E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBlendEffect, CreateBlendEffect method [DirectComposition], CreateBlendEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBlendEffect method, IDCompositionDevice3.CreateBlendEffect, IDCompositionDevice3::CreateBlendEffect, dcomp/IDCompositionDevice3::CreateBlendEffect, directcomp.idcompositiondevice3_createblendeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 346c573b-eaf7-4ca6-bd36-18074f7eccf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrect, winuser/SetRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

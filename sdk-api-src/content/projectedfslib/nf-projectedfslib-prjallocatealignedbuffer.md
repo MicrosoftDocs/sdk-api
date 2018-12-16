@@ -9,8 +9,6 @@ ms.assetid: 49B723CC-976D-44C6-91D9-0FB26CFD45CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjAllocateAlignedBuffer, PrjAllocateAlignedBuffer function, ProjFS.prjallocatealignedbuffer, projectedfslib/PrjAllocateAlignedBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

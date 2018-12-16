@@ -9,8 +9,6 @@ ms.assetid: 2cb91b48-0026-4afa-80ab-16ac6fbce04d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions method [COM],IOleLink interface, IOleLink interface [COM],GetUpdateOptions method, IOleLink.GetUpdateOptions, IOleLink::GetUpdateOptions, _ole_iolelink_getupdateoptions, com.iolelink_getupdateoptions, oleidl/IOleLink::GetUpdateOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

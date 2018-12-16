@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetItemHeight, ListBox_GetItemHeight macro [Windows Controls], _win32_ListBox_GetItemHeight, _win32_ListBox_GetItemHeight_cpp, controls.ListBox_GetItemHeight, controls._win32_ListBox_GetItemHeight, windowsx/ListBox_GetItemHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

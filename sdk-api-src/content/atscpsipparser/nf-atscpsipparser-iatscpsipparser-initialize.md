@@ -9,8 +9,6 @@ ms.assetid: 7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAtscPsipParser interface [Microsoft TV Technologies],Initialize method, IAtscPsipParser.Initialize, IAtscPsipParser::Initialize, IAtscPsipParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IAtscPsipParser interface, atscpsipparser/IAtscPsipParser::Initialize, mstv.iatscpsipparser_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

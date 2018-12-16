@@ -9,8 +9,6 @@ ms.assetid: fb93b6ea-ca31-4ff1-a553-b02388be8b72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a40fc3a4-40ff-4752-abd9-e4dd906bc27f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

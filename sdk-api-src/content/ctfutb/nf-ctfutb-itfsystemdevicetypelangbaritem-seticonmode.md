@@ -9,8 +9,6 @@ ms.assetid: 25124539-4bf9-4299-b441-9a5fac18b60d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],SetIconMode method, ITfSystemDeviceTypeLangBarItem.SetIconMode, ITfSystemDeviceTypeLangBarItem::SetIconMode, SetIconMode, SetIconMode method [Text Services Framework], SetIconMode method [Text Services Framework],ITfSystemDeviceTypeLangBarItem interface, TF_DTLBI_USEPROFILEICON, _tsf_itfsystemdevicetypelangbaritem_seticonmode_ref, ctfutb/ITfSystemDeviceTypeLangBarItem::SetIconMode, tsf.itfsystemdevicetypelangbaritem_seticonmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

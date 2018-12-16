@@ -9,8 +9,6 @@ ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

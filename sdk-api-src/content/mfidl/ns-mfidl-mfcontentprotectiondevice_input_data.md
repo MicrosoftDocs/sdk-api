@@ -9,8 +9,6 @@ ms.assetid: 8D27592C-56EA-4E69-A1DC-2FAD56193CE2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_INPUT_DATA, MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_input_data, mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

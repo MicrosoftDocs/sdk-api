@@ -9,8 +9,6 @@ ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

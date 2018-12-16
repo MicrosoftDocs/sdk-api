@@ -9,8 +9,6 @@ ms.assetid: A9C6C67F-7767-454C-BA05-86C6B1E5D712
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVisualTreeService interface,SetProperty method, IVisualTreeService.SetProperty, IVisualTreeService::SetProperty, SetProperty, SetProperty method, SetProperty method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

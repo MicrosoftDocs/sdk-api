@@ -9,8 +9,6 @@ ms.assetid: 103efe46-bca5-40a7-815b-d2a1f6e29cbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevel method, IPerChannelDbLevel.SetLevel, IPerChannelDbLevel::SetLevel, IPerChannelDbLevelSetLevel, SetLevel, SetLevel method [Core Audio], SetLevel method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevel, devicetopology/IPerChannelDbLevel::SetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 395C1158-84CC-4400-AA8C-A2B3008AFECF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail method, IThumbnailCachePrimer.PageInThumbnail, IThumbnailCachePrimer::PageInThumbnail, PageInThumbnail, PageInThumbnail method [Windows Shell], PageInThumbnail method [Windows Shell],IThumbnailCachePrimer interface, shell.IThumbnailCachePrimer_PageInThumbnail, thumbcache/IThumbnailCachePrimer::PageInThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: Thumbcache.h

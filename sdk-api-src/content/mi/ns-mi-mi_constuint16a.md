@@ -9,8 +9,6 @@ ms.assetid: 919c5b25-f5ec-4f83-a27e-dbaa1a3ee7ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstUint16A, MI_ConstUint16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint16A, wmi._mi_constuint16a, wmi_v2.mi_constuint16a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

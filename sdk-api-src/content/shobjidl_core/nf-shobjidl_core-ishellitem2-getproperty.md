@@ -9,8 +9,6 @@ ms.assetid: f72e23b9-e99b-462b-91b6-9ef27a4fc9e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetProperty method, IShellItem2.GetProperty, IShellItem2::GetProperty, _shell_IShellItem2_GetProperty, shell.IShellItem2_GetProperty, shobjidl_core/IShellItem2::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

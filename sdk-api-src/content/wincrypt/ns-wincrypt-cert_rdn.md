@@ -9,8 +9,6 @@ ms.assetid: e84254b9-e9a7-4689-a12f-2772282c5433
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_RDN, CERT_RDN, CERT_RDN structure [Security], PCERT_RDN, PCERT_RDN structure pointer [Security], _crypto2_cert_rdn, security.cert_rdn, wincrypt/CERT_RDN, wincrypt/PCERT_RDN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

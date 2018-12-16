@@ -9,8 +9,6 @@ ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO structure pointer, SERVICE_TIMECHANGE_INFO, SERVICE_TIMECHANGE_INFO structure, base.service_timechange_info, winsvc/PSERVICE_TIMECHANGE_INFO, winsvc/SERVICE_TIMECHANGE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

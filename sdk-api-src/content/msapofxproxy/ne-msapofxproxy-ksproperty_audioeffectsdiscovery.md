@@ -9,8 +9,6 @@ ms.assetid: 35151A3F-3F33-4811-B50C-3F1EB197B7D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KSPROPERTY_AUDIOEFFECTSDISCOVERY, KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices], KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST, audio.ksproperty_audioeffectsdiscovery, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msapofxproxy.h
 req.include-header: 

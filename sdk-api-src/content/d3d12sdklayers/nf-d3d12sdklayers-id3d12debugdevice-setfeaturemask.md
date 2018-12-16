@@ -9,8 +9,6 @@ ms.assetid: 12232AB8-BBEA-4663-BEB2-7E296851FE5E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12DebugDevice interface,SetFeatureMask method, ID3D12DebugDevice.SetFeatureMask, ID3D12DebugDevice::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::SetFeatureMask, direct3d12.id3d12debugdevice_setfeaturemask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

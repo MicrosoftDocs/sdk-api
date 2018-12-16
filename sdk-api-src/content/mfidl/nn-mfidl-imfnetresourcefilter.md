@@ -9,8 +9,6 @@ ms.assetid: AC8FBD93-B39B-4530-8475-275D3D0DA512
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], IMFNetResourceFilter interface [Media Foundation],described, mf.imfnetresourcefilter, mfidl/IMFNetResourceFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

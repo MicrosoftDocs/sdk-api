@@ -9,8 +9,6 @@ ms.assetid: daa2ed07-8ee5-4e1f-84f4-77f58d4958e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_Id method, IUPnPService.get_Id, IUPnPService::get_Id, _upnp_iupnpservice_id, get_Id, get_Id method [UPnP APIs], get_Id method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_id, upnp/IUPnPService::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

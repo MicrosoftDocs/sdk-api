@@ -9,8 +9,6 @@ ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

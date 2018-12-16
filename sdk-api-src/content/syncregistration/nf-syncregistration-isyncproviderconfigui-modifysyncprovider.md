@@ -9,8 +9,6 @@ ms.assetid: 16f6d30c-422a-4638-a63b-f9d2a5fdb8b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],ModifySyncProvider method, ISyncProviderConfigUI.ModifySyncProvider, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

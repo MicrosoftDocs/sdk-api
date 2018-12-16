@@ -9,8 +9,6 @@ ms.assetid: bb8279e1-a98b-4156-8b90-d9b69411bfa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSignatureRequestCollection, IXpsSignatureRequestCollection interface [XPS Documents and Packaging], IXpsSignatureRequestCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturerequestcollection, xpsdigitalsignature/IXpsSignatureRequestCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d9232dc0-6df9-440d-bf7a-bf524acbe505
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancePropertiesByPath method, CWbemProviderGlue.GetInstancePropertiesByPath, CWbemProviderGlue::GetInstancePropertiesByPath, GetInstancePropertiesByPath, GetInstancePropertiesByPath method [Windows Management Instrumentation], GetInstancePropertiesByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancepropertiesbypath, wbemglue/CWbemProviderGlue::GetInstancePropertiesByPath, wmi.cwbemproviderglue_getinstancepropertiesbypath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

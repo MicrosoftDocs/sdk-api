@@ -9,8 +9,6 @@ ms.assetid: 33349885-96da-47ef-9b09-83c2c332b509
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UPC method, IUPnPDevice.get_UPC, IUPnPDevice::get_UPC, _upnp_iupnpdevice_upc, get_UPC, get_UPC method [UPnP APIs], get_UPC method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_upc, upnp/IUPnPDevice::get_UPC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

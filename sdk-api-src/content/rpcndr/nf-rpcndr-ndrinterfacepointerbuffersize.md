@@ -9,8 +9,6 @@ ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

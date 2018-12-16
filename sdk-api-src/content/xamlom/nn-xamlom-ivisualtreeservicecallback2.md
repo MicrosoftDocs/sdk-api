@@ -9,8 +9,6 @@ ms.assetid: F1C11F32-9524-49D6-89DD-C89E4A81720A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVisualTreeServiceCallback2, IVisualTreeServiceCallback2 interface, IVisualTreeServiceCallback2 interface,described, xaml_diagnostics.ivisualtreeservicecallback2, xamlom/IVisualTreeServiceCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 

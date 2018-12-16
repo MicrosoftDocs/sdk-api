@@ -9,8 +9,6 @@ ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

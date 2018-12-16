@@ -9,8 +9,6 @@ ms.assetid: b0623114-8f25-4870-a1c7-4f4e3ecf0348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetAttribute method, ISettingsNamespace.GetAttribute, ISettingsNamespace::GetAttribute, smi.isettingsnamespace_getattribute, wcmconfig/ISettingsNamespace::GetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

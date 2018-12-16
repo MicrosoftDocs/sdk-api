@@ -9,8 +9,6 @@ ms.assetid: 84b6223e-d42a-47b0-8553-2b4d69de2da3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

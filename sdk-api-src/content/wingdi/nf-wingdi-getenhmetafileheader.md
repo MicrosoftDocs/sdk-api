@@ -9,8 +9,6 @@ ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

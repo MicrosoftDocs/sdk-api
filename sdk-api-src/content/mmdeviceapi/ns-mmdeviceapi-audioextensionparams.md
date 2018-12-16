@@ -9,8 +9,6 @@ ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], PAudioExtensionParams, PAudioExtensionParams structure pointer [Core Audio], coreaudio.audioextensionparams, mmdeviceapi/AudioExtensionParams, mmdeviceapi/PAudioExtensionParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl

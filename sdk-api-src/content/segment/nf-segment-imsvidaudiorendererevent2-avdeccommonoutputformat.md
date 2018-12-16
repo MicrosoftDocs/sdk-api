@@ -9,8 +9,6 @@ ms.assetid: fe25dc52-bf79-488f-a897-e533c5209001
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

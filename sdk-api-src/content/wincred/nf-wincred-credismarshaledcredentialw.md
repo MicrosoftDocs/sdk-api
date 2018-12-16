@@ -9,8 +9,6 @@ ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

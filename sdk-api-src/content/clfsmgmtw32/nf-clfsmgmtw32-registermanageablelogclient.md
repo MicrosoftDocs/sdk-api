@@ -9,8 +9,6 @@ ms.assetid: ca7969a1-e391-4e3f-96a8-5fb23c400d7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: ac1ec373-868f-4634-8658-4253d4f5923a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerAddExcludedApplication, WerAddExcludedApplication function [Windows Error Reporting], base.weraddexcludedapplication, wer.weraddexcludedapplication, werapi/WerAddExcludedApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

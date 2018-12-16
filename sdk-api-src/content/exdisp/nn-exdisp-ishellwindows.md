@@ -9,8 +9,6 @@ ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: exdisp.h
 req.include-header: 

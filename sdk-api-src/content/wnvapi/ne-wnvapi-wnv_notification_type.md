@@ -9,8 +9,6 @@ ms.assetid: 70BE564E-A054-4991-ADCD-79E4D219307B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE enumeration pointer [Windows Network Virtualization], WNV_NOTIFICATION_TYPE, WNV_NOTIFICATION_TYPE enumeration [Windows Network Virtualization], WnvNotificationTypeMax, WnvObjectChangeType, WnvPolicyMismatchType, WnvRedirectType, wnv.wnv_notification_type, wnvapi/PWNV_NOTIFICATION_TYPE, wnvapi/WNV_NOTIFICATION_TYPE, wnvapi/WnvNotificationTypeMax, wnvapi/WnvObjectChangeType, wnvapi/WnvPolicyMismatchType, wnvapi/WnvRedirectType"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wnvapi.h
 req.include-header: 

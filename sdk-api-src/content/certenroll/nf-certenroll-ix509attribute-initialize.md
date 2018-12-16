@@ -9,8 +9,6 @@ ms.assetid: 82457ca3-4aae-4f47-950c-1146c8614a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Attribute interface [Security],Initialize method, IX509Attribute.Initialize, IX509Attribute::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Attribute interface, certenroll/IX509Attribute::Initialize, security.ix509attribute_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

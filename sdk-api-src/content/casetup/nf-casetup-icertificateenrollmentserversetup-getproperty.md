@@ -9,8 +9,6 @@ ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],GetProperty method, ICertificateEnrollmentServerSetup.GetProperty, ICertificateEnrollmentServerSetup::GetProperty, casetup/ICertificateEnrollmentServerSetup::GetProperty, security.icertificateenrollmentserversetup_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

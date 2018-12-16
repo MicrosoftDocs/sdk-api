@@ -9,8 +9,6 @@ ms.assetid: 48fa3396-f3ec-411a-9ea7-d7e82d606f14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerGetLineControls, mixerGetLineControls, mixerGetLineControls function [Windows Multimedia], mixerGetLineControlsA, mixerGetLineControlsW, mmeapi/mixerGetLineControls, mmeapi/mixerGetLineControlsA, mmeapi/mixerGetLineControlsW, multimedia.mixergetlinecontrols"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: c632b617-3b77-4a6e-80e7-90115ae0ac3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIntToLong, UIntToLong function [Windows Shell], _shell_UIntToLong, intsafe/UIntToLong, shell.UIntToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 267e2785-dbff-4b44-8bd5-e7e1e8f69478
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MinPoolSize method, IServicePoolConfig.get_MinPoolSize, IServicePoolConfig::get_MinPoolSize, comsvcs/IServicePoolConfig::get_MinPoolSize, cos.iservicepoolconfig_get_minpoolsize, get_MinPoolSize, get_MinPoolSize method [COM+], get_MinPoolSize method [COM+],IServicePoolConfig interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

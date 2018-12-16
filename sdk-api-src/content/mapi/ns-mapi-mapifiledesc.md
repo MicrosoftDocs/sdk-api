@@ -9,8 +9,6 @@ ms.assetid: c2193551-85c3-4293-b632-d6c8ab84800a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*lpMapiFileDesc, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDesc, MapiFileDesc structure, lpMapiFileDesc, lpMapiFileDesc structure pointer, mapi.mapifiledesc, mapi/MapiFileDesc, mapi/lpMapiFileDesc"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 

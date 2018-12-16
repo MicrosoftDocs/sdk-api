@@ -9,8 +9,6 @@ ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h

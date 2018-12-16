@@ -9,8 +9,6 @@ ms.assetid: 7de14fb1-1972-4bf0-b0e2-f0344e963eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

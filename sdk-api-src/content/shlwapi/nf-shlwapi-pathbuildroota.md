@@ -9,8 +9,6 @@ ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRootA, PathBuildRootW, _win32_PathBuildRoot, shell.PathBuildRoot, shlwapi/PathBuildRoot, shlwapi/PathBuildRootA, shlwapi/PathBuildRootW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

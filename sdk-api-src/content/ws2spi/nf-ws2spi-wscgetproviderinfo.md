@@ -9,8 +9,6 @@ ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

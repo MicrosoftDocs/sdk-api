@@ -9,8 +9,6 @@ ms.assetid: 55018484-df70-43fa-b494-215035b90ceb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISharedBitmap interface [Windows Shell],InitializeBitmap method, ISharedBitmap.InitializeBitmap, ISharedBitmap::InitializeBitmap, InitializeBitmap, InitializeBitmap method [Windows Shell], InitializeBitmap method [Windows Shell],ISharedBitmap interface, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell__InitializeBitmap, shell.ISharedBitmap_InitializeBitmap, thumbcache/ISharedBitmap::InitializeBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 

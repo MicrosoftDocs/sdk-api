@@ -9,8 +9,6 @@ ms.assetid: de3593a6-f39c-4c4a-9ddf-1343186d98e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCrid, GetRecordCrid method [Microsoft TV Technologies], GetRecordCrid method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetRecordCrid method, IDvbContentIdentifierDescriptor.GetRecordCrid, IDvbContentIdentifierDescriptor::GetRecordCrid, dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid, mstv.idvbcontentidentifierdescriptor_getrecordcrid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

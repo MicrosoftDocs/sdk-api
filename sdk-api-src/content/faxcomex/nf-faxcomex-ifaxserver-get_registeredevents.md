@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_2tmb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisteredEvents property, IFaxServer.RegisteredEvents, IFaxServer.get_RegisteredEvents, IFaxServer::RegisteredEvents, IFaxServer::get_RegisteredEvents, RegisteredEvents property [Fax Service], RegisteredEvents property [Fax Service],IFaxServer interface, _mfax_faxserver.registeredevents, fax._mfax_faxserver_cpp_mfax_faxserver_registeredevents_cpp, fax._mfax_faxserver_registeredevents, faxcomex/IFaxServer::RegisteredEvents, faxcomex/IFaxServer::get_RegisteredEvents, get_RegisteredEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

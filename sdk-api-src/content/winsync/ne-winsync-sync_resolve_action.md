@@ -9,8 +9,6 @@ ms.assetid: 6549eee1-6bf4-46b0-97d1-bb2c0f1b59a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SRA_ACCEPT_DESTINATION_PROVIDER, SRA_ACCEPT_SOURCE_PROVIDER, SRA_DEFER, SRA_LAST, SRA_MERGE, SRA_TRANSFER_AND_DEFER, SYNC_RESOLVE_ACTION, SYNC_RESOLVE_ACTION enumeration [Windows Sync], winsync.sync_resolve_action, winsync/SRA_ACCEPT_DESTINATION_PROVIDER, winsync/SRA_ACCEPT_SOURCE_PROVIDER, winsync/SRA_DEFER, winsync/SRA_LAST, winsync/SRA_MERGE, winsync/SRA_TRANSFER_AND_DEFER, winsync/SYNC_RESOLVE_ACTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

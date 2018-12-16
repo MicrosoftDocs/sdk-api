@@ -9,8 +9,6 @@ ms.assetid: 2101c1de-f304-4d44-899f-f9f03cd50934
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE structure [Security], PKERB_QUERY_TKT_CACHE_RESPONSE, PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security], _lsa_kerb_query_tkt_cache_response, ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE, security.kerb_query_tkt_cache_response"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

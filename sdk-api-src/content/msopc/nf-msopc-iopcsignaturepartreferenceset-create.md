@@ -9,8 +9,6 @@ ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignaturePartReferenceSet.Create, IOpcSignaturePartReferenceSet::Create, msopc/IOpcSignaturePartReferenceSet::Create, opc.iopcsignaturepartreferenceset_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

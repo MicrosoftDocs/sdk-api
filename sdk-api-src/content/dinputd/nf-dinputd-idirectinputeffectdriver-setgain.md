@@ -9,8 +9,6 @@ ms.assetid: 6d0089b2-6e77-4308-b29c-7cc38595de6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SetGain method, IDirectInputEffectDriver.SetGain, IDirectInputEffectDriver::SetGain, SetGain, SetGain method [Human Input Devices], SetGain method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_8a0a1de3-be33-44e2-9abb-f4b0b0d4bad8.xml, dinputd/IDirectInputEffectDriver::SetGain, hid.idirectinputeffectdriver_setgain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

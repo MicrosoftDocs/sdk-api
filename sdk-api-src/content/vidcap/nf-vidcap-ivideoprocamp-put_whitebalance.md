@@ -9,8 +9,6 @@ ms.assetid: b79e64e1-4b0f-4111-ae25-54891f743c01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalance method, IVideoProcAmp.put_WhiteBalance, IVideoProcAmp::put_WhiteBalance, IVideoProcAmpput_WhiteBalance, dshow.ivideoprocamp_put_whitebalance, put_WhiteBalance, put_WhiteBalance method [DirectShow], put_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

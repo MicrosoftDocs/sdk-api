@@ -9,8 +9,6 @@ ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

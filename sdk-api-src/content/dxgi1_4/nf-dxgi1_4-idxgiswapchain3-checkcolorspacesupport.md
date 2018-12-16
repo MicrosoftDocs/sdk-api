@@ -9,8 +9,6 @@ ms.assetid: 87AFB541-EC10-45E6-97CC-1B48084D00EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckColorSpaceSupport, CheckColorSpaceSupport method [DXGI], CheckColorSpaceSupport method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],CheckColorSpaceSupport method, IDXGISwapChain3.CheckColorSpaceSupport, IDXGISwapChain3::CheckColorSpaceSupport, direct3ddxgi.idxgiswapchain3_checkcolorspacesupport, dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

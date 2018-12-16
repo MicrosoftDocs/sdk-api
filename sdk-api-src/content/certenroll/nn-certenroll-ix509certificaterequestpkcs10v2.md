@@ -9,8 +9,6 @@ ms.assetid: 38177793-c15b-4651-8260-c90a151da83e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs10V2, IX509CertificateRequestPkcs10V2 interface [Security], IX509CertificateRequestPkcs10V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs10V2, security.ix509certificaterequestpkcs10v2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

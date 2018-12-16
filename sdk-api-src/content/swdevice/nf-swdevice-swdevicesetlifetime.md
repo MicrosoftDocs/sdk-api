@@ -9,8 +9,6 @@ ms.assetid: 64CAAA98-9358-4F53-A0AA-EE5984DE9638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceSetLifetime, SwDeviceSetLifetime function, swdevice.swdevicesetlifetime, swdevice/SwDeviceSetLifetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swdevice.h
 req.include-header: 

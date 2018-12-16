@@ -9,8 +9,6 @@ ms.assetid: 4864f59c-5f06-419e-a0ca-d8bfb72a666c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_SourceID method, IDigitalCableTuneRequest.put_SourceID, IDigitalCableTuneRequest::put_SourceID, IDigitalCableTuneRequestput_SourceID, mstv.idigitalcabletunerequest_put_sourceid, put_SourceID, put_SourceID method [Microsoft TV Technologies], put_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_SourceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

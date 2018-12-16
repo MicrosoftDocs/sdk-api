@@ -9,8 +9,6 @@ ms.assetid: 0ed66c17-f18b-4c8b-b31a-6dd4f5ab4292
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaTime method, IAMMediaTypeSample.GetMediaTime, IAMMediaTypeSample::GetMediaTime, IAMMediaTypeSampleGetMediaTime, amstream/IAMMediaTypeSample::GetMediaTime, dshow.iammediatypesample_getmediatime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

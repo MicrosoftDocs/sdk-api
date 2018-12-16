@@ -9,8 +9,6 @@ ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

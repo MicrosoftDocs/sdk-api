@@ -9,8 +9,6 @@ ms.assetid: D096068F-7EC0-4745-A361-142F9B478402
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security], PKERB_QUERY_BINDING_CACHE_RESPONSE, PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security], ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE, security.kerb_query_binding_cache_response"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

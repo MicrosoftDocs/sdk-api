@@ -9,8 +9,6 @@ ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tpmvscmgr.h
 req.include-header: 

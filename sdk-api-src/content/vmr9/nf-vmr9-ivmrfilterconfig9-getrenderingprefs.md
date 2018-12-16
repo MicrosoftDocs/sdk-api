@@ -9,8 +9,6 @@ ms.assetid: b82a9dbe-aa86-4153-945b-fe8968faa5ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRFilterConfig9.GetRenderingPrefs, IVMRFilterConfig9::GetRenderingPrefs, IVMRFilterConfig9GetRenderingPrefs, dshow.ivmrfilterconfig9_getrenderingprefs, vmr9/IVMRFilterConfig9::GetRenderingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

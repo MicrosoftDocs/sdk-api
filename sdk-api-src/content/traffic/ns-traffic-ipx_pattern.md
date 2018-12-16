@@ -9,8 +9,6 @@ ms.assetid: bbb5466c-3ec4-48a7-a50e-4859d074d001
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 

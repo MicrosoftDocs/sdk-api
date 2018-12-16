@@ -9,8 +9,6 @@ ms.assetid: e7184de4-b416-4f28-8f10-c89ffcccf1a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetEffects method, ITextPara2.SetEffects, ITextPara2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextPara2 interface, controls.itextpara2_seteffects, tom/ITextPara2::SetEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

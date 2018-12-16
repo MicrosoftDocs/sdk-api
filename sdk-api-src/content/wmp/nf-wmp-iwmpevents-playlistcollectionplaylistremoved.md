@@ -9,8 +9,6 @@ ms.assetid: 53b7e883-f392-4a07-8952-ab7a6e9c436e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistRemoved method, IWMPEvents.PlaylistCollectionPlaylistRemoved, IWMPEvents::PlaylistCollectionPlaylistRemoved, IWMPEventsPlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved method [Windows Media Player], PlaylistCollectionPlaylistRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved, wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

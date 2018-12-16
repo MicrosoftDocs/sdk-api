@@ -9,8 +9,6 @@ ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

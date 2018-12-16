@@ -9,8 +9,6 @@ ms.assetid: 5f2c1f41-d678-4eb8-b246-46133eec465f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetDesktopItemOptions method, IActiveDesktop.SetDesktopItemOptions, IActiveDesktop::SetDesktopItemOptions, SetDesktopItemOptions, SetDesktopItemOptions method [Legacy Windows Environment Features], SetDesktopItemOptions method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetDesktopItemOptions, lwef.iactivedesktop_setdesktopitemoptions, shell.iactivedesktop_setdesktopitemoptions, shlobj_core/IActiveDesktop::SetDesktopItemOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

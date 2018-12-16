@@ -9,8 +9,6 @@ ms.assetid: 3033c584-1a7b-4bba-a8a2-2a2d59247689
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],get_CallingCards method, ITAddressTranslation.get_CallingCards, ITAddressTranslation::get_CallingCards, _tapi3_itaddresstranslation_get_callingcards, get_CallingCards, get_CallingCards method [TAPI 2.2], get_CallingCards method [TAPI 2.2],ITAddressTranslation interface, tapi3.itaddresstranslation_get_callingcards, tapi3if/ITAddressTranslation::get_CallingCards
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

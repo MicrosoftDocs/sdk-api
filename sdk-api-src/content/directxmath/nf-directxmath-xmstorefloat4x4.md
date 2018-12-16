@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x4(XMFLOAT4X4@,XMMATRIX
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat4x4, XMStoreFloat4x4, XMStoreFloat4x4 method [DirectX Math Support APIs], dxmath.xmstorefloat4x4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

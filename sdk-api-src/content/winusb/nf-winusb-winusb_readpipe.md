@@ -9,8 +9,6 @@ ms.assetid: 936e535b-9084-4e3d-908e-0e965f658827
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_ReadPipe, WinUsb_ReadPipe function [Buses], buses.winusb_readpipe, winusb/WinUsb_ReadPipe, winusbfunc_a18a80b3-9f2b-45a5-bd34-dac4bddb1053.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

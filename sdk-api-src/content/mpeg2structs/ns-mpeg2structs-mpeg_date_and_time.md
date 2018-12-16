@@ -9,8 +9,6 @@ ms.assetid: 586269c5-3415-4a5c-8c8f-b405a7bc3f56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MPEG_DATE_AND_TIME, MPEG_DATE_AND_TIME structure [Microsoft TV Technologies], mpeg2structs/MPEG_DATE_AND_TIME, mstv.mpeg_date_and_time
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

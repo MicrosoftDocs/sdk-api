@@ -9,8 +9,6 @@ ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -9,8 +9,6 @@ ms.assetid: 2F0FA710-6281-4D25-84E1-25A50DBB92E5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointY method, IDCompositionBrightnessEffect.SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY(float), SetWhitePointY, SetWhitePointY method [DirectComposition], SetWhitePointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

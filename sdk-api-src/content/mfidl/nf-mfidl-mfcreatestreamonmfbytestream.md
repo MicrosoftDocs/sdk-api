@@ -9,8 +9,6 @@ ms.assetid: 97C72B89-2E57-494E-AEB8-41125B3D740E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

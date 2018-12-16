@@ -9,8 +9,6 @@ ms.assetid: d5478721-7d7b-487e-b223-0240f3451aed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MBN_DEVICEID_LEN, MBN_FIRMWARE_LEN, MBN_INTERFACE_CAPS_CONSTANTS, MBN_INTERFACE_CAPS_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_MANUFACTURER_LEN, MBN_MODEL_LEN, mbn.mbn_interface_caps_constants, mbnapi/MBN_DEVICEID_LEN, mbnapi/MBN_FIRMWARE_LEN, mbnapi/MBN_INTERFACE_CAPS_CONSTANTS, mbnapi/MBN_MANUFACTURER_LEN, mbnapi/MBN_MODEL_LEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

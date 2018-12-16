@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSubscript method, ITextFont.SetSubscript, ITextFont::SetSubscript, SetSubscript, SetSubscript method [Windows Controls], SetSubscript method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSubscript, _win32_ITextFont_SetSubscript_cpp, controls.ITextFont_SetSubscript, controls._win32_ITextFont_SetSubscript, tom/ITextFont::SetSubscript
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

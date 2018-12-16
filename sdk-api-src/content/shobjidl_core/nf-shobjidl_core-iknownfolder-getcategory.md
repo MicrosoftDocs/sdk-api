@@ -9,8 +9,6 @@ ms.assetid: b3a7f249-9d57-4bd1-830f-1c83c745782f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetCategory method, IKnownFolder.GetCategory, IKnownFolder::GetCategory, _shell_IKnownFolder_GetCategory, shell.IKnownFolder_GetCategory, shobjidl_core/IKnownFolder::GetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

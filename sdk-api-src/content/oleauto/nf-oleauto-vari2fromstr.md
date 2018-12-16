@@ -9,8 +9,6 @@ ms.assetid: a4f43356-5681-4926-aa2a-471fa2198a2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI2FromStr, VarI2FromStr function [Automation], _oa96_VarI2FromStr, automat.vari2fromstr, oleauto/VarI2FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

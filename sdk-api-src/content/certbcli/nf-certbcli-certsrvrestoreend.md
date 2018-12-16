@@ -9,8 +9,6 @@ ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

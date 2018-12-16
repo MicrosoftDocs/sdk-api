@@ -9,8 +9,6 @@ ms.assetid: 273ec875-43c1-454f-a4fc-01a513554e68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddCheckButton, AddCheckButton method [Windows Shell], AddCheckButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddCheckButton method, IFileDialogCustomize.AddCheckButton, IFileDialogCustomize::AddCheckButton, shell.IFileDialogCustomize_AddCheckButton, shell_IFileDialogCustomize_AddCheckButton, shobjidl_core/IFileDialogCustomize::AddCheckButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: b3508bb5-4e36-4088-afcc-4a75a01d1fe6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE structure [MIB], PMIB_INVERTEDIFSTACK_TABLE, PMIB_INVERTEDIFSTACK_TABLE structure pointer [MIB], mib.mib_invertedifstack_table, netioapi/MIB_INVERTEDIFSTACK_TABLE, netioapi/PMIB_INVERTEDIFSTACK_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

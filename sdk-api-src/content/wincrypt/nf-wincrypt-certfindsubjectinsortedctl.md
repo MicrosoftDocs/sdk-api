@@ -9,8 +9,6 @@ ms.assetid: 027e89e6-3de0-440d-be70-2281778f9a1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFindSubjectInSortedCTL, CertFindSubjectInSortedCTL function [Security], _crypto2_certfindsubjectinsortedctl, security.certfindsubjectinsortedctl, wincrypt/CertFindSubjectInSortedCTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

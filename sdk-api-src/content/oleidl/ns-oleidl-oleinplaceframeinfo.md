@@ -9,8 +9,6 @@ ms.assetid: e09445d2-61e5-4691-b51e-746e0cc91c00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRemovedDestinations, GetRemovedDestinations method [Windows Shell], GetRemovedDestinations method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],GetRemovedDestinations method, ICustomDestinationList.GetRemovedDestinations, ICustomDestinationList::GetRemovedDestinations, _shell_ICustomDestinationList_GetRemovedDestinations, shell.ICustomDestinationList_GetRemovedDestinations, shobjidl_core/ICustomDestinationList::GetRemovedDestinations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

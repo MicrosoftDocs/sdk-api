@@ -9,8 +9,6 @@ ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

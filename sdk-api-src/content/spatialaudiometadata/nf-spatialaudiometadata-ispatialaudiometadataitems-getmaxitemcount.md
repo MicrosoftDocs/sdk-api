@@ -9,8 +9,6 @@ ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

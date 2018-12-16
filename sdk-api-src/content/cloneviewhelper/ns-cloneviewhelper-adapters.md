@@ -9,8 +9,6 @@ ms.assetid: 4f91e683-66f6-4667-86d0-d3de28ba64b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Adapters, Adapters structure [Display Devices], TMM_Ref_5b0d959d-9d91-4166-8555-633b0690de8a.xml, cloneviewhelper/Adapters, display.adapters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h

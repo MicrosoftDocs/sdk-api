@@ -9,8 +9,6 @@ ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnumTypeList, GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEnumTypeList method, IPropertyDescription.GetEnumTypeList, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

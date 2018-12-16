@@ -9,8 +9,6 @@ ms.assetid: 2c21ed09-6c69-4f03-91bb-9beeb816ed62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetRule method, GetRule, GetRule method [File Server Resource Manager], GetRule method [File Server Resource Manager],FsrmClassificationManager class, GetRule method [File Server Resource Manager],IFsrmClassificationManager interface, GetRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager.GetRule, IFsrmClassificationManager2 interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager2::GetRule, IFsrmClassificationManager::GetRule, fs.ifsrmclassificationmanager_getrule, fsrm.ifsrmclassificationmanager_getrule, fsrmpipeline/IFsrmClassificationManager2::GetRule, fsrmpipeline/IFsrmClassificationManager::GetRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

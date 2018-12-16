@@ -9,8 +9,6 @@ ms.assetid: 2fea6f52-bae3-4679-a89b-fe85f1232d34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetHoldPage method, IAMWstDecoder.SetHoldPage, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

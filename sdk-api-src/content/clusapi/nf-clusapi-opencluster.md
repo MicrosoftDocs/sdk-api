@@ -9,8 +9,6 @@ ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenCluster, OpenCluster function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER function [Failover Cluster], _wolf_opencluster, clusapi/OpenCluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e739acb5-4d93-4871-8b35-54d45138fe0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],ILog interface, ILog interface [COM],AppendRecord method, ILog.AppendRecord, ILog::AppendRecord, _com_ilog_appendrecord, com.ilog_appendrecord, txlogpub/ILog::AppendRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

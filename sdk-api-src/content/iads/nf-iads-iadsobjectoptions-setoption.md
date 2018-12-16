@@ -9,8 +9,6 @@ ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsObjectOptions interface [ADSI],SetOption method, IADsObjectOptions.SetOption, IADsObjectOptions::SetOption, SetOption, SetOption method [ADSI], SetOption method [ADSI],IADsObjectOptions interface, _ds_iadsobjectoptions_setoption, adsi.iadsobjectoptions__setoption, adsi.iadsobjectoptions_setoption, iads/IADsObjectOptions::SetOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

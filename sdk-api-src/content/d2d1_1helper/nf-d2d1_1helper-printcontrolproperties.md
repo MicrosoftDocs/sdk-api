@@ -9,8 +9,6 @@ ms.assetid: 0AD341B6-DA74-417B-9F2F-20557B090F49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrintControlProperties, PrintControlProperties function [Direct2D], d2d1_1helper/PrintControlProperties, direct2d.printcontrolproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

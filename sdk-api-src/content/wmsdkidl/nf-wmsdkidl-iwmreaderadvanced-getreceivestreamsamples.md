@@ -9,8 +9,6 @@ ms.assetid: cdb76a25-fc30-4be2-a54e-928050699e58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReceiveStreamSamples, GetReceiveStreamSamples method [windows Media Format], GetReceiveStreamSamples method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetReceiveStreamSamples method, IWMReaderAdvanced.GetReceiveStreamSamples, IWMReaderAdvanced::GetReceiveStreamSamples, IWMReaderAdvancedGetReceiveStreamSamples, wmformat.iwmreaderadvanced_getreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::GetReceiveStreamSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

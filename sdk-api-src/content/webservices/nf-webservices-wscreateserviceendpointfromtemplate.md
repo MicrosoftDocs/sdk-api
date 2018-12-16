@@ -9,8 +9,6 @@ ms.assetid: 433194eb-ac42-4b6a-a1c0-7260a7aabeeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateServiceEndpointFromTemplate, WsCreateServiceEndpointFromTemplate function [Web Services for Windows], webservices/WsCreateServiceEndpointFromTemplate, wsw.wscreateserviceendpointfromtemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 681bdb9c-69dd-4bf6-a4b3-c490f7a0363e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresourcecollection, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

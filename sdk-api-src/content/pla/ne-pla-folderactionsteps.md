@@ -9,8 +9,6 @@ ms.assetid: 94d199a1-36f7-4064-a4fb-90dd26c37960
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

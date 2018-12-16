@@ -9,8 +9,6 @@ ms.assetid: 015f2be2-8e10-4abd-afd0-f76834856733
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpExtensionInit, SnmpExtensionInit callback, SnmpExtensionInit callback function [SNMP], _snmp_snmpextensioninit, snmp.snmpextensioninit, snmp/SnmpExtensionInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

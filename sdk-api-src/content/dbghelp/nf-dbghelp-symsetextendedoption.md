@@ -9,8 +9,6 @@ ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseEventRemoved, AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventRemoved method, IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

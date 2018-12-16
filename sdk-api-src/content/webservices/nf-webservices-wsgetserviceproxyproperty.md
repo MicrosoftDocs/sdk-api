@@ -9,8 +9,6 @@ ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

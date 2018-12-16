@@ -9,8 +9,6 @@ ms.assetid: 64B7D987-A79C-412C-8D12-53E21DD8DDD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_SPRITE_OPTIONS, D2D1_SPRITE_OPTIONS enumeration [Direct2D], D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, D2D1_SPRITE_OPTIONS_NONE, d2d1_3/D2D1_SPRITE_OPTIONS, d2d1_3/D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, d2d1_3/D2D1_SPRITE_OPTIONS_NONE, direct2d.d2d1_sprite_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 

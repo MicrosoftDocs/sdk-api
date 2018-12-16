@@ -9,8 +9,6 @@ ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfreadwrite.h
 req.include-header: 

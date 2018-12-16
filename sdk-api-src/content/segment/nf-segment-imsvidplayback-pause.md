@@ -9,8 +9,6 @@ ms.assetid: 430528b7-3b3a-4df9-8093-9b0f9262f106
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Pause method, IMSVidPlayback.Pause, IMSVidPlayback::Pause, IMSVidPlaybackPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_pause, segment/IMSVidPlayback::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

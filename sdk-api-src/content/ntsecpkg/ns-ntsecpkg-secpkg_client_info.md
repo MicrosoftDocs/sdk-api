@@ -9,8 +9,6 @@ ms.assetid: c9c58a50-7fc2-44a7-9551-a2675410b2b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO structure pointer [Security], SECPKG_CLIENT_INFO, SECPKG_CLIENT_INFO structure [Security], _ssp_secpkg_client_info, ntsecpkg/PSECPKG_CLIENT_INFO, ntsecpkg/SECPKG_CLIENT_INFO, security.secpkg_client_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

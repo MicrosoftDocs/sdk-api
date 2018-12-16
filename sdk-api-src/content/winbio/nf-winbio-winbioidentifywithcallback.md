@@ -9,8 +9,6 @@ ms.assetid: df96b444-4a94-4d12-9d7a-2543d96f89ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioIdentifyWithCallback, WinBioIdentifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioidentifywithcallback, winbio/WinBioIdentifyWithCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

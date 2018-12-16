@@ -9,8 +9,6 @@ ms.assetid: 529F37D7-4C23-4E3B-864D-5707B0262A81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AtlThunk_FreeData, AtlThunk_FreeData function, atlthunk/AtlThunk_FreeData, base.atlthunk_freedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

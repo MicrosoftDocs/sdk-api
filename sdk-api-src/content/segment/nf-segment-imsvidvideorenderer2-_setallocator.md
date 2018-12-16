@@ -9,8 +9,6 @@ ms.assetid: dc0983c0-440d-453a-95c9-41a859a7dd9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],_SetAllocator method, IMSVidVideoRenderer2._SetAllocator, IMSVidVideoRenderer2::_SetAllocator, IMSVidVideoRenderer2_SetAllocator, _SetAllocator, _SetAllocator method [Microsoft TV Technologies], _SetAllocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2__setallocator, segment/IMSVidVideoRenderer2::_SetAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

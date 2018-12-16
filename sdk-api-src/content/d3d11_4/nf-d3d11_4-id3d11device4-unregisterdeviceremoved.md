@@ -9,8 +9,6 @@ ms.assetid: F1B8BBD2-3D7D-4125-953F-D10D073B77AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],UnregisterDeviceRemoved method, ID3D11Device4.UnregisterDeviceRemoved, ID3D11Device4::UnregisterDeviceRemoved, UnregisterDeviceRemoved, UnregisterDeviceRemoved method [Direct3D 11], UnregisterDeviceRemoved method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::UnregisterDeviceRemoved, direct3d11.id3d11device4_unregisterdeviceremoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 

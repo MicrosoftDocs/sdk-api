@@ -9,8 +9,6 @@ ms.assetid: 036a05fd-53b7-4e6d-b96b-503832933b56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGridProvider interface [Windows Accessibility],RowCount property, IGridProvider.RowCount, IGridProvider.get_RowCount, IGridProvider::RowCount, IGridProvider::get_RowCount, RowCount property [Windows Accessibility], RowCount property [Windows Accessibility],IGridProvider interface, get_RowCount, uiauto.uiauto_IGridProvider_RowCount, uiauto_IGridProvider_RowCount, uiautomationcore/IGridProvider::RowCount, uiautomationcore/IGridProvider::get_RowCount, winauto.uiauto_IGridProvider_RowCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

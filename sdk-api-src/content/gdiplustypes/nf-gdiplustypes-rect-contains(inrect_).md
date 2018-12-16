@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN Rect &), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 

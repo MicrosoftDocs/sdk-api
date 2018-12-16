@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicatePtr(Const fl
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorReplicatePtr, XMVectorReplicatePtr, XMVectorReplicatePtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: 4ecc371c-34fa-4073-96fe-0de03b84d7e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

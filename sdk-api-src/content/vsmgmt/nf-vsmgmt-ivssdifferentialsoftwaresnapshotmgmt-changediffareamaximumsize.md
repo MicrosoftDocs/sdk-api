@@ -9,8 +9,6 @@ ms.assetid: c7773fa8-6b43-46bf-b644-0016b261c080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeDiffAreaMaximumSize, ChangeDiffAreaMaximumSize method [VSS], ChangeDiffAreaMaximumSize method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],ChangeDiffAreaMaximumSize method, IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize, IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize, base.ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

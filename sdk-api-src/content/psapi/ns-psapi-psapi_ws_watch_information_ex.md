@@ -9,8 +9,6 @@ ms.assetid: fb0429b1-ec93-401c-aeb1-f7e9d9acfa47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION_EX, PSAPI_WS_WATCH_INFORMATION_EX structure [PSAPI], base.psapi_ws_watch_information_ex, psapi.psapi_ws_watch_information_ex, psapi/PPSAPI_WS_WATCH_INFORMATION_EX, psapi/PSAPI_WS_WATCH_INFORMATION_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

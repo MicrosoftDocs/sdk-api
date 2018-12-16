@@ -9,8 +9,6 @@ ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

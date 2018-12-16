@@ -9,8 +9,6 @@ ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

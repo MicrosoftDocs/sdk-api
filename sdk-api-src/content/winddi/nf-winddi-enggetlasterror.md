@@ -9,8 +9,6 @@ ms.assetid: 47138077-125e-4da9-b0de-e437a9b1733d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngGetLastError, EngGetLastError function [Display Devices], display.enggetlasterror, gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml, winddi/EngGetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

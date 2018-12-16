@@ -9,8 +9,6 @@ ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

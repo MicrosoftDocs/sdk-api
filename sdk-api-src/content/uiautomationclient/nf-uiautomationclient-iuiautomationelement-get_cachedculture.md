@@ -9,8 +9,6 @@ ms.assetid: 9961ee21-d9b7-4ff6-a8ee-ad45ba1cd142
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedCulture property [Windows Accessibility], CachedCulture property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedCulture property, IUIAutomationElement.CachedCulture, IUIAutomationElement.get_CachedCulture, IUIAutomationElement::CachedCulture, IUIAutomationElement::get_CachedCulture, get_CachedCulture, uiauto.uiauto_IUIAutomationElement_CachedCulture, uiauto_IUIAutomationElement_CachedCulture, uiautomationclient/IUIAutomationElement::CachedCulture, uiautomationclient/IUIAutomationElement::get_CachedCulture, winauto.uiauto_IUIAutomationElement_CachedCulture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

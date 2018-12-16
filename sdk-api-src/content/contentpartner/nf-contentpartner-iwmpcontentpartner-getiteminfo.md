@@ -9,8 +9,6 @@ ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

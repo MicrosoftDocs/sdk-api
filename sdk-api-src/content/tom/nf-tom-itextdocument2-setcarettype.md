@@ -9,8 +9,6 @@ ms.assetid: 40d34482-cf07-4401-ad02-f5d1b0184976
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetCaretType method, ITextDocument2.SetCaretType, ITextDocument2::SetCaretType, SetCaretType, SetCaretType method [Windows Controls], SetCaretType method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setcarettype, tom/ITextDocument2::SetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

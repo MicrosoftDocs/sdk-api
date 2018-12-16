@@ -9,8 +9,6 @@ ms.assetid: 731A60CA-644A-4FC2-8461-DDD686363BED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFence, CreateFence method, CreateFence method,ID3D12Device interface, ID3D12Device interface,CreateFence method, ID3D12Device.CreateFence, ID3D12Device::CreateFence, d3d12/ID3D12Device::CreateFence, direct3d12.id3d12device_createfence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

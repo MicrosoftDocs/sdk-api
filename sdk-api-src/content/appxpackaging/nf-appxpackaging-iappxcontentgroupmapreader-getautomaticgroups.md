@@ -9,8 +9,6 @@ ms.assetid: 3A5FE3A2-8D0D-4073-94FE-B0AC5DBF2D25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxContentGroupMapReader.GetAutomaticGroups, IAppxContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxcontentgroupmapreader_getautomaticgroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

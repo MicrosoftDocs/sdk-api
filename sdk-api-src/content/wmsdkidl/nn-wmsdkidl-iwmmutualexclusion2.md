@@ -9,8 +9,6 @@ ms.assetid: 4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], IWMMutualExclusion2 interface [windows Media Format],described, IWMMutualExclusion2Interface, wmformat.iwmmutualexclusion2, wmsdkidl/IWMMutualExclusion2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

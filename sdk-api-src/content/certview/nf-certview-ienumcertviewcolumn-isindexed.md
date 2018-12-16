@@ -9,8 +9,6 @@ ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

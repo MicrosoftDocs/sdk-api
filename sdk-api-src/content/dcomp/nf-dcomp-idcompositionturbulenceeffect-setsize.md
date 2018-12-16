@@ -9,8 +9,6 @@ ms.assetid: A25788DC-83EE-455F-BC73-67639F47FFEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSize method, IDCompositionTurbulenceEffect.SetSize, IDCompositionTurbulenceEffect::SetSize, SetSize, SetSize method [DirectComposition], SetSize method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSize, directcomp.idcompositionturbulenceeffect_setsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

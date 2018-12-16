@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntXPtr(uint32_t@,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorGetIntXPtr, XMVectorGetIntXPtr, XMVectorGetIntXPtr method [DirectX Math Support APIs], dxmath.xmvectorgetintxptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

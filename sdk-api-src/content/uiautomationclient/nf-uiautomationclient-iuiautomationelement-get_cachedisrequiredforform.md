@@ -9,8 +9,6 @@ ms.assetid: d1edcdfb-0020-4d38-a1e7-4b2d9555bd21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedIsRequiredForForm property [Windows Accessibility], CachedIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsRequiredForForm property, IUIAutomationElement.CachedIsRequiredForForm, IUIAutomationElement.get_CachedIsRequiredForForm, IUIAutomationElement::CachedIsRequiredForForm, IUIAutomationElement::get_CachedIsRequiredForForm, get_CachedIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CachedIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

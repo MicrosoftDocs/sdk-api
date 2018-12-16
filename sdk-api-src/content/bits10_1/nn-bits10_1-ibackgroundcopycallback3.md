@@ -9,8 +9,6 @@ ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyCallback3, IBackgroundCopyCallback3 interface [BITS], IBackgroundCopyCallback3 interface [BITS],described, bits.ibackgroundcopycallback3, bits10_1/IBackgroundCopyCallback3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bits10_1.h
 req.include-header: Bits.h

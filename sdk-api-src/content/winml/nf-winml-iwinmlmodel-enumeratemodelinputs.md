@@ -9,8 +9,6 @@ ms.assetid: A87B24B0-9463-4022-9054-08F3D7BA5034
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateModelInputs, EnumerateModelInputs method, EnumerateModelInputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelInputs method, IWinMLModel.EnumerateModelInputs, IWinMLModel::EnumerateModelInputs, MachineLearning.iwinmlmodel_enumeratemodelinputs, winml/IWinMLModel::EnumerateModelInputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 

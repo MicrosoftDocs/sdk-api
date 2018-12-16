@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroot
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSearchRoots interface [search],Reset method, IEnumSearchRoots.Reset, IEnumSearchRoots::Reset, Reset, Reset method [search], Reset method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Reset, search._search_IEnumSearchRoots_Reset, searchapi/IEnumSearchRoots::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

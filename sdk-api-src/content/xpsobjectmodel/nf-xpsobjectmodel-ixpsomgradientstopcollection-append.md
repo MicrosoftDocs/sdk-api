@@ -9,8 +9,6 @@ ms.assetid: 475794d5-e921-4bbd-aa71-cdbed7cb1dff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],Append method, IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

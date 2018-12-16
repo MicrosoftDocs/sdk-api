@@ -9,8 +9,6 @@ ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

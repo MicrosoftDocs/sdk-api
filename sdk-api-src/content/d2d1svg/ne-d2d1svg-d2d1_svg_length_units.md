@@ -9,8 +9,6 @@ ms.assetid: 1C0BDB9A-197F-42E1-87BB-3E8C8DE621BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_LENGTH_UNITS, D2D1_SVG_LENGTH_UNITS enumeration [Direct2D], D2D1_SVG_LENGTH_UNITS_FORCE_DWORD, D2D1_SVG_LENGTH_UNITS_NUMBER, D2D1_SVG_LENGTH_UNITS_PERCENTAGE, d2d1svg/D2D1_SVG_LENGTH_UNITS, d2d1svg/D2D1_SVG_LENGTH_UNITS_FORCE_DWORD, d2d1svg/D2D1_SVG_LENGTH_UNITS_NUMBER, d2d1svg/D2D1_SVG_LENGTH_UNITS_PERCENTAGE, direct2d.d2d1_svg_length_units
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 

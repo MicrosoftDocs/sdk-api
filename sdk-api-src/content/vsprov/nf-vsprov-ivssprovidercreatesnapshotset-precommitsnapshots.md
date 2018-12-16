@@ -9,8 +9,6 @@ ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreCommitSnapshots method, IVssProviderCreateSnapshotSet.PreCommitSnapshots, IVssProviderCreateSnapshotSet::PreCommitSnapshots, PreCommitSnapshots, PreCommitSnapshots method [VSS], PreCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_precommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

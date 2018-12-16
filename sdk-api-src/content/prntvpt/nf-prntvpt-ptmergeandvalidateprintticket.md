@@ -9,8 +9,6 @@ ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

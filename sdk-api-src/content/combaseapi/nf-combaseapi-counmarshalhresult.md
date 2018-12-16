@@ -9,8 +9,6 @@ ms.assetid: a45ef72c-d385-4012-9683-7d2cc6d68b6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

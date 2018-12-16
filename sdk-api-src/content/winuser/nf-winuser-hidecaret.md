@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreferenc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HideCaret, HideCaret function [Menus and Other Resources], _win32_HideCaret, _win32_hidecaret_cpp, menurc.hidecaret, winui._win32_hidecaret, winuser/HideCaret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

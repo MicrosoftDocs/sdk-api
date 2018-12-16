@@ -9,8 +9,6 @@ ms.assetid: 9ec8c0ed-2fed-4701-acb5-86b69c10f18c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], ITDirectory interface [TAPI 2.2],described, _tapi3_itdirectory, rend/ITDirectory, tapi3.itdirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

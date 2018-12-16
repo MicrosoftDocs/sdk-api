@@ -9,8 +9,6 @@ ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],GetCount method, IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

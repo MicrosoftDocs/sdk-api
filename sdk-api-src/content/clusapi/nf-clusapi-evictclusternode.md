@@ -9,8 +9,6 @@ ms.assetid: 0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvictClusterNode, EvictClusterNode function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE, PCLUSAPI_EVICT_CLUSTER_NODE function [Failover Cluster], _wolf_evictclusternode, clusapi/EvictClusterNode, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE, mscs.evictclusternode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

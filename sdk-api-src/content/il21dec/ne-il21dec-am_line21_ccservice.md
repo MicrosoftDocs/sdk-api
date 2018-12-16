@@ -9,8 +9,6 @@ ms.assetid: dd2b618f-ffbf-4d48-bbe8-6d237a0f54e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAM_LINE21_CCSERVICE, AM_L21_CCSERVICE_Caption1, AM_L21_CCSERVICE_Caption2, AM_L21_CCSERVICE_None, AM_L21_CCSERVICE_Text1, AM_L21_CCSERVICE_Text2, AM_L21_CCSERVICE_XDS, AM_LINE21_CCSERVICE, AM_LINE21_CCSERVICE , AM_LINE21_CCSERVICE enumeration [DirectShow], AM_LINE21_CCSERVICEEnumeration, PAM_LINE21_CCSERVICE, PAM_LINE21_CCSERVICE enumeration pointer [DirectShow], dshow.am_line21_ccservice, il21dec/AM_L21_CCSERVICE_Caption1, il21dec/AM_L21_CCSERVICE_Caption2, il21dec/AM_L21_CCSERVICE_None, il21dec/AM_L21_CCSERVICE_Text1, il21dec/AM_L21_CCSERVICE_Text2, il21dec/AM_L21_CCSERVICE_XDS, il21dec/AM_LINE21_CCSERVICE, il21dec/PAM_LINE21_CCSERVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

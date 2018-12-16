@@ -9,8 +9,6 @@ ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

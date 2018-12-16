@@ -9,8 +9,6 @@ ms.assetid: 0a53c070-efed-4105-8dce-60647869a93f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_MAKE_VERSION, CLUSTER_MAKE_VERSION macro [Failover Cluster], _wolf_cluster_make_version, clusapi/CLUSTER_MAKE_VERSION, mscs.cluster_make_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

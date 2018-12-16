@@ -9,8 +9,6 @@ ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 

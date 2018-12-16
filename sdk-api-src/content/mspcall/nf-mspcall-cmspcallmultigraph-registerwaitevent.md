@@ -9,8 +9,6 @@ ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RegisterWaitEvent method, CMSPCallMultiGraph.RegisterWaitEvent, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

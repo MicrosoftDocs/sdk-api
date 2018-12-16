@@ -9,8 +9,6 @@ ms.assetid: CE840EE8-5EB6-4F0F-935E-5DA9097E950F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

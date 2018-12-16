@@ -9,8 +9,6 @@ ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

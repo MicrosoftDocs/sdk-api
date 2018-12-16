@@ -9,8 +9,6 @@ ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 56ba6126-c3c7-4cbd-9209-7638452d5782
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferV2SourceEvent.RatingsChanged, IMSVidStreamBufferV2SourceEvent::RatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratingschanged, segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

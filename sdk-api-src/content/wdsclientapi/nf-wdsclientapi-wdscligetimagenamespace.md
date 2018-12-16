@@ -9,8 +9,6 @@ ms.assetid: 30396f0b-77bb-4c43-86a0-2d4454a05b72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

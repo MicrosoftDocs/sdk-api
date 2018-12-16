@@ -9,8 +9,6 @@ ms.assetid: 6b56e664-7795-4e30-8bca-1e4df2764606
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

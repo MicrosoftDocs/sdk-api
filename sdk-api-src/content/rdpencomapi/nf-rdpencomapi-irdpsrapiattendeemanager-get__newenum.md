@@ -9,8 +9,6 @@ ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager.get__NewEnum, IRDPSRAPIAttendeeManager::_NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP],RDPSRAPIAttendeeManager object, get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

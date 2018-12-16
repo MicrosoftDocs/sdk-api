@@ -9,8 +9,6 @@ ms.assetid: 86dd2c5c-f853-4954-b245-6aa51d157600
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_DrawDibTime, multimedia.drawdibtime, vfw/DrawDibTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9de29d43-0677-4dc9-927f-af7c01179991
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Application_NewSerializer, MI_Application_NewSerializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSerializer, wmi_v2.mi_application_newserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

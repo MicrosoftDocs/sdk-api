@@ -9,8 +9,6 @@ ms.assetid: 38cc4726-4b61-4f4b-9719-161297361f45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],MoveComponents method, ICOMAdminCatalog2.MoveComponents, ICOMAdminCatalog2::MoveComponents, MoveComponents, MoveComponents method [COM+], MoveComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_MoveComponents, comadmin/ICOMAdminCatalog2::MoveComponents, cos.icomadmincatalog2_movecomponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

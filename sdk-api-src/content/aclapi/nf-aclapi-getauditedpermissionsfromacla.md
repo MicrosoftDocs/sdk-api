@@ -9,8 +9,6 @@ ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function [Security], GetAuditedPermissionsFromAclA, GetAuditedPermissionsFromAclW, _win32_getauditedpermissionsfromacl, aclapi/GetAuditedPermissionsFromAcl, aclapi/GetAuditedPermissionsFromAclA, aclapi/GetAuditedPermissionsFromAclW, security.getauditedpermissionsfromacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

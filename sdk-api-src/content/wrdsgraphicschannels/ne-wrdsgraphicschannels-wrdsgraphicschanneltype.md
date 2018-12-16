@@ -9,8 +9,6 @@ ms.assetid: 79B63FCD-6BCD-44E6-A5C3-6F5E1336DAA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WRdsGraphicsChannelType, WRdsGraphicsChannelType enumeration [Remote Desktop Services], WRdsGraphicsChannelType_BestEffortDelivery, WRdsGraphicsChannelType_GuaranteedDelivery, termserv.wrdsgraphicschanneltype, wrdsgraphicschannels/WRdsGraphicsChannelType, wrdsgraphicschannels/WRdsGraphicsChannelType_BestEffortDelivery, wrdsgraphicschannels/WRdsGraphicsChannelType_GuaranteedDelivery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wrdsgraphicschannels.h
 req.include-header: 

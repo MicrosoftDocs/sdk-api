@@ -9,8 +9,6 @@ ms.assetid: 5BFBB0E4-2448-44B1-B2F3-68AB8392C3A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetIsOnLockScreen method, IApplicationDesignModeSettings2.SetIsOnLockScreen, IApplicationDesignModeSettings2::SetIsOnLockScreen, SetIsOnLockScreen, SetIsOnLockScreen method [Windows Shell], SetIsOnLockScreen method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetIsOnLockScreen, shobjidl_core/IApplicationDesignModeSettings2::SetIsOnLockScreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

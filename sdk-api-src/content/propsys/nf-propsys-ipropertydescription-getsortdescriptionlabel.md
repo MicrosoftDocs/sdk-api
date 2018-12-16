@@ -9,8 +9,6 @@ ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

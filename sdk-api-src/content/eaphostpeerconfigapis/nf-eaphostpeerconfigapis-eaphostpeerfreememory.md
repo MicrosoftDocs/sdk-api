@@ -9,8 +9,6 @@ ms.assetid: 162c796c-b9dc-465a-a1bc-f11d740f3fa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerFreeMemory, EapHostPeerFreeMemory function [EAPHost], eaphost.eaphostpeerfreememory, eaphostpeerconfigapis/EapHostPeerFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

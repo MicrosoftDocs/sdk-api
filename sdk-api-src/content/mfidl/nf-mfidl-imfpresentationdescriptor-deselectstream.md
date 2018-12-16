@@ -9,8 +9,6 @@ ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],DeselectStream method, IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

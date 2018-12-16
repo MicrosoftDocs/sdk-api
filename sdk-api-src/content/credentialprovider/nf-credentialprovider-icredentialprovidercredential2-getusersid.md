@@ -9,8 +9,6 @@ ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserSid, GetUserSid method [Windows Shell], GetUserSid method [Windows Shell],ICredentialProviderCredential2 interface, ICredentialProviderCredential2 interface [Windows Shell],GetUserSid method, ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

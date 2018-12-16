@@ -9,8 +9,6 @@ ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h

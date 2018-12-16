@@ -9,8 +9,6 @@ ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

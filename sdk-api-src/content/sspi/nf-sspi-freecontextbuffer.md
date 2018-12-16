@@ -9,8 +9,6 @@ ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

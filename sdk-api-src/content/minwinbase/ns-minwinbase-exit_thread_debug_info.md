@@ -9,8 +9,6 @@ ms.assetid: 8c135992-2adc-4c7a-bd64-130d4d8ef16c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPEXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO structure, LPEXIT_THREAD_DEBUG_INFO, LPEXIT_THREAD_DEBUG_INFO structure pointer, _EXIT_THREAD_DEBUG_INFO, _win32_exit_thread_debug_info_str, base.exit_thread_debug_info_str, minwinbase/EXIT_THREAD_DEBUG_INFO, minwinbase/LPEXIT_THREAD_DEBUG_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

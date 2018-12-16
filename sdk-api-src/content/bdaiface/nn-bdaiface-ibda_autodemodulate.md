@@ -9,8 +9,6 @@ ms.assetid: 91588290-bae9-4c6d-9ec7-5d3777208e2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_AutoDemodulate, IBDA_AutoDemodulate interface [Microsoft TV Technologies], IBDA_AutoDemodulate interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateInterface, bdaiface/IBDA_AutoDemodulate, mstv.ibda_autodemodulate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

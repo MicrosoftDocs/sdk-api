@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\getimagedlg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImageDlg, GetImageDlg method [WIA], GetImageDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],GetImageDlg method, IWiaDevMgr.GetImageDlg, IWiaDevMgr::GetImageDlg, _wia_IWiaDevMgr_GetImageDlg, wia._wia_IWiaDevMgr_GetImageDlg, wia_xp/IWiaDevMgr::GetImageDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

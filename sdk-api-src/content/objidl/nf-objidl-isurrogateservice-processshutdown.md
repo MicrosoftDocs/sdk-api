@@ -9,8 +9,6 @@ ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogateService.ProcessShutdown, ISurrogateService::ProcessShutdown, ProcessShutdown, ProcessShutdown method [COM], ProcessShutdown method [COM],ISurrogateService interface, _com_isurrogateservice_processshutdown, com.isurrogateservice_processshutdown, objidl/ISurrogateService::ProcessShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

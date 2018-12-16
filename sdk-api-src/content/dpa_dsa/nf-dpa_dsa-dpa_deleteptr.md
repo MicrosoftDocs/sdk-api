@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

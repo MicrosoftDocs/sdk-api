@@ -9,8 +9,6 @@ ms.assetid: db84a33c-bd83-46cb-a97c-76ddeeb74927
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDataUnitExtension, AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],AddDataUnitExtension method, IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: a846d09f-9fa3-4749-86c8-b57e69b297dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_VERIFY_SERVICE, PRESUTIL_VERIFY_SERVICE function [Failover Cluster], ResUtilVerifyService, ResUtilVerifyService function [Failover Cluster], _wolf_resutilverifyservice, mscs.resutilverifyservice, resapi/PRESUTIL_VERIFY_SERVICE, resapi/ResUtilVerifyService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

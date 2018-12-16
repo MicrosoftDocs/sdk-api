@@ -9,8 +9,6 @@ ms.assetid: 71DEF64E-A372-47BF-B5CD-96A1524FD459
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IS_POINTER_FOURTHBUTTON_WPARAM, IS_POINTER_FOURTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fourthbutton_wparam, winuser/IS_POINTER_FOURTHBUTTON_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 5094f2d3-caa7-4085-aebe-306a7b05b591
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO interface [DirectShow],Next method, IEnumDMO.Next, IEnumDMO::Next, IEnumDMONext, Next, Next method [DirectShow], Next method [DirectShow],IEnumDMO interface, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

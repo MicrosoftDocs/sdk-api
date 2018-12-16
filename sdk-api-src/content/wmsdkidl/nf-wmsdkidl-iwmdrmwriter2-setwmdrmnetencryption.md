@@ -9,8 +9,6 @@ ms.assetid: ecbc7dda-de24-40ce-9c42-44a14ab63881
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryption method, IWMDRMWriter2.SetWMDRMNetEncryption, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format],IWMDRMWriter2 interface, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

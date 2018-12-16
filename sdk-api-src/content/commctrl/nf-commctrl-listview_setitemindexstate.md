@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windows Controls], _shell_ListView_SetItemIndexState, _shell_ListView_SetItemIndexState_cpp, commctrl/ListView_SetItemIndexState, controls.ListView_SetItemIndexState, controls._shell_ListView_SetItemIndexState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

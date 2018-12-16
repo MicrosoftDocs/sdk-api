@@ -9,8 +9,6 @@ ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

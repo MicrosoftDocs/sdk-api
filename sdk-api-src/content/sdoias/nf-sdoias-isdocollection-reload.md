@@ -9,8 +9,6 @@ ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Reload method, ISdoCollection.Reload, ISdoCollection::Reload, Reload, Reload method [Network Policy Server], Reload method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

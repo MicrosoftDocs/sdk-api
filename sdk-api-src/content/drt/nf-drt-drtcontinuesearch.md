@@ -9,8 +9,6 @@ ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtContinueSearch, DrtContinueSearch function [Peer Networking], drt/DrtContinueSearch, p2p.drtcontinuesearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

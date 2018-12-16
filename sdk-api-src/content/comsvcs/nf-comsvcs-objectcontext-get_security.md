@@ -9,8 +9,6 @@ ms.assetid: a160d214-b807-47cd-a712-b4cad941a157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ObjectContext interface [COM+],get_Security method, ObjectContext.get_Security, ObjectContext::get_Security, _cos_ObjectContext_get_Security, comsvcs/ObjectContext::get_Security, cos.objectcontext_get_security, get_Security, get_Security method [COM+], get_Security method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

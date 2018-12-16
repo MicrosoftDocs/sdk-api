@@ -9,8 +9,6 @@ ms.assetid: 682d4076-dc65-4291-8a82-981f207ae432
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE structure [Security], PKERB_RETRIEVE_TKT_RESPONSE, PKERB_RETRIEVE_TKT_RESPONSE structure pointer [Security], _lsa_kerb_retrieve_tkt_response, ntsecapi/KERB_RETRIEVE_TKT_RESPONSE, ntsecapi/PKERB_RETRIEVE_TKT_RESPONSE, security.kerb_retrieve_tkt_response"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

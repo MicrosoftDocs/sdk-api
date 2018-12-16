@@ -9,8 +9,6 @@ ms.assetid: 84E7305D-1E2D-43C3-8E79-02EBCC8F36A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1GdiMetafile interface [Direct2D],Stream method, ID2D1GdiMetafile.Stream, ID2D1GdiMetafile::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1GdiMetafile interface, d2d1_1/ID2D1GdiMetafile::Stream, direct2d.id2d1gdimetafile_stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

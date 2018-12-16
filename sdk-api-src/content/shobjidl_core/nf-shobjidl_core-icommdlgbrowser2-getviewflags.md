@@ -9,8 +9,6 @@ ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

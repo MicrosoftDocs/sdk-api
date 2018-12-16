@@ -9,8 +9,6 @@ ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_SET_DRIVELETTER, PCLUS_STORAGE_SET_DRIVELETTER structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_SET_DRIVELETTER, clusapi/PCLUS_STORAGE_SET_DRIVELETTER, mscs.clus_storage_set_driveletter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

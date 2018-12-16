@@ -9,8 +9,6 @@ ms.assetid: 6B9AEEB9-559A-4B7B-A4B5-1C976B92BE7B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice.CreateScaleTransform3D, IDCompositionDevice::CreateScaleTransform3D, dcomp/IDCompositionDevice::CreateScaleTransform3D, directcomp.idcompositiondevice_createscaletransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

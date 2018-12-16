@@ -9,8 +9,6 @@ ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

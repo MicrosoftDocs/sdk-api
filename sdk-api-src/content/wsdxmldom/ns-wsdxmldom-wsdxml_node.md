@@ -9,8 +9,6 @@ ms.assetid: 10c918b2-a7b9-4ebb-a884-64877bebb973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXML_NODE, WSDXML_NODE structure, _WSDXML_NODE, ncd.wsdxml_node_struct, wsdxmldom/WSDXML_NODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

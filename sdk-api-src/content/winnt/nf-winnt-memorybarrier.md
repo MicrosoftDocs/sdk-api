@@ -9,8 +9,6 @@ ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPPRINTHOOKPROC, LPPRINTHOOKPROC callback, LPPRINTHOOKPROC callback function [Dialog Boxes], _win32_PrintHookProc, _win32_printhookproc_cpp, commdlg/LPPRINTHOOKPROC, dlgbox.printhookproc, winui._win32_printhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: commdlg.h
 req.include-header: Windows.h

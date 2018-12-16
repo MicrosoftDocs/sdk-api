@@ -9,8 +9,6 @@ ms.assetid: f1e5790a-3cac-4e0e-8a3f-b21afe2711ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsStopped method, IWMWriterFileSink2.IsStopped, IWMWriterFileSink2::IsStopped, IWMWriterFileSink2IsStopped, IsStopped, IsStopped method [windows Media Format], IsStopped method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isstopped, wmsdkidl/IWMWriterFileSink2::IsStopped
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

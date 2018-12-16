@@ -9,8 +9,6 @@ ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

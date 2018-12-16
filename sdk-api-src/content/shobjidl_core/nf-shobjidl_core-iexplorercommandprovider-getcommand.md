@@ -9,8 +9,6 @@ ms.assetid: 8ef1fb9d-03ed-4e1a-bc13-9f5caab2abb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCommand, GetCommand method [Windows Shell], GetCommand method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommand method, IExplorerCommandProvider.GetCommand, IExplorerCommandProvider::GetCommand, _shell_IExplorerCommandProvider_GetCommand, shell.IExplorerCommandProvider_GetCommand, shobjidl_core/IExplorerCommandProvider::GetCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: bd0f96ec-d26a-4e6f-8802-50e8ff207f54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Windows Multimedia], _win32_WAVEFORMATEX_str, mmeapi/WAVEFORMATEX, multimedia.waveformatex, tWAVEFORMATEX, tWAVEFORMATEX structure [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Mmreg.h

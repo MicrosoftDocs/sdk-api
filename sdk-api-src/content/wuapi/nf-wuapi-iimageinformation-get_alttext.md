@@ -9,8 +9,6 @@ ms.assetid: b64f1d4f-6f37-4728-b2e5-f9c408d9909e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AltText property [Windows Update Agent], AltText property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],AltText property, IImageInformation.AltText, IImageInformation.get_AltText, IImageInformation::AltText, IImageInformation::get_AltText, get_AltText, wua.iimageinformation_alttext, wuapi/IImageInformation::AltText, wuapi/IImageInformation::get_AltText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

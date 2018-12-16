@@ -9,8 +9,6 @@ ms.assetid: 55208226-fd2d-48e5-887b-34e95309a770
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IToc interface [Media Foundation],SetDescriptor method, IToc.SetDescriptor, IToc::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],IToc interface, codecapi.itoc_setdescriptor, mf.itoc_setdescriptor, wmcodecdsp/IToc::SetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

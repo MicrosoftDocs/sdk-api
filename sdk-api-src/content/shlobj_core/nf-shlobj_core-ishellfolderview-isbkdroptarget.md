@@ -9,8 +9,6 @@ ms.assetid: 6de58057-2bcd-480e-8b4a-6e59aad168dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderView interface [Windows Shell],IsBkDropTarget method, IShellFolderView.IsBkDropTarget, IShellFolderView::IsBkDropTarget, IsBkDropTarget, IsBkDropTarget method [Windows Shell], IsBkDropTarget method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_IsBkDropTarget, shell.IShellFolderView_IsBkDropTarget, shlobj_core/IShellFolderView::IsBkDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

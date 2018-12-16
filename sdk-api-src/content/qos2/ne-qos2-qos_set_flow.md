@@ -9,8 +9,6 @@ ms.assetid: 986652bc-df2f-4210-bf9c-1a5d8c3ee773
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PQOS_SET_FLOW, PQOS_SET_FLOW, PQOS_SET_FLOW enumeration pointer [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, QOS_SET_FLOW, QOS_SET_FLOW enumeration [QOS], qos.qos_set_flow, qos2/PQOS_SET_FLOW, qos2/QOSSetOutgoingDSCPValue, qos2/QOSSetOutgoingRate, qos2/QOSSetTrafficType, qos2/QOS_SET_FLOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 

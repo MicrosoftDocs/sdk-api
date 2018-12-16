@@ -9,8 +9,6 @@ ms.assetid: fc1f38af-2fe8-4c08-b6f8-312dd4771141
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], ICaptionServiceDescriptor interface [Microsoft TV Technologies],described, ICaptionServiceDescriptorInterface, atscpsipparser/ICaptionServiceDescriptor, mstv.icaptionservicedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

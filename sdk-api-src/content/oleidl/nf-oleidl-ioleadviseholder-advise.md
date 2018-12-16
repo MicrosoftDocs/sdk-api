@@ -9,8 +9,6 @@ ms.assetid: 60bbb555-7d01-49cb-b7b3-9dc905066f94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],Advise method, IOleAdviseHolder.Advise, IOleAdviseHolder::Advise, _ole_ioleadviseholder_advise, com.ioleadviseholder_advise, oleidl/IOleAdviseHolder::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

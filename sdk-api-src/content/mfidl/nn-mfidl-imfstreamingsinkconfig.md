@@ -9,8 +9,6 @@ ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

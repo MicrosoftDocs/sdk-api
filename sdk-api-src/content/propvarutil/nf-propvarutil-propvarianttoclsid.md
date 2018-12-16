@@ -9,8 +9,6 @@ ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

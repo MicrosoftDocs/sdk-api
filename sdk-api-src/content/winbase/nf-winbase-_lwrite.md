@@ -9,8 +9,6 @@ ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

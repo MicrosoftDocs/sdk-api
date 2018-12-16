@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterv
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

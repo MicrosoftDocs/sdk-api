@@ -9,8 +9,6 @@ ms.assetid: 69ec720a-67b3-4cd7-b291-feb303ab1803
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],put_IsRealTime method, IFsiFileItem2.put_IsRealTime, IFsiFileItem2::put_IsRealTime, imapi.ifsifileitem2_put_isrealtime, imapi2fs/IFsiFileItem2::put_IsRealTime, put_IsRealTime, put_IsRealTime method [IMAPI], put_IsRealTime method [IMAPI],IFsiFileItem2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

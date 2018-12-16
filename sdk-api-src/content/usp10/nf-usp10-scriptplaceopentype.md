@@ -9,8 +9,6 @@ ms.assetid: dd456988-ec9d-4e62-a93f-753ac08a18d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptPlaceOpenType, ScriptPlaceOpenType function [Internationalization for Windows Applications], _win32_ScriptPlaceOpenType, intl.scriptplaceopentype, usp10/ScriptPlaceOpenType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

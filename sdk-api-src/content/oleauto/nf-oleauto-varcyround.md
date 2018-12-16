@@ -9,8 +9,6 @@ ms.assetid: d1292247-cf8a-46cc-94c9-858ec5d8cad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyRound, VarCyRound function [Automation], _oa96_VarCyRound, automat.varcyround, oleauto/VarCyRound
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

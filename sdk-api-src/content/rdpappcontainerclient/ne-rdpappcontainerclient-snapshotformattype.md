@@ -9,8 +9,6 @@ ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpappcontainerclient.h
 req.include-header: 

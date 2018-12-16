@@ -9,8 +9,6 @@ ms.assetid: 5b3c44bc-a06e-4990-90f4-344def852ca9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_UTF8_TEXT, WS_XML_UTF8_TEXT structure [Web Services for Windows], webservices/WS_XML_UTF8_TEXT, wsw.ws_xml_utf8_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5d6e7147-b312-4989-8d8f-88cb2221f6f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5d6e7147-b312-4989-8d8f-88cb2221f6f0, IInkStrokes interface [Tablet PC],RecognitionResult property, IInkStrokes.RecognitionResult, IInkStrokes.get_RecognitionResult, IInkStrokes::RecognitionResult, IInkStrokes::get_RecognitionResult, InkStrokes.get_RecognitionResult, RecognitionResult property [Tablet PC], RecognitionResult property [Tablet PC],IInkStrokes interface, get_RecognitionResult, msinkaut/IInkStrokes::RecognitionResult, msinkaut/IInkStrokes::get_RecognitionResult, put_RecognitionResult, tablet.inkstrokes_recognitionresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

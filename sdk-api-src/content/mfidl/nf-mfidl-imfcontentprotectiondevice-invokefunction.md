@@ -9,8 +9,6 @@ ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

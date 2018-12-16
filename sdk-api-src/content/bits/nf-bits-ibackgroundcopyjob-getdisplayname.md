@@ -9,8 +9,6 @@ ms.assetid: 934cff3e-d4b8-4b76-96e1-fd7ded1842eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [BITS], GetDisplayName method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDisplayName method, IBackgroundCopyJob.GetDisplayName, IBackgroundCopyJob::GetDisplayName, _drz_ibackgroundcopyjob_getdisplayname, bits.ibackgroundcopyjob_getdisplayname, bits/IBackgroundCopyJob::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

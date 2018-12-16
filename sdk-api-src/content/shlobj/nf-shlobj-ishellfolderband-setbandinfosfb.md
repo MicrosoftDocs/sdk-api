@@ -9,8 +9,6 @@ ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 

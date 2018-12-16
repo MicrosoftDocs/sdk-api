@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\def
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IRelationship interface, IRelationship interface [search],DefaultPhrase method, IRelationship.DefaultPhrase, IRelationship::DefaultPhrase, _search_IRelationship_DefaultPhrase, search._search_IRelationship_DefaultPhrase, structuredquery/IRelationship::DefaultPhrase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

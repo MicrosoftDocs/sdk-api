@@ -9,8 +9,6 @@ ms.assetid: 323D649D-B381-4293-BE7C-64651862B9DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE enumeration [Bluetooth Devices], CharacteristicAggregateFormat, CharacteristicExtendedProperties, CharacteristicFormat, CharacteristicUserDescription, ClientCharacteristicConfiguration, CustomDescriptor, ServerCharacteristicConfiguration, bltooth.bth_le_gatt_descriptor_type, bthledef/BTH_LE_GATT_DESCRIPTOR_TYPE, bthledef/CharacteristicAggregateFormat, bthledef/CharacteristicExtendedProperties, bthledef/CharacteristicFormat, bthledef/CharacteristicUserDescription, bthledef/ClientCharacteristicConfiguration, bthledef/CustomDescriptor, bthledef/ServerCharacteristicConfiguration"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bthledef.h
 req.include-header: BthLEDef.h

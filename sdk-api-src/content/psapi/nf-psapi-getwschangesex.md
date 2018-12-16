@@ -9,8 +9,6 @@ ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

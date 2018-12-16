@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_8jqd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],InitErrorCode property, IFaxInboundRoutingExtension.InitErrorCode, IFaxInboundRoutingExtension.get_InitErrorCode, IFaxInboundRoutingExtension::InitErrorCode, IFaxInboundRoutingExtension::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.initerrorcode, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_initerrorcode_cpp, fax._mfax_faxinboundroutingextension_initerrorcode, faxcomex/IFaxInboundRoutingExtension::InitErrorCode, faxcomex/IFaxInboundRoutingExtension::get_InitErrorCode, get_InitErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

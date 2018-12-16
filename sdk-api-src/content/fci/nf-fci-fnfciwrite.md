@@ -9,8 +9,6 @@ ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

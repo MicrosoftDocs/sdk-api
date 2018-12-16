@@ -9,8 +9,6 @@ ms.assetid: 699DB053-3897-43EC-92E2-BD45CE643130
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMatrixTransform3D, CreateMatrixTransform3D method [DirectComposition], CreateMatrixTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform3D method, IDCompositionDevice.CreateMatrixTransform3D, IDCompositionDevice::CreateMatrixTransform3D, dcomp/IDCompositionDevice::CreateMatrixTransform3D, directcomp.idcompositiondevice_creatematrixtransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

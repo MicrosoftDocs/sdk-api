@@ -9,8 +9,6 @@ ms.assetid: 89A4F321-26BE-4175-A052-FE5734DDB524
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSurfaceFromHwnd, CreateSurfaceFromHwnd method [DirectComposition], CreateSurfaceFromHwnd method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateSurfaceFromHwnd method, IDCompositionDesktopDevice.CreateSurfaceFromHwnd, IDCompositionDesktopDevice::CreateSurfaceFromHwnd, dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHwnd, directcomp.idcompositiondesktopdevice_createsurfacefromhwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

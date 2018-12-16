@@ -9,8 +9,6 @@ ms.assetid: 799f26c7-925e-4669-9571-128e10c51e9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnBeginFile method, IFsrmClassifierModuleImplementation.OnBeginFile, IFsrmClassifierModuleImplementation::OnBeginFile, OnBeginFile, OnBeginFile method [File Server Resource Manager], OnBeginFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onbeginfile, fsrm.ifsrmclassifiermoduleimplementation_onbeginfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnBeginFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

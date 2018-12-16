@@ -9,8 +9,6 @@ ms.assetid: c918d156-ad32-4a0c-83cc-dd37fe884744
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [Open Packaging Conventions], GetSignatureValue method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureValue method, IOpcDigitalSignature.GetSignatureValue, IOpcDigitalSignature::GetSignatureValue, msopc/IOpcDigitalSignature::GetSignatureValue, opc.iopcdigitalsignature_getsignaturevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

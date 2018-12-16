@@ -9,8 +9,6 @@ ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],IProvideClassInfo interface, IProvideClassInfo interface [COM],GetClassInfo method, IProvideClassInfo.GetClassInfo, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221696(v=VS.85).aspx">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/">coclass</a> entry in a type library.
+Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221696(v=VS.85).aspx">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/2c636327-ad18-4087-b495-d1aa84a07f48">coclass</a> entry in a type library.
 
 
 

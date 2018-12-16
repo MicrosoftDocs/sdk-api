@@ -9,8 +9,6 @@ ms.assetid: CFFEFEDC-F614-4DD4-B1A1-4D236339E817
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMESHF, IMESHF structure [Internationalization for Windows Applications], PIMESHF, PIMESHF structure pointer [Internationalization for Windows Applications], intl.imeshf, msime/IMESHF, msime/PIMESHF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

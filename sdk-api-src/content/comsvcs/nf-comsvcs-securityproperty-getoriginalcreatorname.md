@@ -9,8 +9,6 @@ ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOriginalCreatorName, GetOriginalCreatorName method [COM+], GetOriginalCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCreatorName method, SecurityProperty.GetOriginalCreatorName, SecurityProperty::GetOriginalCreatorName, _cos_SecurityProperty_GetOriginalCreatorName, comsvcs/SecurityProperty::GetOriginalCreatorName, cos.securityproperty_getoriginalcreatorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

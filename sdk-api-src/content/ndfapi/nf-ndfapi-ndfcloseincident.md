@@ -9,8 +9,6 @@ ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPIObjectEvent2, ITTAPIObjectEvent2 interface [TAPI 2.2], ITTAPIObjectEvent2 interface [TAPI 2.2],described, _tapi3_ittapiobjectevent2, tapi3.ittapiobjectevent2, tapi3if/ITTAPIObjectEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

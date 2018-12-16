@@ -9,8 +9,6 @@ ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

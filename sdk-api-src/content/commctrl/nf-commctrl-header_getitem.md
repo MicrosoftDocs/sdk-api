@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Header_GetItem, Header_GetItem macro [Windows Controls], _win32_Header_GetItem, _win32_Header_GetItem_cpp, commctrl/Header_GetItem, controls.Header_GetItem, controls._win32_Header_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

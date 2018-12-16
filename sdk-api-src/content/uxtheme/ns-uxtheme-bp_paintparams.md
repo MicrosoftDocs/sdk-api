@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBP_PAINTPARAMS, BPPF_ERASE, BPPF_NOCLIP, BPPF_NONCLIENT, BP_PAINTPARAMS, BP_PAINTPARAMS structure [Windows Controls], PBP_PAINTPARAMS, PBP_PAINTPARAMS structure pointer [Windows Controls], _shell_BP_PAINTPARAMS, _shell_BP_PAINTPARAMS_cpp, controls.BP_PAINTPARAMS, controls._shell_BP_PAINTPARAMS, uxtheme/BP_PAINTPARAMS, uxtheme/PBP_PAINTPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 

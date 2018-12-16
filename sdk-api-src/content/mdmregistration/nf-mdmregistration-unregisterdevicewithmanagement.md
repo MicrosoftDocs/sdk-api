@@ -9,8 +9,6 @@ ms.assetid: 4095197d-40c9-4f51-b28f-fd2fd6d0bba2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterDeviceWithManagement, UnregisterDeviceWithManagement function [MDM Registration], mdmreg.unregisterdevicewithmanagement, mdmregistration/UnregisterDeviceWithManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

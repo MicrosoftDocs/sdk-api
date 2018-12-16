@@ -9,8 +9,6 @@ ms.assetid: EA010DA4-2D13-41E9-B3E4-AD84AAF4E3FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetApplication method, IXamlDiagnostics.GetApplication, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

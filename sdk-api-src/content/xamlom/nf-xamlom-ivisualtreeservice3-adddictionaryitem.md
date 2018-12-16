@@ -9,8 +9,6 @@ ms.assetid: 86590A71-8BFC-4214-9F7C-1DF5B8391552
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDictionaryItem, AddDictionaryItem method, AddDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,AddDictionaryItem method, IVisualTreeService3.AddDictionaryItem, IVisualTreeService3::AddDictionaryItem, xaml_diagnostics.ivisualtreeservice3_adddictionaryitem, xamlom/IVisualTreeService3::AddDictionaryItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

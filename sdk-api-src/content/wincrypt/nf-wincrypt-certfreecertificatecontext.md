@@ -9,8 +9,6 @@ ms.assetid: 7d2f3237-3f8b-4234-b6db-3057384cd89b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFreeCertificateContext, CertFreeCertificateContext function [Security], _crypto2_certfreecertificatecontext, security.certfreecertificatecontext, wincrypt/CertFreeCertificateContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

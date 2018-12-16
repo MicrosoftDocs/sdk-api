@@ -9,8 +9,6 @@ ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], IRemoteDesktopClientActions interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientActions, termserv.iremotedesktopclientactions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 

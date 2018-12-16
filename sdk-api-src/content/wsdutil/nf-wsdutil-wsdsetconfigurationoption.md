@@ -9,8 +9,6 @@ ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

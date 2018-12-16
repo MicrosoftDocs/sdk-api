@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\rot
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pen class [GDI+],RotateTransform method, Pen.RotateTransform, Pen::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Pen_RotateTransform_angle_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

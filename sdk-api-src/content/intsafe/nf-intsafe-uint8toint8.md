@@ -9,8 +9,6 @@ ms.assetid: e62784c6-0a26-4b3a-a9cc-0ab7b64ff37c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UInt8ToInt8, UInt8ToInt8 function [Windows Shell], intsafe/UInt8ToInt8, shell.UInt8ToInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

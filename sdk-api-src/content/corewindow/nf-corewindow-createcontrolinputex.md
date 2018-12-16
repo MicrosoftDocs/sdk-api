@@ -9,8 +9,6 @@ ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: corewindow.h
 req.include-header: 

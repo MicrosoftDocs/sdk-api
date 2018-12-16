@@ -9,8 +9,6 @@ ms.assetid: 005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPSinkControl interface, IBDA_IPSinkControl interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPSinkControl.GetMulticastList, IBDA_IPSinkControl::GetMulticastList, IBDA_IPSinkControlGetMulticastList, bdaiface/IBDA_IPSinkControl::GetMulticastList, mstv.ibda_ipsinkcontrol_getmulticastlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 61fefc3b-7299-4b52-962d-98f4c2f386dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrintAsyncNotifyConversationStyle, PrintAsyncNotifyConversationStyle enumeration [Windows GDI], _win32_PrintAsyncNotifyConversationStyle, gdi.printasyncnotifyconversationstyle, kBiDirectional, kUniDirectional, prnasnot/PrintAsyncNotifyConversationStyle, prnasnot/kBiDirectional, prnasnot/kUniDirectional
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 

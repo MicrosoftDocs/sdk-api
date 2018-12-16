@@ -9,8 +9,6 @@ ms.assetid: 003d1937-13f0-4d2c-ad5c-a83569295b62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, IWMPCore.put_currentMedia, IWMPCore::put_currentMedia, IWMPCoreput_currentMedia, put_currentMedia, put_currentMedia method [Windows Media Player], put_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentmedia, wmp/IWMPCore::put_currentMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

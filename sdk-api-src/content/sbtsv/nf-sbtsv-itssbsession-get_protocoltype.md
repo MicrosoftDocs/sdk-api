@@ -9,8 +9,6 @@ ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.get_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h

@@ -9,8 +9,6 @@ ms.assetid: 9cebd32f-11fe-4dfe-9579-b219d62c3e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageunload, imagehlp/ImageUnload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], IOleDocumentView interface [COM],described, _ole_ioledocumentview, com.ioledocumentview, docobj/IOleDocumentView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

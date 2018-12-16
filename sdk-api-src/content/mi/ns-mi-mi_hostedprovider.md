@@ -9,8 +9,6 @@ ms.assetid: e63283b4-82eb-4bf4-a2f8-f7db29ccb6da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

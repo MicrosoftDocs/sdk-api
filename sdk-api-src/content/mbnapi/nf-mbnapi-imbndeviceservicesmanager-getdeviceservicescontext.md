@@ -9,8 +9,6 @@ ms.assetid: 20AD207B-6FC3-4493-81F7-41619CA703DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceServicesContext, GetDeviceServicesContext method [Microsoft Broadband Networks], GetDeviceServicesContext method [Microsoft Broadband Networks],IMbnDeviceServicesManager interface, IMbnDeviceServicesManager interface [Microsoft Broadband Networks],GetDeviceServicesContext method, IMbnDeviceServicesManager.GetDeviceServicesContext, IMbnDeviceServicesManager::GetDeviceServicesContext, mbn.imbndeviceservicesmanager_getdeviceservicescontext, mbnapi/IMbnDeviceServicesManager::GetDeviceServicesContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

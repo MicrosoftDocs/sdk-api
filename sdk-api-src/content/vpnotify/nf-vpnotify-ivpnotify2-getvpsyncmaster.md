@@ -9,8 +9,6 @@ ms.assetid: afc75615-1be5-4f1f-ace2-f3a17420b591
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVPSyncMaster, GetVPSyncMaster method [DirectShow], GetVPSyncMaster method [DirectShow],IVPNotify2 interface, IVPNotify2 interface [DirectShow],GetVPSyncMaster method, IVPNotify2.GetVPSyncMaster, IVPNotify2::GetVPSyncMaster, IVPNotify2GetVPSyncMaster, dshow.ivpnotify2_getvpsyncmaster, vpnotify/IVPNotify2::GetVPSyncMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 

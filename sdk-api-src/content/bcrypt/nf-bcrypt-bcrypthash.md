@@ -9,8 +9,6 @@ ms.assetid: F0FF9B6D-1345-480A-BE13-BE90547407BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptHash, BCryptHash function [Security], bcrypt/BCryptHash, security.bcrypthash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

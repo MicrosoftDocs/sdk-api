@@ -9,8 +9,6 @@ ms.assetid: 838f9486-be46-461f-b570-bc77003f1619
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipEnumerator.Clone, IOpcRelationshipEnumerator::Clone, msopc/IOpcRelationshipEnumerator::Clone, opc.iopcrelationshipenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix.Matrix(REAL,REAL,REAL,REAL,REAL,REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

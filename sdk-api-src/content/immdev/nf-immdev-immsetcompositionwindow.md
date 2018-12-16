@@ -9,8 +9,6 @@ ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 3a1cf233-5185-414a-99c6-2cfdbe07b8c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsert method, ITextStoreACP2.QueryInsert, ITextStoreACP2::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsert, tsf.itextstoreacp2_queryinsert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

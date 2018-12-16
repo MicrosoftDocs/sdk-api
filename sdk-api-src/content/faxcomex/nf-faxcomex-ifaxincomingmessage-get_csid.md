@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1bxg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],CSID property, IFaxIncomingMessage.CSID, IFaxIncomingMessage.get_CSID, IFaxIncomingMessage::CSID, IFaxIncomingMessage::get_CSID, _mfax_faxincomingmessage.csid, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_csid_cpp, fax._mfax_faxincomingmessage_csid, faxcomex/IFaxIncomingMessage::CSID, faxcomex/IFaxIncomingMessage::get_CSID, get_CSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 931dcc5c-9b43-4413-b389-875763672432
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyId property, IUIAutomationPropertyCondition.PropertyId, IUIAutomationPropertyCondition.get_PropertyId, IUIAutomationPropertyCondition::PropertyId, IUIAutomationPropertyCondition::get_PropertyId, PropertyId property [Windows Accessibility], PropertyId property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyId, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyId, uiauto_IUIAutomationPropertyCondition_PropertyId, uiautomationclient/IUIAutomationPropertyCondition::PropertyId, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyId, winauto.uiauto_IUIAutomationPropertyCondition_PropertyId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

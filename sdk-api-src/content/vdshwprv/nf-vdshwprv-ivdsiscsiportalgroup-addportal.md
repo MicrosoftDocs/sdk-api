@@ -9,8 +9,6 @@ ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: Wininet.h

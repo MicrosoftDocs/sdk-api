@@ -9,8 +9,6 @@ ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

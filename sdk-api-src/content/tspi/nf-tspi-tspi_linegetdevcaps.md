@@ -9,8 +9,6 @@ ms.assetid: 6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetDevCaps, TSPI_lineGetDevCaps function [TAPI 2.2], _tspi_tspi_linegetdevcaps, tspi.tspi_linegetdevcaps, tspi/TSPI_lineGetDevCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

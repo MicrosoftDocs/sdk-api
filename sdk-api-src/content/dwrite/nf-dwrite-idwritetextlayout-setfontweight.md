@@ -9,8 +9,6 @@ ms.assetid: c6b65548-c486-4006-afe9-95bc628bbf70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, IDWriteTextLayout.SetFontWeight, IDWriteTextLayout::SetFontWeight, SetFontWeight, SetFontWeight method [Direct Write], SetFontWeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontWeight, dwrite/IDWriteTextLayout::SetFontWeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

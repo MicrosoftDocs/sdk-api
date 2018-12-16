@@ -9,8 +9,6 @@ ms.assetid: daab6937-0906-4b69-8d00-c68e43b8214f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPAccountType, WMPAccountType enumeration [Windows Media Player], contentpartner/WMPAccountType, contentpartner/wmpatBuyOnly, contentpartner/wmpatJanus, contentpartner/wmpatSubscription, enumeration [Windows Media Player], wmp.wmpaccounttype, wmpatBuyOnly, wmpatJanus, wmpatSubscription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

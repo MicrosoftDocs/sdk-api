@@ -9,8 +9,6 @@ ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssCaptureSnapshot, PssCaptureSnapshot function, proc_snap.psscapturesnapshot, processsnapshot/PssCaptureSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

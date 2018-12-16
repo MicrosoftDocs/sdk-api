@@ -9,8 +9,6 @@ ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 

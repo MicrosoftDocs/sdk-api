@@ -9,8 +9,6 @@ ms.assetid: aa5e5d33-0fc8-46bc-b1e8-c2bd341f0b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMatchingVolume, GetMatchingVolume method [Enhanced Storage], GetMatchingVolume method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetMatchingVolume method, IEnhancedStorageACT.GetMatchingVolume, IEnhancedStorageACT::GetMatchingVolume, ehstorapi/IEnhancedStorageACT::GetMatchingVolume, enstor.ienhancedstorageact_getmatchingvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

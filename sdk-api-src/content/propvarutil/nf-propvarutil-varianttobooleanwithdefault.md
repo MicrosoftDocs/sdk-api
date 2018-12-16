@@ -9,8 +9,6 @@ ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

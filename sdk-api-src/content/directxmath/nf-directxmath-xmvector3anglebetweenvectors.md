@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3AngleBetweenVectors(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3AngleBetweenVectors, XMVector3AngleBetweenVectors, XMVector3AngleBetweenVectors method [DirectX Math Support APIs], dxmath.xmvector3anglebetweenvectors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\getaccoun
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccounts, GetAccounts method [Fax Service], GetAccounts method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],GetAccounts method, IFaxAccountSet.GetAccounts, IFaxAccountSet::GetAccounts, _mfax_faxaccountset.getaccounts, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_getaccounts_cpp, fax._mfax_faxaccountset_getaccounts, faxcomex/IFaxAccountSet::GetAccounts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

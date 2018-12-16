@@ -9,8 +9,6 @@ ms.assetid: a9e2000c-7d64-43f1-b891-b5cd6f46201f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],RequestId property, ICertPropertyEnrollment.RequestId, ICertPropertyEnrollment.get_RequestId, ICertPropertyEnrollment::RequestId, ICertPropertyEnrollment::get_RequestId, RequestId property [Security], RequestId property [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::RequestId, certenroll/ICertPropertyEnrollment::get_RequestId, get_RequestId, security.icertpropertyenrollment_requestid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

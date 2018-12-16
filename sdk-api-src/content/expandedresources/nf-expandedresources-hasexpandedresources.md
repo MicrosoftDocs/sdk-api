@@ -9,8 +9,6 @@ ms.assetid: E0434DBD-4C1A-4675-94A3-4954BCC67CD5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresources/HasExpandedResources, gamemode.hasexpandedresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 

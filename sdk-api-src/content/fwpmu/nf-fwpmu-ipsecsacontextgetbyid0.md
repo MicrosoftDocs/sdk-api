@@ -9,8 +9,6 @@ ms.assetid: a5bfd0e6-0113-4953-954c-d58e9cda91f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering], fwp.ipsecsacontextgetbyid0, fwpmu/IPsecSaContextGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

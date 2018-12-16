@@ -9,8 +9,6 @@ ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

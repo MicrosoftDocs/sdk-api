@@ -9,8 +9,6 @@ ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],Clone method, IUIAutomationCacheRequest.Clone, IUIAutomationCacheRequest::Clone, uiauto.uiauto_IUIAutomationCacheRequest_Clone, uiauto_IUIAutomationCacheRequest_Clone, uiautomationclient/IUIAutomationCacheRequest::Clone, winauto.uiauto_IUIAutomationCacheRequest_Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

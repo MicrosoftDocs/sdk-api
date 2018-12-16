@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetAlignment method, ITextPara.SetAlignment, ITextPara::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetAlignment, _win32_ITextPara_SetAlignment_cpp, controls.ITextPara_SetAlignment, controls._win32_ITextPara_SetAlignment, tom/ITextPara::SetAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

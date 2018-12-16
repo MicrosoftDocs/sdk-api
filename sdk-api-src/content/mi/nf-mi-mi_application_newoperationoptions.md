@@ -9,8 +9,6 @@ ms.assetid: 0b9f569b-bb32-4393-9fd2-9d5d601c2214
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Application_NewOperationOptions, MI_Application_NewOperationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewOperationOptions, wmi_v2.mi_application_newoperationoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

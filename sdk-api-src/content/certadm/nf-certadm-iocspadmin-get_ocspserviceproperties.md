@@ -9,8 +9,6 @@ ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

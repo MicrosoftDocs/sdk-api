@@ -9,8 +9,6 @@ ms.assetid: A3AD976A-9C44-494C-ABF0-90D151001E30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Windows Error Reporting], wer.werunregisterapplocaldump, werapi/WerUnregisterAppLocalDump
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

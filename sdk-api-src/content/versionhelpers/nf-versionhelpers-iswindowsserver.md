@@ -9,8 +9,6 @@ ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

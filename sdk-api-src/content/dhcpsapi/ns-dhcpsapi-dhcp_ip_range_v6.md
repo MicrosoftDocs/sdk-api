@@ -9,8 +9,6 @@ ms.assetid: 3a918a2b-beff-4562-9c7f-acee2cc8f2da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6 structure [DHCP], PDHCP_IP_RANGE_V6, PDHCP_IP_RANGE_V6 structure pointer [DHCP], dhcp.dhcp_ip_range_v6, dhcpsapi/DHCP_IP_RANGE_V6, dhcpsapi/PDHCP_IP_RANGE_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\pager\macros\pager_getdroptarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], _win32_Pager_GetDropTarget, _win32_Pager_GetDropTarget_cpp, commctrl/Pager_GetDropTarget, controls.Pager_GetDropTarget, controls._win32_Pager_GetDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

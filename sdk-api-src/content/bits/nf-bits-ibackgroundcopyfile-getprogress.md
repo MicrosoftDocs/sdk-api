@@ -9,8 +9,6 @@ ms.assetid: e72ec5af-7c21-48f8-b027-76a6c9e67f5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetProgress method, IBackgroundCopyFile.GetProgress, IBackgroundCopyFile::GetProgress, _drz_ibackgroundcopyfile_getprogress, bits.ibackgroundcopyfile_getprogress, bits/IBackgroundCopyFile::GetProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

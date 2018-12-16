@@ -9,8 +9,6 @@ ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certserv.h

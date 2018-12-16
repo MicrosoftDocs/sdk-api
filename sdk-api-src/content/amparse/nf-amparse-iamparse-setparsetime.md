@@ -9,8 +9,6 @@ ms.assetid: 52c53994-7cb7-4f50-a00d-87faa309c717
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amparse.h
 req.include-header: 

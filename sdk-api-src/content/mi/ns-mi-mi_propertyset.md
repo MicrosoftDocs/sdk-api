@@ -9,8 +9,6 @@ ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

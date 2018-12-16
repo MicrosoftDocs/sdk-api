@@ -9,8 +9,6 @@ ms.assetid: 0ed86fd1-ebc0-4eb6-a332-0dea3a21c100
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePartUri, CreatePartUri method [XPS Documents and Packaging], CreatePartUri method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUri method, IXpsOMObjectFactory.CreatePartUri, IXpsOMObjectFactory::CreatePartUri, xps.ixpsomobjectfactory_createparturi, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

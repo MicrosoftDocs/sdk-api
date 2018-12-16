@@ -9,8 +9,6 @@ ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

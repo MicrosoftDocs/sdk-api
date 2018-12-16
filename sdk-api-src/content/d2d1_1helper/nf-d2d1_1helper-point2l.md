@@ -9,8 +9,6 @@ ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Point2L, Point2L function [Direct2D], d2d1_1helper/Point2L, direct2d.point2l
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

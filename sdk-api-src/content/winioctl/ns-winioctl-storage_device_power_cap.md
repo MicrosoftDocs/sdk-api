@@ -9,8 +9,6 @@ ms.assetid: B81C7D08-980E-4BA2-8CF8-7B6E58709102
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Files], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Files], fs.storage_device_power_cap, winioctl/PSTORAGE_DEVICE_POWER_CAP, winioctl/STORAGE_DEVICE_POWER_CAP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

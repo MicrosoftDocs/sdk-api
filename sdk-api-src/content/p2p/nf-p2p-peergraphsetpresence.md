@@ -9,8 +9,6 @@ ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

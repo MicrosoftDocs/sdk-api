@@ -9,8 +9,6 @@ ms.assetid: 78FF30C5-7F23-489D-9E9D-916F6CE09C0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

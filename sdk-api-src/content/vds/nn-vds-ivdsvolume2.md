@@ -9,8 +9,6 @@ ms.assetid: 78077ce6-04f7-4d76-9057-40941feb941b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsVolume2, IVdsVolume2 interface, IVdsVolume2 interface,described, base.ivdsvolume2, vds/IVdsVolume2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

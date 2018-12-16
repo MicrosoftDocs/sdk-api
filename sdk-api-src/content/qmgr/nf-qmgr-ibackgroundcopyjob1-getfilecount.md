@@ -9,8 +9,6 @@ ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileCount, GetFileCount method [BITS], GetFileCount method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFileCount method, IBackgroundCopyJob1.GetFileCount, IBackgroundCopyJob1::GetFileCount, bits.ibackgroundcopyjob1_getfilecount, qmgr/IBackgroundCopyJob1::GetFileCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 

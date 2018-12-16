@@ -9,8 +9,6 @@ ms.assetid: ffa425c5-5f81-4963-bf23-2139d8b245b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetDirectDraw method, IDirectDrawMediaStream.SetDirectDraw, IDirectDrawMediaStream::SetDirectDraw, IDirectDrawMediaStreamSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetDirectDraw, dshow.idirectdrawmediastream_setdirectdraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 

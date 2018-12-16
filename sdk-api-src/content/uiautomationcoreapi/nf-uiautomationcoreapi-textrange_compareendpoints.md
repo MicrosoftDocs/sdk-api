@@ -9,8 +9,6 @@ ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

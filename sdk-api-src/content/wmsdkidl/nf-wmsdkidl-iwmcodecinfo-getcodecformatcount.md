@@ -9,8 +9,6 @@ ms.assetid: b93bfb01-4179-4a0b-bca0-92b1a9a8e605
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecFormatCount, GetCodecFormatCount method [windows Media Format], GetCodecFormatCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormatCount method, IWMCodecInfo.GetCodecFormatCount, IWMCodecInfo::GetCodecFormatCount, IWMCodecInfoGetCodecFormatCount, wmformat.iwmcodecinfo_getcodecformatcount, wmsdkidl/IWMCodecInfo::GetCodecFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

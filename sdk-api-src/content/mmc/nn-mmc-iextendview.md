@@ -9,8 +9,6 @@ ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

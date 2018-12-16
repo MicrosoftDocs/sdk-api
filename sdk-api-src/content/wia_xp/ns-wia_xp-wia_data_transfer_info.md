@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_transfer_info.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

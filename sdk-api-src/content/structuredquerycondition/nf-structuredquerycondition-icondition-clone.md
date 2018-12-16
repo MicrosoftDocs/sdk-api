@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

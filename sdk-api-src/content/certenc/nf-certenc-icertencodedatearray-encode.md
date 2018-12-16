@@ -9,8 +9,6 @@ ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeDateArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeDateArray object, Encode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Encode method, ICertEncodeDateArray.Encode, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

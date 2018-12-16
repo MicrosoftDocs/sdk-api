@@ -9,8 +9,6 @@ ms.assetid: a903113a-5d68-4a8e-b2ba-9993c927415e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertProperties interface [Security],_NewEnum property, ICertProperties._NewEnum, ICertProperties.get__NewEnum, ICertProperties::_NewEnum, ICertProperties::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertProperties interface, certenroll/ICertProperties::_NewEnum, certenroll/ICertProperties::get__NewEnum, get__NewEnum, security.icertproperties__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

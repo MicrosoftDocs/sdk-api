@@ -9,8 +9,6 @@ ms.assetid: dcffee59-8b2f-443c-915f-6d823018eadd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs],IUPnPRegistrar interface, IUPnPRegistrar interface [UPnP APIs],GetUniqueDeviceName method, IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

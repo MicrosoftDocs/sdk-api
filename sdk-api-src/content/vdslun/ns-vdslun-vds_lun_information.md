@@ -9,8 +9,6 @@ ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

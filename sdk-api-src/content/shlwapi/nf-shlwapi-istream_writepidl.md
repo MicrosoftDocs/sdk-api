@@ -9,8 +9,6 @@ ms.assetid: 29b6a42b-08bd-4b5f-92ad-a6456e7a6f98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream_WritePidl, IStream_WritePidl function [Windows Shell], _shell_IStream_WritePidl, shell.IStream_WritePidl, shlwapi/IStream_WritePidl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

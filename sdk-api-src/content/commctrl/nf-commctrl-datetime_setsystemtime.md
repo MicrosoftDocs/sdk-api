@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

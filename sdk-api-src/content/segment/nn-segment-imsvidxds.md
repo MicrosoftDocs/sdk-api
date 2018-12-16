@@ -9,8 +9,6 @@ ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

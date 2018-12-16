@@ -9,8 +9,6 @@ ms.assetid: 5431a9ae-e009-4457-87e4-bb91da8bfdb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],ElementAt method, CHStringArray.ElementAt, CHStringArray.ElementAt(int), CHStringArray::ElementAt, CHStringArray::ElementAt(int), ElementAt, ElementAt method [Windows Management Instrumentation], ElementAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_elementat, chstrarr/CHStringArray::ElementAt, wmi.chstringarray_elementat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

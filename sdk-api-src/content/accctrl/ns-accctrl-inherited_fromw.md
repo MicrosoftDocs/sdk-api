@@ -9,8 +9,6 @@ ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetPolicyInformationDWORD, SLGetPolicyInformationDWORD function [Security], security.slgetpolicyinformationdword, slpublic/SLGetPolicyInformationDWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

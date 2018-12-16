@@ -9,8 +9,6 @@ ms.assetid: 823bf5d4-9017-4f78-8bef-124d403174c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Skip method, IEnumExplorerCommand.Skip, IEnumExplorerCommand::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Skip, shell.IEnumExplorerCommand_Skip, shobjidl_core/IEnumExplorerCommand::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

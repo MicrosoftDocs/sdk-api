@@ -9,8 +9,6 @@ ms.assetid: 46ea7b05-0d2d-4ba1-b3c3-fab67eabf552
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0 structure pointer [RAS], ROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_IKEv2_POLICY0 structure [RAS], ROUTER_CUSTOM_L2TP_POLICY0, mprapi/PROUTER_CUSTOM_IKEv2_POLICY0, mprapi/ROUTER_CUSTOM_IKEv2_POLICY0, rras.router_custom_ikev2_policy0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

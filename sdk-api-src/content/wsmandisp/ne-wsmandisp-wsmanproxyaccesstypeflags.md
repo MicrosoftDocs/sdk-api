@@ -9,8 +9,6 @@ ms.assetid: c17c3600-6a19-4937-90ff-1a4f7cf5b123
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManProxyAccessTypeFlags, WSManProxyAccessTypeFlags enumeration [Windows Remote Management], WSManProxyAutoDetect, WSManProxyIEConfig, WSManProxyNoProxyServer, WSManProxyWinHttpConfig, winrm.wsmanproxyaccesstypeflags, wsmandisp/WSManProxyAccessTypeFlags, wsmandisp/WSManProxyAutoDetect, wsmandisp/WSManProxyIEConfig, wsmandisp/WSManProxyNoProxyServer, wsmandisp/WSManProxyWinHttpConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wsmandisp.h
 req.include-header: 

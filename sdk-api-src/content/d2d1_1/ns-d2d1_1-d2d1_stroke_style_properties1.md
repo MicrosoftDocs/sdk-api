@@ -9,8 +9,6 @@ ms.assetid: 6bed0f23-be10-4265-8edd-ccf82ce0e683
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_STROKE_STYLE_PROPERTIES1, D2D1_STROKE_STYLE_PROPERTIES1 structure [Direct2D], PD2D1_STROKE_STYLE_PROPERTIES1, PD2D1_STROKE_STYLE_PROPERTIES1 structure pointer [Direct2D], d2d1_1/D2D1_STROKE_STYLE_PROPERTIES1, d2d1_1/PD2D1_STROKE_STYLE_PROPERTIES1, direct2d.d2d1_stroke_style_properties1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

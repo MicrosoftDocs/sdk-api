@@ -9,8 +9,6 @@ ms.assetid: 994f0b9f-77a6-41ef-9022-a26ef5660204
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int64ToULongLong, IntPtrToUIntPtr, IntPtrToULongPtr, LongLongToULongLong, LongLongToULongLong function [Windows Shell], intsafe/LongLongToULongLong, shell.LongLongToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

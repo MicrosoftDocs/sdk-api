@@ -9,8 +9,6 @@ ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Delete method, IIdentityProvider.Delete, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

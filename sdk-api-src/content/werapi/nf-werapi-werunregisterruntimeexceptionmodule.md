@@ -9,8 +9,6 @@ ms.assetid: 1a315923-b554-4363-a607-076690fc76a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerUnregisterRuntimeExceptionModule, WerUnregisterRuntimeExceptionModule function [Windows Error Reporting], wer.werunregisterruntimeexceptionmodule, werapi/WerUnregisterRuntimeExceptionModule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: 

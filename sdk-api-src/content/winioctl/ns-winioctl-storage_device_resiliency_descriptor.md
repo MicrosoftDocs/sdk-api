@@ -9,8 +9,6 @@ ms.assetid: 7ef6d99a-3e2c-44de-ab08-260e8ddc02f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Files], fs.storage_device_resiliency_descriptor, winioctl/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, winioctl/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

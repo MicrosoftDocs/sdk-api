@@ -9,8 +9,6 @@ ms.assetid: 726b5e83-d5ab-4053-8f4c-34826fc0db55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICSerializeMetadataContent, WICSerializeMetadataContent function [Windows Imaging Component], _wic_codec_wicserializemetadatacontent, wic._wic_codec_wicserializemetadatacontent, wincodecsdk/WICSerializeMetadataContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h

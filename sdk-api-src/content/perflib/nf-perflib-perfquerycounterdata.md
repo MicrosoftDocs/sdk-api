@@ -9,8 +9,6 @@ ms.assetid: EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfQueryCounterData, PerfQueryCounterData function [Perf], perf.perfquerycounterdata, perflib/PerfQueryCounterData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

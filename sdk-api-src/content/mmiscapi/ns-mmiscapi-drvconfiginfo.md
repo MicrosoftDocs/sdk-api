@@ -9,8 +9,6 @@ ms.assetid: 34451e1c-0748-48c7-9e5e-877a0c531a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDRVCONFIGINFO, *NPDRVCONFIGINFO, *PDRVCONFIGINFO, DRVCONFIGINFO, DRVCONFIGINFO structure [Windows Multimedia], _win32_DRVCONFIGINFO_str, mmsystem/DRVCONFIGINFO, multimedia.drvconfiginfo, tagDRVCONFIGINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

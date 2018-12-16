@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DNS_FILTEROFF, DNS_FILTERON, DNS_REGISTER, DNS_UNREGISTER, DdeNameService, DdeNameService function [Data Exchange], _win32_DdeNameService, _win32_ddenameservice_cpp, dataxchg.ddenameservice, ddeml/DdeNameService, winui._win32_ddenameservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

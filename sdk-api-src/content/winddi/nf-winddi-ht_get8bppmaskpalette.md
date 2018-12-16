@@ -9,8 +9,6 @@ ms.assetid: 46e9b3e1-e9a5-4c18-8595-6f883a790b01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devices], display.ht_get8bppmaskpalette, gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml, winddi/HT_Get8BPPMaskPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

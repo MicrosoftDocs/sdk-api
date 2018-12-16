@@ -9,8 +9,6 @@ ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritization method, IWMProfile3.SetStreamPrioritization, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

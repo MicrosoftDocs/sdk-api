@@ -9,8 +9,6 @@ ms.assetid: c2e783a5-829b-4fa2-995a-c0cb4e63645b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capSetCallbackOnVideoStream, capSetCallbackOnVideoStream, capSetCallbackOnVideoStream macro [Windows Multimedia], multimedia.capsetcallbackonvideostream, vfw/capSetCallbackOnVideoStream"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

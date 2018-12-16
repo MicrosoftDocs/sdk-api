@@ -9,8 +9,6 @@ ms.assetid: b0a0e9a6-79ca-4898-bddd-e736552aaf68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertPolicy object [Security],Initialize method, ICertPolicy interface [Security],Initialize method, ICertPolicy.Initialize, ICertPolicy2 interface [Security],Initialize method, ICertPolicy2::Initialize, ICertPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertPolicy object, Initialize method [Security],ICertPolicy interface, Initialize method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_initialize, certpol/ICertPolicy2::Initialize, certpol/ICertPolicy::Initialize, security.icertpolicy2_initialize, security.icertpolicy_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: Certsrv.h

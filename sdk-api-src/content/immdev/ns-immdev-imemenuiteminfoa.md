@@ -9,8 +9,6 @@ ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *PIMEMENUITEMINFOA, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

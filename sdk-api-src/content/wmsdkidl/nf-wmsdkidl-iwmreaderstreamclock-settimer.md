@@ -9,8 +9,6 @@ ms.assetid: 15d991e0-a271-4427-844f-5e4a9bbc6507
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],SetTimer method, IWMReaderStreamClock.SetTimer, IWMReaderStreamClock::SetTimer, IWMReaderStreamClockSetTimer, SetTimer, SetTimer method [windows Media Format], SetTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_settimer, wmsdkidl/IWMReaderStreamClock::SetTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

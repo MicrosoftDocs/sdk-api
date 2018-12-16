@@ -9,8 +9,6 @@ ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

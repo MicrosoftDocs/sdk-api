@@ -9,8 +9,6 @@ ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllAccessRights, GetAllAccessRights method [COM], GetAllAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GetAllAccessRights method, IAccessControl.GetAllAccessRights, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fe137da2-2c12-4732-9ab8-adf07381c692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Skip method, IEnumPhone.Skip, IEnumPhone::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_skip, tapi3.ienumphone_skip, tapi3if/IEnumPhone::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

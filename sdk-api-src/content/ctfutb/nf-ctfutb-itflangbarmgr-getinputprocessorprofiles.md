@@ -9,8 +9,6 @@ ms.assetid: 679d101b-b3f9-4771-9c68-729a6a3486de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetInputProcessorProfiles method, ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

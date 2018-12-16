@@ -9,8 +9,6 @@ ms.assetid: 69c657e7-97f0-468a-b349-9891a771c1ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clfsmgmtw32.h
 req.include-header: 

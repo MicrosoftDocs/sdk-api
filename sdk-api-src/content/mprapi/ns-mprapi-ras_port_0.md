@@ -9,8 +9,6 @@ ms.assetid: 361b065e-8240-465f-a0fe-d4bfc097ec70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRAS_PORT_0, PRAS_PORT_0, PRAS_PORT_0 structure pointer [RAS], RAS_PORT_0, RAS_PORT_0 structure [RAS], _mpr_ras_port_0, mprapi/PRAS_PORT_0, mprapi/RAS_PORT_0, rras.ras_port_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

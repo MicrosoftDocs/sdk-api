@@ -9,8 +9,6 @@ ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],Enabled property, ITrigger.Enabled, ITrigger.put_Enabled, ITrigger::Enabled, ITrigger::get_Enabled, ITrigger::put_Enabled, put_Enabled, taskschd.itrigger_enabled, taskschd/ITrigger::Enabled, taskschd/ITrigger::get_Enabled, taskschd/ITrigger::put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

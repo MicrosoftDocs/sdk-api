@@ -9,8 +9,6 @@ ms.assetid: 34de407c-54f0-4be9-a383-4bf1baa63eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

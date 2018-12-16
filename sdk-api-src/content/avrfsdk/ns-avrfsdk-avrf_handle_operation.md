@@ -9,8 +9,6 @@ ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

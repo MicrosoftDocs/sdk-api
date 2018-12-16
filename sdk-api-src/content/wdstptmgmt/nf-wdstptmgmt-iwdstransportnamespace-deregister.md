@@ -9,8 +9,6 @@ ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

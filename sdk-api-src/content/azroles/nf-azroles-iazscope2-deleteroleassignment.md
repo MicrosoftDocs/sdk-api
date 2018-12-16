@@ -9,8 +9,6 @@ ms.assetid: 8e28e09a-f9a4-4e6e-bb11-cfa1145f1ba1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteRoleAssignment, DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleAssignment method, IAzScope2.DeleteRoleAssignment, IAzScope2::DeleteRoleAssignment, azroles/IAzScope2::DeleteRoleAssignment, security.iazscope2_deleteroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

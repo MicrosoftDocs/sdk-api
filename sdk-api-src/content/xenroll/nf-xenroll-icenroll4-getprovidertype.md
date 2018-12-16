@@ -9,8 +9,6 @@ ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

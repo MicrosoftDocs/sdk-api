@@ -9,8 +9,6 @@ ms.assetid: 5faced6f-68aa-453e-b5da-99b79e9c8e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumTasks, EnumTasks method [MMC], EnumTasks method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],EnumTasks method, IExtendTaskPad.EnumTasks, IExtendTaskPad::EnumTasks, _slate_iextendtaskpad_enumtasks, mmc.iextendtaskpad_enumtasks, mmc/IExtendTaskPad::EnumTasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

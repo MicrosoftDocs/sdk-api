@@ -9,8 +9,6 @@ ms.assetid: 78F3E4EE-BF06-464B-A570-021F9545D9AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Class_Property_Keys_Ex, CM_Get_Class_Property_Keys_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys_Ex, devinst.cm_get_class_property_keys_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

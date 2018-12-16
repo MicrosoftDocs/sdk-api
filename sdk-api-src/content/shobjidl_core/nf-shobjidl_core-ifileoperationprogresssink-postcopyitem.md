@@ -9,8 +9,6 @@ ms.assetid: 2e5568a8-e689-48ca-82a1-36292d91a65b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostCopyItem method, IFileOperationProgressSink.PostCopyItem, IFileOperationProgressSink::PostCopyItem, PostCopyItem, PostCopyItem method [Windows Shell], PostCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostCopyItem, shell.IFileOperationProgressSink_PostCopyItem, shobjidl_core/IFileOperationProgressSink::PostCopyItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

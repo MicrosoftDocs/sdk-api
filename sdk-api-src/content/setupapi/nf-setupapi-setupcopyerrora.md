@@ -9,8 +9,6 @@ ms.assetid: bda8ffef-f1a7-474c-9ec6-f76c2f006d51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupCopyError, SetupCopyError function [Setup API], SetupCopyErrorA, SetupCopyErrorW, _setupapi_setupcopyerror, setup.setupcopyerror, setupapi/SetupCopyError, setupapi/SetupCopyErrorA, setupapi/SetupCopyErrorW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

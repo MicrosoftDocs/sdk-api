@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadCursorFromFile, LoadCursorFromFile function [Menus and Other Resources], LoadCursorFromFileA, LoadCursorFromFileW, _win32_LoadCursorFromFile, _win32_loadcursorfromfile_cpp, menurc.loadcursorfromfile, winui._win32_loadcursorfromfile, winuser/LoadCursorFromFile, winuser/LoadCursorFromFileA, winuser/LoadCursorFromFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

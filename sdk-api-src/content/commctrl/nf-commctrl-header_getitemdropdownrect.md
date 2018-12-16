@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

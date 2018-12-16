@@ -9,8 +9,6 @@ ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

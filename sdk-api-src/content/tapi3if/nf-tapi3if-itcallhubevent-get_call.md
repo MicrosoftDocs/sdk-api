@@ -9,8 +9,6 @@ ms.assetid: 2ac47da3-f60f-41f4-99f7-031744044bd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_Call method, ITCallHubEvent.get_Call, ITCallHubEvent::get_Call, _tapi3_itcallhubevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_call, tapi3if/ITCallHubEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

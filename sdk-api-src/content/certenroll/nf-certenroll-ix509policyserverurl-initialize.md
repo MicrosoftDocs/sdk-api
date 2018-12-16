@@ -9,8 +9,6 @@ ms.assetid: 693c3a29-0d12-4603-a06a-4277db3b8b8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

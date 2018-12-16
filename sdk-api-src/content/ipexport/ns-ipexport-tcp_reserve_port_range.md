@@ -9,8 +9,6 @@ ms.assetid: 3a64000b-9862-4958-888c-2114c124a9d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: 

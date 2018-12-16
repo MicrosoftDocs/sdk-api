@@ -9,8 +9,6 @@ ms.assetid: c83632c2-5d01-48ab-93ef-961778c2379a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscoverPeers, DiscoverPeers method [BITS], DiscoverPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DiscoverPeers method, IBitsPeerCacheAdministration.DiscoverPeers, IBitsPeerCacheAdministration::DiscoverPeers, bits.ibitspeercacheadministration_discoverpeers, bits3_0/IBitsPeerCacheAdministration::DiscoverPeers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

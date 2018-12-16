@@ -2,7 +2,7 @@
 UID: TP:wpdsdk
 ms.assetid: 5764d0d2-f296-38a9-9d56-8a2adb838489
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

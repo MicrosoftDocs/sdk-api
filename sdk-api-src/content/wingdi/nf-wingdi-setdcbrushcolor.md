@@ -9,8 +9,6 @@ ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 1352e2f6-cad8-4d86-b973-b7d4d8f0c448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnFormat method, IWMPCdromBurn.put_burnFormat, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

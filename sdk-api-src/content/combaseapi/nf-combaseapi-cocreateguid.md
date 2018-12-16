@@ -9,8 +9,6 @@ ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -9,8 +9,6 @@ ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

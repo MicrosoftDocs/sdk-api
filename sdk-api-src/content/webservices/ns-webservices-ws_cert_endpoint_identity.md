@@ -9,8 +9,6 @@ ms.assetid: c4d0f409-49c8-4b8c-82fd-302e96cb6a84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CERT_ENDPOINT_IDENTITY, WS_CERT_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_CERT_ENDPOINT_IDENTITY, wsw.ws_cert_endpoint_identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

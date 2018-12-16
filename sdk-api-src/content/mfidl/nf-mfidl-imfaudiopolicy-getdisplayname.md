@@ -9,8 +9,6 @@ ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayName method [Media Foundation], GetDisplayName method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetDisplayName method, IMFAudioPolicy.GetDisplayName, IMFAudioPolicy::GetDisplayName, mf.imfaudiopolicy_getdisplayname, mfidl/IMFAudioPolicy::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

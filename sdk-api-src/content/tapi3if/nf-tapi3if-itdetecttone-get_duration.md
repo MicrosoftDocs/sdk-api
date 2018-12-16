@@ -9,8 +9,6 @@ ms.assetid: 3c1f8900-1384-4fb5-8931-90bb0d100d41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],get_Duration method, ITDetectTone.get_Duration, ITDetectTone::get_Duration, _tapi3_itdetecttone_get_duration, get_Duration, get_Duration method [TAPI 2.2], get_Duration method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_get_duration, tapi3if/ITDetectTone::get_Duration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

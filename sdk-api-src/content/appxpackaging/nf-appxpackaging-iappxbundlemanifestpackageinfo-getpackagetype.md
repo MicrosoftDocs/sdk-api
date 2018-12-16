@@ -9,8 +9,6 @@ ms.assetid: 965E48E3-7C60-4299-85F4-07CB879E7B39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackageType, GetPackageType method [App packaging and management], GetPackageType method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetPackageType method, IAppxBundleManifestPackageInfo.GetPackageType, IAppxBundleManifestPackageInfo::GetPackageType, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType, appxpkg.iappxbundlemanifestpackageinfo_getpackagetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(const XMU555 &), XMU555::XMU555, XMU555::XMU555(const XMU555 &), dxmath.xmu555_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

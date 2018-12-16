@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\listentoacco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccount interface [Fax Service],ListenToAccountEvents method, IFaxAccount.ListenToAccountEvents, IFaxAccount::ListenToAccountEvents, ListenToAccountEvents, ListenToAccountEvents method [Fax Service], ListenToAccountEvents method [Fax Service],IFaxAccount interface, _mfax_faxaccount.listentoaccountevents, fax._mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp, fax._mfax_faxaccount_listentoaccountevents, faxcomex/IFaxAccount::ListenToAccountEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

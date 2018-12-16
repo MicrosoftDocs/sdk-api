@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\oninco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnIncomingJobRemoved, OnIncomingJobRemoved, OnIncomingJobRemoved method [Fax Service], OnIncomingJobRemoved method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingJobRemoved method, _IFaxAccountNotify.OnIncomingJobRemoved, _IFaxAccountNotify::OnIncomingJobRemoved, _mfax_ifaxaccountnotify_onincomingjobremoved, fax._mfax_ifaxaccountnotify_onincomingjobremoved, faxcomex/_IFaxAccountNotify::OnIncomingJobRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

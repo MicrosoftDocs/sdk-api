@@ -9,8 +9,6 @@ ms.assetid: 978d650b-cbd5-4dff-bd51-7419774b8a7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Add_ID_Ex, CM_Add_ID_Ex function [Device and Driver Installation], CM_Add_ID_ExW, cfgmgr32/CM_Add_ID_Ex, cfgmgr32/CM_Add_ID_ExW, cfgmgrfn_0c8f48d0-09e5-46f9-b638-aff20af6abd5.xml, devinst.cm_add_id_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -9,8 +9,6 @@ ms.assetid: 9afca6b7-2e0e-40a1-bb4a-932dad21b9eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLatency, GetLatency method [Remote Desktop Services], GetLatency method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetLatency method, IAudioEndpoint.GetLatency, IAudioEndpoint::GetLatency, audioengineendpoint/IAudioEndpoint::GetLatency, termserv.iaudioendpoint_getlatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d9237268-a5e1-4b1c-91f7-9e894876ca87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPS_DISCARD_MODULE0, FWPS_DISCARD_MODULE0 enumeration [Network Drivers Starting with Windows Vista], FWPS_DISCARD_MODULE_GENERAL, FWPS_DISCARD_MODULE_MAX, FWPS_DISCARD_MODULE_NETWORK, FWPS_DISCARD_MODULE_TRANSPORT, fwpstypes/FWPS_DISCARD_MODULE0, fwpstypes/FWPS_DISCARD_MODULE_GENERAL, fwpstypes/FWPS_DISCARD_MODULE_MAX, fwpstypes/FWPS_DISCARD_MODULE_NETWORK, fwpstypes/FWPS_DISCARD_MODULE_TRANSPORT, netvista.fwps_discard_module0, wfp_ref_4_enum_9cf37d53-bbf0-45ec-adc8-e690b4fd8aea.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h

@@ -9,8 +9,6 @@ ms.assetid: 00192755-9135-4193-90bc-6e312b294007
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrFormatByteSizeW, StrFormatByteSizeW function [Windows Shell], _win32_StrFormatByteSizeW, shell.StrFormatByteSizeW, shlwapi/StrFormatByteSizeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

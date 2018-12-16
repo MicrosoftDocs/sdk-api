@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_GetIcon, ImageList_GetIcon function [Windows Controls], _win32_ImageList_GetIcon, _win32_ImageList_GetIcon_cpp, commctrl/ImageList_GetIcon, controls.ImageList_GetIcon, controls._win32_ImageList_GetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

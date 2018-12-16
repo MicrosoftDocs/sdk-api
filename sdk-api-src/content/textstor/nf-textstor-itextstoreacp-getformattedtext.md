@@ -9,8 +9,6 @@ ms.assetid: 1c4e6f8d-d7c6-455d-8efe-7da8dfdd9c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetFormattedText method, ITextStoreACP.GetFormattedText, ITextStoreACP::GetFormattedText, _tsf_itextstoreacp_getformattedtext_ref, textstor/ITextStoreACP::GetFormattedText, tsf.itextstoreacp_getformattedtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

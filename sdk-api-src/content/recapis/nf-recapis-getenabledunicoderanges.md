@@ -9,8 +9,6 @@ ms.assetid: 047a72f9-a627-4c8b-b271-13d3c873abc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetEnabledUnicodeRanges function [Tablet PC], recapis/GetEnabledUnicodeRanges, tablet.getenabledunicoderanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

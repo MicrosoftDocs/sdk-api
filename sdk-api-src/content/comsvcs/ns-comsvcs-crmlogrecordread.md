@@ -9,8 +9,6 @@ ms.assetid: 0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRecordRead, comsvcs/CrmLogRecordRead, cos.crmlogrecordread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

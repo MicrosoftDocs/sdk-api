@@ -9,8 +9,6 @@ ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW structure [MIB], PMIB_MCAST_LIMIT_ROW, PMIB_MCAST_LIMIT_ROW structure pointer [MIB], iprtrmib/MIB_MCAST_LIMIT_ROW, iprtrmib/PMIB_MCAST_LIMIT_ROW, mib.mib_mcast_limit_row"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h

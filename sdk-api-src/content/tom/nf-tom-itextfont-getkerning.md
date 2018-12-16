@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetKerning method, ITextFont.GetKerning, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],SetAttributeInfo method, ITfDisplayAttributeInfo.SetAttributeInfo, ITfDisplayAttributeInfo::SetAttributeInfo, SetAttributeInfo, SetAttributeInfo method [Text Services Framework], SetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_setattributeinfo_ref, msctf/ITfDisplayAttributeInfo::SetAttributeInfo, tsf.itfdisplayattributeinfo_setattributeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

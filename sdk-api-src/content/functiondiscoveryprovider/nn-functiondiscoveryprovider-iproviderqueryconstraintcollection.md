@@ -9,8 +9,6 @@ ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

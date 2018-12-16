@@ -9,8 +9,6 @@ ms.assetid: 75528E11-D041-4192-833A-31679316DF76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect interface [DirectComposition], IDCompositionColorMatrixEffect interface [DirectComposition],described, dcomp/IDCompositionColorMatrixEffect, directcomp.idcompositioncolormatrixeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

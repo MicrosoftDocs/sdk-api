@@ -9,8 +9,6 @@ ms.assetid: F02A13BF-955A-4D74-BC12-F1E6DCFFCCE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetElement, GetElement method [Direct2D], GetElement method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],GetElement method, ID2D1SvgAttribute.GetElement, ID2D1SvgAttribute::GetElement, d2d1svg/ID2D1SvgAttribute::GetElement, direct2d.id2d1svgattribute_getelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

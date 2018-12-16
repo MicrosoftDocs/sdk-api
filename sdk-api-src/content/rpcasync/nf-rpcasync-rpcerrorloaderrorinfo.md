@@ -9,8 +9,6 @@ ms.assetid: cbd171ee-cef3-4880-a26d-81267cb813e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcErrorLoadErrorInfo, RpcErrorLoadErrorInfo function [RPC], _rpc_rpcerrorloaderrorinfo, rpc.rpcerrorloaderrorinfo, rpcasync/RpcErrorLoadErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

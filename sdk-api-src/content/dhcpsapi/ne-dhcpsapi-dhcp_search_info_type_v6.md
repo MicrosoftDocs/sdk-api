@@ -9,8 +9,6 @@ ms.assetid: 56c2cbda-4af5-4f28-9b1f-be7d6cf0c1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO_TYPE_V6, DHCP_SEARCH_INFO_TYPE_V6, DHCP_SEARCH_INFO_TYPE_V6 enumeration [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, LPDHCP_SEARCH_INFO_TYPE_V6, LPDHCP_SEARCH_INFO_TYPE_V6 enumeration pointer [DHCP], dhcp.dhcp_search_info_type_v6, dhcpsapi/DHCP_SEARCH_INFO_TYPE_V6, dhcpsapi/Dhcpv6ClientDUID, dhcpsapi/Dhcpv6ClientIpAddress, dhcpsapi/Dhcpv6ClientName, dhcpsapi/LPDHCP_SEARCH_INFO_TYPE_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

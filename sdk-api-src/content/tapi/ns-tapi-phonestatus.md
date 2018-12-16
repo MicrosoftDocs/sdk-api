@@ -9,8 +9,6 @@ ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

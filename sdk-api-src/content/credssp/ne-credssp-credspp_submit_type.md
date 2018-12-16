@@ -9,8 +9,6 @@ ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: credssp.h
 req.include-header: 

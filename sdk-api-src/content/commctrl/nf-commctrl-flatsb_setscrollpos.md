@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollpos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlatSB_SetScrollPos, FlatSB_SetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollPos, _win32_FlatSB_SetScrollPos_cpp, commctrl/FlatSB_SetScrollPos, controls.FlatSB_SetScrollPos, controls._win32_FlatSB_SetScrollPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

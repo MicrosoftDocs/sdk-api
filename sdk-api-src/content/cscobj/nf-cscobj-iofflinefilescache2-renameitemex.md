@@ -9,8 +9,6 @@ ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

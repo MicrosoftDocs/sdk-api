@@ -9,8 +9,6 @@ ms.assetid: 27a06c84-ff09-48c6-9cd1-349fd74cd8df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarUI1FromBool, VarUI1FromBool function [Automation], _oa96_VarUI1FromBool, automat.varui1frombool, oleauto/VarUI1FromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

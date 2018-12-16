@@ -9,8 +9,6 @@ ms.assetid: cb2e041a-cbbb-4572-85da-b282fa692261
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 function, base.rtltimetosecondssince1970, winternl/RtlTimeToSecondsSince1970
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

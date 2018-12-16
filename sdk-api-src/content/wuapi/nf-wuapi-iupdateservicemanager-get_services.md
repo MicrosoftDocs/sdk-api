@@ -9,8 +9,6 @@ ms.assetid: 9810e56b-a884-454b-adc8-ad839269dae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],Services property, IUpdateServiceManager.Services, IUpdateServiceManager.get_Services, IUpdateServiceManager::Services, IUpdateServiceManager::get_Services, Services property [Windows Update Agent], Services property [Windows Update Agent],IUpdateServiceManager interface, get_Services, wua.iupdateservicemanager_services, wuapi/IUpdateServiceManager::Services, wuapi/IUpdateServiceManager::get_Services
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

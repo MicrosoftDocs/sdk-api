@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawArc, DrawArc method [GDI+], DrawArc method [GDI+],Graphics class, Graphics class [GDI+],DrawArc method, Graphics.DrawArc, Graphics.DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL), Graphics.DrawArc(const Pen*,const RectF&,REAL,REAL), Graphics::DrawArc, Graphics::DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

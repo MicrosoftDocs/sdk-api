@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\iwiapropertystorage.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA],described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

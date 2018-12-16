@@ -9,8 +9,6 @@ ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

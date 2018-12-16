@@ -9,8 +9,6 @@ ms.assetid: d17f329b-f633-4aec-806f-3643206fce29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

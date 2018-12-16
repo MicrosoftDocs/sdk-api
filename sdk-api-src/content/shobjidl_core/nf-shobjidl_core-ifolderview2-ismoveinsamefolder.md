@@ -9,8 +9,6 @@ ms.assetid: 1687a162-f81c-422b-afc2-0b5b8b6951ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, IFolderView2.IsMoveInSameFolder, IFolderView2::IsMoveInSameFolder, IsMoveInSameFolder, IsMoveInSameFolder method [Windows Shell], IsMoveInSameFolder method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_IsMoveInSameFolder, shell.IFolderView2_IsMoveInSameFolder, shobjidl_core/IFolderView2::IsMoveInSameFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

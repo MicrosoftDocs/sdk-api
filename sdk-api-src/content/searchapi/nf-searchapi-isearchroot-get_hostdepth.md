@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],get_HostDepth method, ISearchRoot.get_HostDepth, ISearchRoot::get_HostDepth, _search_ISearchRoot_get_HostDepth, get_HostDepth, get_HostDepth method [search], get_HostDepth method [search],ISearchRoot interface, search._search_ISearchRoot_get_HostDepth, searchapi/ISearchRoot::get_HostDepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

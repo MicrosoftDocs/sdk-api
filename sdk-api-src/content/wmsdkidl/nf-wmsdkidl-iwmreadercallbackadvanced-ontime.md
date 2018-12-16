@@ -9,8 +9,6 @@ ms.assetid: 9913bbc4-df59-484f-b050-324e2ecdeb1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnTime method, IWMReaderCallbackAdvanced.OnTime, IWMReaderCallbackAdvanced::OnTime, IWMReaderCallbackAdvancedOnTime, OnTime, OnTime method [windows Media Format], OnTime method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_ontime, wmsdkidl/IWMReaderCallbackAdvanced::OnTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

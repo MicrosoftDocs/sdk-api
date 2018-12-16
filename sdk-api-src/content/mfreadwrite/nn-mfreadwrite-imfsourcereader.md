@@ -9,8 +9,6 @@ ms.assetid: 7d3cc314-6b9e-437c-afda-ee1965a12721
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation],described, mf.imfsourcereader, mfreadwrite/IMFSourceReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

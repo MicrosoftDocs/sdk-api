@@ -9,8 +9,6 @@ ms.assetid: a81abd80-e487-421c-ba81-9b43c4233084
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMediaProps, IWMMediaProps interface [windows Media Format], IWMMediaProps interface [windows Media Format],described, IWMMediaPropsInterface, wmformat.iwmmediaprops, wmsdkidl/IWMMediaProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

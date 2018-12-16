@@ -9,8 +9,6 @@ ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

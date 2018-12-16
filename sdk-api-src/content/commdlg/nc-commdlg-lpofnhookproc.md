@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPOFNHOOKPROC, LPOFNHOOKPROC callback, LPOFNHOOKPROC callback function [Dialog Boxes], _win32_OFNHookProc, _win32_ofnhookproc_cpp, commdlg/LPOFNHOOKPROC, dlgbox.ofnhookproc, winui._win32_ofnhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: commdlg.h
 req.include-header: Windows.h

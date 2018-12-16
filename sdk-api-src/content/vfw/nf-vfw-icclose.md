@@ -9,8 +9,6 @@ ms.assetid: 9a376412-5c16-44d5-b976-0cf1f766f72a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICClose, ICClose function [Windows Multimedia], _win32_ICClose, multimedia.icclose, vfw/ICClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

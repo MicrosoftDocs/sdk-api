@@ -9,8 +9,6 @@ ms.assetid: 13d6dda7-4a4f-45bf-af91-72f80497b9f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],ReportResult method, ICredentialProviderCredential.ReportResult, ICredentialProviderCredential::ReportResult, ReportResult, ReportResult method [Windows Shell], ReportResult method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::ReportResult, shell.ICredentialProviderCredential_ReportResult, shell_ICredentialProviderCredential_ReportResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c20fc32f-394d-4fbe-b7dd-072d84be2713
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [Windows Shell], GetId method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetId method, IKnownFolder.GetId, IKnownFolder::GetId, _shell_IKnownFolder_GetId, shell.IKnownFolder_GetId, shobjidl_core/IKnownFolder::GetId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

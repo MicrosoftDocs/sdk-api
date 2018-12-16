@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWindow, CreateWindow function [Windows and Messages], CreateWindowA, CreateWindowW, _win32_CreateWindow, _win32_createwindow_cpp, winmsg.createwindow, winui._win32_createwindow, winuser/CreateWindow, winuser/CreateWindowA, winuser/CreateWindowW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

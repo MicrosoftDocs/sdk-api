@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_ShowBalloonTip, Edit_ShowBalloonTip macro [Windows Controls], _win32_Edit_ShowBalloonTip, _win32_Edit_ShowBalloonTip_cpp, commctrl/Edit_ShowBalloonTip, controls.Edit_ShowBalloonTip, controls._win32_Edit_ShowBalloonTip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2e239114-1af7-455a-a60f-2054b05e1414
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAE_CURRENT_POSITION, AE_CURRENT_POSITION, AE_CURRENT_POSITION structure [Remote Desktop Services], PAE_CURRENT_POSITION, PAE_CURRENT_POSITION structure pointer [Remote Desktop Services], audioengineendpoint/AE_CURRENT_POSITION, audioengineendpoint/PAE_CURRENT_POSITION, termserv.ae_current_position"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: audioengineendpoint.h
 req.include-header: 

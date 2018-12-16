@@ -9,8 +9,6 @@ ms.assetid: 61d5cbc9-22de-4768-b610-138bcd3c9cce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*POCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY structure [Security], POCSP_REQUEST_ENTRY, POCSP_REQUEST_ENTRY structure pointer [Security], security.ocsp_request_entry, wincrypt/OCSP_REQUEST_ENTRY, wincrypt/POCSP_REQUEST_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

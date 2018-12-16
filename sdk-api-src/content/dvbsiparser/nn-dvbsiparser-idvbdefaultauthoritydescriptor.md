@@ -9,8 +9,6 @@ ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

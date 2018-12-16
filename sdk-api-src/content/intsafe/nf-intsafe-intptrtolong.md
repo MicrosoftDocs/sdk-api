@@ -9,8 +9,6 @@ ms.assetid: 43ccfd9b-6bef-4870-ad7a-f207443cf5cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IntPtrToLong, IntPtrToLong function [Windows Shell], _shell_IntPtrToLong, intsafe/IntPtrToLong, shell.IntPtrToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

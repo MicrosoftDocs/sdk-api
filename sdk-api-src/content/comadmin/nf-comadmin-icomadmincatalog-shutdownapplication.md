@@ -9,8 +9,6 @@ ms.assetid: 79f3af18-0924-4e09-85aa-54a6886b65b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ShutdownApplication method, ICOMAdminCatalog.ShutdownApplication, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

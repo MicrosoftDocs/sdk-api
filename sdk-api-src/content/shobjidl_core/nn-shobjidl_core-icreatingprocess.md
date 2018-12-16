@@ -9,8 +9,6 @@ ms.assetid: 68B89E8C-2868-4F33-87A5-66A2FEFC0441
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreatingProcess, ICreatingProcess interface [Windows Shell], ICreatingProcess interface [Windows Shell],described, shell.icreatingprocess, shobjidl_core/ICreatingProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

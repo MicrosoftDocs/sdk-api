@@ -9,8 +9,6 @@ ms.assetid: b46a6391-7332-4cca-8199-d801a1e4c299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],Insert method, ITextRow.Insert, ITextRow::Insert, Insert, Insert method [Windows Controls], Insert method [Windows Controls],ITextRow interface, controls.itextrow_insert, tom/ITextRow::Insert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

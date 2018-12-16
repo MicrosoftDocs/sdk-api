@@ -9,8 +9,6 @@ ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

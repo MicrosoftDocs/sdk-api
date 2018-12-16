@@ -9,8 +9,6 @@ ms.assetid: 2fb51794-83ac-44c5-b388-d7b945870324
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],EnumMediaStreams method, IMultiMediaStream.EnumMediaStreams, IMultiMediaStream::EnumMediaStreams, IMultiMediaStreamEnumMediaStreams, dshow.imultimediastream_enummediastreams, mmstream/IMultiMediaStream::EnumMediaStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

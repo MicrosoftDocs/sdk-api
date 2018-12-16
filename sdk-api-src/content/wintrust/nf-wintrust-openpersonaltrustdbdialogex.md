@@ -9,8 +9,6 @@ ms.assetid: 5e4dbccd-4cd0-4525-85dc-3327a5b713a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [Security], WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG, security.openpersonaltrustdbdialogex, wintrust/OpenPersonalTrustDBDialogEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

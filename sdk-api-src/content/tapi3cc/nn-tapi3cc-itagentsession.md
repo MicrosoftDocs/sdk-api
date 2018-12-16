@@ -9,8 +9,6 @@ ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

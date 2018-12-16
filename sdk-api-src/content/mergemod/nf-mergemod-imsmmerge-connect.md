@@ -9,8 +9,6 @@ ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e9613e4a-5ba1-4954-bc7a-7843249f031e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DavGetUNCFromHTTPPath, DavGetUNCFromHTTPPath function [WebDAV], davclnt/DavGetUNCFromHTTPPath, webdav.davgetuncfromhttppath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

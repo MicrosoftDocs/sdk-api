@@ -9,8 +9,6 @@ ms.assetid: 11279C5A-F825-437D-9F5F-ADCA328EBD33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Vector2F, Vector2F function [Direct2D], d2d1_1helper/Vector2F, direct2d.vector2f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

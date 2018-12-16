@@ -9,8 +9,6 @@ ms.assetid: 31252348-0830-4b1c-82a3-9f68818094da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Write method, IAVIStream.Write, IAVIStream::Write, Write, Write method [Windows Multimedia], Write method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Write, multimedia.iavistream_write, vfw/IAVIStream::Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 

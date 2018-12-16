@@ -9,8 +9,6 @@ ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: unknwnbase.h
 req.include-header: Unknwn.h

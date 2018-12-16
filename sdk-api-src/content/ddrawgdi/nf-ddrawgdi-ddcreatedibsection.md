@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdCreateDIBSection, DdCreateDIBSection function [Windows API], GdiEntry9, _dxgkernel_ddcreatedibsection, ddrawgdi/DdCreateDIBSection, ddrawgdi/GdiEntry9, winprog._dxgkernel_ddcreatedibsection, winui._dxgkernel_ddcreatedibsection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

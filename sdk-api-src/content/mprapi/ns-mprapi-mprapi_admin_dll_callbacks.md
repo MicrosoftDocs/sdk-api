@@ -9,8 +9,6 @@ ms.assetid: b36036e3-1aee-41e6-b777-98455b04e44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS structure [RAS], MPRAPI_ADMIN_DLL_VERSION_1, MPRAPI_ADMIN_DLL_VERSION_2, PMPRAPI_ADMIN_DLL_CALLBACKS, PMPRAPI_ADMIN_DLL_CALLBACKS structure pointer [RAS], mprapi/MPRAPI_ADMIN_DLL_CALLBACKS, mprapi/PMPRAPI_ADMIN_DLL_CALLBACKS, rras.mprapi_admin_dll_callbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

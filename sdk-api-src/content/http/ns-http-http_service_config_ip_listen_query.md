@@ -9,8 +9,6 @@ ms.assetid: 8cecb295-a35b-466d-9420-3b72f77f731f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP], _http_http_service_config_ip_listen_query, http.http_service_config_ip_listen_query, http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

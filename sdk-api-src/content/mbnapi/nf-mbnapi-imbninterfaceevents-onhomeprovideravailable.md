@@ -9,8 +9,6 @@ ms.assetid: 4da50033-d55c-4878-b05c-cbc43c156da0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnHomeProviderAvailable method, IMbnInterfaceEvents.OnHomeProviderAvailable, IMbnInterfaceEvents::OnHomeProviderAvailable, OnHomeProviderAvailable, OnHomeProviderAvailable method [Microsoft Broadband Networks], OnHomeProviderAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onhomeprovideravailable, mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

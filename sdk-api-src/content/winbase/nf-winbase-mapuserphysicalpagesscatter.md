@@ -9,8 +9,6 @@ ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

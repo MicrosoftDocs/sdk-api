@@ -9,8 +9,6 @@ ms.assetid: 5C750060-762B-42EE-92AD-8497B83E5D51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetRotation method, IMFCapturePreviewSink.GetRotation, IMFCapturePreviewSink::GetRotation, mf.imfcapturepreviewsink_getrotation, mfcaptureengine/IMFCapturePreviewSink::GetRotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

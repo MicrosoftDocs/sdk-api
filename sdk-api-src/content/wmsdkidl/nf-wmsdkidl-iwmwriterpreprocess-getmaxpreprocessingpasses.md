@@ -9,8 +9,6 @@ ms.assetid: 6acdc536-8b38-4fd4-9705-f4399dfc3faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxPreprocessingPasses, GetMaxPreprocessingPasses method [windows Media Format], GetMaxPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],GetMaxPreprocessingPasses method, IWMWriterPreprocess.GetMaxPreprocessingPasses, IWMWriterPreprocess::GetMaxPreprocessingPasses, IWMWriterPreprocessGetMaxPreprocessingPasses, wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

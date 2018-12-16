@@ -9,8 +9,6 @@ ms.assetid: 603cb667-a108-4e47-9808-99fddad5d894
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StartSubStream method, ITSubStream.StartSubStream, ITSubStream::StartSubStream, StartSubStream, StartSubStream method [TAPI 2.2], StartSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_startsubstream, tapi3.itsubstream_startsubstream, tapi3if/ITSubStream::StartSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

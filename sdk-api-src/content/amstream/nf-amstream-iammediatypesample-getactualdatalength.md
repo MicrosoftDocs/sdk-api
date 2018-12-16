@@ -9,8 +9,6 @@ ms.assetid: e73672c7-7400-40dd-be65-f6c30c476c91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

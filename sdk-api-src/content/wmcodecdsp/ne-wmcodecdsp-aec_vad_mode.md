@@ -9,8 +9,6 @@ ms.assetid: 01e2ba9e-1396-471e-a2bf-38dfcc7cac32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AEC_VAD_DISABLED, AEC_VAD_FOR_AGC, AEC_VAD_FOR_SILENCE_SUPPRESSION, AEC_VAD_MODE, AEC_VAD_MODE enumeration [Media Foundation], AEC_VAD_NORMAL, codecapi.aec_vad_modeenumeration, mf.aec_vad_modeenumeration, wmcodecdsp/AEC_VAD_DISABLED, wmcodecdsp/AEC_VAD_FOR_AGC, wmcodecdsp/AEC_VAD_FOR_SILENCE_SUPPRESSION, wmcodecdsp/AEC_VAD_MODE, wmcodecdsp/AEC_VAD_NORMAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 

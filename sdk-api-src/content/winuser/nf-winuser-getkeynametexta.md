@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyNameText, GetKeyNameText function [Keyboard and Mouse Input], GetKeyNameTextA, GetKeyNameTextW, _win32_GetKeyNameText, _win32_getkeynametext_cpp, inputdev.getkeynametext, winui._win32_getkeynametext, winuser/GetKeyNameText, winuser/GetKeyNameTextA, winuser/GetKeyNameTextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 

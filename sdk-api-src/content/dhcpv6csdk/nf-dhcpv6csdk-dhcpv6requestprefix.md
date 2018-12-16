@@ -9,8 +9,6 @@ ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 

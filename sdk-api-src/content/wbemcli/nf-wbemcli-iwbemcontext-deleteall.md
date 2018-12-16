@@ -9,8 +9,6 @@ ms.assetid: 980a5906-dc00-42fe-83f0-9fb476e766d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteAll method, IWbemContext.DeleteAll, IWbemContext::DeleteAll, _hmm_iwbemcontext_deleteall, wbemcli/IWbemContext::DeleteAll, wmi.iwbemcontext_deleteall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

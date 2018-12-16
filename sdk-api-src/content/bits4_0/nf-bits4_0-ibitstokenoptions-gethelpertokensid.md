@@ -9,8 +9,6 @@ ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits4_0.h
 req.include-header: 

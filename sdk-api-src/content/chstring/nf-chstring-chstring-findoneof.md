@@ -9,8 +9,6 @@ ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

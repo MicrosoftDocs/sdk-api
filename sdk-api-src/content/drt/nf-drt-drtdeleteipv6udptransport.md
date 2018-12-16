@@ -9,8 +9,6 @@ ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

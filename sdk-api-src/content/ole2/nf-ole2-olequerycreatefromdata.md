@@ -9,8 +9,6 @@ ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleQueryCreateFromData, OleQueryCreateFromData function [COM], _ole_OleQueryCreateFromData, com.olequerycreatefromdata, ole2/OleQueryCreateFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

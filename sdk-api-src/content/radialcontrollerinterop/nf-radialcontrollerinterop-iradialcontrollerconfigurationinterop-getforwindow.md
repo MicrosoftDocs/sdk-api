@@ -9,8 +9,6 @@ ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: radialcontrollerinterop.h
 req.include-header: 

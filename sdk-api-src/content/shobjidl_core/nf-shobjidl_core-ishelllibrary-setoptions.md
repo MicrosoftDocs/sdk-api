@@ -9,8 +9,6 @@ ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

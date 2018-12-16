@@ -9,8 +9,6 @@ ms.assetid: 42394650-5571-4165-84f1-19a26fb4a1b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHValidateUNC, SHValidateUNC function [Windows Shell], VALIDATEUNC_CONNECT, VALIDATEUNC_NOUI, VALIDATEUNC_PERSIST, VALIDATEUNC_PRINT, VALIDATEUNC_VALID, _win32_SHValidateUNC, shell.SHValidateUNC, shlobj_core/SHValidateUNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

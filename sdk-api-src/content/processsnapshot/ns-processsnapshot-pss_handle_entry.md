@@ -9,8 +9,6 @@ ms.assetid: F56E8C35-949A-4DEE-973F-CF24F6596036
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_entry, processsnapshot/PSS_HANDLE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

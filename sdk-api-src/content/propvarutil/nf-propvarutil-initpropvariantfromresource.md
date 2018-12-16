@@ -9,8 +9,6 @@ ms.assetid: c958f823-f820-4b0b-86ed-84ad18befbd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [Windows Properties], properties.InitPropVariantFromResource, propvarutil/InitPropVariantFromResource, shell.InitPropVariantFromResource, shell_InitPropVariantFromResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

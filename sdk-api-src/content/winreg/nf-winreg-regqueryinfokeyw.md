@@ -9,8 +9,6 @@ ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

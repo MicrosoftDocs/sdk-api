@@ -9,8 +9,6 @@ ms.assetid: 14008D12-1F46-4629-A7A3-190EA2B4DC76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MachineLearning.winml_resource_binding_desc, PWINML_RESOURCE_BINDING_DESC, PWINML_RESOURCE_BINDING_DESC structure pointer, WINML_RESOURCE_BINDING_DESC, WINML_RESOURCE_BINDING_DESC structure, winml/PWINML_RESOURCE_BINDING_DESC, winml/WINML_RESOURCE_BINDING_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

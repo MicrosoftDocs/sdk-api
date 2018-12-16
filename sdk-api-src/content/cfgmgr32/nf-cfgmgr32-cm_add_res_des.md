@@ -9,8 +9,6 @@ ms.assetid: 0097b53a-c1c8-4e76-beef-812a953073b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Add_Res_Des, CM_Add_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Add_Res_Des, cfgmgrfn_86ee6b93-0cdd-4f18-87c2-8c8d0c33d39f.xml, devinst.cm_add_res_des
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

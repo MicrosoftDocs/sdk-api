@@ -9,8 +9,6 @@ ms.assetid: 03afdef3-2aa8-4826-8dce-6d501fa42bcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableUDP method, IWMReaderNetworkConfig.SetEnableUDP, IWMReaderNetworkConfig::SetEnableUDP, IWMReaderNetworkConfigSetEnableUDP, SetEnableUDP, SetEnableUDP method [windows Media Format], SetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenableudp, wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

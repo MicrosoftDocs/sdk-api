@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4dca22b5-b4e3-4bb6-9eb4-5507472b63b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsItem.RemoveListElement, ISettingsItem::RemoveListElement, RemoveListElement, RemoveListElement method [SMI], RemoveListElement method [SMI],ISettingsItem interface, smi.isettingsitem_removelistelement, wcmconfig/ISettingsItem::RemoveListElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

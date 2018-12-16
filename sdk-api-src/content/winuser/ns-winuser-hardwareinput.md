@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPHARDWAREINPUT, *PHARDWAREINPUT, HARDWAREINPUT, HARDWAREINPUT structure [Keyboard and Mouse Input], PHARDWAREINPUT, PHARDWAREINPUT structure pointer [Keyboard and Mouse Input], _win32_HARDWAREINPUT_str, _win32_hardwareinput_str_cpp, inputdev.hardwareinput, winui._win32_hardwareinput_str, winuser/HARDWAREINPUT, winuser/PHARDWAREINPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

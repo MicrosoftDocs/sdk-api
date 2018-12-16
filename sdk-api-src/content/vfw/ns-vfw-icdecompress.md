@@ -9,8 +9,6 @@ ms.assetid: bc9c2416-cc1c-4571-82ee-7d93307f5114
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompress_COLLISION813, multimedia.icdecompress_struct, vfw/ICDECOMPRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

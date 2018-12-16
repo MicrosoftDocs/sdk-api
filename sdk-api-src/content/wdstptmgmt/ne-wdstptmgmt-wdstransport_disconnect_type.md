@@ -9,8 +9,6 @@ ms.assetid: f25bdc9e-0014-4ff7-bc01-8a13b6e3ace1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE enumeration [Windows Deployment Services], WdsTptDisconnectAbort, WdsTptDisconnectFallback, WdsTptDisconnectUnknown, wds.wdstransport_disconnect_type, wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE, wdstptmgmt/WdsTptDisconnectAbort, wdstptmgmt/WdsTptDisconnectFallback, wdstptmgmt/WdsTptDisconnectUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

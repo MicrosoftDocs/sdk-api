@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LogicalToPhysicalPoint, LogicalToPhysicalPoint function [Windows and Messages], _win32_LogicalToPhysicalPoint, _win32_logicaltophysicalpoint_cpp, winmsg.logicaltophysicalpoint, winui._win32_logicaltophysicalpoint, winuser/LogicalToPhysicalPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

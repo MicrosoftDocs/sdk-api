@@ -9,8 +9,6 @@ ms.assetid: bbe86f4f-d023-4285-a6c1-c42fdc566f2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOleInPlaceSiteWindowless.InvalidateRgn, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

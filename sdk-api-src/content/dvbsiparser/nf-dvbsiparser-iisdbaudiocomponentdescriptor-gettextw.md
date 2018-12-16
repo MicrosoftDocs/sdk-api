@@ -9,8 +9,6 @@ ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

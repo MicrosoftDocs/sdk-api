@@ -9,8 +9,6 @@ ms.assetid: 9DAABF59-AC88-4B14-A7F1-470D4C0879FF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xaml_diagnostics.visualmutationtype, xamlom/Add, xamlom/Remove, xamlom/VisualMutationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 

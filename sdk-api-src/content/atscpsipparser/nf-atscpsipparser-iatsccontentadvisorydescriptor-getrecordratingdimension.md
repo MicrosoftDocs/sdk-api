@@ -9,8 +9,6 @@ ms.assetid: 583c9d8b-6b4b-4aa0-995d-26295b430f76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordRatingDimension, GetRecordRatingDimension method [Microsoft TV Technologies], GetRecordRatingDimension method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDimension method, IAtscContentAdvisoryDescriptor.GetRecordRatingDimension, IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, IAtscContentAdvisoryDescriptorGetRecordRatingDimension, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, mstv.iatsccontentadvisorydescriptor_getrecordratingdimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

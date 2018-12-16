@@ -9,8 +9,6 @@ ms.assetid: 2e7854dd-93eb-4626-a67d-4bd3dd79a75b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [SMI], GetEnumerator method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetEnumerator method, ITargetInfo.GetEnumerator, ITargetInfo::GetEnumerator, smi.itargetinfo_getenumerator, wcmconfig/ITargetInfo::GetEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

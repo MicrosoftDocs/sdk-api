@@ -9,8 +9,6 @@ ms.assetid: 1e51aea4-f56f-4a7c-95eb-e955e7d173ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4SetPolicy, DhcpV4SetPolicy function [DHCP], dhcp.dhcpv4setpolicy, dhcpsapi/DhcpV4SetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

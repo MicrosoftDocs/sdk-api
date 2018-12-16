@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyboardLayoutList, GetKeyboardLayoutList function [Keyboard and Mouse Input], _win32_GetKeyboardLayoutList, _win32_getkeyboardlayoutlist_cpp, inputdev.getkeyboardlayoutlist, winui._win32_getkeyboardlayoutlist, winuser/GetKeyboardLayoutList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

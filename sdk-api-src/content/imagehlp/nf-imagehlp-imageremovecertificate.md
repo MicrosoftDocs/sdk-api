@@ -9,8 +9,6 @@ ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

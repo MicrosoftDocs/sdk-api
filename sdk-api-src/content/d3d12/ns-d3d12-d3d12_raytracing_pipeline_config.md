@@ -9,8 +9,6 @@ ms.assetid: 4E2A9C75-CCFE-4AB5-967A-FF2CE3C8A7CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_PIPELINE_CONFIG, D3D12_RAYTRACING_PIPELINE_CONFIG structure, PD3D12_RAYTRACING_PIPELINE_CONFIG, PD3D12_RAYTRACING_PIPELINE_CONFIG structure pointer, d3d12/D3D12_RAYTRACING_PIPELINE_CONFIG, d3d12/PD3D12_RAYTRACING_PIPELINE_CONFIG, direct3d12.d3d12_raytracing_pipeline_config
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

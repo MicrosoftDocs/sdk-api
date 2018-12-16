@@ -9,8 +9,6 @@ ms.assetid: 5ed54cc4-284b-4cd7-80c1-e9c5ff27c4bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],FreeExtra method, CHStringArray.FreeExtra, CHStringArray::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_freeextra, chstrarr/CHStringArray::FreeExtra, wmi.chstringarray_freeextra
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

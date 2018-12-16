@@ -9,8 +9,6 @@ ms.assetid: 8D974311-25CB-4D49-B907-2984D0DA58D7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility],described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

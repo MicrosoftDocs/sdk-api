@@ -9,8 +9,6 @@ ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, SOCKET_SETTINGS_IPSEC_SKIP_FILTER_INSTANTIATION, mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC, winsock.socket_security_settings_ipsec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

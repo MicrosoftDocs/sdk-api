@@ -9,8 +9,6 @@ ms.assetid: 8B279914-E23A-479B-8621-E83DE1978597
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

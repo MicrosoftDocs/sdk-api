@@ -9,8 +9,6 @@ ms.assetid: 97B396BE-467A-4B5D-A87B-8B2B8BC6E71D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextValue, GetTextValue method [Direct2D], GetTextValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetTextValue method, ID2D1SvgElement.GetTextValue, ID2D1SvgElement::GetTextValue, d2d1svg/ID2D1SvgElement::GetTextValue, direct2d.id2d1svgelement_gettextvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

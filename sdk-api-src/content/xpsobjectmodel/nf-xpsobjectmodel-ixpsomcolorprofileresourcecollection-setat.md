@@ -9,8 +9,6 @@ ms.assetid: dbabddbb-a558-4166-9951-7126221d88e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMColorProfileResourceCollection.SetAt, IXpsOMColorProfileResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_setat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

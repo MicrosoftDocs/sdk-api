@@ -9,8 +9,6 @@ ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

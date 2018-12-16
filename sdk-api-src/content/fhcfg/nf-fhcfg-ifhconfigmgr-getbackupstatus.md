@@ -9,8 +9,6 @@ ms.assetid: 0AC8F205-B593-4117-9059-0DDA5BBE3124
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FhConfigMgr class [Windows API],GetBackupStatus method, GetBackupStatus, GetBackupStatus method [Windows API], GetBackupStatus method [Windows API],FhConfigMgr class, GetBackupStatus method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetBackupStatus method, IFhConfigMgr.GetBackupStatus, IFhConfigMgr::GetBackupStatus, fhcfg/IFhConfigMgr::GetBackupStatus, winprog.ifhconfigmgr_getbackupstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

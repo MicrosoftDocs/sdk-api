@@ -9,8 +9,6 @@ ms.assetid: 3e7fbf27-3519-4c02-b785-98e29902df65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetCurrentImage method, IBasicVideo.GetCurrentImage, IBasicVideo::GetCurrentImage, IBasicVideoGetCurrentImage, control/IBasicVideo::GetCurrentImage, dshow.ibasicvideo_getcurrentimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

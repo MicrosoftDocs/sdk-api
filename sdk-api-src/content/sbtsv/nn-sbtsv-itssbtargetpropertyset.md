@@ -9,8 +9,6 @@ ms.assetid: 74ea8132-cb06-40ce-b3bf-4bd8babe3711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTargetPropertySet, ITsSbTargetPropertySet interface [Remote Desktop Services], ITsSbTargetPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbTargetPropertySet, termserv.itssbtargetpropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

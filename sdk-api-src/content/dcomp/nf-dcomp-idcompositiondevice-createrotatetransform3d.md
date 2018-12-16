@@ -9,8 +9,6 @@ ms.assetid: 0F680BDB-F845-42AD-8888-B0E4A106D9CB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRotateTransform3D, CreateRotateTransform3D method [DirectComposition], CreateRotateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform3D method, IDCompositionDevice.CreateRotateTransform3D, IDCompositionDevice::CreateRotateTransform3D, dcomp/IDCompositionDevice::CreateRotateTransform3D, directcomp.idcompositiondevice_createrotatetransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

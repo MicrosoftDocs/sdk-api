@@ -9,8 +9,6 @@ ms.assetid: f53b779e-a015-4b17-b04d-e0739cba8168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewDual2, IShellFolderViewDual2 interface [Windows Shell], IShellFolderViewDual2 interface [Windows Shell],described, _shell_IShellFolderViewDual2, shell.IShellFolderViewDual2, shldisp/IShellFolderViewDual2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

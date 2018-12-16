@@ -9,8 +9,6 @@ ms.assetid: 2b76c648-a8d6-440c-b0b8-7c17f91ad961
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRADIUS_EXTENSION_FREE_ATTRIBUTES, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback function [Network Policy Server], RadiusExtensionFreeAttributes, _ias_radiusextensionfreeattributes, authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES, ias.radiusextensionfreeattributes, nps.IAS_radiusextensionfreeattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

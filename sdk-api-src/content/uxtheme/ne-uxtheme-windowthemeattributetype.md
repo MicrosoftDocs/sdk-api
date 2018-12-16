@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WINDOWTHEMEATTRIBUTETYPE, WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls], WTA_NONCLIENT, controls.WINDOWTHEMEATTRIBUTETYPE, controls.inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE_cpp, uxtheme/WINDOWTHEMEATTRIBUTETYPE, uxtheme/WTA_NONCLIENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 

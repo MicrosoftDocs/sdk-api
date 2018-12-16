@@ -9,8 +9,6 @@ ms.assetid: 1352d304-b984-43ab-8c47-5108f35ae193
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 46d4170e-13d6-406f-991f-2024fadd8ddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FONTSIM, FONTSIM structure [Display Devices], display.fontsim, grstrcts_b6931468-edd5-4675-a8e2-a594741f7e6c.xml, winddi/FONTSIM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

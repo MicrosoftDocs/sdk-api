@@ -9,8 +9,6 @@ ms.assetid: 5d730034-802b-4d37-bd28-68992779b93e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateLocallyUniqueId, AllocateLocallyUniqueId function [Security], _win32_allocatelocallyuniqueid, security.allocatelocallyuniqueid, securitybaseapi/AllocateLocallyUniqueId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

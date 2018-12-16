@@ -9,8 +9,6 @@ ms.assetid: e520b2b4-c181-4fb1-98e8-f159bd0d31b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeEncode method, IX509ExtensionAlternativeNames.InitializeEncode, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 044dde5c-599f-495b-8d5c-7a37833bcb41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWriterEx, CreateWriterEx function, base.createwriterex, vswriter/CreateWriterEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vswriter.h
 req.include-header: 

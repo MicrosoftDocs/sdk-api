@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetPrevVisible, TreeView_GetPrevVisible macro [Windows Controls], _win32_TreeView_GetPrevVisible, _win32_TreeView_GetPrevVisible_cpp, commctrl/TreeView_GetPrevVisible, controls.TreeView_GetPrevVisible, controls._win32_TreeView_GetPrevVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

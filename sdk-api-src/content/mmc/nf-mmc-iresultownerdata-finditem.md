@@ -9,8 +9,6 @@ ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

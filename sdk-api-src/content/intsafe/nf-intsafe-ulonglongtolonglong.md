@@ -9,8 +9,6 @@ ms.assetid: 48836bf6-b498-4e3c-b6eb-e62f13f27521
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongLongToIntPtr, ULongLongToIntPtr function [Windows Shell], ULongLongToLongLong, ULongLongToPtrdiffT, _shell_ULongLongToIntPtr, intsafe/ULongLongToIntPtr, shell.ULongLongToIntPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

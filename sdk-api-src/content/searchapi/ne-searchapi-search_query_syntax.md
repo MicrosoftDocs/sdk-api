@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\enums\search_query_syntax.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_NO_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX enumeration [search], _search_SEARCH_QUERY_SYNTAX, search._search_SEARCH_QUERY_SYNTAX, searchapi/SEARCH_ADVANCED_QUERY_SYNTAX, searchapi/SEARCH_NATURAL_QUERY_SYNTAX, searchapi/SEARCH_NO_QUERY_SYNTAX, searchapi/SEARCH_QUERY_SYNTAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e3e18e1e-1a09-4072-add6-36d2a6428a74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioRenderClient, IAudioRenderClient interface [Core Audio], IAudioRenderClient interface [Core Audio],described, audioclient/IAudioRenderClient, coreaudio.iaudiorenderclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgrap
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHint function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamtransformhint, _udwm_dwmgetgraphicsstreamtransformhint_cpp, dwm.dwmgetgraphicsstreamtransformhint, dwmapi/DwmGetGraphicsStreamTransformHint, winui._udwm_dwmgetgraphicsstreamtransformhint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

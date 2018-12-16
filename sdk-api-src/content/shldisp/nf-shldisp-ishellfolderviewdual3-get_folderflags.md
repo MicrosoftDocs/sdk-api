@@ -9,8 +9,6 @@ ms.assetid: c0fc82d4-d27e-4410-88a8-83839de8409b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_FolderFlags method, IShellFolderViewDual3.get_FolderFlags, IShellFolderViewDual3::get_FolderFlags, _shell_IShellFolderViewDual3_get_FolderFlags, get_FolderFlags, get_FolderFlags method [Windows Shell], get_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_FolderFlags, shldisp/IShellFolderViewDual3::get_FolderFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

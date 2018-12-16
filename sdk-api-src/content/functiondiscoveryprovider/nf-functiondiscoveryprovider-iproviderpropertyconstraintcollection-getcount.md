@@ -9,8 +9,6 @@ ms.assetid: 62dc9e75-ff40-472f-8acf-ebe40dbac95c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,GetCount method, IProviderPropertyConstraintCollection.GetCount, IProviderPropertyConstraintCollection::GetCount, functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount, ncd.iproviderpropertyconstraintcollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

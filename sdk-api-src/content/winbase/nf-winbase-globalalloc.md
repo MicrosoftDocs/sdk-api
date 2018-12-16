@@ -9,8 +9,6 @@ ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

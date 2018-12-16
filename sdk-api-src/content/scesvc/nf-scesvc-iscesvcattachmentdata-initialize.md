@@ -9,8 +9,6 @@ ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceSvcAttachmentData.Initialize, ISceSvcAttachmentData::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISceSvcAttachmentData interface, _config_iscesvcattachmentdata_initialize, scesvc/ISceSvcAttachmentData::Initialize, security.iscesvcattachmentdata_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],QueryVideoMemoryInfo method, IDXGIAdapter3.QueryVideoMemoryInfo, IDXGIAdapter3::QueryVideoMemoryInfo, QueryVideoMemoryInfo, QueryVideoMemoryInfo method [DXGI], QueryVideoMemoryInfo method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_queryvideomemoryinfo, dxgi1_4/IDXGIAdapter3::QueryVideoMemoryInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

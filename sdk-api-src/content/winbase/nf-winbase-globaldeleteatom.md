@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreferen
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GlobalDeleteAtom, GlobalDeleteAtom function [Data Exchange], _win32_GlobalDeleteAtom, _win32_globaldeleteatom_cpp, dataxchg.globaldeleteatom, winbase/GlobalDeleteAtom, winui._win32_globaldeleteatom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

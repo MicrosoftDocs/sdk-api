@@ -9,8 +9,6 @@ ms.assetid: 116715a5-a3e1-48aa-b155-107ea330b7ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

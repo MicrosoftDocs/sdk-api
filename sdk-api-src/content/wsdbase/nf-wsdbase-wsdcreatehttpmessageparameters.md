@@ -9,8 +9,6 @@ ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: d9efe2f7-3628-4e1f-b554-a6889d82a973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],Open method, ITPhone.Open, ITPhone::Open, Open, Open method [TAPI 2.2], Open method [TAPI 2.2],ITPhone interface, _tapi3_itphone_open, tapi3.itphone_open, tapi3if/ITPhone::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

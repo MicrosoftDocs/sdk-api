@@ -9,8 +9,6 @@ ms.assetid: e792e7bc-1c7f-4fa1-810d-97391cbcf797
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

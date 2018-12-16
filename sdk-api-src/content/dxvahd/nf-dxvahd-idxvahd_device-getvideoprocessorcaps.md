@@ -9,8 +9,6 @@ ms.assetid: d9423b3f-4a4b-49f0-8018-c19a7b663300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCaps method, IDXVAHD_Device.GetVideoProcessorCaps, IDXVAHD_Device::GetVideoProcessorCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorCaps, mf.idxvahd_device_getvideoprocessorcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 

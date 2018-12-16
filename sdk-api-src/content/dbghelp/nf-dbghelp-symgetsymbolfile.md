@@ -9,8 +9,6 @@ ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityByIndex method, IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

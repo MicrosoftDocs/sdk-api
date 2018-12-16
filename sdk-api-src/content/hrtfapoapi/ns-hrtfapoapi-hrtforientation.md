@@ -9,8 +9,6 @@ ms.assetid: 759EC69D-1E5A-4CB1-86B0-8612BF4C3B5E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HrtfOrientation, HrtfOrientation structure [XAudio2 Audio Mixing APIs], PHrtfOrientation, PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfOrientation, hrtfapoapi/PHrtfOrientation, xaudio2.hrtforientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 

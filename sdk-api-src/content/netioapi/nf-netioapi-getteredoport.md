@@ -9,8 +9,6 @@ ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

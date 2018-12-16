@@ -9,8 +9,6 @@ ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

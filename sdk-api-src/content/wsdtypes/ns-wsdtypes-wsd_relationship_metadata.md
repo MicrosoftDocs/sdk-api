@@ -9,8 +9,6 @@ ms.assetid: 232ea033-f368-4a37-9bec-ba5dc0d9b60f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

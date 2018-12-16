@@ -9,8 +9,6 @@ ms.assetid: 63ac09a9-23bb-4d82-9699-541552e1ec90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoChromaResolution, codecapi/eAVEncVideoChromaResolution_411, codecapi/eAVEncVideoChromaResolution_420, codecapi/eAVEncVideoChromaResolution_422, codecapi/eAVEncVideoChromaResolution_444, codecapi/eAVEncVideoChromaResolution_SameAsSource, dshow.eavencvideochromaresolution, eAVEncVideoChromaResolution, eAVEncVideoChromaResolution enumeration [DirectShow], eAVEncVideoChromaResolutionEnumeration, eAVEncVideoChromaResolution_411, eAVEncVideoChromaResolution_420, eAVEncVideoChromaResolution_422, eAVEncVideoChromaResolution_444, eAVEncVideoChromaResolution_SameAsSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9F39952F-4B91-4C06-A789-D92F1F8462A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterResourceTypeControlAsUser, ClusterResourceTypeControlAsUser function [Failover Cluster], clusapi/ClusterResourceTypeControlAsUser, mscs.clusterresourcetypecontrolasuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

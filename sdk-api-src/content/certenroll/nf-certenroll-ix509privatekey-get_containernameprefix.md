@@ -9,8 +9,6 @@ ms.assetid: af5a30dd-4707-4b38-bf6b-b971d854d5b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContainerNamePrefix property [Security], ContainerNamePrefix property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ContainerNamePrefix property, IX509PrivateKey.ContainerNamePrefix, IX509PrivateKey.get_ContainerNamePrefix, IX509PrivateKey::ContainerNamePrefix, IX509PrivateKey::get_ContainerNamePrefix, IX509PrivateKey::put_ContainerNamePrefix, certenroll/IX509PrivateKey::ContainerNamePrefix, certenroll/IX509PrivateKey::get_ContainerNamePrefix, certenroll/IX509PrivateKey::put_ContainerNamePrefix, get_ContainerNamePrefix, security.ix509privatekey_containernameprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

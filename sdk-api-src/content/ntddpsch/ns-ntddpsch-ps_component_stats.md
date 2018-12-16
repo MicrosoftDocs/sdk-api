@@ -9,8 +9,6 @@ ms.assetid: 6263d80a-5486-4748-b3a7-4c9d9bb2162f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPS_COMPONENT_STATS, PPS_COMPONENT_STATS, PPS_COMPONENT_STATS structure pointer [QOS], PS_ADAPTER_STATS (1), PS_COMPONENT_STATS, PS_COMPONENT_STATS structure [QOS], PS_CONFORMER_STATS (3), PS_DRRSEQ_STATS (5), PS_FLOW_STATS (2), PS_SHAPER_STATS (4), _gqos_ps_component_stats, ntddpsch/PPS_COMPONENT_STATS, ntddpsch/PS_COMPONENT_STATS, qos.ps_component_stats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 

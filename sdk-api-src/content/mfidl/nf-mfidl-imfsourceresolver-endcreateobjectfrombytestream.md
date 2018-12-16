@@ -9,8 +9,6 @@ ms.assetid: 54532c0e-772b-45b6-95a3-5959023b9bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 54532c0e-772b-45b6-95a3-5959023b9bc8, EndCreateObjectFromByteStream, EndCreateObjectFromByteStream method [Media Foundation], EndCreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],EndCreateObjectFromByteStream method, IMFSourceResolver.EndCreateObjectFromByteStream, IMFSourceResolver::EndCreateObjectFromByteStream, mf.imfsourceresolver_endcreateobjectfrombytestream, mfidl/IMFSourceResolver::EndCreateObjectFromByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

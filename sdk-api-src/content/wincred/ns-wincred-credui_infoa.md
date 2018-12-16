@@ -9,8 +9,6 @@ ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCREDUI_INFOA, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOA, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 

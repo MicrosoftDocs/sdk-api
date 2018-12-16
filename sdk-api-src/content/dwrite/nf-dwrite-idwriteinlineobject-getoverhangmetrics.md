@@ -9,8 +9,6 @@ ms.assetid: b3b3e9f0-ee35-4117-9a62-a975c03b5ca9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverhangMetrics, GetOverhangMetrics method [Direct Write], GetOverhangMetrics method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetOverhangMetrics method, IDWriteInlineObject.GetOverhangMetrics, IDWriteInlineObject::GetOverhangMetrics, directwrite.idwriteinlineobject_getoverhangmetrics, dwrite/IDWriteInlineObject::GetOverhangMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxtodaywidth.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_GetMaxTodayWidth, MonthCal_GetMaxTodayWidth macro [Windows Controls], _win32_MonthCal_GetMaxTodayWidth, _win32_MonthCal_GetMaxTodayWidth_cpp, commctrl/MonthCal_GetMaxTodayWidth, controls.MonthCal_GetMaxTodayWidth, controls._win32_MonthCal_GetMaxTodayWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

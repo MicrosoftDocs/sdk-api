@@ -9,8 +9,6 @@ ms.assetid: 90df5bc4-6bb0-44bf-b675-d4a93d4680ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumMoniker interface [COM],Skip method, IEnumMoniker.Skip, IEnumMoniker::Skip, Skip, Skip method [COM], Skip method [COM],IEnumMoniker interface, _ole_ienummoniker_skip, com.ienummoniker_skip, objidl/IEnumMoniker::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

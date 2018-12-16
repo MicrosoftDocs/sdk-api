@@ -9,8 +9,6 @@ ms.assetid: 01c69709-be6e-4a58-849d-76f9d4e3c196
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetText method, IWbemPathKeyList.GetText, IWbemPathKeyList::GetText, WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, _hmm_iwbempathkeylist_gettext, wmi.iwbempathkeylist_gettext, wmiutils/IWbemPathKeyList::GetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 89aa0212-9311-4f23-9f55-7e7a1072a19a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap9.UpdateAlphaBitmapParameters, IVMRMixerBitmap9::UpdateAlphaBitmapParameters, IVMRMixerBitmap9UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_updatealphabitmapparameters, vmr9/IVMRMixerBitmap9::UpdateAlphaBitmapParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

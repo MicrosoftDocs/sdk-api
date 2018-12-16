@@ -9,8 +9,6 @@ ms.assetid: f05751e0-9cd9-4c12-8238-163b1e398b82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],LogResult property, IFsrmActionCommand.LogResult, IFsrmActionCommand.put_LogResult, IFsrmActionCommand::LogResult, IFsrmActionCommand::get_LogResult, IFsrmActionCommand::put_LogResult, LogResult property [File Server Resource Manager], LogResult property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_logresult, fsrm.ifsrmactioncommand_logresult, fsrm/IFsrmActionCommand::LogResult, fsrm/IFsrmActionCommand::get_LogResult, fsrm/IFsrmActionCommand::put_LogResult, put_LogResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

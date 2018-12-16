@@ -9,8 +9,6 @@ ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], comsvcs/ComponentStatistics, cos.componentstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

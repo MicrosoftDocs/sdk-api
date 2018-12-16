@@ -9,8 +9,6 @@ ms.assetid: 28e53076-4d8e-4f24-83b0-d0aaf7260802
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

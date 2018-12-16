@@ -9,8 +9,6 @@ ms.assetid: eba2388a-9c94-43f0-bf7f-e814895a2792
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDevice.CreateTargetForHwnd, IDCompositionDevice::CreateTargetForHwnd, dcomp/IDCompositionDevice::CreateTargetForHwnd, directcomp.idcompositiondevice_createhwndtarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

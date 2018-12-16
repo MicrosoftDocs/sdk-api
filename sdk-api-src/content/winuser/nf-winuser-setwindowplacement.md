@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWindowPlacement, SetWindowPlacement function [Windows and Messages], _win32_SetWindowPlacement, _win32_setwindowplacement_cpp, winmsg.setwindowplacement, winui._win32_setwindowplacement, winuser/SetWindowPlacement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

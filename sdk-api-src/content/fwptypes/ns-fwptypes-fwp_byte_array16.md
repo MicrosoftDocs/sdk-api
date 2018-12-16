@@ -9,8 +9,6 @@ ms.assetid: 254ee02f-747d-46e4-9851-141db57e1aa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWP_BYTE_ARRAY16, FWP_BYTE_ARRAY16 structure [Filtering], fwp.fwp_byte_array16_struct, fwptypes/FWP_BYTE_ARRAY16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

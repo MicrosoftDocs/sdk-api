@@ -9,8 +9,6 @@ ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

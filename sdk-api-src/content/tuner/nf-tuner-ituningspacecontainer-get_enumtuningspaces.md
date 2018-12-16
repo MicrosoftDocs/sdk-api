@@ -9,8 +9,6 @@ ms.assetid: 7cd6a691-8c47-4c26-8afd-57f6965246ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaceContainer.get_EnumTuningSpaces, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

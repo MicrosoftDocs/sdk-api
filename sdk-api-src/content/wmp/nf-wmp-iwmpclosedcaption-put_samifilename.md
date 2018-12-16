@@ -9,8 +9,6 @@ ms.assetid: ebc05983-3375-4ace-b192-f427b9685310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName method, IWMPClosedCaption.put_SAMIFileName, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

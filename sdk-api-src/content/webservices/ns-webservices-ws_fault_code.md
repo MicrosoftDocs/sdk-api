@@ -9,8 +9,6 @@ ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], webservices/WS_FAULT_CODE, wsw.ws_fault_code
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

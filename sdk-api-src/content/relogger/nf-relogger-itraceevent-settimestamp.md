@@ -9,8 +9,6 @@ ms.assetid: e1f76887-8edd-414e-bee3-36b61709c2b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetTimeStamp method, ITraceEvent.SetTimeStamp, ITraceEvent::SetTimeStamp, SetTimeStamp, SetTimeStamp method [ETW], SetTimeStamp method [ETW],ITraceEvent interface, etw.ievent_settimestamp, relogger/ITraceEvent::SetTimeStamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

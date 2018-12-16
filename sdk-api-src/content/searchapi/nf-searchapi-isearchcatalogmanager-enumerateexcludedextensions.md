@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateExcludedExtensions, EnumerateExcludedExtensions method [search], EnumerateExcludedExtensions method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],EnumerateExcludedExtensions method, ISearchCatalogManager.EnumerateExcludedExtensions, ISearchCatalogManager::EnumerateExcludedExtensions, _search_ISearchCatalogManager_EnumerateExcludedExtensions, search._search_ISearchCatalogManager_EnumerateExcludedExtensions, searchapi/ISearchCatalogManager::EnumerateExcludedExtensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

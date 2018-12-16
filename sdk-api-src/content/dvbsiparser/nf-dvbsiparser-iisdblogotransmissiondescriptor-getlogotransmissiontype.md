@@ -9,8 +9,6 @@ ms.assetid: a8f824ec-36f7-4af0-bce3-295b8403e431
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLogoTransmissionType, GetLogoTransmissionType method [Microsoft TV Technologies], GetLogoTransmissionType method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoTransmissionType method, IIsdbLogoTransmissionDescriptor.GetLogoTransmissionType, IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, mstv.iisdblogotransmissiondescriptor_getlogotransmissiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

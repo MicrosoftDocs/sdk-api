@@ -9,8 +9,6 @@ ms.assetid: e541ab2b-2dc8-45df-9d72-8d55141ef142
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentFontFile, GetCurrentFontFile method [Direct Write], GetCurrentFontFile method [Direct Write],IDWriteFontFileEnumerator interface, IDWriteFontFileEnumerator interface [Direct Write],GetCurrentFontFile method, IDWriteFontFileEnumerator.GetCurrentFontFile, IDWriteFontFileEnumerator::GetCurrentFontFile, directwrite.IDWriteFontFileEnumerator_GetCurrentFontFile, dwrite/IDWriteFontFileEnumerator::GetCurrentFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

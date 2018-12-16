@@ -9,8 +9,6 @@ ms.assetid: e10125e9-8bc7-4fb6-8a10-ba5717f1596f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSlowestRate, GetSlowestRate method [Media Foundation], GetSlowestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetSlowestRate method, IMFRateSupport.GetSlowestRate, IMFRateSupport::GetSlowestRate, e10125e9-8bc7-4fb6-8a10-ba5717f1596f, mf.imfratesupport_getslowestrate, mfidl/IMFRateSupport::GetSlowestRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

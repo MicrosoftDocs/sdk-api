@@ -9,8 +9,6 @@ ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, IUIAutomationSelectionPattern::CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

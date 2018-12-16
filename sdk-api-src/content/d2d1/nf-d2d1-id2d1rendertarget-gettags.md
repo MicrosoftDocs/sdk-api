@@ -9,8 +9,6 @@ ms.assetid: 71da439f-4666-4e49-93f8-26acd222ed1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTags, GetTags method [Direct2D], GetTags method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTags method, ID2D1RenderTarget.GetTags, ID2D1RenderTarget::GetTags, d2d1/ID2D1RenderTarget::GetTags, direct2d.ID2D1RenderTarget_GetTags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

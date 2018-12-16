@@ -9,8 +9,6 @@ ms.assetid: 5BE94583-31DC-4469-9049-7768D64F7F41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12StateObject, ID3D12StateObject interface, ID3D12StateObject interface,described, d3d12/ID3D12StateObject, direct3d12.id3d12stateobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

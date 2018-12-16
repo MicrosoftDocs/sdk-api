@@ -9,8 +9,6 @@ ms.assetid: 7b381929-174f-4b7b-aa22-dc7a2c3e3b4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV], davclnt/DavRegisterAuthCallback, webdav.davregisterauthcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5013d351-e96d-44c7-88d7-65a55e474b01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetContrast method, IWICDevelopRaw.SetContrast, IWICDevelopRaw::SetContrast, SetContrast, SetContrast method [Windows Imaging Component], SetContrast method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setcontrast, wic._wic_codec_iwicdevelopraw_setcontrast, wincodec/IWICDevelopRaw::SetContrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

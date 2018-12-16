@@ -9,8 +9,6 @@ ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

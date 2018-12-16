@@ -9,8 +9,6 @@ ms.assetid: eceb5f0a-ad9a-4b7a-9656-c10e0420a96a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperation interface [Windows Shell],PerformOperations method, IFileOperation.PerformOperations, IFileOperation::PerformOperations, PerformOperations, PerformOperations method [Windows Shell], PerformOperations method [Windows Shell],IFileOperation interface, _shell_IFileOperation_PerformOperations, shell.IFileOperation_PerformOperations, shobjidl_core/IFileOperation::PerformOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

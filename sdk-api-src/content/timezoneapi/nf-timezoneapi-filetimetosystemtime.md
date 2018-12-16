@@ -9,8 +9,6 @@ ms.assetid: d1d55f1f-4daa-4b9d-9962-873e38b1e0cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileTimeToSystemTime, FileTimeToSystemTime function, _win32_filetimetosystemtime, base.filetimetosystemtime, timezoneapi/FileTimeToSystemTime, winbase/FileTimeToSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

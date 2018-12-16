@@ -9,8 +9,6 @@ ms.assetid: 2ef6cff7-b5ab-463d-b274-62be81bc9295
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTARGET_INFORMATION_CLASS, DiscoveryMechanism, InitiatorName, LoginOptions, PersistentTargetMappings, PortalGroups, ProtocolType, TARGET_INFORMATION_CLASS, TARGET_INFORMATION_CLASS enumeration [iSCSI Discovery Library API], TargetAlias, TargetFlags, iscsidisc.target_information_class, iscsidsc/DiscoveryMechanism, iscsidsc/InitiatorName, iscsidsc/LoginOptions, iscsidsc/PersistentTargetMappings, iscsidsc/PortalGroups, iscsidsc/ProtocolType, iscsidsc/TARGET_INFORMATION_CLASS, iscsidsc/TargetAlias, iscsidsc/TargetFlags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText2, GetText2 method [Windows Controls], GetText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetText2 method, ITextRange2.GetText2, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

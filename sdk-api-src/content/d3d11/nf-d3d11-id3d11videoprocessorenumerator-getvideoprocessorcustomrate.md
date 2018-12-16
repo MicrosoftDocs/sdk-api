@@ -9,8 +9,6 @@ ms.assetid: 0FA868E6-B0FB-433B-A183-72DDE39B207E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoProcessorCustomRate, GetVideoProcessorCustomRate method [Media Foundation], GetVideoProcessorCustomRate method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorCustomRate method, ID3D11VideoProcessorEnumerator.GetVideoProcessorCustomRate, ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, mf.id3d11videoprocessorenumerator_getvideoprocessorcustomrate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

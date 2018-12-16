@@ -9,8 +9,6 @@ ms.assetid: d3f4e33e-436b-4f05-8696-321a3bfbacd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Identify method, IWSManSession.Identify, IWSManSession::Identify, Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

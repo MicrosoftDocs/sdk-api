@@ -9,8 +9,6 @@ ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCompletedCallbackArgs, ISearchCompletedCallbackArgs interface [Windows Update Agent], ISearchCompletedCallbackArgs interface [Windows Update Agent],described, wua.isearchcompletedcallbackargs, wuapi/ISearchCompletedCallbackArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

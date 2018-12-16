@@ -9,8 +9,6 @@ ms.assetid: 2BC384A8-641F-4144-BE24-652216101EAF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform3D.SetScaleY, IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY, IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation*), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

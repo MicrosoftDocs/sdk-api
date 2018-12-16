@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConditionFactory interface [search],MakeNot method, IConditionFactory.MakeNot, IConditionFactory::MakeNot, MakeNot, MakeNot method [search], MakeNot method [search],IConditionFactory interface, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

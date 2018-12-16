@@ -9,8 +9,6 @@ ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST structure [Security], CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED, CTL_MODIFY_REQUEST_ADD_TRUSTED, CTL_MODIFY_REQUEST_REMOVE, PCTL_MODIFY_REQUEST, PCTL_MODIFY_REQUEST structure pointer [Security], cryptdlg/CTL_MODIFY_REQUEST, cryptdlg/PCTL_MODIFY_REQUEST, security.ctl_modify_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptdlg.h
 req.include-header: 

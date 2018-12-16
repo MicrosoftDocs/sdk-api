@@ -9,8 +9,6 @@ ms.assetid: F969AC5A-6760-4904-A04E-F2FEF4290F7A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_PIPELINE_INIT_FN, PIBIO_STORAGE_PIPELINE_INIT_FN callback, StorageAdapterPipelineInit, StorageAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelineinit, winbio_adapter/StorageAdapterPipelineInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

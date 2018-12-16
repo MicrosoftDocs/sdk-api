@@ -9,8 +9,6 @@ ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

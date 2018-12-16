@@ -9,8 +9,6 @@ ms.assetid: 8d317114-17bd-4b22-8e37-99db72740538
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertServerExit object [Security],SetContext method, ICertServerExit interface [Security],SetContext method, ICertServerExit.SetContext, ICertServerExit::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerExit object, SetContext method [Security],ICertServerExit interface, _certsrv_icertserverexit_setcontext, certif/ICertServerExit::SetContext, security.icertserverexit_setcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

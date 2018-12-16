@@ -9,8 +9,6 @@ ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

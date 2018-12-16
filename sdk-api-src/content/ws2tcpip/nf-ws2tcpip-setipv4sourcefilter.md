@@ -9,8 +9,6 @@ ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: setipv4sourcefilter, setipv4sourcefilter function [Winsock], winsock.setipv4sourcefilter, ws2tcpip/setipv4sourcefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

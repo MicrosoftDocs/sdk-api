@@ -9,8 +9,6 @@ ms.assetid: 6534962a-452c-4c61-9c01-7fe8a8cc5c7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_http_ssl_kerberos_apreq_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 15ad94ac-311f-486d-988b-9071396f6e34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

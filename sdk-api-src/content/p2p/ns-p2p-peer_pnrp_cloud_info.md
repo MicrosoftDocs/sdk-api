@@ -9,8 +9,6 @@ ms.assetid: b6121bae-22b7-4f23-ac8e-08822beef559
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO structure [Peer Networking], PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_SCOPE_ANY, PNRP_SITE_LOCAL_SCOPE, PPEER_PNRP_CLOUD_INFO, PPEER_PNRP_CLOUD_INFO structure pointer [Peer Networking], p2p.peer_pnrp_cloud_info, p2p/PEER_PNRP_CLOUD_INFO, p2p/PPEER_PNRP_CLOUD_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

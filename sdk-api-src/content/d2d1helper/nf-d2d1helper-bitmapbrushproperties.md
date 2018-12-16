@@ -9,8 +9,6 @@ ms.assetid: 8945b4d8-0d6e-4f23-9a0b-1ec690339bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BitmapBrushProperties, BitmapBrushProperties function [Direct2D], d2d1helper/BitmapBrushProperties, direct2d.bitmapbrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

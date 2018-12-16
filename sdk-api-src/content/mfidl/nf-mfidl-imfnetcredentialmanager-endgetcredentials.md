@@ -9,8 +9,6 @@ ms.assetid: 99914ded-1b9a-4373-9974-e1d1b1abd4e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 99914ded-1b9a-4373-9974-e1d1b1abd4e2, EndGetCredentials, EndGetCredentials method [Media Foundation], EndGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],EndGetCredentials method, IMFNetCredentialManager.EndGetCredentials, IMFNetCredentialManager::EndGetCredentials, mf.imfnetcredentialmanager_endgetcredentials, mfidl/IMFNetCredentialManager::EndGetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

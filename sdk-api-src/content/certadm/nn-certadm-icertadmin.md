@@ -9,8 +9,6 @@ ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: AC800F32-2922-45BA-A6D3-D3E45113B9A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumAdapterByLuid, EnumAdapterByLuid method [DXGI], EnumAdapterByLuid method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumAdapterByLuid method, IDXGIFactory4.EnumAdapterByLuid, IDXGIFactory4::EnumAdapterByLuid, direct3ddxgi.idxgifactory4_enumadapterbyluid, dxgi1_4/IDXGIFactory4::EnumAdapterByLuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLOGFONTW, *NPLOGFONTW, *PLOGFONTW, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

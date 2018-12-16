@@ -9,8 +9,6 @@ ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

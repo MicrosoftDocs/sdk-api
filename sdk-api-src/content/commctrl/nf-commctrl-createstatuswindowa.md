@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

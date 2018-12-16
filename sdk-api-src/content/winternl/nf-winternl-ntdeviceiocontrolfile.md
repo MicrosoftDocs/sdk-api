@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

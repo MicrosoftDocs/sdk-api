@@ -9,8 +9,6 @@ ms.assetid: 39e68271-8046-470a-af90-17bed770716d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

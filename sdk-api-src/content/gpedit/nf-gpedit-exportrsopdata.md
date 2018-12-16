@@ -9,8 +9,6 @@ ms.assetid: a3f20a35-8d9c-403b-ba76-24c8b3640c6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gpedit.h
 req.include-header: 

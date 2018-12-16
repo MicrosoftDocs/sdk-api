@@ -9,8 +9,6 @@ ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Add method, IScheduleCollection.Add, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RESV_STYLE, RESV_STYLE structure [QOS], STYLE_FF, STYLE_SE, STYLE_WF, lpmapi/RESV_STYLE, qos.resv_style
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

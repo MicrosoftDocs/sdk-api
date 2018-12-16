@@ -9,8 +9,6 @@ ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

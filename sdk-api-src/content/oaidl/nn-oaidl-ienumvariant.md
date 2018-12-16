@@ -9,8 +9,6 @@ ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

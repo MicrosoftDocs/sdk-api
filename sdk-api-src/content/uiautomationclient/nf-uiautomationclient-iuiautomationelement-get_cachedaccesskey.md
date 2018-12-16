@@ -9,8 +9,6 @@ ms.assetid: dc4394b3-f609-4709-b9b5-c8bf84d17b3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedAccessKey property [Windows Accessibility], CachedAccessKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAccessKey property, IUIAutomationElement.CachedAccessKey, IUIAutomationElement.get_CachedAccessKey, IUIAutomationElement::CachedAccessKey, IUIAutomationElement::get_CachedAccessKey, get_CachedAccessKey, uiauto.uiauto_IUIAutomationElement_CachedAccessKey, uiauto_IUIAutomationElement_CachedAccessKey, uiautomationclient/IUIAutomationElement::CachedAccessKey, uiautomationclient/IUIAutomationElement::get_CachedAccessKey, winauto.uiauto_IUIAutomationElement_CachedAccessKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

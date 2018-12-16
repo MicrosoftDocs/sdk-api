@@ -9,8 +9,6 @@ ms.assetid: F0159E05-A47F-444E-BB07-99AA97DAC0A3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_OUTLINE_THRESHOLD, DWRITE_OUTLINE_THRESHOLD enumeration [Direct Write], DWRITE_OUTLINE_THRESHOLD_ALIASED, DWRITE_OUTLINE_THRESHOLD_ANTIALIASED, directwrite.dwrite_outline_threshold, dwrite_1/DWRITE_OUTLINE_THRESHOLD, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ALIASED, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ANTIALIASED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

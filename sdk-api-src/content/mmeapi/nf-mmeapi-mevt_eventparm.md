@@ -9,8 +9,6 @@ ms.assetid: cabb6e1f-2a86-47eb-9bbb-1429cc56f485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEVT_EVENTPARM, MEVT_EVENTPARM macro [Windows Multimedia], _win32_MEVT_EVENTPARM, mmeapi/MEVT_EVENTPARM, multimedia.mevt_eventparm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: mmeapi.h
 req.include-header: Windows.h

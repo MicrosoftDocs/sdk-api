@@ -9,8 +9,6 @@ ms.assetid: 09319701-4023-4517-ae25-a2c342cc9df2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextGetByKey0, FwpmProviderContextGetByKey0 function [Filtering], fwp.fwpmprovidercontextgetbykey0_func, fwpmu/FwpmProviderContextGetByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

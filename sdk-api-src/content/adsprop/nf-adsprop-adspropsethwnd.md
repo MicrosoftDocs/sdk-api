@@ -9,8 +9,6 @@ ms.assetid: 9fc6b86b-e075-4969-842c-3ebddd43db8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 

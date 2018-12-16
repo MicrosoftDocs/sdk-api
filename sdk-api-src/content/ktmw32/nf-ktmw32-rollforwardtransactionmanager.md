@@ -9,8 +9,6 @@ ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

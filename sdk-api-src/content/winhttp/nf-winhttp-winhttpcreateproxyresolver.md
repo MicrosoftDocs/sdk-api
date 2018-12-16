@@ -9,8 +9,6 @@ ms.assetid: 8d0058b5-964d-4bd8-b689-582875fc1d6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpCreateProxyResolver, WinHttpCreateProxyResolver function [WinHTTP], http.winhttpcreateproxyresolver, winhttp/WinHttpCreateProxyResolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

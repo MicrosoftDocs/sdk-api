@@ -9,8 +9,6 @@ ms.assetid: c538c670-9a61-4891-9f63-e0eea12ee224
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_username_message_security_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

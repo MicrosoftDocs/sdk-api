@@ -9,8 +9,6 @@ ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

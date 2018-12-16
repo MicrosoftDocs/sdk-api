@@ -9,8 +9,6 @@ ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

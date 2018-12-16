@@ -9,8 +9,6 @@ ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2e705533-3657-4997-ae84-e18defbbc02a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIEnumDot11AdHocInterfaces, GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

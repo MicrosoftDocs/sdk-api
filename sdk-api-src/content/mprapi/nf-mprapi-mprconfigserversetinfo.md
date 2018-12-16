@@ -9,8 +9,6 @@ ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

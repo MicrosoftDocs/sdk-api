@@ -9,8 +9,6 @@ ms.assetid: 99f6e920-0b2d-4509-9a68-c6404d676b8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_OuterFECRate method, IBDA_DigitalDemodulator.get_OuterFECRate, IBDA_DigitalDemodulator::get_OuterFECRate, IBDA_DigitalDemodulatorget_OuterFECRate, bdaiface/IBDA_DigitalDemodulator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_outerfecrate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

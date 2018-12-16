@@ -9,8 +9,6 @@ ms.assetid: c11f13f5-f0a8-45f8-83c2-372df670ef1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],hWnd property, IInkPicture.get_hWnd, IInkPicture.hWnd, IInkPicture::get_hWnd, IInkPicture::hWnd, IInkPicture::put_hWnd, InkPicture.get_hWnd, InkPicture.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::get_hWnd, msinkaut/IInkPicture::hWnd, msinkaut/IInkPicture::put_hWnd, put_hWnd, tablet.inkpicture_hwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

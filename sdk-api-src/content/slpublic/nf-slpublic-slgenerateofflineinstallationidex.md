@@ -9,8 +9,6 @@ ms.assetid: a9fd3717-7f1d-4f53-a246-c0542fc2e474
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGenerateOfflineInstallationIdEx, SLGenerateOfflineInstallationIdEx function [Security], security.slgenerateofflineinstallationidex, slpublic/SLGenerateOfflineInstallationIdEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

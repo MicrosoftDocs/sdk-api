@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get_Item method, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

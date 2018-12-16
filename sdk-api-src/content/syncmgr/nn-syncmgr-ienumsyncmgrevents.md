@@ -9,8 +9,6 @@ ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

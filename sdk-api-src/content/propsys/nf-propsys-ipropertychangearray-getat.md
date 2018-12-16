@@ -9,8 +9,6 @@ ms.assetid: bc20e4a3-1405-494a-98ea-cca4c87e4984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetAt method, IPropertyChangeArray.GetAt, IPropertyChangeArray::GetAt, _shell_IPropertyChangeArray_GetAt, properties.IPropertyChangeArray_GetAt, propsys/IPropertyChangeArray::GetAt, shell.IPropertyChangeArray_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

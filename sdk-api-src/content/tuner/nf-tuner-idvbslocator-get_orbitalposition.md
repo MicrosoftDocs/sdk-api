@@ -9,8 +9,6 @@ ms.assetid: 3069cf27-32db-4d3f-9e61-9eddc266b540
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_OrbitalPosition method, IDVBSLocator.get_OrbitalPosition, IDVBSLocator::get_OrbitalPosition, IDVBSLocatorget_OrbitalPosition, get_OrbitalPosition, get_OrbitalPosition method [Microsoft TV Technologies], get_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_orbitalposition, tuner/IDVBSLocator::get_OrbitalPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 13027af4-2e76-4c2f-88e8-a2554a16fae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhFormatFromRawValue, PdhFormatFromRawValue function [Perf], _win32_pdhformatfromrawvalue, base.pdhformatfromrawvalue, pdh/PdhFormatFromRawValue, perf.pdhformatfromrawvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

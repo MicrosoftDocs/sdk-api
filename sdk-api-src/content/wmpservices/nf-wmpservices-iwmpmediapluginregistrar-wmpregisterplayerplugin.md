@@ -9,8 +9,6 @@ ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

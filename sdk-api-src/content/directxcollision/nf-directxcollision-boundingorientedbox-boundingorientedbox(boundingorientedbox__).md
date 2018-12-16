@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), BoundingOrientedBox.BoundingOrientedBox(BoundingOrientedBox &&), BoundingOrientedBox::BoundingOrientedBox, BoundingOrientedBox::BoundingOrientedBox(BoundingOrientedBox &&), dxmath.boundingorientedbox_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

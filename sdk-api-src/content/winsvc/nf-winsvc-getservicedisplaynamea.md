@@ -9,8 +9,6 @@ ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

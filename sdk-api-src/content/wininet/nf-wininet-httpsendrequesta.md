@@ -9,8 +9,6 @@ ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

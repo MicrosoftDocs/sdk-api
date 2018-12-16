@@ -9,8 +9,6 @@ ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

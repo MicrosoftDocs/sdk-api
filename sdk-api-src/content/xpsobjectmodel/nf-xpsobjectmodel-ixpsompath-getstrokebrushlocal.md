@@ -9,8 +9,6 @@ ms.assetid: cf816750-8381-4c04-af20-e5ce3f8ad63c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStrokeBrushLocal, GetStrokeBrushLocal method [XPS Documents and Packaging], GetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLocal method, IXpsOMPath.GetStrokeBrushLocal, IXpsOMPath::GetStrokeBrushLocal, xps.ixpsompath_getstrokebrushlocal, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

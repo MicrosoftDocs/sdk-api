@@ -9,8 +9,6 @@ ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

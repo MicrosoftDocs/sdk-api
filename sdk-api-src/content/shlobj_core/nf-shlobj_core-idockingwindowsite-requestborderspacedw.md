@@ -9,8 +9,6 @@ ms.assetid: a104c58b-44da-47e7-b10b-f0116024bee1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],RequestBorderSpaceDW method, IDockingWindowSite.RequestBorderSpaceDW, IDockingWindowSite::RequestBorderSpaceDW, RequestBorderSpaceDW, RequestBorderSpaceDW method [Windows Shell], RequestBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_RequestBorderSpaceDW, shell.IDockingWindowSite_RequestBorderSpaceDW, shlobj_core/IDockingWindowSite::RequestBorderSpaceDW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

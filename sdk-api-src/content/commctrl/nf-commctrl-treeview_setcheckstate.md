@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

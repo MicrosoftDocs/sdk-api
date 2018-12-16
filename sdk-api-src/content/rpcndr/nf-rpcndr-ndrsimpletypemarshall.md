@@ -9,8 +9,6 @@ ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

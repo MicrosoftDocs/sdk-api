@@ -9,8 +9,6 @@ ms.assetid: 7ef14797-ea67-40cb-ad8d-e8c846ae1fd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_First_Log_Conf, CM_Get_First_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf, cfgmgrfn_5310503c-65cc-4185-9d26-bf29c1af74c4.xml, devinst.cm_get_first_log_conf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

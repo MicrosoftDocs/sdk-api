@@ -9,8 +9,6 @@ ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

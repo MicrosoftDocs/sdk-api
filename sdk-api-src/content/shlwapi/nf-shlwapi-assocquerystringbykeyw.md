@@ -9,8 +9,6 @@ ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AssocQueryStringByKey, AssocQueryStringByKey function [Windows Shell], AssocQueryStringByKeyA, AssocQueryStringByKeyW, _win32_AssocQueryStringByKey, shell.AssocQueryStringByKey, shlwapi/AssocQueryStringByKey, shlwapi/AssocQueryStringByKeyA, shlwapi/AssocQueryStringByKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

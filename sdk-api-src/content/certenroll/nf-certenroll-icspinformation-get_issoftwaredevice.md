@@ -9,8 +9,6 @@ ms.assetid: 50f78dcc-4d32-40c9-8153-f0b6ac72c03b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspInformation interface [Security],IsSoftwareDevice property, ICspInformation.IsSoftwareDevice, ICspInformation.get_IsSoftwareDevice, ICspInformation::IsSoftwareDevice, ICspInformation::get_IsSoftwareDevice, IsSoftwareDevice property [Security], IsSoftwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsSoftwareDevice, certenroll/ICspInformation::get_IsSoftwareDevice, get_IsSoftwareDevice, security.icspinformation_issoftwaredevice_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

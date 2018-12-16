@@ -9,8 +9,6 @@ ms.assetid: 659D79E3-2E7C-4431-B724-7AC2978BD9BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice2 interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice2 interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice2.CreateVirtualSurface, IDCompositionDevice2::CreateVirtualSurface, dcomp/IDCompositionDevice2::CreateVirtualSurface, directcomp.idcompositiondevice2_createvirtualsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

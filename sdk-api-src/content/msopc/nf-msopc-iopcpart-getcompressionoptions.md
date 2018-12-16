@@ -9,8 +9,6 @@ ms.assetid: aee8e3a2-3fac-40da-bea2-1fd4e2224c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompressionOptions, GetCompressionOptions method [Open Packaging Conventions], GetCompressionOptions method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetCompressionOptions method, IOpcPart.GetCompressionOptions, IOpcPart::GetCompressionOptions, msopc/IOpcPart::GetCompressionOptions, opc.iopcpart_getcompressionoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

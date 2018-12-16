@@ -9,8 +9,6 @@ ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

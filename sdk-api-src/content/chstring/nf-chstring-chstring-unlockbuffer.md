@@ -9,8 +9,6 @@ ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],UnlockBuffer method, CHString.UnlockBuffer, CHString::UnlockBuffer, UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\vsconstrhhwintype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, vsconStrhhwintype"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

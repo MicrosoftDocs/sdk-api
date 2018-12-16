@@ -9,8 +9,6 @@ ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

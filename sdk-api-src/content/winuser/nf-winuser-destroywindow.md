@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyWindow, DestroyWindow function [Windows and Messages], _win32_DestroyWindow, _win32_destroywindow_cpp, winmsg.destroywindow, winui._win32_destroywindow, winuser/DestroyWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

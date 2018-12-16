@@ -9,8 +9,6 @@ ms.assetid: 6844b6c3-11b4-4544-bd4e-bf2b89af00b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],WorkingDirectory property, IFsrmActionCommand.WorkingDirectory, IFsrmActionCommand.put_WorkingDirectory, IFsrmActionCommand::WorkingDirectory, IFsrmActionCommand::get_WorkingDirectory, IFsrmActionCommand::put_WorkingDirectory, WorkingDirectory property [File Server Resource Manager], WorkingDirectory property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_workingdirectory, fsrm.ifsrmactioncommand_workingdirectory, fsrm/IFsrmActionCommand::WorkingDirectory, fsrm/IFsrmActionCommand::get_WorkingDirectory, fsrm/IFsrmActionCommand::put_WorkingDirectory, put_WorkingDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

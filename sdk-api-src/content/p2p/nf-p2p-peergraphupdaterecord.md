@@ -9,8 +9,6 @@ ms.assetid: 9007095f-4f2a-4e92-895b-9a4033f0f7b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphUpdateRecord, PeerGraphUpdateRecord function [Peer Networking], p2p.peergraphupdaterecord, p2p/PeerGraphUpdateRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLAG enumeration [VDS], base.vds_drive_letter_flag, vds/VDS_DLF_NON_PERSISTENT, vds/VDS_DRIVE_LETTER_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

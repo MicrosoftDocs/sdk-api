@@ -9,8 +9,6 @@ ms.assetid: 6270888a-1c61-472d-8ec7-10c24b890220
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_POLICY_MAPPING, CERT_POLICY_MAPPING, CERT_POLICY_MAPPING structure [Security], PCERT_POLICY_MAPPING, PCERT_POLICY_MAPPING structure pointer [Security], _crypto2_cert_policy_mapping, security.cert_policy_mapping, wincrypt/CERT_POLICY_MAPPING, wincrypt/PCERT_POLICY_MAPPING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxInPlaceActivate method, ITextServices.OnTxInPlaceActivate, ITextServices::OnTxInPlaceActivate, OnTxInPlaceActivate, OnTxInPlaceActivate method [Windows Controls], OnTxInPlaceActivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxInPlaceActivate, _win32_ITextServices_OnTxInPlaceActivate_cpp, controls.ITextServices_OnTxInPlaceActivate, controls._win32_ITextServices_OnTxInPlaceActivate, textserv/ITextServices::OnTxInPlaceActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

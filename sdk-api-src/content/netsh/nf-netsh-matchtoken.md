@@ -9,8 +9,6 @@ ms.assetid: d6389d2e-1987-4ea6-967c-260686659852
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

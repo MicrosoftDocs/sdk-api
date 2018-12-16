@@ -9,8 +9,6 @@ ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evr9.h
 req.include-header: 

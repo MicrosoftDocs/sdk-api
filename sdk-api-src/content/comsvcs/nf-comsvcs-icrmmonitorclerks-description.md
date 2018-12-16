@@ -9,8 +9,6 @@ ms.assetid: 3603d898-1601-419b-b3f8-3ad49f2070a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description, Description method [COM+], Description method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],Description method, ICrmMonitorClerks.Description, ICrmMonitorClerks::Description, _dtc_ICrmMonitorClerks_Description, comsvcs/ICrmMonitorClerks::Description, cos.icrmmonitorclerks_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

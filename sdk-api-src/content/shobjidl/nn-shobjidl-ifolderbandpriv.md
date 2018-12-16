@@ -9,8 +9,6 @@ ms.assetid: d942a60d-aaac-4889-b74a-a8b4682ab619
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolderBandPriv interface [Windows Shell],described, _win32_IFolderBandPriv, shell.IFolderBandPriv, shobjidl/IFolderBandPriv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

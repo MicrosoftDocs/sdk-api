@@ -9,8 +9,6 @@ ms.assetid: 415c3256-1385-48d7-999a-91dc3ad795f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedResources, GetSupportedResources method [Windows Portable Devices SDK], GetSupportedResources method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetSupportedResources method, IPortableDeviceResources.GetSupportedResources, IPortableDeviceResources::GetSupportedResources, IPortableDeviceResourcesGetSupportedResources, portabledeviceapi/IPortableDeviceResources::GetSupportedResources, wpdsdk.iportabledeviceresources_getsupportedresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

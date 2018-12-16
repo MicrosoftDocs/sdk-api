@@ -9,8 +9,6 @@ ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

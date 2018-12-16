@@ -9,8 +9,6 @@ ms.assetid: 15b9bab5-8211-47c8-bc93-96c922c1aec1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY structure [DHCP], LPDHCP_OPTION_ARRAY, LPDHCP_OPTION_ARRAY structure pointer [DHCP], dhcp.dhcp_option_array, dhcpsapi/DHCP_OPTION_ARRAY, dhcpsapi/LPDHCP_OPTION_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

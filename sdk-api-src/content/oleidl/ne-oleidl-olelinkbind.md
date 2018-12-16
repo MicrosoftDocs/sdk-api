@@ -9,8 +9,6 @@ ms.assetid: a5b8bb64-002f-4c85-b6bb-61b2fba88c0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OLELINKBIND, OLELINKBIND enumeration [COM], OLELINKBIND_EVENIFCLASSDIFF, _ole_OLELINKBIND, com.olelinkbind, oleidl/OLELINKBIND, oleidl/OLELINKBIND_EVENIFCLASSDIFF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

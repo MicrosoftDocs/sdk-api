@@ -9,8 +9,6 @@ ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 

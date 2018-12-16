@@ -9,8 +9,6 @@ ms.assetid: BCCE292C-8A74-4DBA-965D-15249E2EA547
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdating method, IUIManagerEventSink.OnWindowUpdating, IUIManagerEventSink::OnWindowUpdating, OnWindowUpdating, OnWindowUpdating method [Text Services Framework], OnWindowUpdating method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdating, tsf.iuimanagereventsink_onwindowupdating
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

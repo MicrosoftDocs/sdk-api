@@ -9,8 +9,6 @@ ms.assetid: C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCompositionCreateDevice2, DCompositionCreateDevice2 function [DirectComposition], dcomp/DCompositionCreateDevice2, directcomp.dcompositioncreatedevice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_interlockedflushslist, base.interlockedflushslist, interlockedapi/InterlockedFlushSList, winbase/InterlockedFlushSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

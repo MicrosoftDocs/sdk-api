@@ -9,8 +9,6 @@ ms.assetid: 07e1d42b-b9e4-4199-88b1-71864de37282
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationCallback_ResponseType, MI_OperationCallback_ResponseType enumeration [Windows Management Infrastructure (MI)], MI_OperationCallback_ResponseType_No, MI_OperationCallback_ResponseType_NoToAll, MI_OperationCallback_ResponseType_Yes, MI_OperationCallback_ResponseType_YesToAll, mi/MI_OperationCallback_ResponseType, mi/MI_OperationCallback_ResponseType_No, mi/MI_OperationCallback_ResponseType_NoToAll, mi/MI_OperationCallback_ResponseType_Yes, mi/MI_OperationCallback_ResponseType_YesToAll, wmi._mi_operationcallback_responsetype, wmi_v2.mi_operationcallback_responsetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

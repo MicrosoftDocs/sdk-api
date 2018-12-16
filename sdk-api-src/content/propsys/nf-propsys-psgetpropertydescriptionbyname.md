@@ -9,8 +9,6 @@ ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

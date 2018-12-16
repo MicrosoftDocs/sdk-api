@@ -9,8 +9,6 @@ ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017, mpeg2structs/ATSC_FILTER_OPTIONS, mstv.atsc_filter_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: Mpeg2data.h

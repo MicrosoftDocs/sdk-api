@@ -9,8 +9,6 @@ ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 

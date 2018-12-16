@@ -9,8 +9,6 @@ ms.assetid: 3bd3aad3-9ec6-4e61-9d98-3a71f7f1165a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],SampleInterval property, IPerformanceCounterDataCollector.SampleInterval, IPerformanceCounterDataCollector.get_SampleInterval, IPerformanceCounterDataCollector::SampleInterval, IPerformanceCounterDataCollector::get_SampleInterval, IPerformanceCounterDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_sampleinterval, get_SampleInterval, pla.iperformancecounterdatacollector_sampleinterval, pla/IPerformanceCounterDataCollector::SampleInterval, pla/IPerformanceCounterDataCollector::get_SampleInterval, pla/IPerformanceCounterDataCollector::put_SampleInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

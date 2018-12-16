@@ -9,8 +9,6 @@ ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 486a604f-cea7-48de-aca2-2e9355699845
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Select method, ITextRangeProvider.Select, ITextRangeProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

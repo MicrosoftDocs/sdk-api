@@ -9,8 +9,6 @@ ms.assetid: 9afd38c5-fccd-43ea-9c30-c62fdcbee633
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO structure [Security], PCMSG_SP3_COMPATIBLE_AUX_INFO, PCMSG_SP3_COMPATIBLE_AUX_INFO structure pointer [Security], _crypto2_cmsg_sp3_compatible_aux_info, security.cmsg_sp3_compatible_aux_info, wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO, wincrypt/PCMSG_SP3_COMPATIBLE_AUX_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: medparam.h
 req.include-header: 

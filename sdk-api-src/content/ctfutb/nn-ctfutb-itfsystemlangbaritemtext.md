@@ -9,8 +9,6 @@ ms.assetid: f39ec024-1bdf-4451-9598-1953bffc9704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfSystemLangBarItemText, ITfSystemLangBarItemText interface [Text Services Framework], ITfSystemLangBarItemText interface [Text Services Framework],described, _tsf_itfsystemlangbaritemtext_ref, ctfutb/ITfSystemLangBarItemText, tsf.itfsystemlangbaritemtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: Msctf.h

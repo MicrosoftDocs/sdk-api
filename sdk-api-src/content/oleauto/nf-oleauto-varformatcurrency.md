@@ -9,8 +9,6 @@ ms.assetid: a0ad0c42-1b61-4421-9ea6-a256812bb342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_VarFormatCurrency, automat.varformatcurrency, oleauto/VarFormatCurrency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

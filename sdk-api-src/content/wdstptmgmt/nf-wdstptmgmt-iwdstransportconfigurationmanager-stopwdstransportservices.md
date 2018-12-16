@@ -9,8 +9,6 @@ ms.assetid: 510dff2a-a459-4694-9c68-802d703ff716
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StopWdsTransportServices method, IWdsTransportConfigurationManager.StopWdsTransportServices, IWdsTransportConfigurationManager::StopWdsTransportServices, StopWdsTransportServices, StopWdsTransportServices method [Windows Deployment Services], StopWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_stopwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StopWdsTransportServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

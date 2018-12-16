@@ -9,8 +9,6 @@ ms.assetid: a56c11e6-5314-43eb-9960-55987395112f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NS_HELPER_STOP_FN, NS_HELPER_STOP_FN callback, NS_HELPER_STOP_FN callback function [NetShell], SampleStopHelper, _netsh_ns_helper_stop_fn, netsh/NS_HELPER_STOP_FN, netshell.ns_helper_stop_fn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netsh.h
 req.include-header: 

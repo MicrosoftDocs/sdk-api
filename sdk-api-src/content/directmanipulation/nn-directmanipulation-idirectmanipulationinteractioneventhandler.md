@@ -9,8 +9,6 @@ ms.assetid: 9B832530-54B8-4D18-A5E4-4F4CAE65073A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationInteractionEventHandler, IDirectManipulationInteractionEventHandler interface [Direct Manipulation], IDirectManipulationInteractionEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationinteractioneventhandler, directmanipulation/IDirectManipulationInteractionEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

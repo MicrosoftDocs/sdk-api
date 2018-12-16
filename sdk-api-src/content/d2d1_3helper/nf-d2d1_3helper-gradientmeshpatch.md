@@ -9,8 +9,6 @@ ms.assetid: 78d2af9d-e158-29ce-ea6e-67b2d22925a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GradientMeshPatch, GradientMeshPatch function [Direct2D], d2d1_3helper/GradientMeshPatch, direct2d.gradientmeshpatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_3helper.h
 req.include-header: 

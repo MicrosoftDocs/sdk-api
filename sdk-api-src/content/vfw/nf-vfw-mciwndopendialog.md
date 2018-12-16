@@ -9,8 +9,6 @@ ms.assetid: 28110649-24a8-45c5-bf1a-b05a6476d9a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndOpenDialog, MCIWndOpenDialog macro [Windows Multimedia], _win32_MCIWndOpenDialog, multimedia.mciwndopendialog, vfw/MCIWndOpenDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

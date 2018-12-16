@@ -9,8 +9,6 @@ ms.assetid: d62a61cb-3b5a-4ce8-9677-92e280449d26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetStreamsSelected method, IWMSyncReader.SetStreamsSelected, IWMSyncReader::SetStreamsSelected, IWMSyncReaderSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setstreamsselected, wmsdkidl/IWMSyncReader::SetStreamsSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

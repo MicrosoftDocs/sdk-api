@@ -9,8 +9,6 @@ ms.assetid: 2b8fb9a8-b7a2-4775-a21e-0ebcb2c96b24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_RESTORE_PARMSW, MCI_DGV_RESTORE_PARMS, MCI_DGV_RESTORE_PARMS structure [Windows Multimedia], MCI_DGV_RESTORE_PARMSW, _win32_MCI_DGV_RESTORE_PARMS_str, digitalv/MCI_DGV_RESTORE_PARMS, multimedia.mci_dgv_restore_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

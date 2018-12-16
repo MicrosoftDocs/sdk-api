@@ -9,8 +9,6 @@ ms.assetid: c2f80502-bac5-4a6f-95ba-1610c548e636
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMenuPopup interface [Windows Shell],SetSubMenu method, IMenuPopup.SetSubMenu, IMenuPopup::SetSubMenu, SetSubMenu, SetSubMenu method [Windows Shell], SetSubMenu method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_SetSubMenu, shell.IMenuPopup_SetSubMenu, shobjidl_core/IMenuPopup::SetSubMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

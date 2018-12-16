@@ -9,8 +9,6 @@ ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

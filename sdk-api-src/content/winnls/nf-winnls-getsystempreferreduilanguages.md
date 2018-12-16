@@ -9,8 +9,6 @@ ms.assetid: 2948b495-c400-4227-94fb-7c4f5171ecae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemPreferredUILanguages, GetSystemPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MACHINE_LANGUAGE_SETTINGS, _win32_GetSystemPreferredUILanguages, intl.getsystempreferreduilanguages, winnls/GetSystemPreferredUILanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

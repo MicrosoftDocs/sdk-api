@@ -9,8 +9,6 @@ ms.assetid: 85cb633f-95cd-4cbe-9572-324ec784e6bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultSource method, IBasicVideo.IsUsingDefaultSource, IBasicVideo::IsUsingDefaultSource, IBasicVideoIsUsingDefaultSource, IsUsingDefaultSource, IsUsingDefaultSource method [DirectShow], IsUsingDefaultSource method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultSource, dshow.ibasicvideo_isusingdefaultsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

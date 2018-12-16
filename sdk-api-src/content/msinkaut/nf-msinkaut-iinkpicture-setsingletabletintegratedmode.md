@@ -9,8 +9,6 @@ ms.assetid: b611a078-b38e-4f9b-834f-9a2aa9684931
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkPicture interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkPicture.SetSingleTabletIntegratedMode, IInkPicture::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::SetSingleTabletIntegratedMode, tablet.inkpicture_setsingletabletintegratedmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

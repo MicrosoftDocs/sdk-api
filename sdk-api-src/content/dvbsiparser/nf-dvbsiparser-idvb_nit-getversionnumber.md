@@ -9,8 +9,6 @@ ms.assetid: 75f7dc3b-8631-4a33-90f2-ace95e4112a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_NIT.GetVersionNumber, IDVB_NIT::GetVersionNumber, IDVB_NITGetVersionNumber, dvbsiparser/IDVB_NIT::GetVersionNumber, mstv.idvb_nit_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

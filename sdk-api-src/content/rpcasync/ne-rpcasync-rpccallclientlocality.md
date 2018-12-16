@@ -9,8 +9,6 @@ ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcCallClientLocality, RpcCallClientLocality enumeration [RPC], rcclClientUnknownLocality, rcclInvalid, rcclLocal, rcclRemote, rpc.rpccallclientlocality, rpcasync/RpcCallClientLocality, rpcasync/rcclClientUnknownLocality, rpcasync/rcclInvalid, rpcasync/rcclLocal, rpcasync/rcclRemote
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: 

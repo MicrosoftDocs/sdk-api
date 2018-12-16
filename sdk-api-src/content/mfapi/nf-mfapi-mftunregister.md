@@ -9,8 +9,6 @@ ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

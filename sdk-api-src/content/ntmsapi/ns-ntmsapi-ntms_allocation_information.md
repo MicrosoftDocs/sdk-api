@@ -9,8 +9,6 @@ ms.assetid: 6861dcea-7f50-4175-85f1-b59478d6c119
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION structure pointer [Files], NTMS_ALLOCATION_INFORMATION, NTMS_ALLOCATION_INFORMATION structure [Files], _zaw_ntms_allocation_information, base.ntms_allocation_information, fs.ntms_allocation_information, ntmsapi/LPNTMS_ALLOCATION_INFORMATION, ntmsapi/NTMS_ALLOCATION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

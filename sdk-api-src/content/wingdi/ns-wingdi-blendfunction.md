@@ -9,8 +9,6 @@ ms.assetid: d1371d72-c408-4484-845e-d4ea2bc3115d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBLENDFUNCTION, BLENDFUNCTION, BLENDFUNCTION structure [Windows GDI], LPBLENDFUNCTION, LPBLENDFUNCTION structure pointer [Windows GDI], PBLENDFUNCTION, PBLENDFUNCTION structure pointer [Windows GDI], _win32_BLENDFUNCTION_str, gdi.blendfunction, wingdi/BLENDFUNCTION, wingdi/LPBLENDFUNCTION, wingdi/PBLENDFUNCTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

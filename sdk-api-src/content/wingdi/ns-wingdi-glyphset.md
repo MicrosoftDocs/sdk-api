@@ -9,8 +9,6 @@ ms.assetid: b8ac8d3f-b062-491c-966f-02f3d4c11419
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, wingdi/GLYPHSET, wingdi/PGLYPHSET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10pixelshader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10PixelShader, ID3D10PixelShader interface [Direct3D 10], ID3D10PixelShader interface [Direct3D 10],described, af8a1f54-5d9a-91f5-ed3f-377a9ad029d2, d3d10/ID3D10PixelShader, direct3d10.id3d10pixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 

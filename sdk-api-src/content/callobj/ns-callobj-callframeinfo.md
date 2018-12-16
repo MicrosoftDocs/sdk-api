@@ -9,8 +9,6 @@ ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], callobj/CALLFRAMEINFO, com.callframeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 

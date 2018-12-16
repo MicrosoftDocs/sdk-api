@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],put_Schedule method, ISearchRoot.put_Schedule, ISearchRoot::put_Schedule, _search_ISearchRoot_put_Schedule, put_Schedule, put_Schedule method [search], put_Schedule method [search],ISearchRoot interface, search._search_ISearchRoot_put_Schedule, searchapi/ISearchRoot::put_Schedule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompoundArrayCount, GetCompoundArrayCount method [GDI+], GetCompoundArrayCount method [GDI+],Pen class, Pen class [GDI+],GetCompoundArrayCount method, Pen.GetCompoundArrayCount, Pen::GetCompoundArrayCount, _gdiplus_CLASS_Pen_GetCompoundArrayCount_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

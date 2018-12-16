@@ -9,8 +9,6 @@ ms.assetid: 9968c7c9-79d9-4fb1-bda2-d6a2504cd3a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSHELLFLAGSTATE, LPSHELLFLAGSTATE, LPSHELLFLAGSTATE structure pointer [Windows Shell], SHELLFLAGSTATE, SHELLFLAGSTATE structure [Windows Shell], _win32_SHELLFLAGSTATE, shell.SHELLFLAGSTATE, shlobj_core/LPSHELLFLAGSTATE, shlobj_core/SHELLFLAGSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

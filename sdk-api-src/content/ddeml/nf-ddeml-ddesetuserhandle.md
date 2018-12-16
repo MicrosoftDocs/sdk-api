@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeSetUserHandle, DdeSetUserHandle function [Data Exchange], _win32_DdeSetUserHandle, _win32_ddesetuserhandle_cpp, dataxchg.ddesetuserhandle, ddeml/DdeSetUserHandle, winui._win32_ddesetuserhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

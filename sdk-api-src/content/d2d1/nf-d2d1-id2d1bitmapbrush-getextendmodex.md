@@ -9,8 +9,6 @@ ms.assetid: 167c5aff-b070-4020-87c4-1385e014f22a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetExtendModeX method, ID2D1BitmapBrush.GetExtendModeX, ID2D1BitmapBrush::GetExtendModeX, d2d1/ID2D1BitmapBrush::GetExtendModeX, direct2d.ID2D1BitmapBrush_GetExtendModeX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

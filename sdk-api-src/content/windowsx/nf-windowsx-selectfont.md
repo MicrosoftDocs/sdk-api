@@ -9,8 +9,6 @@ ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

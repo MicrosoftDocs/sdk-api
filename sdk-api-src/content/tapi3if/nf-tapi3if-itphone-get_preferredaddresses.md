@@ -9,8 +9,6 @@ ms.assetid: bda43c65-a1f9-4143-b808-2a4e61220b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PreferredAddresses method, ITPhone.get_PreferredAddresses, ITPhone::get_PreferredAddresses, _tapi3_itphone_get_preferredaddresses, get_PreferredAddresses, get_PreferredAddresses method [TAPI 2.2], get_PreferredAddresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_preferredaddresses, tapi3if/ITPhone::get_PreferredAddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

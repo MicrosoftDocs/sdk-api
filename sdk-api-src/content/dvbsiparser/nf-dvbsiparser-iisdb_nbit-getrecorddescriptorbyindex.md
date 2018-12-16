@@ -9,8 +9,6 @@ ms.assetid: 0f7da95d-ba3f-4cdc-aea0-38abae260159
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_NBIT.GetRecordDescriptorByIndex, IISDB_NBIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByIndex, mstv.iisdb_nbit_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

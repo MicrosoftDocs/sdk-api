@@ -9,8 +9,6 @@ ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsecure.h
 req.include-header: 

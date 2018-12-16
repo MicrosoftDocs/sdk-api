@@ -9,8 +9,6 @@ ms.assetid: e38be757-81c6-49ae-8d90-4387893e8ec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.setcommconfig, winbase/SetCommConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

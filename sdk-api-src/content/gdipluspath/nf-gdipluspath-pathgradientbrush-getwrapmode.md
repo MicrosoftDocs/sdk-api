@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetWrapMode method, PathGradientBrush.GetWrapMode, PathGradientBrush::GetWrapMode, _gdiplus_CLASS_PathGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetWrapMode_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

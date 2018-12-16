@@ -9,8 +9,6 @@ ms.assetid: f2ecabcf-3301-d446-8eda-4536b3f9b5e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelDownload, CancelDownload method [Direct Write], CancelDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],CancelDownload method, IDWriteFontDownloadQueue.CancelDownload, IDWriteFontDownloadQueue::CancelDownload, directwrite.idwritefontdownloadqueue_canceldownload, dwrite_3/IDWriteFontDownloadQueue::CancelDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

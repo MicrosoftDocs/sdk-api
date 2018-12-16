@@ -9,8 +9,6 @@ ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_KEYFRAME, multimedia.iccompress_COLLISION455, multimedia.iccompress_struct, vfw/ICCOMPRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

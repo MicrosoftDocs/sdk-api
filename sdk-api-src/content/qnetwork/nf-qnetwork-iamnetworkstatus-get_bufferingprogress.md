@@ -9,8 +9,6 @@ ms.assetid: 76276bdc-1f19-4fb9-8ae9-1edeb5639741
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress method, IAMNetworkStatus.get_BufferingProgress, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

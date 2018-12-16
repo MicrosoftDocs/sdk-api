@@ -9,8 +9,6 @@ ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager],FsrmSetting class, EmailTest method [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EmailTest method, IFsrmSetting interface [File Server Resource Manager],EmailTest method, IFsrmSetting.EmailTest, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

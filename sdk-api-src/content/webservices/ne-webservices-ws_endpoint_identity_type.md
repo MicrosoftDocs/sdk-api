@@ -9,8 +9,6 @@ ms.assetid: e8c0b166-8b52-4ca7-ae31-4da335241562
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE enumeration [Web Services for Windows], WS_SPN_ENDPOINT_IDENTITY_TYPE, WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, WS_UPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_DNS_ENDPOINT_IDENTITY_TYPE, webservices/WS_ENDPOINT_IDENTITY_TYPE, webservices/WS_SPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UPN_ENDPOINT_IDENTITY_TYPE, wsw.ws_endpoint_identity_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

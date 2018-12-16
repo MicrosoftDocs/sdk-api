@@ -9,8 +9,6 @@ ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

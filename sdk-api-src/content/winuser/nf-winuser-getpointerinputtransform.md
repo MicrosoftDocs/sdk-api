@@ -9,8 +9,6 @@ ms.assetid: 9F10ED61-90E3-441B-8F4D-E33DA54D473C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerInputTransform, GetPointerInputTransform function [Input Messages and Notifications], inputmsg.getpointerinputtransform, winuser/GetPointerInputTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

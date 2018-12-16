@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRAWHID, *PRAWHID, LPRAWHID, LPRAWHID structure pointer [Keyboard and Mouse Input], PRAWHID, PRAWHID structure pointer [Keyboard and Mouse Input], RAWHID, RAWHID structure [Keyboard and Mouse Input], _win32_RAWHID_str, _win32_rawhid_str_cpp, inputdev.rawhid, winui._win32_rawhid_str, winuser/LPRAWHID, winuser/PRAWHID, winuser/RAWHID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

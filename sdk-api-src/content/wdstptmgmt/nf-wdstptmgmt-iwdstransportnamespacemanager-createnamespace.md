@@ -9,8 +9,6 @@ ms.assetid: fda205d6-f99a-4fec-96bb-0e37e9ca16ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNamespace, CreateNamespace method [Windows Deployment Services], CreateNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, IWdsTransportNamespaceManager interface [Windows Deployment Services],CreateNamespace method, IWdsTransportNamespaceManager.CreateNamespace, IWdsTransportNamespaceManager::CreateNamespace, wds.iwdstransportnamespacemanager_createnamespace, wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

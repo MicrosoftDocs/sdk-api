@@ -9,8 +9,6 @@ ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

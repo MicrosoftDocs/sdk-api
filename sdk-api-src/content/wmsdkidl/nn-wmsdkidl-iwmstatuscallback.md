@@ -9,8 +9,6 @@ ms.assetid: a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Format], IWMStatusCallback interface [windows Media Format],described, IWMStatusCallbackInterface, wmformat.iwmstatuscallback, wmsdkidl/IWMStatusCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

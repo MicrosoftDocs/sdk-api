@@ -9,8 +9,6 @@ ms.assetid: 9848082E-EDDA-4DA1-9896-42EAF2ADFAB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToUnprotect, NCryptStreamOpenToUnprotect function [Security], ncryptprotect/NCryptStreamOpenToUnprotect, security.ncryptstreamopentounprotect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

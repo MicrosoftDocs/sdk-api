@@ -9,8 +9,6 @@ ms.assetid: 872f0ab0-0cac-43e6-b4d6-ad62bde707ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmConnectionGetSecurityInfo0, FwpmConnectionGetSecurityInfo0 function [Filtering], fwp.fwpmconnectiongetsecurityinfo0, fwpmu/FwpmConnectionGetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

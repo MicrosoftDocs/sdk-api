@@ -9,8 +9,6 @@ ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkTablets, IInkTablets interface [Tablet PC], IInkTablets interface [Tablet PC],described, msinkaut/IInkTablets, tablet.iinktablets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 236c8778-0b80-4157-8a81-24712ebf9a77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMS_ADDINFO_BLOB, MS_ADDINFO_BLOB, MS_ADDINFO_BLOB structure [Security], PMS_ADDINFO_BLOB, PMS_ADDINFO_BLOB structure pointer [Security], mssip/MS_ADDINFO_BLOB, mssip/PMS_ADDINFO_BLOB, security.ms_addinfo_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

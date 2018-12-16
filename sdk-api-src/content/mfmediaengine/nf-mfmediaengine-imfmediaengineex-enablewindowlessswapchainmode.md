@@ -9,8 +9,6 @@ ms.assetid: B93429D7-A0DF-4440-A164-C140334FC0A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableWindowlessSwapchainMode, EnableWindowlessSwapchainMode method [Media Foundation], EnableWindowlessSwapchainMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableWindowlessSwapchainMode method, IMFMediaEngineEx.EnableWindowlessSwapchainMode, IMFMediaEngineEx::EnableWindowlessSwapchainMode, mf.imfmediaengineex_enablewindowlessswapchainmode, mfmediaengine/IMFMediaEngineEx::EnableWindowlessSwapchainMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

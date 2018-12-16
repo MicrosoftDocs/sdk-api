@@ -9,8 +9,6 @@ ms.assetid: 1faec369-199e-48d4-9c0a-6cbad39a7073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanBuySilent, CanBuySilent method [Windows Media Player], CanBuySilent method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CanBuySilent method, IWMPContentPartner.CanBuySilent, IWMPContentPartner::CanBuySilent, IWMPContentPartnerCanBuySilent, contentpartner/IWMPContentPartner::CanBuySilent, wmp.iwmpcontentpartner_canbuysilent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

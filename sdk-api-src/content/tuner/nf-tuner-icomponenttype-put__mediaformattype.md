@@ -9,8 +9,6 @@ ms.assetid: 37baa69e-d942-41d6-b497-bf37d6b0d57b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaFormatType method, IComponentType.put__MediaFormatType, IComponentType::put__MediaFormatType, IComponentTypeput__MediaFormatType, mstv.icomponenttype_put__mediaformattype, put__MediaFormatType, put__MediaFormatType method [Microsoft TV Technologies], put__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaFormatType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

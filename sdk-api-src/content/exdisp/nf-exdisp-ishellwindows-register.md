@@ -9,8 +9,6 @@ ms.assetid: 4545cc34-2209-41a5-ab65-283f2985cce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWindows.Register, IShellWindows::Register, Register, Register method [Windows Shell], Register method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Register, exdisp/IShellWindows::Register, shell.IShellWindows_Register
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

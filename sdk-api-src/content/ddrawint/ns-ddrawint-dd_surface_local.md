@@ -9,8 +9,6 @@ ms.assetid: 45a41cec-0257-4e26-809d-c2fc4c247328
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

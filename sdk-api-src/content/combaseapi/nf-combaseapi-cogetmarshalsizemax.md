@@ -9,8 +9,6 @@ ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

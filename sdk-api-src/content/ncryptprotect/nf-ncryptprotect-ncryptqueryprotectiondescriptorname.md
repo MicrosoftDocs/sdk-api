@@ -9,8 +9,6 @@ ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

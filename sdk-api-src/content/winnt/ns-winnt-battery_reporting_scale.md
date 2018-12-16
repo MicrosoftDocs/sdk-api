@@ -9,8 +9,6 @@ ms.assetid: 91834159-e837-407b-8c9e-fbbcf9f208ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure, PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer, _win32_battery_reporting_scale_str, base.battery_reporting_scale_str, winnt/BATTERY_REPORTING_SCALE, winnt/PBATTERY_REPORTING_SCALE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

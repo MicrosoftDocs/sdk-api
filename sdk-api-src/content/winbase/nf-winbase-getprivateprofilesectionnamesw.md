@@ -9,8 +9,6 @@ ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateProfileSectionNames, GetPrivateProfileSectionNames function, GetPrivateProfileSectionNamesA, GetPrivateProfileSectionNamesW, _win32_getprivateprofilesectionnames, base.getprivateprofilesectionnames, winbase/GetPrivateProfileSectionNames, winbase/GetPrivateProfileSectionNamesA, winbase/GetPrivateProfileSectionNamesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: a46da973-8f2f-48b8-9a74-d54e67f68a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

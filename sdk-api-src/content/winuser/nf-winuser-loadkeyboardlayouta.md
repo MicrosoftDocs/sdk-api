@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KLF_ACTIVATE, KLF_NOTELLSHELL, KLF_REORDER, KLF_REPLACELANG, KLF_SETFORPROCESS, KLF_SUBSTITUTE_OK, KLF_UNLOADPREVIOUS, LoadKeyboardLayout, LoadKeyboardLayout function [Keyboard and Mouse Input], LoadKeyboardLayoutA, LoadKeyboardLayoutW, _win32_LoadKeyboardLayout, _win32_loadkeyboardlayout_cpp, inputdev.loadkeyboardlayout, winui._win32_loadkeyboardlayout, winuser/LoadKeyboardLayout, winuser/LoadKeyboardLayoutA, winuser/LoadKeyboardLayoutW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

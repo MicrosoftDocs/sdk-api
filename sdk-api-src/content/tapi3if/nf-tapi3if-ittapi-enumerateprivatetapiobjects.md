@@ -9,8 +9,6 @@ ms.assetid: 071166d9-99ff-4245-b4c8-0b89b8bae19c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumeratePrivateTAPIObjects, EnumeratePrivateTAPIObjects method [TAPI 2.2], EnumeratePrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumeratePrivateTAPIObjects method, ITTAPI.EnumeratePrivateTAPIObjects, ITTAPI::EnumeratePrivateTAPIObjects, _tapi3_ittapi_enumerateprivatetapiobjects, tapi3.ittapi_enumerateprivatetapiobjects, tapi3if/ITTAPI::EnumeratePrivateTAPIObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

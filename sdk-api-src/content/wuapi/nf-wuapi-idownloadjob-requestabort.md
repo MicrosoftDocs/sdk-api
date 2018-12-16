@@ -9,8 +9,6 @@ ms.assetid: 01f403c5-b73d-4366-8e9e-132f373a354f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],RequestAbort method, IDownloadJob.RequestAbort, IDownloadJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IDownloadJob interface, wua.idownloadjob_requestabort, wuapi/IDownloadJob::RequestAbort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

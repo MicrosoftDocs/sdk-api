@@ -9,8 +9,6 @@ ms.assetid: b7326003-cd25-4988-9ed4-31c2e030beec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error Reporting], base.werreportclosehandle, wer.werreportclosehandle, werapi/WerReportCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

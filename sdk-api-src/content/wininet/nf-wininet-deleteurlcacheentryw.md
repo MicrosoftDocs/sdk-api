@@ -9,8 +9,6 @@ ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

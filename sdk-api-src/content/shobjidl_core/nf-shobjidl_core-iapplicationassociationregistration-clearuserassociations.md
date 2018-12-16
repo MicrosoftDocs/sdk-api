@@ -9,8 +9,6 @@ ms.assetid: dcc0990a-f678-47bb-9462-905940ac87d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearUserAssociations, ClearUserAssociations method [Windows Shell], ClearUserAssociations method [Windows Shell],IApplicationAssociationRegistration interface, IApplicationAssociationRegistration interface [Windows Shell],ClearUserAssociations method, IApplicationAssociationRegistration.ClearUserAssociations, IApplicationAssociationRegistration::ClearUserAssociations, _shell_IApplicationAssociationRegistration_ClearUserAssociations, shell.IApplicationAssociationRegistration_ClearUserAssociations, shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

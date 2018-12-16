@@ -9,8 +9,6 @@ ms.assetid: 44077C5C-E3AA-4AE6-B772-BF2669B205B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetInstructionCountHint method, ID2D1RenderInfo.SetInstructionCountHint, ID2D1RenderInfo::SetInstructionCountHint, SetInstructionCountHint, SetInstructionCountHint method [Direct2D], SetInstructionCountHint method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetInstructionCountHint, direct2d.id2d1renderinfo_setinstructioncounthint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 

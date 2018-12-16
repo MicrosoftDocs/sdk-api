@@ -9,8 +9,6 @@ ms.assetid: d6bdbcff-1d6b-4813-8269-b75061a42de8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], IX509Extensions interface [Security],described, certenroll/IX509Extensions, security.ix509extensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

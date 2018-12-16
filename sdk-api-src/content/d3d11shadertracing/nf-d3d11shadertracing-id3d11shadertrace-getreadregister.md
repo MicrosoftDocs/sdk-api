@@ -9,8 +9,6 @@ ms.assetid: 2BDA0C25-B5D7-4A8D-A762-2C3FDF113433
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReadRegister, GetReadRegister method [Direct3D 11], GetReadRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetReadRegister method, ID3D11ShaderTrace.GetReadRegister, ID3D11ShaderTrace::GetReadRegister, d3d11shadertracing/ID3D11ShaderTrace::GetReadRegister, direct3d11.id3d11shadertrace_getreadregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shadertracing.h
 req.include-header: 

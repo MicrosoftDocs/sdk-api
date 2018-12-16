@@ -9,8 +9,6 @@ ms.assetid: 5f56e3f9-443b-4d67-bfed-3210e691ad4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.Update, IStreamSample::Update, IStreamSampleUpdate, Update, Update method [DirectShow], Update method [DirectShow],IStreamSample interface, dshow.istreamsample_update, mmstream/IStreamSample::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

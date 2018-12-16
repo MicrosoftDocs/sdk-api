@@ -9,8 +9,6 @@ ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: eaphostpeertypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8258b6f4-15d7-4da2-96d1-d1ce36a31c1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSTATDATA interface [COM],Next method, IEnumSTATDATA.Next, IEnumSTATDATA::Next, Next, Next method [COM], Next method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_next, com.ienumstatdata_next, objidl/IEnumSTATDATA::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 66289ff2-0e8c-4320-997c-b5078fc6db12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_UPDATE_PARMS_str, digitalv/MCI_DGV_UPDATE_PARMS, multimedia.mci_dgv_update_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

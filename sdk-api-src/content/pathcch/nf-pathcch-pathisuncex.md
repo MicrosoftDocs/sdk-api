@@ -9,8 +9,6 @@ ms.assetid: 3b2a4158-63ec-49eb-a031-7493d02f2caa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathIsUNCEx, PathIsUNCEx function [Windows Shell], pathcch/PathIsUNCEx, shell.PathIsUNCEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

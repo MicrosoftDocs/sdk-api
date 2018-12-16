@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgioutput_getdesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDesc method, IDXGIOutput.GetDesc, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

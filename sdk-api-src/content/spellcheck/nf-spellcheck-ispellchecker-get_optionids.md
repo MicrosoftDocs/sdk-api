@@ -9,8 +9,6 @@ ms.assetid: 6770acd9-5dc7-4f86-a780-e724646a3d56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],OptionIds property, ISpellChecker.OptionIds, ISpellChecker.get_OptionIds, ISpellChecker::OptionIds, ISpellChecker::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellChecker interface, get_OptionIds, intl.ispellchecker_optionids, spellcheck/ISpellChecker::OptionIds, spellcheck/ISpellChecker::get_OptionIds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNCALLBACK, PFNCALLBACK callback, PFNCALLBACK callback function [Data Exchange], XCLASS_BOOL, XCLASS_DATA, XCLASS_FLAGS, XCLASS_NOTIFICATION, _win32_DdeCallback, _win32_ddecallback_cpp, dataxchg.ddecallback, ddeml/PFNCALLBACK, winui._win32_ddecallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ddeml.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: ee6ad3c7-2d31-4a12-ad37-ee6e1071b665
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],Signature property, IX509CertificateRequestPkcs10.Signature, IX509CertificateRequestPkcs10.get_Signature, IX509CertificateRequestPkcs10::Signature, IX509CertificateRequestPkcs10::get_Signature, Signature property [Security], Signature property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::Signature, certenroll/IX509CertificateRequestPkcs10::get_Signature, get_Signature, security.ix509certificaterequestpkcs10_signature_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

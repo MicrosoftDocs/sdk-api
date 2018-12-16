@@ -9,8 +9,6 @@ ms.assetid: 26655738-a2d5-446c-af7f-866b34beb3ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeskBar interface [Windows Shell],SetClient method, IDeskBar.SetClient, IDeskBar::SetClient, SetClient, SetClient method [Windows Shell], SetClient method [Windows Shell],IDeskBar interface, _win32_IDeskBar_SetClient, shell.IDeskBar_SetClient, shobjidl_core/IDeskBar::SetClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

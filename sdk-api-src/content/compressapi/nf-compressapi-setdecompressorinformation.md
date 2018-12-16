@@ -9,8 +9,6 @@ ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

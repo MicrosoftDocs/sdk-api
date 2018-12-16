@@ -9,8 +9,6 @@ ms.assetid: dabce803-4989-4532-bf96-2f7eb09b29fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnhancedContrast, GetEnhancedContrast method [Direct Write], GetEnhancedContrast method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetEnhancedContrast method, IDWriteRenderingParams.GetEnhancedContrast, IDWriteRenderingParams::GetEnhancedContrast, directwrite.IDWriteRenderingParams_GetEnhancedContrast, dwrite/IDWriteRenderingParams::GetEnhancedContrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

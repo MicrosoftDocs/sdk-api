@@ -9,8 +9,6 @@ ms.assetid: 638f0ffd-3771-4390-b335-0517be5312fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetPixelV, SetPixelV function [Windows GDI], _win32_SetPixelV, gdi.setpixelv, wingdi/SetPixelV
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

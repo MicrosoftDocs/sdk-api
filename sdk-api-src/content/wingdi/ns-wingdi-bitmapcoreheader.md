@@ -9,8 +9,6 @@ ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

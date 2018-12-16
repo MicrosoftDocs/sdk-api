@@ -9,8 +9,6 @@ ms.assetid: 3E3A48B6-FAF8-4C21-8438-41FA94937A39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegInstallW, RegInstallW function [Windows API], advpub/RegInstallW, winprog.reginstallw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: advpub.h
 req.include-header: 

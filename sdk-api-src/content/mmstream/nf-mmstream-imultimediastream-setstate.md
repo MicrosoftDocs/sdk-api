@@ -9,8 +9,6 @@ ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: NA:winineti
 ms.assetid: 5bab60d1-106e-33c7-98c8-c939d66a155d
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

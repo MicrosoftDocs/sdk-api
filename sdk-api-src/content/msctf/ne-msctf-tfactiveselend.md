@@ -9,8 +9,6 @@ ms.assetid: bb89f0b4-a0b4-42ea-8467-6fc634e37aec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_AE_END, TF_AE_NONE, TF_AE_START, TfActiveSelEnd, TfActiveSelEnd enumeration [Text Services Framework], _tsf_tfactiveselend_ref, msctf/TF_AE_END, msctf/TF_AE_NONE, msctf/TF_AE_START, msctf/TfActiveSelEnd, tsf.tfactiveselend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

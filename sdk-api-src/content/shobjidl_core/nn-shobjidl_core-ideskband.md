@@ -9,8 +9,6 @@ ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

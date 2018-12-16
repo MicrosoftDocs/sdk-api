@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortgroups.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

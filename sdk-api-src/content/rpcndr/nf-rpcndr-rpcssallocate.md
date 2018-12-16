@@ -9,8 +9,6 @@ ms.assetid: d1c1af46-63c5-4e50-abfb-c4f251972427
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcSsAllocate, RpcSsAllocate function [RPC], _rpc_rpcssallocate, rpc.rpcssallocate, rpcndr/RpcSsAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

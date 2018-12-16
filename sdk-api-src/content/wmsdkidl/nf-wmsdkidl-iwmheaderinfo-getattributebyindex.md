@@ -9,8 +9,6 @@ ms.assetid: 905fdf2c-a398-457e-80e9-aac124301f99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMHeaderInfo interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo.GetAttributeByIndex, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo2::GetAttributeByIndex, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo3::GetAttributeByIndex, IWMHeaderInfo::GetAttributeByIndex, IWMHeaderInfoGetAttributeByIndex, wmformat.iwmheaderinfo_getattributebyindex, wmsdkidl/IWMHeaderInfo2::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

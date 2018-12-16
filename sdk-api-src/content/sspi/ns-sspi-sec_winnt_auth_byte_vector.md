@@ -9,8 +9,6 @@ ms.assetid: ee511497-2b70-4c51-bcc2-7585143b4f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security], SEC_WINNT_AUTH_BYTE_VECTOR, SEC_WINNT_AUTH_BYTE_VECTOR structure [Security], security.sec_winnt_auth_byte_vector, sspi/PSEC_WINNT_AUTH_BYTE_VECTOR, sspi/SEC_WINNT_AUTH_BYTE_VECTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

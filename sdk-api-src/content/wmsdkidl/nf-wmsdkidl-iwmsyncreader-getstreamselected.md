@@ -9,8 +9,6 @@ ms.assetid: bcde749e-c0fd-4be8-8708-a053854a9275
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

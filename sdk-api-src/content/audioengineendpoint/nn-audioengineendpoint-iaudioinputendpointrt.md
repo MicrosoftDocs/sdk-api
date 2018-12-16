@@ -9,8 +9,6 @@ ms.assetid: f9638dea-f61d-45f6-b91d-72e4fc1b4a92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioInputEndpointRT, IAudioInputEndpointRT interface [Remote Desktop Services], IAudioInputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioInputEndpointRT, termserv.iaudioinputendpointrt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

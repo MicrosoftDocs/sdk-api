@@ -9,8 +9,6 @@ ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

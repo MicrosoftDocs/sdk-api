@@ -9,8 +9,6 @@ ms.assetid: 9807080C-2E62-4B3E-AED5-7847748737E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentCanZoom property [Windows Accessibility], CurrentCanZoom property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentCanZoom property, IUIAutomationTransformPattern2.CurrentCanZoom, IUIAutomationTransformPattern2.get_CurrentCanZoom, IUIAutomationTransformPattern2::CurrentCanZoom, IUIAutomationTransformPattern2::get_CurrentCanZoom, get_CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentCanZoom, winauto.uiauto_IUIAutomationTransformPattern2_CurrentCanZoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

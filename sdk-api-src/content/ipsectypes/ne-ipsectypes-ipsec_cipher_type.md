@@ -9,8 +9,6 @@ ms.assetid: 88bcd239-83a6-4bc6-b9c8-2416c91ee4c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, IPSEC_CIPHER_TYPE_DES, IPSEC_CIPHER_TYPE_MAX, fwp.ipsec_cipher_type_enum, ipsectypes/IPSEC_CIPHER_TYPE, ipsectypes/IPSEC_CIPHER_TYPE_3DES, ipsectypes/IPSEC_CIPHER_TYPE_AES_128, ipsectypes/IPSEC_CIPHER_TYPE_AES_192, ipsectypes/IPSEC_CIPHER_TYPE_AES_256, ipsectypes/IPSEC_CIPHER_TYPE_DES, ipsectypes/IPSEC_CIPHER_TYPE_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

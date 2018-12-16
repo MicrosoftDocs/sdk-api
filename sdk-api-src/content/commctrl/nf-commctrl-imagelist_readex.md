@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_readex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx function [Windows Controls], _win32_ImageList_ReadEx, _win32_ImageList_ReadEx_cpp, commctrl/ImageList_ReadEx, controls.ImageList_ReadEx, controls._win32_ImageList_ReadEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

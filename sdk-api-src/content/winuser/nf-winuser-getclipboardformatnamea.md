@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClipboardFormatName, GetClipboardFormatName function [Data Exchange], GetClipboardFormatNameA, GetClipboardFormatNameW, _win32_GetClipboardFormatName, _win32_getclipboardformatname_cpp, dataxchg.getclipboardformatname, winui._win32_getclipboardformatname, winuser/GetClipboardFormatName, winuser/GetClipboardFormatNameA, winuser/GetClipboardFormatNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 4975042d-549e-4032-9f42-468dc7e3c20e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IColumnProvider interface [Windows Shell],Initialize method, IColumnProvider.Initialize, IColumnProvider::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IColumnProvider interface, _win32_IColumnProvider_Initialize, shell.IColumnProvider_Initialize, shlobj/IColumnProvider::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 

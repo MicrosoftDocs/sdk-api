@@ -9,8 +9,6 @@ ms.assetid: 2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamFindSample, AVIStreamFindSample function [Windows Multimedia], _win32_AVIStreamFindSample, multimedia.avistreamfindsample, vfw/AVIStreamFindSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

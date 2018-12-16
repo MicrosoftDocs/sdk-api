@@ -9,8 +9,6 @@ ms.assetid: BEAF672C-F9B3-4544-878B-BBCF96F502C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NLM_SOCKADDR, NLM_SOCKADDR structure [Network Awareness], PNLM_SOCKADDR, PNLM_SOCKADDR structure pointer [Network Awareness], netlistmgr/NLM_SOCKADDR, netlistmgr/PNLM_SOCKADDR, nla.nlm_sockaddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 

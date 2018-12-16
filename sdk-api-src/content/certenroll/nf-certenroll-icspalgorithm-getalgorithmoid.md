@@ -9,8 +9,6 @@ ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

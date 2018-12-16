@@ -9,8 +9,6 @@ ms.assetid: 0F6316B4-3FE2-405E-B8C0-AB371F95BCE1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.acquiredeveloperlicense, wsdevlicensing/AcquireDeveloperLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 

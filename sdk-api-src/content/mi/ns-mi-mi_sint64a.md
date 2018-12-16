@@ -9,8 +9,6 @@ ms.assetid: 2d5aac14-9f9f-426d-8eee-d6ea4ecb75f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Sint64A, MI_Sint64A structure [Windows Management Infrastructure (MI)], mi/MI_Sint64A, wmi._mi_sint64a, wmi_v2.mi_sint64a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

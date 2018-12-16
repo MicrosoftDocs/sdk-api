@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPenType, GetPenType method [GDI+], GetPenType method [GDI+],Pen class, Pen class [GDI+],GetPenType method, Pen.GetPenType, Pen::GetPenType, _gdiplus_CLASS_Pen_GetPenType_, gdiplus._gdiplus_CLASS_Pen_GetPenType_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

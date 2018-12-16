@@ -9,8 +9,6 @@ ms.assetid: 489348b7-0f10-4a49-a7d4-10a1ed478aa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], IPBDAAttributesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAAttributesDescriptor, mstv.ipbdaattributesdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

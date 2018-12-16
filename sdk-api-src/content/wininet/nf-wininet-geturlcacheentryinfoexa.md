@@ -9,8 +9,6 @@ ms.assetid: 3842dae9-9474-492a-83fa-29d7927dc92d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUrlCacheEntryInfoEx, GetUrlCacheEntryInfoEx function [WinINet], GetUrlCacheEntryInfoExA, GetUrlCacheEntryInfoExW, _inet_geturlcacheentryinfoex_function, wininet.geturlcacheentryinfoex, wininet/GetUrlCacheEntryInfoEx, wininet/GetUrlCacheEntryInfoExA, wininet/GetUrlCacheEntryInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

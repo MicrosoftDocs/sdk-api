@@ -9,8 +9,6 @@ ms.assetid: C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

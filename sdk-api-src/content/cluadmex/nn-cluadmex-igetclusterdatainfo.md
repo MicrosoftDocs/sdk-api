@@ -9,8 +9,6 @@ ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], IGetClusterDataInfo interface [Failover Cluster],described, _wolf_igetclusterdatainfo, cluadmex/IGetClusterDataInfo, mscs.igetclusterdatainfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

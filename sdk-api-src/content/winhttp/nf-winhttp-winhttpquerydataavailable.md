@@ -9,8 +9,6 @@ ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

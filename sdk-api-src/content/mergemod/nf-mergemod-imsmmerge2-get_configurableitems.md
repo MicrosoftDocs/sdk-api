@@ -9,8 +9,6 @@ ms.assetid: c8b34ff7-6b0b-4cd9-bcb2-9d0da6b14254
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmMerge2 interface,get_ConfigurableItems method, IMsmMerge2.get_ConfigurableItems, IMsmMerge2::get_ConfigurableItems, _msi_get_configurableitems_function, get_ConfigurableItems, get_ConfigurableItems method, get_ConfigurableItems method,IMsmMerge2 interface, mergemod/IMsmMerge2::get_ConfigurableItems, setup.imsmmerge2_get_configurableitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

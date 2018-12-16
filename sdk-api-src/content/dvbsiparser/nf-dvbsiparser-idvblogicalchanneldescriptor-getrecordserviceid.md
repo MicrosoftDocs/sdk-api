@@ -9,8 +9,6 @@ ms.assetid: ab0670e9-400c-4a3f-8afa-e323a3915dc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [DirectShow], GetRecordServiceId method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordServiceId method, IDvbLogicalChannelDescriptor.GetRecordServiceId, IDvbLogicalChannelDescriptor::GetRecordServiceId, IDvbLogicalChannelDescriptorGetRecordServiceId, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordServiceId, mstv.idvblogicalchanneldescriptor_getrecordserviceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

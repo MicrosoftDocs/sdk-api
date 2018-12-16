@@ -9,8 +9,6 @@ ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPolicyQualifier interface [Security],Type property, IPolicyQualifier.Type, IPolicyQualifier.get_Type, IPolicyQualifier::Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type, security.ipolicyqualifier_type_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c3664dec-5ba4-4842-80f1-6652d526295d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateKeySeed, GenerateKeySeed method [windows Media Format], GenerateKeySeed method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeySeed method, IWMDRMWriter.GenerateKeySeed, IWMDRMWriter::GenerateKeySeed, IWMDRMWriterGenerateKeySeed, wmformat.iwmdrmwriter_generatekeyseed, wmsdkidl/IWMDRMWriter::GenerateKeySeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

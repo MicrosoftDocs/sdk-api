@@ -9,8 +9,6 @@ ms.assetid: 042d1f51-5eb8-4c32-97f1-bb76546e6624
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AccessCheck2, AccessCheck2 method [Security], AccessCheck2 method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],AccessCheck2 method, IAzClientContext3.AccessCheck2, IAzClientContext3::AccessCheck2, azroles/IAzClientContext3::AccessCheck2, security.iazclientcontext3_accesscheck2_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

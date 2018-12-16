@@ -9,8 +9,6 @@ ms.assetid: b9c31591-bf9f-44d9-8c9a-9682d29fc541
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

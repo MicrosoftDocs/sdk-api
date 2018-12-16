@@ -9,8 +9,6 @@ ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(REFIID,IInspectable), IWeakReference::Resolve, IWeakReference::Resolve(REFIID,IInspectable), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: weakreference.h
 req.include-header: 

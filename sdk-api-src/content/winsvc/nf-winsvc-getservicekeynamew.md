@@ -9,8 +9,6 @@ ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

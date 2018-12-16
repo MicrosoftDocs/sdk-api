@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetListStart, GetListStart method [Windows Controls], GetListStart method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListStart method, ITextPara.GetListStart, ITextPara::GetListStart, _win32_ITextPara_GetListStart, _win32_ITextPara_GetListStart_cpp, controls.ITextPara_GetListStart, controls._win32_ITextPara_GetListStart, tom/ITextPara::GetListStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

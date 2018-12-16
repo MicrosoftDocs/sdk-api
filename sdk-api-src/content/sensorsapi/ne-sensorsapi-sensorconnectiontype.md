@@ -9,8 +9,6 @@ ms.assetid: 3d5cb6ff-0228-44fa-8216-dbffcb2ec834
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration, sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsapi/SensorConnectionType, winsensors_com_ref.sensorconnectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 

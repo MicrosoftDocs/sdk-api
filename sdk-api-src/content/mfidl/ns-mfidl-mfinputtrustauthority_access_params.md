@@ -9,8 +9,6 @@ ms.assetid: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS structure [Media Foundation], mf.mfinputtrustauthority_access_params, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

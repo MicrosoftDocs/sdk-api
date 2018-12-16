@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_0trs.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CITextToFullTreeEx, CITextToFullTreeEx function [Indexing Service], _idxs_CITextToFullTreeEx, indexsrv.citexttofulltreeex, ntquery/CITextToFullTreeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

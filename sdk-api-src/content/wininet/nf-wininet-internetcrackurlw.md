@@ -9,8 +9,6 @@ ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

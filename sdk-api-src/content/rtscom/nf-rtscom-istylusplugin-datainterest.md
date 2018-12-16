@@ -9,8 +9,6 @@ ms.assetid: 7ff6ccf2-292c-4321-be2a-d6db7ce14943
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest method [Tablet PC], DataInterest method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],DataInterest method, IStylusPlugin.DataInterest, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

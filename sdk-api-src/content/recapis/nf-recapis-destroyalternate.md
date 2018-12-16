@@ -9,8 +9,6 @@ ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

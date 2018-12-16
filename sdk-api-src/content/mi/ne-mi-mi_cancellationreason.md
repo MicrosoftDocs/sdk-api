@@ -9,8 +9,6 @@ ms.assetid: 3c498055-03ef-4163-9de5-cf4e70051cea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_CancellationReason, MI_CancellationReason enumeration [Windows Management Infrastructure (MI)], MI_REASON_NONE, MI_REASON_SERVICESTOP, MI_REASON_SHUTDOWN, MI_REASON_TIMEOUT, mi/MI_CancellationReason, mi/MI_REASON_NONE, mi/MI_REASON_SERVICESTOP, mi/MI_REASON_SHUTDOWN, mi/MI_REASON_TIMEOUT, wmi._mi_cancellationreason, wmi_v2.mi_cancellationreason
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

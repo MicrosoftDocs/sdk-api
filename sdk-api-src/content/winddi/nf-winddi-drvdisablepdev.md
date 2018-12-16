@@ -9,8 +9,6 @@ ms.assetid: dff04000-e307-4a1c-80fe-d6666929df76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml, display.drvdisablepdev, winddi/DrvDisablePDEV
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

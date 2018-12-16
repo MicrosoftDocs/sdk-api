@@ -9,8 +9,6 @@ ms.assetid: 38689191-3315-44F3-A259-DC1EB378485D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DeviceContext5, ID2D1DeviceContext5 interface [Direct2D], ID2D1DeviceContext5 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext5, direct2d.id2d1devicecontext5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

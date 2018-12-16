@@ -9,8 +9,6 @@ ms.assetid: 4962741b-d1ca-4296-ad95-d171d165c5d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Seek method, IWMDRMTranscryptor.Seek, IWMDRMTranscryptor::Seek, IWMDRMTranscryptorSeek, Seek, Seek method [windows Media Format], Seek method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_seek, wmsdkidl/IWMDRMTranscryptor::Seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

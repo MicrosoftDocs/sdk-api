@@ -9,8 +9,6 @@ ms.assetid: 7f8656e0-0f24-46a0-81b7-62067b0d4c21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files],IOfflineFilesTransparentCacheInfo interface, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

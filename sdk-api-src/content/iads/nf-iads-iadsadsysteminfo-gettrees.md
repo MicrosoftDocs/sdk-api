@@ -9,8 +9,6 @@ ms.assetid: 1446d248-0adc-4542-b4af-c7139cee028f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTrees, GetTrees method [ADSI], GetTrees method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetTrees method, IADsADSystemInfo.GetTrees, IADsADSystemInfo::GetTrees, _ds_iadsadsysteminfo_gettrees, adsi.iadsadsysteminfo__gettrees, adsi.iadsadsysteminfo_gettrees, iads/IADsADSystemInfo::GetTrees
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

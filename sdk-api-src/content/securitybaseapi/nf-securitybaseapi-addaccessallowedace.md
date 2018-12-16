@@ -9,8 +9,6 @@ ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

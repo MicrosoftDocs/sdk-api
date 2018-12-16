@@ -9,8 +9,6 @@ ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

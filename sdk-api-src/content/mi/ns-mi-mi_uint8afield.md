@@ -9,8 +9,6 @@ ms.assetid: 65fee0fc-c444-4360-b6a0-789f5999f1c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint8AField, MI_Uint8AField structure [Windows Management Infrastructure (MI)], mi/MI_Uint8AField, wmi._mi_uint8afield, wmi_v2.mi_uint8afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

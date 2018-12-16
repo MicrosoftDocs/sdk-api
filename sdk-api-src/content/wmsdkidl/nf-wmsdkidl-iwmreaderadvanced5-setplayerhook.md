@@ -9,8 +9,6 @@ ms.assetid: 499c6c31-8cdf-4b99-964a-1fd51c14c5bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

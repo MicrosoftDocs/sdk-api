@@ -9,8 +9,6 @@ ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mmstream.h
 req.include-header: 

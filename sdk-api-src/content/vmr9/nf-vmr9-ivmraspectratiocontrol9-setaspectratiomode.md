@@ -9,8 +9,6 @@ ms.assetid: adc34013-a349-4cf6-b5c2-58b7b212d630
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl9.SetAspectRatioMode, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

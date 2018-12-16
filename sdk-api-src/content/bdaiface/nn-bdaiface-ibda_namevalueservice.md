@@ -9,8 +9,6 @@ ms.assetid: 7b6a12d2-24e4-42d8-9138-86c2fe558d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

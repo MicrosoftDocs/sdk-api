@@ -9,8 +9,6 @@ ms.assetid: fd4f41f0-8aeb-4c83-a079-a5a77685c143
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cmnquery.h
 req.include-header: 

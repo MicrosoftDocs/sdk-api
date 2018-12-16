@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6cab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxGetLoggingCategories, FaxGetLoggingCategories function [Fax Service], FaxGetLoggingCategoriesA, FaxGetLoggingCategoriesW, _mfax_faxgetloggingcategories, fax._mfax_faxgetloggingcategories, winfax/FaxGetLoggingCategories, winfax/FaxGetLoggingCategoriesA, winfax/FaxGetLoggingCategoriesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

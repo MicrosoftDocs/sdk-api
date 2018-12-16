@@ -9,8 +9,6 @@ ms.assetid: E869CF11-E321-478A-948F-226B04D61492
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX structure [Files], FILESYSTEM_STATISTICS_TYPE_EXFAT, FILESYSTEM_STATISTICS_TYPE_FAT, FILESYSTEM_STATISTICS_TYPE_NTFS, PFILESYSTEM_STATISTICS_EX, PFILESYSTEM_STATISTICS_EX structure pointer [Files], fs.filesystem_statistics_ex, winioctl/FILESYSTEM_STATISTICS_EX, winioctl/PFILESYSTEM_STATISTICS_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

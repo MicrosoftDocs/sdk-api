@@ -9,8 +9,6 @@ ms.assetid: 0414efb0-d91b-46f0-9fee-0b69ef823029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RetrieveUrlCacheEntryStream, RetrieveUrlCacheEntryStream function [WinINet], RetrieveUrlCacheEntryStreamA, RetrieveUrlCacheEntryStreamW, _inet_retrieveurlcacheentrystream_function, wininet.retrieveurlcacheentrystream, wininet/RetrieveUrlCacheEntryStream, wininet/RetrieveUrlCacheEntryStreamA, wininet/RetrieveUrlCacheEntryStreamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

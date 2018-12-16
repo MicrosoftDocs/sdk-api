@@ -9,8 +9,6 @@ ms.assetid: 9096912a-14ad-4a45-a564-08f98fce3f96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyKeyFromString, PSPropertyKeyFromString function [Windows Properties], _shell_PSPropertyKeyFromString, properties.PSPropertyKeyFromString, propsys/PSPropertyKeyFromString, shell.PSPropertyKeyFromString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

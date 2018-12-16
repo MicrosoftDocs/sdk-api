@@ -9,8 +9,6 @@ ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winldap.h
 req.include-header: 

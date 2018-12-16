@@ -9,8 +9,6 @@ ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: fae7ca09-3e37-444b-a4bc-bfd522917e3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [Media Foundation], GetDisabledByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetDisabledByIndex method, IMFPluginControl.GetDisabledByIndex, IMFPluginControl::GetDisabledByIndex, mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex, mfobjects/IMFPluginControl::GetDisabledByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

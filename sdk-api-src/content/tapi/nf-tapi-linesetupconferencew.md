@@ -9,8 +9,6 @@ ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetupconference, lineSetupConference, lineSetupConference function [TAPI 2.2], lineSetupConferenceA, lineSetupConferenceW, tapi/lineSetupConference, tapi/lineSetupConferenceA, tapi/lineSetupConferenceW, tapi2.linesetupconference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

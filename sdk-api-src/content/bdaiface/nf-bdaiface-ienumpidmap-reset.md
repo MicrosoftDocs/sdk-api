@@ -9,8 +9,6 @@ ms.assetid: 4f5cc44e-10c0-441f-b34c-80f94c5f6bca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Reset method, IEnumPIDMap.Reset, IEnumPIDMap::Reset, IEnumPIDMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Reset, dshow.ienumpidmap_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

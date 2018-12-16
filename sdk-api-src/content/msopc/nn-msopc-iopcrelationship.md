@@ -9,8 +9,6 @@ ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

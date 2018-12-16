@@ -9,8 +9,6 @@ ms.assetid: 8CC8BFD3-4177-4CA0-A74C-43CCDEAA7D74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddMappings, AddMappings method [Direct Write], AddMappings method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],AddMappings method, IDWriteFontFallbackBuilder.AddMappings, IDWriteFontFallbackBuilder::AddMappings, directwrite.idwritefontfallbackbuilder_addmappings, dwrite_2/IDWriteFontFallbackBuilder::AddMappings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 76c3e3e5-521a-40d3-98b9-c5a757fc2bec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSink3.get_CCCounter, IMSVidStreamBufferSink3::get_CCCounter, IMSVidStreamBufferSink3get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_cccounter, segment/IMSVidStreamBufferSink3::get_CCCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: E17F39CB-61E3-44EF-805D-AD386743744E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], ID3D11CryptoSession interface [Media Foundation],described, d3d11/ID3D11CryptoSession, mf.id3d11cryptosession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

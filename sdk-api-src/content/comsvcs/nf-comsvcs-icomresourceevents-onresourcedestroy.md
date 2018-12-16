@@ -9,8 +9,6 @@ ms.assetid: cc934b47-8031-4dab-ae00-6389f54749b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceDestroy method, IComResourceEvents.OnResourceDestroy, IComResourceEvents::OnResourceDestroy, OnResourceDestroy, OnResourceDestroy method [COM+], OnResourceDestroy method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceDestroy, comsvcs/IComResourceEvents::OnResourceDestroy, cos.icomresourceevents_onresourcedestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

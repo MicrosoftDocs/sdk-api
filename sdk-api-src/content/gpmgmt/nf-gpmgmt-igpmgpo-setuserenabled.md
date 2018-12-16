@@ -9,8 +9,6 @@ ms.assetid: 25a86f15-a5b0-4412-931b-444f4a684dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMGPO class [GPMC],SetUserEnabled method, IGPMGPO interface [GPMC],SetUserEnabled method, IGPMGPO.SetUserEnabled, IGPMGPO::SetUserEnabled, SetUserEnabled, SetUserEnabled method [GPMC], SetUserEnabled method [GPMC],GPMGPO class, SetUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_setuserenabled, gpmc.igpmgpo_setuserenabled, gpmgmt/IGPMGPO::SetUserEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

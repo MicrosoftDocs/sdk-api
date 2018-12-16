@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2NotEqualInt(XMVECTOR,XMV
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2NotEqualInt, XMVector2NotEqualInt, XMVector2NotEqualInt method [DirectX Math Support APIs], dxmath.xmvector2notequalint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

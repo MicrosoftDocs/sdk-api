@@ -9,8 +9,6 @@ ms.assetid: 4320de0f-bfa6-4e17-a09d-d004559fae70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOkButtonLabel method, IFileDialog.SetOkButtonLabel, IFileDialog::SetOkButtonLabel, SetOkButtonLabel, SetOkButtonLabel method [Windows Shell], SetOkButtonLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOkButtonLabel, shell_IFileDialog_SetOkButtonLabel, shobjidl_core/IFileDialog::SetOkButtonLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

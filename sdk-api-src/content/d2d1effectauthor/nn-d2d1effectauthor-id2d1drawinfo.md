@@ -9,8 +9,6 @@ ms.assetid: 9C7B8CE0-0D2D-4383-9BE1-25F86BCEF253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DrawInfo, ID2D1DrawInfo interface [Direct2D], ID2D1DrawInfo interface [Direct2D],described, d2d1effectauthor/ID2D1DrawInfo, direct2d.id2d1drawinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

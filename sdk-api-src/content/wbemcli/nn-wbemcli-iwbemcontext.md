@@ -9,8 +9,6 @@ ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

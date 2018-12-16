@@ -9,8 +9,6 @@ ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzOperations object [Security],Count property, Count property [Security], Count property [Security],AzOperations object, Count property [Security],IAzOperations interface, IAzOperations interface [Security],Count property, IAzOperations.Count, IAzOperations.get_Count, IAzOperations::Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count, security.iazoperations_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

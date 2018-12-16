@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\matrixorder.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MatrixOrder, MatrixOrder enumeration [GDI+], MatrixOrderAppend, MatrixOrderPrepend, _gdiplus_ENUM_MatrixOrder, gdiplus._gdiplus_ENUM_MatrixOrder, gdiplusenums/MatrixOrder, gdiplusenums/MatrixOrderAppend, gdiplusenums/MatrixOrderPrepend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

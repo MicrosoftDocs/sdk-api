@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Activity property, IFaxServer.Activity, IFaxServer.get_Activity, IFaxServer::Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

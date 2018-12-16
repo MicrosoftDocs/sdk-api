@@ -9,8 +9,6 @@ ms.assetid: c84a4b00-c43d-488a-b406-3bac2d25dcb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICatRegister interface [COM],RegisterCategories method, ICatRegister.RegisterCategories, ICatRegister::RegisterCategories, RegisterCategories, RegisterCategories method [COM], RegisterCategories method [COM],ICatRegister interface, _com_icatregister_registercategories, com.icatregister_registercategories, comcat/ICatRegister::RegisterCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

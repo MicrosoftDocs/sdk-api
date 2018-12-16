@@ -9,8 +9,6 @@ ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

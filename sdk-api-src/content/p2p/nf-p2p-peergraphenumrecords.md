@@ -9,8 +9,6 @@ ms.assetid: 528c7172-56ed-4e14-991a-69e9fde7b227
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphEnumRecords, PeerGraphEnumRecords function [Peer Networking], p2p.peergraphenumrecords, p2p/PeerGraphEnumRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

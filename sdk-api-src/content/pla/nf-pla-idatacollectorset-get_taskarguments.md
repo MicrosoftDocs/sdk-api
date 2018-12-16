@@ -9,8 +9,6 @@ ms.assetid: 7bd045df-379b-40fb-b309-cec531493018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskArguments property, IDataCollectorSet.TaskArguments, IDataCollectorSet.get_TaskArguments, IDataCollectorSet::TaskArguments, IDataCollectorSet::get_TaskArguments, IDataCollectorSet::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_taskarguments, get_TaskArguments, pla.idatacollectorset_get_taskarguments, pla/IDataCollectorSet::TaskArguments, pla/IDataCollectorSet::get_TaskArguments, pla/IDataCollectorSet::put_TaskArguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

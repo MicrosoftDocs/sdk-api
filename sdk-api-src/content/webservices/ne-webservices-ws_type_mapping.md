@@ -9,8 +9,6 @@ ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

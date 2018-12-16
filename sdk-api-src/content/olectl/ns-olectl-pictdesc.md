@@ -9,8 +9,6 @@ ms.assetid: eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: olectl.h
 req.include-header: 

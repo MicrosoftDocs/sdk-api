@@ -9,8 +9,6 @@ ms.assetid: 047e19da-c819-46e5-8a1c-09bc93a05259
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_BUFFER_SEGMENT, WMT_BUFFER_SEGMENT structure [windows Media Format], wmformat.wmt_buffer_segment, wmsdkidl/WMT_BUFFER_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

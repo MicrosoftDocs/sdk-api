@@ -9,8 +9,6 @@ ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

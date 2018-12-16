@@ -9,8 +9,6 @@ ms.assetid: a3e941ee-0477-48a8-96bd-c9d74c66ca41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], IEmptyVolumeCache2 interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache2, emptyvc/IEmptyVolumeCache2, lwef.iemptyvolumecache2, shell.iemptyvolumecache2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: emptyvc.h
 req.include-header: 

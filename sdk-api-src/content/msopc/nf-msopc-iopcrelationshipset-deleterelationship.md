@@ -9,8 +9,6 @@ ms.assetid: fa452e8d-10dd-4cc4-a56b-a09d841dc46a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteRelationship, DeleteRelationship method [Open Packaging Conventions], DeleteRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],DeleteRelationship method, IOpcRelationshipSet.DeleteRelationship, IOpcRelationshipSet::DeleteRelationship, msopc/IOpcRelationshipSet::DeleteRelationship, opc.iopcrelationshipset_deleterelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

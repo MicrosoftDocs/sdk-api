@@ -9,8 +9,6 @@ ms.assetid: c928656c-a59d-41b5-9434-911329b0278e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [PSAPI], K32InitializeProcessForWatch, K32InitializeProcessForWsWatch, _win32_initializeprocessforwswatch, base.initializeprocessforwswatch, psapi.initializeprocessforwswatch, psapi/InitializeProcessForWsWatch, psapi/K32InitializeProcessForWsWatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

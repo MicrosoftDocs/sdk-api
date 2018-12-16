@@ -9,8 +9,6 @@ ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

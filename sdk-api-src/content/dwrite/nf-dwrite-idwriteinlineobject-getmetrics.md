@@ -9,8 +9,6 @@ ms.assetid: 809a4e29-0423-40b2-9d40-105d30574fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetMetrics method, IDWriteInlineObject.GetMetrics, IDWriteInlineObject::GetMetrics, directwrite.IDWriteInlineObject_GetMetrics, dwrite/IDWriteInlineObject::GetMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

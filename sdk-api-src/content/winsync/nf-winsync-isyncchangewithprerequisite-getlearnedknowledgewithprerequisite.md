@@ -9,8 +9,6 @@ ms.assetid: 5717f126-9383-4304-88eb-1d0fa3bb762f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangewithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

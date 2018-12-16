@@ -9,8 +9,6 @@ ms.assetid: EFA4FBD7-3063-4B6A-B3B1-45418C6682FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_STREAM_OUTPUT_BUFFER_VIEW, D3D12_STREAM_OUTPUT_BUFFER_VIEW structure, d3d12/D3D12_STREAM_OUTPUT_BUFFER_VIEW, direct3d12.d3d12_stream_output_buffer_view
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

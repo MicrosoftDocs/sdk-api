@@ -9,8 +9,6 @@ ms.assetid: 60d1246b-8719-4f41-9088-2672f51dd6a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAcceleratorTable, GetAcceleratorTable method [DirectShow], GetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetAcceleratorTable method, IFullScreenVideoEx.GetAcceleratorTable, IFullScreenVideoEx::GetAcceleratorTable, IFullScreenVideoExGetAcceleratorTable, amvideo/IFullScreenVideoEx::GetAcceleratorTable, dshow.ifullscreenvideoex_getacceleratortable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

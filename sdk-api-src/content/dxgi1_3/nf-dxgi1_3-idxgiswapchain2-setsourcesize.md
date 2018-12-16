@@ -9,8 +9,6 @@ ms.assetid: BD424F5A-9735-4E90-9FAD-A0B827D7AD80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetSourceSize method, IDXGISwapChain2.SetSourceSize, IDXGISwapChain2::SetSourceSize, SetSourceSize, SetSourceSize method [DXGI], SetSourceSize method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgioutpu2_setsourcesize, dxgi1_3/IDXGISwapChain2::SetSourceSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

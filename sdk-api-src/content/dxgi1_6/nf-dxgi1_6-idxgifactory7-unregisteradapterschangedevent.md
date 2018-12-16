@@ -9,8 +9,6 @@ ms.assetid: D118A5F6-CCFB-425C-82E8-18A3D8FAD79C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],UnregisterAdaptersChangedEvent method, IDXGIFactory7.UnregisterAdaptersChangedEvent, IDXGIFactory7::UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent method [DXGI], UnregisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_unregisteradapterschangedevent, dxgi1_6/IDXGIFactory7::UnregisterAdaptersChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 

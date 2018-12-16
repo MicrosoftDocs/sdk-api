@@ -9,8 +9,6 @@ ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

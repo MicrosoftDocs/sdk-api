@@ -9,8 +9,6 @@ ms.assetid: 83fea16a-f9af-4c39-87b2-4f2eb69130d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordToWord, Int64ToDWord, ULongToUShort, ULongToUShort function [Windows Shell], ULongToWord, _shell_ULongToUShort, intsafe/ULongToUShort, shell.ULongToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

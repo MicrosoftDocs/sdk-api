@@ -9,8 +9,6 @@ ms.assetid: 091ebea0-8688-4965-8727-0738cc19d47e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetAspectRatioMode method, IMixerPinConfig.GetAspectRatioMode, IMixerPinConfig::GetAspectRatioMode, IMixerPinConfigGetAspectRatioMode, dshow.imixerpinconfig_getaspectratiomode, mpconfig/IMixerPinConfig::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

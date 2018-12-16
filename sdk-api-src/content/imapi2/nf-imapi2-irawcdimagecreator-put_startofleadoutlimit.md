@@ -9,8 +9,6 @@ ms.assetid: e3483084-8339-4fe6-abd1-832832c549f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartOfLeadoutLimit method, IRawCDImageCreator.put_StartOfLeadoutLimit, IRawCDImageCreator::put_StartOfLeadoutLimit, imapi.irawcdimagecreator_put_startofleadoutlimit, imapi2/IRawCDImageCreator::put_StartOfLeadoutLimit, put_StartOfLeadoutLimit, put_StartOfLeadoutLimit method [IMAPI], put_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

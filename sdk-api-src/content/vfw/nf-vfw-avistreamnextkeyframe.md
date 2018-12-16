@@ -9,8 +9,6 @@ ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

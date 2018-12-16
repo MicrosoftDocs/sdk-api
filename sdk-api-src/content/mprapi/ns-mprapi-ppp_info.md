@@ -9,8 +9,6 @@ ms.assetid: 39692a38-ab40-43da-a704-8c206be72ceb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PPP_INFO, PPP_INFO structure [RAS], _mpr_ppp_info, mprapi/PPP_INFO, rras.ppp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

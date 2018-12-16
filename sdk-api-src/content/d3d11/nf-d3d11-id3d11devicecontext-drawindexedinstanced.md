@@ -9,8 +9,6 @@ ms.assetid: c7a4821a-324c-47e4-b89f-603d2afcfb51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8742ce56-5b31-7869-ab62-cb36d33cc5ca, DrawIndexedInstanced, DrawIndexedInstanced method [Direct3D 11], DrawIndexedInstanced method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexedInstanced method, ID3D11DeviceContext.DrawIndexedInstanced, ID3D11DeviceContext::DrawIndexedInstanced, d3d11/ID3D11DeviceContext::DrawIndexedInstanced, direct3d11.id3d11devicecontext_drawindexedinstanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

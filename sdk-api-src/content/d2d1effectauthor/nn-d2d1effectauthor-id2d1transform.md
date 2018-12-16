@@ -9,8 +9,6 @@ ms.assetid: 8A0CD795-A6D8-4817-9676-58C11DDAAEBD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Transform, ID2D1Transform interface [Direct2D], ID2D1Transform interface [Direct2D],described, d2d1effectauthor/ID2D1Transform, direct2d.id2d1transform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

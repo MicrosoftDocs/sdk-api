@@ -9,8 +9,6 @@ ms.assetid: c4a66d0c-e9a9-41f8-87df-576795667b5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiEnumDriverInfo, SetupDiEnumDriverInfo function [Device and Driver Installation], SetupDiEnumDriverInfoA, SetupDiEnumDriverInfoW, devinst.setupdienumdriverinfo, di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml, setupapi/SetupDiEnumDriverInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -9,8 +9,6 @@ ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

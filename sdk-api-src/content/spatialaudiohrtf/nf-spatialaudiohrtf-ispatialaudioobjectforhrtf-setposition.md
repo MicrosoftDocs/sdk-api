@@ -9,8 +9,6 @@ ms.assetid: 4FB6852D-A793-43A1-A58F-E7DCFDB5BBDD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetPosition method, ISpatialAudioObjectForHrtf.SetPosition, ISpatialAudioObjectForHrtf::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setposition, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

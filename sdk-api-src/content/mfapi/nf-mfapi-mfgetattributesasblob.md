@@ -9,8 +9,6 @@ ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

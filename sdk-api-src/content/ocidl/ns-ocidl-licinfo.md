@@ -9,8 +9,6 @@ ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

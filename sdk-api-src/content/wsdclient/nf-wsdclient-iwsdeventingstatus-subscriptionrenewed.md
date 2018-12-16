@@ -9,8 +9,6 @@ ms.assetid: 5f5c0b43-9c91-4d82-be98-1fd4fe7f9794
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewed method, IWSDEventingStatus.SubscriptionRenewed, IWSDEventingStatus::SubscriptionRenewed, SubscriptionRenewed, SubscriptionRenewed method, SubscriptionRenewed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewed, wsdclient/IWSDEventingStatus::SubscriptionRenewed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

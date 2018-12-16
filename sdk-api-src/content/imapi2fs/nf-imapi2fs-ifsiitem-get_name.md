@@ -9,8 +9,6 @@ ms.assetid: 4cb6e270-6bbf-414f-a9ed-b290da3dafe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiItem interface [IMAPI],get_Name method, IFsiItem.get_Name, IFsiItem::get_Name, get_Name, get_Name method [IMAPI], get_Name method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_name, imapi2fs/IFsiItem::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

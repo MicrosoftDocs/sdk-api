@@ -9,8 +9,6 @@ ms.assetid: 6fbe545a-2130-4cda-a663-6103d938aef4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerDockedStateChange method, IWMPEvents.PlayerDockedStateChange, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4EFE306B-DE39-4536-8BE0-8036A380E2BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(U,), ID2D1Properties::GetType, ID2D1Properties::GetType(U), ID2D1Properties::GetType(U,), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2222772a-e396-4d78-a7e4-a12f19ec689b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomReferenceSet method, IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

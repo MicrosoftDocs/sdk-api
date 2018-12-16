@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InsertMenuItem, InsertMenuItem function [Menus and Other Resources], InsertMenuItemA, InsertMenuItemW, _win32_InsertMenuItem, _win32_insertmenuitem_cpp, menurc.insertmenuitem, winui._win32_insertmenuitem, winuser/InsertMenuItem, winuser/InsertMenuItemA, winuser/InsertMenuItemW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

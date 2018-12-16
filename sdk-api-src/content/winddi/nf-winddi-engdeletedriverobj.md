@@ -9,8 +9,6 @@ ms.assetid: 5c4f7f6a-331e-4c5d-9663-6a84245a203f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeleteDriverObj, EngDeleteDriverObj function [Display Devices], display.engdeletedriverobj, gdifncs_6aada185-b1c4-4b55-9bc0-cc89d0bc67d4.xml, winddi/EngDeleteDriverObj
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

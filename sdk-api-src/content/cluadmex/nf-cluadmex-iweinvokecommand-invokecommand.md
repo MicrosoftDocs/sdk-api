@@ -9,8 +9,6 @@ ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

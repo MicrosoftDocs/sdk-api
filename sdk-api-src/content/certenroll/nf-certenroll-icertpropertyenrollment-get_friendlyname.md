@@ -9,8 +9,6 @@ ms.assetid: a12b7368-cace-47c4-bfd4-08845dc2634c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],FriendlyName property, ICertPropertyEnrollment.FriendlyName, ICertPropertyEnrollment.get_FriendlyName, ICertPropertyEnrollment::FriendlyName, ICertPropertyEnrollment::get_FriendlyName, certenroll/ICertPropertyEnrollment::FriendlyName, certenroll/ICertPropertyEnrollment::get_FriendlyName, get_FriendlyName, security.icertpropertyenrollment_friendlyname_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

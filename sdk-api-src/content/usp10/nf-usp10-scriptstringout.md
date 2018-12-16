@@ -9,8 +9,6 @@ ms.assetid: f9b188d4-00d3-461b-ae7d-bf12e7717748
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ETO_CLIPPED, ETO_OPAQUE, ScriptStringOut, ScriptStringOut function [Internationalization for Windows Applications], _win32_ScriptStringOut, intl.scriptstringout, usp10/ScriptStringOut
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

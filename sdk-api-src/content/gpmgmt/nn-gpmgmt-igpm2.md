@@ -9,8 +9,6 @@ ms.assetid: f9cd432a-3974-4fc4-9e32-1d8e2df1601c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPM2, IGPM2 interface [GPMC], IGPM2 interface [GPMC],described, gpmc.igpm2, gpmgmt/IGPM2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

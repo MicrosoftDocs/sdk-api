@@ -9,8 +9,6 @@ ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

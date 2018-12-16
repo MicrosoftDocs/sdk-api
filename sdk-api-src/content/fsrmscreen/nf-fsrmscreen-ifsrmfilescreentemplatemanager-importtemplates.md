@@ -9,8 +9,6 @@ ms.assetid: 0660a1cb-904e-4ed0-bbc8-9903e8848f4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager.ImportTemplates, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

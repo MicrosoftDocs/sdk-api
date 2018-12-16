@@ -9,8 +9,6 @@ ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

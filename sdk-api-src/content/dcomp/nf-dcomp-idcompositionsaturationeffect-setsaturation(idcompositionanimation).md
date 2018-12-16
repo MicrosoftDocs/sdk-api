@@ -9,8 +9,6 @@ ms.assetid: 0F206128-A0F2-4BE3-A22D-2BAA8853099C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 

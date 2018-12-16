@@ -9,8 +9,6 @@ ms.assetid: 40bb4b59-90a4-4780-ae5f-fef8a6fa62cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRASTERIZER_STATUS, LPRASTERIZER_STATUS, LPRASTERIZER_STATUS structure pointer [Windows GDI], RASTERIZER_STATUS, RASTERIZER_STATUS structure [Windows GDI], _win32_RASTERIZER_STATUS_str, gdi.rasterizer_status, wingdi/LPRASTERIZER_STATUS, wingdi/RASTERIZER_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

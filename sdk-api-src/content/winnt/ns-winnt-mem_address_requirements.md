@@ -9,8 +9,6 @@ ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

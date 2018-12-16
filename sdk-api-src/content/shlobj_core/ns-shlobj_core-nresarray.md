@@ -9,8 +9,6 @@ ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

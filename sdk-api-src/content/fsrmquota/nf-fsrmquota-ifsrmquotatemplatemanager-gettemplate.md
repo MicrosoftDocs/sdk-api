@@ -9,8 +9,6 @@ ms.assetid: 2877c453-aad7-42ea-a66d-b49ab1f8f854
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, IFsrmQuotaTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmQuotaTemplateManager.GetTemplate, IFsrmQuotaTemplateManager::GetTemplate, fs.ifsrmquotatemplatemanager_gettemplate, fsrm.ifsrmquotatemplatemanager_gettemplate, fsrmquota/IFsrmQuotaTemplateManager::GetTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

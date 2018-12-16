@@ -9,8 +9,6 @@ ms.assetid: bf9a0480-cecf-4235-af9a-f92878c70db9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer.get_Storage, IRDPSRAPITransportStreamBuffer::Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP],IRDPSRAPITransportStreamBuffer interface, get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

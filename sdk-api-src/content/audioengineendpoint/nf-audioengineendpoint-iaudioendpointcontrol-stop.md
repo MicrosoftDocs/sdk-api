@@ -9,8 +9,6 @@ ms.assetid: 803aec38-abc8-4f55-bb56-3dcc3eeb924a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Stop method, IAudioEndpointControl.Stop, IAudioEndpointControl::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Stop, termserv.iaudioendpointcontrol_stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

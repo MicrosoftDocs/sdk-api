@@ -9,8 +9,6 @@ ms.assetid: dbfe61d9-50ca-4d44-a8a3-2acae3413985
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetThumbnail method, IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d3f0b057-44ec-47ec-a0aa-69f3540b8900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

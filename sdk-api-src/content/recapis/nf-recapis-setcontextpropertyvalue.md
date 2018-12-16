@@ -9,8 +9,6 @@ ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

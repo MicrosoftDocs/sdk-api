@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

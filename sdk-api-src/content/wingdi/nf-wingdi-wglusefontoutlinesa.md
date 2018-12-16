@@ -9,8 +9,6 @@ ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed function [MDM Registration], mdmreg.ismanagementregistrationallowed, mdmregistration/IsManagementRegistrationAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

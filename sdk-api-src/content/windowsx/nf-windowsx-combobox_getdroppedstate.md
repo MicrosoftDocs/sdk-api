@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_GetDroppedState, ComboBox_GetDroppedState macro [Windows Controls], _win32_ComboBox_GetDroppedState, _win32_ComboBox_GetDroppedState_cpp, controls.ComboBox_GetDroppedState, controls._win32_ComboBox_GetDroppedState, windowsx/ComboBox_GetDroppedState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

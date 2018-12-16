@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeImpersonateClient, DdeImpersonateClient function [Data Exchange], _win32_DdeImpersonateClient, _win32_ddeimpersonateclient_cpp, dataxchg.ddeimpersonateclient, ddeml/DdeImpersonateClient, winui._win32_ddeimpersonateclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

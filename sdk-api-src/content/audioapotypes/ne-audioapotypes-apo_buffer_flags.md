@@ -9,8 +9,6 @@ ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APO_BUFFER_FLAGS, APO_BUFFER_FLAGS enumeration [Remote Desktop Services], BUFFER_INVALID, BUFFER_SILENT, BUFFER_VALID, audioapotypes/APO_BUFFER_FLAGS, audioapotypes/BUFFER_INVALID, audioapotypes/BUFFER_SILENT, audioapotypes/BUFFER_VALID, termserv.apo_buffer_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: audioapotypes.h
 req.include-header: 

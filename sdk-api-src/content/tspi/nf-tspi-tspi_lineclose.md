@@ -9,8 +9,6 @@ ms.assetid: d1041620-609b-476b-bdb7-e1e0cebd74f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineClose, TSPI_lineClose function [TAPI 2.2], _tspi_tspi_lineclose, tspi.tspi_lineclose, tspi/TSPI_lineClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

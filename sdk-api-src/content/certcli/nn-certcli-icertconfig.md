@@ -9,8 +9,6 @@ ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertConfig, ICertConfig interface [Security], ICertConfig interface [Security],described, _certsrv_icertconfig, certcli/ICertConfig, security.icertconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h

@@ -9,8 +9,6 @@ ms.assetid: dc9d7154-30b9-4462-9161-6df03946308d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngCreateDeviceBitmap, EngCreateDeviceBitmap function [Display Devices], display.engcreatedevicebitmap, gdifncs_e802b5e9-a939-4aa4-b4df-82172e825fa5.xml, winddi/EngCreateDeviceBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

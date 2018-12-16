@@ -9,8 +9,6 @@ ms.assetid: 83204c04-503d-4687-8a4d-3c95a6def8d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IMDSPStorageGlobals.GetCapabilities, IMDSPStorageGlobals::GetCapabilities, IMDSPStorageGlobalsGetCapabilities, mswmdm/IMDSPStorageGlobals::GetCapabilities, wmdm.imdspstorageglobals_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_9usl.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff interface [Fax Service],RawReceiveTime property, IFaxTiff.RawReceiveTime, IFaxTiff.get_RawReceiveTime, IFaxTiff::RawReceiveTime, IFaxTiff::get_RawReceiveTime, RawReceiveTime property [Fax Service], RawReceiveTime property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp, faxcom/IFaxTiff::RawReceiveTime, faxcom/IFaxTiff::get_RawReceiveTime, get_RawReceiveTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

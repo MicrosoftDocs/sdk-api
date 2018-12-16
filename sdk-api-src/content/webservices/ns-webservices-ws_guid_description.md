@@ -9,8 +9,6 @@ ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_GUID_DESCRIPTION, WS_GUID_DESCRIPTION structure [Web Services for Windows], webservices/WS_GUID_DESCRIPTION, wsw.ws_guid_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

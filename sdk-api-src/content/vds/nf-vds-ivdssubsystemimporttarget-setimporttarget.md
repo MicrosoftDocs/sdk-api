@@ -9,8 +9,6 @@ ms.assetid: 96770760-a9af-46be-8e63-be8a86ec81ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, IVdsSubSystemImportTarget.SetImportTarget, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS],IVdsSubSystemImportTarget interface, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

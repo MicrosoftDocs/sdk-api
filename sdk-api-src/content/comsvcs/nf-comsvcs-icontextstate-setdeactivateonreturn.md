@@ -9,8 +9,6 @@ ms.assetid: 29dfeb6f-1961-4d6f-b5c4-fcd0eb4a7bec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContextState interface [COM+],SetDeactivateOnReturn method, IContextState.SetDeactivateOnReturn, IContextState::SetDeactivateOnReturn, SetDeactivateOnReturn, SetDeactivateOnReturn method [COM+], SetDeactivateOnReturn method [COM+],IContextState interface, _cos_IContextState_SetDeactivateOnReturn, comsvcs/IContextState::SetDeactivateOnReturn, cos.icontextstate_setdeactivateonreturn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

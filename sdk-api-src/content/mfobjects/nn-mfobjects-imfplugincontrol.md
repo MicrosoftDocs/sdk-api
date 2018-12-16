@@ -9,8 +9,6 @@ ms.assetid: cdc6fd4f-c544-43bb-ba99-5468ef49949d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IMFPluginControl interface [Media Foundation],described, mf.imfplugincontrol, mfobjects/IMFPluginControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

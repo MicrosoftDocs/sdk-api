@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusstartup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusStartup, GdiplusStartup function [GDI+], _gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplus._gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplusinit/GdiplusStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h

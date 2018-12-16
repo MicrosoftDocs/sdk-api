@@ -9,8 +9,6 @@ ms.assetid: 5fcd61f6-d93d-4047-b472-8b44f9681907
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON structure [Security], PKERB_SMART_CARD_UNLOCK_LOGON, PKERB_SMART_CARD_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON, ntsecapi/PKERB_SMART_CARD_UNLOCK_LOGON, security.kerb_smart_card_unlock_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 11cd07f2-0f02-42d6-8bab-b95456ed1926
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 11cd07f2-0f02-42d6-8bab-b95456ed1926, IInkCustomStrokes interface [Tablet PC],Remove method, IInkCustomStrokes.Remove, IInkCustomStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Remove, tablet.iinkcustromstrokes_remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

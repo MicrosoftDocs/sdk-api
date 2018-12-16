@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildrencb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SortChildrenCB, TreeView_SortChildrenCB macro [Windows Controls], _win32_TreeView_SortChildrenCB, _win32_TreeView_SortChildrenCB_cpp, commctrl/TreeView_SortChildrenCB, controls.TreeView_SortChildrenCB, controls._win32_TreeView_SortChildrenCB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

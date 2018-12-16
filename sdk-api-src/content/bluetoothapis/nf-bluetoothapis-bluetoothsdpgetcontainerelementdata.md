@@ -9,8 +9,6 @@ ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothSdpGetContainerElementData, BluetoothSdpGetContainerElementData function [Bluetooth], bluetooth.bluetoothsdpgetcontainerelementdata, bluetoothapis/BluetoothSdpGetContainerElementData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMONCONVSTRUCT, MONCONVSTRUCT, MONCONVSTRUCT structure [Data Exchange], PMONCONVSTRUCT, PMONCONVSTRUCT structure pointer [Data Exchange], _win32_MONCONVSTRUCT_str, _win32_monconvstruct_str_cpp, dataxchg.monconvstruct_str, ddeml/MONCONVSTRUCT, ddeml/PMONCONVSTRUCT, winui._win32_monconvstruct_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

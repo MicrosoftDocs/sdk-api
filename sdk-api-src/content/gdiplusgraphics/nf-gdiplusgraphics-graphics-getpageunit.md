@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: eaf24814-b47a-4f33-ac17-d3b5b344f234
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetActions method, IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

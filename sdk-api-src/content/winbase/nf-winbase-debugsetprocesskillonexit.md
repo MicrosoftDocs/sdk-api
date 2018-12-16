@@ -9,8 +9,6 @@ ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

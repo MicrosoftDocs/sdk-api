@@ -9,8 +9,6 @@ ms.assetid: 60ce6ed5-67d3-4471-a7a1-4653e8a122a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Strokes property, IInkRecognitionAlternate.Strokes, IInkRecognitionAlternate.get_Strokes, IInkRecognitionAlternate::Strokes, IInkRecognitionAlternate::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionAlternate interface, get_Strokes, msinkaut/IInkRecognitionAlternate::Strokes, msinkaut/IInkRecognitionAlternate::get_Strokes, tablet.iinkrecognitionalternate_strokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

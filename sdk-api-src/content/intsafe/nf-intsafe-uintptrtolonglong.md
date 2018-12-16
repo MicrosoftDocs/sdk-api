@@ -9,8 +9,6 @@ ms.assetid: 95d9153c-e9bd-4098-ad5f-2128ebed8140
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeTToInt64, UIntPtrToLongLong, UIntPtrToLongLong function [Windows Shell], intsafe/UIntPtrToLongLong, shell.UIntPtrToLongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

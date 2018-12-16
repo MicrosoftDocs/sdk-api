@@ -9,8 +9,6 @@ ms.assetid: D143B914-5F68-4957-9D1F-C55977E27C8B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetEndOfLine, Edit_SetEndOfLine macro [Windows Controls], commctrl/Edit_SetEndOfLine, controls.edit_setendofline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

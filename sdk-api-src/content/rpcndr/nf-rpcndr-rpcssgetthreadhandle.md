@@ -9,8 +9,6 @@ ms.assetid: f3b10f9c-7383-4665-96e3-1518f554f23e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcSsGetThreadHandle, RpcSsGetThreadHandle function [RPC], _rpc_rpcssgetthreadhandle, rpc.rpcssgetthreadhandle, rpcndr/RpcSsGetThreadHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

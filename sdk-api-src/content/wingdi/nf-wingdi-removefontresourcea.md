@@ -9,8 +9,6 @@ ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], RemoveFontResourceA, RemoveFontResourceW, _win32_RemoveFontResource, gdi.removefontresource, wingdi/RemoveFontResource, wingdi/RemoveFontResourceA, wingdi/RemoveFontResourceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

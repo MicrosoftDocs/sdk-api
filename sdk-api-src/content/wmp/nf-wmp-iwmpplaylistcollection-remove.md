@@ -9,8 +9,6 @@ ms.assetid: ed678c2c-bfde-424b-9c71-21270a32a08e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],remove method, IWMPPlaylistCollection.remove, IWMPPlaylistCollection::remove, IWMPPlaylistCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_remove, wmp/IWMPPlaylistCollection::remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

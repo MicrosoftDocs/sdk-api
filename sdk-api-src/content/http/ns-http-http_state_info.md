@@ -9,8 +9,6 @@ ms.assetid: 736ae89b-a4fb-4962-ae68-9aaccd869c88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_STATE_INFO, *PHTTP_STATE_INFO structure [HTTP], HTTP_STATE_INFO, HTTP_STATE_INFO structure [HTTP], http.http_state_info, http/*PHTTP_STATE_INFO, http/HTTP_STATE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c223f75b-87c6-49bd-a16a-14b4751d5f1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMutualExclusionCount, GetMutualExclusionCount method [windows Media Format], GetMutualExclusionCount method [windows Media Format],IWMProfile interface, GetMutualExclusionCount method [windows Media Format],IWMProfile2 interface, GetMutualExclusionCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusionCount method, IWMProfile.GetMutualExclusionCount, IWMProfile2 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile2::GetMutualExclusionCount, IWMProfile3 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile3::GetMutualExclusionCount, IWMProfile::GetMutualExclusionCount, IWMProfileGetMutualExclusionCount, wmformat.iwmprofile_getmutualexclusioncount, wmsdkidl/IWMProfile2::GetMutualExclusionCount, wmsdkidl/IWMProfile3::GetMutualExclusionCount, wmsdkidl/IWMProfile::GetMutualExclusionCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

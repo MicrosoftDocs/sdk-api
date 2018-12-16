@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GMDI_GOINTOPOPUPS, GMDI_USEDISABLED, GetMenuDefaultItem, GetMenuDefaultItem function [Menus and Other Resources], _win32_GetMenuDefaultItem, _win32_getmenudefaultitem_cpp, menurc.getmenudefaultitem, winui._win32_getmenudefaultitem, winuser/GetMenuDefaultItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

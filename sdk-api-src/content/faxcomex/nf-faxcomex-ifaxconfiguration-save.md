@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Save method, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Save, fax._mfax_IFaxConfiguration_Save, faxcomex/IFaxConfiguration::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6FF99C49-B5B1-4969-86E2-828D584D1EA9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FUNCTION_DESC, D3D12_FUNCTION_DESC structure, d3d12shader/D3D12_FUNCTION_DESC, direct3d12.d3d12_function_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

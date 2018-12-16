@@ -9,8 +9,6 @@ ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

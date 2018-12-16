@@ -9,8 +9,6 @@ ms.assetid: 4b6f05ce-08e0-4257-8787-cab5b36624c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??OWBEMTime@@QBEHABV0@@Z, WBEMTime interface [Windows Management Instrumentation],operator> method, WBEMTime.operator-greater-than, WBEMTime.operator>, WBEMTime::operator-greater-than, WBEMTime::operator>, operator>, operator> method [Windows Management Instrumentation], operator> method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator>, wmi.wbemtime_comparison_operators_greaterthan"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

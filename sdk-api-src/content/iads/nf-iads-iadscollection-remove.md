@@ -9,8 +9,6 @@ ms.assetid: 21ce80fe-542b-4350-b66c-fa26f62ca611
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsCollection interface [ADSI],Remove method, IADsCollection.Remove, IADsCollection::Remove, Remove, Remove method [ADSI], Remove method [ADSI],IADsCollection interface, _ds_iadscollection_remove, adsi.iadscollection__remove, adsi.iadscollection_remove, iads/IADsCollection::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

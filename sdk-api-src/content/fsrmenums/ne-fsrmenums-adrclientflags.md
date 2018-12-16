@@ -9,8 +9,6 @@ ms.assetid: 8475e157-8757-4ace-909b-2e9030af6ad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdrClientFlags, AdrClientFlags enumeration [File Server Resource Manager], AdrClientFlags_FailForLocalPaths, AdrClientFlags_FailIfNotDomainJoined, AdrClientFlags_FailIfNotSupportedByServer, AdrClientFlags_None, fs.adrclientflags, fsrm.adrclientflags, fsrmenums/AdrClientFlags, fsrmenums/AdrClientFlags_FailForLocalPaths, fsrmenums/AdrClientFlags_FailIfNotDomainJoined, fsrmenums/AdrClientFlags_FailIfNotSupportedByServer, fsrmenums/AdrClientFlags_None
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

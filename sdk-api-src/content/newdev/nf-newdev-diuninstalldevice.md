@@ -9,8 +9,6 @@ ms.assetid: 317b24bd-01a8-41ff-9aac-78690574eade
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver Installation], devinst.diuninstalldevice, di-rtns_361ca427-6e65-497e-a9c0-8723e4aaa8c6.xml, newdev/DiUninstallDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h

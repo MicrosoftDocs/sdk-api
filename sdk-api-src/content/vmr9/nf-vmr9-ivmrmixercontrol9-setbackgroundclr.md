@@ -9,8 +9,6 @@ ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

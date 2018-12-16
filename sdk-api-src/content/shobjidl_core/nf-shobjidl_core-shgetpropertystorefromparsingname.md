@@ -9,8 +9,6 @@ ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: 

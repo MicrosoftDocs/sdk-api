@@ -9,8 +9,6 @@ ms.assetid: 154aa6f0-3c02-4139-8c8e-c2112b015fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleSetContainedObject, OleSetContainedObject function [COM], _ole_OleSetContainedObject, com.olesetcontainedobject, ole2/OleSetContainedObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

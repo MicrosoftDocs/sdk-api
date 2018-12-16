@@ -9,8 +9,6 @@ ms.assetid: 0294837c-0cf2-4a05-bef4-16d13864f759
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],SetParam method, IConfigAsfWriter2.SetParam, IConfigAsfWriter2::SetParam, IConfigAsfWriter2SetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_setparam, dshowasf/IConfigAsfWriter2::SetParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

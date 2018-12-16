@@ -9,8 +9,6 @@ ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceDeactivateEx method, IOleInPlaceSiteEx.OnInPlaceDeactivateEx, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

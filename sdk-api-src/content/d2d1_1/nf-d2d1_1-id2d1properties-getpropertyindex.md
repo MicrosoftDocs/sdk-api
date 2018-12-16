@@ -9,8 +9,6 @@ ms.assetid: b1c7003f-b7c2-464c-8e8e-a641068b9393
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyIndex, GetPropertyIndex method [Direct2D], GetPropertyIndex method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyIndex method, ID2D1Properties.GetPropertyIndex, ID2D1Properties::GetPropertyIndex, d2d1_1/ID2D1Properties::GetPropertyIndex, direct2d.id2d1properties_getpropertyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: caace753-5c41-4ca7-afdc-df0155505b59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_DECIMAL_TEXT, WS_XML_DECIMAL_TEXT structure [Web Services for Windows], webservices/WS_XML_DECIMAL_TEXT, wsw.ws_xml_decimal_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

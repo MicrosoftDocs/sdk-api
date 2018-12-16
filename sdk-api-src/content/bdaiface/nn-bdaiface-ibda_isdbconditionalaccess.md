@@ -9,8 +9,6 @@ ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

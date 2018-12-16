@@ -9,8 +9,6 @@ ms.assetid: 87bfc8ae-62e6-477f-98a7-caf907589b89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrOleAllocate, NdrOleAllocate function [RPC], rpc.ndroleallocate, rpcndr/NdrOleAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE structure [Security], PCERT_ECC_SIGNATURE, PCERT_ECC_SIGNATURE structure pointer [Security], security.cert_ecc_signature, wincrypt/CERT_ECC_SIGNATURE, wincrypt/PCERT_ECC_SIGNATURE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBuffer, GetBuffer method [windows Media Format], GetBuffer method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBuffer method, INSSBuffer.GetBuffer, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Graphics class, Graphics class [GDI+],DrawBezier method, Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &), Graphics.DrawBezier(const Pen*,const POINTF&,const POINTF&,const POINTF&,const POINTF&), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &), _gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

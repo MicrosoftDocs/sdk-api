@@ -9,8 +9,6 @@ ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskbarList2, ITaskbarList2 interface [Windows Shell], ITaskbarList2 interface [Windows Shell],described, shell.ITaskbarList2, shell_ITaskbarList2, shobjidl_core/ITaskbarList2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

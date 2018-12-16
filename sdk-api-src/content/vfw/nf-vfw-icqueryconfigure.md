@@ -9,8 +9,6 @@ ms.assetid: a0e65123-5224-43a4-9a1e-28a10ecbed5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICQueryConfigure, ICQueryConfigure macro [Windows Multimedia], _win32_ICQueryConfigure, multimedia.icqueryconfigure, vfw/ICQueryConfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

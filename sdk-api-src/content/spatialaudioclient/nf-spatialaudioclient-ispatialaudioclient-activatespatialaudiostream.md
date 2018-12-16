@@ -9,8 +9,6 @@ ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

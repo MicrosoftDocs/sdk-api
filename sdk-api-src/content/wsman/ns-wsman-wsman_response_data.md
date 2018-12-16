@@ -9,8 +9,6 @@ ms.assetid: 397AAE6C-8878-44B6-A025-4BC04514F6A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_RESPONSE_DATA, WSMAN_RESPONSE_DATA union [Windows Remote Management], winrm.wsman_response_data, wsman/WSMAN_RESPONSE_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

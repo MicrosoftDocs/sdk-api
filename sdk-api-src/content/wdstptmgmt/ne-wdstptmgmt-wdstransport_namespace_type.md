@@ -9,8 +9,6 @@ ms.assetid: baba27d2-6df1-4261-b98d-9728ecbb56f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE enumeration [Windows Deployment Services], WdsTptNamespaceTypeAutoCast, WdsTptNamespaceTypeScheduledCastAutoStart, WdsTptNamespaceTypeScheduledCastManualStart, WdsTptNamespaceTypeUnknown, wds.wdstransport_namespace_type, wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE, wdstptmgmt/WdsTptNamespaceTypeAutoCast, wdstptmgmt/WdsTptNamespaceTypeScheduledCastAutoStart, wdstptmgmt/WdsTptNamespaceTypeScheduledCastManualStart, wdstptmgmt/WdsTptNamespaceTypeUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

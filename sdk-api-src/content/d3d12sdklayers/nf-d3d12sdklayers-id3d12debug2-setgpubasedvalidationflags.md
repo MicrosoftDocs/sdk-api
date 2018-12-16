@@ -9,8 +9,6 @@ ms.assetid: EA774CC4-7675-46AA-9CDF-56C8B9507702
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Debug2 interface,SetGPUBasedValidationFlags method, ID3D12Debug2.SetGPUBasedValidationFlags, ID3D12Debug2::SetGPUBasedValidationFlags, SetGPUBasedValidationFlags, SetGPUBasedValidationFlags method, SetGPUBasedValidationFlags method,ID3D12Debug2 interface, d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags, direct3d12.id3d12debug2_setgpubasedvalidationflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

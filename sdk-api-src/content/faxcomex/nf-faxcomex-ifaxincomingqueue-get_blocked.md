@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2rac.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],Blocked property, IFaxIncomingQueue.Blocked, IFaxIncomingQueue.get_Blocked, IFaxIncomingQueue::Blocked, IFaxIncomingQueue::get_Blocked, IFaxIncomingQueue::put_Blocked, _mfax_faxincomingqueue.blocked, fax._mfax_faxincomingqueue_blocked, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_blocked_cpp, faxcomex/IFaxIncomingQueue::Blocked, faxcomex/IFaxIncomingQueue::get_Blocked, faxcomex/IFaxIncomingQueue::put_Blocked, get_Blocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

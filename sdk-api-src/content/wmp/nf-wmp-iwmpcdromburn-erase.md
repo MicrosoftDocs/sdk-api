@@ -9,8 +9,6 @@ ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],erase method, IWMPCdromBurn.erase, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase, erase method [Windows Media Player], erase method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4850f9b8-8f86-4428-bf3b-f3abdc6047c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToString, VariantToString function [Windows Properties], _shell_VariantToString, properties.VariantToString, propvarutil/VariantToString, shell.VariantToString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

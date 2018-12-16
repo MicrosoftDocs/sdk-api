@@ -9,8 +9,6 @@ ms.assetid: 43ae8891-34fb-46cf-8b61-f7d1bd67a2d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignaturePartReference.GetDigestValue, IOpcSignaturePartReference::GetDigestValue, msopc/IOpcSignaturePartReference::GetDigestValue, opc.iopcsignaturepartreference_getdigestvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

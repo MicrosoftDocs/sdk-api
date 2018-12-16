@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguage
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDiacriticSensitivity, GetDiacriticSensitivity method [search], GetDiacriticSensitivity method [search],ISearchLanguageSupport interface, ISearchLanguageSupport interface [search],GetDiacriticSensitivity method, ISearchLanguageSupport.GetDiacriticSensitivity, ISearchLanguageSupport::GetDiacriticSensitivity, _search_ISearchLanguageSupport_GetDiacriticSensitivity, search._search_ISearchLanguageSupport_GetDiacriticSensitivity, searchapi/ISearchLanguageSupport::GetDiacriticSensitivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

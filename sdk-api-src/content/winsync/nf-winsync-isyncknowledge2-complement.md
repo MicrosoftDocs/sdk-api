@@ -9,8 +9,6 @@ ms.assetid: 12ad8a10-1edb-4ba0-9a16-64fe9fda0125
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Complement, Complement method [Windows Sync], Complement method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],Complement method, ISyncKnowledge2.Complement, ISyncKnowledge2::Complement, winsync.isyncknowledge2_complement, winsync/ISyncKnowledge2::Complement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

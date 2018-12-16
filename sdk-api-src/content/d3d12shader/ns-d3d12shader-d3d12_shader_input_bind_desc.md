@@ -9,8 +9,6 @@ ms.assetid: 4179C417-388D-4A20-8878-D074E20A706F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_SHADER_INPUT_BIND_DESC, D3D12_SHADER_INPUT_BIND_DESC structure, d3d12shader/D3D12_SHADER_INPUT_BIND_DESC, direct3d12.d3d12_shader_input_bind_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

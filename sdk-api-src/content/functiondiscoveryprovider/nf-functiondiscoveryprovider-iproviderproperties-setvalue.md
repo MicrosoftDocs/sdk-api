@@ -9,8 +9,6 @@ ms.assetid: 5aa3e6a3-febc-4d2d-b58b-abfad28d325d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.SetValue, IProviderProperties::SetValue, SetValue, SetValue method, SetValue method,IProviderProperties interface, functiondiscoveryprovider/IProviderProperties::SetValue, ncd.iproviderproperties_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

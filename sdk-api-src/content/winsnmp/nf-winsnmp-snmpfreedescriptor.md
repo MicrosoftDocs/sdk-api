@@ -9,8 +9,6 @@ ms.assetid: 535f728d-6964-47b6-9913-7cd38356053d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

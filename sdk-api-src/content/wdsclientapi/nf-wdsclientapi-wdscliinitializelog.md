@@ -9,8 +9,6 @@ ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

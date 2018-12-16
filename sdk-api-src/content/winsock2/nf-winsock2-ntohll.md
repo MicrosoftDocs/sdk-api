@@ -9,8 +9,6 @@ ms.assetid: 90C582C4-01C4-4D8B-8AD6-F65F96DABA7E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ntohll, ntohll function [Winsock], winsock.ntohll, winsock2/ntohll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

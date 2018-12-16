@@ -9,8 +9,6 @@ ms.assetid: bd4fafce-7ece-4cdc-9307-4d41538a4f49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerQueryUserBlobFromCredentialInputFields, EapHostPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eaphostpeerqueryuserblobfromcredentialinputfields, eaphostpeerconfigapis/EapHostPeerQueryUserBlobFromCredentialInputFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

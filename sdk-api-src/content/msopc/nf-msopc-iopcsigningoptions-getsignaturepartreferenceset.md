@@ -9,8 +9,6 @@ ms.assetid: 60e657c3-41a3-4a05-a084-111429b1add9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartReferenceSet method, IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

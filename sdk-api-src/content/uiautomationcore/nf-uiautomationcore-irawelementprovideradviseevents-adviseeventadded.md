@@ -9,8 +9,6 @@ ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseEventAdded, AdviseEventAdded method [Windows Accessibility], AdviseEventAdded method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventAdded method, IRawElementProviderAdviseEvents.AdviseEventAdded, IRawElementProviderAdviseEvents::AdviseEventAdded, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

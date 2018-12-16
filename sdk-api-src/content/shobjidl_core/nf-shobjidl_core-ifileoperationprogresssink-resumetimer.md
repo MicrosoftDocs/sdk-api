@@ -9,8 +9,6 @@ ms.assetid: 98886370-fce1-46f5-989d-e0625b196c49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResumeTimer method, IFileOperationProgressSink.ResumeTimer, IFileOperationProgressSink::ResumeTimer, ResumeTimer, ResumeTimer method [Windows Shell], ResumeTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResumeTimer, shell.IFileOperationProgressSink_ResumeTimer, shobjidl_core/IFileOperationProgressSink::ResumeTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

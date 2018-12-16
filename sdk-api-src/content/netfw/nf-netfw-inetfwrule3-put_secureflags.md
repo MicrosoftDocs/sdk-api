@@ -9,8 +9,6 @@ ms.assetid: 3efb3491-f030-4a0a-bfbd-ab18fd424a38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],SecureFlags property, INetFwRule3.SecureFlags, INetFwRule3.put_SecureFlags, INetFwRule3::SecureFlags, INetFwRule3::get_SecureFlags, INetFwRule3::put_SecureFlags, SecureFlags property [ICS/ICF], SecureFlags property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_secureflags, netfw/INetFwRule3::SecureFlags, netfw/INetFwRule3::get_SecureFlags, netfw/INetFwRule3::put_SecureFlags, put_SecureFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

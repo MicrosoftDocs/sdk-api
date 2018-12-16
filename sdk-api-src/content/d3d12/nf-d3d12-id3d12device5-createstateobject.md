@@ -9,8 +9,6 @@ ms.assetid: 9CC759D5-6414-4B05-B8F3-FA6056A0A9AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStateObject, CreateStateObject method, CreateStateObject method,ID3D12Device5 interface, ID3D12Device5 interface,CreateStateObject method, ID3D12Device5.CreateStateObject, ID3D12Device5::CreateStateObject, d3d12/ID3D12Device5::CreateStateObject, direct3d12.id3d12device5_createstateobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

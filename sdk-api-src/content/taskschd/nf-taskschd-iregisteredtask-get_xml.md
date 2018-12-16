@@ -9,8 +9,6 @@ ms.assetid: cfa85a88-99f5-4c4f-afe8-44b3f27833e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Xml property, IRegisteredTask.Xml, IRegisteredTask.get_Xml, IRegisteredTask::Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler],IRegisteredTask interface, get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

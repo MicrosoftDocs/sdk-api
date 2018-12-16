@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMeasurableCharacterRanges, SetMeasurableCharacterRanges method [GDI+], SetMeasurableCharacterRanges method [GDI+],StringFormat class, StringFormat class [GDI+],SetMeasurableCharacterRanges method, StringFormat.SetMeasurableCharacterRanges, StringFormat::SetMeasurableCharacterRanges, _gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_, gdiplus._gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSize method, ITextFont.SetSize, ITextFont::SetSize, SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

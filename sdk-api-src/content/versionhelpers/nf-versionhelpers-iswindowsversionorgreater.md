@@ -9,8 +9,6 @@ ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

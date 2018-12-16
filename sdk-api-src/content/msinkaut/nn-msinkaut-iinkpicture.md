@@ -9,8 +9,6 @@ ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothIsDiscoverable, BluetoothIsDiscoverable function [Bluetooth], bluetooth.bluetoothisdiscoverable, bluetoothapis/BluetoothIsDiscoverable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

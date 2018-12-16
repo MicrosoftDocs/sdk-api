@@ -9,8 +9,6 @@ ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

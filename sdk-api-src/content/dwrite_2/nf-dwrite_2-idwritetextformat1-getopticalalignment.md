@@ -9,8 +9,6 @@ ms.assetid: 13d685ef-b8ba-730e-ad82-193a8a2d2cb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOpticalAlignment, GetOpticalAlignment method [Direct Write], GetOpticalAlignment method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetOpticalAlignment method, IDWriteTextFormat1.GetOpticalAlignment, IDWriteTextFormat1::GetOpticalAlignment, directwrite.idwritetextformat1_getopticalalignment, dwrite_2/IDWriteTextFormat1::GetOpticalAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D2ACB026-A9E0-41BC-A3C2-6D0F55506519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootSignature method, ID3D12GraphicsCommandList.SetGraphicsRootSignature, ID3D12GraphicsCommandList::SetGraphicsRootSignature, SetGraphicsRootSignature, SetGraphicsRootSignature method, SetGraphicsRootSignature method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootSignature, direct3d12.id3d12graphicscommandlist_setgraphicsrootsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

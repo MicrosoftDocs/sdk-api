@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

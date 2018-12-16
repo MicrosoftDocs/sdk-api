@@ -9,8 +9,6 @@ ms.assetid: 1df2eb92-9c55-4371-84c7-a4fb879efb7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Acquire, Acquire method [Human Input Devices], Acquire method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],Acquire method, IDirectInputJoyConfig8.Acquire, IDirectInputJoyConfig8::Acquire, di_ref_299a63df-4623-437b-b106-2e8c0530f462.xml, dinputd/IDirectInputJoyConfig8::Acquire, hid.idirectinputjoyconfig8_acquire
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

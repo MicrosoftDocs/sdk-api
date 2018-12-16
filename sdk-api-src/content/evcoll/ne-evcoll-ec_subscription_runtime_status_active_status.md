@@ -9,8 +9,6 @@ ms.assetid: 254305fe-5646-4661-98e2-b02f5d240da1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration, EcRuntimeStatusActiveStatusActive, EcRuntimeStatusActiveStatusDisabled, EcRuntimeStatusActiveStatusInactive, EcRuntimeStatusActiveStatusTrying, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, evcoll/EcRuntimeStatusActiveStatusActive, evcoll/EcRuntimeStatusActiveStatusDisabled, evcoll/EcRuntimeStatusActiveStatusInactive, evcoll/EcRuntimeStatusActiveStatusTrying, wec.ec_subscription_runtime_status_active_status, wes.ec_subscription_runtime_status_active_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

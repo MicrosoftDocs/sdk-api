@@ -9,8 +9,6 @@ ms.assetid: ed01e945-06e7-4d3d-8a23-066ef6e0b13c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebSettings method, IWindowsParentalControlsCore.GetWebSettings, IWindowsParentalControlsCore::GetWebSettings, parcon.iwindowsparentalcontrols_getwebsettings, wpcapi/IWindowsParentalControlsCore::GetWebSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

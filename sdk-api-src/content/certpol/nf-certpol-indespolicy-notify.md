@@ -9,8 +9,6 @@ ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify, INDESPolicy::Notify, Notify, Notify method [Security], Notify method [Security],INDESPolicy interface, certpol/INDESPolicy::Notify, security.indespolicy_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: 

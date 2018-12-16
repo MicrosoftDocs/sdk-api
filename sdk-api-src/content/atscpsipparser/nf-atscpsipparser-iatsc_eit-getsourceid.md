@@ -9,8 +9,6 @@ ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetSourceId method, IATSC_EIT.GetSourceId, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

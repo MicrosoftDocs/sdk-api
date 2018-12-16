@@ -9,8 +9,6 @@ ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUserIdentity, RasGetEapUserIdentity function [RAS], RasGetEapUserIdentityA, RasGetEapUserIdentityW, _ras_rasgeteapuseridentity, ras/RasGetEapUserIdentity, ras/RasGetEapUserIdentityA, ras/RasGetEapUserIdentityW, rras.rasgeteapuseridentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

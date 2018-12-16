@@ -9,8 +9,6 @@ ms.assetid: 08c98745-ecbd-47b4-9d73-2d6765285bae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupGetLineCount, SetupGetLineCount function [Setup API], SetupGetLineCountA, SetupGetLineCountW, _setupapi_setupgetlinecount, setup.setupgetlinecount, setupapi/SetupGetLineCount, setupapi/SetupGetLineCountA, setupapi/SetupGetLineCountW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

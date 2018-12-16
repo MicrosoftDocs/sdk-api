@@ -9,8 +9,6 @@ ms.assetid: 5695cae1-2bbf-48d4-a044-b2bd81c362d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5695cae1-2bbf-48d4-a044-b2bd81c362d0, RECO_LATTICE_COLUMN, RECO_LATTICE_COLUMN structure [Tablet PC], rectypes/RECO_LATTICE_COLUMN, tablet.reco_lattice_column
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

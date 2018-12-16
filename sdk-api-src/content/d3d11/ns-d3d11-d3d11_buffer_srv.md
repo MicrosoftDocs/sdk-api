@@ -9,8 +9,6 @@ ms.assetid: 2ada8526-bef3-4998-8775-6e062f972a1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_BUFFER_SRV, D3D11_BUFFER_SRV structure [Direct3D 11], d3d11/D3D11_BUFFER_SRV, direct3d11.d3d11_buffer_srv, f51a8ea2-ef96-9fea-a1b6-75c15fd9f42e
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

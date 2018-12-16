@@ -9,8 +9,6 @@ ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

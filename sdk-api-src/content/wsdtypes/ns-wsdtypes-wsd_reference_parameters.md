@@ -9,8 +9,6 @@ ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

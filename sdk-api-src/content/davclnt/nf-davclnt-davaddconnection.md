@@ -9,8 +9,6 @@ ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

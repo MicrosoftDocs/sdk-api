@@ -9,8 +9,6 @@ ms.assetid: 30872759-d962-4e78-9ec3-d989caf5138d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11InfoQueue interface [Direct3D 11],PushEmptyStorageFilter method, ID3D11InfoQueue.PushEmptyStorageFilter, ID3D11InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [Direct3D 11], PushEmptyStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushEmptyStorageFilter, direct3d11.id3d11infoqueue_pushemptystoragefilter, f4d3b481-b441-43c4-3cd3-9bb4da49ffa4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

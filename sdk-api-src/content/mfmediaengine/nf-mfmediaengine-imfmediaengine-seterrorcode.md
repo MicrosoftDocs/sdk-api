@@ -9,8 +9,6 @@ ms.assetid: B40AFD99-1048-44C5-A3FA-ED57720956B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetErrorCode method, IMFMediaEngine.SetErrorCode, IMFMediaEngine::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

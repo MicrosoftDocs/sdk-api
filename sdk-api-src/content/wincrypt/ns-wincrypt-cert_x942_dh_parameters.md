@@ -9,8 +9,6 @@ ms.assetid: 833d8e36-af78-4daa-92c5-0cb37a31df2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS structure [Security], PCERT_X942_DH_PARAMETERS, PCERT_X942_DH_PARAMETERS structure pointer [Security], _crypto2_cert_x942_dh_parameters, security.cert_x942_dh_parameters, wincrypt/CERT_X942_DH_PARAMETERS, wincrypt/PCERT_X942_DH_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

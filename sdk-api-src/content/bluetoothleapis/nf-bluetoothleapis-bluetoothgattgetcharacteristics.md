@@ -9,8 +9,6 @@ ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

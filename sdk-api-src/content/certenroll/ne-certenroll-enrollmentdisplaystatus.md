@@ -9,8 +9,6 @@ ms.assetid: bd5019de-1a72-42a6-9ade-74a9252a19eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplayStatus enumeration [Security], certenroll/DisplayNo, certenroll/DisplayYes, certenroll/EnrollmentDisplayStatus, security.enrollmentdisplaystatus_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

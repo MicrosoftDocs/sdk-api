@@ -9,8 +9,6 @@ ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ddfae294-2e7c-416e-b328-76d011b4af39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSEnumerateProcesses, WTSEnumerateProcesses function [Remote Desktop Services], WTSEnumerateProcessesA, WTSEnumerateProcessesW, _win32_wtsenumerateprocesses, termserv.wtsenumerateprocesses, wtsapi32/WTSEnumerateProcesses, wtsapi32/WTSEnumerateProcessesA, wtsapi32/WTSEnumerateProcessesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

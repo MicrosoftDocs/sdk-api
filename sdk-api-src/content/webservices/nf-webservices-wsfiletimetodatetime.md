@@ -9,8 +9,6 @@ ms.assetid: 75a547f8-c8dc-47c3-97c9-2a39b046263f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFileTimeToDateTime, WsFileTimeToDateTime function [Web Services for Windows], webservices/WsFileTimeToDateTime, wsw.wsfiletimetodatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

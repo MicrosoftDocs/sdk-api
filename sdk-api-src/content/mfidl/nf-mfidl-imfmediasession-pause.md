@@ -9,8 +9,6 @@ ms.assetid: fcc576ba-f8be-4106-a270-756b2abf52d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],Pause method, IMFMediaSession.Pause, IMFMediaSession::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSession interface, fcc576ba-f8be-4106-a270-756b2abf52d4, mf.imfmediasession_pause, mfidl/IMFMediaSession::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1a973a22-ca3a-4980-9b20-d3c5b43fdd19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiViewFetch, MsiViewFetch function, _msi_msiviewfetch, msiquery/MsiViewFetch, setup.msiviewfetch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

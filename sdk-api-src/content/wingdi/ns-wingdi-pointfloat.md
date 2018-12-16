@@ -9,8 +9,6 @@ ms.assetid: 9cb57d32-386a-4554-9f47-62d5c4e2ee4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPOINTFLOAT, POINTFLOAT, POINTFLOAT structure [OpenGL], PPOINTFLOAT, PPOINTFLOAT structure pointer [OpenGL], _ogl_POINTFLOAT, opengl.pointfloat, wingdi/POINTFLOAT, wingdi/PPOINTFLOAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d477800d-fb16-49a7-ab80-a0f5f7c68fc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_stretchToFit method, IWMPPlayer2.get_stretchToFit, IWMPPlayer2::get_stretchToFit, IWMPPlayer2get_stretchToFit, get_stretchToFit, get_stretchToFit method [Windows Media Player], get_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_stretchtofit, wmp/IWMPPlayer2::get_stretchToFit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

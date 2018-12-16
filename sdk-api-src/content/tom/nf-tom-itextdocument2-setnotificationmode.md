@@ -9,8 +9,6 @@ ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

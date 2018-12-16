@@ -9,8 +9,6 @@ ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

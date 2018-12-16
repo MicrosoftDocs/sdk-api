@@ -9,8 +9,6 @@ ms.assetid: 79c7d32d-3cb7-4e27-9db1-f24282bf606a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

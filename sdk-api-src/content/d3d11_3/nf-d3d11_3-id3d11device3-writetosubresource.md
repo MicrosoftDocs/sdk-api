@@ -9,8 +9,6 @@ ms.assetid: DCA4A88D-3DCA-41D5-AE52-061A605A9CBF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],WriteToSubresource method, ID3D11Device3.WriteToSubresource, ID3D11Device3::WriteToSubresource, WriteToSubresource, WriteToSubresource method [Direct3D 11], WriteToSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::WriteToSubresource, direct3d11.id3d11device3_writetosubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 

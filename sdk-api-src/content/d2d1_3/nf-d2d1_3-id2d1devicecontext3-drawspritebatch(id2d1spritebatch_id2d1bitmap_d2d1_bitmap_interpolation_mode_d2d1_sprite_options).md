@@ -9,8 +9,6 @@ ms.assetid: 28A499C2-7B77-4DF0-9EA7-21B7640B9D22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

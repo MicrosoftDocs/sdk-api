@@ -9,8 +9,6 @@ ms.assetid: A222E1B7-CA9C-4250-A697-B9D278B26C06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Security], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Security], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, security.system_resource_attribute_ace, winnt/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

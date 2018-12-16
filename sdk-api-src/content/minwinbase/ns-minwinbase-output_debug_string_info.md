@@ -9,8 +9,6 @@ ms.assetid: 43594bf5-ee79-4334-b0d4-92b2b41bf35a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPOUTPUT_DEBUG_STRING_INFO, LPOUTPUT_DEBUG_STRING_INFO, LPOUTPUT_DEBUG_STRING_INFO structure pointer, OUTPUT_DEBUG_STRING_INFO, OUTPUT_DEBUG_STRING_INFO structure, _OUTPUT_DEBUG_STRING_INFO, _win32_output_debug_string_info_str, base.output_debug_string_info_str, minwinbase/LPOUTPUT_DEBUG_STRING_INFO, minwinbase/OUTPUT_DEBUG_STRING_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

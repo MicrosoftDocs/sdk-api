@@ -9,8 +9,6 @@ ms.assetid: 8cc5ae5d-faef-451d-8ad8-db4b8b5c0e22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomReferenceEnumerator, GetCustomReferenceEnumerator method [Open Packaging Conventions], GetCustomReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomReferenceEnumerator method, IOpcDigitalSignature.GetCustomReferenceEnumerator, IOpcDigitalSignature::GetCustomReferenceEnumerator, msopc/IOpcDigitalSignature::GetCustomReferenceEnumerator, opc.iopcdigitalsignature_getcustomreferenceenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

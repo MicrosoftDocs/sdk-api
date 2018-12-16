@@ -9,8 +9,6 @@ ms.assetid: 4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_RECORD, PEER_RECORD, PEER_RECORD structure [Peer Networking], PPEER_RECORD, PPEER_RECORD structure pointer [Peer Networking], p2p.peer_record, p2p/PPEER_RECORD, p2p/peer_record_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

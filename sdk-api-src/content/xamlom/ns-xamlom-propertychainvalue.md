@@ -9,8 +9,6 @@ ms.assetid: 111D10AB-2C16-4D21-A716-968C810B928F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, PropertyChainValue, PropertyChainValue structure, xaml_diagnostics.propertychainvalue, xamlom/PPropertyChainValue, xamlom/PropertyChainValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

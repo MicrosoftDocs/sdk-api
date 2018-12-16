@@ -9,8 +9,6 @@ ms.assetid: 45aed78c-1614-4aad-a930-c44615546d6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantCompare, VariantCompare function [Windows Properties], _shell_VariantCompare, properties.VariantCompare, propvarutil/VariantCompare, shell.VariantCompare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

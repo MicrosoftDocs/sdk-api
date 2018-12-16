@@ -9,8 +9,6 @@ ms.assetid: 3724bead-d16a-40dd-b55c-3c31846f1c1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CALL_CAUSE_BAD_DEVICE, CALL_CAUSE_CONNECT_FAIL, CALL_CAUSE_LOCAL_REQUEST, CALL_CAUSE_MEDIA_RECOVERED, CALL_CAUSE_MEDIA_TIMEOUT, CALL_CAUSE_REMOTE_REQUEST, CALL_CAUSE_UNKNOWN, MSP_CALL_EVENT_CAUSE, MSP_CALL_EVENT_CAUSE enumeration [TAPI 2.2], _tapi3_msp_call_event_cause, msp/CALL_CAUSE_BAD_DEVICE, msp/CALL_CAUSE_CONNECT_FAIL, msp/CALL_CAUSE_LOCAL_REQUEST, msp/CALL_CAUSE_MEDIA_RECOVERED, msp/CALL_CAUSE_MEDIA_TIMEOUT, msp/CALL_CAUSE_REMOTE_REQUEST, msp/CALL_CAUSE_UNKNOWN, msp/MSP_CALL_EVENT_CAUSE, tapi3.msp_call_event_cause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msp.h
 req.include-header: Tapi3.h

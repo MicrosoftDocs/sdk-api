@@ -9,8 +9,6 @@ ms.assetid: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Media Foundation],SetTopoNodeID method, IMFTopologyNode.SetTopoNodeID, IMFTopologyNode::SetTopoNodeID, SetTopoNodeID, SetTopoNodeID method [Media Foundation], SetTopoNodeID method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_settoponodeid, mfidl/IMFTopologyNode::SetTopoNodeID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3aea6f4b-280f-43a1-8104-222d8f9d92cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UShortAdd, UShortAdd function [Windows Shell], WordAdd, _shell_UShortAdd, intsafe/UShortAdd, shell.UShortAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

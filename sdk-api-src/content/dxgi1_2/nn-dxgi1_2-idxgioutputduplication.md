@@ -9,8 +9,6 @@ ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 

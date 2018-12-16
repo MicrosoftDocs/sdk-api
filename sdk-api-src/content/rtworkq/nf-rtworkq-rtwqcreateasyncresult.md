@@ -9,8 +9,6 @@ ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

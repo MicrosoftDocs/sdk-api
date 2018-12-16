@@ -9,8 +9,6 @@ ms.assetid: 0e62ff68-0a6b-4e22-9cce-0df5da14fa6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnSetSoftwareRadioStateComplete method, IMbnRadioEvents.OnSetSoftwareRadioStateComplete, IMbnRadioEvents::OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks], OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks],IMbnRadioEvents interface, S_OK, mbn.imbnradioevents_onsetsoftwareradiostatecomplete, mbnapi/IMbnRadioEvents::OnSetSoftwareRadioStateComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

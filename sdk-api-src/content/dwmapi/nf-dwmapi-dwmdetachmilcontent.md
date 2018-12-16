@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdetachm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmDetachMilContent, DwmDetachMilContent function [Desktop Window Manager], _udwm_dwmdetachmilcontent, _udwm_dwmdetachmilcontent_cpp, dwm.dwmdetachmilcontent, dwmapi/DwmDetachMilContent, winui._udwm_dwmdetachmilcontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

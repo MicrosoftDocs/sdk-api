@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddHierarchicalScope, AddHierarchicalScope method [search], AddHierarchicalScope method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddHierarchicalScope method, ISearchCrawlScopeManager.AddHierarchicalScope, ISearchCrawlScopeManager::AddHierarchicalScope, _search_ISearchCrawlScopeManager_AddHierachicalScope, search._search_ISearchCrawlScopeManager_AddHierachicalScope, searchapi/ISearchCrawlScopeManager::AddHierarchicalScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

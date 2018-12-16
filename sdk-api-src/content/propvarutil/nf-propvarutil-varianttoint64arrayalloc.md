@@ -9,8 +9,6 @@ ms.assetid: 15a583bd-fdef-4802-a18b-0a21b9be5448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToInt64ArrayAlloc, VariantToInt64ArrayAlloc function [Windows Properties], _shell_VariantToInt64ArrayAlloc, properties.VariantToInt64ArrayAlloc, propvarutil/VariantToInt64ArrayAlloc, shell.VariantToInt64ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

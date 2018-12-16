@@ -9,8 +9,6 @@ ms.assetid: bee5348e-99f0-4168-9021-112fc16d8921
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterRequestRecipient method, ITTAPI.RegisterRequestRecipient, ITTAPI::RegisterRequestRecipient, RegisterRequestRecipient, RegisterRequestRecipient method [TAPI 2.2], RegisterRequestRecipient method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registerrequestrecipient, tapi3.ittapi_registerrequestrecipient, tapi3if/ITTAPI::RegisterRequestRecipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

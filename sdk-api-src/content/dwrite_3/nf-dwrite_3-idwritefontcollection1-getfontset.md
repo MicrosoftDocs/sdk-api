@@ -9,8 +9,6 @@ ms.assetid: 964732b9-bf0f-2ec8-d566-3fa06c9d57e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontCollection1 interface, IDWriteFontCollection1 interface [Direct Write],GetFontSet method, IDWriteFontCollection1.GetFontSet, IDWriteFontCollection1::GetFontSet, directwrite.idwritefontcollection1_getfontset, dwrite_3/IDWriteFontCollection1::GetFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

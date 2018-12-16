@@ -9,8 +9,6 @@ ms.assetid: 2d61fd6a-cebd-457e-ad00-d3e8bd15584a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function [Windows GDI], _win32_GetEnhMetaFilePaletteEntries, gdi.getenhmetafilepaletteentries, wingdi/GetEnhMetaFilePaletteEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

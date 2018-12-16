@@ -9,8 +9,6 @@ ms.assetid: b8db4404-40ab-4f28-96ce-43359c959546
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RADIUS_REJECT_REASON_CODE, RADIUS_REJECT_REASON_CODE enumeration [Network Policy Server], authif/RADIUS_REJECT_REASON_CODE, authif/rrrcAccountDisabled, authif/rrrcAccountExpired, authif/rrrcAccountUnknown, authif/rrrcAuthenticationFailure, authif/rrrcUndefined, ias.radius_reject_reason_code, nps.IAS_radius_reject_reason_code, rrrcAccountDisabled, rrrcAccountExpired, rrrcAccountUnknown, rrrcAuthenticationFailure, rrrcUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: authif.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: DAB03CB2-630F-4BB3-93BD-06BE9126B1C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptRegisterProtectionDescriptorName, NCryptRegisterProtectionDescriptorName function [Security], ncryptprotect/NCryptRegisterProtectionDescriptorName, security.ncryptregisterprotectiondescriptorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

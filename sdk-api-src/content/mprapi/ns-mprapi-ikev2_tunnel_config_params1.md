@@ -9,8 +9,6 @@ ms.assetid: 0f76df0a-11f3-472a-b9ff-9a1e81c81e70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS1, IKEV2_TUNNEL_CONFIG_PARAMS1, IKEV2_TUNNEL_CONFIG_PARAMS1 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS1, PIKEV2_TUNNEL_CONFIG_PARAMS1 structure pointer [RAS], mprapi/IKEV2_TUNNEL_CONFIG_PARAMS1, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS1, rras.ikev2_tunnel_config_params1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

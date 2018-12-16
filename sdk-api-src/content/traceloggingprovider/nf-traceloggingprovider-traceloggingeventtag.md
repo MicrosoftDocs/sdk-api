@@ -9,8 +9,6 @@ ms.assetid: D7BD0AC7-2330-4DE7-8C46-CF210B102704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingEventTag, TraceLoggingEventTag macro, tracelogging.traceloggingeventtag, traceloggingprovider/TraceLoggingEventTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

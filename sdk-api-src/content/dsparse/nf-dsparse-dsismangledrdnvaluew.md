@@ -9,8 +9,6 @@ ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

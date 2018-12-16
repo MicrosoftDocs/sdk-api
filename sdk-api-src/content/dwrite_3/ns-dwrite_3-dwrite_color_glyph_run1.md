@@ -9,8 +9,6 @@ ms.assetid: 4433AFDF-F034-43DF-A030-4D7DD6E9CFF5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_COLOR_GLYPH_RUN1, DWRITE_COLOR_GLYPH_RUN1 structure [Direct Write], directwrite.dwrite_color_glyph_run1, dwrite_3/DWRITE_COLOR_GLYPH_RUN1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

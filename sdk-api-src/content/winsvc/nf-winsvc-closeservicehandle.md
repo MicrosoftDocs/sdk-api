@@ -9,8 +9,6 @@ ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

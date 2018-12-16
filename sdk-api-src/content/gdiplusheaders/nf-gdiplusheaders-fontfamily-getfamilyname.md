@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfam
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FontFamily class [GDI+],GetFamilyName method, FontFamily.GetFamilyName, FontFamily::GetFamilyName, GetFamilyName, GetFamilyName method [GDI+], GetFamilyName method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetFamilyName_name_language_, gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

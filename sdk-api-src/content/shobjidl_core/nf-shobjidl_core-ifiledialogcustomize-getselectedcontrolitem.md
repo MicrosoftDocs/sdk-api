@@ -9,8 +9,6 @@ ms.assetid: 1dd33779-071f-484e-9d89-1cc64ea03293
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelectedControlItem, GetSelectedControlItem method [Windows Shell], GetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetSelectedControlItem method, IFileDialogCustomize.GetSelectedControlItem, IFileDialogCustomize::GetSelectedControlItem, shell.IFileDialogCustomize_GetSelectedControlItem, shell_IFileDialogCustomize_GetSelectedControlItem, shobjidl_core/IFileDialogCustomize::GetSelectedControlItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

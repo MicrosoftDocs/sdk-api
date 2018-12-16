@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

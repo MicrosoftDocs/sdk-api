@@ -9,8 +9,6 @@ ms.assetid: a0d7b516-1941-4245-8ca6-f470b8c426aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialog2 interface [Windows Shell],SetCancelButtonLabel method, IFileDialog2.SetCancelButtonLabel, IFileDialog2::SetCancelButtonLabel, SetCancelButtonLabel, SetCancelButtonLabel method [Windows Shell], SetCancelButtonLabel method [Windows Shell],IFileDialog2 interface, _shell_IFileDialog2_SetCancelButtonLabel, shell.IFileDialog2_SetCancelButtonLabel, shobjidl/IFileDialog2::SetCancelButtonLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

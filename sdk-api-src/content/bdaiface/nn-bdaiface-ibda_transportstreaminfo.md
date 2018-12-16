@@ -9,8 +9,6 @@ ms.assetid: c5f37790-f276-41a5-b5bd-7d8c7a7f587f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_TransportStreamInfo, IBDA_TransportStreamInfo interface [Microsoft TV Technologies], IBDA_TransportStreamInfo interface [Microsoft TV Technologies],described, IBDA_TransportStreamInfoInterface, bdaiface/IBDA_TransportStreamInfo, mstv.ibda_transportstreaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

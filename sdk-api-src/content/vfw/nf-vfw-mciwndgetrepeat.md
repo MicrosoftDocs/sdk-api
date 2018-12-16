@@ -9,8 +9,6 @@ ms.assetid: e5c346db-b33a-4420-b9e1-c634dcffa134
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetRepeat, MCIWndGetRepeat macro [Windows Multimedia], _win32_MCIWndGetRepeat, multimedia.mciwndgetrepeat, vfw/MCIWndGetRepeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

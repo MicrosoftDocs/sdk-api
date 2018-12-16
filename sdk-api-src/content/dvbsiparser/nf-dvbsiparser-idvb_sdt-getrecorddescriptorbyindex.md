@@ -9,8 +9,6 @@ ms.assetid: acf392b4-519b-4bcc-b0e4-8d5a72442aa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_SDT.GetRecordDescriptorByIndex, IDVB_SDT::GetRecordDescriptorByIndex, IDVB_SDTGetRecordDescriptorByIndex, dvbsiparser/IDVB_SDT::GetRecordDescriptorByIndex, mstv.idvb_sdt_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

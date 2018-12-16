@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: filter.h
 req.include-header: 

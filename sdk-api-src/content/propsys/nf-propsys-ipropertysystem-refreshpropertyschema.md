@@ -9,8 +9,6 @@ ms.assetid: 9aa0c678-5139-42a4-ac71-deb39dae4129
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchema method, IPropertySystem.RefreshPropertySchema, IPropertySystem::RefreshPropertySchema, RefreshPropertySchema, RefreshPropertySchema method [Windows Properties], RefreshPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RefreshPropertySchema, propsys/IPropertySystem::RefreshPropertySchema, shell.IPropertySystem_RefreshPropertySchema, shell_IPropertySystem_RefreshPropertySchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: Propsys.h

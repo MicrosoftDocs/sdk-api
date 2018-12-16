@@ -9,8 +9,6 @@ ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h

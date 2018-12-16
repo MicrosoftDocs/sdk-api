@@ -9,8 +9,6 @@ ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

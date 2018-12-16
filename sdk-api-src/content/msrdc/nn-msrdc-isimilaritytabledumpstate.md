@@ -9,8 +9,6 @@ ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

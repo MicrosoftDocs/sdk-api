@@ -9,8 +9,6 @@ ms.assetid: 05c5ac43-adf1-419c-8a39-32f8dddd3b98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmCalloutGetByKey0, FwpmCalloutGetByKey0 function [Filtering], fwp.fwpmcalloutgetbykey0_func, fwpmu/FwpmCalloutGetByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

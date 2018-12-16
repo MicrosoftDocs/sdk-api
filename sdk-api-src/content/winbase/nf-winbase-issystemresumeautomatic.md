@@ -9,8 +9,6 @@ ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_issystemresumeautomatic, base.issystemresumeautomatic, winbase/IsSystemResumeAutomatic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

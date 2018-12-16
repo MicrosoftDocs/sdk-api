@@ -9,8 +9,6 @@ ms.assetid: 32654e4b-158b-4d1a-afc7-98f90212b33b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTime, GetTime method [Windows Animation], GetTime method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],GetTime method, IUIAnimationTimer.GetTime, IUIAnimationTimer::GetTime, uianimation.iuianimationtimer_gettime, uianimation/IUIAnimationTimer::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

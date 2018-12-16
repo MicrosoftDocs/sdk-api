@@ -9,8 +9,6 @@ ms.assetid: 42bd87ab-8877-48cd-abc1-6fae2cb111aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraUIControl interface [Windows API],Resume method, ICameraUIControl.Resume, ICameraUIControl::Resume, Resume, Resume method [Windows API], Resume method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Resume, winprog.icamerauicontrol_resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

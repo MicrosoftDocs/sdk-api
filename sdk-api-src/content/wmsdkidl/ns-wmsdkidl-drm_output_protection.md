@@ -9,8 +9,6 @@ ms.assetid: 73c7b2ab-3680-462a-ab7f-d3270ea0127b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRM_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION structure [windows Media Format], structure [windows Media Format], wmformat.drm_video_output_protection, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h

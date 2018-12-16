@@ -9,8 +9,6 @@ ms.assetid: f7ab38b8-b378-4804-9d07-4644161b1450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, GetIsClosed, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsClosed method, IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

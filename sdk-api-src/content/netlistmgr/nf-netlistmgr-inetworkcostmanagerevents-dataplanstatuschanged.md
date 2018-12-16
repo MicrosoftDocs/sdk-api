@@ -9,8 +9,6 @@ ms.assetid: A9908F22-A9E9-4C05-A434-57D0C433EA3E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DataPlanStatusChanged, DataPlanStatusChanged method [Network Awareness], DataPlanStatusChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],DataPlanStatusChanged method, INetworkCostManagerEvents.DataPlanStatusChanged, INetworkCostManagerEvents::DataPlanStatusChanged, netlistmgr/INetworkCostManagerEvents::DataPlanStatusChanged, nla.inetworkcostmanagerevents_dataplanstatuschanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

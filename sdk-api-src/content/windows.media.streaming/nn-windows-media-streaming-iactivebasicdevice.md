@@ -9,8 +9,6 @@ ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

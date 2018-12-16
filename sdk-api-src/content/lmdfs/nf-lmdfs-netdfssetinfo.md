@@ -9,8 +9,6 @@ ms.assetid: 5526afa7-82bc-47c7-99d6-44e41ef772b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsSetInfo function [Distributed File System], _win32_netdfssetinfo, dfs.netdfssetinfo, fs.netdfssetinfo, lmdfs/NetDfsSetInfo, netmgmt.netdfssetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

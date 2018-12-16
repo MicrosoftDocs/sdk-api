@@ -9,8 +9,6 @@ ms.assetid: 71bc0da9-af41-42d6-a7dc-91be54eb6f5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enter, Enter method [Microsoft Broadband Networks], Enter method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enter method, IMbnPin.Enter, IMbnPin::Enter, mbn.imbnpin_enter, mbnapi/IMbnPin::Enter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9300b4f3-1261-40d2-ae05-fb1be2f857b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesDirectoryItem, IOfflineFilesDirectoryItem interface [Offline Files], IOfflineFilesDirectoryItem interface [Offline Files],described, cscobj/IOfflineFilesDirectoryItem, of.iofflinefilesdirectoryitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

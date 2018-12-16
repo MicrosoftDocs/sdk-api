@@ -9,8 +9,6 @@ ms.assetid: 4579b897-8b68-4b95-8dd4-e5fd94195742
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IETFilter interface [Microsoft TV Technologies],SetRecordingOn method, IETFilter.SetRecordingOn, IETFilter::SetRecordingOn, IETFilterSetRecordingOn, SetRecordingOn, SetRecordingOn method [Microsoft TV Technologies], SetRecordingOn method [Microsoft TV Technologies],IETFilter interface, encdec/IETFilter::SetRecordingOn, mstv.ietfilter_setrecordingon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

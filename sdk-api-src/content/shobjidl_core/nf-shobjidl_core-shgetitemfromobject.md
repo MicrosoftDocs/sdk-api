@@ -9,8 +9,6 @@ ms.assetid: 0ef494c0-81c7-4fbd-9c37-78861d8ac63b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetItemFromObject, SHGetItemFromObject function [Windows Shell], _shell_SHGetItemFromObject, shell.SHGetItemFromObject, shobjidl_core/SHGetItemFromObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 986b7527-c634-45d9-a2eb-86fa999e57ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 986b7527-c634-45d9-a2eb-86fa999e57ba, ITextInputPanel interface [Tablet PC],PopUpCorrectionHeight property, ITextInputPanel.PopUpCorrectionHeight, ITextInputPanel.get_PopUpCorrectionHeight, ITextInputPanel::PopUpCorrectionHeight, ITextInputPanel::get_PopUpCorrectionHeight, PopUpCorrectionHeight property [Tablet PC], PopUpCorrectionHeight property [Tablet PC],ITextInputPanel interface, get_PopUpCorrectionHeight, peninputpanel/ITextInputPanel::PopUpCorrectionHeight, peninputpanel/ITextInputPanel::get_PopUpCorrectionHeight, tablet.itextinputpanel_popupcorrectionheight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

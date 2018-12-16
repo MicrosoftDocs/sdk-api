@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_3chf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],DeviceIds property, IFaxDeviceProvider.DeviceIds, IFaxDeviceProvider.get_DeviceIds, IFaxDeviceProvider::DeviceIds, IFaxDeviceProvider::get_DeviceIds, _mfax_faxdeviceprovider.deviceids, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp, fax._mfax_faxdeviceprovider_deviceids, faxcomex/IFaxDeviceProvider::DeviceIds, faxcomex/IFaxDeviceProvider::get_DeviceIds, get_DeviceIds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

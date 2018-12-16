@@ -9,8 +9,6 @@ ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

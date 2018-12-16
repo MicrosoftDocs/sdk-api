@@ -9,8 +9,6 @@ ms.assetid: fb3a8773-270a-4e33-bcbe-bde7794ea4ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ElementFromPointBuildCache, ElementFromPointBuildCache method [Windows Accessibility], ElementFromPointBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPointBuildCache method, IUIAutomation.ElementFromPointBuildCache, IUIAutomation::ElementFromPointBuildCache, uiauto.uiauto_IUIAutomation_ElementFromPointBuildCache, uiauto_IUIAutomation_ElementFromPointBuildCache, uiautomationclient/IUIAutomation::ElementFromPointBuildCache, winauto.uiauto_IUIAutomation_ElementFromPointBuildCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

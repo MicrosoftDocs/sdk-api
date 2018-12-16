@@ -9,8 +9,6 @@ ms.assetid: b748b4f9-ef9c-486b-bdc4-4d23c4640ff7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistStream interface [COM],Save method, IPersistStream.Save, IPersistStream::Save, Save, Save method [COM], Save method [COM],IPersistStream interface, _com_ipersiststream_save, com.ipersiststream_save, objidl/IPersistStream::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

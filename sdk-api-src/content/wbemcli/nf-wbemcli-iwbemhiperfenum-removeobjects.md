@@ -9,8 +9,6 @@ ms.assetid: a4f25be2-8450-4e4c-ba6a-8d78c1fefca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],RemoveObjects method, IWbemHiPerfEnum.RemoveObjects, IWbemHiPerfEnum::RemoveObjects, RemoveObjects, RemoveObjects method [Windows Management Instrumentation], RemoveObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, _hmm_iwbemhiperfenum_removeobjects, wbemcli/IWbemHiPerfEnum::RemoveObjects, wmi.iwbemhiperfenum_removeobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

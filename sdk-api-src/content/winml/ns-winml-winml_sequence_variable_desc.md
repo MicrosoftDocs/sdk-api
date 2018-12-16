@@ -9,8 +9,6 @@ ms.assetid: 6350AFEE-8E1A-4C21-8017-9D3E9EC601F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MachineLearning.winml_sequence_variable_desc, PWINML_SEQUENCE_VARIABLE_DESC, PWINML_SEQUENCE_VARIABLE_DESC structure pointer, WINML_SEQUENCE_VARIABLE_DESC, WINML_SEQUENCE_VARIABLE_DESC structure, winml/PWINML_SEQUENCE_VARIABLE_DESC, winml/WINML_SEQUENCE_VARIABLE_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

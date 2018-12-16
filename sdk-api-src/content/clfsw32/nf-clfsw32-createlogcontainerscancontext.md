@@ -9,8 +9,6 @@ ms.assetid: 863e600c-3a7b-47b4-9cc3-dcee1bfcc66b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeEnum, ClusterResourceTypeEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/ClusterResourceTypeEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

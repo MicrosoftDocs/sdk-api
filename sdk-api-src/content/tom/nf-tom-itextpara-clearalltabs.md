@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],ClearAllTabs method, ITextPara.ClearAllTabs, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

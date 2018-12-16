@@ -9,8 +9,6 @@ ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

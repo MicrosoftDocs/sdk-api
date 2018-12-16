@@ -9,8 +9,6 @@ ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],GroupId property, IPrincipal.GroupId, IPrincipal.put_GroupId, IPrincipal::GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, put_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

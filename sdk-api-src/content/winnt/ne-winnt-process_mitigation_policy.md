@@ -9,8 +9,6 @@ ms.assetid: b9636a0f-3123-499d-8663-72ed4d4993f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROCESS_MITIGATION_POLICY, MaxProcessMitigationPolicy, PPROCESS_MITIGATION_POLICY, PPROCESS_MITIGATION_POLICY enumeration pointer, PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY enumeration, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.process_mitigation_policy, winnt/MaxProcessMitigationPolicy, winnt/PPROCESS_MITIGATION_POLICY, winnt/PROCESS_MITIGATION_POLICY, winnt/ProcessASLRPolicy, winnt/ProcessControlFlowGuardPolicy, winnt/ProcessDEPPolicy, winnt/ProcessDynamicCodePolicy, winnt/ProcessExtensionPointDisablePolicy, winnt/ProcessFontDisablePolicy, winnt/ProcessImageLoadPolicy, winnt/ProcessMitigationOptionsMask, winnt/ProcessSignaturePolicy, winnt/ProcessStrictHandleCheckPolicy, winnt/ProcessSystemCallDisablePolicy"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

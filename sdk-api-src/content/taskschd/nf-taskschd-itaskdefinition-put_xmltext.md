@@ -9,8 +9,6 @@ ms.assetid: 1bdafec0-634f-4977-8f41-60dcacc23dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],XmlText property, ITaskDefinition.XmlText, ITaskDefinition.put_XmlText, ITaskDefinition::XmlText, ITaskDefinition::get_XmlText, ITaskDefinition::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],ITaskDefinition interface, put_XmlText, taskschd.itaskdefinition_xmltext, taskschd/ITaskDefinition::XmlText, taskschd/ITaskDefinition::get_XmlText, taskschd/ITaskDefinition::put_XmlText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

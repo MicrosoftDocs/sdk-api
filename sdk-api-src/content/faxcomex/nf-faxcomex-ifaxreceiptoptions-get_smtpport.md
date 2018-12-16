@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7sdw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPPort property, IFaxReceiptOptions.SMTPPort, IFaxReceiptOptions.get_SMTPPort, IFaxReceiptOptions.put_SMTPPort, IFaxReceiptOptions::SMTPPort, IFaxReceiptOptions::get_SMTPPort, IFaxReceiptOptions::put_SMTPPort, SMTPPort property [Fax Service], SMTPPort property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpport, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp, fax._mfax_faxreceiptoptions_smtpport, faxcomex/IFaxReceiptOptions::SMTPPort, faxcomex/IFaxReceiptOptions::get_SMTPPort, faxcomex/IFaxReceiptOptions::put_SMTPPort, get_SMTPPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

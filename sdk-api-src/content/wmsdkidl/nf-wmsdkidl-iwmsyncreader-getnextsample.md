@@ -9,8 +9,6 @@ ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LIBRARYOPTIONFLAGS, LIBRARYOPTIONFLAGS enumeration [Windows Shell], LOF_DEFAULT, LOF_MASK_ALL, LOF_PINNEDTONAVPANE, _shell_LIBRARYOPTIONFLAGS, shell.LIBRARYOPTIONFLAGS, shobjidl_core/LIBRARYOPTIONFLAGS, shobjidl_core/LOF_DEFAULT, shobjidl_core/LOF_MASK_ALL, shobjidl_core/LOF_PINNEDTONAVPANE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

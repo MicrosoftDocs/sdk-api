@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4zad.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],CurrentPage property, IFaxIncomingJob.CurrentPage, IFaxIncomingJob.get_CurrentPage, IFaxIncomingJob::CurrentPage, IFaxIncomingJob::get_CurrentPage, _mfax_faxincomingjob.currentpage, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp, fax._mfax_faxincomingjob_currentpage, faxcomex/IFaxIncomingJob::CurrentPage, faxcomex/IFaxIncomingJob::get_CurrentPage, get_CurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

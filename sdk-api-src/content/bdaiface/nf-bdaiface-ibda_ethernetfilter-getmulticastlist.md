@@ -9,8 +9,6 @@ ms.assetid: 65ad05c7-eb0e-450e-9bec-d46738f65dcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_EthernetFilter.GetMulticastList, IBDA_EthernetFilter::GetMulticastList, IBDA_EthernetFilterGetMulticastList, bdaiface/IBDA_EthernetFilter::GetMulticastList, mstv.ibda_ethernetfilter_getmulticastlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

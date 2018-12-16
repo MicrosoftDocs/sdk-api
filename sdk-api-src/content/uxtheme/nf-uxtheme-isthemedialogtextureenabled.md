@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [Windows Controls], controls.IsThemeDialogTextureEnabled, controls.inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled_cpp, uxtheme/IsThemeDialogTextureEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

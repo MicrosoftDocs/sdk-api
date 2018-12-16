@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawCurve method, Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const Point,IN INT,IN REAL), Graphics.DrawCurve(const Pen*,const Point*,INT,REAL), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const Point,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_REAL_tension_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

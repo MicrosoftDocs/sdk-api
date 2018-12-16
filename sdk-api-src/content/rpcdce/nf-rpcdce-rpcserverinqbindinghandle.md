@@ -9,8 +9,6 @@ ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

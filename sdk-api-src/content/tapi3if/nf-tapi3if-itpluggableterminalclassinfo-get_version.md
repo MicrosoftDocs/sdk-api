@@ -9,8 +9,6 @@ ms.assetid: e87ebf36-dace-4318-8d45-87f7a451284e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Version method, ITPluggableTerminalClassInfo.get_Version, ITPluggableTerminalClassInfo::get_Version, _tapi3_itpluggableterminalclassinfo_get_version, get_Version, get_Version method [TAPI 2.2], get_Version method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_version, tapi3if/ITPluggableTerminalClassInfo::get_Version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

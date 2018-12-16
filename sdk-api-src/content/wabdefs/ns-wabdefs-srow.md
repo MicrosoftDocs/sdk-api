@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

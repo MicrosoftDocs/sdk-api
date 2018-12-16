@@ -9,8 +9,6 @@ ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerQueryInteractiveUIInputFields, EapPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryinteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

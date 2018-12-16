@@ -9,8 +9,6 @@ ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationCompleted method, _IManipulationEvents.ManipulationCompleted, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

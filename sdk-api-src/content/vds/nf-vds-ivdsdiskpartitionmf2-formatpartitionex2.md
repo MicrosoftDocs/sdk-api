@@ -9,8 +9,6 @@ ms.assetid: 2a37d3c7-5c03-4b19-9d82-c3b16bf980e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FormatPartitionEx2, FormatPartitionEx2 method, FormatPartitionEx2 method,IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,FormatPartitionEx2 method, IVdsDiskPartitionMF2.FormatPartitionEx2, IVdsDiskPartitionMF2::FormatPartitionEx2, base.ivdsdiskpartitionmf2_formatpartitionex2, vds/IVdsDiskPartitionMF2::FormatPartitionEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

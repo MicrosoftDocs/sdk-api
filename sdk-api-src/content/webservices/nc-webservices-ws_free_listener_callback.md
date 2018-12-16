@@ -9,8 +9,6 @@ ms.assetid: fd60ae42-5b3f-4482-b785-541f7379ab3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

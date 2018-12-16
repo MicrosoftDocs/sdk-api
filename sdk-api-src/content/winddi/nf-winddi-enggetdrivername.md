@@ -9,8 +9,6 @@ ms.assetid: 6af3aa76-ebb4-4abb-ba35-537ccae95220
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngGetDriverName, EngGetDriverName function [Display Devices], display.enggetdrivername, gdifncs_e0da975e-1a7f-4f28-a38b-be0966f3b0c0.xml, winddi/EngGetDriverName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

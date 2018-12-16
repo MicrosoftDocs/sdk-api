@@ -9,8 +9,6 @@ ms.assetid: 3f252754-c784-4ffd-bcfc-fab73fa02b9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWMBufferPassCallback interface [windows Media Format],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IAMWMBufferPassCallback interface, dshowasf/IAMWMBufferPassCallback::Notify, wmformat.iamwmbufferpasscallback_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b34b2418-5ae4-49a2-913a-bb4ac604ac4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPostViewFormatCount, GetPostViewFormatCount method [windows Media Format], GetPostViewFormatCount method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormatCount method, IWMWriterPostView.GetPostViewFormatCount, IWMWriterPostView::GetPostViewFormatCount, IWMWriterPostViewGetPostViewFormatCount, wmformat.iwmwriterpostview_getpostviewformatcount, wmsdkidl/IWMWriterPostView::GetPostViewFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

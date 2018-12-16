@@ -9,8 +9,6 @@ ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

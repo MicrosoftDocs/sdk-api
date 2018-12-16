@@ -9,8 +9,6 @@ ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

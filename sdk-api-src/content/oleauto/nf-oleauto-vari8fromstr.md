@@ -9,8 +9,6 @@ ms.assetid: 9aed5795-cfac-4a81-a05a-adcd661c7e3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI8FromStr, VarI8FromStr function [Automation], _oa96_VarI8FromStr, automat.vari8fromstr, oleauto/VarI8FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

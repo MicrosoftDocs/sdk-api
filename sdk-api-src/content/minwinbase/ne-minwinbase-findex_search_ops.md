@@ -9,8 +9,6 @@ ms.assetid: 3f4c18fb-e128-421f-bd05-456d4d3698a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FINDEX_SEARCH_OPS, FINDEX_SEARCH_OPS enumeration [Files], FindExSearchLimitToDevices, FindExSearchLimitToDirectories, FindExSearchNameMatch, _win32_findex_search_ops_str, base.findex_search_ops_str, fs.findex_search_ops_str, winbase/FINDEX_SEARCH_OPS, winbase/FindExSearchLimitToDevices, winbase/FindExSearchLimitToDirectories, winbase/FindExSearchNameMatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h

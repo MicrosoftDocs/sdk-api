@@ -9,8 +9,6 @@ ms.assetid: C33357C8-882A-4350-8638-46C2220FC445
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputByteStream method, IMFCaptureRecordSink.SetOutputByteStream, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

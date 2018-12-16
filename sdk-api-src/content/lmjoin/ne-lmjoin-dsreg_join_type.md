@@ -9,8 +9,6 @@ ms.assetid: E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDSREG_JOIN_TYPE, DSREG_DEVICE_JOIN, DSREG_JOIN_TYPE, DSREG_JOIN_TYPE enumeration [Network Management], DSREG_UNKNOWN_JOIN, DSREG_WORKPLACE_JOIN, PDSREG_JOIN_TYPE, PDSREG_JOIN_TYPE enumeration pointer [Network Management], lmjoin/DSREG_DEVICE_JOIN, lmjoin/DSREG_JOIN_TYPE, lmjoin/DSREG_UNKNOWN_JOIN, lmjoin/DSREG_WORKPLACE_JOIN, lmjoin/PDSREG_JOIN_TYPE, netmgmt.dsreg_join_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: lmjoin.h
 req.include-header: 

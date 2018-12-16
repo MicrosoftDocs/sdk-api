@@ -9,8 +9,6 @@ ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

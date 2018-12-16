@@ -9,8 +9,6 @@ ms.assetid: 84d3bc60-4756-49b3-a614-94640bc647be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server], PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION, _sdo_ntsamproperties, nps.SDO_ntsamproperties, sdo.ntsamproperties, sdoias/NTSAMPROPERTIES, sdoias/PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

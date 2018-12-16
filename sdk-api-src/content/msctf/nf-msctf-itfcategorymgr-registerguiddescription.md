@@ -9,8 +9,6 @@ ms.assetid: cb42e583-af5b-42ba-9637-889c7d4bdc82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDescription method, ITfCategoryMgr.RegisterGUIDDescription, ITfCategoryMgr::RegisterGUIDDescription, RegisterGUIDDescription, RegisterGUIDDescription method [Text Services Framework], RegisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddescription_ref, msctf/ITfCategoryMgr::RegisterGUIDDescription, tsf.itfcategorymgr_registerguiddescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

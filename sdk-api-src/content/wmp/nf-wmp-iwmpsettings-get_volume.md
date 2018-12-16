@@ -9,8 +9,6 @@ ms.assetid: 92c217e4-2ec4-4890-810c-dc552a36d578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSetting2.get_volume, IWMPSetting2::get_volume, IWMPSettings interface [Windows Media Player],get_volume method, IWMPSettings.get_volume, IWMPSettings::get_volume, IWMPSettingsget_volume, get_volume, get_volume method [Windows Media Player], get_volume method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_volume, wmp/IWMPSettings::get_volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

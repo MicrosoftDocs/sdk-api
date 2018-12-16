@@ -9,8 +9,6 @@ ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 

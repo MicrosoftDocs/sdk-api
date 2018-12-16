@@ -9,8 +9,6 @@ ms.assetid: 69267981-1d68-4af9-ae4b-5d4cb3a18c57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNtmsUIOptions, GetNtmsUIOptions function [Files], GetNtmsUIOptionsA, GetNtmsUIOptionsW, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, _zaw_getntmsuioptions, base.getntmsuioptions, fs.getntmsuioptions, ntmsapi/GetNtmsUIOptions, ntmsapi/GetNtmsUIOptionsA, ntmsapi/GetNtmsUIOptionsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

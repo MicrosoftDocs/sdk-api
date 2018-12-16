@@ -9,8 +9,6 @@ ms.assetid: a5ac2c9a-2bbd-42de-b530-f668b26300af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelVolume method, IAudioStreamVolume.GetChannelVolume, IAudioStreamVolume::GetChannelVolume, IAudioStreamVolumeGetChannelVolume, audioclient/IAudioStreamVolume::GetChannelVolume, coreaudio.iaudiostreamvolume_getchannelvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

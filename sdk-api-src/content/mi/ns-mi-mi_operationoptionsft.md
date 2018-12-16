@@ -9,8 +9,6 @@ ms.assetid: ed84d3bc-2cb0-4052-902d-96a3ab3a3ba4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationOptionsFT, MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_OperationOptionsFT, wmi_v2.mi_operationoptionsft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

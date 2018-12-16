@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorcla
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

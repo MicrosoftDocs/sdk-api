@@ -9,8 +9,6 @@ ms.assetid: 2c992a4f-3308-4f0a-a1cf-40515e28ae33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawDibStart, DrawDibStart function [Windows Multimedia], _win32_DrawDibStart, multimedia.drawdibstart, vfw/DrawDibStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\incom
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],IncomingArchive property, IFaxAccountFolders.IncomingArchive, IFaxAccountFolders.get_IncomingArchive, IFaxAccountFolders::IncomingArchive, IFaxAccountFolders::get_IncomingArchive, IncomingArchive property [Fax Service], IncomingArchive property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.incomingarchive, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingarchive_cpp, fax._mfax_faxaccountfolders_incomingarchive, faxcomex/IFaxAccountFolders::IncomingArchive, faxcomex/IFaxAccountFolders::get_IncomingArchive, get_IncomingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

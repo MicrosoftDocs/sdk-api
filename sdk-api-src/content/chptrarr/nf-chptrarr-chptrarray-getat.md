@@ -9,8 +9,6 @@ ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

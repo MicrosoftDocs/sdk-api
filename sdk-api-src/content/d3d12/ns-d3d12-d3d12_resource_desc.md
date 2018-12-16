@@ -9,8 +9,6 @@ ms.assetid: 908BCB65-A7C6-473D-81AB-CCCA029AB6F9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RESOURCE_DESC, D3D12_RESOURCE_DESC structure, d3d12/D3D12_RESOURCE_DESC, direct3d12.d3d12_resource_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

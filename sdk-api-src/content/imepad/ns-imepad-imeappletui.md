@@ -9,8 +9,6 @@ ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 

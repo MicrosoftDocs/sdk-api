@@ -9,8 +9,6 @@ ms.assetid: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523, IInkRenderer interface [Tablet PC],SetObjectTransform method, IInkRenderer.SetObjectTransform, IInkRenderer::SetObjectTransform, SetObjectTransform, SetObjectTransform method [Tablet PC], SetObjectTransform method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::SetObjectTransform, tablet.inkrenderer_setobjecttransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

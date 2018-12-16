@@ -9,8 +9,6 @@ ms.assetid: ff144ae4-fc8c-499e-9086-75625b86693c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browseforgpo, gpedit/BrowseForGPO, policy.browseforgpo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gpedit.h
 req.include-header: 

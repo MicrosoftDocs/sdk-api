@@ -9,8 +9,6 @@ ms.assetid: 78693a96-30e5-4031-8913-a131ec7558ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBstrFromUI8, VarBstrFromUI8 function [Automation], _oa96_VarBstrFromUI8, automat.varbstrfromui8, oleauto/VarBstrFromUI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

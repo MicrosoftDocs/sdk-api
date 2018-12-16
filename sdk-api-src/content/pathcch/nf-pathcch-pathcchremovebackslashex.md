@@ -9,8 +9,6 @@ ms.assetid: 250c2faa-94bb-42c1-97d4-37f8f59dbde6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCchRemoveBackslashEx, PathCchRemoveBackslashEx function [Windows Shell], pathcch/PathCchRemoveBackslashEx, shell.PathCchRemoveBackslashEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

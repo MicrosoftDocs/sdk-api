@@ -9,8 +9,6 @@ ms.assetid: 77059388-c442-4db5-ab27-1db25e2f63b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], IX509CertificateRequestCmc interface [Security],described, certenroll/IX509CertificateRequestCmc, security.ix509certificaterequestcmc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

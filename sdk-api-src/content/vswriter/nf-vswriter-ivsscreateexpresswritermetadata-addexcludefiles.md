@@ -9,8 +9,6 @@ ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

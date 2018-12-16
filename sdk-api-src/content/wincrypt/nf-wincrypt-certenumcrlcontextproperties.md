@@ -9,8 +9,6 @@ ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

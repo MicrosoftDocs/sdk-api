@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+],RedEyeCorrection constructor, RedEyeCorrection constructor [GDI+], RedEyeCorrection constructor [GDI+],RedEyeCorrection class, RedEyeCorrection.RedEyeCorrection, RedEyeCorrection::RedEyeCorrection, _gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_, gdiplus._gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

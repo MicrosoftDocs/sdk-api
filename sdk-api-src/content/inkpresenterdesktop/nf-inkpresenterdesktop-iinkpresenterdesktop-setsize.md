@@ -9,8 +9,6 @@ ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ee410a47-91a6-48ed-8c05-128a141a5c98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabGetEventData, PeerCollabGetEventData function [Peer Networking], p2p.peercollabgeteventdata, p2p/PeerCollabGetEventData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

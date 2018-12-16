@@ -9,8 +9,6 @@ ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

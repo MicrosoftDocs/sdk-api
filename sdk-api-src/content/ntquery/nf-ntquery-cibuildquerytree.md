@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_4b6t.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIBuildQueryTree, CIBuildQueryTree function [Indexing Service], _idxs_CIBuildQueryTree, indexsrv.cibuildquerytree, ntquery/CIBuildQueryTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

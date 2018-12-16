@@ -9,8 +9,6 @@ ms.assetid: 842c06a7-bf70-45e5-8f65-edaa075a8f3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Clear method, ICertificatePolicies.Clear, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetCacheLastUpdateTime method, ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugincom.h
 req.include-header: 

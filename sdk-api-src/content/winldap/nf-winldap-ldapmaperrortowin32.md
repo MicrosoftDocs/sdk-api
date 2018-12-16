@@ -9,8 +9,6 @@ ms.assetid: 5fdbac24-a1fb-41b2-924c-918bf7e0028a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LdapMapErrorToWin32, LdapMapErrorToWin32 function [LDAP], _ldap_ldapmaperrortowin32, ldap.ldapmaperrortowin32, winldap/LdapMapErrorToWin32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

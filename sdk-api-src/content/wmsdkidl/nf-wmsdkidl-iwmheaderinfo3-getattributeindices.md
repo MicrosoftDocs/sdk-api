@@ -9,8 +9,6 @@ ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

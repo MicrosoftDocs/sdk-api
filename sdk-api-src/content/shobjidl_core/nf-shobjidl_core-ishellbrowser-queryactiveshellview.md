@@ -9,8 +9,6 @@ ms.assetid: d03e41dc-72dc-4f34-ae5b-b5ef8b2f146d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellBrowser interface [Windows Shell],QueryActiveShellView method, IShellBrowser.QueryActiveShellView, IShellBrowser::QueryActiveShellView, QueryActiveShellView, QueryActiveShellView method [Windows Shell], QueryActiveShellView method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_QueryActiveShellView, shell.IShellBrowser_QueryActiveShellView, shobjidl_core/IShellBrowser::QueryActiveShellView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumWindowStations, EnumWindowStations function [Windows Stations and Desktops], EnumWindowStationsA, EnumWindowStationsW, _win32_enumwindowstations, base.enumwindowstations, winstation.enumwindowstations, winuser/EnumWindowStations, winuser/EnumWindowStationsA, winuser/EnumWindowStationsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

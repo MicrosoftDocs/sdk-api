@@ -9,8 +9,6 @@ ms.assetid: a5d6aee4-0d50-42da-8e2e-db9d3731cb3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_TotalCallTime method, ITAgentSession.get_TotalCallTime, ITAgentSession::get_TotalCallTime, _tapi3_itagentsession_get_totalcalltime, get_TotalCallTime, get_TotalCallTime method [TAPI 2.2], get_TotalCallTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_totalcalltime, tapi3cc/ITAgentSession::get_TotalCallTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

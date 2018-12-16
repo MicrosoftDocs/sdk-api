@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], ID3D10EffectMatrixVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectMatrixVariable, direct3d10.id3d10effectmatrixvariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

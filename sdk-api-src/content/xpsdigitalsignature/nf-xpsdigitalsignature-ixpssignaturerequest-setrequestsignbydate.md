@@ -9,8 +9,6 @@ ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

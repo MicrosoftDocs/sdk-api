@@ -9,8 +9,6 @@ ms.assetid: A640F042-80BE-4454-B974-F7D076E72737
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontSize method, IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

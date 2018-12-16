@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.#ctor(int32_t,int32_t,int32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4, XMINT4.XMINT4(int32_t,int32_t,int32_t,int32_t), XMINT4::XMINT4, XMINT4::XMINT4(int32_t,int32_t,int32_t,int32_t), dxmath.xmint4_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 

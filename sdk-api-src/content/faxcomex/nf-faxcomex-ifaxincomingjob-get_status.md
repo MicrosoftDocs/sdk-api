@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1far_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_Status method, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, _mfax_faxincomingjob.status_cpp, fax._mfax_faxincomingjob_status_cpp, faxcomex/IFaxIncomingJob::get_Status, get_Status, get_Status method [Fax Service], get_Status method [Fax Service],IFaxIncomingJob interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

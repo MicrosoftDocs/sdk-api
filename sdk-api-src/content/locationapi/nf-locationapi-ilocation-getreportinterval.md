@@ -9,8 +9,6 @@ ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

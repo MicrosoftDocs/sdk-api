@@ -9,8 +9,6 @@ ms.assetid: 38161826-3a43-42a3-a49d-415b5f7451c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareFileTime, CompareFileTime function, _win32_comparefiletime, base.comparefiletime, fileapi/CompareFileTime, winbase/CompareFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

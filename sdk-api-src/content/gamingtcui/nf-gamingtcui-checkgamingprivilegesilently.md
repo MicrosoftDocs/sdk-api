@@ -9,8 +9,6 @@ ms.assetid: 1C67C36E-E6E8-45C8-8B89-ED7740F5827C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

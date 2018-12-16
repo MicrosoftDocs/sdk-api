@@ -9,8 +9,6 @@ ms.assetid: 146e5fa4-0883-47ca-9bf6-88cf4f4b5497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinFormat property, IMbnPin.PinFormat, IMbnPin.get_PinFormat, IMbnPin::PinFormat, IMbnPin::get_PinFormat, PinFormat property [Microsoft Broadband Networks], PinFormat property [Microsoft Broadband Networks],IMbnPin interface, get_PinFormat, mbn.imbnpin_pinformat, mbnapi/IMbnPin::PinFormat, mbnapi/IMbnPin::get_PinFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds method [GDI+], GetVisibleClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetVisibleClipBounds method, Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT Rect), Graphics.GetVisibleClipBounds(Rect*), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

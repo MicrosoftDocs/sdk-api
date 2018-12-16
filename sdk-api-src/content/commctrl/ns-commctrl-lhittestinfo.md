@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

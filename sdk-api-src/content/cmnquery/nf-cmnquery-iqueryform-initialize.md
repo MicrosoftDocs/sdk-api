@@ -9,8 +9,6 @@ ms.assetid: d1250c69-f29b-44f1-b123-13818d26e322
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryForm interface [Active Directory],Initialize method, IQueryForm.Initialize, IQueryForm::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IQueryForm interface, _glines_iqueryform_initialize, ad.iqueryform__initialize, ad.iqueryform_initialize, cmnquery/IQueryForm::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

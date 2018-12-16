@@ -9,8 +9,6 @@ ms.assetid: a0b4c496-5ee8-4810-8170-8ea505c99f18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

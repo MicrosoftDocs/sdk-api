@@ -9,8 +9,6 @@ ms.assetid: a6286a2d-76d5-49ec-afd5-cbf112528db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 

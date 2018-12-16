@@ -9,8 +9,6 @@ ms.assetid: 7c5d6e97-dff1-4c80-a7d3-082413dca469
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMETARECORD, *PMETARECORD, METARECORD, METARECORD structure [Windows GDI], PMETARECORD, PMETARECORD structure pointer [Windows GDI], _win32_METARECORD_str, gdi.metarecord, wingdi/METARECORD, wingdi/PMETARECORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

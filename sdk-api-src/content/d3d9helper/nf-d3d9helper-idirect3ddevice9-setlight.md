@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

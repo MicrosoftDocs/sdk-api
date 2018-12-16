@@ -9,8 +9,6 @@ ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, p2p.drt_search_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

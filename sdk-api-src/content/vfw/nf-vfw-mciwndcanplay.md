@@ -9,8 +9,6 @@ ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

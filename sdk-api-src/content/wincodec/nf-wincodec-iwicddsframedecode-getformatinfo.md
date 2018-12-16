@@ -9,8 +9,6 @@ ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

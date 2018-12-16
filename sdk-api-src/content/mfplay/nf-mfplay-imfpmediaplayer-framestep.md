@@ -9,8 +9,6 @@ ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

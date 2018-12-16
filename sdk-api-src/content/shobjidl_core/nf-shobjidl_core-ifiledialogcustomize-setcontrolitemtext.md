@@ -9,8 +9,6 @@ ms.assetid: d89f67ee-ff56-4810-9627-e8f35e653ff4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlItemText method, IFileDialogCustomize.SetControlItemText, IFileDialogCustomize::SetControlItemText, SetControlItemText, SetControlItemText method [Windows Shell], SetControlItemText method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlItemText, shell_IFileDialogCustomize_SetControlItemText, shobjidl_core/IFileDialogCustomize::SetControlItemText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

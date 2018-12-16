@@ -9,8 +9,6 @@ ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

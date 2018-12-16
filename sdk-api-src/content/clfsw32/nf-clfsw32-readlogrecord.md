@@ -9,8 +9,6 @@ ms.assetid: 1c56c47b-d898-4c70-ba70-8978057c66b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

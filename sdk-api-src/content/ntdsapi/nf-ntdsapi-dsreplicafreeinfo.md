@@ -9,8 +9,6 @@ ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], ad.dsreplicafreeinfo, ntdsapi/DsReplicaFreeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

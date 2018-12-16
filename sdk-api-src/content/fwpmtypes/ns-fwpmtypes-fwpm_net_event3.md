@@ -9,8 +9,6 @@ ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_NET_EVENT3, FWPM_NET_EVENT3 structure [Filtering], fwp.fwpm_net_event3, fwpmtypes/FWPM_NET_EVENT3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

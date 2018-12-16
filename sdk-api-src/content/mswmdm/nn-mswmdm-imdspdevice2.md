@@ -9,8 +9,6 @@ ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

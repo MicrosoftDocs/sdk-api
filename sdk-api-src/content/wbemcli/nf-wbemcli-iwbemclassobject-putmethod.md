@@ -9,8 +9,6 @@ ms.assetid: eebfe049-e30e-40e0-a3bd-85a4bc11582f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],PutMethod method, IWbemClassObject.PutMethod, IWbemClassObject::PutMethod, PutMethod, PutMethod method [Windows Management Instrumentation], PutMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_putmethod, wbemcli/IWbemClassObject::PutMethod, wmi.iwbemclassobject_putmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

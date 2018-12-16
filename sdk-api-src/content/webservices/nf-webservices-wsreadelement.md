@@ -9,8 +9,6 @@ ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fillrect, winuser/FillRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

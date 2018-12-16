@@ -9,8 +9,6 @@ ms.assetid: 380b09ad-08d6-4d25-8d80-0e56d4295b8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

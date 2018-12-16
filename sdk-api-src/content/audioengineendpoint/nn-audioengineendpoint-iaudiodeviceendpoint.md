@@ -9,8 +9,6 @@ ms.assetid: 3112bc7e-e138-4b42-8f82-61fdf19f7e94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], IAudioDeviceEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioDeviceEndpoint, termserv.iaudiodeviceendpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

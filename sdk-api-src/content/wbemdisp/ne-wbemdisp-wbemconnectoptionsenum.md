@@ -9,8 +9,6 @@ ms.assetid: 781121e9-9dea-408c-a241-0c9f28c2cd46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WbemConnectOptionsEnum, WbemConnectOptionsEnum enumeration [Windows Management Instrumentation], _hmm_wbemconnectoptionsenum, wbemConnectFlagUseMaxWait, wbemdisp/WbemConnectOptionsEnum, wbemdisp/wbemConnectFlagUseMaxWait, wmi.wbemconnectoptionsenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

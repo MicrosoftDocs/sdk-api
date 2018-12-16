@@ -9,8 +9,6 @@ ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

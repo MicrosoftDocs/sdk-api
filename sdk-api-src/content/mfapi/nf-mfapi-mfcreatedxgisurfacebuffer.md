@@ -9,8 +9,6 @@ ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

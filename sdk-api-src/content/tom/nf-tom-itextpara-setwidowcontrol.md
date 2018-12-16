@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetWidowControl method, ITextPara.SetWidowControl, ITextPara::SetWidowControl, SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls],ITextPara interface, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

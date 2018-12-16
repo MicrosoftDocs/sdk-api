@@ -9,8 +9,6 @@ ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

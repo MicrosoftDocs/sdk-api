@@ -9,8 +9,6 @@ ms.assetid: 14185e7d-d08d-4fd8-a255-075eaf12a708
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], IAMMediaStream interface [DirectShow],described, IAMMediaStreamInterface, amstream/IAMMediaStream, dshow.iammediastream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 

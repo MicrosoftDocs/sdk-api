@@ -9,8 +9,6 @@ ms.assetid: f6cd655f-8850-4fce-95af-50edbdd38cb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMCanvas.SetDictionaryLocal, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

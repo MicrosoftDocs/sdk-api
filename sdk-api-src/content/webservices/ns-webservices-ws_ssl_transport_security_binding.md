@@ -9,8 +9,6 @@ ms.assetid: 078efc1d-a1bc-4035-919c-f927a8ceb8e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING, WS_SSL_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING, wsw.ws_ssl_transport_security_binding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

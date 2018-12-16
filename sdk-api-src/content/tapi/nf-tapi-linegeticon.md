@@ -9,8 +9,6 @@ ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

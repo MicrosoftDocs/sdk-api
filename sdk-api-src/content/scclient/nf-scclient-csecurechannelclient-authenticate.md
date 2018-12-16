@@ -9,8 +9,6 @@ ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient interface, CSecureChannelClient interface [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

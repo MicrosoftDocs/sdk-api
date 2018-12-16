@@ -9,8 +9,6 @@ ms.assetid: 32e28feb-1186-4848-a9d4-70b27f865d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [Text Services Framework], GetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetAttributeInfo method, ITfDisplayAttributeInfo.GetAttributeInfo, ITfDisplayAttributeInfo::GetAttributeInfo, _tsf_itfdisplayattributeinfo_getattributeinfo_ref, msctf/ITfDisplayAttributeInfo::GetAttributeInfo, tsf.itfdisplayattributeinfo_getattributeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

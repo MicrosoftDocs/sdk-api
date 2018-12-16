@@ -9,8 +9,6 @@ ms.assetid: 25cb87c6-e4a5-447e-8153-f12638859d00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion, sysinfoapi/GetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

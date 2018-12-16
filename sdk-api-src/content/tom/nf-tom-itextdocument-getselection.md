@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelection, GetSelection method [Windows Controls], GetSelection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSelection method, ITextDocument.GetSelection, ITextDocument::GetSelection, _win32_ITextDocument_GetSelection, _win32_ITextDocument_GetSelection_cpp, controls.ITextDocument_GetSelection, controls._win32_ITextDocument_GetSelection, tom/ITextDocument::GetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

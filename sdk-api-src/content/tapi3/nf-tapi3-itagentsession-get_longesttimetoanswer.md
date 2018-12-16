@@ -9,8 +9,6 @@ ms.assetid: aca11b6d-7656-4162-9bf7-1b8ffaa487de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_LongestTimeToAnswer method, ITAgentSession.get_LongestTimeToAnswer, ITAgentSession::get_LongestTimeToAnswer, _tapi3_itagentsession_get_longesttimetoanswer, get_LongestTimeToAnswer, get_LongestTimeToAnswer method [TAPI 2.2], get_LongestTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_longesttimetoanswer, tapi3cc/ITAgentSession::get_LongestTimeToAnswer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

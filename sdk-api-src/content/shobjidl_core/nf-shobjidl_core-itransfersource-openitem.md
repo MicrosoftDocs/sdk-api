@@ -9,8 +9,6 @@ ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

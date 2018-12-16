@@ -9,8 +9,6 @@ ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

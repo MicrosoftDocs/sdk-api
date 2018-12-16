@@ -9,8 +9,6 @@ ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

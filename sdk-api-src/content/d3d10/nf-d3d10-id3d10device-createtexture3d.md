@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_createtexture3d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTexture3D, CreateTexture3D method [Direct3D 10], CreateTexture3D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture3D method, ID3D10Device.CreateTexture3D, ID3D10Device::CreateTexture3D, c60533b9-1f88-143d-2e76-cc9dc35b462d, d3d10/ID3D10Device::CreateTexture3D, direct3d10.id3d10device_createtexture3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

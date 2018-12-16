@@ -9,8 +9,6 @@ ms.assetid: 59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTPM_DEVICE_INFO, PTPM_DEVICE_INFO, PTPM_DEVICE_INFO structure pointer [TBS], TPM_DEVICE_INFO, TPM_DEVICE_INFO structure [TBS], tbs.tpm_device_info, tbs/PTPM_DEVICE_INFO, tbs/TPM_DEVICE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 

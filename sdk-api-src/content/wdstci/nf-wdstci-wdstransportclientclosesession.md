@@ -9,8 +9,6 @@ ms.assetid: 4c135502-a6be-4d5d-b6ce-34b55f6e08b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

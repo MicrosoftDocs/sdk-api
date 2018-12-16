@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRowsetEvents interface [search],OnChangedItem method, IRowsetEvents.OnChangedItem, IRowsetEvents::OnChangedItem, OnChangedItem, OnChangedItem method [search], OnChangedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnChangedItem, search._search_IRowsetEvents_OnChangedItem, searchapi/IRowsetEvents::OnChangedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

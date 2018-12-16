@@ -9,8 +9,6 @@ ms.assetid: bbdc94b0-fa46-422a-bffc-32bbd1d49e5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Group method, ITACDGroupEvent.get_Group, ITACDGroupEvent::get_Group, _tapi3_itacdgroupevent_get_group, get_Group, get_Group method [TAPI 2.2], get_Group method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_group, tapi3cc/ITACDGroupEvent::get_Group
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

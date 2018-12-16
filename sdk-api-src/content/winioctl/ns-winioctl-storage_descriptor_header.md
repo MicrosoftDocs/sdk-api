@@ -9,8 +9,6 @@ ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

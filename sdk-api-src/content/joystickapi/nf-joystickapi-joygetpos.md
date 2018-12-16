@@ -9,8 +9,6 @@ ms.assetid: 84f6a19b-1573-4e36-8a2b-7c79b12bf8ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_joyGetPos, joyGetPos, joyGetPos function [Windows Multimedia], joystickapi/joyGetPos, multimedia.joygetpos"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: d0f1006c-2b6f-4bc9-855b-e268c27f6ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIN6_PKTINFO, IN6_PKTINFO, IN6_PKTINFO structure [Winsock], PIN6_PKTINFO, PIN6_PKTINFO structure pointer [Winsock], _win32_in6_pktinfo_2, in6_pktinfo, in6_pktinfo structure [Winsock], winsock.in6_pktinfo_2, ws2ipdef/PIN6_PKTINFO, ws2ipdef/in6_pktinfo, ws2tcpip/PIN6_PKTINFO, ws2tcpip/in6_pktinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

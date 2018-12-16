@@ -9,8 +9,6 @@ ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

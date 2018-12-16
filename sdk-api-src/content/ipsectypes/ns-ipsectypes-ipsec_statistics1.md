@@ -9,8 +9,6 @@ ms.assetid: d61d8eb5-1b0b-419e-a248-58541db8906b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_STATISTICS1, IPSEC_STATISTICS1 structure [Filtering], fwp.ipsec_statistics1_struct, ipsectypes/IPSEC_STATISTICS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskDefinition, ITaskDefinition interface [Task Scheduler], ITaskDefinition interface [Task Scheduler],described, taskschd.itaskdefinition, taskschd/ITaskDefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

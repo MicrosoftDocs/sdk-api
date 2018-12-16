@@ -9,8 +9,6 @@ ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

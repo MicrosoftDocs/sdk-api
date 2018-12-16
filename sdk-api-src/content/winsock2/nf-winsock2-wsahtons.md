@@ -9,8 +9,6 @@ ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

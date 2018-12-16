@@ -9,8 +9,6 @@ ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

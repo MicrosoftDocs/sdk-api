@@ -9,8 +9,6 @@ ms.assetid: 5e7aed65-63e1-4e7b-bccf-9a2485212432
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeIpInterfaceEntry, InitializeIpInterfaceEntry function [IP Helper], iphlp.initializeipinterfaceentry, netioapi/InitializeIpInterfaceEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\isthemebackgroundpartiallytr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsThemeBackgroundPartiallyTransparent, IsThemeBackgroundPartiallyTransparent function [Windows Controls], controls.IsThemeBackgroundPartiallyTransparent, controls.inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent_cpp, uxtheme/IsThemeBackgroundPartiallyTransparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

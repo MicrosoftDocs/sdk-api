@@ -9,8 +9,6 @@ ms.assetid: 5f68865a-dd9f-4428-9cbc-f998f0f1f4a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteInt method, IPersistQuery.WriteInt, IPersistQuery::WriteInt, WriteInt, WriteInt method [Active Directory], WriteInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writeint, ad.ipersistquery__writeint, ad.ipersistquery_writeint, cmnquery/IPersistQuery::WriteInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 

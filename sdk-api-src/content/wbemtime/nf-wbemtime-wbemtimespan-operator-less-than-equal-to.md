@@ -9,8 +9,6 @@ ms.assetid: 32fdd62d-1f48-4cf7-824e-18edf4fd7b95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator<= method, WBEMTimeSpan.operator-less-than-equal-to, WBEMTimeSpan.operator<=, WBEMTimeSpan::operator-less-than-equal-to, WBEMTimeSpan::operator<=, operator<=, operator<= method [Windows Management Instrumentation], operator<= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator<=, wmi.wbemtimespan_comparison_operators_lessthanorequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

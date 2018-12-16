@@ -9,8 +9,6 @@ ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

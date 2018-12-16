@@ -9,8 +9,6 @@ ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

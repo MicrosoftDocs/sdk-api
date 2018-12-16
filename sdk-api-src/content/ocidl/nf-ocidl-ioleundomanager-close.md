@@ -9,8 +9,6 @@ ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Close method, IOleUndoManager.Close, IOleUndoManager::Close, _ole_ioleundomanager_close, com.ioleundomanager_close, ocidl/IOleUndoManager::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

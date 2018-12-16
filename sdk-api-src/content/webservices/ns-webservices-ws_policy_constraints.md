@@ -9,8 +9,6 @@ ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_POLICY_CONSTRAINTS, WS_POLICY_CONSTRAINTS structure [Web Services for Windows], webservices/WS_POLICY_CONSTRAINTS, wsw.ws_policy_constraints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

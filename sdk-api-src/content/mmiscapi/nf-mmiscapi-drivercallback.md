@@ -9,8 +9,6 @@ ms.assetid: 89afeb47-0a98-4db1-8664-6a0fe66d3413
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCB_FUNCTION, DCB_NOSWITCH, DCB_TASK, DCB_WINDOW, DriverCallback, DriverCallback function [Windows Multimedia], _win32_DriverCallback, digitalv/DriverCallback, multimedia.drivercallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h

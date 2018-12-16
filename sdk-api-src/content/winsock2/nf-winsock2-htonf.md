@@ -9,8 +9,6 @@ ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: htonf, htonf function [Winsock], winsock.htonf, winsock2/htonf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

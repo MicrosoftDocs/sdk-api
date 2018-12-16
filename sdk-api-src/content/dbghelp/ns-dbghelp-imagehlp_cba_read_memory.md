@@ -9,8 +9,6 @@ ms.assetid: c5115fdc-aca6-4293-9c2b-82fd64ec7cb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY structure, PIMAGEHLP_CBA_READ_MEMORY, PIMAGEHLP_CBA_READ_MEMORY structure pointer, _IMAGEHLP_CBA_READ_MEMORY, _win32_imagehlp_cba_read_memory_str, base.imagehlp_cba_read_memory_str, dbghelp/IMAGEHLP_CBA_READ_MEMORY, dbghelp/PIMAGEHLP_CBA_READ_MEMORY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CharToOemBuff, CharToOemBuff function [Menus and Other Resources], CharToOemBuffA, CharToOemBuffW, _win32_CharToOemBuff, _win32_chartooembuff_cpp, menurc.chartooembuff, winui._win32_chartooembuff, winuser/CharToOemBuff, winuser/CharToOemBuffA, winuser/CharToOemBuffW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

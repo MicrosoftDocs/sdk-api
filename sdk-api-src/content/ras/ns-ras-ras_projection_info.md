@@ -9,8 +9,6 @@ ms.assetid: ca4fbaff-f035-4340-8d29-7dcddaf1b1bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO structure pointer [RAS], RAS_PROJECTION_INFO, RAS_PROJECTION_INFO structure [RAS], ras/PRAS_PROJECTION_INFO, ras/RAS_PROJECTION_INFO, rras.ras_projection_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ras.h
 req.include-header: 

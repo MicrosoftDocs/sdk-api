@@ -9,8 +9,6 @@ ms.assetid: 5779d5f8-74b1-4318-9fda-1dae3bf4a3f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Technologies], IMSVidFilePlayback2 interface [Microsoft TV Technologies],described, IMSVidFilePlayback2Interface, mstv.imsvidfileplayback2, segment/IMSVidFilePlayback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

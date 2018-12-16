@@ -9,8 +9,6 @@ ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storprop.h
 req.include-header: 

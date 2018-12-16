@@ -9,8 +9,6 @@ ms.assetid: 9584977d-41c4-4f73-8844-2135750ddb80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

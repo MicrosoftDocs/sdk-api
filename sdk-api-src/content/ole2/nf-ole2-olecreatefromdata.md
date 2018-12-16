@@ -9,8 +9,6 @@ ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreateFromData, com.olecreatefromdata, ole2/OleCreateFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

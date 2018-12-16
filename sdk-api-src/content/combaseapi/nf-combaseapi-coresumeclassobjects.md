@@ -9,8 +9,6 @@ ms.assetid: c2b6e8d8-99a1-4af3-9881-bfe6932e4a76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoResumeClassObjects, CoResumeClassObjects function [COM], _com_CoResumeClassObjects, com.coresumeclassobjects, combaseapi/CoResumeClassObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -9,8 +9,6 @@ ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive, monitor.setmonitorredgreenorbluedrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

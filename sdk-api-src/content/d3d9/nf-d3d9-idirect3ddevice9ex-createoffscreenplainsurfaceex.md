@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createoffscreenplainsurfaceex.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 63d121fa-1b4f-16db-b792-c30558006ddb, CreateOffscreenPlainSurfaceEx, CreateOffscreenPlainSurfaceEx method [Direct3D 9], CreateOffscreenPlainSurfaceEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateOffscreenPlainSurfaceEx method, IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx, IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, d3d9/IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, direct3d9.idirect3ddevice9ex_createoffscreenplainsurfaceex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

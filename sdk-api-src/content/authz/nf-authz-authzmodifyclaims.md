@@ -9,8 +9,6 @@ ms.assetid: A93CD1DD-4E87-4C6A-928A-F90AD7F1085E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzModifyClaims, AuthzModifyClaims function [Security], authz/AuthzModifyClaims, security.authzmodifyclaims
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

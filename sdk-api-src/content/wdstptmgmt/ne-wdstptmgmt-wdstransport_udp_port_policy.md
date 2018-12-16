@@ -9,8 +9,6 @@ ms.assetid: A2049125-B40A-44F0-83AF-C3F5B983ABAE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY enumeration [Windows Deployment Services], WDSTRANSPORT_UDP_PORT_POLICY,*PWDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY,*PWDSTRANSPORT_UDP_PORT_POLICY enumeration [Windows Deployment Services], WdsTptUdpPortPolicyDynamic, WdsTptUdpPortPolicyFixed, wds.wdstransport_udp_port_policy, wdstptmgmt/WDSTRANSPORT_UDP_PORT_POLICY, wdstptmgmt/WdsTptUdpPortPolicyDynamic, wdstptmgmt/WdsTptUdpPortPolicyFixed"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

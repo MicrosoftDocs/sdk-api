@@ -9,8 +9,6 @@ ms.assetid: 1bb2af58-21c1-45e1-a685-91d200e9b452
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [Web Services for Windows], webservices/WsSendFaultMessageForError, wsw.wssendfaultmessageforerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

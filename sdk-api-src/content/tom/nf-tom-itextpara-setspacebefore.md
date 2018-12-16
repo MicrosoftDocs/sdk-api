@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetSpaceBefore method, ITextPara.SetSpaceBefore, ITextPara::SetSpaceBefore, SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

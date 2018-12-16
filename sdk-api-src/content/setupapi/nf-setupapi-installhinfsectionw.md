@@ -9,8 +9,6 @@ ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

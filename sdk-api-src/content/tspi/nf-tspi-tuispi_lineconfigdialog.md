@@ -9,8 +9,6 @@ ms.assetid: 405af7aa-eb0b-49a1-9712-2f86357fc720
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TUISPI_lineConfigDialog, TUISPI_lineConfigDialog function [TAPI 2.2], _tspi_tuispi_lineconfigdialog, tspi.tuispi_lineconfigdialog, tspi/TUISPI_lineConfigDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

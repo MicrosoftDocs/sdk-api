@@ -9,8 +9,6 @@ ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 

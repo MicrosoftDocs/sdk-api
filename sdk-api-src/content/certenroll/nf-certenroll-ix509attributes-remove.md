@@ -9,8 +9,6 @@ ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

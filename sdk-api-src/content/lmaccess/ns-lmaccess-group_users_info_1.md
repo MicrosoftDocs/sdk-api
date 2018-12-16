@@ -9,8 +9,6 @@ ms.assetid: d92e7c18-f2c7-4ea5-8bb6-fec023272dbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPGROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, GROUP_USERS_INFO_1, GROUP_USERS_INFO_1 structure [Network Management], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, _win32_group_users_info_1_str, lmaccess/GROUP_USERS_INFO_1, netmgmt.group_users_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

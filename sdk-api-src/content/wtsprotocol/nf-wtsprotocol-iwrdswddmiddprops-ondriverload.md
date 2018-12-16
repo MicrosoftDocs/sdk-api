@@ -9,8 +9,6 @@ ms.assetid: 8070441A-60E1-4752-A987-A5BD322AA55A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverLoad method, IWRdsWddmIddProps.OnDriverLoad, IWRdsWddmIddProps::OnDriverLoad, OnDriverLoad, OnDriverLoad method [Remote Desktop Services], OnDriverLoad method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverload, wtsprotocol/IWRdsWddmIddProps::OnDriverLoad
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

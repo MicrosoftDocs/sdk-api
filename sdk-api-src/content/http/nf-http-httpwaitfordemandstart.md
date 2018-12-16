@@ -9,8 +9,6 @@ ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

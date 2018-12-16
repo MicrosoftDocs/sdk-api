@@ -9,8 +9,6 @@ ms.assetid: 0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

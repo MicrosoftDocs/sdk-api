@@ -9,8 +9,6 @@ ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

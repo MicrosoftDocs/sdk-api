@@ -9,8 +9,6 @@ ms.assetid: 01F2CC10-F59A-45dd-8A18-7DC33BDD717F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrChrNIW, StrChrNIW function [Windows Shell], shell.StrChrNIW, shlwapi/StrChrNIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

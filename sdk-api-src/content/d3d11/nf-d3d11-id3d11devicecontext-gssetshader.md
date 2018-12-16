@@ -9,8 +9,6 @@ ms.assetid: 6c42d028-b832-470c-ab15-1cf46a3f8414
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 52389497-00e9-1a7b-1543-a60e2a6b6479, GSSetShader, GSSetShader method [Direct3D 11], GSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetShader method, ID3D11DeviceContext.GSSetShader, ID3D11DeviceContext::GSSetShader, d3d11/ID3D11DeviceContext::GSSetShader, direct3d11.id3d11devicecontext_gssetshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cac491c9-3486-4eba-afe9-9e18f50c0643
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

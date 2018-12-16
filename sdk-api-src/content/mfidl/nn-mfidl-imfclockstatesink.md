@@ -9,8 +9,6 @@ ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

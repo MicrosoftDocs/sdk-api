@@ -9,8 +9,6 @@ ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 

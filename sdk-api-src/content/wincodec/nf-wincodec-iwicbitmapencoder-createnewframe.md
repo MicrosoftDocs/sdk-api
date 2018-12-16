@@ -9,8 +9,6 @@ ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

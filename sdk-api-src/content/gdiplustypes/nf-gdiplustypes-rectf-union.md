@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RectF class [GDI+],Union method, RectF.Union, RectF::Union, Union, Union method [GDI+], Union method [GDI+],RectF class, _gdiplus_CLASS_RectF_Union_c_a_b_, gdiplus._gdiplus_CLASS_RectF_Union_c_a_b_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

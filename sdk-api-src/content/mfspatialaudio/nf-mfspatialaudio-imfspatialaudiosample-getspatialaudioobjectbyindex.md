@@ -9,8 +9,6 @@ ms.assetid: 2B5A2D44-BA41-49FC-B4FD-9BCD9EE2D549
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpatialAudioObjectByIndex, GetSpatialAudioObjectByIndex method [Media Foundation], GetSpatialAudioObjectByIndex method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetSpatialAudioObjectByIndex method, IMFSpatialAudioSample.GetSpatialAudioObjectByIndex, IMFSpatialAudioSample::GetSpatialAudioObjectByIndex, mf.imfspatialaudiosample_getspatialaudioobjectbyindex, mfspatialaudio/IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

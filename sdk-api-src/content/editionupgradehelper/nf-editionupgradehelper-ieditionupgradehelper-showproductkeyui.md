@@ -9,8 +9,6 @@ ms.assetid: 504B3699-8837-4C14-959A-B3B4385E8932
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],ShowProductKeyUI method, IEditionUpgradeHelper.ShowProductKeyUI, IEditionUpgradeHelper::ShowProductKeyUI, ShowProductKeyUI, ShowProductKeyUI method [Windows API], ShowProductKeyUI method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI, winprog.ieditionupgradehelper_showproductkeyui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 

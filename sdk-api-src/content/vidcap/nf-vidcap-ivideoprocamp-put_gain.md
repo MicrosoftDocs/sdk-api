@@ -9,8 +9,6 @@ ms.assetid: 8256c1d9-ca3f-4b6a-921d-a424932927b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gain method, IVideoProcAmp.put_Gain, IVideoProcAmp::put_Gain, IVideoProcAmpput_Gain, dshow.ivideoprocamp_put_gain, put_Gain, put_Gain method [DirectShow], put_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

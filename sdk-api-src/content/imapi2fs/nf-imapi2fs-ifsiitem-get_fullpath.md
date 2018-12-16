@@ -9,8 +9,6 @@ ms.assetid: fb2d6f13-a833-42a3-abbd-39f86b95082d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiItem interface [IMAPI],get_FullPath method, IFsiItem.get_FullPath, IFsiItem::get_FullPath, get_FullPath, get_FullPath method [IMAPI], get_FullPath method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_fullpath, imapi2fs/IFsiItem::get_FullPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

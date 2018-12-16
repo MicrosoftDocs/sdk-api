@@ -9,8 +9,6 @@ ms.assetid: a5535cf9-ba8c-4212-badd-f1dc88903624
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptFreeObject, NCryptFreeObject function [Security], ncrypt/NCryptFreeObject, security.ncryptfreeobject_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9e76487c-465c-4d15-82d0-ed2a21decc33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureXml method, IXpsSignature.GetSignatureXml, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

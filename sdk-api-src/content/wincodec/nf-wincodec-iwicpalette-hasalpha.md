@@ -9,8 +9,6 @@ ms.assetid: 7c2cd523-04e4-4f19-b7f3-cc2af7604283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasAlpha, HasAlpha method [Windows Imaging Component], HasAlpha method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],HasAlpha method, IWICPalette.HasAlpha, IWICPalette::HasAlpha, _wic_codec_iwicpalette_hasalpha, wic._wic_codec_iwicpalette_hasalpha, wincodec/IWICPalette::HasAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

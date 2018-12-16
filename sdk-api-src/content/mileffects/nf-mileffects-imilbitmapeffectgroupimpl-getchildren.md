@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getchild
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChildren, GetChildren method [WPF Bitmap Effects], GetChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetChildren method, IMILBitmapEffectGroupImpl.GetChildren, IMILBitmapEffectGroupImpl::GetChildren, _wibe_imilbitmapeffectgroupimpl_getchildren, mileffects/IMILBitmapEffectGroupImpl::GetChildren, wibe._wibe_imilbitmapeffectgroupimpl_getchildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

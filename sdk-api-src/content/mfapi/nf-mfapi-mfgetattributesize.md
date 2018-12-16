@@ -9,8 +9,6 @@ ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 609311f4-9cd6-4945-9f93-7266b3fc4a74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT structure [Security], PCERT_CHAIN_CONTEXT, PCERT_CHAIN_CONTEXT structure pointer [Security], _crypto2_cert_chain_context, security.cert_chain_context, wincrypt/CERT_CHAIN_CONTEXT, wincrypt/PCERT_CHAIN_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

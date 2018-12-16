@@ -9,8 +9,6 @@ ms.assetid: caae9e8c-6d42-4bbc-a66a-bdde1009469d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities method, IAMExtendedSeeking.get_ExSeekCapabilities, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

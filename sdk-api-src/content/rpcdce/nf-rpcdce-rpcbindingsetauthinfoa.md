@@ -9,8 +9,6 @@ ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

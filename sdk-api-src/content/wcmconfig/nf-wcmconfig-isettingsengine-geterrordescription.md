@@ -9,8 +9,6 @@ ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

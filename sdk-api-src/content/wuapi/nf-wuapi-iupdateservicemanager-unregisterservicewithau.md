@@ -9,8 +9,6 @@ ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

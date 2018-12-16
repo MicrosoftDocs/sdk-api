@@ -9,8 +9,6 @@ ms.assetid: 47a05287-8950-4277-b981-a19bff918bae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRPOLYBEZIER, *PEMRPOLYBEZIERTO, *PEMRPOLYGON, *PEMRPOLYLINE, *PEMRPOLYLINETO, EMRPOLYBEZIER, EMRPOLYBEZIER structure [Windows GDI], EMRPOLYBEZIERTO, EMRPOLYBEZIERTO structure [Windows GDI], EMRPOLYGON, EMRPOLYGON structure [Windows GDI], EMRPOLYLINE, EMRPOLYLINE structure [Windows GDI], EMRPOLYLINE,EMRPOLYBEZIER,EMRPOLYGON,EMRPOLYBEZIERTO,EMRPOLYLINETO, EMRPOLYLINE,EMRPOLYBEZIER,EMRPOLYGON,EMRPOLYBEZIERTO,EMRPOLYLINETO structure [Windows GDI], EMRPOLYLINETO, EMRPOLYLINETO structure [Windows GDI], PEMRPOLYBEZIER, PEMRPOLYBEZIER structure pointer [Windows GDI], PEMRPOLYBEZIERTO, PEMRPOLYBEZIERTO structure pointer [Windows GDI], PEMRPOLYGON, PEMRPOLYGON structure pointer [Windows GDI], PEMRPOLYLINE, PEMRPOLYLINE structure pointer [Windows GDI], PEMRPOLYLINETO, PEMRPOLYLINETO structure pointer [Windows GDI], _win32_EMRPOLYLINE_str, gdi.emrpolyline__emrpolybezier__emrpolygon__emrpolybezierto__emrpolylineto, wingdi/EMRPOLYBEZIER, wingdi/EMRPOLYBEZIERTO, wingdi/EMRPOLYGON, wingdi/EMRPOLYLINE,EMRPOLYBEZIER,EMRPOLYGON,EMRPOLYBEZIERTO,EMRPOLYLINETO, wingdi/EMRPOLYLINETO, wingdi/PEMRPOLYBEZIER, wingdi/PEMRPOLYBEZIERTO, wingdi/PEMRPOLYGON, wingdi/PEMRPOLYLINE, wingdi/PEMRPOLYLINETO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

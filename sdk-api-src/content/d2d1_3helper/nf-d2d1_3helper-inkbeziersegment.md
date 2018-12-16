@@ -9,8 +9,6 @@ ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InkBezierSegment, InkBezierSegment function [Direct2D], d2d1_3helper/InkBezierSegment, direct2d.inkbeziersegment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_3helper.h
 req.include-header: 

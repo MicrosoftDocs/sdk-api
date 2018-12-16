@@ -9,8 +9,6 @@ ms.assetid: 6EF5C8D0-C614-4520-BAE5-A3C8E609FB64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNoise method, IDCompositionTurbulenceEffect.SetNoise, IDCompositionTurbulenceEffect::SetNoise, SetNoise, SetNoise method [DirectComposition], SetNoise method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNoise, directcomp.idcompositionturbulenceeffect_setnoise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

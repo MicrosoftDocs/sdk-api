@@ -9,8 +9,6 @@ ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: msdrmdefs.h
 req.include-header: 

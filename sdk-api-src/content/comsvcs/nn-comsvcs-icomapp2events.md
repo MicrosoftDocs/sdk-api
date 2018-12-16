@@ -9,8 +9,6 @@ ms.assetid: 45e0d26b-7485-436b-9b64-fa48217b32d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComApp2Events, IComApp2Events interface [COM+], IComApp2Events interface [COM+],described, _dtc_icomapp2events, comsvcs/IComApp2Events, cos.icomapp2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

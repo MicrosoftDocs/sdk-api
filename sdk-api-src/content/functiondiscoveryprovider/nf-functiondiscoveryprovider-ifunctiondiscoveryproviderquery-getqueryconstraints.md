@@ -9,8 +9,6 @@ ms.assetid: a8329732-79dd-4606-96c3-40534cde5fc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetQueryConstraints, GetQueryConstraints method, GetQueryConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetQueryConstraints method, IFunctionDiscoveryProviderQuery.GetQueryConstraints, IFunctionDiscoveryProviderQuery::GetQueryConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints, ncd.ifunctiondiscoveryproviderquery_getqueryconstraints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

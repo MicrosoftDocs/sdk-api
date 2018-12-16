@@ -9,8 +9,6 @@ ms.assetid: eb1c9172-b520-4f6e-ae15-52634aa30007
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFunctionName, AddFunctionName method [Tablet PC], AddFunctionName method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],AddFunctionName method, IMathInputControl.AddFunctionName, IMathInputControl::AddFunctionName, micaut/IMathInputControl::AddFunctionName, tablet.imathinputcontrol_addfunctionname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

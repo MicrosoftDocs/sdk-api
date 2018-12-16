@@ -9,8 +9,6 @@ ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 

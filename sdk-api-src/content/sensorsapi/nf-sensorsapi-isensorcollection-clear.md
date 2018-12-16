@@ -9,8 +9,6 @@ ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

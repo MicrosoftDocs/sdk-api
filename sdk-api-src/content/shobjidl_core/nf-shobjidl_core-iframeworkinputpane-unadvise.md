@@ -9,8 +9,6 @@ ms.assetid: E4187EC2-DD8F-4e3c-BD0C-B5AD4B02E943
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFrameworkInputPane interface [Windows Shell],Unadvise method, IFrameworkInputPane.Unadvise, IFrameworkInputPane::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFrameworkInputPane interface, shell.IFrameworkInputPane_Unadvise, shobjidl_core/IFrameworkInputPane::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

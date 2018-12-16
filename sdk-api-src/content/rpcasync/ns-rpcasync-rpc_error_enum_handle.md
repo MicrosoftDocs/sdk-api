@@ -9,8 +9,6 @@ ms.assetid: d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RPC_ERROR_ENUM_HANDLE, RPC_ERROR_ENUM_HANDLE structure [RPC], _rpc_rpc_error_enum_handle, rpc.rpc_error_enum_handle, rpcasync/RPC_ERROR_ENUM_HANDLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 0da19bef-a0b3-43d7-88e5-9270bb98b20c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4237e481-1c5a-7131-becc-969cb6271e8e, GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 11], GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D11InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d11.id3d11infoqueue_getnumstoredmessagesallowedbyretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

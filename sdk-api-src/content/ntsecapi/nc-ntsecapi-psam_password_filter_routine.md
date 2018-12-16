@@ -9,8 +9,6 @@ ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSAM_PASSWORD_FILTER_ROUTINE, PSAM_PASSWORD_FILTER_ROUTINE callback, PasswordFilter, PasswordFilter callback function [Security], _pswd_passwordfilter, ntsecapi/PasswordFilter, security.passwordfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntsecapi.h
 req.include-header: 

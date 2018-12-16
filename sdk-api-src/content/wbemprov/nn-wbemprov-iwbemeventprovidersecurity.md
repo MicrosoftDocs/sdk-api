@@ -9,8 +9,6 @@ ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

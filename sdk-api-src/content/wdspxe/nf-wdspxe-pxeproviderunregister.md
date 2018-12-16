@@ -9,8 +9,6 @@ ms.assetid: b468d865-c680-4f72-a10c-3d91542df8d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeProviderUnRegister, PxeProviderUnRegister function [Windows Deployment Services], wds.pxeproviderunregister, wdspxe/PxeProviderUnRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

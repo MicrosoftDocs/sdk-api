@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectionmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetSelectionMark, ListView_SetSelectionMark macro [Windows Controls], _win32_ListView_SetSelectionMark, _win32_ListView_SetSelectionMark_cpp, commctrl/ListView_SetSelectionMark, controls.ListView_SetSelectionMark, controls._win32_ListView_SetSelectionMark
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

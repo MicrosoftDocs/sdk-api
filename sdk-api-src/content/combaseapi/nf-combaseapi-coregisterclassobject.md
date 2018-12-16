@@ -9,8 +9,6 @@ ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

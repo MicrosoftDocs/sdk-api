@@ -9,8 +9,6 @@ ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

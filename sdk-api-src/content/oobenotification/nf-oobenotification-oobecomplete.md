@@ -9,8 +9,6 @@ ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oobenotification.h
 req.include-header: 

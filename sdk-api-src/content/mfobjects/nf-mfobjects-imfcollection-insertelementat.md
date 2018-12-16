@@ -9,8 +9,6 @@ ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, IMFCollection.InsertElementAt, IMFCollection::InsertElementAt, InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation],IMFCollection interface, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

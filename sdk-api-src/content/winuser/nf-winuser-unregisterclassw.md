@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterClass, UnregisterClass function [Windows and Messages], UnregisterClassA, UnregisterClassW, _win32_UnregisterClass, _win32_unregisterclass_cpp, winmsg.unregisterclass, winui._win32_unregisterclass, winuser/UnregisterClass, winuser/UnregisterClassA, winuser/UnregisterClassW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

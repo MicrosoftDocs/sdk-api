@@ -9,8 +9,6 @@ ms.assetid: 015faeb3-82d9-49e5-a451-7394bf83240f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGetNextItem, PeerGetNextItem function [Peer Networking], p2p.peergetnextitem, p2p/PeerGetNextItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6c76ca94-b7bc-4590-be0b-6d6f499dda5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcRemoveObjectArrayElement, EcRemoveObjectArrayElement function, evcoll/EcRemoveObjectArrayElement, wec.ecremoveobjectarrayelement, wes.ecremoveobjectarrayelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

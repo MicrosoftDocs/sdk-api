@@ -9,8 +9,6 @@ ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement function, _win32_interlockeddecrement, base.interlockeddecrement, winnt/InterlockedDecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

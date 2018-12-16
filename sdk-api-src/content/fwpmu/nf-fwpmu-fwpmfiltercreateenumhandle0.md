@@ -9,8 +9,6 @@ ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

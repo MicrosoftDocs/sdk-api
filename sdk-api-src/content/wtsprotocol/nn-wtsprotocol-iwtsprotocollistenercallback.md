@@ -9,8 +9,6 @@ ms.assetid: 607fcb85-4602-4651-b246-3e32c8868e47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolListenerCallback, IWTSProtocolListenerCallback interface [Remote Desktop Services], IWTSProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwtsprotocollistenercallback, wtsprotocol/IWTSProtocolListenerCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

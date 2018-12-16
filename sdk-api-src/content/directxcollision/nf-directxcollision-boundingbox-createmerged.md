@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateMerged(Bo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateMerged method, BoundingBox.CreateMerged, BoundingBox::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateMerged, Use DirectX::::BoundingBox::CreateMerged, dxmath.boundingbox_createmerged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

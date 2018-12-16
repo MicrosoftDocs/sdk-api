@@ -9,8 +9,6 @@ ms.assetid: 9e067c22-772d-48d2-baae-abc8067efb09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList function [Tablet PC], recapis/SetWordList, tablet.setwordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

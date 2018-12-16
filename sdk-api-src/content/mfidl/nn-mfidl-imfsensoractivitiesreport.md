@@ -9,8 +9,6 @@ ms.assetid: CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSensorActivitiesReport, IMFSensorActivitiesReport interface [Media Foundation], IMFSensorActivitiesReport interface [Media Foundation],described, mf.imfsensoractivitiesreport, mfidl/IMFSensorActivitiesReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

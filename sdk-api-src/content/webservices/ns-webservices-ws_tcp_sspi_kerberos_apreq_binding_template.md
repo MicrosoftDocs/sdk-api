@@ -9,8 +9,6 @@ ms.assetid: 3856d462-baa3-49c7-8f14-f116d16efce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_tcp_sspi_kerberos_apreq_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

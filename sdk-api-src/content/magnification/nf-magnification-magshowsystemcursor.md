@@ -9,8 +9,6 @@ ms.assetid: 0C4D92D8-9B06-4592-A0FF-8AE4378E5641
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

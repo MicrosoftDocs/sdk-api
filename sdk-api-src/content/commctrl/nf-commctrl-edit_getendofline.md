@@ -9,8 +9,6 @@ ms.assetid: 27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], commctrl/Edit_GetEndOfLine, controls.edit_getendofline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 973834cc-0798-414f-a937-5ab14c214559
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIRQ_RANGE, IRQ_RANGE, IRQ_RANGE structure [Device and Driver Installation], PIRQ_RANGE, PIRQ_RANGE structure pointer [Device and Driver Installation], cfgmgr32/IRQ_RANGE, cfgmgr32/PIRQ_RANGE, cfgmgrst_6ee86ca7-d07d-4f1b-9c94-96766a5fd4cb.xml, devinst.irq_range"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

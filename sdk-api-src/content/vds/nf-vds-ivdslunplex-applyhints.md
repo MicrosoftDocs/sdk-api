@@ -9,8 +9,6 @@ ms.assetid: 66299644-4b70-4cd3-ae99-4d4084c3c3c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],ApplyHints method, IVdsLunPlex.ApplyHints, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

@@ -9,8 +9,6 @@ ms.assetid: 0c6f24fa-47df-401c-afe8-84bf2987dd36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 

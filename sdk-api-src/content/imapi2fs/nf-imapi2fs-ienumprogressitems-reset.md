@@ -9,8 +9,6 @@ ms.assetid: 9cb652f6-1507-46e3-ab44-582ce060a775
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Reset method, IEnumProgressItems.Reset, IEnumProgressItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

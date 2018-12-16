@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\log.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaLog interface [WIA],Log method, IWiaLog.Log, IWiaLog::Log, Log, Log method [WIA], Log method [WIA],IWiaLog interface, _wia_IWiaLog_Log, wia._wia_IWiaLog_Log, wia_xp/IWiaLog::Log
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

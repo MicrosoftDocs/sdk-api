@@ -9,8 +9,6 @@ ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

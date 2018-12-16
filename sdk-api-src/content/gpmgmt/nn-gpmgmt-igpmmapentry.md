@@ -9,8 +9,6 @@ ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMMapEntry, IGPMMapEntry, IGPMMapEntry interface [GPMC], IGPMMapEntry interface [GPMC],described, gpmc.igpmmapentry, gpmgmt/IGPMMapEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

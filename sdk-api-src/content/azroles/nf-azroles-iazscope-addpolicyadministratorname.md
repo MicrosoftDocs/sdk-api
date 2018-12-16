@@ -9,8 +9,6 @@ ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzScope object, AddPolicyAdministratorName method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministratorName method, IAzScope interface [Security],AddPolicyAdministratorName method, IAzScope.AddPolicyAdministratorName, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

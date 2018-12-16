@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragmove.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_DragMove, ImageList_DragMove function [Windows Controls], _win32_ImageList_DragMove, _win32_ImageList_DragMove_cpp, commctrl/ImageList_DragMove, controls.ImageList_DragMove, controls._win32_ImageList_DragMove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

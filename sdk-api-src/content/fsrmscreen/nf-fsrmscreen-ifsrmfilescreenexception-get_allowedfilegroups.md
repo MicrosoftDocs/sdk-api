@@ -9,8 +9,6 @@ ms.assetid: e02070dd-a51d-4572-a282-4e5a151cd987
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowedFileGroups property [File Server Resource Manager], AllowedFileGroups property [File Server Resource Manager],IFsrmFileScreenException interface, IFsrmFileScreenException interface [File Server Resource Manager],AllowedFileGroups property, IFsrmFileScreenException.AllowedFileGroups, IFsrmFileScreenException.get_AllowedFileGroups, IFsrmFileScreenException::AllowedFileGroups, IFsrmFileScreenException::get_AllowedFileGroups, IFsrmFileScreenException::put_AllowedFileGroups, fs.ifsrmfilescreenexception_allowedfilegroups, fsrm.ifsrmfilescreenexception_allowedfilegroups, fsrmscreen/IFsrmFileScreenException::AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::get_AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::put_AllowedFileGroups, get_AllowedFileGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

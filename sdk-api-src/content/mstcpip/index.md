@@ -2,7 +2,7 @@
 UID: NA:mstcpip
 ms.assetid: 5795aad3-d73f-3d60-acb3-db3855cccafa
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: 028250e7-7415-4643-b798-af0112c1ea93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary2, IWMPLibrary2 interface [Windows Media Player], IWMPLibrary2 interface [Windows Media Player],described, wmp.iwmplibrary2, wmp/IWMPLibrary2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

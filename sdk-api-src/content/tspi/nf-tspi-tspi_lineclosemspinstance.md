@@ -9,8 +9,6 @@ ms.assetid: 700824ed-05a1-4fb5-adf1-491e1dea7bf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineCloseMSPInstance, TSPI_lineCloseMSPInstance function [TAPI 2.2], _tspi_tspi_lineclosemspinstance, tspi.tspi_lineclosemspinstance, tspi/TSPI_lineCloseMSPInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

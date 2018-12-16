@@ -9,8 +9,6 @@ ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

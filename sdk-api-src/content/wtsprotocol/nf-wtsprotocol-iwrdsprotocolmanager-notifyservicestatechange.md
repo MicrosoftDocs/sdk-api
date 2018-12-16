@@ -9,8 +9,6 @@ ms.assetid: 32b2a05a-d5de-4f2f-bcaa-587cf22aa5c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

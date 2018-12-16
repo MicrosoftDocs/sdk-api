@@ -9,8 +9,6 @@ ms.assetid: 2825cb65-94b4-4bed-acff-7fa35a992284
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO structure [Peer Networking], PPEER_PNRP_REGISTRATION_INFO, PPEER_PNRP_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_pnrp_registration_info, p2p/PEER_PNRP_REGISTRATION_INFO, p2p/PPEER_PNRP_REGISTRATION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

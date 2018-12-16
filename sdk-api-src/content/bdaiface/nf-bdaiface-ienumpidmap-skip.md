@@ -9,8 +9,6 @@ ms.assetid: e611e5a0-beb1-4a31-974a-29b2b8349a17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Skip method, IEnumPIDMap.Skip, IEnumPIDMap::Skip, IEnumPIDMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Skip, dshow.ienumpidmap_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

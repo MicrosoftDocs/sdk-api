@@ -9,8 +9,6 @@ ms.assetid: 4ec41f09-8278-48ad-838f-9f796617a683
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnSuspendComplete method, ICameraUIControlEventCallback.OnSuspendComplete, ICameraUIControlEventCallback::OnSuspendComplete, OnSuspendComplete, OnSuspendComplete method [Windows API], OnSuspendComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnSuspendComplete, winprog.icamerauicontroleventcallback_onsuspendcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

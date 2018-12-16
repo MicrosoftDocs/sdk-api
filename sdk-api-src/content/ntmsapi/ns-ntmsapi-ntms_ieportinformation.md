@@ -9,8 +9,6 @@ ms.assetid: e932a482-12d8-4fb2-bbbc-0e0cf6ee0b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NTMS_IEPORTINFORMATION, NTMS_IEPORTINFORMATION structure [Files], NTMS_PORTCONTENT_EMPTY, NTMS_PORTCONTENT_FULL, NTMS_PORTCONTENT_UNKNOWN, NTMS_PORTPOSITION_EXTENDED, NTMS_PORTPOSITION_RETRACTED, NTMS_PORTPOSITION_UNKNOWN, _zaw_ntms_ieportinformation, base.ntms_ieportinformation, fs.ntms_ieportinformation, ntmsapi/NTMS_IEPORTINFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

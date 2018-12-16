@@ -9,8 +9,6 @@ ms.assetid: 210AEE22-0AFD-43B1-8380-8A67D17AB7CB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedSinkProtocolInfo method, IActiveBasicDevice.SetCachedSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::SetCachedSinkProtocolInfo, IActiveBasicDevice::streaming, SetCachedSinkProtocolInfo, SetCachedSinkProtocolInfo method [Media Streaming API], SetCachedSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_setcachedsinkprotocolinfo, windows/IActiveBasicDevice::SetCachedSinkProtocolInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

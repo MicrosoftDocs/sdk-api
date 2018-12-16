@@ -9,8 +9,6 @@ ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

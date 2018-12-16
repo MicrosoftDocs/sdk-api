@@ -9,8 +9,6 @@ ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6e803d93-5b55-4b73-8e23-a584f5f91969
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantGetStringElem, PropVariantGetStringElem function [Windows Properties], _shell_PropVariantGetStringElem, properties.PropVariantGetStringElem, propvarutil/PropVariantGetStringElem, shell.PropVariantGetStringElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

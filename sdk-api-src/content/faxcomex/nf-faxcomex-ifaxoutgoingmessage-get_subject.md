@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_0h84.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Subject property, IFaxOutgoingMessage.Subject, IFaxOutgoingMessage.get_Subject, IFaxOutgoingMessage::Subject, IFaxOutgoingMessage::get_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.subject, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_subject_cpp, fax._mfax_faxoutgoingmessage_subject, faxcomex/IFaxOutgoingMessage::Subject, faxcomex/IFaxOutgoingMessage::get_Subject, get_Subject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

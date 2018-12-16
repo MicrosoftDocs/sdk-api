@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowsource.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagGetWindowSource, MagGetWindowSource function [Magnification API], magapi.magapi_MagGetWindowSource, magapi_MagGetWindowSource, magnification/MagGetWindowSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

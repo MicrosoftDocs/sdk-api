@@ -9,8 +9,6 @@ ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

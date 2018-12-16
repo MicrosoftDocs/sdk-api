@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillClosedCurve, FillClosedCurve method [GDI+], FillClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],FillClosedCurve method, Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const Point,IN INT,IN FillMode,IN REAL), Graphics.FillClosedCurve(const Brush*,const Point*,INT,FillMode,REAL), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const Point,IN INT,IN FillMode,IN REAL), _gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_FillMode_fillMode_REAL_te, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_FillMode_fillMode_REAL_te
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 09af4bfc-2427-4992-b508-fe9a7ac150d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMultiMediaStream, GetMultiMediaStream method [DirectShow], GetMultiMediaStream method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],GetMultiMediaStream method, IMediaStream.GetMultiMediaStream, IMediaStream::GetMultiMediaStream, IMediaStreamGetMultiMediaStream, dshow.imediastream_getmultimediastream, mmstream/IMediaStream::GetMultiMediaStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

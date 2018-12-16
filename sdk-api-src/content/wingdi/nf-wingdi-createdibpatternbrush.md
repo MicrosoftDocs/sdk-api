@@ -9,8 +9,6 @@ ms.assetid: d123ef44-e047-4188-a2bc-20e479869dc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDIBPatternBrush, CreateDIBPatternBrush function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrush, gdi.createdibpatternbrush, wingdi/CreateDIBPatternBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

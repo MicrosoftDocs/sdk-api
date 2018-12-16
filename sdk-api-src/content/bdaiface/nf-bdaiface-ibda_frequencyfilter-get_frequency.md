@@ -9,8 +9,6 @@ ms.assetid: 0eba0f92-45a7-4c5e-9450-f3c7a176288c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Frequency method, IBDA_FrequencyFilter.get_Frequency, IBDA_FrequencyFilter::get_Frequency, IBDA_FrequencyFilterget_Frequency, bdaiface/IBDA_FrequencyFilter::get_Frequency, get_Frequency, get_Frequency method [Microsoft TV Technologies], get_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_frequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

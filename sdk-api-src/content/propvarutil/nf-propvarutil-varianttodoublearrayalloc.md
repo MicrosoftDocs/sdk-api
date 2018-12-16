@@ -9,8 +9,6 @@ ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

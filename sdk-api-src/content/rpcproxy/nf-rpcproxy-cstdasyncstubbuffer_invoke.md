@@ -9,8 +9,6 @@ ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

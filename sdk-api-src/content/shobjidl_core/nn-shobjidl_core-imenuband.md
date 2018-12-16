@@ -9,8 +9,6 @@ ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

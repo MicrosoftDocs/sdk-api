@@ -9,8 +9,6 @@ ms.assetid: ce067aca-8bb4-48ac-b466-9080d2166bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsConfig method, IServiceSxsConfig.SxsConfig, IServiceSxsConfig::SxsConfig, SxsConfig, SxsConfig method [COM+], SxsConfig method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsConfig, comsvcs/IServiceSxsConfig::SxsConfig, cos.iservicesxsconfig_sxsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

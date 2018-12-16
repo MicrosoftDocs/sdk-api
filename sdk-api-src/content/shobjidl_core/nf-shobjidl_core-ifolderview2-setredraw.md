@@ -9,8 +9,6 @@ ms.assetid: 870a72e2-25fc-421f-bd46-961bf71981cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetRedraw method, IFolderView2.SetRedraw, IFolderView2::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetRedraw, shell.IFolderView2_SetRedraw, shobjidl_core/IFolderView2::SetRedraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

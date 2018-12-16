@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_8s4v.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBGROUPINFO, DBGROUPINFO structure [Indexing Service], _idxs_DBGROUPINFO, cmdtree/DBGROUPINFO, indexsrv.dbgroupinfo, tagDBGROUPINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

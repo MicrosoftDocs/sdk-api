@@ -9,8 +9,6 @@ ms.assetid: 7455998a-56a8-4fc1-882b-c0942fd35d8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFolder, AddFolder method [Windows Shell], AddFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],AddFolder method, IShellLibrary.AddFolder, IShellLibrary::AddFolder, _shell_IShellLibrary_AddFolder, shell.IShellLibrary_AddFolder, shobjidl_core/IShellLibrary::AddFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

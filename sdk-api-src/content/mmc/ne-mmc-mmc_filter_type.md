@@ -9,8 +9,6 @@ ms.assetid: 69e6952c-baea-42ac-9700-1f9a4b8d5e67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MMC_FILTER_NOVALUE, MMC_FILTER_TYPE, MMC_FILTER_TYPE enumeration [MMC], MMC_INT_FILTER, MMC_STRING_FILTER, _slate_mmc_filter_type, mmc.mmc_filter_type, mmc/MMC_FILTER_NOVALUE, mmc/MMC_FILTER_TYPE, mmc/MMC_INT_FILTER, mmc/MMC_STRING_FILTER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

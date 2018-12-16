@@ -9,8 +9,6 @@ ms.assetid: E7578D74-E8BE-472D-A01B-51BBA511F561
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0381c653-05e1-417c-beee-40c4aa4271f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateSecureChannel_Certified, WMCreateSecureChannel_Certified function [windows Media Format], wmformat.wmcreatesecurechannel_certified, wmsecure/WMCreateSecureChannel_Certified
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsecure.h
 req.include-header: 

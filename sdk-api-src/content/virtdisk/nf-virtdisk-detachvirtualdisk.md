@@ -9,8 +9,6 @@ ms.assetid: 9b3874e1-e107-42f8-9ede-eb1eb6164ed2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vdssys/DetachVirtualDisk, vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

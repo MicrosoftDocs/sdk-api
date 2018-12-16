@@ -9,8 +9,6 @@ ms.assetid: 5b00ab76-880b-4450-a6b2-fda399cc9e8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnServerCertificateReceived method, IXMLHTTPRequest3Callback.OnServerCertificateReceived, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

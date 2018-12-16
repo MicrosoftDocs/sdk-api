@@ -9,8 +9,6 @@ ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macro [Failover Cluster], _wolf_clusprop_property_name_declare, clusapi/CLUSPROP_PROPERTY_NAME_DECLARE, mscs.clusprop_property_name_declare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

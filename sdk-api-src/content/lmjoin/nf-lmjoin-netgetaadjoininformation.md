@@ -9,8 +9,6 @@ ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: 

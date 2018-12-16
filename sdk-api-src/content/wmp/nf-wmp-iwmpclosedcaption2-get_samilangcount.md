@@ -9,8 +9,6 @@ ms.assetid: 6de8bef5-f0d1-498b-a482-e3f1c3e53c24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],get_SAMILangCount method, IWMPClosedCaption2.get_SAMILangCount, IWMPClosedCaption2::get_SAMILangCount, IWMPClosedCaption2get_SAMILangCount, get_SAMILangCount, get_SAMILangCount method [Windows Media Player], get_SAMILangCount method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_get_samilangcount, wmp/IWMPClosedCaption2::get_SAMILangCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 905d4453-96d4-4055-8a17-36714c547cdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

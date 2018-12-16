@@ -9,8 +9,6 @@ ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

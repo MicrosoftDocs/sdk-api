@@ -9,8 +9,6 @@ ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "__WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

@@ -9,8 +9,6 @@ ms.assetid: e5cb1a15-29c4-4e0f-aed2-eafe12ea007a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], ITuneRequestInfo interface [Microsoft TV Technologies],described, ITuneRequestInfoInterface, bdatif/ITuneRequestInfo, mstv.itunerequestinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

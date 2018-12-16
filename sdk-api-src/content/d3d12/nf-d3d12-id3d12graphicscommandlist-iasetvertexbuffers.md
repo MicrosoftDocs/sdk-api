@@ -9,8 +9,6 @@ ms.assetid: AADD6CEF-376D-43AB-86E6-37B5D7DD0B25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method, IASetVertexBuffers method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetVertexBuffers method, ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

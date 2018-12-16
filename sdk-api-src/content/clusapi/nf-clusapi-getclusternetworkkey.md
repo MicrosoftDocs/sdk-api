@@ -9,8 +9,6 @@ ms.assetid: c5d914b4-0419-4c03-bed4-ecb87e44db5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterNetworkKey, GetClusterNetworkKey function [Failover Cluster], _wolf_getclusternetworkkey, clusapi/GetClusterNetworkKey, mscs.getclusternetworkkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

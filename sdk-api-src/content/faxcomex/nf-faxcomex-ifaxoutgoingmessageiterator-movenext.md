@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_5b04.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],MoveNext method, IFaxOutgoingMessageIterator.MoveNext, IFaxOutgoingMessageIterator::MoveNext, MoveNext, MoveNext method [Fax Service], MoveNext method [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.movenext, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movenext_cpp, fax._mfax_faxoutgoingmessageiterator_movenext, faxcomex/IFaxOutgoingMessageIterator::MoveNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

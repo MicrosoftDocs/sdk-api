@@ -9,8 +9,6 @@ ms.assetid: c1dbe76f-5cc0-4c12-98bb-2586ee8773d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],AudioLanguageChange method, IWMPEvents.AudioLanguageChange, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

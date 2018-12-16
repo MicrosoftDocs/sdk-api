@@ -9,8 +9,6 @@ ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

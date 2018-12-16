@@ -9,8 +9,6 @@ ms.assetid: 941a9715-533e-489c-87b0-27a04be1d80e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_lineunpark, tspi.tspi_lineunpark, tspi/TSPI_lineUnpark
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

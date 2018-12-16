@@ -9,8 +9,6 @@ ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataManager property, IDataCollectorSet.DataManager, IDataCollectorSet.get_DataManager, IDataCollectorSet::DataManager, IDataCollectorSet::get_DataManager, base.idatacollectorset_get_datamanager, get_DataManager, pla.idatacollectorset_get_datamanager, pla/IDataCollectorSet::DataManager, pla/IDataCollectorSet::get_DataManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

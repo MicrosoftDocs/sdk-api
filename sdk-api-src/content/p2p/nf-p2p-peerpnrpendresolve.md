@@ -9,8 +9,6 @@ ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

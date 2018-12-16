@@ -9,8 +9,6 @@ ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

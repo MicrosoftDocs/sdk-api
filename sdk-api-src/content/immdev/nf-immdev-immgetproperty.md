@@ -9,8 +9,6 @@ ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

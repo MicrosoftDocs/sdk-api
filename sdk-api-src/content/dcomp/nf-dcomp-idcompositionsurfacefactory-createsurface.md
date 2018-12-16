@@ -9,8 +9,6 @@ ms.assetid: C65CD072-C00E-409B-B508-C12CE4ACE73F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

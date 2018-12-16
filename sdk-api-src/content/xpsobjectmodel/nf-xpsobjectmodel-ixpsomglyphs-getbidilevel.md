@@ -9,8 +9,6 @@ ms.assetid: 17110bb7-1ae9-41ef-aed1-8f1c00569825
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

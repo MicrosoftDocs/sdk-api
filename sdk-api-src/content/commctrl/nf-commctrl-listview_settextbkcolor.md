@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetTextBkColor, ListView_SetTextBkColor macro [Windows Controls], _win32_ListView_SetTextBkColor, _win32_ListView_SetTextBkColor_cpp, commctrl/ListView_SetTextBkColor, controls.ListView_SetTextBkColor, controls._win32_ListView_SetTextBkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

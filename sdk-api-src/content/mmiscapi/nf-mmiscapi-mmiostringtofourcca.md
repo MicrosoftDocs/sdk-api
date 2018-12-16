@@ -9,8 +9,6 @@ ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

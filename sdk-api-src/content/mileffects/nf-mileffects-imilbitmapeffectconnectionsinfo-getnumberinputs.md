@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\ge
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberInputs, GetNumberInputs method [WPF Bitmap Effects], GetNumberInputs method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetNumberInputs method, IMILBitmapEffectConnectionsInfo.GetNumberInputs, IMILBitmapEffectConnectionsInfo::GetNumberInputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberinputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

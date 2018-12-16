@@ -9,8 +9,6 @@ ms.assetid: e2913f85-a5e7-43c9-a23c-81d836c9a259
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION structure, _WSD_SECURITY_SIGNATURE_VALIDATION, ncd.wsd_security_signature_validation, wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Windows.h

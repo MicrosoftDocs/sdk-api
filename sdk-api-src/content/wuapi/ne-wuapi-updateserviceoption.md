@@ -9,8 +9,6 @@ ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

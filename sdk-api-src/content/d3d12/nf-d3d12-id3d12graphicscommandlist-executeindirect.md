@@ -9,8 +9,6 @@ ms.assetid: 99FB088D-F3EB-4BAD-A945-51A1ED6F9288
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExecuteIndirect, ExecuteIndirect method, ExecuteIndirect method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteIndirect method, ID3D12GraphicsCommandList.ExecuteIndirect, ID3D12GraphicsCommandList::ExecuteIndirect, d3d12/ID3D12GraphicsCommandList::ExecuteIndirect, direct3d12.id3d12graphicscommandlist_executeindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

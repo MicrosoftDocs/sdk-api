@@ -9,8 +9,6 @@ ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

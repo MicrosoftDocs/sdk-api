@@ -9,8 +9,6 @@ ms.assetid: fa4b8682-4f99-425d-8ae7-a510e109fe64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfFunctionProviders interface, IEnumTfFunctionProviders interface [Text Services Framework],Clone method, IEnumTfFunctionProviders.Clone, IEnumTfFunctionProviders::Clone, _tsf_ienumtffunctionproviders_clone_ref, msctf/IEnumTfFunctionProviders::Clone, tsf.ienumtffunctionproviders_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

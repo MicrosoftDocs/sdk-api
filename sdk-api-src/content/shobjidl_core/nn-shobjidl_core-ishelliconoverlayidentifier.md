@@ -9,8 +9,6 @@ ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

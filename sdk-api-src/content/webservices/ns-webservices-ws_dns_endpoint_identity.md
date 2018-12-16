@@ -9,8 +9,6 @@ ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY, WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_DNS_ENDPOINT_IDENTITY, wsw.ws_dns_endpoint_identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

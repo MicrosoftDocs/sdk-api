@@ -9,8 +9,6 @@ ms.assetid: aa99bdf3-29b7-4865-8935-810388f3d2b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX structure, PMINIDUMP_THREAD_EX, PMINIDUMP_THREAD_EX structure pointer, _MINIDUMP_THREAD_EX, _win32_minidump_thread_ex_str, base.minidump_thread_ex_str, minidumpapiset/MINIDUMP_THREAD_EX, minidumpapiset/PMINIDUMP_THREAD_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

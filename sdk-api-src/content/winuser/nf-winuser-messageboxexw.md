@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, MessageBoxExW, _win32_MessageBoxEx, _win32_messageboxex_cpp, dlgbox.messageboxex, winui._win32_messageboxex, winuser/MessageBoxEx, winuser/MessageBoxExA, winuser/MessageBoxExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

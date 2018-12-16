@@ -9,8 +9,6 @@ ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

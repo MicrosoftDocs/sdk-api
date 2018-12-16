@@ -9,8 +9,6 @@ ms.assetid: 32408600-5118-47fb-890b-9c31faef2299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MoveClusterGroup, MoveClusterGroup function [Failover Cluster], PCLUSAPI_MOVE_CLUSTER_GROUP, PCLUSAPI_MOVE_CLUSTER_GROUP function [Failover Cluster], _wolf_moveclustergroup, clusapi/MoveClusterGroup, clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP, mscs.moveclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

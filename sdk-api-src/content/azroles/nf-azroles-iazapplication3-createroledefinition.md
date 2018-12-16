@@ -9,8 +9,6 @@ ms.assetid: 014410be-4b2c-452b-b671-0a9bd9c0a448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleDefinition method, IAzApplication3.CreateRoleDefinition, IAzApplication3::CreateRoleDefinition, azroles/IAzApplication3::CreateRoleDefinition, security.iazapplication3_createroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

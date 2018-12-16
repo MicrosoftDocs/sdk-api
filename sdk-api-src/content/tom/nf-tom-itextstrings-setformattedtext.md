@@ -9,8 +9,6 @@ ms.assetid: 4ebf7b46-8398-4751-b8b3-19e94fdbce87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStrings interface [Windows Controls],SetFormattedText method, ITextStrings.SetFormattedText, ITextStrings::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStrings interface, controls.itextstrings_setformattedtext, tom/ITextStrings::SetFormattedText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

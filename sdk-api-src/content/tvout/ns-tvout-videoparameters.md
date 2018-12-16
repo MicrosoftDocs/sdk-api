@@ -9,8 +9,6 @@ ms.assetid: 1f889c5b-2a9a-468e-8612-a7c5359f92d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPVIDEOPARAMETERS, *PVIDEOPARAMETERS, LPVIDEOPARAMETERS, LPVIDEOPARAMETERS structure pointer [Display Devices], PVIDEOPARAMETERS, PVIDEOPARAMETERS structure pointer [Display Devices], VIDEOPARAMETERS, VIDEOPARAMETERS structure [Display Devices], Video_Structs_58a5b287-2296-4c62-be8e-33147cfe0167.xml, display.videoparameters, tvout/LPVIDEOPARAMETERS, tvout/PVIDEOPARAMETERS, tvout/VIDEOPARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tvout.h
 req.include-header: Tvout.h

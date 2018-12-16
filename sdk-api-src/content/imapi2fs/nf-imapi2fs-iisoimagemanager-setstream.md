@@ -9,8 +9,6 @@ ms.assetid: 3ee540aa-8ccc-40cb-afc8-b1790cabee6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetStream method, IIsoImageManager.SetStream, IIsoImageManager::SetStream, SetStream, SetStream method [IMAPI], SetStream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setstream, imapi2fs/IIsoImageManager::SetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ADBF5402-C1B5-4A10-92DF-E9F5706F52A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO, D3D12_RESOURCE_ALLOCATION_INFO structure, d3d12/D3D12_RESOURCE_ALLOCATION_INFO, direct3d12.d3d12_resource_allocation_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

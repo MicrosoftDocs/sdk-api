@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+],PathGradientBrush constructor, PathGradientBrush constructor [GDI+], PathGradientBrush constructor [GDI+],PathGradientBrush class, PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const GraphicsPath), PathGradientBrush.PathGradientBrush(const GraphicsPath*), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const GraphicsPath), _gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

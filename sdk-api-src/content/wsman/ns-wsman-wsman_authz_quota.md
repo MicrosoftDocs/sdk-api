@@ -9,8 +9,6 @@ ms.assetid: dff093be-34cb-4e31-b3ff-b1ad8ecc7069
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_AUTHZ_QUOTA, WSMAN_AUTHZ_QUOTA structure [Windows Remote Management], winrm.wsman_authz_quota, wsman/WSMAN_AUTHZ_QUOTA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

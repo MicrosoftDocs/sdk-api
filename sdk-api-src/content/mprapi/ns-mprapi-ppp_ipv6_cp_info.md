@@ -9,8 +9,6 @@ ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PPPP_IPV6_CP_INFO, PPPP_IPV6_CP_INFO structure pointer [RAS], PPP_IPV6_CP_INFO, PPP_IPV6_CP_INFO structure [RAS], mprapi/PPPP_IPV6_CP_INFO, mprapi/PPP_IPV6_CP_INFO, rras.ppp_ipv6cp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

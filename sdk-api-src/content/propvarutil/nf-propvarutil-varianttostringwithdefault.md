@@ -9,8 +9,6 @@ ms.assetid: f8ca7844-057f-4e95-a4a9-f03f1d2ad492
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToStringWithDefault, VariantToStringWithDefault function [Windows Properties], _shell_VariantToStringWithDefault, properties.VariantToStringWithDefault, propvarutil/VariantToStringWithDefault, shell.VariantToStringWithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

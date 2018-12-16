@@ -9,8 +9,6 @@ ms.assetid: 6e62b55e-9919-44be-a9ae-f1319cc82d76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

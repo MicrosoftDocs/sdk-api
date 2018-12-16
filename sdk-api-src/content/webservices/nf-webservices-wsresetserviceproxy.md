@@ -9,8 +9,6 @@ ms.assetid: 6a99c958-92f9-4487-8768-3265dab7f0ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

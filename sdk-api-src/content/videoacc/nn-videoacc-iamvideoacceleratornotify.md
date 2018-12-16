@@ -9,8 +9,6 @@ ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: videoacc.h
 req.include-header: 

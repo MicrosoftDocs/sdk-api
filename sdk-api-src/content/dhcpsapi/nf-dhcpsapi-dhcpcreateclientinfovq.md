@@ -9,8 +9,6 @@ ms.assetid: 8b47bd52-e153-4000-9f4e-5335f029464b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpCreateClientInfoVQ, DhcpCreateClientInfoVQ function [DHCP], dhcp.dhcpcreateclientinfovq, dhcpsapi/DhcpCreateClientInfoVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

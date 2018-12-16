@@ -9,8 +9,6 @@ ms.assetid: 109fefb7-a5fc-44d2-80c0-9a08ce8d91bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES function [Failover Cluster], ResUtilEnumResources, ResUtilEnumResources function [Failover Cluster], _wolf_resutilenumresources, mscs.resutilenumresources, resapi/PRESUTIL_ENUM_RESOURCES, resapi/ResUtilEnumResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

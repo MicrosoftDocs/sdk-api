@@ -9,8 +9,6 @@ ms.assetid: C34629CB-7F8C-4126-BBE3-BF506D7586E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XPS_DOCUMENT_TYPE, XPS_DOCUMENT_TYPE enumeration [XPS Documents and Packaging], XPS_DOCUMENT_TYPE_OPENXPS, XPS_DOCUMENT_TYPE_UNSPECIFIED, XPS_DOCUMENT_TYPE_XPS, xps.xps_document_type, xpsobjectmodel_1/XPS_DOCUMENT_TYPE, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_OPENXPS, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_UNSPECIFIED, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_XPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xpsobjectmodel_1.h
 req.include-header: 

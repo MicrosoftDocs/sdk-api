@@ -9,8 +9,6 @@ ms.assetid: cab93e8e-d91d-47b6-9b33-adcf06fb9e41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMSOM class [GPMC],GetGPOLinks method, GetGPOLinks, GetGPOLinks method [GPMC], GetGPOLinks method [GPMC],GPMSOM class, GetGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetGPOLinks method, IGPMSOM.GetGPOLinks, IGPMSOM::GetGPOLinks, _win32_igpmsom_getgpolinks, gpmc.igpmsom_getgpolinks, gpmgmt/IGPMSOM::GetGPOLinks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

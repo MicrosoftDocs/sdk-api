@@ -9,8 +9,6 @@ ms.assetid: 1d67be55-ed00-4e41-9319-10947d1d88a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableSimilarity, EnableSimilarity method [Remote Differential Compression], EnableSimilarity method [Remote Differential Compression],IRdcSimilarityGenerator interface, IRdcSimilarityGenerator interface [Remote Differential Compression],EnableSimilarity method, IRdcSimilarityGenerator.EnableSimilarity, IRdcSimilarityGenerator::EnableSimilarity, fs.irdcsimilaritygenerator_enablesimilarity, msrdc/IRdcSimilarityGenerator::EnableSimilarity, rdc.irdcsimilaritygenerator_enablesimilarity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

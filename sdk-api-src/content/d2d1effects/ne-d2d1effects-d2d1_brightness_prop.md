@@ -9,8 +9,6 @@ ms.assetid: 7D3CEF7A-AF72-451B-8E6A-A9DF8E85EDE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_BRIGHTNESS_PROP, D2D1_BRIGHTNESS_PROP enumeration [Direct2D], D2D1_BRIGHTNESS_PROP_BLACK_POINT, D2D1_BRIGHTNESS_PROP_WHITE_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP, d2d1effects/D2D1_BRIGHTNESS_PROP_BLACK_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP_WHITE_POINT, direct2d.d2d1_brightness_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

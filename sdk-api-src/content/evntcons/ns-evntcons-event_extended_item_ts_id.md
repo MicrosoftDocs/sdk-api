@@ -9,8 +9,6 @@ ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a35e0565-2833-45d3-b7dc-cf05bf644e96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportTransform method, IDirectManipulationViewport.SetViewportTransform, IDirectManipulationViewport::SetViewportTransform, SetViewportTransform, SetViewportTransform method [Direct Manipulation], SetViewportTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewporttransform, directmanipulation/IDirectManipulationViewport::SetViewportTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3d60358c-8aa6-4b30-a46e-ce0e15964b5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp/ReBaseImage64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

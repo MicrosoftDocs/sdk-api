@@ -9,8 +9,6 @@ ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorBack method, ITextRow.SetCellColorBack, ITextRow::SetCellColorBack, SetCellColorBack, SetCellColorBack method [Windows Controls], SetCellColorBack method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorback, tom/ITextRow::SetCellColorBack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

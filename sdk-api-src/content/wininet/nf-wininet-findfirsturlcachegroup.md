@@ -9,8 +9,6 @@ ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7f88432f-052f-4781-8346-31c8a0771e51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows Applications], _win32_ScriptPlace, intl.scriptplace, usp10/ScriptPlace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

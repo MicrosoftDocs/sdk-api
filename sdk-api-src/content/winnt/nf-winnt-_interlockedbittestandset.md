@@ -9,8 +9,6 @@ ms.assetid: 26c1f4b5-02db-4316-ab5d-23e60fc6b116
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedBitTestAndSet, InterlockedBitTestAndSet function, _interlockedbittestandset, base.interlockedbittestandset, winnt/InterlockedBitTestAndSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

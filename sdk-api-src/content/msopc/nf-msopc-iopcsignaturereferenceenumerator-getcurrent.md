@@ -9,8 +9,6 @@ ms.assetid: 3bbf1a09-4d59-466f-ac48-2e4e67232ed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureReferenceEnumerator.GetCurrent, IOpcSignatureReferenceEnumerator::GetCurrent, msopc/IOpcSignatureReferenceEnumerator::GetCurrent, opc.iopcsignaturereferenceenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

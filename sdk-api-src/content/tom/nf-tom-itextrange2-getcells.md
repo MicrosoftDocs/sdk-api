@@ -9,8 +9,6 @@ ms.assetid: caaee637-d80a-44c6-9d9b-ed16a980afd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCells, GetCells method [Windows Controls], GetCells method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCells method, ITextRange2.GetCells, ITextRange2::GetCells, controls.itextrange2_getcells, tom/ITextRange2::GetCells
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

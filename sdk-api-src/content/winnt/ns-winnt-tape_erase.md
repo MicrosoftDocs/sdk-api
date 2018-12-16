@@ -9,8 +9,6 @@ ms.assetid: 6b621635-7499-4819-95d8-bce17ef11146
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTAPE_ERASE, PTAPE_ERASE, PTAPE_ERASE structure pointer [Backup], TAPE_ERASE, TAPE_ERASE structure [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _TAPE_ERASE, _win32_tape_erase_str, backup.tape_erase_str, winnt/PTAPE_ERASE, winnt/TAPE_ERASE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

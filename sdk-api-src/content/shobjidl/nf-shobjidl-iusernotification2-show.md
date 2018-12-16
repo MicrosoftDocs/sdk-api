@@ -9,8 +9,6 @@ ms.assetid: 928e9a78-6976-4dcb-b01d-766561f6a861
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],Show method, IUserNotification2.Show, IUserNotification2::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_Show, shell.IUserNotification2_Show, shobjidl/IUserNotification2::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

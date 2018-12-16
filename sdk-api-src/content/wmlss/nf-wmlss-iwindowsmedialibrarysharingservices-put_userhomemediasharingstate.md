@@ -9,8 +9,6 @@ ms.assetid: d638da61-8196-4d46-ad98-fd7ab8a19e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState, put_userHomeMediaSharingState, put_userHomeMediaSharingState method [Windows Media Library Sharing Services], put_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

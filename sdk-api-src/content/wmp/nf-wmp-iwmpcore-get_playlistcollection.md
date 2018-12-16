@@ -9,8 +9,6 @@ ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

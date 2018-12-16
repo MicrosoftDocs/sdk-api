@@ -9,8 +9,6 @@ ms.assetid: ACB83321-C193-41E6-84D8-493334E30885
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastLineWrapping, GetLastLineWrapping method [Direct Write], GetLastLineWrapping method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetLastLineWrapping method, IDWriteTextLayout2.GetLastLineWrapping, IDWriteTextLayout2::GetLastLineWrapping, directwrite.idwritetextlayout2_getlastlinewrapping, dwrite_2/IDWriteTextLayout2::GetLastLineWrapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

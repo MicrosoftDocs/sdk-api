@@ -9,8 +9,6 @@ ms.assetid: 1fff1400-61d9-494f-857d-53626b80c2d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImportTarget, GetImportTarget method [VDS], GetImportTarget method [VDS],IVdsSubSystemImportTarget interface, IVdsSubSystemImportTarget interface [VDS],GetImportTarget method, IVdsSubSystemImportTarget.GetImportTarget, IVdsSubSystemImportTarget::GetImportTarget, base.ivdssubsystemimporttarget_getimporttarget, vds/IVdsSubSystemImportTarget::GetImportTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

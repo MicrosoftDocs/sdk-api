@@ -9,8 +9,6 @@ ms.assetid: fb9012c6-be41-4ec6-bb1a-73bd7896738f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITask interface [Task Scheduler],SetMaxRunTime method, ITask.SetMaxRunTime, ITask::SetMaxRunTime, SetMaxRunTime, SetMaxRunTime method [Task Scheduler], SetMaxRunTime method [Task Scheduler],ITask interface, _msb_itask_setmaxruntime, mstask/ITask::SetMaxRunTime, taskschd.itask_setmaxruntime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

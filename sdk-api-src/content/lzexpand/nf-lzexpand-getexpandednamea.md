@@ -9,8 +9,6 @@ ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

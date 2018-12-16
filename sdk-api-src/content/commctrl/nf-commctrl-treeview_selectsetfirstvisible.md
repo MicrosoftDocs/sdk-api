@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectsetfirstvisibl
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SelectSetFirstVisible, TreeView_SelectSetFirstVisible macro [Windows Controls], _win32_TreeView_SelectSetFirstVisible, _win32_TreeView_SelectSetFirstVisible_cpp, commctrl/TreeView_SelectSetFirstVisible, controls.TreeView_SelectSetFirstVisible, controls._win32_TreeView_SelectSetFirstVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

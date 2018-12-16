@@ -9,8 +9,6 @@ ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

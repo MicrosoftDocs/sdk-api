@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\draglb\structures\draglistinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDRAGLISTINFO, DL_BEGINDRAG, DL_CANCELDRAG, DL_DRAGGING, DL_DROPPED, DRAGLISTINFO, DRAGLISTINFO structure [Windows Controls], LPDRAGLISTINFO, LPDRAGLISTINFO structure pointer [Windows Controls], _win32_DRAGLISTINFO, _win32_DRAGLISTINFO_cpp, commctrl/DRAGLISTINFO, commctrl/LPDRAGLISTINFO, controls.DRAGLISTINFO, controls._win32_DRAGLISTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

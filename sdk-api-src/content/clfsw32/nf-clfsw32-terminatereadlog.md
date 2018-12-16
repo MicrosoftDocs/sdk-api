@@ -9,8 +9,6 @@ ms.assetid: fb0a4c4e-cdb7-4c42-9102-bc76b8b70193
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TerminateReadLog, TerminateReadLog function [Files], clfsw32/TerminateReadLog, fs.terminatereadlog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

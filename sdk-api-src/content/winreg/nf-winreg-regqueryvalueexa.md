@@ -9,8 +9,6 @@ ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

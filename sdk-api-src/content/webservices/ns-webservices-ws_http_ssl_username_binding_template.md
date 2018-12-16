@@ -9,8 +9,6 @@ ms.assetid: df8d66bf-4407-4316-bc15-214b3b00de41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE, WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE, wsw.ws_http_ssl_username_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

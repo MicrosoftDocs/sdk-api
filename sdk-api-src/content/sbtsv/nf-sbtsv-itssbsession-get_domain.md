@@ -9,8 +9,6 @@ ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],Domain property, ITsSbSession.Domain, ITsSbSession.get_Domain, ITsSbSession::Domain, ITsSbSession::get_Domain, get_Domain, sbtsv/ITsSbSession::Domain, sbtsv/ITsSbSession::get_Domain, termserv.itssbsession_domain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

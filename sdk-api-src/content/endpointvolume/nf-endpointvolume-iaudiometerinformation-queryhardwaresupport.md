@@ -9,8 +9,6 @@ ms.assetid: 3f68a459-8c10-46f5-be5c-67b693d65b8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioMeterInformation interface [Core Audio],QueryHardwareSupport method, IAudioMeterInformation.QueryHardwareSupport, IAudioMeterInformation::QueryHardwareSupport, IAudioMeterInformationQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioMeterInformation interface, coreaudio.iaudiometerinformation_queryhardwaresupport, endpointvolume/IAudioMeterInformation::QueryHardwareSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

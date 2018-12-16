@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(const SolidBrush &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(const SolidBrush &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

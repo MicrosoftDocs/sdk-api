@@ -9,8 +9,6 @@ ms.assetid: 6038C7E9-AED6-49D2-8D96-907E973A64B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

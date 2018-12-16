@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, winui._win32_hszpair_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

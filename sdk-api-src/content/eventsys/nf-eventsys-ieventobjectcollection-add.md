@@ -9,8 +9,6 @@ ms.assetid: ca08e56a-2ade-4209-a61a-b9dae021e888
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Add method, IEventObjectCollection.Add, IEventObjectCollection::Add, _cos_IEventObjectCollection_Add, cos.ieventobjectcollection_add, eventsys/IEventObjectCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

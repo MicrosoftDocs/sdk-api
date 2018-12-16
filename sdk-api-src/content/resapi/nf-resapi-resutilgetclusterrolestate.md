@@ -9,8 +9,6 @@ ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 54a3ad75-8aa9-4e1b-b9ea-006f3b2cbf29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExistingCACertificate property [Security], ExistingCACertificate property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],ExistingCACertificate property, ICertSrvSetupKeyInformation.ExistingCACertificate, ICertSrvSetupKeyInformation.put_ExistingCACertificate, ICertSrvSetupKeyInformation::ExistingCACertificate, ICertSrvSetupKeyInformation::get_ExistingCACertificate, ICertSrvSetupKeyInformation::put_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::get_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::put_ExistingCACertificate, put_ExistingCACertificate, security.icertsrvsetupkeyinformation_existingcacertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

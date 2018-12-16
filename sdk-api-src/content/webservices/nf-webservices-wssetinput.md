@@ -9,8 +9,6 @@ ms.assetid: d7ac5233-266e-4ca1-aa58-e50b385b48bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSetInput, WsSetInput function [Web Services for Windows], webservices/WsSetInput, wsw.wssetinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 043670D7-5908-40B5-82A8-EFF05FCB391B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_REGISTER_FLAGS, CF_REGISTER_FLAGS enumeration, CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, CF_REGISTER_FLAG_NONE, CF_REGISTER_FLAG_UPDATE, cfapi/CF_REGISTER_FLAGS, cfapi/CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, cfapi/CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, cfapi/CF_REGISTER_FLAG_NONE, cfapi/CF_REGISTER_FLAG_UPDATE, cloudApi.cf_register_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

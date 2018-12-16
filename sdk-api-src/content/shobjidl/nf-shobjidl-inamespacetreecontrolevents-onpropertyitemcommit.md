@@ -9,8 +9,6 @@ ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

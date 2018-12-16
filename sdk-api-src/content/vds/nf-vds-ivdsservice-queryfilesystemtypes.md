@@ -9,8 +9,6 @@ ms.assetid: 17dcafc8-8faf-4dc2-af24-7e1ab257201e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

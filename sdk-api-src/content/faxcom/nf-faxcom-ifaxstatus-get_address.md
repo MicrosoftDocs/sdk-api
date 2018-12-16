@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_76er.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Address property [Fax Service], Address property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Address property, IFaxStatus.Address, IFaxStatus.get_Address, IFaxStatus::Address, IFaxStatus::get_Address, _mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_address_cpp, faxcom/IFaxStatus::Address, faxcom/IFaxStatus::get_Address, get_Address
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

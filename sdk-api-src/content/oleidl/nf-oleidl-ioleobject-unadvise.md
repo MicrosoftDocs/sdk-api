@@ -9,8 +9,6 @@ ms.assetid: e3d63a75-30b0-4fe5-9a1d-c70820583765
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IOleObject::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleObject interface, _ole_ioleobject_unadvise, com.ioleobject_unadvise, oleidl/IOleObject::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

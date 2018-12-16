@@ -9,8 +9,6 @@ ms.assetid: 51d8b35f-883c-4e47-a0e6-af6c8ade8e54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [Display Devices], ddrawint/DD_MAPMEMORYDATA, ddstrcts_8ed973e1-2324-4dba-bcff-78442d5f33ee.xml, display.dd_mapmemorydata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

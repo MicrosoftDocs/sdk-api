@@ -9,8 +9,6 @@ ms.assetid: 62980401-84ba-40af-a0c0-36d24c4d68f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetPacketIntegrity, MI_DestinationOptions_SetPacketIntegrity function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketIntegrity, wmi_v2.mi_destinationoptions_setpacketintegrity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

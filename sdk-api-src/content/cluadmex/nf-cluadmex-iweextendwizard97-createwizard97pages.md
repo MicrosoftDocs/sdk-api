@@ -9,8 +9,6 @@ ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster], CreateWizard97Pages method [Failover Cluster],IWEExtendWizard97 interface, IWEExtendWizard97 interface [Failover Cluster],CreateWizard97Pages method, IWEExtendWizard97.CreateWizard97Pages, IWEExtendWizard97::CreateWizard97Pages, _wolf_iweextendwizard97_createwizard97pages, cluadmex/IWEExtendWizard97::CreateWizard97Pages, mscs.iweextendwizard97_createwizard97pages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

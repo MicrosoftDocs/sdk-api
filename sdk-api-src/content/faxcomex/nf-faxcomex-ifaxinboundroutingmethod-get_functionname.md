@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_76p1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],FunctionName property, IFaxInboundRoutingMethod.FunctionName, IFaxInboundRoutingMethod.get_FunctionName, IFaxInboundRoutingMethod::FunctionName, IFaxInboundRoutingMethod::get_FunctionName, _mfax_faxinboundroutingmethod.functionname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_functionname_cpp, fax._mfax_faxinboundroutingmethod_functionname, faxcomex/IFaxInboundRoutingMethod::FunctionName, faxcomex/IFaxInboundRoutingMethod::get_FunctionName, get_FunctionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

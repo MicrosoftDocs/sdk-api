@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_4bhg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBID, DBID structure [Indexing Service], _idxs_DBID, indexsrv.dbid, oledbguid/DBID, tagDBID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oledbguid.h
 req.include-header: 

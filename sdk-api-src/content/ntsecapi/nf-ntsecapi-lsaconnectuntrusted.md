@@ -9,8 +9,6 @@ ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_lsaconnectuntrusted, ntsecapi/LsaConnectUntrusted, security.lsaconnectuntrusted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

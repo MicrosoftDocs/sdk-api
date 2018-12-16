@@ -9,8 +9,6 @@ ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

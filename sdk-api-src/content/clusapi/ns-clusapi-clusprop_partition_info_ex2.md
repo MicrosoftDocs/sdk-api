@@ -9,8 +9,6 @@ ms.assetid: D6D26335-80D0-4949-99B4-FE18DD2FFF3C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

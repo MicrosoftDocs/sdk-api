@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_62r7_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingGroups, IFaxOutboundRoutingGroups interface [Fax Service], IFaxOutboundRoutingGroups interface [Fax Service],described, _mfax_faxoutboundroutinggroups_cpp, fax._mfax_faxoutboundroutinggroups_cpp, faxcomex/IFaxOutboundRoutingGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

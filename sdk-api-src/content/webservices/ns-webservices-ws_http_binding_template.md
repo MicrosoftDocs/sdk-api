@@ -9,8 +9,6 @@ ms.assetid: 88e68c68-61d1-4156-b5a8-c8d213a89240
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_BINDING_TEMPLATE, WS_HTTP_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_BINDING_TEMPLATE, wsw.ws_http_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

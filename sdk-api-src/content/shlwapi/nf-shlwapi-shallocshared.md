@@ -9,8 +9,6 @@ ms.assetid: 0388b6a0-24d9-48eb-bef2-3a1658d8bb3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAllocShared, shell.SHAllocShared, shlwapi/SHAllocShared
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

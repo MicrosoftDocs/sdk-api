@@ -9,8 +9,6 @@ ms.assetid: 36a3251a-0d8b-404b-8839-e0724b251cd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetStatusWindowPos, ImmSetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmSetStatusWindowPos, imm/ImmSetStatusWindowPos, intl.immsetstatuswindowpos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

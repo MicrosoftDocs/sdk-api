@@ -9,8 +9,6 @@ ms.assetid: e9273bd6-8dc3-4b45-bf0e-a1a10d78a604
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetMediaControl, TSPI_lineSetMediaControl function [TAPI 2.2], _tspi_tspi_linesetmediacontrol, tspi.tspi_linesetmediacontrol, tspi/TSPI_lineSetMediaControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

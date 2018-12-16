@@ -9,8 +9,6 @@ ms.assetid: 8ACEFFBD-2F58-427D-8DB9-907A088A127B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDcHuffmanTable, GetDcHuffmanTable method [Windows Imaging Component], GetDcHuffmanTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetDcHuffmanTable method, IWICJpegFrameEncode.GetDcHuffmanTable, IWICJpegFrameEncode::GetDcHuffmanTable, wic.iwicjpegframeencode_getdchuffmantable, wincodec/IWICJpegFrameEncode::GetDcHuffmanTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

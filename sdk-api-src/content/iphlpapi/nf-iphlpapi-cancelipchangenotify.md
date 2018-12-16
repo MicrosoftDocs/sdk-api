@@ -9,8 +9,6 @@ ms.assetid: 10795401-003f-45ce-80f1-ccc31659298a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], iphlp.cancelipchangenotify, iphlpapi/CancelIPChangeNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

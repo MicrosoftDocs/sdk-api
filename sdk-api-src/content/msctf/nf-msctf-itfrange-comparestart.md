@@ -9,8 +9,6 @@ ms.assetid: b84375ec-e00a-4cb3-97b7-f10688814968
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "+1, -1, 0, CompareStart, CompareStart method [Text Services Framework], CompareStart method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareStart method, ITfRange.CompareStart, ITfRange::CompareStart, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_comparestart_ref, msctf/ITfRange::CompareStart, tsf.itfrange_comparestart"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

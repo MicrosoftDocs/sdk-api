@@ -9,8 +9,6 @@ ms.assetid: 8ab62c4b-6db2-4a52-b015-a1d635e1edd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_CAPTURE_PARMSW, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_PARMS structure [Windows Multimedia], MCI_DGV_CAPTURE_PARMSW, _win32_MCI_DGV_CAPTURE_PARMS_str, digitalv/MCI_DGV_CAPTURE_PARMS, multimedia.mci_dgv_capture_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

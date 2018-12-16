@@ -9,8 +9,6 @@ ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 81e48318-b6a4-4b1a-8b78-21c00b9dc485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

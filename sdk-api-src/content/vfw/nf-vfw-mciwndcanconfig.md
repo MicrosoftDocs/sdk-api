@@ -9,8 +9,6 @@ ms.assetid: 63d3721a-41e6-46cd-a95a-ac3a82a422f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndCanConfig, MCIWndCanConfig macro [Windows Multimedia], _win32_MCIWndCanConfig, multimedia.mciwndcanconfig, vfw/MCIWndCanConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

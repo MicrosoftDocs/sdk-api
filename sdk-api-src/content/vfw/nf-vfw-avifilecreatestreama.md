@@ -9,8 +9,6 @@ ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

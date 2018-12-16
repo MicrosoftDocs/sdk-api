@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

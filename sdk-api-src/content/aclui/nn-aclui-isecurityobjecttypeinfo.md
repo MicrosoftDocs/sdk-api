@@ -9,8 +9,6 @@ ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityObjectTypeInfo, ISecurityObjectTypeInfo interface [Security], ISecurityObjectTypeInfo interface [Security],described, aclui/ISecurityObjectTypeInfo, security.isecurityobjecttypeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 

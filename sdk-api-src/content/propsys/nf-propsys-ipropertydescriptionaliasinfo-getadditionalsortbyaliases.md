@@ -9,8 +9,6 @@ ms.assetid: fb7c105b-6e81-4837-ad00-8886abbe108f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdditionalSortByAliases, GetAdditionalSortByAliases method [Windows Properties], GetAdditionalSortByAliases method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetAdditionalSortByAliases method, IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases, IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, _shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

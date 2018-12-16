@@ -9,8 +9,6 @@ ms.assetid: 18fcc708-74b1-408f-a7ee-64455742324d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager], WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_DATA, WCM_CONNECTION_COST_DATA structure [Windows Connection Manager], WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, wcm.wcm_connection_cost_data, wcmapi/PWCM_CONNECTION_COST_DATA, wcmapi/WCM_CONNECTION_COST_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

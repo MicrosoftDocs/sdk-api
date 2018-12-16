@@ -9,8 +9,6 @@ ms.assetid: b740772b-d25b-4b3d-9acb-03f7018750d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELECT_DISALLOW_SELFSIGNED, CERT_SELECT_HARDWARE_ONLY, CERT_SELECT_HAS_KEY_FOR_KEY_EXCHANGE, CERT_SELECT_HAS_KEY_FOR_SIGNATURE, CERT_SELECT_HAS_PRIVATE_KEY, CERT_SELECT_TRUSTED_ROOT, CertSelectCertificateChains, CertSelectCertificateChains function [Security], security.certselectcertificatechains, wincrypt/CertSelectCertificateChains
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c2fcdcc1-acca-417e-bcf5-baad4ea07cef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFeeNameW method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetFeeNameW method, IIsdbCAContractInformationDescriptor.GetFeeNameW, IIsdbCAContractInformationDescriptor::GetFeeNameW, dvbsiparser/IIsdbCAContractInformationDescriptor::GetFeeNameW, mstv.iisdbcacontractinformationdescriptor_getfeenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

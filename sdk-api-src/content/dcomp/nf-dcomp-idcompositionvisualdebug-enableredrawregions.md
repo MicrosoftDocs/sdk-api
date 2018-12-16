@@ -9,8 +9,6 @@ ms.assetid: 71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableRedrawRegions, EnableRedrawRegions method [DirectComposition], EnableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableRedrawRegions method, IDCompositionVisualDebug.EnableRedrawRegions, IDCompositionVisualDebug::EnableRedrawRegions, dcomp/IDCompositionVisualDebug::EnableRedrawRegions, directcomp.idcompositionvisualdebug_enableredrawregions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetHashAlgorithms method, IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

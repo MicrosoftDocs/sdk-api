@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

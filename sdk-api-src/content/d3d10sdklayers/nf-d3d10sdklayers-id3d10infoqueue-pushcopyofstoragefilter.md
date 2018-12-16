@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushcopyofstoragefilter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PushCopyOfStorageFilter method, ID3D10InfoQueue.PushCopyOfStorageFilter, ID3D10InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 10], PushCopyOfStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, b5785370-7d17-44e7-815e-c20580fad46f, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfStorageFilter, direct3d10.id3d10infoqueue_pushcopyofstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

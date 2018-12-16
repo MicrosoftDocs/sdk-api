@@ -9,8 +9,6 @@ ms.assetid: FCF3AACB-F61D-43D4-BAFB-D9453C745956
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], CreateEffectGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateEffectGroup method, IDCompositionDevice.CreateEffectGroup, IDCompositionDevice::CreateEffectGroup, dcomp/IDCompositionDevice::CreateEffectGroup, directcomp.idcompositiondevice_createeffectgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

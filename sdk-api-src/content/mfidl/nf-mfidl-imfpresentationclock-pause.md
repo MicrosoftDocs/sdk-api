@@ -9,8 +9,6 @@ ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interface [Media Foundation],Pause method, IMFPresentationClock.Pause, IMFPresentationClock::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMenu, _win32_setmenu_cpp, menurc.setmenu, winui._win32_setmenu, winuser/SetMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

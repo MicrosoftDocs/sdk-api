@@ -9,8 +9,6 @@ ms.assetid: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6, IMFASFMutualExclusion interface [Media Foundation],SetType method, IMFASFMutualExclusion.SetType, IMFASFMutualExclusion::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFASFMutualExclusion interface, mf.imfasfmutualexclusion_settype, wmcontainer/IMFASFMutualExclusion::SetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE_ENUM enumeration [ADSI], ADS_NAME_INITTYPE_GC, ADS_NAME_INITTYPE_SERVER, _ds_ads_name_inittype_enum, adsi.ads__name__inittype__enum, adsi.ads_name_inittype_enum, iads/ADS_NAME_INITTYPE_DOMAIN, iads/ADS_NAME_INITTYPE_ENUM, iads/ADS_NAME_INITTYPE_GC, iads/ADS_NAME_INITTYPE_SERVER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

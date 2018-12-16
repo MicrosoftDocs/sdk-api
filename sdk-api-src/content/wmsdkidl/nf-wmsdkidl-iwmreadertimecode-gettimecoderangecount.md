@@ -9,8 +9,6 @@ ms.assetid: df58f968-23f8-407b-b18c-569732635464
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimecodeRangeCount, GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeCount method, IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

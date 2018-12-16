@@ -9,8 +9,6 @@ ms.assetid: 0fe91d1a-811a-4956-bb2f-47712ae2a155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [Windows Shell], Connect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Connect method, IConnectableCredentialProviderCredential.Connect, IConnectableCredentialProviderCredential::Connect, _shell_IConnectableCredentialProviderCredential_Connect, credentialprovider/IConnectableCredentialProviderCredential::Connect, shell.IConnectableCredentialProviderCredential_Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

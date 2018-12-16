@@ -9,8 +9,6 @@ ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

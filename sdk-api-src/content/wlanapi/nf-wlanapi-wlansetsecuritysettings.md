@@ -9,8 +9,6 @@ ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

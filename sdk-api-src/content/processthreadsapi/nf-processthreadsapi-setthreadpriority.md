@@ -9,8 +9,6 @@ ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

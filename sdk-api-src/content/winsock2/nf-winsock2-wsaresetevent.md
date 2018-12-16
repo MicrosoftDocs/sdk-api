@@ -9,8 +9,6 @@ ms.assetid: 99a8b0f3-977f-44cd-a224-0819d7513c90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsaresetevent_2, winsock.wsaresetevent_2, winsock2/WSAResetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

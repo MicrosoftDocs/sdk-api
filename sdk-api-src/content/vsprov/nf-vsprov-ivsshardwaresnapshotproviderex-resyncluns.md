@@ -9,8 +9,6 @@ ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

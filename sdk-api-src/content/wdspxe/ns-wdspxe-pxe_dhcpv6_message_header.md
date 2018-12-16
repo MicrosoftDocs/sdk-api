@@ -9,8 +9,6 @@ ms.assetid: D6D387EB-85CC-413E-926D-A222274ABD52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE_HEADER, PXE_DHCPV6_MESSAGE_HEADER structure [Windows Deployment Services], wds.pxe_dhcpv6_message_header, wdspxe/PPXE_DHCPV6_MESSAGE_HEADER, wdspxe/PXE_DHCPV6_MESSAGE_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 

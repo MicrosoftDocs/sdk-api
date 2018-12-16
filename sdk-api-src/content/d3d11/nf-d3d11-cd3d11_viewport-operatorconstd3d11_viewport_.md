@@ -9,8 +9,6 @@ ms.assetid: 22E0EC17-F3DB-4BDB-BB39-46646896E1D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_VIEWPORT interface [Direct3D 11],operator const D3D11_VIEWPORT& method, CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&, CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&, CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&(), d3d11/CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&, direct3d11.cd3d11_viewport_d3d11_viewport__, operator const D3D11_VIEWPORT&, operator const D3D11_VIEWPORT& method [Direct3D 11], operator const D3D11_VIEWPORT& method [Direct3D 11],CD3D11_VIEWPORT interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

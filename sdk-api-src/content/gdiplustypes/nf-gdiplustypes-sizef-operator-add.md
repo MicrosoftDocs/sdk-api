@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeF class [GDI+],operator+ method, SizeF.operator+, SizeF.operator+(const SizeF&), SizeF.operator-add, SizeF::operator+, SizeF::operator-add, _gdiplus_CLASS_SizeF_operator_opadd_sz_, gdiplus._gdiplus_CLASS_SizeF_operator_opadd_sz_, operator+, operator+ method [GDI+], operator+ method [GDI+],SizeF class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

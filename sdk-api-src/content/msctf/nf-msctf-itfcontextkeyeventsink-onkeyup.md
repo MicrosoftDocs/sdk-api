@@ -9,8 +9,6 @@ ms.assetid: ed0c6e14-d216-425c-a194-08e8ea85bb92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnKeyUp method, ITfContextKeyEventSink.OnKeyUp, ITfContextKeyEventSink::OnKeyUp, OnKeyUp, OnKeyUp method [Text Services Framework], OnKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_onkeyup_ref, msctf/ITfContextKeyEventSink::OnKeyUp, tsf.itfcontextkeyeventsink_onkeyup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

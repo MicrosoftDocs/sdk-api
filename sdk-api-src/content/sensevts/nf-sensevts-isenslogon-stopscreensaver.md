@@ -9,8 +9,6 @@ ms.assetid: 61a6434b-1a80-4a37-9175-636c3792a865
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensLogon interface [SENS],StopScreenSaver method, ISensLogon.StopScreenSaver, ISensLogon::StopScreenSaver, StopScreenSaver, StopScreenSaver method [SENS], StopScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_stopscreensaver, sens.isenslogon_stopscreensaver, sensevts/ISensLogon::StopScreenSaver, syncmgr.isenslogon_stopscreensaver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

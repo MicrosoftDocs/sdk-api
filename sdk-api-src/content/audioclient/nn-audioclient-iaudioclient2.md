@@ -9,8 +9,6 @@ ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 interface [Core Audio],described, audioclient/IAudioClient2, coreaudio.iaudioclient2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

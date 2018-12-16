@@ -9,8 +9,6 @@ ms.assetid: c9afbb9e-3f0a-4862-abb6-82631bae759f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLib.SetGuid, ICreateTypeLib::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetGuid, automat.icreatetypelib_setguid, oaidl/ICreateTypeLib::SetGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

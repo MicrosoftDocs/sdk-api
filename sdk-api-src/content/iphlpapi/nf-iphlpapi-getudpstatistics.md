@@ -9,8 +9,6 @@ ms.assetid: a86e5758-a984-4483-8e9c-c482a7676a20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUdpStatistics, GetUdpStatistics function [IP Helper], _iphlp_getudpstatistics, iphlp.getudpstatistics, iphlpapi/GetUdpStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

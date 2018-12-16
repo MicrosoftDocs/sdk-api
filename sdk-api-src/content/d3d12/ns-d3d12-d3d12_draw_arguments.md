@@ -9,8 +9,6 @@ ms.assetid: 300F3628-C8E8-44BF-BCEC-579E6DA80347
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_DRAW_ARGUMENTS, D3D12_DRAW_ARGUMENTS structure, d3d12/D3D12_DRAW_ARGUMENTS, direct3d12.d3d12_draw_arguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

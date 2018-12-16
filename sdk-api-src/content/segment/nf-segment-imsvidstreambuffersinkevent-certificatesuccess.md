@@ -9,8 +9,6 @@ ms.assetid: 23ac75ee-02ee-4159-b503-65604a6601cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSinkEvent.CertificateSuccess, IMSVidStreamBufferSinkEvent::CertificateSuccess, IMSVidStreamBufferSinkEventCertificateSuccess, mstv.imsvidstreambuffersinkevent_certificatesuccess, segment/IMSVidStreamBufferSinkEvent::CertificateSuccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

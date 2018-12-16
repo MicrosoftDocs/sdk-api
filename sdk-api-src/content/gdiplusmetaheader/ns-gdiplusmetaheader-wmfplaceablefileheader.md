@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\wmfplaceablefilehead
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WmfPlaceableFileHeader, WmfPlaceableFileHeader structure [GDI+], _gdiplus_STRUC_WmfPlaceableFileHeader, gdiplus._gdiplus_STRUC_WmfPlaceableFileHeader, gdiplusmetaheader/WmfPlaceableFileHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

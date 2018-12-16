@@ -9,8 +9,6 @@ ms.assetid: 5f022d92-b048-4c87-918c-6e8f297cc1a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WRDS_RCM_SERVICE_STATE, WRDS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_RCM_SERVICE_STATE, WTS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_SERVICE_NONE, WTS_SERVICE_START, WTS_SERVICE_STOP, termserv.wts_rcm_service_state, wtsdefs/WRDS_RCM_SERVICE_STATE, wtsdefs/WTS_RCM_SERVICE_STATE, wtsdefs/WTS_SERVICE_NONE, wtsdefs/WTS_SERVICE_START, wtsdefs/WTS_SERVICE_STOP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

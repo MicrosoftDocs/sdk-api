@@ -9,8 +9,6 @@ ms.assetid: e173016a-d3d7-42e0-aad8-e738abaf1df9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

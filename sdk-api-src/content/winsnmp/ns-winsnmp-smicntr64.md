@@ -9,8 +9,6 @@ ms.assetid: 224b162c-a9b3-4b71-a9ed-b15a51934498
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*smiLPCNTR64, _snmp_smicntr64_str, smiCNTR64, smiCNTR64 structure [SNMP], smiLPCNTR64, smiLPCNTR64 structure pointer [SNMP], snmp.smicntr64_str, winsnmp/smiCNTR64, winsnmp/smiLPCNTR64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 

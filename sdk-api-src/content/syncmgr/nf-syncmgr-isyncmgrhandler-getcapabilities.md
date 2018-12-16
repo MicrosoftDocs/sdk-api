@@ -9,8 +9,6 @@ ms.assetid: 3eb43984-f284-4df9-934b-1dd2f0e62e26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetCapabilities method, ISyncMgrHandler.GetCapabilities, ISyncMgrHandler::GetCapabilities, _shell_ISyncMgrHandler_GetCapabilities, shell.ISyncMgrHandler_GetCapabilities, syncmgr/ISyncMgrHandler::GetCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

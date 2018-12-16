@@ -9,8 +9,6 @@ ms.assetid: ecaefb24-eca0-408c-a98d-f7e6bbfefade
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContainsKnowledgeForChangeUnit, ContainsKnowledgeForChangeUnit method [Windows Sync], ContainsKnowledgeForChangeUnit method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForChangeUnit method, ISyncKnowledge2.ContainsKnowledgeForChangeUnit, ISyncKnowledge2::ContainsKnowledgeForChangeUnit, winsync.isyncknowledge2_containsknowledgeforchangeunit, winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

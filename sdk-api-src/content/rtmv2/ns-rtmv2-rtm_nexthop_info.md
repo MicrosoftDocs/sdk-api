@@ -9,8 +9,6 @@ ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO structure pointer [RAS], RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RTM_NEXTHOP_INFO, RTM_NEXTHOP_INFO structure [RAS], RTM_NEXTHOP_STATE_CREATED, RTM_NEXTHOP_STATE_DELETED, _rtmv2ref_rtm_nexthop_info, rras.rtm_nexthop_info, rtmv2/PRTM_NEXTHOP_INFO, rtmv2/RTM_NEXTHOP_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 

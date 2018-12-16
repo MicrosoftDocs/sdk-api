@@ -9,8 +9,6 @@ ms.assetid: a4f29a99-8478-425d-91d7-c771c35bb2fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveSession method, ITsSbResourcePluginStore.SaveSession, ITsSbResourcePluginStore::SaveSession, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveSession method, ITsSbResourcePluginStoreEx::SaveSession, SaveSession, SaveSession method [Remote Desktop Services], SaveSession method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveSession method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveSession, sbtsv/ITsSbResourcePluginStoreEx::SaveSession, termserv.itssbresourcepluginstore_savesession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

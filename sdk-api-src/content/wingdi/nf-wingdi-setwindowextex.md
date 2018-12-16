@@ -9,8 +9,6 @@ ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

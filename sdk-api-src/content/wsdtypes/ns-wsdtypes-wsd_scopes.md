@@ -9,8 +9,6 @@ ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

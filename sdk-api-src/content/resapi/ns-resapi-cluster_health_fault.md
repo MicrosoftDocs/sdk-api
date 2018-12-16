@@ -9,8 +9,6 @@ ms.assetid: 45042bb8-6904-4e5e-bb35-3e8d3b313746
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT structure [Failover Cluster], PCLUSTER_HEALTH_FAULT, PCLUSTER_HEALTH_FAULT structure pointer [Failover Cluster], mscs.cluster_health_fault, resapi/CLUSTER_HEALTH_FAULT, resapi/PCLUSTER_HEALTH_FAULT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

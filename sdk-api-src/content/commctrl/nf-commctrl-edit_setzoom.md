@@ -9,8 +9,6 @@ ms.assetid: 228EE5A0-AFAE-4485-8942-EB9BB6C12D54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetZoom, Edit_SetZoom macro [Windows Controls], commctrl/Edit_SetZoom, controls.edit_setzoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

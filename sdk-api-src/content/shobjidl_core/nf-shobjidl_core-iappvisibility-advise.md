@@ -9,8 +9,6 @@ ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],Advise method, IAppVisibility.Advise, IAppVisibility::Advise, shell.IAppVisibility_Advise, shobjidl_core/IAppVisibility::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

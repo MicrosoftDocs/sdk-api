@@ -9,8 +9,6 @@ ms.assetid: 19a16eae-8c3e-4c4e-957b-41f22b61e51b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM, PLANA_ENUM structure pointer [NetBIOS], nb30/LANA_ENUM, nb30/PLANA_ENUM, netbios.lana_enum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

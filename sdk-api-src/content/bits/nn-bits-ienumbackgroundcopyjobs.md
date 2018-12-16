@@ -9,8 +9,6 @@ ms.assetid: 21ff88da-9fae-478f-bcba-488ed7a89608
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], IEnumBackgroundCopyJobs interface [BITS],described, _drz_ienumbackgroundcopyjobs, bits.ienumbackgroundcopyjobs, bits/IEnumBackgroundCopyJobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bits.h
 req.include-header: 

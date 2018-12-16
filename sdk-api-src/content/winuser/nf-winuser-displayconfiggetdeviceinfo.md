@@ -9,8 +9,6 @@ ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

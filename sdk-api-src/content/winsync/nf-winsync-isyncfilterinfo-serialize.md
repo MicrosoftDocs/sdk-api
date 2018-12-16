@@ -9,8 +9,6 @@ ms.assetid: bd3e9fec-9fa2-4216-9a05-1f121bd3dbef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncFilterInfo interface [Windows Sync],Serialize method, ISyncFilterInfo.Serialize, ISyncFilterInfo::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncFilterInfo interface, winsync.isyncfilterinfo_serialize, winsync/ISyncFilterInfo::Serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

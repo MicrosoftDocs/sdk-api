@@ -9,8 +9,6 @@ ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

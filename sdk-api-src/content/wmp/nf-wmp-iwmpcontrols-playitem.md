@@ -9,8 +9,6 @@ ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],playItem method, IWMPControls.playItem, IWMPControls::playItem, IWMPControlsplayItem, playItem, playItem method [Windows Media Player], playItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

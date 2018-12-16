@@ -9,8 +9,6 @@ ms.assetid: 45a1a47a-4cbe-47dd-ad48-218e74fe74b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsQueued method, ITQueue.get_TotalCallsQueued, ITQueue::get_TotalCallsQueued, _tapi3_itqueue_get_totalcallsqueued, get_TotalCallsQueued, get_TotalCallsQueued method [TAPI 2.2], get_TotalCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsqueued, tapi3cc/ITQueue::get_TotalCallsQueued
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

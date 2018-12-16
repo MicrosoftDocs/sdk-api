@@ -9,8 +9,6 @@ ms.assetid: b4437aa7-9682-4819-a353-936179e84005
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_COLUMNINFO, CM_COLUMNINFO structure [Windows Shell], shell.CM_COLUMNINFO, shell_CM_COLUMNINFO, shobjidl_core/CM_COLUMNINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

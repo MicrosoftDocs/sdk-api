@@ -9,8 +9,6 @@ ms.assetid: 078af618-e393-4198-a181-89a6096f8aa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKernelHandle, GetKernelHandle method [Display Devices], GetKernelHandle method [Display Devices],IDirectDrawSurfaceKernel interface, IDirectDrawSurfaceKernel interface [Display Devices],GetKernelHandle method, IDirectDrawSurfaceKernel.GetKernelHandle, IDirectDrawSurfaceKernel::GetKernelHandle, ddfncs_ae63c67e-aa40-4fb4-81c1-4659acb1319e.xml, ddkernel/IDirectDrawSurfaceKernel::GetKernelHandle, display.idirectdrawsurfacekernel_getkernelhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddkernel.h
 req.include-header: Ddkernel.h

@@ -9,8 +9,6 @@ ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

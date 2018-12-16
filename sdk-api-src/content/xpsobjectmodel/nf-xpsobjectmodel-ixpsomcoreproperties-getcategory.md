@@ -9,8 +9,6 @@ ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

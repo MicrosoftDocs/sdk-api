@@ -9,8 +9,6 @@ ms.assetid: 7c0ccd18-3892-4512-9957-1ac01fa83f0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT structure [Display Devices], LPDDGETKERNELCAPSOUT, LPDDGETKERNELCAPSOUT structure pointer [Display Devices], ddkmapi/DDGETKERNELCAPSOUT, ddkmapi/LPDDGETKERNELCAPSOUT, ddstrcts_4879ba8e-459c-4b10-b43a-854a85d4e10f.xml, display.ddgetkernelcapsout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

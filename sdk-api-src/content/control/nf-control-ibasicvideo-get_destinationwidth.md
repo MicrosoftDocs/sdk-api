@@ -9,8 +9,6 @@ ms.assetid: 6e27bb57-ca88-4478-86b8-250a69f5fc78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationWidth method, IBasicVideo.get_DestinationWidth, IBasicVideo::get_DestinationWidth, IBasicVideoget_DestinationWidth, control/IBasicVideo::get_DestinationWidth, dshow.ibasicvideo_get_destinationwidth, get_DestinationWidth, get_DestinationWidth method [DirectShow], get_DestinationWidth method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

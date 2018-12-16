@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydel
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],RetryDelay property, IFaxConfiguration.RetryDelay, IFaxConfiguration.get_RetryDelay, IFaxConfiguration::RetryDelay, IFaxConfiguration::get_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_IFaxConfiguration_RetryDelay, faxcomex/IFaxConfiguration::RetryDelay, faxcomex/IFaxConfiguration::get_RetryDelay, faxcomex/IFaxConfiguration::put_RetryDelay, get_RetryDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

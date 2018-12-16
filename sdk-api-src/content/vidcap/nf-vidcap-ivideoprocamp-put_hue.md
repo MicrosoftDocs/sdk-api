@@ -9,8 +9,6 @@ ms.assetid: 7b0926c3-4167-423d-ac5c-ac4df06948aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Hue method, IVideoProcAmp.put_Hue, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue, put_Hue method [DirectShow], put_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Hue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeCreateDataHandle, DdeCreateDataHandle function [Data Exchange], _win32_DdeCreateDataHandle, _win32_ddecreatedatahandle_cpp, dataxchg.ddecreatedatahandle, ddeml/DdeCreateDataHandle, winui._win32_ddecreatedatahandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

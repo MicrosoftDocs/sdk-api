@@ -9,8 +9,6 @@ ms.assetid: B91E4E63-5FB5-4470-A3B9-F94008EAE4E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Device4, ID2D1Device4 interface [Direct2D], ID2D1Device4 interface [Direct2D],described, d2d1_3/ID2D1Device4, direct2d.id2d1device4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

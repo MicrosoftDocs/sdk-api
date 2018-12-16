@@ -9,8 +9,6 @@ ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

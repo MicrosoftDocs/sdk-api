@@ -9,8 +9,6 @@ ms.assetid: 5999af23-03a6-4fd9-8a56-23179164ff32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffset, MFCreateSequencerSegmentOffset function [Media Foundation], mf.mfcreatesequencersegmentoffset, mfidl/MFCreateSequencerSegmentOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

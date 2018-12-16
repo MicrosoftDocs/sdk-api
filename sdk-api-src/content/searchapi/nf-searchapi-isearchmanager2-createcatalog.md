@@ -9,8 +9,6 @@ ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCatalog, CreateCatalog method [search], CreateCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],CreateCatalog method, ISearchManager2.CreateCatalog, ISearchManager2::CreateCatalog, search.isearchmanager2_createcatalog, searchapi/ISearchManager2::CreateCatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

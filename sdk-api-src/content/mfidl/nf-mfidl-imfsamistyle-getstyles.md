@@ -9,8 +9,6 @@ ms.assetid: e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStyles, GetStyles method [Media Foundation], GetStyles method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyles method, IMFSAMIStyle.GetStyles, IMFSAMIStyle::GetStyles, e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5, mf.imfsamistyle_getstyles, mfidl/IMFSAMIStyle::GetStyles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

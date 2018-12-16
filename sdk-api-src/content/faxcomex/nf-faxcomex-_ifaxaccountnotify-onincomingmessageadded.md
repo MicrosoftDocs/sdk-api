@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\oninco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnIncomingMessageAdded, OnIncomingMessageAdded, OnIncomingMessageAdded method [Fax Service], OnIncomingMessageAdded method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingMessageAdded method, _IFaxAccountNotify.OnIncomingMessageAdded, _IFaxAccountNotify::OnIncomingMessageAdded, _mfax_ifaxaccountnotify_onincomingmessageadded, fax._mfax_ifaxaccountnotify_onincomingmessageadded, faxcomex/_IFaxAccountNotify::OnIncomingMessageAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

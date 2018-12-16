@@ -9,8 +9,6 @@ ms.assetid: 5c238d98-77f5-4702-bae1-80cdec70a30c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_abandon, ldap.ldap__abandon, ldap.ldap_abandon, ldap_abandon, ldap_abandon function [LDAP], winldap/ldap_abandon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

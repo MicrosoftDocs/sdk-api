@@ -9,8 +9,6 @@ ms.assetid: aa7df820-c970-4333-b4e3-54d68d951f1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinMajorChannel method, IDigitalCableTuningSpace.get_MinMajorChannel, IDigitalCableTuningSpace::get_MinMajorChannel, IDigitalCableTuningSpaceget_MinMajorChannel, get_MinMajorChannel, get_MinMajorChannel method [Microsoft TV Technologies], get_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minmajorchannel, tuner/IDigitalCableTuningSpace::get_MinMajorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

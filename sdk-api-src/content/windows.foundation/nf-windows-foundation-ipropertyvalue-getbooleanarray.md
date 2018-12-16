@@ -9,8 +9,6 @@ ms.assetid: 22ad7bab-87b1-41e8-ae65-1957e7c93b2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBooleanArray, GetBooleanArray method [Windows Runtime], GetBooleanArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetBooleanArray method, IPropertyValue.GetBooleanArray, IPropertyValue.IPropertyValue, IPropertyValue::GetBooleanArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetBooleanArray, winrt.ipropertyvalue_getbooleanarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

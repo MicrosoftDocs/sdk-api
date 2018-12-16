@@ -9,8 +9,6 @@ ms.assetid: D935BCEB-D7B8-4245-AD1C-25BAE63F8944
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSegmentData, GetSegmentData method [Direct2D], GetSegmentData method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentData method, ID2D1SvgPathData.GetSegmentData, ID2D1SvgPathData::GetSegmentData, d2d1svg/ID2D1SvgPathData::GetSegmentData, direct2d.id2d1svgpathdata_getsegmentdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

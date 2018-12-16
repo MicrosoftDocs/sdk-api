@@ -9,8 +9,6 @@ ms.assetid: A367AF27-BF99-4322-9D11-8792AA2863B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Device_Interface_Property_ExW, CM_Get_Device_Interface_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Device_Interface_Property_ExW, devinst.cm_get_device_interface_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

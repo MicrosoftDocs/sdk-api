@@ -9,8 +9,6 @@ ms.assetid: 30e58e9b-5247-4d9a-91dc-fd137d8f5613
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_READER_STATISTICS, WM_READER_STATISTICS structure [windows Media Format], wmformat.wm_reader_statistics, wmsdkidl/WM_READER_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

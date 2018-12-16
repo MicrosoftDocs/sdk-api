@@ -9,8 +9,6 @@ ms.assetid: 1f5ae240-2314-40c1-a6c8-2c395d284568
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?ValidateEnumerationFlags@Provider@@MAEJJ@Z, ?ValidateEnumerationFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateEnumerationFlags method, Provider.ValidateEnumerationFlags, Provider::ValidateEnumerationFlags, ValidateEnumerationFlags, ValidateEnumerationFlags method [Windows Management Instrumentation], ValidateEnumerationFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateenumerationflags, provider/Provider::ValidateEnumerationFlags, wmi.provider_validateenumerationflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

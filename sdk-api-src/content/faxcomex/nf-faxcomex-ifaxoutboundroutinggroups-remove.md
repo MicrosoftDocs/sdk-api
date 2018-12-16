@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_5h45.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],Remove method, IFaxOutboundRoutingGroups.Remove, IFaxOutboundRoutingGroups::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxOutboundRoutingGroups interface, _mfax_faxoutboundroutinggroups.remove, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_remove_cpp, fax._mfax_faxoutboundroutinggroups_remove, faxcomex/IFaxOutboundRoutingGroups::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

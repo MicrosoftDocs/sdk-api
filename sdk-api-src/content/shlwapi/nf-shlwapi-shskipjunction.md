@@ -9,8 +9,6 @@ ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

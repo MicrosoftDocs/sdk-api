@@ -9,8 +9,6 @@ ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

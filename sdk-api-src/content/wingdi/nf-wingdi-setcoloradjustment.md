@@ -9,8 +9,6 @@ ms.assetid: 292d6cdc-cafa-438a-9392-a9c22e7d44a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetColorAdjustment, SetColorAdjustment function [Windows GDI], _win32_SetColorAdjustment, gdi.setcoloradjustment, wingdi/SetColorAdjustment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

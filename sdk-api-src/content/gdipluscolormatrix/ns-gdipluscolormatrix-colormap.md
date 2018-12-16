@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colormap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorMap, ColorMap structure [GDI+], _gdiplus_STRUC_ColorMap, gdiplus._gdiplus_STRUC_ColorMap, gdipluscolormatrix/ColorMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

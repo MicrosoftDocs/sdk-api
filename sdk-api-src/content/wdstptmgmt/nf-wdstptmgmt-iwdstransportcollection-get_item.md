@@ -9,8 +9,6 @@ ms.assetid: 4849923f-7463-46ee-9ec8-d2d5bcefd5ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Item property, IWdsTransportCollection.Item, IWdsTransportCollection.get_Item, IWdsTransportCollection::Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services],IWdsTransportCollection interface, get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

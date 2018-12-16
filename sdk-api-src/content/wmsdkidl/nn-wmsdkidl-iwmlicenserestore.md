@@ -9,8 +9,6 @@ ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], IWMLicenseRestore interface [windows Media Format],described, IWMLicenseRestoreInterface, wmformat.iwmlicenserestore, wmsdkidl/IWMLicenseRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 84F510F6-7192-4B0D-A063-CE99B54ED7DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_PLACEHOLDER_INFO, PRJ_PLACEHOLDER_INFO structure, ProjFS.prj_placeholder_info, projectedfslib/PRJ_PLACEHOLDER_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 

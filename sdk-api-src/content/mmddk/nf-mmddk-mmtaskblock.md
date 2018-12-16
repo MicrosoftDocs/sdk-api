@@ -9,8 +9,6 @@ ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

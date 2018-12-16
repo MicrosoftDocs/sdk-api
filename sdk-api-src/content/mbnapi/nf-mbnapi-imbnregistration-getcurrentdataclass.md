@@ -9,8 +9,6 @@ ms.assetid: 365458a4-74df-4283-94db-3d855acadffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetCurrentDataClass method, IMbnRegistration.GetCurrentDataClass, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

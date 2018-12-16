@@ -9,8 +9,6 @@ ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6cb4b620-88ce-4348-ab72-6d2ed60c6298
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmMerge, IMsmMerge interface, IMsmMerge interface,described, _msi_imsmmerge_interface, mergemod/IMsmMerge, setup.imsmmerge_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

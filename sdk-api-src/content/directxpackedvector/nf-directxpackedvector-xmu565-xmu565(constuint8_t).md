@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(const uint8_t), XMU565::XMU565, XMU565::XMU565(const uint8_t), dxmath.xmu565_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

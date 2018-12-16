@@ -9,8 +9,6 @@ ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

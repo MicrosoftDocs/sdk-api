@@ -9,8 +9,6 @@ ms.assetid: 672ea208-4048-4d2f-9606-ee3e2133765b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, 1005, 2, 501, 502, 503, NetShareGetInfo, NetShareGetInfo function [Files], _win32_netsharegetinfo, fs.netsharegetinfo, lmshare/NetShareGetInfo, netmgmt.netsharegetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

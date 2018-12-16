@@ -9,8 +9,6 @@ ms.assetid: F855478C-BF26-46B1-B3F8-9DD5E8F05862
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEM_FLAG_REFRESH_AUTO_RECONNECT, WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, WBEM_REFRESHER_FLAGS, WBEM_REFRESHER_FLAGS enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_REFRESH_AUTO_RECONNECT, wbemcli/WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, wbemcli/WBEM_REFRESHER_FLAGS, wmi.wbem_refresher_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

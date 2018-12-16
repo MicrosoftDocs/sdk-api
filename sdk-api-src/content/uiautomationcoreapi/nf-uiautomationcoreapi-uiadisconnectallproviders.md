@@ -9,8 +9,6 @@ ms.assetid: 1E46DC9A-8E72-49B2-B867-C075962EF00A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaDisconnectAllProviders, UiaDisconnectAllProviders function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectAllProviders, winauto.uiauto_UiaDisconnectAllProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

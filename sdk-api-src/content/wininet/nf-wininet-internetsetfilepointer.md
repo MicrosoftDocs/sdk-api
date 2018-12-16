@@ -9,8 +9,6 @@ ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

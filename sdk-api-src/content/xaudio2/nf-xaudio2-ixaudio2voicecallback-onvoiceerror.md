@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceError method, IXAudio2VoiceCallback.OnVoiceError, IXAudio2VoiceCallback::OnVoiceError, OnVoiceError, OnVoiceError method [XAudio2 Audio Mixing APIs], OnVoiceError method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceerror, xaudio2/IXAudio2VoiceCallback::OnVoiceError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

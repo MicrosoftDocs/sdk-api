@@ -9,8 +9,6 @@ ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dfc1f52e-58c6-48fd-8da9-1d4d5115912c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

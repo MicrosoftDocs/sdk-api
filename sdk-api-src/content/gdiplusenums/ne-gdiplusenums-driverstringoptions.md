@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoption
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

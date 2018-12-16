@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_SetItemSize, TabCtrl_SetItemSize macro [Windows Controls], _win32_TabCtrl_SetItemSize, _win32_TabCtrl_SetItemSize_cpp, commctrl/TabCtrl_SetItemSize, controls.TabCtrl_SetItemSize, controls._win32_TabCtrl_SetItemSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

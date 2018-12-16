@@ -9,8 +9,6 @@ ms.assetid: 24AEAE62-D2D8-4A0C-9EB3-6D3942BC86D9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method, AddStorageFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddStorageFilterEntries method, ID3D12InfoQueue.AddStorageFilterEntries, ID3D12InfoQueue::AddStorageFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddStorageFilterEntries, direct3d12.id3d12infoqueue_addstoragefilterentries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

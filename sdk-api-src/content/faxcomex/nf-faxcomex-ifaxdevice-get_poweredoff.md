@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2fdy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],PoweredOff property, IFaxDevice.PoweredOff, IFaxDevice.get_PoweredOff, IFaxDevice::PoweredOff, IFaxDevice::get_PoweredOff, PoweredOff property [Fax Service], PoweredOff property [Fax Service],IFaxDevice interface, _mfax_faxdevice.poweredoff, fax._mfax_faxdevice_cpp_mfax_faxdevice_poweredoff_cpp, fax._mfax_faxdevice_poweredoff, faxcomex/IFaxDevice::PoweredOff, faxcomex/IFaxDevice::get_PoweredOff, get_PoweredOff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

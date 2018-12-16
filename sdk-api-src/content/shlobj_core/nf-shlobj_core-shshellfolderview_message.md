@@ -9,8 +9,6 @@ ms.assetid: f5722a4f-d830-4c31-9275-13e800408681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHShellFolderView_Message, SHShellFolderView_Message function [Windows Shell], _win32_SHShellFolderView_Message, shell.SHShellFolderView_Message, shlobj_core/SHShellFolderView_Message
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,6 @@ ms.assetid: d6e7caba-5cba-4b6e-b146-10aa6d21cac1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTextFormat, CreateTextFormat method [Direct Write], CreateTextFormat method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextFormat method, IDWriteFactory.CreateTextFormat, IDWriteFactory::CreateTextFormat, directwrite.IDWriteFactory_CreateTextFormat, dwrite/IDWriteFactory::CreateTextFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

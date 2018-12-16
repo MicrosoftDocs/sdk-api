@@ -9,8 +9,6 @@ ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmp2dlna.h
 req.include-header: 

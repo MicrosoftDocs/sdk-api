@@ -9,8 +9,6 @@ ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

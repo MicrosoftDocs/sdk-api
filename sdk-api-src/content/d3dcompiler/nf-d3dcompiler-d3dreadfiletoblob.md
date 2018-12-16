@@ -9,8 +9,6 @@ ms.assetid: 7CFB1BA6-7C36-4BDB-9705-781CCC2E7DB2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D3DReadFileToBlob, direct3dhlsl.d3dreadfiletoblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

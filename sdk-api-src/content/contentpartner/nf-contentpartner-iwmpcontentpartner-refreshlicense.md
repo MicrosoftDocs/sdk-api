@@ -9,8 +9,6 @@ ms.assetid: 2f0d8ed9-027c-45a3-a61a-f6d571e78a0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],RefreshLicense method, IWMPContentPartner.RefreshLicense, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

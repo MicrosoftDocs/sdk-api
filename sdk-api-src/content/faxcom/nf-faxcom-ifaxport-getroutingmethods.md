@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_619v.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRoutingMethods, GetRoutingMethods method [Fax Service], GetRoutingMethods method [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],GetRoutingMethods method, IFaxPort.GetRoutingMethods, IFaxPort::GetRoutingMethods, _mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp, faxcom/IFaxPort::GetRoutingMethods
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

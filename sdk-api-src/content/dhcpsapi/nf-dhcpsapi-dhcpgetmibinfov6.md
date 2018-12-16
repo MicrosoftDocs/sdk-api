@@ -9,8 +9,6 @@ ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

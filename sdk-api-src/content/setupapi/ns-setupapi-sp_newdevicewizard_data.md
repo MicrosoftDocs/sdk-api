@@ -9,8 +9,6 @@ ms.assetid: 9e38ab29-af06-4ca4-b702-fdbed9cd54d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSP_NEWDEVICEWIZARD_DATA, PSP_NEWDEVICEWIZARD_DATA, PSP_NEWDEVICEWIZARD_DATA structure pointer [Device and Driver Installation], SP_ADDPROPERTYPAGE_DATA, SP_NEWDEVICEWIZARD_DATA, SP_NEWDEVICEWIZARD_DATA structure [Device and Driver Installation], _SP_NEWDEVICEWIZARD_DATA, devinst.sp_newdevicewizard_data, di-struct_68d6c952-9fca-4d7c-bddb-5e7ceba0117e.xml, setupapi/PSP_NEWDEVICEWIZARD_DATA, setupapi/SP_NEWDEVICEWIZARD_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

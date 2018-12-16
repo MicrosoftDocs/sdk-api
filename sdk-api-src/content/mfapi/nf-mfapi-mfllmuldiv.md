@@ -9,8 +9,6 @@ ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

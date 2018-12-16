@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarModAngle(float)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMScalarModAngle, XMScalarModAngle, XMScalarModAngle method [DirectX Math Support APIs], dxmath.xmscalarmodangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

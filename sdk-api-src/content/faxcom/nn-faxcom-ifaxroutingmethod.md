@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_4skk.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRoutingMethod, IFaxRoutingMethod interface [Fax Service], IFaxRoutingMethod interface [Fax Service],described, _mfax_ifaxroutingmethod, fax._mfax_ifaxroutingmethod, faxcom/IFaxRoutingMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

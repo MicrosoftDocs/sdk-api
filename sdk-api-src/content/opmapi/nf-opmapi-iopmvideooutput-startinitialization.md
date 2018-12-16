@@ -9,8 +9,6 @@ ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

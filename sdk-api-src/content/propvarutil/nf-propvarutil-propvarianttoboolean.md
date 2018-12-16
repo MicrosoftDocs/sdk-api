@@ -9,8 +9,6 @@ ms.assetid: 74b9a388-8342-46e3-ac5e-b7c99e8f8f00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

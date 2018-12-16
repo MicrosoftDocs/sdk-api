@@ -9,8 +9,6 @@ ms.assetid: 96419ffa-6af1-4e45-a831-f11564501975
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 96419ffa-6af1-4e45-a831-f11564501975, IInkRecognizer interface [Tablet PC],Languages property, IInkRecognizer.Languages, IInkRecognizer.get_Languages, IInkRecognizer::Languages, IInkRecognizer::get_Languages, Languages property [Tablet PC], Languages property [Tablet PC],IInkRecognizer interface, get_Languages, msinkaut/IInkRecognizer::Languages, msinkaut/IInkRecognizer::get_Languages, tablet.iinkrecognizer_languages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 87861465-c966-479a-b906-27ae36cc83c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservicedatabase, base.lockservicedatabase, winsvc/LockServiceDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

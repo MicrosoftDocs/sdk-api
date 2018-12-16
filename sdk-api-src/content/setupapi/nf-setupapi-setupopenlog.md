@@ -9,8 +9,6 @@ ms.assetid: 3ff13002-7811-4e44-b12b-52d0d4c8de60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupOpenLog, SetupOpenLog function [Setup API], _setupapi_setupopenlog, setup.setupopenlog, setupapi/SetupOpenLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

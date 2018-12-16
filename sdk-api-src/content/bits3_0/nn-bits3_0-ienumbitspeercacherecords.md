@@ -9,8 +9,6 @@ ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

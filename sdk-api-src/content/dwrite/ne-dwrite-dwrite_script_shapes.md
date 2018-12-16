@@ -9,8 +9,6 @@ ms.assetid: 81ec0f3a-4dab-4497-893f-d791d9d9be6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

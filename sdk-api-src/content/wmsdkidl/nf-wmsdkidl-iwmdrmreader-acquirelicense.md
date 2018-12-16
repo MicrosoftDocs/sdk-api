@@ -9,8 +9,6 @@ ms.assetid: 757e0926-81aa-48f2-9820-67c8dd51579d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireLicense, AcquireLicense method [windows Media Format], AcquireLicense method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],AcquireLicense method, IWMDRMReader.AcquireLicense, IWMDRMReader::AcquireLicense, IWMDRMReaderAcquireLicense, wmformat.iwmdrmreader_acquirelicense, wmsdkidl/IWMDRMReader::AcquireLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

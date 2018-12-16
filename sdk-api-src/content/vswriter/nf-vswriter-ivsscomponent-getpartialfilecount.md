@@ -9,8 +9,6 @@ ms.assetid: 7be84c00-49c4-4c44-9c12-7994247726a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPartialFileCount, GetPartialFileCount method [VSS], GetPartialFileCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFileCount method, IVssComponent.GetPartialFileCount, IVssComponent::GetPartialFileCount, _win32_ivsscomponent_getpartialfilecount, base.ivsscomponent_getpartialfilecount, vswriter/IVssComponent::GetPartialFileCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 

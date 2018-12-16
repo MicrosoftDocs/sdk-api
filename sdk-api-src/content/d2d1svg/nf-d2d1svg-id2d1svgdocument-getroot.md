@@ -9,8 +9,6 @@ ms.assetid: 01E11639-7564-41F4-BFA4-28B05FC50583
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRoot, GetRoot method [Direct2D], GetRoot method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],GetRoot method, ID2D1SvgDocument.GetRoot, ID2D1SvgDocument::GetRoot, d2d1svg/ID2D1SvgDocument::GetRoot, direct2d.id2d1svgdocument_getroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

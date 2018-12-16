@@ -9,8 +9,6 @@ ms.assetid: 1375b337-efb0-4be1-94f7-473456a825b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum, fs.netfileenum, lmshare/NetFileEnum, netmgmt.netfileenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

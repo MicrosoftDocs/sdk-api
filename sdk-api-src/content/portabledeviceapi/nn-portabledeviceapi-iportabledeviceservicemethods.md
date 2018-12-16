@@ -9,8 +9,6 @@ ms.assetid: 9d233dea-91b6-4358-830c-6abe466264e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceMethods, wpdsdk.iportabledeviceservicemethods
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

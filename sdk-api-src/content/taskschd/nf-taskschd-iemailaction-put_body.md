@@ -9,8 +9,6 @@ ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Body property, IEmailAction.Body, IEmailAction.put_Body, IEmailAction::Body, IEmailAction::get_Body, IEmailAction::put_Body, put_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

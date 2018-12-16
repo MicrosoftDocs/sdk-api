@@ -9,8 +9,6 @@ ms.assetid: 73C291EC-2345-454B-BC7C-8A443DDFF57C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx function [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

@@ -9,8 +9,6 @@ ms.assetid: 07f2b2b8-1997-4ac7-b498-56d1e1fba9ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [Websocket Protocol Component API], websock.websocketendclienthandshake, websocket/WebSocketEndClientHandshake
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

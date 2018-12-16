@@ -9,8 +9,6 @@ ms.assetid: c60e384b-ad0a-4e48-a337-b4ffad1b4891
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CountryID method, ITLocationInfo.get_CountryID, ITLocationInfo::get_CountryID, _tapi3_itlocationinfo_get_countryid, get_CountryID, get_CountryID method [TAPI 2.2], get_CountryID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_countryid, tapi3if/ITLocationInfo::get_CountryID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

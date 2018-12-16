@@ -9,8 +9,6 @@ ms.assetid: e21e1cd5-ab15-42e3-b3c7-1ae0c4dfec02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetItemObject method, ISyncMgrSynchronize.GetItemObject, ISyncMgrSynchronize::GetItemObject, mobsync/ISyncMgrSynchronize::GetItemObject, shell.syncmgr_isyncmgrsynchronize_getitemobject, syncmgr.isyncmgrsynchronize_getitemobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

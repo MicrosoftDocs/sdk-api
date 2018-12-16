@@ -9,8 +9,6 @@ ms.assetid: BD796237-8ADE-45EC-9436-7BE2BC2C2D4E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCPV6_NESTED_RELAY_MESSAGE, PXE_DHCPV6_NESTED_RELAY_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcpv6_nested_relay_message, wdspxe/PPXE_DHCPV6_NESTED_RELAY_MESSAGE, wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 

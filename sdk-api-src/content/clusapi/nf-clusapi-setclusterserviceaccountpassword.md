@@ -9,8 +9,6 @@ ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster], SetClusterServiceAccountPassword, SetClusterServiceAccountPassword function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, clusapi/SetClusterServiceAccountPassword, mscs.setclusterserviceaccountpassword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

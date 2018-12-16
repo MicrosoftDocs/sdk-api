@@ -9,8 +9,6 @@ ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

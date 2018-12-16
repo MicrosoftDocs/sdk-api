@@ -9,8 +9,6 @@ ms.assetid: 69711dea-e0dd-4c1e-a83f-1f06d4259b35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdapterId, GetAdapterId method [Network Awareness], GetAdapterId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetAdapterId method, INetworkConnection.GetAdapterId, INetworkConnection::GetAdapterId, netlistmgr/INetworkConnection::GetAdapterId, nla.inetworkconnection_getadapterid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

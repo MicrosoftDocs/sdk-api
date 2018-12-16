@@ -9,8 +9,6 @@ ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzReportSecurityEventFromParams, AuthzReportSecurityEventFromParams function [Security], authz/AuthzReportSecurityEventFromParams, security.authzreportsecurityeventfromparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

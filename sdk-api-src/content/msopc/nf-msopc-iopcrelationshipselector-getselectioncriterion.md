@@ -9,8 +9,6 @@ ms.assetid: ac1f0347-9b89-4d8f-b0cb-14708e7a6e55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelectionCriterion, GetSelectionCriterion method [Open Packaging Conventions], GetSelectionCriterion method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectionCriterion method, IOpcRelationshipSelector.GetSelectionCriterion, IOpcRelationshipSelector::GetSelectionCriterion, msopc/IOpcRelationshipSelector::GetSelectionCriterion, opc.iopcrelationshipselector_getselectioncriterion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

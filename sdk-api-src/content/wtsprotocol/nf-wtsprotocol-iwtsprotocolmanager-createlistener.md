@@ -9,8 +9,6 @@ ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

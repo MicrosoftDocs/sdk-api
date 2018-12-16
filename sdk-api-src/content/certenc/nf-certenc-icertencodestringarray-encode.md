@@ -9,8 +9,6 @@ ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeStringArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeStringArray object, Encode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Encode method, ICertEncodeStringArray.Encode, ICertEncodeStringArray::Encode, _certsrv_icertencodestringarray_encode, certenc/ICertEncodeStringArray::Encode, security.icertencodestringarray_encode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

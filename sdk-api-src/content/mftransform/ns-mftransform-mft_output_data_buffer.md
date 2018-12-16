@@ -9,8 +9,6 @@ ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 

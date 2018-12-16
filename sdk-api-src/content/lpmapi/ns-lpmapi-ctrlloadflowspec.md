@@ -9,8 +9,6 @@ ms.assetid: def835ae-f0d2-4cdc-a498-315c4ef1245b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CtrlLoadFlowspec, CtrlLoadFlowspec structure [QOS], lpmapi/CtrlLoadFlowspec, qos.ctrlloadflowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

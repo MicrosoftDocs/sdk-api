@@ -9,8 +9,6 @@ ms.assetid: 99b46541-8c94-4456-aae9-d266fc52a6a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenewalResultCode, GetRenewalResultCode method [DirectShow], GetRenewalResultCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalResultCode method, IESLicenseRenewalResultEvent.GetRenewalResultCode, IESLicenseRenewalResultEvent::GetRenewalResultCode, mstv.ieslicenserenewalresultevent_getrenewalresultcode, tuner/IESLicenseRenewalResultEvent::GetRenewalResultCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

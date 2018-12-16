@@ -9,8 +9,6 @@ ms.assetid: 204C9B35-860F-46FD-AF3F-7BC7E1EE12EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStereo3DRenderMode, GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DRenderMode method, IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

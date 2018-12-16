@@ -9,8 +9,6 @@ ms.assetid: 31de9e42-6795-433a-937f-c4243e4961df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SAFER_OBJECT_INFO_CLASS, SAFER_OBJECT_INFO_CLASS enumeration [Security], SaferObjectAllIdentificationGuids, SaferObjectDescription, SaferObjectExtendedError, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferObjectSingleIdentification, security.safer_object_info_class, winsafer/SAFER_OBJECT_INFO_CLASS, winsafer/SaferObjectAllIdentificationGuids, winsafer/SaferObjectDescription, winsafer/SaferObjectExtendedError, winsafer/SaferObjectFriendlyName, winsafer/SaferObjectLevelId, winsafer/SaferObjectScopeId, winsafer/SaferObjectSingleIdentification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winsafer.h
 req.include-header: 

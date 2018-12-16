@@ -9,8 +9,6 @@ ms.assetid: b7386b63-c563-42dd-851c-780bf1043f65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_STANDARD, MP_ENVELOPEStructure, MP_ENVELOPE_SEGMENT, MP_ENVELOPE_SEGMENT structure [DirectShow], dshow.mp_envelope_segment, medparam/MP_ENVELOPE_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 

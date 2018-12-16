@@ -9,8 +9,6 @@ ms.assetid: B8E0F8D4-D291-41B5-8E40-0C1FB3DCC253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClockCalibration, GetClockCalibration method, GetClockCalibration method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetClockCalibration method, ID3D12CommandQueue.GetClockCalibration, ID3D12CommandQueue::GetClockCalibration, d3d12/ID3D12CommandQueue::GetClockCalibration, direct3d12.id3d12commandqueue_getclockcalibration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

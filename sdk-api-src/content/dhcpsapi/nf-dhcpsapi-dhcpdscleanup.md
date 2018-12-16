@@ -9,8 +9,6 @@ ms.assetid: 7d722ca5-a779-4481-b2c7-6d9d7bb5fcfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpDsCleanup, DhcpDsCleanup function [DHCP], dhcp.dhcpdscleanup, dhcpsapi/DhcpDsCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

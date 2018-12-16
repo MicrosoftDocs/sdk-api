@@ -9,8 +9,6 @@ ms.assetid: 1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.canceldc, wingdi/CancelDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

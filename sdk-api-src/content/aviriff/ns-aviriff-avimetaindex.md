@@ -9,8 +9,6 @@ ms.assetid: d27b2b14-55a1-4992-ad85-75244369accc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DATA, AVI_INDEX_OF_CHUNKS, AVI_INDEX_OF_INDEXES, aviriff/AVIMETAINDEX, dshow.avimetaindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

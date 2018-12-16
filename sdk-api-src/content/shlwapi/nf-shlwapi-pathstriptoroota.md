@@ -9,8 +9,6 @@ ms.assetid: ce9a1a40-2a03-44d2-80bc-0dc10654550b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathStripToRoot, PathStripToRoot function [Windows Shell], PathStripToRootA, PathStripToRootW, _win32_PathStripToRoot, shell.PathStripToRoot, shlwapi/PathStripToRoot, shlwapi/PathStripToRootA, shlwapi/PathStripToRootW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

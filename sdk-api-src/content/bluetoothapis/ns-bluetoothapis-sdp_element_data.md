@@ -9,8 +9,6 @@ ms.assetid: 9c9d6103-cc49-41d2-bbb3-6b6888fb93e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

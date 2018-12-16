@@ -9,8 +9,6 @@ ms.assetid: 6570D84B-F589-4090-8F08-F91B12B0E283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPipelineStackSize, GetPipelineStackSize method, GetPipelineStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetPipelineStackSize method, ID3D12StateObjectProperties.GetPipelineStackSize, ID3D12StateObjectProperties::GetPipelineStackSize, d3d12/ID3D12StateObjectProperties::GetPipelineStackSize, direct3d12.id3d12stateobjectproperties_getpipelinestacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

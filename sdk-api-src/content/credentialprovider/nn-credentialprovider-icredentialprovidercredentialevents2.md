@@ -9,8 +9,6 @@ ms.assetid: 47290FF7-1785-4470-B3A9-F35C5028A6FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], ICredentialProviderCredentialEvents2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents2, shell.ICredentialProviderCredentialEvents2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

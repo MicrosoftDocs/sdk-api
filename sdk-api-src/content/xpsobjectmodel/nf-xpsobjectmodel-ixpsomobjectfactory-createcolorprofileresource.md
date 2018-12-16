@@ -9,8 +9,6 @@ ms.assetid: cb4d1b49-fda6-46c3-a72a-21affdb7e82e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateColorProfileResource, CreateColorProfileResource method [XPS Documents and Packaging], CreateColorProfileResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateColorProfileResource method, IXpsOMObjectFactory.CreateColorProfileResource, IXpsOMObjectFactory::CreateColorProfileResource, xps.ixpsomobjectfactory_createcolorprofileresource, xpsobjectmodel/IXpsOMObjectFactory::CreateColorProfileResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

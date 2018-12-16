@@ -9,8 +9,6 @@ ms.assetid: 1f38e844-d197-40c1-8715-ffe406274b3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],put_Item method, IComponentTypes.put_Item, IComponentTypes::put_Item, IComponentTypesput_Item, mstv.icomponenttypes_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponentTypes interface, tuner/IComponentTypes::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

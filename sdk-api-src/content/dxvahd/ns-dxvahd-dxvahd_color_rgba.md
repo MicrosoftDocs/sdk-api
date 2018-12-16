@@ -9,8 +9,6 @@ ms.assetid: 60a167cb-f95e-4eb5-995f-be4cceaee47d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_COLOR_RGBA, DXVAHD_COLOR_RGBA structure [Media Foundation], dxvahd/DXVAHD_COLOR_RGBA, mf.dxvahd_color_rgba
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

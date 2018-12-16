@@ -9,8 +9,6 @@ ms.assetid: af62d169-665a-43d2-ac0c-cc8ce6ce42d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdMoCompQueryStatus, DdMoCompQueryStatus callback function [Display Devices], PDD_MOCOMPCB_QUERYSTATUS, PDD_MOCOMPCB_QUERYSTATUS callback, ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml, ddrawint/DdMoCompQueryStatus, display.ddmocompquerystatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

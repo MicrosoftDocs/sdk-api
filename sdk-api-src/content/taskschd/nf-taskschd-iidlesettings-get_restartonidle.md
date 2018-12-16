@@ -9,8 +9,6 @@ ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.get_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, get_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

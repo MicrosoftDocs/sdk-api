@@ -9,8 +9,6 @@ ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

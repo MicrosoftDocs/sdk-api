@@ -9,8 +9,6 @@ ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 

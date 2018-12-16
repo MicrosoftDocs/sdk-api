@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

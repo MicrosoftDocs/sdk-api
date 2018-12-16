@@ -9,8 +9,6 @@ ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 

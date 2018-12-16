@@ -9,8 +9,6 @@ ms.assetid: 746f7220-8c87-4218-bd97-ec9b862e549c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents2, IOfflineFilesEvents2 interface [Offline Files], IOfflineFilesEvents2 interface [Offline Files],described, cscobj/IOfflineFilesEvents2, of.iofflinefilesevents2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

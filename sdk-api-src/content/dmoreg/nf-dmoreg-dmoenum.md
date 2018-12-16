@@ -9,8 +9,6 @@ ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h

@@ -9,8 +9,6 @@ ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(const CInstance &,long), Provider::PutInstance, Provider::PutInstance(const CInstance &,long), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

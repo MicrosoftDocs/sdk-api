@@ -9,8 +9,6 @@ ms.assetid: 128bae44-59a2-4e37-a588-a18805b9e340
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

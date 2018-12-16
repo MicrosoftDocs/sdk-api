@@ -9,8 +9,6 @@ ms.assetid: ef4f123f-3e1a-4082-93c7-f23783b1d45e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

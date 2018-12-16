@@ -9,8 +9,6 @@ ms.assetid: 97AC8AA9-7C82-40B8-BF29-82A0E742E96C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdAsyncStubBuffer_QueryInterface, CStdAsyncStubBuffer_QueryInterface function [RPC], rpc.cstdasyncstubbuffer_queryinterface, rpcproxy/CStdAsyncStubBuffer_QueryInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

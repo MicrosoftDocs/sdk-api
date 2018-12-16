@@ -9,8 +9,6 @@ ms.assetid: 7465aded-43ff-4b63-8a90-b9f55240625b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Kill method, IRunnableTask.Kill, IRunnableTask::Kill, Kill, Kill method [Windows Shell], Kill method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Kill, shell.IRunnableTask_Kill, shobjidl_core/IRunnableTask::Kill
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

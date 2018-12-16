@@ -9,8 +9,6 @@ ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGetDeviceInfo, BluetoothGetDeviceInfo function [Bluetooth], bluetooth.bluetoothgetdeviceinfo, bluetoothapis/BluetoothGetDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

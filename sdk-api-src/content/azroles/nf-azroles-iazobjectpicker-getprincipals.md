@@ -9,8 +9,6 @@ ms.assetid: e03a2160-42bc-44a9-a893-36d2d1de18d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrincipals, GetPrincipals method [Security], GetPrincipals method [Security],IAzObjectPicker interface, IAzObjectPicker interface [Security],GetPrincipals method, IAzObjectPicker.GetPrincipals, IAzObjectPicker::GetPrincipals, azroles/IAzObjectPicker::GetPrincipals, security.iazobjectpicker_getprincipals_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

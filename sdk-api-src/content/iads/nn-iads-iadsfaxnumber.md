@@ -9,8 +9,6 @@ ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

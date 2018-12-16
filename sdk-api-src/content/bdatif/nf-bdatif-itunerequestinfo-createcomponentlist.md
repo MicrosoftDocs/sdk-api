@@ -9,8 +9,6 @@ ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

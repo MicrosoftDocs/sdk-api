@@ -9,8 +9,6 @@ ms.assetid: 9814a4b9-3297-4aed-bb5f-d2b0a71b2699
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstBooleanA, MI_ConstBooleanA structure [Windows Management Infrastructure (MI)], mi/MI_ConstBooleanA, wmi._mi_constbooleana, wmi_v2.mi_constbooleana
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

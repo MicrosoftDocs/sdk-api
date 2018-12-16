@@ -9,8 +9,6 @@ ms.assetid: 4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], IWMPSyncDevice3 interface [Windows Media Player],described, wmp.iwmpsyncdevice3, wmp/IWMPSyncDevice3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

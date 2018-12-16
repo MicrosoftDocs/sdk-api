@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInPlaceContext, GetInPlaceContext method [Windows Controls], GetInPlaceContext method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetInPlaceContext method, IRichEditOleCallback.GetInPlaceContext, IRichEditOleCallback::GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext_cpp, controls.IRichEditOleCallback_GetInPlaceContext, controls._win32_IRichEditOleCallback_GetInPlaceContext, richole/IRichEditOleCallback::GetInPlaceContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

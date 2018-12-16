@@ -9,8 +9,6 @@ ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

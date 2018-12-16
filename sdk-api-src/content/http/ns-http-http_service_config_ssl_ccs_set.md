@@ -9,8 +9,6 @@ ms.assetid: BA815FB7-4A9F-4917-89E7-3CD108E1CEE3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_SET, PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP], http.http_service_config_ssl_ccs_set, http/HTTP_SERVICE_CONFIG_SSL_CCS_SET, http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

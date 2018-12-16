@@ -9,8 +9,6 @@ ms.assetid: 05d826fd-2795-4335-9f6f-f8e19a6dbe4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceNameW, GetServiceNameW method [Microsoft TV Technologies], GetServiceNameW method [Microsoft TV Technologies],IDvbServiceDescriptor2 interface, IDvbServiceDescriptor2 interface [Microsoft TV Technologies],GetServiceNameW method, IDvbServiceDescriptor2.GetServiceNameW, IDvbServiceDescriptor2::GetServiceNameW, dvbsiparser/IDvbServiceDescriptor2::GetServiceNameW, mstv.idvbservicedescriptor2_getservicenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

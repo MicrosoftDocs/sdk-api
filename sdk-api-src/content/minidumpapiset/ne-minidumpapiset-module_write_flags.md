@@ -9,8 +9,6 @@ ms.assetid: f074edb2-2cd7-44f6-994b-c649201c1e9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MODULE_WRITE_FLAGS, MODULE_WRITE_FLAGS enumeration, ModuleReferencedByMemory, ModuleWriteCodeSegs, ModuleWriteCvRecord, ModuleWriteDataSeg, ModuleWriteMiscRecord, ModuleWriteModule, ModuleWriteTlsData, _win32_module_write_flags, base.module_write_flags, minidumpapiset/MODULE_WRITE_FLAGS, minidumpapiset/ModuleReferencedByMemory, minidumpapiset/ModuleWriteCodeSegs, minidumpapiset/ModuleWriteCvRecord, minidumpapiset/ModuleWriteDataSeg, minidumpapiset/ModuleWriteMiscRecord, minidumpapiset/ModuleWriteModule, minidumpapiset/ModuleWriteTlsData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

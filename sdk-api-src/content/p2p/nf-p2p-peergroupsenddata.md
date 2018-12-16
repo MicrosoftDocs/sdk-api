@@ -9,8 +9,6 @@ ms.assetid: 8dcc484d-2b96-4186-990d-c32b7b254d91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupSendData, PeerGroupSendData function [Peer Networking], p2p.peergroupsenddata, p2p/PeerGroupSendData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

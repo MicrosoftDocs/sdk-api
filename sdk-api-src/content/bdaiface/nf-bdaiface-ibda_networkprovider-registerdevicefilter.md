@@ -9,8 +9,6 @@ ms.assetid: 88050024-5960-4ce5-8645-82db3e17b12c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],RegisterDeviceFilter method, IBDA_NetworkProvider.RegisterDeviceFilter, IBDA_NetworkProvider::RegisterDeviceFilter, IBDA_NetworkProviderRegisterDeviceFilter, RegisterDeviceFilter, RegisterDeviceFilter method [Microsoft TV Technologies], RegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::RegisterDeviceFilter, mstv.ibda_networkprovider_registerdevicefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

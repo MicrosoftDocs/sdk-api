@@ -9,8 +9,6 @@ ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

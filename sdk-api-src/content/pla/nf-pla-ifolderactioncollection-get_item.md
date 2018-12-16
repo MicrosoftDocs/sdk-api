@@ -9,8 +9,6 @@ ms.assetid: cf11f194-b518-41de-8f98-c4487c3d2fee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActionCollection.Item, IFolderActionCollection.get_Item, IFolderActionCollection::Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA],IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 12ac4490-c12c-428a-939f-adf25a77b9e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetFormat method, IAMMediaTypeStream.SetFormat, IAMMediaTypeStream::SetFormat, IAMMediaTypeStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetFormat, dshow.iammediatypestream_setformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

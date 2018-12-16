@@ -2,7 +2,7 @@
 UID: NA:wincodecsdk
 ms.assetid: 5fd47393-95fa-3680-9f59-01a0412aae65
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

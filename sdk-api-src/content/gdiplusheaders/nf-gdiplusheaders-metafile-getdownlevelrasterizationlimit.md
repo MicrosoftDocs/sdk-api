@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilem
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDownLevelRasterizationLimit, GetDownLevelRasterizationLimit method [GDI+], GetDownLevelRasterizationLimit method [GDI+],Metafile class, Metafile class [GDI+],GetDownLevelRasterizationLimit method, Metafile.GetDownLevelRasterizationLimit, Metafile::GetDownLevelRasterizationLimit, _gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_, gdiplus._gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

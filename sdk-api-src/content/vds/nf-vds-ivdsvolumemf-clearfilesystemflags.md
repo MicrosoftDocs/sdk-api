@@ -9,8 +9,6 @@ ms.assetid: f3b02b4a-109c-419f-94c1-fc2f15ea5291
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearFileSystemFlags, ClearFileSystemFlags method [VDS], ClearFileSystemFlags method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],ClearFileSystemFlags method, IVdsVolumeMF.ClearFileSystemFlags, IVdsVolumeMF::ClearFileSystemFlags, base.ivdsvolumemf_clearfilesystemflags, vds/IVdsVolumeMF::ClearFileSystemFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

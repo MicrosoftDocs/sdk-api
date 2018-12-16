@@ -9,8 +9,6 @@ ms.assetid: 71a9a573-a354-47ce-89a0-ebc5acd86159
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Truncate method, IRdcFileWriter.Truncate, IRdcFileWriter::Truncate, Truncate, Truncate method [Remote Differential Compression], Truncate method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_truncate, msrdc/IRdcFileWriter::Truncate, rdc.irdcfilewriter_truncate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

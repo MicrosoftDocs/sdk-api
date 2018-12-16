@@ -9,8 +9,6 @@ ms.assetid: 426941d9-8d10-4c30-bf2d-cae3f48b51c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],RefreshLicenseComplete method, IWMPContentPartnerCallback.RefreshLicenseComplete, IWMPContentPartnerCallback::RefreshLicenseComplete, IWMPContentPartnerCallbackRefreshLicenseComplete, RefreshLicenseComplete, RefreshLicenseComplete method [Windows Media Player], RefreshLicenseComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete, wmp.iwmpcontentpartnercallback_refreshlicensecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

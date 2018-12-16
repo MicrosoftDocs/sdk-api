@@ -9,8 +9,6 @@ ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerFree, NdrInterfacePointerFree function [RPC], rpc.ndrinterfacepointerfree, rpcndr/NdrInterfacePointerFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

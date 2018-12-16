@@ -9,8 +9,6 @@ ms.assetid: 898da01b-94e6-4a07-9c53-f93378fbda8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],Initialize method, ICertPropertySHA1Hash.Initialize, ICertPropertySHA1Hash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::Initialize, security.icertpropertysha1hash_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

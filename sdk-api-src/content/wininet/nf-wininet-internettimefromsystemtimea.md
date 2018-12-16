@@ -9,8 +9,6 @@ ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetTimeFromSystemTime, InternetTimeFromSystemTime function [WinINet], InternetTimeFromSystemTimeA, InternetTimeFromSystemTimeW, _inet_internettimefromsystemtime_function, wininet.internettimefromsystemtime, wininet/InternetTimeFromSystemTime, wininet/InternetTimeFromSystemTimeA, wininet/InternetTimeFromSystemTimeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

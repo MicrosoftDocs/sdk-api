@@ -9,8 +9,6 @@ ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 9e318698-0c3c-41c2-bb9e-04e8c9746c4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistStreamInit interface [COM],InitNew method, IPersistStreamInit.InitNew, IPersistStreamInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_initnew, com.ipersiststreaminit_initnew, ocidl/IPersistStreamInit::InitNew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

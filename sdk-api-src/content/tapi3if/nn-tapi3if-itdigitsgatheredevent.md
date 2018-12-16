@@ -9,8 +9,6 @@ ms.assetid: 2d710bea-a0fd-492b-81a3-03b741685c91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

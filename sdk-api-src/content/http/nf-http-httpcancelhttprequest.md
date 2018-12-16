@@ -9,8 +9,6 @@ ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

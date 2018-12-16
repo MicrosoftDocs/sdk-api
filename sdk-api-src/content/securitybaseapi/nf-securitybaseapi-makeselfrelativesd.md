@@ -9,8 +9,6 @@ ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

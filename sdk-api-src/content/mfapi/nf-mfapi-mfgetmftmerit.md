@@ -9,8 +9,6 @@ ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

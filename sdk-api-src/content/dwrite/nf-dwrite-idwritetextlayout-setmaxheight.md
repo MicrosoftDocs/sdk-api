@@ -9,8 +9,6 @@ ms.assetid: 5d71a597-7b7d-402f-a2e6-b41f5cadf061
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetMaxHeight method, IDWriteTextLayout.SetMaxHeight, IDWriteTextLayout::SetMaxHeight, SetMaxHeight, SetMaxHeight method [Direct Write], SetMaxHeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetMaxHeight, dwrite/IDWriteTextLayout::SetMaxHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

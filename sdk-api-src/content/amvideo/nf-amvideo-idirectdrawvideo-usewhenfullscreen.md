@@ -9,8 +9,6 @@ ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

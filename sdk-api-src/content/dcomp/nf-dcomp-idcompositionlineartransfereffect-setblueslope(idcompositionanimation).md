@@ -9,8 +9,6 @@ ms.assetid: 57B9FD7A-8A6C-4660-9CF9-13F47438D5DE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueSlope method, IDCompositionLinearTransferEffect.SetBlueSlope, IDCompositionLinearTransferEffect.SetBlueSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueSlope, IDCompositionLinearTransferEffect::SetBlueSlope(IDCompositionAnimation), SetBlueSlope, SetBlueSlope method [DirectComposition], SetBlueSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

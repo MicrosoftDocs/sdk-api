@@ -9,8 +9,6 @@ ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthoritativeRestore method,IVssComponentEx interface, IVssComponentEx interface,GetAuthoritativeRestore method, IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

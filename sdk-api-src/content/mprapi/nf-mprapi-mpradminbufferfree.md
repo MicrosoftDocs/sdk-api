@@ -9,8 +9,6 @@ ms.assetid: 60cae055-841a-4435-bf0e-4198b1ccdd4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminBufferFree, MprAdminBufferFree function [RAS], _mpr_mpradminbufferfree, mprapi/MprAdminBufferFree, rras.mpradminbufferfree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

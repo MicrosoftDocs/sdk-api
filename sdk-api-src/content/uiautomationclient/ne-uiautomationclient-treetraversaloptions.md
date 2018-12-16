@@ -9,8 +9,6 @@ ms.assetid: BB1A65F5-797A-4240-9082-041068A87709
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Accessibility], TreeTraversalOptions_Default, TreeTraversalOptions_LastToFirstOrder, TreeTraversalOptions_PostOrder, uiautomationclient/TreeTraversalOptions, uiautomationclient/TreeTraversalOptions_Default, uiautomationclient/TreeTraversalOptions_LastToFirstOrder, uiautomationclient/TreeTraversalOptions_PostOrder, winauto.uiauto_TreeTraversalOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

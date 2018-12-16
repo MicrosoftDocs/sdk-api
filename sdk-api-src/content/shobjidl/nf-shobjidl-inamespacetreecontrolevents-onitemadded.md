@@ -9,8 +9,6 @@ ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemAdded method, INameSpaceTreeControlEvents.OnItemAdded, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

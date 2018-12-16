@@ -9,8 +9,6 @@ ms.assetid: 75c37941-f950-4f86-be47-9aefe17995a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_PermanentCardID method, ITCallingCard.get_PermanentCardID, ITCallingCard::get_PermanentCardID, _tapi3_itcallingcard_get_permanentcardid, get_PermanentCardID, get_PermanentCardID method [TAPI 2.2], get_PermanentCardID method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_permanentcardid, tapi3if/ITCallingCard::get_PermanentCardID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

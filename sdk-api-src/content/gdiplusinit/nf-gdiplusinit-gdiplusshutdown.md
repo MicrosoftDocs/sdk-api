@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_GdiplusShutdown_, gdiplus._gdiplus_FUNC_GdiplusShutdown_, gdiplusinit/GdiplusShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h

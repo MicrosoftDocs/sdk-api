@@ -9,8 +9,6 @@ ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 8e90e367-e7c3-41db-a8c9-9b0220cf402b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFileItem, CreateFileItem method [IMAPI], CreateFileItem method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateFileItem method, IFileSystemImage.CreateFileItem, IFileSystemImage::CreateFileItem, imapi.ifilesystemimage_createfileitem, imapi2fs/IFileSystemImage::CreateFileItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

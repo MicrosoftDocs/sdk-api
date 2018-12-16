@@ -9,8 +9,6 @@ ms.assetid: 17b07141-2786-4192-ba7b-f3210c10aad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistServerOpenContentInformation, PeerDistServerOpenContentInformation function [Peer Networking], p2p.peerdistserveropencontentinformation, peerdist/PeerDistServerOpenContentInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

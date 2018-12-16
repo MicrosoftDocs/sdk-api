@@ -9,8 +9,6 @@ ms.assetid: 2553f0bc-a177-49fc-932f-080cb4bd7a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

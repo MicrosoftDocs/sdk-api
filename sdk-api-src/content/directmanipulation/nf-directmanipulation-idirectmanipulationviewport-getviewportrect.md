@@ -9,8 +9,6 @@ ms.assetid: 0d20e7f7-aa2a-4c76-a3ff-da10d4dec3ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViewportRect, GetViewportRect method [Direct Manipulation], GetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetViewportRect method, IDirectManipulationViewport.GetViewportRect, IDirectManipulationViewport::GetViewportRect, directmanipulation.idirectmanipulationviewport_getviewportrect, directmanipulation/IDirectManipulationViewport::GetViewportRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

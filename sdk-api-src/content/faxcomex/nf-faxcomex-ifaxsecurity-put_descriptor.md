@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\descriptor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity interface, IFaxSecurity interface [Fax Service],Descriptor property, IFaxSecurity.Descriptor, IFaxSecurity.put_Descriptor, IFaxSecurity::Descriptor, IFaxSecurity::get_Descriptor, IFaxSecurity::put_Descriptor, _mfax_faxsecurity.descriptor_cpp, fax._mfax_faxsecurity_descriptor_cpp, faxcomex/IFaxSecurity::Descriptor, faxcomex/IFaxSecurity::get_Descriptor, faxcomex/IFaxSecurity::put_Descriptor, put_Descriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

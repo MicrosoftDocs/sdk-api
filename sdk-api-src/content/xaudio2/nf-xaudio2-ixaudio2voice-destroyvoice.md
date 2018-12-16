@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.DestroyVoice
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyVoice, DestroyVoice method [XAudio2 Audio Mixing APIs], DestroyVoice method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],DestroyVoice method, IXAudio2Voice.DestroyVoice, IXAudio2Voice::DestroyVoice, xaudio2.ixaudio2voice_interface_destroyvoice, xaudio2/IXAudio2Voice::DestroyVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

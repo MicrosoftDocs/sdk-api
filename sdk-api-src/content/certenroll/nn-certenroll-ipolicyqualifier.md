@@ -9,8 +9,6 @@ ms.assetid: 3804e372-17bb-458d-8da5-85d760fe5e60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], IPolicyQualifier interface [Security],described, certenroll/IPolicyQualifier, security.ipolicyqualifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

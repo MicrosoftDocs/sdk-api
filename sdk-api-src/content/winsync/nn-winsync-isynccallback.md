@@ -9,8 +9,6 @@ ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], ISyncCallback interface [Windows Sync],described, winsync.isynccallback, winsync/ISyncCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

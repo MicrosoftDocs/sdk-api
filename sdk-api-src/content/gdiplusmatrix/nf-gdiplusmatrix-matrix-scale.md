@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Matrix class [GDI+],Scale method, Matrix.Scale, Matrix::Scale, Scale, Scale method [GDI+], Scale method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_, gdiplus._gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

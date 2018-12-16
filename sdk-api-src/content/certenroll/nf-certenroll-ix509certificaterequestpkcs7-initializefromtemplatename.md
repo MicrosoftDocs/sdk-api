@@ -9,8 +9,6 @@ ms.assetid: d6c15fcb-1883-4d87-af29-721102676535
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

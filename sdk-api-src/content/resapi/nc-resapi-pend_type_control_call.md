@@ -9,8 +9,6 @@ ms.assetid: EF3C2DFA-2B8A-4709-A6B6-56427C0C00A5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndTypeControlCall, EndTypeControlCall callback, EndTypeControlCall callback function [Failover Cluster], PEND_TYPE_CONTROL_CALL, PEND_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.endtypecontrolcall, resapi/EndTypeControlCall, resapi/PEND_TYPE_CONTROL_CALL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

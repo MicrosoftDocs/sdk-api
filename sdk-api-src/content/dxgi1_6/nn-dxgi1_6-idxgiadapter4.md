@@ -9,8 +9,6 @@ ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], IDXGIAdapter4 interface [DXGI],described, direct3ddxgi.idxgiadapter4, dxgi1_6/IDXGIAdapter4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_6.h
 req.include-header: 

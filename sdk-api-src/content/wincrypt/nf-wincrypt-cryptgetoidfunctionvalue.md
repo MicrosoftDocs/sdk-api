@@ -9,8 +9,6 @@ ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

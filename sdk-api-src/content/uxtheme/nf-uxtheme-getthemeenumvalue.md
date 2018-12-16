@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthemeenumvalue.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeEnumValue, GetThemeEnumValue function [Windows Controls], controls.GetThemeEnumValue, controls.inet_GetThemeEnumValue, inet_GetThemeEnumValue, inet_GetThemeEnumValue_cpp, uxtheme/GetThemeEnumValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

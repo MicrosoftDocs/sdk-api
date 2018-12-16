@@ -9,8 +9,6 @@ ms.assetid: 9bdab6b9-a54d-4166-988c-effdeb2ab254
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGroupCloseEnum, ClusterGroupCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster], _wolf_clustergroupcloseenum, clusapi/ClusterGroupCloseEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, mscs.clustergroupcloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 806def9b-1842-4443-9a63-fba380545018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

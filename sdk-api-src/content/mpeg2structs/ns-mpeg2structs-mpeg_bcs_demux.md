@@ -9,8 +9,6 @@ ms.assetid: ecc4f3bb-16f5-4398-bcd5-3316da8529ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MPEG_BCS_DEMUX, MPEG_BCS_DEMUX structure [Microsoft TV Technologies], mpeg2structs/MPEG_BCS_DEMUX, mstv.mpeg_bcs_demux
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

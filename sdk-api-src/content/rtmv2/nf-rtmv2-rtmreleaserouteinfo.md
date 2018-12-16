@@ -9,8 +9,6 @@ ms.assetid: 927d2a32-17bc-453c-b65b-144151bea902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmReleaseRouteInfo, RtmReleaseRouteInfo function [RAS], _rtmv2ref_rtmreleaserouteinfo, rras.rtmreleaserouteinfo, rtmv2/RtmReleaseRouteInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

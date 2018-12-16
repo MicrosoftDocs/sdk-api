@@ -9,8 +9,6 @@ ms.assetid: 9c3d6a7d-b0bf-4068-9d64-e0c715a8c011
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineMakeCall, TSPI_lineMakeCall function [TAPI 2.2], _tspi_tspi_linemakecall, tspi.tspi_linemakecall, tspi/TSPI_lineMakeCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

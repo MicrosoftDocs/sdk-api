@@ -9,8 +9,6 @@ ms.assetid: 60ce036d-7875-4fa7-8d7e-20a9faf63291
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services], WdsTptFeatureAdminPack, WdsTptFeatureDeploymentServer, WdsTptFeatureTransportServer, wds.wdstransport_feature_flags, wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS, wdstptmgmt/WdsTptFeatureAdminPack, wdstptmgmt/WdsTptFeatureDeploymentServer, wdstptmgmt/WdsTptFeatureTransportServer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

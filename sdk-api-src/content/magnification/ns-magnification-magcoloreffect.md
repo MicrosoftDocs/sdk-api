@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 

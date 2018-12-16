@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionpara
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

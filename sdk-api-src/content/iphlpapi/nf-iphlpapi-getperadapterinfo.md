@@ -9,8 +9,6 @@ ms.assetid: fc1ae7e4-f856-4b48-8ab4-56cd511ed161
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPerAdapterInfo, GetPerAdapterInfo function [IP Helper], _iphlp_getperadapterinfo, iphlp.getperadapterinfo, iphlpapi/GetPerAdapterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

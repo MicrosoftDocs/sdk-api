@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMINT2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMINT2, XMINT2 constructor [DirectX Math Support APIs], XMINT2 constructor [DirectX Math Support APIs],XMINT2 structure, XMINT2 structure [DirectX Math Support APIs],XMINT2 constructor, XMINT2.XMINT2, XMINT2.XMINT2(), XMINT2.XMINT2(const XMINT2 &), XMINT2::XMINT2, XMINT2::XMINT2(const XMINT2 &), dxmath.xmint2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 

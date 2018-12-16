@@ -9,8 +9,6 @@ ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

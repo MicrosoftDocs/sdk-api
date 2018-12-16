@@ -9,8 +9,6 @@ ms.assetid: 395aa8cc-fdbf-4772-940b-ea5944b26812
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_linehold, tspi.tspi_linehold, tspi/TSPI_lineHold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

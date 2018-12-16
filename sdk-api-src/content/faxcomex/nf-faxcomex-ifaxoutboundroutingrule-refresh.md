@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6s2w.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Refresh method, IFaxOutboundRoutingRule.Refresh, IFaxOutboundRoutingRule::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.refresh, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_refresh_cpp, fax._mfax_faxoutboundroutingrule_refresh, faxcomex/IFaxOutboundRoutingRule::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

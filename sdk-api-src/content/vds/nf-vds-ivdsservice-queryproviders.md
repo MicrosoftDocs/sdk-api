@@ -9,8 +9,6 @@ ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

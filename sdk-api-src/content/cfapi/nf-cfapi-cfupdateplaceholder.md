@@ -9,8 +9,6 @@ ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

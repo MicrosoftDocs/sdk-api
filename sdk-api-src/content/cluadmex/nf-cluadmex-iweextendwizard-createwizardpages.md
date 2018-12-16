@@ -9,8 +9,6 @@ ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

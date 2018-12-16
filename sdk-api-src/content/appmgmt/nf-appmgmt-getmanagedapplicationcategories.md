@@ -9,8 +9,6 @@ ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

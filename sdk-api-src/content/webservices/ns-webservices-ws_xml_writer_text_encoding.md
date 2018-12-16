@@ -9,8 +9,6 @@ ms.assetid: 916e693b-9804-4c93-869d-0c3b576e5b61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_WRITER_TEXT_ENCODING, WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_TEXT_ENCODING, wsw.ws_xml_writer_text_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

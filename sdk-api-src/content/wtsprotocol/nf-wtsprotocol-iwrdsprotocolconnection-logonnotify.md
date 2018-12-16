@@ -9,8 +9,6 @@ ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

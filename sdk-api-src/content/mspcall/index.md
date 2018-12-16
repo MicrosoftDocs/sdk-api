@@ -2,7 +2,7 @@
 UID: NA:mspcall
 ms.assetid: 8223b3d5-d86e-3afb-8594-f41a5c0f0eee
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

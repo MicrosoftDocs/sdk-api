@@ -9,8 +9,6 @@ ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

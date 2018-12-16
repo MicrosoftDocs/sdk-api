@@ -9,8 +9,6 @@ ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

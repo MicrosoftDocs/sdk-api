@@ -9,8 +9,6 @@ ms.assetid: 86316966-11d5-42d6-8690-eddfe86f8150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, Export, Export method [Security], Export method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Export method, IX509PrivateKey.Export, IX509PrivateKey::Export, certenroll/IX509PrivateKey::Export, security.ix509privatekey_export_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

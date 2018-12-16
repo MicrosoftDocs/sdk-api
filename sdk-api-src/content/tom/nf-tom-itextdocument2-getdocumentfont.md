@@ -9,8 +9,6 @@ ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentFont, GetDocumentFont method [Windows Controls], GetDocumentFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentFont method, ITextDocument2.GetDocumentFont, ITextDocument2::GetDocumentFont, controls.itextdocument2_getdocumentfont, tom/ITextDocument2::GetDocumentFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

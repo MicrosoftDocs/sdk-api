@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxAccountOutgoingArchive interface, IFaxAccountOutgoingArchive interface [Fax Service],GetMessages method, IFaxAccountOutgoingArchive.GetMessages, IFaxAccountOutgoingArchive::GetMessages, _mfax_faxaccountoutgoingarchive.getmessages, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp, fax._mfax_faxaccountoutgoingarchive_getmessages, faxcomex/IFaxAccountOutgoingArchive::GetMessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

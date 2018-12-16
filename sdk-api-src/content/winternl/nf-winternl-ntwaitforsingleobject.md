@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntw
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSingleObject function [Windows API], TRUE, winprog.ntwaitforsingleobject, winternl/NtWaitForSingleObject, winui.ntwaitforsingleobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

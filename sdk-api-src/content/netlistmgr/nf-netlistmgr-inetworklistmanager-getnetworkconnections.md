@@ -9,8 +9,6 @@ ms.assetid: ddbf02ae-3232-4866-b4c1-e4611b680f9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnections method, INetworkListManager.GetNetworkConnections, INetworkListManager::GetNetworkConnections, netlistmgr/INetworkListManager::GetNetworkConnections, nla.inetworklistmanager_getnetworkconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

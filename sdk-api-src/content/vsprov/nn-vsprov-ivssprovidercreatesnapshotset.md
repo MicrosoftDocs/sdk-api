@@ -9,8 +9,6 @@ ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], IVssProviderCreateSnapshotSet interface [VSS],described, base.ivssprovidercreatesnapshotset, vsprov/IVssProviderCreateSnapshotSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 

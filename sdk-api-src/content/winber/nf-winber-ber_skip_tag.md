@@ -9,8 +9,6 @@ ms.assetid: aa7548db-7752-4ce5-9f24-434abe77b000
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 

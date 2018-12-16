@@ -9,8 +9,6 @@ ms.assetid: e2827352-f1aa-477e-933c-942c73cea487
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpMgrOpen, SnmpMgrOpen function [SNMP], _snmp_snmpmgropen, mgmtapi/SnmpMgrOpen, snmp.snmpmgropen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

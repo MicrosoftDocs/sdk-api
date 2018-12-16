@@ -9,8 +9,6 @@ ms.assetid: 81C93E0F-AF05-4801-97EB-6C3E0407B5F6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_SUBRESOURCE_TILING, D3D12_SUBRESOURCE_TILING structure, d3d12/D3D12_SUBRESOURCE_TILING, direct3d12.d3d12_subresource_tiling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Brush,IN REAL), Pen.Pen(const Brush*,REAL), Pen::Pen, Pen::Pen(IN const Brush,IN REAL), _gdiplus_CLASS_Pen_Pen_brush_width_, gdiplus._gdiplus_CLASS_Pen_Pen_brush_width_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: e82f0b34-3d7d-4da2-9eec-05842ede8300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILCloneChild, ILCloneChild function [Windows Shell], _shell_ILCloneChild, shell.ILCloneChild, shlobj_core/ILCloneChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

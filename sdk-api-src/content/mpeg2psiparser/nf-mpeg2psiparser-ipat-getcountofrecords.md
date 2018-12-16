@@ -9,8 +9,6 @@ ms.assetid: 6b73a02e-d6dd-402b-baca-8728cd0fa900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetCountOfRecords method, IPAT.GetCountOfRecords, IPAT::GetCountOfRecords, IPATGetCountOfRecords, mpeg2psiparser/IPAT::GetCountOfRecords, mstv.ipat_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

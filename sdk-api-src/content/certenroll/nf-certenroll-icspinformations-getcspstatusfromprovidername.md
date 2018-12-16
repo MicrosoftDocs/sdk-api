@@ -9,8 +9,6 @@ ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

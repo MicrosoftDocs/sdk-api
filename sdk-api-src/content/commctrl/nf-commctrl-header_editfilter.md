@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, Header_EditFilter, Header_EditFilter macro [Windows Controls], TRUE, _win32_Header_EditFilter, _win32_Header_EditFilter_cpp, commctrl/Header_EditFilter, controls.Header_EditFilter, controls._win32_Header_EditFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

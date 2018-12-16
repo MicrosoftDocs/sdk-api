@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\textu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],RotateTransform method, TextureBrush.RotateTransform, TextureBrush::RotateTransform, _gdiplus_CLASS_TextureBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_TextureBrush_RotateTransform_angle_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 146ff4d9-ddd5-42e9-b421-2cac105fe923
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST structure pointer [Buses], USBUSER_BANDWIDTH_INFO_REQUEST, USBUSER_BANDWIDTH_INFO_REQUEST structure [Buses], buses.usbuser_bandwidth_info_request, usbstrct_f688b719-a1cf-4fc1-a2e6-dd391a676703.xml, usbuser/PUSBUSER_BANDWIDTH_INFO_REQUEST, usbuser/USBUSER_BANDWIDTH_INFO_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

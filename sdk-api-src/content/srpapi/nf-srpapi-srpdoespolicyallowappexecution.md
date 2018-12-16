@@ -9,8 +9,6 @@ ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

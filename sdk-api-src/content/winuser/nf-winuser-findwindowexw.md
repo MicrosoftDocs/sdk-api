@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

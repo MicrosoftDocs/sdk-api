@@ -9,8 +9,6 @@ ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListAddSourceEx, MsiSourceListAddSourceEx function, MsiSourceListAddSourceExA, MsiSourceListAddSourceExW, NULL, User SID, msi/MsiSourceListAddSourceEx, msi/MsiSourceListAddSourceExA, msi/MsiSourceListAddSourceExW, setup.msisourcelistaddsourceex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstruct
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect::Rect, _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_TotalBlocks method, IFileSystemImageResult.get_TotalBlocks, IFileSystemImageResult::get_TotalBlocks, get_TotalBlocks, get_TotalBlocks method [IMAPI], get_TotalBlocks method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_totalblocks, imapi2fs/IFileSystemImageResult::get_TotalBlocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

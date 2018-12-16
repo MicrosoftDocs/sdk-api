@@ -9,8 +9,6 @@ ms.assetid: aef0e173-d3df-466e-ac2a-c686cae5edc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

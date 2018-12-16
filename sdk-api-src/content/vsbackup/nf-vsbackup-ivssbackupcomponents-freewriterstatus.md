@@ -9,8 +9,6 @@ ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterStatus method, IVssBackupComponents.FreeWriterStatus, IVssBackupComponents::FreeWriterStatus, _win32_ivssbackupcomponents_freewriterstatus, base.ivssbackupcomponents_freewriterstatus, vsbackup/IVssBackupComponents::FreeWriterStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

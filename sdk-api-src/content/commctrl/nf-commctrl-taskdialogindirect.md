@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfun
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: Commctrl.h

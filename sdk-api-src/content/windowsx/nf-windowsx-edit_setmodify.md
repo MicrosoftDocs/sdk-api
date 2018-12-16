@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetModify, Edit_SetModify macro [Windows Controls], _win32_Edit_SetModify, _win32_Edit_SetModify_cpp, controls.Edit_SetModify, controls._win32_Edit_SetModify, windowsx/Edit_SetModify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

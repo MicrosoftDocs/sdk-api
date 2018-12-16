@@ -9,8 +9,6 @@ ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

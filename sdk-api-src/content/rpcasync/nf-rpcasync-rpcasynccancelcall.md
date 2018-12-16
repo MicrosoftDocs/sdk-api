@@ -9,8 +9,6 @@ ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

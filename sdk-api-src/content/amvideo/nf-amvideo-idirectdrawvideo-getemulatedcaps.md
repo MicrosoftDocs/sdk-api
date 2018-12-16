@@ -9,8 +9,6 @@ ms.assetid: 623cd000-6194-458d-8ef1-5eca202756c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEmulatedCaps, GetEmulatedCaps method [DirectShow], GetEmulatedCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetEmulatedCaps method, IDirectDrawVideo.GetEmulatedCaps, IDirectDrawVideo::GetEmulatedCaps, IDirectDrawVideoGetEmulatedCaps, amvideo/IDirectDrawVideo::GetEmulatedCaps, dshow.idirectdrawvideo_getemulatedcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

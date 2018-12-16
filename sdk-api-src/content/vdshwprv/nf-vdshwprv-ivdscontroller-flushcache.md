@@ -9,8 +9,6 @@ ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsController interface, IVdsController interface [VDS],FlushCache method, IVdsController.FlushCache, IVdsController::FlushCache, base.ivdscontroller_flushcache, vds/IVdsController::FlushCache, vdshwprv/IVdsController::FlushCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

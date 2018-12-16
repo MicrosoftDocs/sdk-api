@@ -9,8 +9,6 @@ ms.assetid: 2631B8AC-22B6-410A-AF3C-6D81FEECFB61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWIM_ENTRY_INFO, PWIM_ENTRY_INFO, PWIM_ENTRY_INFO structure pointer [Files], WIM_ENTRY_INFO, WIM_ENTRY_INFO structure [Files], fs.wim_entry_info, wofapi/PWIM_ENTRY_INFO, wofapi/WIM_ENTRY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wofapi.h
 req.include-header: 

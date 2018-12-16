@@ -9,8 +9,6 @@ ms.assetid: e235e82e-65db-4919-bf71-c454673d07fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetEditBoxText method, IFileDialogCustomize.SetEditBoxText, IFileDialogCustomize::SetEditBoxText, SetEditBoxText, SetEditBoxText method [Windows Shell], SetEditBoxText method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetEditBoxText, shell_IFileDialogCustomize_SetEditBoxText, shobjidl_core/IFileDialogCustomize::SetEditBoxText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 8F33A62C-C503-4CAE-8887-A00CE368BD6F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgStrokeDashArray interface [Direct2D],UpdateDashes method, ID2D1SvgStrokeDashArray.UpdateDashes, ID2D1SvgStrokeDashArray.UpdateDashes(const FLOAT,UINT32,UINT32), ID2D1SvgStrokeDashArray::UpdateDashes, ID2D1SvgStrokeDashArray::UpdateDashes(const FLOAT,UINT32,UINT32), UpdateDashes, UpdateDashes method [Direct2D], UpdateDashes method [Direct2D],ID2D1SvgStrokeDashArray interface, d2d1svg/ID2D1SvgStrokeDashArray::UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

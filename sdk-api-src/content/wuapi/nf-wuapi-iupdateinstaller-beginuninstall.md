@@ -9,8 +9,6 @@ ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginUninstall method, IUpdateInstaller.BeginUninstall, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

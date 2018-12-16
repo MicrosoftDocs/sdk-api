@@ -9,8 +9,6 @@ ms.assetid: cbc687b1-826d-4738-8d0a-a7b90f5ff20d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoInputDevice, IMSVidVideoInputDevice interface [Microsoft TV Technologies], IMSVidVideoInputDevice interface [Microsoft TV Technologies],described, mstv.imsvidvideoinputdevice, segment/IMSVidVideoInputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

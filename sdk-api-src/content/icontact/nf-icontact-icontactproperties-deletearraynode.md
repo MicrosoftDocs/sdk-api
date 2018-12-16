@@ -9,8 +9,6 @@ ms.assetid: a26dc392-1dd7-4dba-9802-b45c01d97493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteArrayNode, DeleteArrayNode method [Windows Contacts], DeleteArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteArrayNode method, IContactProperties.DeleteArrayNode, IContactProperties::DeleteArrayNode, _wincontacts_IContactProperties_DeleteArrayNode, icontact/IContactProperties::DeleteArrayNode, wincontacts._wincontacts_IContactProperties_DeleteArrayNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

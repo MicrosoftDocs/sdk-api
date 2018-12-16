@@ -9,8 +9,6 @@ ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2d1/D2D1_FACTORY_OPTIONS, direct2d.D2D1_FACTORY_OPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

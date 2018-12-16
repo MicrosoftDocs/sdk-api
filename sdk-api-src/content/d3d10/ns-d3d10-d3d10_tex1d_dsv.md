@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_tex1d_dsv.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 11f3ace2-fb36-9637-6055-c218eefac753, D3D10_TEX1D_DSV, D3D10_TEX1D_DSV structure [Direct3D 10], d3d10/D3D10_TEX1D_DSV, direct3d10.d3d10_tex1d_dsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

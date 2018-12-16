@@ -9,8 +9,6 @@ ms.assetid: 31141d97-241e-4717-b707-e37d86c2267d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethodCalls.TestCancel, ICancelMethodCalls::TestCancel, TestCancel, TestCancel method [COM], TestCancel method [COM],ICancelMethodCalls interface, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

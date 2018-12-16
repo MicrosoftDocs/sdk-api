@@ -9,8 +9,6 @@ ms.assetid: 1fb2d5d8-82b8-4c51-a086-bdcad33da190
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceEventCallback, IPortableDeviceEventCallback interface [Windows Portable Devices SDK], IPortableDeviceEventCallback interface [Windows Portable Devices SDK],described, IPortableDeviceEventCallbackInterface, portabledeviceapi/IPortableDeviceEventCallback, wpdsdk.iportabledeviceeventcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

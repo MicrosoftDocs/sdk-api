@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8cdh.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FriendlyName property, IFaxRoutingMethod.FriendlyName, IFaxRoutingMethod.get_FriendlyName, IFaxRoutingMethod::FriendlyName, IFaxRoutingMethod::get_FriendlyName, _mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_friendlyname_cpp, faxcom/IFaxRoutingMethod::FriendlyName, faxcom/IFaxRoutingMethod::get_FriendlyName, get_FriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

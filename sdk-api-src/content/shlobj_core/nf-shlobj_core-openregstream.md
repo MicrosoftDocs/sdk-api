@@ -9,8 +9,6 @@ ms.assetid: e1e35c94-84ac-4aa1-b2a1-47b37a7f224e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenRegStream, OpenRegStream function [Windows Shell], STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_OpenRegStream, shell.OpenRegStream, shlobj_core/OpenRegStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

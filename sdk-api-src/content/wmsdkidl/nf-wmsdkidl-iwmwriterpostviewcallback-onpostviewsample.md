@@ -9,8 +9,6 @@ ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

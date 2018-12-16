@@ -9,8 +9,6 @@ ms.assetid: ab054225-e8e6-4f78-9010-15fc8e5ad15b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsAudioOOBSourceID method, ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

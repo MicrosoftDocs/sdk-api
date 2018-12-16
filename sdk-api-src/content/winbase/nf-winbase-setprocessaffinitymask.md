@@ -9,8 +9,6 @@ ms.assetid: 210b4c95-4072-4039-aa4f-6b0d85758359
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessAffinityMask, SetProcessAffinityMask function, _win32_setprocessaffinitymask, base.setprocessaffinitymask, winbase/SetProcessAffinityMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

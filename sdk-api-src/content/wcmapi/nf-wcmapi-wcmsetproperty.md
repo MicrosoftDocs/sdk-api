@@ -9,8 +9,6 @@ ms.assetid: 79985d5e-a6a1-447c-b12e-11c6022c19a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager], wcm.wcmsetproperty, wcmapi/WcmSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],get_DataTimeout method, ISearchCatalogManager.get_DataTimeout, ISearchCatalogManager::get_DataTimeout, _search_ISearchCatalogManager_get_DataTimeout, get_DataTimeout, get_DataTimeout method [search], get_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DataTimeout, searchapi/ISearchCatalogManager::get_DataTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

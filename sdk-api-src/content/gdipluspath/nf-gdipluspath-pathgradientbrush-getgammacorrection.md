@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGammaCorrection method, PathGradientBrush.GetGammaCorrection, PathGradientBrush::GetGammaCorrection, _gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

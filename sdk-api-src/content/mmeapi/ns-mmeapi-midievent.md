@@ -9,8 +9,6 @@ ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Windows.h

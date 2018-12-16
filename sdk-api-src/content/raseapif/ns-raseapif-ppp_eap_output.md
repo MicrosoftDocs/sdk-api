@@ -9,8 +9,6 @@ ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT structure pointer [EAP], PPP_EAP_OUTPUT, PPP_EAP_OUTPUT structure [EAP], _eap_ppp_eap_output, eap.ppp_eap_output, raseapif/PPPP_EAP_OUTPUT, raseapif/PPP_EAP_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

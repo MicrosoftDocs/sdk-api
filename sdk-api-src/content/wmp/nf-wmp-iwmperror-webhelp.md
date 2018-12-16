@@ -9,8 +9,6 @@ ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

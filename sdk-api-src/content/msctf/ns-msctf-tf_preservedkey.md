@@ -9,8 +9,6 @@ ms.assetid: 95d37e94-3991-49c9-bddf-4183a69d49b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework], _tsf_tf_preservedkey_ref, msctf/TF_PRESERVEDKEY, tsf.tf_preservedkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

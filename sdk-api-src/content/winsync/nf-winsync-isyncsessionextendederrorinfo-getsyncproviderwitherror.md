@@ -9,8 +9,6 @@ ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

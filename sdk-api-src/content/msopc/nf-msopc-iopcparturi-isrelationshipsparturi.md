@@ -9,8 +9,6 @@ ms.assetid: 11d271ab-247c-4060-b769-45e462b66255
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

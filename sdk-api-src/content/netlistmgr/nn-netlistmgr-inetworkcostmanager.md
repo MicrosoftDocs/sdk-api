@@ -9,8 +9,6 @@ ms.assetid: A6316E94-398D-4D87-B631-6BEF416895EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetworkCostManager, INetworkCostManager interface [Network Awareness], INetworkCostManager interface [Network Awareness],described, netlistmgr/INetworkCostManager, nla.inetworkcostmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

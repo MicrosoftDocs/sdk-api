@@ -9,8 +9,6 @@ ms.assetid: 957b09d2-a706-4045-affb-fd530cd4fa3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

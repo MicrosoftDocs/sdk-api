@@ -9,8 +9,6 @@ ms.assetid: b6f544cc-f487-405c-915d-b3a6dc59422c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFolderDefinition, GetFolderDefinition method [Windows Shell], GetFolderDefinition method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderDefinition method, IKnownFolder.GetFolderDefinition, IKnownFolder::GetFolderDefinition, _shell_IKnownFolder_GetFolderDefinition, shell.IKnownFolder_GetFolderDefinition, shobjidl_core/IKnownFolder::GetFolderDefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

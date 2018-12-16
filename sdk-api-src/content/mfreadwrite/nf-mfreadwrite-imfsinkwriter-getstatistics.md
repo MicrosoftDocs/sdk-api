@@ -9,8 +9,6 @@ ms.assetid: 84028b1d-3843-4289-a04c-3039311d095b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetStatistics method, IMFSinkWriter.GetStatistics, IMFSinkWriter::GetStatistics, mf.imfsinkwriter_getstatistics, mfreadwrite/IMFSinkWriter::GetStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

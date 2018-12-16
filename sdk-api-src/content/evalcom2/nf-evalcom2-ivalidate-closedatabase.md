@@ -9,8 +9,6 @@ ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 44ff4991-f6f2-4f70-bdf5-b8e1dc06611c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [Microsoft TV Technologies], GetAttributeCount method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeCount method, IStreamBufferRecordingAttribute.GetAttributeCount, IStreamBufferRecordingAttribute::GetAttributeCount, IStreamBufferRecordingAttributeGetAttributeCount, mstv.istreambufferrecordingattribute_getattributecount, sbe/IStreamBufferRecordingAttribute::GetAttributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

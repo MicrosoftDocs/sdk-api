@@ -9,8 +9,6 @@ ms.assetid: cf8e1307-b4a5-464b-b9a6-32c195941309
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], IMSVidVideoRendererDevices interface [Microsoft TV Technologies],described, IMSVidVideoRendererDevicesInterface, mstv.imsvidvideorendererdevices, segment/IMSVidVideoRendererDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

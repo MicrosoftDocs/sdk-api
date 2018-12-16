@@ -9,8 +9,6 @@ ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],SetAbsoluteBeginTime method, IDCompositionAnimation.SetAbsoluteBeginTime, IDCompositionAnimation::SetAbsoluteBeginTime, SetAbsoluteBeginTime, SetAbsoluteBeginTime method [DirectComposition], SetAbsoluteBeginTime method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime, directcomp.idcompositionanimation_setabsolutebegintime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 

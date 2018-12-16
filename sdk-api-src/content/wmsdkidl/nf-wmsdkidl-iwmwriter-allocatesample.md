@@ -9,8 +9,6 @@ ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

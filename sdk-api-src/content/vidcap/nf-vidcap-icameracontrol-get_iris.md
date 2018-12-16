@@ -9,8 +9,6 @@ ms.assetid: 710a29f1-f5ab-42cf-b912-dd9b4546757e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Iris method, ICameraControl.get_Iris, ICameraControl::get_Iris, ICameraControlget_Iris, dshow.icameracontrol_get_iris, get_Iris, get_Iris method [DirectShow], get_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Iris
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

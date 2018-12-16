@@ -9,8 +9,6 @@ ms.assetid: 54221040-71b8-4b31-81df-46435f7b2b80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],UnlockForProcess method, IAudioProcessingObjectConfiguration.UnlockForProcess, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

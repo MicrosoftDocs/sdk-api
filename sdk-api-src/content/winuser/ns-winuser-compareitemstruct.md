@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructur
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, winuser/COMPAREITEMSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

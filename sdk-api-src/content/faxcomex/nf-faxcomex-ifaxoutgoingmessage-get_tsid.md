@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_4dyc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],TSID property, IFaxOutgoingMessage.TSID, IFaxOutgoingMessage.get_TSID, IFaxOutgoingMessage::TSID, IFaxOutgoingMessage::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.tsid, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_tsid_cpp, fax._mfax_faxoutgoingmessage_tsid, faxcomex/IFaxOutgoingMessage::TSID, faxcomex/IFaxOutgoingMessage::get_TSID, get_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

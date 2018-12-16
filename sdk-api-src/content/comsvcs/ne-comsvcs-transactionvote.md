@@ -9,8 +9,6 @@ ms.assetid: 2fea9ac5-f714-4682-a78c-bfe9396fccd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

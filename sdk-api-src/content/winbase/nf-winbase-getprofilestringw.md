@@ -9,8 +9,6 @@ ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

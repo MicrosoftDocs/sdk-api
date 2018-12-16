@@ -9,8 +9,6 @@ ms.assetid: e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Ignore method, ISpellChecker.Ignore, ISpellChecker::Ignore, Ignore, Ignore method [Internationalization for Windows Applications], Ignore method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_ignore, spellcheck/ISpellChecker::Ignore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

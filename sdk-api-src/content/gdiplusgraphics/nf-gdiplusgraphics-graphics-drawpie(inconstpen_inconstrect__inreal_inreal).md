@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawPie, DrawPie method [GDI+], DrawPie method [GDI+],Graphics class, Graphics class [GDI+],DrawPie method, Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), Graphics.DrawPie(const Pen*,const Rect&,REAL,REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

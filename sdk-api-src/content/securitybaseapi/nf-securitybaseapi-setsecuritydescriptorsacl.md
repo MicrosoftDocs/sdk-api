@@ -9,8 +9,6 @@ ms.assetid: 21615b63-0619-4c0c-a1b8-88ed09a1235c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetSecurityDescriptorSacl, SetSecurityDescriptorSacl function [Security], _win32_setsecuritydescriptorsacl, security.setsecuritydescriptorsacl, securitybaseapi/SetSecurityDescriptorSacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

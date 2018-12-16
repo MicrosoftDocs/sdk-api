@@ -9,8 +9,6 @@ ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

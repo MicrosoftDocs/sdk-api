@@ -9,8 +9,6 @@ ms.assetid: 7DE96557-2CA0-4A88-AFF1-6A5480EEE04D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamSelectorStatics interface [Media Streaming API],SelectBestStreamAsync method, IStreamSelectorStatics.SelectBestStreamAsync, IStreamSelectorStatics.streaming, IStreamSelectorStatics::SelectBestStreamAsync, IStreamSelectorStatics::streaming, SelectBestStreamAsync, SelectBestStreamAsync method [Media Streaming API], SelectBestStreamAsync method [Media Streaming API],IStreamSelectorStatics interface, mediastreaming.istreamselectorstatics_selectbeststreamasync, windows/IStreamSelectorStatics::SelectBestStreamAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

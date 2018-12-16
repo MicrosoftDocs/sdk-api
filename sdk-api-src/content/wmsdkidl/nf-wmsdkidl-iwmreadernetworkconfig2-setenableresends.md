@@ -9,8 +9,6 @@ ms.assetid: c3bd0e03-eee1-4022-8540-1dcc927d6b5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableResends method, IWMReaderNetworkConfig2.SetEnableResends, IWMReaderNetworkConfig2::SetEnableResends, IWMReaderNetworkConfig2SetEnableResends, SetEnableResends, SetEnableResends method [windows Media Format], SetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenableresends, wmsdkidl/IWMReaderNetworkConfig2::SetEnableResends
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

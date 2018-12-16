@@ -9,8 +9,6 @@ ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

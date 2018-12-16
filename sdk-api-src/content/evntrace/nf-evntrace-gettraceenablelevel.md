@@ -9,8 +9,6 @@ ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

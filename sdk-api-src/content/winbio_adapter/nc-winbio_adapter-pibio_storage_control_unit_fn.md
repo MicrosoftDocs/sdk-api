@@ -9,8 +9,6 @@ ms.assetid: 98981278-9d30-4e7d-a9b6-d0427ed8b385
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_FN, PIBIO_STORAGE_CONTROL_UNIT_FN callback, StorageAdapterControlUnit, StorageAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunit, winbio_adapter/StorageAdapterControlUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

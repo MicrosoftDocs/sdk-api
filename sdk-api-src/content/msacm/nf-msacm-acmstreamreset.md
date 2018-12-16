@@ -9,8 +9,6 @@ ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 02152942-A024-4D53-962A-A2ECF7E7D50C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EMI_MEASUREMENT_UNIT, EMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], EmiMeasurementUnitPicowattHours, emi/EMI_MEASUREMENT_UNIT, emi/EmiMeasurementUnitPicowattHours, powermeter.emi_measurement_unit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: emi.h
 req.include-header: Emi.h

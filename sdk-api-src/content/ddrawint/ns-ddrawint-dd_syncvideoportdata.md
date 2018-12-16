@@ -9,8 +9,6 @@ ms.assetid: babe7d53-f278-44f7-9346-b4661b603123
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA structure [Display Devices], ddrawint/DD_SYNCVIDEOPORTDATA, ddstrcts_7a531397-4c11-491f-8cec-8db6b9dfdd0d.xml, display.dd_syncvideoportdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

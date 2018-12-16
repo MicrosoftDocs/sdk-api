@@ -9,8 +9,6 @@ ms.assetid: 861e57b2-061c-4598-ad38-6aef7b79ca54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseDesktop, CloseDesktop function [Windows Stations and Desktops], _win32_closedesktop, base.closedesktop, winstation.closedesktop, winuser/CloseDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

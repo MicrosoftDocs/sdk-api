@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1j50.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Id property, IFaxIncomingMessage.Id, IFaxIncomingMessage.get_Id, IFaxIncomingMessage::Id, IFaxIncomingMessage::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.id, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_id_cpp, fax._mfax_faxincomingmessage_id, faxcomex/IFaxIncomingMessage::Id, faxcomex/IFaxIncomingMessage::get_Id, get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

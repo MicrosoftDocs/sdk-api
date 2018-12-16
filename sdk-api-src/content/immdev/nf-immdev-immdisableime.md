@@ -9,8 +9,6 @@ ms.assetid: c563fc24-3c56-40ac-8539-8336d5231537
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Windows Applications], _win32_ImmDisableIME, imm/ImmDisableIME, intl.immdisableime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

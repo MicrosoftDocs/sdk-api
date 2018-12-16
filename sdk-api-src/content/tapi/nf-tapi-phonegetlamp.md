@@ -9,8 +9,6 @@ ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetlamp, phoneGetLamp, phoneGetLamp function [TAPI 2.2], tapi/phoneGetLamp, tapi2.phonegetlamp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

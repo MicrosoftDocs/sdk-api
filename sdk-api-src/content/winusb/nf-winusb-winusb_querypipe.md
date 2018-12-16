@@ -9,8 +9,6 @@ ms.assetid: cbc0a988-27ee-46f5-be03-fe79eedd128a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_QueryPipe, WinUsb_QueryPipe function [Buses], buses.winusb_querypipe, winusb/WinUsb_QueryPipe, winusbfunc_1a0b0ae5-25b3-47b5-bc32-165be320831b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

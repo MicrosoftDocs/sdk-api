@@ -9,8 +9,6 @@ ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

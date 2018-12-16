@@ -9,8 +9,6 @@ ms.assetid: F29615EE-0B2C-4066-8A6B-67457D46028C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCameraExtrinsics, MFCameraExtrinsics structure [Media Foundation], PMFCameraExtrinsics, PMFCameraExtrinsics structure pointer [Media Foundation], mf.mfcameraextrinsics, mfapi/MFCameraExtrinsics, mfapi/PMFCameraExtrinsics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

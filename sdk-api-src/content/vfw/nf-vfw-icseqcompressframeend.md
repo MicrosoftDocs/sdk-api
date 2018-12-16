@@ -9,8 +9,6 @@ ms.assetid: 3fdcd18d-4ee7-4b5a-871d-61316c716e06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICSeqCompressFrameEnd, ICSeqCompressFrameEnd function [Windows Multimedia], _win32_ICSeqCompressFrameEnd, multimedia.icseqcompressframeend, vfw/ICSeqCompressFrameEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 28cb93de-67f2-4e94-b0b7-0707c276662a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

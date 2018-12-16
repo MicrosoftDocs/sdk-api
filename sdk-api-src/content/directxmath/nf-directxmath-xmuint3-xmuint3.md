@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3::XMUINT3, dxmath.xmuint3_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 

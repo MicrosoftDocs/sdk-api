@@ -9,8 +9,6 @@ ms.assetid: 38288a63-62a3-4b06-b2e6-dbe8c27e09ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioInputSelector interface, IAudioInputSelector interface [Core Audio],GetSelection method, IAudioInputSelector.GetSelection, IAudioInputSelector::GetSelection, IAudioInputSelectorGetSelection, coreaudio.iaudioinputselector_getselection, devicetopology/IAudioInputSelector::GetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

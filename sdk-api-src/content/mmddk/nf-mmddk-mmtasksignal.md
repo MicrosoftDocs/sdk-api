@@ -9,8 +9,6 @@ ms.assetid: 99063f94-efe6-43f5-87e4-1d52b83650e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

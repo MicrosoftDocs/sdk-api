@@ -9,8 +9,6 @@ ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],DeleteScope method, DeleteScope, DeleteScope method [Security], DeleteScope method [Security],AzApplication object, DeleteScope method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteScope method, IAzApplication.DeleteScope, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 686d2104-f657-4c3b-967b-d6fb9137be17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],Query method, IVssFileShareSnapshotProvider.Query, IVssFileShareSnapshotProvider::Query, Query, Query method [VSS], Query method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_query, vsprov/IVssFileShareSnapshotProvider::Query
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

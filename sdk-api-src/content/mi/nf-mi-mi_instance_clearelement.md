@@ -9,8 +9,6 @@ ms.assetid: de945902-4b10-47d1-a374-a1aeab02a787
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance_ClearElement, MI_Instance_ClearElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_ClearElement, wmi_v2.mi_instance_clearelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

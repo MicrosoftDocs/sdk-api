@@ -9,8 +9,6 @@ ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

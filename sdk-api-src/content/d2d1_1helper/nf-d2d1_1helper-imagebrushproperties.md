@@ -9,8 +9,6 @@ ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

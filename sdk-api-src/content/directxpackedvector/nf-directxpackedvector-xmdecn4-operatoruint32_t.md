@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.operator uint32_t
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMDECN4.operator uint32_t, DirectX::PackedVector::XMDECN4::operator uint32_t, XMDECN4 structure [DirectX Math Support APIs],operator uint32_t method, XMDECN4.operator uint32_t, XMDECN4::operator uint32_t, dxmath.xmdecn4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMDECN4 structure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

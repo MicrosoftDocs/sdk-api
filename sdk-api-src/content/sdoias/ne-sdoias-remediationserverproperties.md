@@ -9,8 +9,6 @@ ms.assetid: 46f3b67d-8060-44d5-b04b-b1655ac22c3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVER_ADDRESS, PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], nps.SDO_remediationserverproperties, sdo.remediationserverproperties, sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS, sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, sdoias/REMEDIATIONSERVERPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

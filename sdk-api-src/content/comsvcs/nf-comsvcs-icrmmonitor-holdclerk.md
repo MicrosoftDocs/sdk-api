@@ -9,8 +9,6 @@ ms.assetid: 8e0f5197-d423-4b74-aaa1-2ec60e01d75c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HoldClerk, HoldClerk method [COM+], HoldClerk method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],HoldClerk method, ICrmMonitor.HoldClerk, ICrmMonitor::HoldClerk, _dtc_ICrmMonitor_HoldClerk, comsvcs/ICrmMonitor::HoldClerk, cos.icrmmonitor_holdclerk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b405503f-2af5-4a2f-abdb-e2eb108c4b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromName method, ICspInformation.InitializeFromName, ICspInformation::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromName, security.icspinformation_initializefromname_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

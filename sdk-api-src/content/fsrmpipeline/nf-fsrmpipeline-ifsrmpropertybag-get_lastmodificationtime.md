@@ -9,8 +9,6 @@ ms.assetid: 0afba4f9-b716-49dc-bbeb-6245e5c7a386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastModificationTime property, IFsrmPropertyBag.LastModificationTime, IFsrmPropertyBag.get_LastModificationTime, IFsrmPropertyBag::LastModificationTime, IFsrmPropertyBag::get_LastModificationTime, LastModificationTime property [File Server Resource Manager], LastModificationTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastmodificationtime, fsrm.ifsrmpropertybag_lastmodificationtime, fsrmpipeline/IFsrmPropertyBag::LastModificationTime, fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime, get_LastModificationTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

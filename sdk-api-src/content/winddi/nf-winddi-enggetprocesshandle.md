@@ -9,8 +9,6 @@ ms.assetid: 51e39335-8ad7-4cd9-b46b-6fdd7a4de0bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngGetProcessHandle, EngGetProcessHandle function [Display Devices], display.enggetprocesshandle, gdifncs_02eadc69-3940-4d10-a9c1-296b12918c87.xml, winddi/EngGetProcessHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,6 @@ ms.assetid: 25cd2ab0-7f58-4bd5-b594-75a3acbdc2d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

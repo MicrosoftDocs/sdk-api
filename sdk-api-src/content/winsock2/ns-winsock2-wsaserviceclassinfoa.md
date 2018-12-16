@@ -9,8 +9,6 @@ ms.assetid: 02422c24-34a6-4e34-a795-66b0b687ac44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSASERVICECLASSINFOA, *PWSASERVICECLASSINFOA, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

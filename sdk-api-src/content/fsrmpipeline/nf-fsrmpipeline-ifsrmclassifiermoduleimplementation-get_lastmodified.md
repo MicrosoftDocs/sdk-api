@@ -9,8 +9,6 @@ ms.assetid: edda630a-947d-4c81-b4d5-c02b3ba02f10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmAlwaysModified, FsrmNeverModified, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],LastModified property, IFsrmClassifierModuleImplementation.LastModified, IFsrmClassifierModuleImplementation.get_LastModified, IFsrmClassifierModuleImplementation::LastModified, IFsrmClassifierModuleImplementation::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_lastmodified, fsrm.ifsrmclassifiermoduleimplementation_lastmodified, fsrmpipeline/IFsrmClassifierModuleImplementation::LastModified, fsrmpipeline/IFsrmClassifierModuleImplementation::get_LastModified, get_LastModified
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

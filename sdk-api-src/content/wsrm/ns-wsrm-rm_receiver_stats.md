@@ -9,8 +9,6 @@ ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RM_RECEIVER_STATS, RM_RECEIVER_STATS structure [Winsock], winsock.rm_receiver_stats, wsrm/RM_RECEIVER_STATS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsrm.h
 req.include-header: 

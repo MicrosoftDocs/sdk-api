@@ -9,8 +9,6 @@ ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultSecurityDescriptor, GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security],ICspInformation interface, ICspInformation interface [Security],GetDefaultSecurityDescriptor method, ICspInformation.GetDefaultSecurityDescriptor, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

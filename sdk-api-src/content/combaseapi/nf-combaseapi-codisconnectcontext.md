@@ -9,8 +9,6 @@ ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -9,8 +9,6 @@ ms.assetid: 73ceaeb1-9a6b-449a-9851-3756736dbad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInfo, GetInfo method [ADSI], GetInfo method [ADSI],IADs interface, IADs interface [ADSI],GetInfo method, IADs.GetInfo, IADs::GetInfo, _ds_iads_getinfo, adsi.iads__getinfo, adsi.iads_getinfo, iads/IADs::GetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

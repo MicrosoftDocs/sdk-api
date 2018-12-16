@@ -9,8 +9,6 @@ ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHPUBKEY, DHPUBKEY structure [Security], DSSPUBKEY, KEAPUBKEY, TEKPUBKEY, _PUBKEY, _crypto2_dhpubkey, security.dhpubkey, wincrypt/DHPUBKEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5913587d-5c0d-4c50-99d9-8bff266b1c5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescgettask_func, etw.eventdescgettask_func, evntprov/EventDescGetTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

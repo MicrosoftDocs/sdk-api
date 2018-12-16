@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearOutputChannelColorProfile, ClearOutputChannelColorProfile method [GDI+], ClearOutputChannelColorProfile method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearOutputChannelColorProfile method, ImageAttributes.ClearOutputChannelColorProfile, ImageAttributes::ClearOutputChannelColorProfile, _gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

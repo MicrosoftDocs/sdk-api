@@ -9,8 +9,6 @@ ms.assetid: 03beac03-cd09-4e03-b700-d96741e4932b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetText method, ITextStoreAnchor.SetText, ITextStoreAnchor::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetText, tsf.itextstoreanchor_settext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

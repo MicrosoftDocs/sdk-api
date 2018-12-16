@@ -9,8 +9,6 @@ ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, usp10/SCRIPT_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

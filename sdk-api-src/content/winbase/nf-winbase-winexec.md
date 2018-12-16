@@ -9,8 +9,6 @@ ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

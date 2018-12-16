@@ -9,8 +9,6 @@ ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

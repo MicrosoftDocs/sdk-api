@@ -9,8 +9,6 @@ ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],_NewEnum property, IRDPSRAPIApplicationList._NewEnum, IRDPSRAPIApplicationList.get__NewEnum, IRDPSRAPIApplicationList::_NewEnum, IRDPSRAPIApplicationList::get__NewEnum, RDPSRAPIApplicationList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIApplicationList interface, _NewEnum property [RDP],RDPSRAPIApplicationList object, get__NewEnum, rdp.irdpsrapiapplicationlist__newenum, rdpencomapi/IRDPSRAPIApplicationList::_NewEnum, rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

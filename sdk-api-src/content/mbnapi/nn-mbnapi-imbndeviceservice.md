@@ -9,8 +9,6 @@ ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

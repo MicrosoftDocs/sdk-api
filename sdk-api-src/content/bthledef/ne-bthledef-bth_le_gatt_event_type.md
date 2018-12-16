@@ -9,8 +9,6 @@ ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices], CharacteristicValueChangedEvent, bltooth.bth_le_gatt_event_type, bthledef/BTH_LE_GATT_EVENT_TYPE, bthledef/CharacteristicValueChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bthledef.h
 req.include-header: BthLEDef.h

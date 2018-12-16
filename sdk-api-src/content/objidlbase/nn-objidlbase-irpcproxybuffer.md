@@ -9,8 +9,6 @@ ms.assetid: e1b18997-f99b-4611-8ba6-da28fd8df898
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM],described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

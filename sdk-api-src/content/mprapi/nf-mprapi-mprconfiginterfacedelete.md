@@ -9,8 +9,6 @@ ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceDelete, MprConfigInterfaceDelete function [RAS], _mpr_mprconfiginterfacedelete, mprapi/MprConfigInterfaceDelete, rras.mprconfiginterfacedelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

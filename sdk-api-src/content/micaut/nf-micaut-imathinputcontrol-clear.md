@@ -9,8 +9,6 @@ ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

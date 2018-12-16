@@ -9,8 +9,6 @@ ms.assetid: b50677cd-8815-4d84-b70a-c83863378c56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], pathcch/PathCchAddBackslash, shell.PathCchAddBackslash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

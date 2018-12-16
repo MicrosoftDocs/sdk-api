@@ -9,8 +9,6 @@ ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveIScsiSendTargetPortalW, RemoveIscsiSendTargetPortal, RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API], RemoveIscsiSendTargetPortalA, RemoveIscsiSendTargetPortalW, iscsidisc.removeiscsisendtargetportal, iscsidsc/RemoveIscsiSendTargetPortal, iscsidsc/RemoveIscsiSendTargetPortalA, iscsidsc/RemoveIscsiSendTargetPortalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

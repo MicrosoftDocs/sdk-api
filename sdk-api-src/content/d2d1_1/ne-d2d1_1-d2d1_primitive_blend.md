@@ -9,8 +9,6 @@ ms.assetid: 411a42c9-f8d7-46f3-a6e6-51afc83375ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_PRIMITIVE_BLEND, D2D1_PRIMITIVE_BLEND enumeration [Direct2D], D2D1_PRIMITIVE_BLEND_ADD, D2D1_PRIMITIVE_BLEND_COPY, D2D1_PRIMITIVE_BLEND_MAX, D2D1_PRIMITIVE_BLEND_MIN, D2D1_PRIMITIVE_BLEND_SOURCE_OVER, d2d1_1/D2D1_PRIMITIVE_BLEND, d2d1_1/D2D1_PRIMITIVE_BLEND_ADD, d2d1_1/D2D1_PRIMITIVE_BLEND_COPY, d2d1_1/D2D1_PRIMITIVE_BLEND_MAX, d2d1_1/D2D1_PRIMITIVE_BLEND_MIN, d2d1_1/D2D1_PRIMITIVE_BLEND_SOURCE_OVER, direct2d.__d2d1_primitive_blend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

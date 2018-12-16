@@ -9,8 +9,6 @@ ms.assetid: 6c0ba35f-a484-4d00-be42-af5114086250
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPCallbackNotification, WMPCallbackNotification enumeration [Windows Media Player], contentpartner/WMPCallbackNotification, contentpartner/wmpcnAuthResult, contentpartner/wmpcnDisableRadioSkipping, contentpartner/wmpcnLicenseUpdated, contentpartner/wmpcnLoginStateChange, contentpartner/wmpcnNewCatalogAvailable, contentpartner/wmpcnNewPluginAvailable, enumeration [Windows Media Player], wmp.wmpcallbacknotification, wmpcnAuthResult, wmpcnDisableRadioSkipping, wmpcnLicenseUpdated, wmpcnLoginStateChange, wmpcnNewCatalogAvailable, wmpcnNewPluginAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

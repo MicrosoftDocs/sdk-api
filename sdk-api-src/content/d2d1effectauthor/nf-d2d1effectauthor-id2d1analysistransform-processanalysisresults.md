@@ -9,8 +9,6 @@ ms.assetid: 3E7D8CDB-C3A0-4167-BDD4-66376D81BE41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1AnalysisTransform interface [Direct2D],ProcessAnalysisResults method, ID2D1AnalysisTransform.ProcessAnalysisResults, ID2D1AnalysisTransform::ProcessAnalysisResults, ProcessAnalysisResults, ProcessAnalysisResults method [Direct2D], ProcessAnalysisResults method [Direct2D],ID2D1AnalysisTransform interface, d2d1effectauthor/ID2D1AnalysisTransform::ProcessAnalysisResults, direct2d.id2d1analysistransform_processanalysisresults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 

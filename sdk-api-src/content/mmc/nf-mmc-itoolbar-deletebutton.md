@@ -9,8 +9,6 @@ ms.assetid: c893b3a6-a0f8-42ce-bf82-2e45f6458500
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteButton, DeleteButton method [MMC], DeleteButton method [MMC],IToolbar interface, IToolbar interface [MMC],DeleteButton method, IToolbar.DeleteButton, IToolbar::DeleteButton, _slate_itoolbar_deletebutton, mmc.itoolbar_deletebutton, mmc/IToolbar::DeleteButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

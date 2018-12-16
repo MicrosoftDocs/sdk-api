@@ -9,8 +9,6 @@ ms.assetid: ef2f75fe-dc93-403d-af1a-c08c45e2d818
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

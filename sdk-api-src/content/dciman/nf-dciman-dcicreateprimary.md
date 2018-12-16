@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCICreatePrimary, DCICreatePrimary function [Windows API], _dciman_dcicreateprimary, dciman/DCICreatePrimary, winprog._dciman_dcicreateprimary, winui._dciman_dcicreateprimary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

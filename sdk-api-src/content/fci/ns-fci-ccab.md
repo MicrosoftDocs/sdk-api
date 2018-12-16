@@ -9,8 +9,6 @@ ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fci.h
 req.include-header: 

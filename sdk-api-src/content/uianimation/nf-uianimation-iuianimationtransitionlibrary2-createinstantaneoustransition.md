@@ -9,8 +9,6 @@ ms.assetid: E40313C5-F98E-4BF3-83B8-735271ED1E2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

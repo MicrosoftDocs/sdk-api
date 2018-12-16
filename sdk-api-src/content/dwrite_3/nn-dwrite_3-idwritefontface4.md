@@ -9,8 +9,6 @@ ms.assetid: 08A0E6F3-611B-4C19-835B-1353D4938181
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFace4, IDWriteFontFace4 interface [Direct Write], IDWriteFontFace4 interface [Direct Write],described, directwrite.idwritefontface4, dwrite_3/IDWriteFontFace4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 

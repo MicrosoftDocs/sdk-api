@@ -9,8 +9,6 @@ ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: contentpartner.h
 req.include-header: 

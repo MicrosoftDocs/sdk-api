@@ -9,8 +9,6 @@ ms.assetid: f1b8e24c-ac90-4a25-a1d1-c005c403dffc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MSICOLINFO_NAMES, MSICOLINFO_TYPES, MsiViewGetColumnInfo, MsiViewGetColumnInfo function, _msi_msiviewgetcolumninfo, msiquery/MsiViewGetColumnInfo, setup.msiviewgetcolumninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

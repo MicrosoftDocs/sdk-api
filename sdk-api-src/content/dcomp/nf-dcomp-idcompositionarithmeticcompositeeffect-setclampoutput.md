@@ -9,8 +9,6 @@ ms.assetid: 6558E6E7-FEF3-43F0-8508-197BA1DE3D10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetClampOutput method, IDCompositionArithmeticCompositeEffect.SetClampOutput, IDCompositionArithmeticCompositeEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput, directcomp.idcompositionarithmeticcompositeeffect_setclampoutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

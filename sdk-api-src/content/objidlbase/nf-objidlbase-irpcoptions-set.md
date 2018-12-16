@@ -9,8 +9,6 @@ ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

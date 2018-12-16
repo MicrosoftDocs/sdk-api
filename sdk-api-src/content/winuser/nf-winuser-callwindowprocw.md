@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\win
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CallWindowProc, CallWindowProc function [Windows and Messages], CallWindowProcA, CallWindowProcW, _win32_CallWindowProc, _win32_callwindowproc_cpp, winmsg.callwindowproc, winui._win32_callwindowproc, winuser/CallWindowProc, winuser/CallWindowProcA, winuser/CallWindowProcW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

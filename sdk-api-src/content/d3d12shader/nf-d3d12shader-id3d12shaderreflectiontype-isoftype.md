@@ -9,8 +9,6 @@ ms.assetid: 6B5A043A-927A-49AD-BF63-F8A9CCB57E09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsOfType method, ID3D12ShaderReflectionType.IsOfType, ID3D12ShaderReflectionType::IsOfType, IsOfType, IsOfType method, IsOfType method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsOfType, direct3d12.id3d12shaderreflectiontype_isoftype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

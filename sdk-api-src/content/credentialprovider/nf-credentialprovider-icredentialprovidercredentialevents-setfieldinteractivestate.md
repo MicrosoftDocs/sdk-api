@@ -9,8 +9,6 @@ ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldInteractiveState method, ICredentialProviderCredentialEvents.SetFieldInteractiveState, ICredentialProviderCredentialEvents::SetFieldInteractiveState, SetFieldInteractiveState, SetFieldInteractiveState method [Windows Shell], SetFieldInteractiveState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState, shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

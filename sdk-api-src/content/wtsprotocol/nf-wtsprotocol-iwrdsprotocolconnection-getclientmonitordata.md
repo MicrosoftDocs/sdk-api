@@ -9,8 +9,6 @@ ms.assetid: df70ff56-3e12-4842-a818-31ee75da96a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClientMonitorData, GetClientMonitorData method [Remote Desktop Services], GetClientMonitorData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientMonitorData method, IWRdsProtocolConnection.GetClientMonitorData, IWRdsProtocolConnection::GetClientMonitorData, termserv.iwrdsprotocolconnection_getclientmonitordata, termserv.iwrdsremotefxgraphicsconnection_getclientmonitordata, wtsprotocol/IWRdsProtocolConnection::GetClientMonitorData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

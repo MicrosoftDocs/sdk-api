@@ -9,8 +9,6 @@ ms.assetid: 5b4bb009-764e-4892-903a-5939f5570016
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateWriter, WsCreateWriter function [Web Services for Windows], webservices/WsCreateWriter, wsw.wscreatewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f8316587-f279-419a-a35d-194df3fc8383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

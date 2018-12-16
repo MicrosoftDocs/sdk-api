@@ -9,8 +9,6 @@ ms.assetid: efbdb93e-5d6b-4116-b1bf-8836cd9d7b89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrPointerMarshall, NdrPointerMarshall function [RPC], rpc.ndrpointermarshall, rpcndr/NdrPointerMarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

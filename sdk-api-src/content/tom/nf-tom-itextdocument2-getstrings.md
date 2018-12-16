@@ -9,8 +9,6 @@ ms.assetid: 54d8c682-4e30-4ce2-baa1-d89e28491015
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStrings, GetStrings method [Windows Controls], GetStrings method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStrings method, ITextDocument2.GetStrings, ITextDocument2::GetStrings, controls.itextdocument2_getstrings, tom/ITextDocument2::GetStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

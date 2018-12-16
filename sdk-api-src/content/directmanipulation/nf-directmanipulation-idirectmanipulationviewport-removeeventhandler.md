@@ -9,8 +9,6 @@ ms.assetid: ea8539c0-2c0e-4259-a104-ecc02a46372a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

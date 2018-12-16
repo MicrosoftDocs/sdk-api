@@ -9,8 +9,6 @@ ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

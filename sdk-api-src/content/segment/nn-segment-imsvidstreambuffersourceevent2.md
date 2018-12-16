@@ -9,8 +9,6 @@ ms.assetid: d601efcf-d15a-4b9a-bad8-f09de80500c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent2, IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent2Interface, mstv.imsvidstreambuffersourceevent2, segment/IMSVidStreamBufferSourceEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

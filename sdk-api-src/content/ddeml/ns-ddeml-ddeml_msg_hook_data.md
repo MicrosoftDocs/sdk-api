@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA structure [Data Exchange], PDDEML_MSG_HOOK_DATA, PDDEML_MSG_HOOK_DATA structure pointer [Data Exchange], _win32_DDEML_MSG_HOOK_DATA_str, _win32_ddeml_msg_hook_data_str_cpp, dataxchg.ddeml_msg_hook_data_str, ddeml/DDEML_MSG_HOOK_DATA, ddeml/PDDEML_MSG_HOOK_DATA, winui._win32_ddeml_msg_hook_data_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

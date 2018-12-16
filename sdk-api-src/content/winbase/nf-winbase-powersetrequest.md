@@ -9,8 +9,6 @@ ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

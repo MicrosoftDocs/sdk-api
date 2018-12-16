@@ -9,8 +9,6 @@ ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

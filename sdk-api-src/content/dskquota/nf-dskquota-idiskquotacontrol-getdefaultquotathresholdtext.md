@@ -9,8 +9,6 @@ ms.assetid: faeb2fc5-92b0-49bf-a233-6b21683693bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultQuotaThresholdText, GetDefaultQuotaThresholdText method [Files], GetDefaultQuotaThresholdText method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaThresholdText method, IDiskQuotaControl.GetDefaultQuotaThresholdText, IDiskQuotaControl::GetDefaultQuotaThresholdText, _win32_idiskquotacontrol_getdefaultquotathresholdtext, base.idiskquotacontrol_getdefaultquotathresholdtext, dskquota/IDiskQuotaControl::GetDefaultQuotaThresholdText, fs.idiskquotacontrol_getdefaultquotathresholdtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

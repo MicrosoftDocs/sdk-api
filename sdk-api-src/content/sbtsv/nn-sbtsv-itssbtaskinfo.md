@@ -9,8 +9,6 @@ ms.assetid: d24c1a64-e006-4229-a675-54f29b8ac1c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], ITsSbTaskInfo interface [Remote Desktop Services],described, sbtsv/ITsSbTaskInfo, termserv.itssbtaskinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

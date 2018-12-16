@@ -9,8 +9,6 @@ ms.assetid: 3e823f7f-91cc-4e59-bbb5-1a33ef094999
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxRenewalCount, GetMaxRenewalCount method [Microsoft TV Technologies], GetMaxRenewalCount method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetMaxRenewalCount method, IESFileExpiryDateEvent.GetMaxRenewalCount, IESFileExpiryDateEvent::GetMaxRenewalCount, mstv.iesfileexpirydateevent_getmaxrenewalcount, tuner/IESFileExpiryDateEvent::GetMaxRenewalCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

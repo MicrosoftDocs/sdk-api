@@ -9,8 +9,6 @@ ms.assetid: 67231fa5-69eb-4353-8c3c-326ec9095554
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_KEY, PHTTP_SERVICE_CONFIG_SSL_KEY structure pointer [HTTP], _http_http_service_config_ssl_key, http.http_service_config_ssl_key, http/HTTP_SERVICE_CONFIG_SSL_KEY, http/PHTTP_SERVICE_CONFIG_SSL_KEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

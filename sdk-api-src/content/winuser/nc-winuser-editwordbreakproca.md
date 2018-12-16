@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDITWORDBREAKPROCA, EDITWORDBREAKPROCW, EditWordBreakProc, EditWordBreakProc callback, EditWordBreakProc callback function [Windows Controls], WB_CLASSIFY, WB_ISDELIMITER, WB_LEFT, WB_LEFTBREAK, WB_MOVEWORDLEFT, WB_MOVEWORDRIGHT, WB_RIGHT, WB_RIGHTBREAK, _win32_EditWordBreakProc, _win32_EditWordBreakProc_cpp, controls.EditWordBreakProc, controls._win32_EditWordBreakProc, winuser/EDITWORDBREAKPROCA, winuser/EDITWORDBREAKPROCW, winuser/EditWordBreakProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h

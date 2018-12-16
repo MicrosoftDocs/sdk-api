@@ -9,8 +9,6 @@ ms.assetid: bb58f35e-0fca-4b19-9976-de2140e6ebc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAttributes.SetDouble, IMFAttributes::SetDouble, SetDouble, SetDouble method [Media Foundation], SetDouble method [Media Foundation],IMFAttributes interface, bb58f35e-0fca-4b19-9976-de2140e6ebc0, mf.imfattributes_setdouble, mfobjects/IMFAttributes::SetDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

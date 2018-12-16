@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\wrapmode.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WrapMode, WrapMode enumeration [GDI+], WrapModeClamp, WrapModeTile, WrapModeTileFlipX, WrapModeTileFlipXY, WrapModeTileFlipY, _gdiplus_ENUM_WrapMode, gdiplus._gdiplus_ENUM_WrapMode, gdiplusenums/WrapMode, gdiplusenums/WrapModeClamp, gdiplusenums/WrapModeTile, gdiplusenums/WrapModeTileFlipX, gdiplusenums/WrapModeTileFlipXY, gdiplusenums/WrapModeTileFlipY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

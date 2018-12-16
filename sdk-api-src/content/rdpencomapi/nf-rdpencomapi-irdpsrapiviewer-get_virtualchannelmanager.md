@@ -9,8 +9,6 @@ ms.assetid: c878c445-5f1a-4a1f-be56-4cc427a40a1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],VirtualChannelManager property, IRDPSRAPIViewer.VirtualChannelManager, IRDPSRAPIViewer.get_VirtualChannelManager, IRDPSRAPIViewer::VirtualChannelManager, IRDPSRAPIViewer::get_VirtualChannelManager, RDPViewer object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPIViewer interface, VirtualChannelManager property [RDP],RDPViewer object, get_VirtualChannelManager, rdp.irdpsrapiviewer_virtualchannelmanager, rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager, rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

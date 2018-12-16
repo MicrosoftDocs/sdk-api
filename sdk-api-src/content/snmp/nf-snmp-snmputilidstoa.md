@@ -9,8 +9,6 @@ ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

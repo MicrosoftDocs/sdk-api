@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_92cn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Debug property, IFaxServer.Debug, IFaxServer.get_Debug, IFaxServer::Debug, IFaxServer::get_Debug, _mfax_faxserver.debug, fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp, fax._mfax_faxserver_debug, faxcomex/IFaxServer::Debug, faxcomex/IFaxServer::get_Debug, get_Debug
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

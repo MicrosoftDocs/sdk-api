@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCLIENTCREATESTRUCT, CLIENTCREATESTRUCT, CLIENTCREATESTRUCT structure [Windows and Messages], LPCLIENTCREATESTRUCT, LPCLIENTCREATESTRUCT structure pointer [Windows and Messages], _win32_CLIENTCREATESTRUCT_str, _win32_clientcreatestruct_str_cpp, winmsg.clientcreatestruct, winui._win32_clientcreatestruct_str, winuser/CLIENTCREATESTRUCT, winuser/LPCLIENTCREATESTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

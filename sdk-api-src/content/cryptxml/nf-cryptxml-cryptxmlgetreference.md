@@ -9,8 +9,6 @@ ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

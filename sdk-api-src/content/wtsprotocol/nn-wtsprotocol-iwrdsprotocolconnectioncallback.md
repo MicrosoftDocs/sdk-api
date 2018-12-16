@@ -9,8 +9,6 @@ ms.assetid: 81a73688-f39e-4960-8587-602d56c11e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], IWRdsProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocolconnectioncallback, wtsprotocol/IWRdsProtocolConnectionCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

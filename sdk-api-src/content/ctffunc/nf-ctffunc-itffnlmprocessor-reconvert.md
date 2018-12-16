@@ -9,8 +9,6 @@ ms.assetid: 1580be2c-d16e-445b-83ba-c033eeb679b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],Reconvert method, ITfFnLMProcessor.Reconvert, ITfFnLMProcessor::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_reconvert_ref, ctffunc/ITfFnLMProcessor::Reconvert, tsf.itffnlmprocessor_reconvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

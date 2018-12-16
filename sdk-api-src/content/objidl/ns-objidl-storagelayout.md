@@ -9,8 +9,6 @@ ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pnrpdef.h
 req.include-header: 

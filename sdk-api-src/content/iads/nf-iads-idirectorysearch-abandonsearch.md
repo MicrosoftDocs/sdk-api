@@ -9,8 +9,6 @@ ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

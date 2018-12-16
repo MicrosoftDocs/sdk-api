@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreferen
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winbase.h
 req.include-header: Windows.h

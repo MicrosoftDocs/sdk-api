@@ -9,8 +9,6 @@ ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstopprovider, perf.perfstopprovider, perflib/PerfStopProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

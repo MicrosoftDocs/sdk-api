@@ -9,8 +9,6 @@ ms.assetid: a437daea-af30-43e5-bb88-e59de8ba37c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiItem interface [IMAPI],put_IsHidden method, IFsiItem.put_IsHidden, IFsiItem::put_IsHidden, imapi.ifsiitem_put_ishidden, imapi2fs/IFsiItem::put_IsHidden, put_IsHidden, put_IsHidden method [IMAPI], put_IsHidden method [IMAPI],IFsiItem interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

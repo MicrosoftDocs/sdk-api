@@ -9,8 +9,6 @@ ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

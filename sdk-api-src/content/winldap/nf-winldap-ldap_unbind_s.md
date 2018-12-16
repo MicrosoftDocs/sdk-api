@@ -9,8 +9,6 @@ ms.assetid: b4dcf3cc-d4cb-40ca-a57e-150d4008108c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_unbind_s, ldap.ldap__unbind__s, ldap.ldap_unbind_s, ldap_unbind_s, ldap_unbind_s function [LDAP], winldap/ldap_unbind_s"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

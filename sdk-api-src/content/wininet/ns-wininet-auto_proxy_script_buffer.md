@@ -9,8 +9,6 @@ ms.assetid: 4bbe875a-1eac-421a-90c6-ac60b2229b4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

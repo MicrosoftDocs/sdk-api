@@ -9,8 +9,6 @@ ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

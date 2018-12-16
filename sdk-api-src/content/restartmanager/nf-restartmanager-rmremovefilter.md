@@ -9,8 +9,6 @@ ms.assetid: fb1baa7b-0dfb-4bd1-8a3f-cfaf9bf4079f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

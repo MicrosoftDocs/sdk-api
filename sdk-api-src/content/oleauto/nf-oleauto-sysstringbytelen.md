@@ -9,8 +9,6 @@ ms.assetid: 2a150503-f474-41b8-90dd-fbbc955bea99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysStringByteLen, SysStringByteLen function [Automation], _oa96_SysStringByteLen, automat.sysstringbytelen, oleauto/SysStringByteLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

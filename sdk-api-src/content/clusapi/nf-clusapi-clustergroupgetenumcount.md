@@ -9,8 +9,6 @@ ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGroupGetEnumCount, ClusterGroupGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT function [Failover Cluster], _wolf_clustergroupgetenumcount, clusapi/ClusterGroupGetEnumCount, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, mscs.clustergroupgetenumcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

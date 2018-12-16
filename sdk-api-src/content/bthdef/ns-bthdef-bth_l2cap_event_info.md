@@ -9,8 +9,6 @@ ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetooth], BTH_L2CAP_EVENT_INFO, BTH_L2CAP_EVENT_INFO structure [Bluetooth], bluetooth.bth_l2cap_event_info, bthdef/*PBTH_L2CAP_EVENT_INFO, bthdef/BTH_L2CAP_EVENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthdef.h
 req.include-header: 

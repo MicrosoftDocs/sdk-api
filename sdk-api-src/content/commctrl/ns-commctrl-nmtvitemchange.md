@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NMTVITEMCHANGE, NMTVITEMCHANGE structure [Windows Controls], _shell_NMTVITEMCHANGE, _shell_NMTVITEMCHANGE_cpp, commctrl/NMTVITEMCHANGE, controls.NMTVITEMCHANGE, controls._shell_NMTVITEMCHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

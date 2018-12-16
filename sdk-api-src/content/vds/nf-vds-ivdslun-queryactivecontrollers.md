@@ -9,8 +9,6 @@ ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

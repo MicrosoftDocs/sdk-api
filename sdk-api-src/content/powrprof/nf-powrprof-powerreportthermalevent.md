@@ -9,8 +9,6 @@ ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

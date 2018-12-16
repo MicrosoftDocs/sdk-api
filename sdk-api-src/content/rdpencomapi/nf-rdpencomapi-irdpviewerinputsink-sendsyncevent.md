@@ -9,8 +9,6 @@ ms.assetid: C8B59CAF-DFBE-4569-99B2-DECF1F1DBB56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendSyncEvent method, IRDPViewerInputSink.SendSyncEvent, IRDPViewerInputSink::SendSyncEvent, SendSyncEvent, SendSyncEvent method [RDP], SendSyncEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendsyncevent, rdpencomapi/IRDPViewerInputSink::SendSyncEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

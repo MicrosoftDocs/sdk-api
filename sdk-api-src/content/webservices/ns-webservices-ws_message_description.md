@@ -9,8 +9,6 @@ ms.assetid: 399b3363-004b-499a-9726-0b2513826f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_MESSAGE_DESCRIPTION, WS_MESSAGE_DESCRIPTION structure [Web Services for Windows], webservices/WS_MESSAGE_DESCRIPTION, wsw.ws_message_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

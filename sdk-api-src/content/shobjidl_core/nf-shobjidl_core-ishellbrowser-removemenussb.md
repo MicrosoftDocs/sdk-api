@@ -9,8 +9,6 @@ ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

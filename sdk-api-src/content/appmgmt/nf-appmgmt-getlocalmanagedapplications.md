@@ -9,8 +9,6 @@ ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalManagedApplications, GetLocalManagedApplications function [Group Policy], appmgmt/GetLocalManagedApplications, policy.getlocalmanagedapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

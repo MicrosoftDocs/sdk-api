@@ -9,8 +9,6 @@ ms.assetid: 76e504e2-5978-4afd-9556-68f78c49a313
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media Format], IWMDRMMessageParser interface [windows Media Format],described, IWMDRMMessageParserInterface, wmformat.iwmdrmmessageparser, wmsdkidl/IWMDRMMessageParser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

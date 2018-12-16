@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\destroy
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Destroy, Destroy method [Windows Ribbon], Destroy method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],Destroy method, IUIFramework.Destroy, IUIFramework::Destroy, scenicintent_IUIFramework_Destroy, uiribbon/IUIFramework::Destroy, windowsribbon.windowsribbon_iuiframework_destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

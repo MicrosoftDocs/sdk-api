@@ -9,8 +9,6 @@ ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

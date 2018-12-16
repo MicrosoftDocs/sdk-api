@@ -9,8 +9,6 @@ ms.assetid: 346b3f37-1279-4719-b1cd-50adf4d070f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToDouble, PropVariantToDouble function [Windows Properties], properties.PropVariantToDouble, propvarutil/PropVariantToDouble, shell.PropVariantToDouble, shell_PropVariantToDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

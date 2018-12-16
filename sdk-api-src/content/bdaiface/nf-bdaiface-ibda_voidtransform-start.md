@@ -9,8 +9,6 @@ ms.assetid: bc89fd31-56c2-4de0-b2aa-239173e1997d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Start method, IBDA_VoidTransform.Start, IBDA_VoidTransform::Start, IBDA_VoidTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Start, mstv.ibda_voidtransform_start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

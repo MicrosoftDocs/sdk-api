@@ -9,8 +9,6 @@ ms.assetid: da691bac-e940-431d-acef-8c29f4a25c70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventPublisher interface [COM],RemoveDefaultProperty method, IEventPublisher.RemoveDefaultProperty, IEventPublisher::RemoveDefaultProperty, RemoveDefaultProperty, RemoveDefaultProperty method [COM], RemoveDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_removedefaultproperty, com.ieventpublisher_removedefaultproperty, eventsys/IEventPublisher::RemoveDefaultProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

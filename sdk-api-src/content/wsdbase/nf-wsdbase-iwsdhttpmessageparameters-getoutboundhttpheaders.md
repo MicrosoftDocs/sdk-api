@@ -9,8 +9,6 @@ ms.assetid: c366773a-1869-4181-a457-560a1a9c84cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutboundHttpHeaders, GetOutboundHttpHeaders method, GetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetOutboundHttpHeaders method, IWSDHttpMessageParameters.GetOutboundHttpHeaders, IWSDHttpMessageParameters::GetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_getoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

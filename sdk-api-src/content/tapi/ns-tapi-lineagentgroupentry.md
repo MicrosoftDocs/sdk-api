@@ -9,8 +9,6 @@ ms.assetid: b1814ef7-7585-4203-8eb2-6862445f9114
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY structure [TAPI 2.2], LPLINEAGENTGROUPENTRY, LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2], _tapi2_lineagentgroupentry_str, tapi/LINEAGENTGROUPENTRY, tapi/LPLINEAGENTGROUPENTRY, tapi2.lineagentgroupentry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

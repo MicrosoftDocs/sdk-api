@@ -9,8 +9,6 @@ ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Buffering, Buffering method [Windows Media Player], Buffering method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Buffering method, IWMPEvents.Buffering, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

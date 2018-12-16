@@ -9,8 +9,6 @@ ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

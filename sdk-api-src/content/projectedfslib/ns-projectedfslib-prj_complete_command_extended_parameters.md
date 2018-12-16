@@ -9,8 +9,6 @@ ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 

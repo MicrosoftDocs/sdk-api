@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DialogBox, DialogBox function [Dialog Boxes], DialogBoxA, DialogBoxW, _win32_DialogBox, _win32_dialogbox_cpp, dlgbox.dialogbox, winui._win32_dialogbox, winuser/DialogBox, winuser/DialogBoxA, winuser/DialogBoxW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

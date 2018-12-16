@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageAttributes class [GDI+],SetColorMatrices method, ImageAttributes.SetColorMatrices, ImageAttributes::SetColorMatrices, SetColorMatrices, SetColorMatrices method [GDI+], SetColorMatrices method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

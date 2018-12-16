@@ -9,8 +9,6 @@ ms.assetid: 9cd1bb86-313d-4499-97ae-0b53a13a804b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADS_SECURITY_INFO_DACL, ADS_SECURITY_INFO_ENUM, ADS_SECURITY_INFO_ENUM enumeration [ADSI], ADS_SECURITY_INFO_GROUP, ADS_SECURITY_INFO_OWNER, ADS_SECURITY_INFO_SACL, _ds_ads_security_info_enum, adsi.ads__security__info__enum, adsi.ads_security_info_enum, iads/ADS_SECURITY_INFO_DACL, iads/ADS_SECURITY_INFO_ENUM, iads/ADS_SECURITY_INFO_GROUP, iads/ADS_SECURITY_INFO_OWNER, iads/ADS_SECURITY_INFO_SACL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

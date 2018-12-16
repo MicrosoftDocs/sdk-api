@@ -9,8 +9,6 @@ ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 

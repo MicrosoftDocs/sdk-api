@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemenonclientattri
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWindowThemeNonClientAttributes, SetWindowThemeNonClientAttributes function [Windows Controls], _shell_SetWindowThemeNonClientAttributes, _shell_SetWindowThemeNonClientAttributes_cpp, controls.SetWindowThemeNonClientAttributes, controls._shell_SetWindowThemeNonClientAttributes, uxtheme/SetWindowThemeNonClientAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

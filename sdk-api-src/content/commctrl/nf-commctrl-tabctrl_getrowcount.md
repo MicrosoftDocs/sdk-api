@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

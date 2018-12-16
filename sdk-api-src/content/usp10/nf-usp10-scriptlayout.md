@@ -9,8 +9,6 @@ ms.assetid: 6f3c74af-8d7f-4c66-8a11-6408a6897cbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

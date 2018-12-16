@@ -9,8 +9,6 @@ ms.assetid: 919b4696-773c-4866-b051-7438b5c399a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate.get_DriverProvider, IWindowsDriverUpdate::DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: BA8D2BAC-4947-4ED7-A397-5102F74A65BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,PushCopyOfStorageFilter method, ID3D12InfoQueue.PushCopyOfStorageFilter, ID3D12InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method, PushCopyOfStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfStorageFilter, direct3d12.id3d12infoqueue_pushcopyofstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetClientRect method, ITextHost.TxGetClientRect, ITextHost::TxGetClientRect, TxGetClientRect, TxGetClientRect method [Windows Controls], TxGetClientRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetClientRect, _win32_ITextHost_TxGetClientRect_cpp, controls.ITextHost_TxGetClientRect, controls._win32_ITextHost_TxGetClientRect, textserv/ITextHost::TxGetClientRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

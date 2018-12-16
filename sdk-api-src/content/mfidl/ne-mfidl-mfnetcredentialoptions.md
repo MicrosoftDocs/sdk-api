@@ -9,8 +9,6 @@ ms.assetid: 5ee4f46c-762c-4acf-86ff-da7a93b5de05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5ee4f46c-762c-4acf-86ff-da7a93b5de05, MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, MFNET_CREDENTIAL_DONT_CACHE, MFNET_CREDENTIAL_SAVE, MFNetCredentialOptions, MFNetCredentialOptions enumeration [Media Foundation], mf.mfnetcredentialoptions, mfidl/MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, mfidl/MFNET_CREDENTIAL_DONT_CACHE, mfidl/MFNET_CREDENTIAL_SAVE, mfidl/MFNetCredentialOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

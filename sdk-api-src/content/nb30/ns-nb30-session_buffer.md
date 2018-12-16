@@ -9,8 +9,6 @@ ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_BUFFER, PSESSION_BUFFER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, nb30/PSESSION_BUFFER, nb30/SESSION_BUFFER, netbios.session_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

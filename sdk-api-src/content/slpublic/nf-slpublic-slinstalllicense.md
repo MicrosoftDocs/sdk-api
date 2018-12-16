@@ -9,8 +9,6 @@ ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

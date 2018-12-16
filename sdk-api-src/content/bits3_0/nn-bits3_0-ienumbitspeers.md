@@ -9,8 +9,6 @@ ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

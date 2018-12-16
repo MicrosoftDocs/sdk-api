@@ -9,8 +9,6 @@ ms.assetid: D97A48E5-0398-460C-AFA9-2E1B8744926B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICJpegFrameDecode interface [Windows Imaging Component],SetIndexing method, IWICJpegFrameDecode.SetIndexing, IWICJpegFrameDecode::SetIndexing, SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

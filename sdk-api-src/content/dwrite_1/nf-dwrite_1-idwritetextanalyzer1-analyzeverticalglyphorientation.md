@@ -9,8 +9,6 @@ ms.assetid: E89C7E50-9EDA-4AC9-9FC0-B70E493ED1B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AnalyzeVerticalGlyphOrientation, AnalyzeVerticalGlyphOrientation method [Direct Write], AnalyzeVerticalGlyphOrientation method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],AnalyzeVerticalGlyphOrientation method, IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation, IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation, directwrite.idwritetextanalyzer1_analyzeverticalglyphorientation, dwrite_1/IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 structure [Media Foundation], dxva2api/DXVA2_Fixed32, mf.dxva2_fixed32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 505c60b9-8359-49eb-aee0-cfa801d9113f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],LocalPolicyModifyState property, INetFwPolicy2.LocalPolicyModifyState, INetFwPolicy2.get_LocalPolicyModifyState, INetFwPolicy2::LocalPolicyModifyState, INetFwPolicy2::get_LocalPolicyModifyState, LocalPolicyModifyState property [ICS/ICF], LocalPolicyModifyState property [ICS/ICF],INetFwPolicy2 interface, NET_FW_MODIFY_STATE_GP_OVERRIDE, NET_FW_MODIFY_STATE_INBOUND_BLOCKED, NET_FW_MODIFY_STATE_OK, get_LocalPolicyModifyState, ics.inetfwpolicy2_localpolicymodifystate, netfw/INetFwPolicy2::LocalPolicyModifyState, netfw/INetFwPolicy2::get_LocalPolicyModifyState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

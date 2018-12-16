@@ -9,8 +9,6 @@ ms.assetid: 82987afa-fcb4-4d87-ab53-916a9dac3609
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 46eee6d7-9ce0-ef7b-68bd-2f0c8f0b3136, HSGetConstantBuffers, HSGetConstantBuffers method [Direct3D 11], HSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetConstantBuffers method, ID3D11DeviceContext.HSGetConstantBuffers, ID3D11DeviceContext::HSGetConstantBuffers, d3d11/ID3D11DeviceContext::HSGetConstantBuffers, direct3d11.id3d11devicecontext_hsgetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

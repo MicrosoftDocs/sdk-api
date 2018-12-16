@@ -9,8 +9,6 @@ ms.assetid: 802E6D88-7AFC-4C15-8906-3C08CB44707B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStorageHandleAccess, IStorageItemHandleAccess, IStorageItemHandleAccess interface [Windows Runtime], IStorageItemHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageHandleAccess, winrt.istoragehandleaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

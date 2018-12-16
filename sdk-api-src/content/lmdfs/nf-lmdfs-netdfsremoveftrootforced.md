@@ -9,8 +9,6 @@ ms.assetid: 4eaa0e2a-fa09-4a20-98e1-4c0c4ff5d0ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsRemoveFtRootForced, NetDfsRemoveFtRootForced function [Distributed File System], _win32_netdfsremoveftrootforced, dfs.netdfsremoveftrootforced, fs.netdfsremoveftrootforced, lmdfs/NetDfsRemoveFtRootForced, netmgmt.netdfsremoveftrootforced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

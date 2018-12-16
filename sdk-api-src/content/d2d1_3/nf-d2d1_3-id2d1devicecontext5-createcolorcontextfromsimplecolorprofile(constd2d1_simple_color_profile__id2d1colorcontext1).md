@@ -9,8 +9,6 @@ ms.assetid: 6c7b1b74-3ca8-8ee9-6ff3-fba95ddc4b32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateColorContextFromSimpleColorProfile, CreateColorContextFromSimpleColorProfile method [Direct2D], CreateColorContextFromSimpleColorProfile method [Direct2D],ID2D1DeviceContext5 interface, ID2D1DeviceContext5 interface [Direct2D],CreateColorContextFromSimpleColorProfile method, ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile, ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE &,ID2D1ColorContext1), ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile, ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE &,ID2D1ColorContext1), d2d1_3/ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile, direct2d.id2d1devicecontext5_createcolorcontextfromsimplecolorprofile_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

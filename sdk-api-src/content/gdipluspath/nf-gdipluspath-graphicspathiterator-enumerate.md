@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorcla
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enumerate, Enumerate method [GDI+], Enumerate method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],Enumerate method, GraphicsPathIterator.Enumerate, GraphicsPathIterator::Enumerate, _gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

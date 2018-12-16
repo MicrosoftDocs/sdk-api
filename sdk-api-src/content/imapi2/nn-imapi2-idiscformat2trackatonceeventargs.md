@@ -9,8 +9,6 @@ ms.assetid: 4bbcc3e1-0c85-4ed8-bbf6-e172e5896ed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs, IDiscFormat2TrackAtOnceEventArgs interface [IMAPI], IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],described, imapi.idiscformat2trackatonceeventargs, imapi2/IDiscFormat2TrackAtOnceEventArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

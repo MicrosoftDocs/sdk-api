@@ -9,8 +9,6 @@ ms.assetid: 1263ca86-8b4f-4be9-a88a-f11e76178d0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [Open Packaging Conventions], GetCustomObjectEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomObjectEnumerator method, IOpcDigitalSignature.GetCustomObjectEnumerator, IOpcDigitalSignature::GetCustomObjectEnumerator, msopc/IOpcDigitalSignature::GetCustomObjectEnumerator, opc.iopcdigitalsignature_getcustomobjectenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

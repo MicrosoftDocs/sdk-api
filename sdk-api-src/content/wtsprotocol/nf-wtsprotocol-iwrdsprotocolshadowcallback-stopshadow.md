@@ -9,8 +9,6 @@ ms.assetid: 09911813-554d-4ce1-b34e-5a6f57ec286d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWRdsProtocolShadowCallback.StopShadow, IWRdsProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

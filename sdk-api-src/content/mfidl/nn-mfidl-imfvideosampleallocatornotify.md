@@ -9,8 +9,6 @@ ms.assetid: 909c2a68-81dd-4816-b34f-71a67b620faf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], IMFVideoSampleAllocatorNotify interface [Media Foundation],described, mf.imfvideosampleallocatornotify, mfidl/IMFVideoSampleAllocatorNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

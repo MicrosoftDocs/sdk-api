@@ -9,8 +9,6 @@ ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [DXGI], GetBreakOnID method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnID method, IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

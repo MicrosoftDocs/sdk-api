@@ -9,8 +9,6 @@ ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

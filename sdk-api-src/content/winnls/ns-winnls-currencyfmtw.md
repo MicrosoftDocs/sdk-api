@@ -9,8 +9,6 @@ ms.assetid: 026ac9e0-1f5b-4a42-9c7b-07a127422994
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCURRENCYFMTW, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTW, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

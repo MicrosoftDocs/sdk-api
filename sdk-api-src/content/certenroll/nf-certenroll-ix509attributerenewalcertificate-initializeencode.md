@@ -9,8 +9,6 @@ ms.assetid: a234755e-5b90-43f1-81f2-c2ebec9b55a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeEncode method, IX509AttributeRenewalCertificate.InitializeEncode, IX509AttributeRenewalCertificate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeEncode, security.ix509attributerenewalcertificate_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

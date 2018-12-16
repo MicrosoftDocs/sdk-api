@@ -9,8 +9,6 @@ ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ff2f9ab0-389f-4b35-abd1-29486750283b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_lineregisterrequestrecipient, lineRegisterRequestRecipient, lineRegisterRequestRecipient function [TAPI 2.2], tapi/lineRegisterRequestRecipient, tapi2.lineregisterrequestrecipient"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetByIndex(XMVECTOR,size_t
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorGetByIndex, XMVectorGetByIndex, XMVectorGetByIndex method [DirectX Math Support APIs], dxmath.xmvectorgetbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

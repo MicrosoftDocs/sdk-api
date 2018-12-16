@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

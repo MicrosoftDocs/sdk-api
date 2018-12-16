@@ -9,8 +9,6 @@ ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

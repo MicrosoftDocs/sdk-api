@@ -9,8 +9,6 @@ ms.assetid: f80947b7-7bd9-4097-8279-f70f5d92d5b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [Direct2D], CreateImageBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateImageBrush method, ID2D1DeviceContext.CreateImageBrush, ID2D1DeviceContext::CreateImageBrush, ID2D1DeviceContext::CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PROPERTIES,const D2D1_BRUSH_PROPERTIES,ID2D1ImageBrush), d2d1_1/ID2D1DeviceContext::CreateImageBrush, direct2d.id2d1devicecontext_createimagebrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

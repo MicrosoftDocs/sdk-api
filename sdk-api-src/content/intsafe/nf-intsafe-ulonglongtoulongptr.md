@@ -9,8 +9,6 @@ ms.assetid: 6c95e1ab-2eab-4c10-b1f6-812f34b8214c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongLongToDWordPtr, ULongLongToSSIZET, ULongLongToULongPtr, ULongLongToULongPtr function [Windows Shell], _shell_ULongLongToULongPtr, intsafe/ULongLongToULongPtr, shell.ULongLongToULongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

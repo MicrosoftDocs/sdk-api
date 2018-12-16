@@ -9,8 +9,6 @@ ms.assetid: 7446792e-7f29-4ad4-8245-b86f63f2df18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextCallback, ContextCallback method [COM], ContextCallback method [COM],IContextCallback interface, IContextCallback interface [COM],ContextCallback method, IContextCallback.ContextCallback, IContextCallback::ContextCallback, _com_icontextcallback_contextcallback, com.icontextcallback_contextcallback, ctxtcall/IContextCallback::ContextCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctxtcall.h
 req.include-header: 

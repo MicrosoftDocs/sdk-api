@@ -9,8 +9,6 @@ ms.assetid: ee3be44c-8693-4e81-91cb-976854ad599a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarUI4FromUI1, VarUI4FromUI1 function [Automation], _oa96_VarUI4FromUI1, automat.varui4fromui1, oleauto/VarUI4FromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

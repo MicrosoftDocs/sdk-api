@@ -9,8 +9,6 @@ ms.assetid: a0018bba-226b-4c18-8ea4-15e69524db11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VirtualProtect, VirtualProtect function, _win32_virtualprotect, base.virtualprotect, winbase/VirtualProtect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

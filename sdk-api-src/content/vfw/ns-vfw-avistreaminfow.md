@@ -9,8 +9,6 @@ ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAVISTREAMINFOW, AVISTREAMINFO, AVISTREAMINFO structure [Windows Multimedia], AVISTREAMINFOA, AVISTREAMINFOW, AVISTREAMINFO_DISABLED, AVISTREAMINFO_FORMATCHANGES, multimedia.avistreaminfo_COLLISION869, multimedia.avistreaminfo_struct, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVISTREAMINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

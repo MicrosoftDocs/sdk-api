@@ -9,8 +9,6 @@ ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

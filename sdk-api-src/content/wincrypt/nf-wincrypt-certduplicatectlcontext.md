@@ -9,8 +9,6 @@ ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

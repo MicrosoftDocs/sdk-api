@@ -9,8 +9,6 @@ ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

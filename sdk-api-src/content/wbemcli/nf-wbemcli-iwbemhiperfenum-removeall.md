@@ -9,8 +9,6 @@ ms.assetid: 51692902-0b92-4a25-b42b-3802be19eba5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],RemoveAll method, IWbemHiPerfEnum.RemoveAll, IWbemHiPerfEnum::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],IWbemHiPerfEnum interface, _hmm_iwbemhiperfenum_removeall, wbemcli/IWbemHiPerfEnum::RemoveAll, wmi.iwbemhiperfenum_removeall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

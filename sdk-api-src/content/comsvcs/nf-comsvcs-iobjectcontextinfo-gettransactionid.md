@@ -9,8 +9,6 @@ ms.assetid: c8aa6fe8-acb2-4e00-a7fc-605bb56969e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransactionId method, IObjectContextInfo.GetTransactionId, IObjectContextInfo::GetTransactionId, _cos_IObjectContextInfo_GetTransactionId, comsvcs/IObjectContextInfo::GetTransactionId, cos.iobjectcontextinfo_gettransactionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 03daab81-11cf-4100-ab5e-3442a5972912
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDiscRecorders, EnumDiscRecorders method [IMAPI], EnumDiscRecorders method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscRecorders method, IDiscMaster.EnumDiscRecorders, IDiscMaster::EnumDiscRecorders, _win32_idiscmaster_enumdiscrecorders, base.idiscmaster_enumdiscrecorders, imapi.idiscmaster_enumdiscrecorders, imapi/IDiscMaster::EnumDiscRecorders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

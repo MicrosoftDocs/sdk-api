@@ -9,8 +9,6 @@ ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

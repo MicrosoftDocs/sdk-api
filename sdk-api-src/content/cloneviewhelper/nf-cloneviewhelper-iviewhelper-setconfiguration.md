@@ -9,8 +9,6 @@ ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IViewHelper.SetConfiguration, IViewHelper::SetConfiguration, SetConfiguration, SetConfiguration method [Display Devices], SetConfiguration method [Display Devices],IViewHelper interface, TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml, cloneviewhelper/IViewHelper::SetConfiguration, display.iviewhelper_setconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h

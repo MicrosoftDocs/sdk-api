@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFilter, GetFilter method [search], GetFilter method [search],IProtocolHandlerSite interface, IProtocolHandlerSite interface [search],GetFilter method, IProtocolHandlerSite.GetFilter, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

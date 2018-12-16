@@ -9,8 +9,6 @@ ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisassociateCurrentThreadFromCallback, DisassociateCurrentThreadFromCallback function, base.disassociatecurrentthreadfromcallback, threadpoolapiset/DisassociateCurrentThreadFromCallback, winbase/DisassociateCurrentThreadFromCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 92b13d40-4841-45ce-b232-5e29a93d71c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidList method [Microsoft TV Technologies],IBDA_MUX interface, IBDA_MUX interface [Microsoft TV Technologies],GetPidList method, IBDA_MUX.GetPidList, IBDA_MUX::GetPidList, bdaiface/IBDA_MUX::GetPidList, mstv.ibda_mux_getpidlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

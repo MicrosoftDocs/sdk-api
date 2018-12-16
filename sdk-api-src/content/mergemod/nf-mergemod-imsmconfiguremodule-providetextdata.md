@@ -9,8 +9,6 @@ ms.assetid: 81803b47-e1b1-45b7-b59d-aac555b189f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigureModule interface,ProvideTextData method, IMsmConfigureModule.ProvideTextData, IMsmConfigureModule::ProvideTextData, ProvideTextData, ProvideTextData method, ProvideTextData method,IMsmConfigureModule interface, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

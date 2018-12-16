@@ -9,8 +9,6 @@ ms.assetid: 75d641c7-dbf8-4ae2-b16b-2757e890d32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],described, _tapi3_ittapi, tapi3.ittapi, tapi3if/ITTAPI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

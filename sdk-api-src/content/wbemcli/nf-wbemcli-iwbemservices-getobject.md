@@ -9,8 +9,6 @@ ms.assetid: 68150273-c4ec-46f1-a3e6-d7169824b69d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObject method, IWbemServices.GetObject, IWbemServices::GetObject, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_RETURN_WBEM_COMPLETE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobject, wbemcli/IWbemServices::GetObject, wmi.iwbemservices_getobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

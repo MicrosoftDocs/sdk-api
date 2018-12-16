@@ -9,8 +9,6 @@ ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

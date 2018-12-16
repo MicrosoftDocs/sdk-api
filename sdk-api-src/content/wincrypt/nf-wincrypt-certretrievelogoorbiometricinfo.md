@@ -9,8 +9,6 @@ ms.assetid: 35813928-728e-40b7-b627-817d3094eeb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE, CERT_RETRIEVE_BIOMETRIC_SIGNATURE_TYPE, CERT_RETRIEVE_COMMUNITY_LOGO, CERT_RETRIEVE_ISSUER_LOGO, CERT_RETRIEVE_SUBJECT_LOGO, CertRetrieveLogoOrBiometricInfo, CertRetrieveLogoOrBiometricInfo function [Security], security.certretrievelogoorbiometricinfo, wincrypt/CertRetrieveLogoOrBiometricInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

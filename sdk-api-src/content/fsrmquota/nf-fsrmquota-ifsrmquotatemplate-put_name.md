@@ -9,8 +9,6 @@ ms.assetid: 77a38b03-eb47-4298-ac13-44ffbd649752
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaTemplate interface [File Server Resource Manager],Name property, IFsrmQuotaTemplate.Name, IFsrmQuotaTemplate.put_Name, IFsrmQuotaTemplate::Name, IFsrmQuotaTemplate::get_Name, IFsrmQuotaTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmQuotaTemplate interface, fs.ifsrmquotatemplate_name, fsrm.ifsrmquotatemplate_name, fsrmquota/IFsrmQuotaTemplate::Name, fsrmquota/IFsrmQuotaTemplate::get_Name, fsrmquota/IFsrmQuotaTemplate::put_Name, put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: aeeaf67c-119f-482b-b064-87739499abda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterFileSink, WMCreateWriterFileSink function [windows Media Format], wmformat.wmcreatewriterfilesink, wmsdkidl/WMCreateWriterFileSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

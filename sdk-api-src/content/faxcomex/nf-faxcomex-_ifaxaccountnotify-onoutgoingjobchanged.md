@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutg
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingJobChanged, OnOutgoingJobChanged, OnOutgoingJobChanged method [Fax Service], OnOutgoingJobChanged method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingJobChanged method, _IFaxAccountNotify.OnOutgoingJobChanged, _IFaxAccountNotify::OnOutgoingJobChanged, _mfax_ifaxaccountnotify_onoutgoingjobchanged, fax._mfax_ifaxaccountnotify_onoutgoingjobchanged, faxcomex/_IFaxAccountNotify::OnOutgoingJobChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F1B97A0C-B21F-45d6-8B2D-02BFF74C9CEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetDisplayName method, IPropertyUI.GetDisplayName, IPropertyUI::GetDisplayName, PUIFNF_DEFAULT, PUIFNF_MNEMONIC, _shell_IPropertyUI_GetDisaplayName, properties.IPropertyUI_GetDisaplayName, shell.IPropertyUI_GetDisaplayName, shobjidl_core/IPropertyUI::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

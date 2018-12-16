@@ -9,8 +9,6 @@ ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

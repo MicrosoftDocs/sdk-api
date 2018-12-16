@@ -9,8 +9,6 @@ ms.assetid: 02ec869b-154e-436a-a9b7-57eff4e958aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

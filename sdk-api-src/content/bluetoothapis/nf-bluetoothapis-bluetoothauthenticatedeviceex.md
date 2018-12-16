@@ -9,8 +9,6 @@ ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

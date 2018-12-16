@@ -9,8 +9,6 @@ ms.assetid: 091daec1-2c35-4d24-89be-fcdb0354b674
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS2, IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering], fwp.ipsec_tunnel_endpoints2, ipsectypes/IPSEC_TUNNEL_ENDPOINTS2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

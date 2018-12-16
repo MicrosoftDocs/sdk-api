@@ -9,8 +9,6 @@ ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetVideoProcessorService method, IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd94e0a1-c275-458e-ae7f-85b703fc660e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], IWICProgressCallback interface [Windows Imaging Component],described, _wic_codec_iwicprogresscallback, wic._wic_codec_iwicprogresscallback, wincodec/IWICProgressCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

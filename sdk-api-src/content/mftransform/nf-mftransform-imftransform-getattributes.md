@@ -9,8 +9,6 @@ ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

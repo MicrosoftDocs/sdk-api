@@ -9,8 +9,6 @@ ms.assetid: 57818d7d-3290-46f7-a3fd-8585cdd64ec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmstream.h
 req.include-header: 

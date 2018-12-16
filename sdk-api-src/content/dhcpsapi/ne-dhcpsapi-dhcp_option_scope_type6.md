@@ -9,8 +9,6 @@ ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6 enumeration [DHCP], DhcpDefaultOptions6, DhcpReservedOptions6, DhcpScopeOptions6, dhcp.dhcp_option_scope_type6, dhcpsapi/DHCP_OPTION_SCOPE_TYPE6, dhcpsapi/DhcpDefaultOptions6, dhcpsapi/DhcpReservedOptions6, dhcpsapi/DhcpScopeOptions6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

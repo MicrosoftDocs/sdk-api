@@ -9,8 +9,6 @@ ms.assetid: c19e7cfe-2a28-41d5-9075-3e159be1d9ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetCertificateChainCount, rm.drmgetcertificatechaincount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

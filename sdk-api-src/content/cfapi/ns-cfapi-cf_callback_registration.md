@@ -9,8 +9,6 @@ ms.assetid: F1633983-DAB2-4072-AA9E-DC7015E6B988
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

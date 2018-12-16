@@ -9,8 +9,6 @@ ms.assetid: 5eb92c58-150a-4e52-897f-e2a2da36743d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiRemoveDeviceInterface, SetupDiRemoveDeviceInterface function [Device and Driver Installation], devinst.setupdiremovedeviceinterface, di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml, setupapi/SetupDiRemoveDeviceInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

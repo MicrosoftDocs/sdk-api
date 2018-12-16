@@ -9,8 +9,6 @@ ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLogonErrorRedirector, GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLogonErrorRedirector method, IWRdsProtocolConnection.GetLogonErrorRedirector, IWRdsProtocolConnection::GetLogonErrorRedirector, termserv.iwrdsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

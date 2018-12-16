@@ -9,8 +9,6 @@ ms.assetid: 07edb403-6674-4673-928c-91e7df9fe9da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponentSize, GetComponentSize method [Microsoft TV Technologies], GetComponentSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentSize method, IIsdbDownloadContentDescriptor.GetComponentSize, IIsdbDownloadContentDescriptor::GetComponentSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentSize, mstv.iisdbdownloadcontentdescriptor_getcomponentsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

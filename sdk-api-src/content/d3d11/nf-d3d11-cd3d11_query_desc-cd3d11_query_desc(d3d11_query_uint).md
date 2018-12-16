@@ -9,8 +9,6 @@ ms.assetid: A826A0A6-B360-418F-93D3-8F5378649C6E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_QUERY_DESC, CD3D11_QUERY_DESC constructor [Direct3D 11], CD3D11_QUERY_DESC constructor [Direct3D 11],CD3D11_QUERY_DESC interface, CD3D11_QUERY_DESC interface [Direct3D 11],CD3D11_QUERY_DESC constructor, CD3D11_QUERY_DESC.CD3D11_QUERY_DESC, CD3D11_QUERY_DESC.CD3D11_QUERY_DESC(D3D11_QUERY,UINT), CD3D11_QUERY_DESC::CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::CD3D11_QUERY_DESC(D3D11_QUERY,UINT), d3d11/CD3D11_QUERY_DESC::CD3D11_QUERY_DESC, direct3d11.cd3d11_query_desc_cd3d11_query_desc_d3d11_query_desc_values_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

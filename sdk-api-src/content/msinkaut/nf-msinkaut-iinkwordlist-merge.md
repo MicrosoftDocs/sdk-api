@@ -9,8 +9,6 @@ ms.assetid: 81c013c3-c033-4dc8-a828-95fcc810e608
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 81c013c3-c033-4dc8-a828-95fcc810e608, IInkWordList, IInkWordList interface [Tablet PC],Merge method, IInkWordList.Merge, IInkWordList::Merge, InkWordList class [Tablet PC],Merge method, Merge, Merge method [Tablet PC], Merge method [Tablet PC],IInkWordList interface, Merge method [Tablet PC],InkWordList class, msinkaut/IInkWordList::Merge, tablet.inkwordlist_merge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

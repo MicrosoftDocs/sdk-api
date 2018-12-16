@@ -9,8 +9,6 @@ ms.assetid: 068f17f2-8696-4419-9daa-d8f6486e39a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, IPSEC_TRANSFORM_ESP_AUTH_FW, IPSEC_TRANSFORM_ESP_CIPHER, IPSEC_TRANSFORM_TYPE, IPSEC_TRANSFORM_TYPE enumeration [Filtering], IPSEC_TRANSFORM_TYPE_MAX, fwp.ipsec_transform_type_enum, ipsectypes/IPSEC_TRANSFORM_AH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW, ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER, ipsectypes/IPSEC_TRANSFORM_TYPE, ipsectypes/IPSEC_TRANSFORM_TYPE_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

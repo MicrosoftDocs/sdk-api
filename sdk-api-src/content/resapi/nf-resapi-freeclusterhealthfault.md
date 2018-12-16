@@ -9,8 +9,6 @@ ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover Cluster], mscs.freeclusterhealthfault, resapi/FreeClusterHealthFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

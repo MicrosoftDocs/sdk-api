@@ -9,8 +9,6 @@ ms.assetid: 3D9F7A0A-EF6A-4C99-B9A0-C618138DB5ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBundleReader, CreateBundleReader method [App packaging and management], CreateBundleReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleReader method, IAppxBundleFactory.CreateBundleReader, IAppxBundleFactory::CreateBundleReader, appxpackaging/IAppxBundleFactory::CreateBundleReader, appxpkg.iappxbundlefactory_createbundlereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

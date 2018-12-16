@@ -9,8 +9,6 @@ ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

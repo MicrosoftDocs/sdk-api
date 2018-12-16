@@ -9,8 +9,6 @@ ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mixerocx.h
 req.include-header: 

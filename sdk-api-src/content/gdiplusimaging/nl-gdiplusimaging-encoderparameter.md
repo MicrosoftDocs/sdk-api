@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\encoderparameter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncoderParameter, EncoderParameter class [GDI+], EncoderParameter class [GDI+],described, _gdiplus_CLASS_EncoderParameter_Class, gdiplus._gdiplus_CLASS_EncoderParameter_Class, gdiplusimaging/EncoderParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h

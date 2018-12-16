@@ -9,8 +9,6 @@ ms.assetid: ecab7290-9a35-4da3-a161-b8d52a031172
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Windows Contacts], GetString method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetString method, IContactProperties.GetString, IContactProperties::GetString, _wincontacts_IContactProperties_GetString, icontact/IContactProperties::GetString, wincontacts._wincontacts_IContactProperties_GetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

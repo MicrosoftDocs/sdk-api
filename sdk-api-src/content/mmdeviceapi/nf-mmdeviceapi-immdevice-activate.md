@@ -9,8 +9,6 @@ ms.assetid: 12e4a117-1fa3-49c8-949b-8973edf7e12e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],Activate method, IMMDevice.Activate, IMMDevice::Activate, IMMDeviceActivate, coreaudio.immdevice_activate, mmdeviceapi/IMMDevice::Activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

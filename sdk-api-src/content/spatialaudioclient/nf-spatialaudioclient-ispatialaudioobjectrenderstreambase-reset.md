@@ -9,8 +9,6 @@ ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset method, ISpatialAudioObjectRenderStreamBase.Reset, ISpatialAudioObjectRenderStreamBase::Reset, Reset, Reset method [Core Audio], Reset method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_reset, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

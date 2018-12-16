@@ -9,8 +9,6 @@ ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual2, IDCompositionVisual2 interface [DirectComposition], IDCompositionVisual2 interface [DirectComposition],described, dcomp/IDCompositionVisual2, directcomp.idcompositionvisual2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1B6690DB-9D23-4D0C-98B7-3066C5452CD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_PARTITION_INFO_EX2, BitLockerDecrypted, BitLockerDecrypting, BitLockerEnabled, BitLockerEncrypted, BitLockerEncrypting, BitLockerFlagsAll, BitLockerPaused, BitLockerStopped, CLUS_PARTITION_INFO_EX2, CLUS_PARTITION_INFO_EX2 structure [Failover Cluster], PCLUS_PARTITION_INFO_EX2, PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX2, clusapi/PCLUS_PARTITION_INFO_EX2, mscs.clus_partition_info_ex2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

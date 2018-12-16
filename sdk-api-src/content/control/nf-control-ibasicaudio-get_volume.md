@@ -9,8 +9,6 @@ ms.assetid: 3258da5a-ab44-4c8a-813b-79a0c28693a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Volume method, IBasicAudio.get_Volume, IBasicAudio::get_Volume, IBasicAudioget_Volume, control/IBasicAudio::get_Volume, dshow.ibasicaudio_get_volume, get_Volume, get_Volume method [DirectShow], get_Volume method [DirectShow],IBasicAudio interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

@@ -9,8 +9,6 @@ ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocation.RequestPermissions, ILocation::RequestPermissions, RequestPermissions, RequestPermissions method [WinLocation], RequestPermissions method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_requestpermissions, locationapi/ILocation::RequestPermissions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO structure pointer [Windows and Messages], ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UPDATELAYEREDWINDOWINFO, UPDATELAYEREDWINDOWINFO structure [Windows and Messages], _win32_UPDATELAYEREDWINDOWINFO, _win32_updatelayeredwindowinfo_cpp, winmsg.updatelayeredwindowinfo, winui._win32_updatelayeredwindowinfo, winuser/PUPDATELAYEREDWINDOWINFO, winuser/UPDATELAYEREDWINDOWINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

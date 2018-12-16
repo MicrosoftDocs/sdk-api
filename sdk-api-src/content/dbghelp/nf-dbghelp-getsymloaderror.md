@@ -9,8 +9,6 @@ ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0764C59A-DDDE-420C-B044-827B7EDC6CF1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],Scroll method, IDCompositionSurface.Scroll, IDCompositionSurface::Scroll, Scroll, Scroll method [DirectComposition], Scroll method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::Scroll, directcomp.idcompositionsurface_scroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

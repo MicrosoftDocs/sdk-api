@@ -9,8 +9,6 @@ ms.assetid: BB6D0885-27BD-4DF6-A48A-570345F1EE14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCollectionCount, GetCollectionCount method, GetCollectionCount method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionCount method, IVisualTreeService.GetCollectionCount, IVisualTreeService::GetCollectionCount, xaml_diagnostics.ivisualtreeservice_getcollectioncount, xamlom/IVisualTreeService::GetCollectionCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

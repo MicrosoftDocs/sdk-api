@@ -9,8 +9,6 @@ ms.assetid: 3a4eab1c-ec6f-4d6e-8479-1fa7f87537f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,ISensor interface, ISensor interface,GetCategory method, ISensor.GetCategory, ISensor::GetCategory, sensorsapi/ISensor::GetCategory, winsensors_com_ref.isensor_getcategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

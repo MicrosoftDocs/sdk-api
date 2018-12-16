@@ -9,8 +9,6 @@ ms.assetid: 68a8341b-ba0a-4694-89c3-34fefb950bf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedMemory property, IUpdate.RecommendedMemory, IUpdate.get_RecommendedMemory, IUpdate::RecommendedMemory, IUpdate::get_RecommendedMemory, RecommendedMemory property [Windows Update Agent], RecommendedMemory property [Windows Update Agent],IUpdate interface, get_RecommendedMemory, wua.iupdate_recommendedmemory, wuapi/IUpdate::RecommendedMemory, wuapi/IUpdate::get_RecommendedMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

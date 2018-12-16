@@ -9,8 +9,6 @@ ms.assetid: 4c1b6803-0015-4def-acb0-295193ba0e17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h

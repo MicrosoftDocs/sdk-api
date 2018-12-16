@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_SetState, Button_SetState macro [Windows Controls], _win32_Button_SetState, _win32_Button_SetState_cpp, controls.Button_SetState, controls._win32_Button_SetState, windowsx/Button_SetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

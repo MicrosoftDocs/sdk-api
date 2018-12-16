@@ -9,8 +9,6 @@ ms.assetid: 9c9c82c3-b02a-49c2-9a8f-eb355ded8480
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION structure [Peer Networking], PPEER_GROUP_EVENT_REGISTRATION, PPEER_GROUP_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_group_event_registration, p2p/PPEER_GROUP_EVENT_REGISTRATION, p2p/peer_group_event_registration_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

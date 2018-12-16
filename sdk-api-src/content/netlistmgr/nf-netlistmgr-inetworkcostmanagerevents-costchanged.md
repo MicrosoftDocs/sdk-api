@@ -9,8 +9,6 @@ ms.assetid: 39262F6A-9701-4917-BBDF-1BAC201585D4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],CostChanged method, INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

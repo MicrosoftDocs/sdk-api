@@ -9,8 +9,6 @@ ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

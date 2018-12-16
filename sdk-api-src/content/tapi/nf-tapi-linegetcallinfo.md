@@ -9,8 +9,6 @@ ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

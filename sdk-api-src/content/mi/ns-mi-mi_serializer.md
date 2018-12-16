@@ -9,8 +9,6 @@ ms.assetid: 396b01f2-5238-4cc1-baf2-b602967e4333
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Serializer, MI_Serializer structure [Windows Management Infrastructure (MI)], mi/MI_Serializer, wmi_v2.mi_serializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

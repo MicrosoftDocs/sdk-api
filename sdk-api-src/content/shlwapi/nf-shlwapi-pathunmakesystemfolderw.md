@@ -9,8 +9,6 @@ ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Shell], PathUnmakeSystemFolderA, PathUnmakeSystemFolderW, _win32_PathUnmakeSystemFolder, shell.PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolderA, shlwapi/PathUnmakeSystemFolderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

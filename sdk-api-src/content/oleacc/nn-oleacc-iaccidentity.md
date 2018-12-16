@@ -9,8 +9,6 @@ ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility],described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

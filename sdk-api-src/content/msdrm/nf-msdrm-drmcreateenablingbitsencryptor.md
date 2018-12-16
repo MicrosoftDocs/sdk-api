@@ -9,8 +9,6 @@ ms.assetid: f3875ddd-293e-4abb-b468-a6754bc361a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMCreateEnablingBitsEncryptor, DRMCreateEnablingBitsEncryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsEncryptor, rm.drmcreateenablingbitsencryptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

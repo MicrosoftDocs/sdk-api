@@ -9,8 +9,6 @@ ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

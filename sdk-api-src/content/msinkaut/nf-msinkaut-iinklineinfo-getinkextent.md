@@ -9,8 +9,6 @@ ms.assetid: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent, GetInkExtent method [Tablet PC], GetInkExtent method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetInkExtent method, IInkLineInfo.GetInkExtent, IInkLineInfo::GetInkExtent, msinkaut/IInkLineInfo::GetInkExtent, tablet.iinklineinfo_getinkextent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

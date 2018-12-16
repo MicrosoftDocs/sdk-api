@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(INT,INT,INT,PixelFormat,BYTE), Bitmap.Bitmap(INT,INT,INT,PixelFormat,BYTE*), Bitmap::Bitmap, Bitmap::Bitmap(INT,INT,INT,PixelFormat,BYTE), _gdiplus_CLASS_Bitmap_Bitmap_width_height_stride_format_scan0_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_stride_format_scan0_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

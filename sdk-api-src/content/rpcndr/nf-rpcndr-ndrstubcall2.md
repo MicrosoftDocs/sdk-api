@@ -9,8 +9,6 @@ ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr/NdrStubCall2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/">/Oicf</a> mode stubs.  
 
 
 ## -parameters

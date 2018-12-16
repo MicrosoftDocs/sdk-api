@@ -9,8 +9,6 @@ ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertProperties interface [Security],InitializeFromCertificate method, ICertProperties.InitializeFromCertificate, ICertProperties::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperties interface, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

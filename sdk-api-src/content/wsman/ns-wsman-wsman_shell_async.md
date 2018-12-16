@@ -9,8 +9,6 @@ ms.assetid: 9391e1a8-7048-49b8-9dc4-1da25b190238
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_SHELL_ASYNC, WSMAN_SHELL_ASYNC structure [Windows Remote Management], winrm.wsman_shell_async, wsman/WSMAN_SHELL_ASYNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

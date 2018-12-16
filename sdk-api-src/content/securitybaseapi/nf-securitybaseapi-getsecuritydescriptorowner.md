@@ -9,8 +9,6 @@ ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecurityDescriptorOwner, GetSecurityDescriptorOwner function [Security], _win32_getsecuritydescriptorowner, security.getsecuritydescriptorowner, securitybaseapi/GetSecurityDescriptorOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

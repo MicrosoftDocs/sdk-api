@@ -9,8 +9,6 @@ ms.assetid: 329193a7-932a-46d0-8e46-eef6bbdb8fa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteMessageEnd, WsWriteMessageEnd function [Web Services for Windows], webservices/WsWriteMessageEnd, wsw.wswritemessageend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

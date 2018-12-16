@@ -9,8 +9,6 @@ ms.assetid: 0959e6f9-82cf-4634-9547-682df1965efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress.SetPort, IWSDTransportAddress::SetPort, SetPort, SetPort method, SetPort method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 118c5e12-5436-4c0a-a31d-a60c5123e384
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_COUNTERS, PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_COUNTERS, WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services], WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services], termserv.wts_protocol_counters, wtsdefs/PWRDS_PROTOCOL_COUNTERS, wtsdefs/PWTS_PROTOCOL_COUNTERS, wtsdefs/WRDS_PROTOCOL_COUNTERS, wtsdefs/WTS_PROTOCOL_COUNTERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

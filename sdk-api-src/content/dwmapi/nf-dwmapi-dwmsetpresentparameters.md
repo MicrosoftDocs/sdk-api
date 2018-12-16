@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetpres
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmSetPresentParameters, DwmSetPresentParameters function [Desktop Window Manager], _udwm_dwmsetpresentparameters, _udwm_dwmsetpresentparameters_cpp, dwm.dwmsetpresentparameters, dwmapi/DwmSetPresentParameters, winui._udwm_dwmsetpresentparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

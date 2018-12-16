@@ -9,8 +9,6 @@ ms.assetid: 64000949-8a3d-47c9-888b-09d520c41e1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance interface [Windows Management Instrumentation],SetEmbeddedObject method, CInstance.SetEmbeddedObject, CInstance::SetEmbeddedObject, SetEmbeddedObject, SetEmbeddedObject method [Windows Management Instrumentation], SetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setembeddedobject, instance/CInstance::SetEmbeddedObject, wmi.cinstance_setembeddedobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

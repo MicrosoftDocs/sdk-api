@@ -9,8 +9,6 @@ ms.assetid: dde9332a-0a89-4914-9d41-6ce6519cdcb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

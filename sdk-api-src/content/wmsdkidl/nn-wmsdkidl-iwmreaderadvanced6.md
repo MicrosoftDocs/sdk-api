@@ -9,8 +9,6 @@ ms.assetid: 95e8c151-9aae-4930-824c-8809dfc07705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], IWMReaderAdvanced6 interface [windows Media Format],described, IWMReaderAdvanced6Interface, wmformat.iwmreaderadvanced6, wmsdkidl/IWMReaderAdvanced6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

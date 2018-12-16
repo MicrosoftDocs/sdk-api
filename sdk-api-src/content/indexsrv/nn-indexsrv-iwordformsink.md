@@ -9,8 +9,6 @@ ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

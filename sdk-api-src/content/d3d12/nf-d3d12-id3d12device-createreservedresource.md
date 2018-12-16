@@ -9,8 +9,6 @@ ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

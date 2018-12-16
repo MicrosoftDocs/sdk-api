@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_58f8.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],Send property, IFaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp, faxcom/IFaxStatus::Send, faxcom/IFaxStatus::get_Send, get_Send
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

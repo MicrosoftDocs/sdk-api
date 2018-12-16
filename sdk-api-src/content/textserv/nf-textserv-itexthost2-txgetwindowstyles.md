@@ -9,8 +9,6 @@ ms.assetid: 51885B3E-3DEE-461C-8625-3DE9D8C1F992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindowStyles method, ITextHost2.TxGetWindowStyles, ITextHost2::TxGetWindowStyles, TxGetWindowStyles, TxGetWindowStyles method [Windows Controls], TxGetWindowStyles method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindowstyles, textserv/ITextHost2::TxGetWindowStyles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fe40be4d-1468-429a-aa20-694467076bde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsGroupMbrInqDone, RpcNsGroupMbrInqDone function [RPC], _rpc_rpcnsgroupmbrinqdone, rpc.rpcnsgroupmbrinqdone, rpcnsi/RpcNsGroupMbrInqDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

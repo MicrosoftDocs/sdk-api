@@ -9,8 +9,6 @@ ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

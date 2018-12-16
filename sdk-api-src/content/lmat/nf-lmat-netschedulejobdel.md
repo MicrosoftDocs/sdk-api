@@ -9,8 +9,6 @@ ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmat.h
 req.include-header: Lmat.h

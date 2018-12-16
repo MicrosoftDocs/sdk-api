@@ -9,8 +9,6 @@ ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPayloadFile, AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],AddPayloadFile method, IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

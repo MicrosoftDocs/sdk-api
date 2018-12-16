@@ -9,8 +9,6 @@ ms.assetid: d1c02344-f5b9-4a59-b1c2-2dfb41df5ce1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteAttribute, WsWriteAttribute function [Web Services for Windows], webservices/WsWriteAttribute, wsw.wswriteattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

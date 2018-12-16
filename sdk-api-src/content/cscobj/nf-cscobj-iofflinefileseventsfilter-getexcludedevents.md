@@ -9,8 +9,6 @@ ms.assetid: 40e388b2-b051-4b0a-b96e-7a73b521758e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

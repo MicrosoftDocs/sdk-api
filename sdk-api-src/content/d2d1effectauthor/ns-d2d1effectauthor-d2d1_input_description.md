@@ -9,8 +9,6 @@ ms.assetid: ba900ef8-a71a-4aac-a884-38917b78b8df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_INPUT_DESCRIPTION, D2D1_INPUT_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_INPUT_DESCRIPTION, direct2d.d2d1_input_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1effectauthor.h
 req.include-header: 

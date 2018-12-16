@@ -9,8 +9,6 @@ ms.assetid: f40fecfe-3c3b-46f0-9edf-ba48236e50e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutoLigatures method, ITextFont2.SetAutoLigatures, ITextFont2::SetAutoLigatures, SetAutoLigatures, SetAutoLigatures method [Windows Controls], SetAutoLigatures method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautoligatures, tom/ITextFont2::SetAutoLigatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

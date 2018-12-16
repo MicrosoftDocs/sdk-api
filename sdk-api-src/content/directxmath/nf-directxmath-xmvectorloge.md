@@ -9,8 +9,6 @@ ms.assetid: C092B786-BAB8-4F8F-95D2-3C23F59EF064
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorLogE, XMVectorLogE, XMVectorLogE method [DirectX Math Support APIs], dxmath.xmvectorloge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

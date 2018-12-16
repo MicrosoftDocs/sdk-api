@@ -9,8 +9,6 @@ ms.assetid: 70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteBody, WsWriteBody function [Web Services for Windows], webservices/WsWriteBody, wsw.wswritebody
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 11eff02d-af0a-4047-80fd-d92be2f40d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateKeyID, GenerateKeyID method [windows Media Format], GenerateKeyID method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeyID method, IWMDRMWriter.GenerateKeyID, IWMDRMWriter::GenerateKeyID, IWMDRMWriterGenerateKeyID, wmformat.iwmdrmwriter_generatekeyid, wmsdkidl/IWMDRMWriter::GenerateKeyID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

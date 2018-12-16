@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.#ctor(float,float,float,f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE4 constructor [DirectX Math Support APIs],XMUBYTE4 structure, XMUBYTE4 structure [DirectX Math Support APIs],XMUBYTE4 constructor, XMUBYTE4.XMUBYTE4, XMUBYTE4.XMUBYTE4(float,float,float,float), XMUBYTE4::XMUBYTE4, XMUBYTE4::XMUBYTE4(float,float,float,float), dxmath.xmubyte4_ctor_4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

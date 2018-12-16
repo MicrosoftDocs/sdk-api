@@ -9,8 +9,6 @@ ms.assetid: 86FC48BF-FEEA-40c4-91CA-21FFAC210CFA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderUserArray interface [Windows Shell],SetProviderFilter method, ICredentialProviderUserArray.SetProviderFilter, ICredentialProviderUserArray::SetProviderFilter, SetProviderFilter, SetProviderFilter method [Windows Shell], SetProviderFilter method [Windows Shell],ICredentialProviderUserArray interface, credentialprovider/ICredentialProviderUserArray::SetProviderFilter, shell.ICredentialProviderUserArray_SetProviderFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

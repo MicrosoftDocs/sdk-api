@@ -9,8 +9,6 @@ ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersForProtocolByApplication function [Windows Shell], _shell_SHAssocEnumHandlersForProtocolByApplication, shell.SHAssocEnumHandlersForProtocolByApplication, shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

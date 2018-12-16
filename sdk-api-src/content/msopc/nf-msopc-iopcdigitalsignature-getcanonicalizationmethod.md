@@ -9,8 +9,6 @@ ms.assetid: 59c89909-6e35-4210-b76c-c820a9bb0d8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCanonicalizationMethod, GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCanonicalizationMethod method, IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

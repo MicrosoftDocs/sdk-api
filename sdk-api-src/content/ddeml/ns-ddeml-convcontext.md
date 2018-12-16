@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, winui._win32_convcontext_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

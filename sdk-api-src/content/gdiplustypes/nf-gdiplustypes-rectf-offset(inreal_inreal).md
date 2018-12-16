@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],RectF class, RectF class [GDI+],Offset method, RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF.Offset(REAL,REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

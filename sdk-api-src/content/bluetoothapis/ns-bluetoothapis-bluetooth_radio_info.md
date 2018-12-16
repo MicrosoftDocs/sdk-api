@@ -9,8 +9,6 @@ ms.assetid: 14440e02-ff2e-4fae-aac9-1b2fd936510e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO structure [Bluetooth], bluetooth.bluetooth_radio_info, bluetoothapis/BLUETOOTH_RADIO_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

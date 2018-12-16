@@ -9,8 +9,6 @@ ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

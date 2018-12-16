@@ -9,8 +9,6 @@ ms.assetid: fefe2cd7-26c1-4165-9c94-8843571f8824
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 71b462ef-31c2-4015-fac5-a904701671c6, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetType method, ID3D11DeviceContext.GetType, ID3D11DeviceContext::GetType, d3d11/ID3D11DeviceContext::GetType, direct3d11.id3d11devicecontext_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

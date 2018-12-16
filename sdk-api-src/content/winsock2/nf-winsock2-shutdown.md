@@ -9,8 +9,6 @@ ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h, Webhost.h

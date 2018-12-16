@@ -9,8 +9,6 @@ ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePackageFromFile, CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromFile method, IXpsOMObjectFactory.CreatePackageFromFile, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

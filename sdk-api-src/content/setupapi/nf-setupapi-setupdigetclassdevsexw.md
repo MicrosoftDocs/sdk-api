@@ -9,8 +9,6 @@ ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

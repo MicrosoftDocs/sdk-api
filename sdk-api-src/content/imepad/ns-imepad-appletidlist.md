@@ -9,8 +9,6 @@ ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 

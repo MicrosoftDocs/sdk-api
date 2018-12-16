@@ -9,8 +9,6 @@ ms.assetid: 10cfdded-4184-4d34-9ccd-85446c13d497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIP_PER_ADAPTER_INFO, *PIP_PER_ADAPTER_INFO_W2KSP1, IP_PER_ADAPTER_INFO, IP_PER_ADAPTER_INFO structure [IP Helper], IP_PER_ADAPTER_INFO_W2KSP1, PIP_PER_ADAPTER_INFO, PIP_PER_ADAPTER_INFO structure pointer [IP Helper], _iphlp_ip_per_adapter_info, iphlp.ip_per_adapter_info, iptypes/IP_PER_ADAPTER_INFO, iptypes/PIP_PER_ADAPTER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

@@ -9,8 +9,6 @@ ms.assetid: ca6ac2c9-612d-4294-ab49-7c0278519a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_TranslationResults method, ITAddressTranslationInfo.get_TranslationResults, ITAddressTranslationInfo::get_TranslationResults, _tapi3_itaddresstranslationinfo_get_translationresults, get_TranslationResults, get_TranslationResults method [TAPI 2.2], get_TranslationResults method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_translationresults, tapi3if/ITAddressTranslationInfo::get_TranslationResults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

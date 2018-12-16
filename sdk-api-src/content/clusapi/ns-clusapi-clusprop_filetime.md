@@ -9,8 +9,6 @@ ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structure [Failover Cluster], PCLUSPROP_FILETIME, PCLUSPROP_FILETIME structure pointer [Failover Cluster], clusapi/CLUSPROP_FILETIME, clusapi/PCLUSPROP_FILETIME, mscs.clusprop_filetime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

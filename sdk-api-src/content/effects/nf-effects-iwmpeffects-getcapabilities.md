@@ -9,8 +9,6 @@ ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 

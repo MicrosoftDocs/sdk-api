@@ -9,8 +9,6 @@ ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterStatusCount, GetWriterStatusCount method [VSS], GetWriterStatusCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatusCount method, IVssBackupComponents.GetWriterStatusCount, IVssBackupComponents::GetWriterStatusCount, _win32_ivssbackupcomponents_getwriterstatuscount, base.ivssbackupcomponents_getwriterstatuscount, vsbackup/IVssBackupComponents::GetWriterStatusCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

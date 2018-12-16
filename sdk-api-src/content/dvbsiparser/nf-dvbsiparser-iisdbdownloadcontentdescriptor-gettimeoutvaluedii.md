@@ -9,8 +9,6 @@ ms.assetid: ec1bd153-e637-4046-8d7b-f2868c4909dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimeOutValueDII, GetTimeOutValueDII method [Microsoft TV Technologies], GetTimeOutValueDII method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTimeOutValueDII method, IIsdbDownloadContentDescriptor.GetTimeOutValueDII, IIsdbDownloadContentDescriptor::GetTimeOutValueDII, dvbsiparser/IIsdbDownloadContentDescriptor::GetTimeOutValueDII, mstv.iisdbdownloadcontentdescriptor_gettimeoutvaluedii
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

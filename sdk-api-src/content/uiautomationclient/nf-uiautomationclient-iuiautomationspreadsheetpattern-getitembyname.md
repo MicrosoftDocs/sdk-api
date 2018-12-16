@@ -9,8 +9,6 @@ ms.assetid: 4CDE57FA-1B94-408E-B1E6-3CD3CFC5AB82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],IUIAutomationSpreadsheetPattern interface, IUIAutomationSpreadsheetPattern interface [Windows Accessibility],GetItemByName method, IUIAutomationSpreadsheetPattern.GetItemByName, IUIAutomationSpreadsheetPattern::GetItemByName, uiautomationclient/IUIAutomationSpreadsheetPattern::GetItemByName, winauto.uiauto_IUIAutomationSpreadsheetPattern_GetItemByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 43cc43a5-7853-4170-911d-e514ac722da5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteMessageStart, WsWriteMessageStart function [Web Services for Windows], webservices/WsWriteMessageStart, wsw.wswritemessagestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

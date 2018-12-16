@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submission
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],SubmissionId property, IFaxDocument2.SubmissionId, IFaxDocument2.get_SubmissionId, IFaxDocument2::SubmissionId, IFaxDocument2::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submissionid, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submissionid_cpp, fax._mfax_faxdocument2_submissionid, faxcomex/IFaxDocument2::SubmissionId, faxcomex/IFaxDocument2::get_SubmissionId, get_SubmissionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

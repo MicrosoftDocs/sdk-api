@@ -9,8 +9,6 @@ ms.assetid: a5d9a6cc-d777-4619-b28b-17cc79584171
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],MousePointer property, IInkEdit.MousePointer, IInkEdit.get_MousePointer, IInkEdit::MousePointer, IInkEdit::get_MousePointer, IInkEdit::put_MousePointer, InkEdit.get_MousePointer, InkEdit.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkEdit interface, get_MousePointer, inked/IInkEdit::MousePointer, inked/IInkEdit::get_MousePointer, inked/IInkEdit::put_MousePointer, put_MousePointer, tablet.inkedit_mousepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 

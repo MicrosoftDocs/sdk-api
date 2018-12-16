@@ -9,8 +9,6 @@ ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

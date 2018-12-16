@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

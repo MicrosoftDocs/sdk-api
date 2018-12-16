@@ -9,8 +9,6 @@ ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3459B040-B73F-4581-BA29-0B2F0241801E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableNonClientDpiScaling, EnableNonClientDpiScaling function [High DPI], hidpi.enablenonclientdpiscaling, winuser/EnableNonClientDpiScaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

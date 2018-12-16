@@ -9,8 +9,6 @@ ms.assetid: 8a7a6de0-ab37-4764-8feb-82676e1e62ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferComplete method, ISCPSecureExchange.TransferComplete, ISCPSecureExchange::TransferComplete, ISCPSecureExchangeTransferComplete, TransferComplete, TransferComplete method [windows Media Device Manager], TransferComplete method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferComplete, wmdm.iscpsecureexchange_transfercomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

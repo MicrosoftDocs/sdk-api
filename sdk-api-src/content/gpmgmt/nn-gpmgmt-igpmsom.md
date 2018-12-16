@@ -9,8 +9,6 @@ ms.assetid: e3252dba-403d-486d-b666-9bb04ec0aa90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC],described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

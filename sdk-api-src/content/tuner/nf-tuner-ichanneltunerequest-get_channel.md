@@ -9,8 +9,6 @@ ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

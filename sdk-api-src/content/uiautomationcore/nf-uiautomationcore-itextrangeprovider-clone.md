@@ -9,8 +9,6 @@ ms.assetid: fe55f57b-a803-4008-adfb-b1900550d4cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Clone method, ITextRangeProvider.Clone, ITextRangeProvider::Clone, uiauto.uiauto_ITextRangeProvider_Clone, uiauto_ITextRangeProvider_Clone, uiautomationcore/ITextRangeProvider::Clone, winauto.uiauto_ITextRangeProvider_Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 66D5FC1A-054C-406E-BEC3-CA62EA09CDF1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetCost method, INetworkConnectionCost.GetCost, INetworkConnectionCost::GetCost, netlistmgr/INetworkConnectionCost::GetCost, nla.inetworkconnectioncost_getcost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0ff7930b-8840-42d6-b52d-6766deab1aac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGdiInterop, GetGdiInterop method [Direct Write], GetGdiInterop method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],GetGdiInterop method, IDWriteFactory.GetGdiInterop, IDWriteFactory::GetGdiInterop, directwrite.IDWriteFactory_GetGdiInterop, dwrite/IDWriteFactory::GetGdiInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

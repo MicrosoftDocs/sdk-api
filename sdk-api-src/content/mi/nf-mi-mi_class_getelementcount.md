@@ -9,8 +9,6 @@ ms.assetid: f6db81ca-0411-4693-8bcc-830d4fd757ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Class_GetElementCount, MI_Class_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_Class_GetElementCount, wmi_v2.mi_class_getelementcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

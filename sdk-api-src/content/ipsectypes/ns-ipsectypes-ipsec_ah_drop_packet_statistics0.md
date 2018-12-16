@@ -9,8 +9,6 @@ ms.assetid: dca4d313-fb88-475f-adee-7c42abe550d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_AH_DROP_PACKET_STATISTICS0, IPSEC_AH_DROP_PACKET_STATISTICS0 structure [Filtering], fwp.ipsec_ah_drop_packet_statistics0_struct, ipsectypes/IPSEC_AH_DROP_PACKET_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

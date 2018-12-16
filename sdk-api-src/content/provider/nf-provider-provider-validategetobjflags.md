@@ -9,8 +9,6 @@ ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

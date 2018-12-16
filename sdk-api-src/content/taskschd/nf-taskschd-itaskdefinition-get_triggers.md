@@ -9,8 +9,6 @@ ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Triggers property, ITaskDefinition.Triggers, ITaskDefinition.get_Triggers, ITaskDefinition::Triggers, ITaskDefinition::get_Triggers, ITaskDefinition::put_Triggers, Triggers property [Task Scheduler], Triggers property [Task Scheduler],ITaskDefinition interface, get_Triggers, taskschd.itaskdefinition_triggers, taskschd/ITaskDefinition::Triggers, taskschd/ITaskDefinition::get_Triggers, taskschd/ITaskDefinition::put_Triggers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

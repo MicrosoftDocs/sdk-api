@@ -9,8 +9,6 @@ ms.assetid: d8fc55d7-0840-4090-a653-eb38d3f37fac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EjectMedia, EjectMedia method [IMAPI], EjectMedia method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EjectMedia method, IDiscRecorder2.EjectMedia, IDiscRecorder2::EjectMedia, imapi.idiscrecorder2_ejectmedia, imapi2/IDiscRecorder2::EjectMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

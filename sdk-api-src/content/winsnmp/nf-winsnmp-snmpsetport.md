@@ -9,8 +9,6 @@ ms.assetid: 8b495a60-f1ef-4170-bf11-c98bb3dc857b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSetPort, SnmpSetPort function [SNMP], _snmp_snmpsetport, snmp.snmpsetport, winsnmp/SnmpSetPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

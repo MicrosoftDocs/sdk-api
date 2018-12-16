@@ -9,8 +9,6 @@ ms.assetid: 38036657-4e65-4100-893a-e35cf0b71e0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSTerminateProcess, WTSTerminateProcess function [Remote Desktop Services], _win32_wtsterminateprocess, termserv.wtsterminateprocess, wtsapi32/WTSTerminateProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

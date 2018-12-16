@@ -9,8 +9,6 @@ ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM structure [Windows GDI], PEMRSETWORLDTRANSFORM, PEMRSETWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRSETWORLDTRANSFORM_str, gdi.emrsetworldtransform, wingdi/EMRSETWORLDTRANSFORM, wingdi/PEMRSETWORLDTRANSFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

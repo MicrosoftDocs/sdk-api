@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterClassEx, RegisterClassEx function [Windows and Messages], RegisterClassExA, RegisterClassExW, _win32_RegisterClassEx, _win32_registerclassex_cpp, winmsg.registerclassex, winui._win32_registerclassex, winuser/RegisterClassEx, winuser/RegisterClassExA, winuser/RegisterClassExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

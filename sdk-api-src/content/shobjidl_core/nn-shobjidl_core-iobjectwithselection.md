@@ -9,8 +9,6 @@ ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: F7710CD6-2B02-48A5-B089-7F174B18463C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

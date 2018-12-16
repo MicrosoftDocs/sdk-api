@@ -9,8 +9,6 @@ ms.assetid: c57af2a9-a2ec-45ba-9e10-7b5f41bdeb00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITStream interface, ITStream interface [TAPI 2.2],EnumerateTerminals method, ITStream.EnumerateTerminals, ITStream::EnumerateTerminals, _tapi3_itstream_enumerateterminals, tapi3.itstream_enumerateterminals, tapi3if/ITStream::EnumerateTerminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

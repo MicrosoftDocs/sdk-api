@@ -9,8 +9,6 @@ ms.assetid: 2725b824-b26c-4b33-bc18-a6f4c0ef74e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToStringArrayAlloc, VariantToStringArrayAlloc function [Windows Properties], _shell_VariantToStringArrayAlloc, properties.VariantToStringArrayAlloc, propvarutil/VariantToStringArrayAlloc, shell.VariantToStringArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

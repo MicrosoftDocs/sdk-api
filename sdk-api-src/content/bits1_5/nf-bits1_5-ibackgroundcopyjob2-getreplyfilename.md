@@ -9,8 +9,6 @@ ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h

@@ -9,8 +9,6 @@ ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStory interface [Windows Controls],SetFormattedText method, ITextStory.SetFormattedText, ITextStory::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStory interface, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

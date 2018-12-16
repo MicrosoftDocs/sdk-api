@@ -9,8 +9,6 @@ ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, IMSVidPlayback.Step, IMSVidPlayback::Step, IMSVidPlaybackStep, Step, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

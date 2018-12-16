@@ -9,8 +9,6 @@ ms.assetid: 1e906192-c9f1-41c2-bf7f-9967a3d0e1d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RPC_EXTENDED_ERROR_INFO, RPC_EXTENDED_ERROR_INFO structure [RPC], _rpc_rpc_extended_error_info, rpc.rpc_extended_error_info, rpcasync/RPC_EXTENDED_ERROR_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: e610c68f-1fce-42fa-8527-8ca2d9267c90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDEndpointProxy interface,SendOneWayRequest method, IWSDEndpointProxy.SendOneWayRequest, IWSDEndpointProxy::SendOneWayRequest, SendOneWayRequest, SendOneWayRequest method, SendOneWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendonewayrequest, wsdclient/IWSDEndpointProxy::SendOneWayRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

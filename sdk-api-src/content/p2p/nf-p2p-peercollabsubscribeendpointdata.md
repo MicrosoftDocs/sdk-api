@@ -9,8 +9,6 @@ ms.assetid: dfe17235-34dd-4694-9ee5-4268b4406731
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabSubscribeEndpointData, PeerCollabSubscribeEndpointData function [Peer Networking], p2p.peercollabsubscribeendpointdata, p2p/PeerCollabSubscribeEndpointData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

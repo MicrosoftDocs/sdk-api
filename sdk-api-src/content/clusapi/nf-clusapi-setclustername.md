@@ -9,8 +9,6 @@ ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName function [Failover Cluster], SetClusterName, SetClusterName function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, clusapi/SetClusterName, mscs.setclustername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

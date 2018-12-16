@@ -9,8 +9,6 @@ ms.assetid: f33f9e66-1668-4839-9c98-5945104110bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceGetInfo, MprConfigInterfaceGetInfo function [RAS], _mpr_mprconfiginterfacegetinfo, mprapi/MprConfigInterfaceGetInfo, rras.mprconfiginterfacegetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

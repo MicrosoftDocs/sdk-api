@@ -9,8 +9,6 @@ ms.assetid: 12ed8697-caec-45d5-9ecf-658b3e4ca8ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollector interface [PLA],SetXml method, IDataCollector.SetXml, IDataCollector::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollector interface, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

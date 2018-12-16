@@ -9,8 +9,6 @@ ms.assetid: 0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDynamicService, AddDynamicService method, AddDynamicService method,IWSDDeviceHost interface, IWSDDeviceHost interface,AddDynamicService method, IWSDDeviceHost.AddDynamicService, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

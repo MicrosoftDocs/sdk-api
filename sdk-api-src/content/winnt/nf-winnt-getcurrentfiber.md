@@ -9,8 +9,6 @@ ms.assetid: a08bfac8-00d0-41b7-9879-802189710093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentFiber, GetCurrentFiber function, _win32_getcurrentfiber, base.getcurrentfiber, winnt/GetCurrentFiber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

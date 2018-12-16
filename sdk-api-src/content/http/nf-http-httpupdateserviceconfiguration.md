@@ -9,8 +9,6 @@ ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

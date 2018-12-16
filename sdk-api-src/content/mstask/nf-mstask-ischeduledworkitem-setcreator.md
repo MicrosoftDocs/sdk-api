@@ -9,8 +9,6 @@ ms.assetid: e15c6aba-79f7-407f-81d1-b7ec404c68f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IScheduledWorkItem.SetCreator, IScheduledWorkItem::SetCreator, SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

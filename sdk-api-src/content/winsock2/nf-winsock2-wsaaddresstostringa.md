@@ -9,8 +9,6 @@ ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

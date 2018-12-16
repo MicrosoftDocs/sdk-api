@@ -9,8 +9,6 @@ ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fdi.h
 req.include-header: 

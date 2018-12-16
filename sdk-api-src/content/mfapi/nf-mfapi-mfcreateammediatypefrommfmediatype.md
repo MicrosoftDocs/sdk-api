@@ -9,8 +9,6 @@ ms.assetid: 53b191d4-89b3-4b16-8f89-50f256689e85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 53b191d4-89b3-4b16-8f89-50f256689e85, MFCreateAMMediaTypeFromMFMediaType, MFCreateAMMediaTypeFromMFMediaType function [Media Foundation], mf.mfcreateammediatypefrommfmediatype, mfapi/MFCreateAMMediaTypeFromMFMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

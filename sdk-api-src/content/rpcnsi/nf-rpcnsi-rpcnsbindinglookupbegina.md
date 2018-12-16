@@ -9,8 +9,6 @@ ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

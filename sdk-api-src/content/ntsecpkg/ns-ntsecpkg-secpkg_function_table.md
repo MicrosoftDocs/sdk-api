@@ -9,8 +9,6 @@ ms.assetid: 43ca0f9b-1393-48aa-9d9c-4dd19963a66d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE structure pointer [Security], SECPKG_FUNCTION_TABLE, SECPKG_FUNCTION_TABLE structure [Security], _ssp_secpkg_function_table, ntsecpkg/PSECPKG_FUNCTION_TABLE, ntsecpkg/SECPKG_FUNCTION_TABLE, security.secpkg_function_table"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

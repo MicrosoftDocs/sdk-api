@@ -9,8 +9,6 @@ ms.assetid: c7b1aff8-338a-491a-908f-5f85dddd89b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnmarshal.ReleaseMarshalData, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallUnmarshal interface, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

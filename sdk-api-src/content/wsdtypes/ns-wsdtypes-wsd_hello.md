@@ -9,8 +9,6 @@ ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_HELLO, WSD_HELLO structure, ncd.wsd_hello_struct, wsdtypes/WSD_HELLO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

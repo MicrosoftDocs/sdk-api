@@ -9,8 +9,6 @@ ms.assetid: a4223508-6e8b-41b7-b808-a0d883bc265b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGUID, GetGUID method [Automation], GetGUID method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetGUID method, IErrorInfo.GetGUID, IErrorInfo::GetGUID, _oa96_IErrorInfo_GetGUID, automat.ierrorinfo_getguid, oaidl/IErrorInfo::GetGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

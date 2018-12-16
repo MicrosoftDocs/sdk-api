@@ -9,8 +9,6 @@ ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupOptions method, IVssBackupComponents.SetBackupOptions, IVssBackupComponents::SetBackupOptions, SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

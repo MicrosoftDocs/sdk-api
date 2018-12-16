@@ -9,8 +9,6 @@ ms.assetid: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f, DXVA2_DestData_RFF, DXVA2_DestData_RFF_TFF_Present, DXVA2_DestData_TFF, DXVA2_VideoProcessBltParams, DXVA2_VideoProcessBltParams structure [Media Foundation], dxva2api/DXVA2_VideoProcessBltParams, mf.dxva2_videoprocessbltparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

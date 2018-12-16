@@ -9,8 +9,6 @@ ms.assetid: b3767efd-8f7a-4a03-81f6-97e11994900d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 235f69de-3571-4184-aa52-b409fbc1d643
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKnownFolder interface [Windows Shell],SetPath method, IKnownFolder.SetPath, IKnownFolder::SetPath, KF_FLAG_DONT_UNEXPAND, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IKnownFolder interface, _shell_IKnownFolder_SetPath, shell.IKnownFolder_SetPath, shobjidl_core/IKnownFolder::SetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

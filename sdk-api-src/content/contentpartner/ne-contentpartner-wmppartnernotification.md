@@ -9,8 +9,6 @@ ms.assetid: a9292277-5283-41b8-86a6-f7059aa38a69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPPartnerNotification, WMPPartnerNotification enumeration [Windows Media Player], contentpartner/WMPPartnerNotification, contentpartner/wmpsnBackgroundProcessingBegin, contentpartner/wmpsnBackgroundProcessingEnd, contentpartner/wmpsnCatalogDownloadComplete, contentpartner/wmpsnCatalogDownloadFailure, enumeration [Windows Media Player], wmp.wmppartnernotification, wmpsnBackgroundProcessingBegin, wmpsnBackgroundProcessingEnd, wmpsnCatalogDownloadComplete, wmpsnCatalogDownloadFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

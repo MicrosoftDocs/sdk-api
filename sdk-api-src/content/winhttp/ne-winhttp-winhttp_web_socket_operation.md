@@ -9,8 +9,6 @@ ms.assetid: 0db68b44-dbf4-4aa2-9bb7-3a5502ef39e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WINHTTP_WEB_SOCKET_CLOSE_OPERATION, WINHTTP_WEB_SOCKET_OPERATION, WINHTTP_WEB_SOCKET_OPERATION enumeration [HTTP], WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, WINHTTP_WEB_SOCKET_SEND_OPERATION, WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION, http.winhttp_web_socket_operation, winhttp/WINHTTP_WEB_SOCKET_CLOSE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_OPERATION, winhttp/WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SEND_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winhttp.h
 req.include-header: 

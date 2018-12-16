@@ -9,8 +9,6 @@ ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networks], GetProviderName method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderName method, IMbnRegistration.GetProviderName, IMbnRegistration::GetProviderName, mbn.imbnregistration_getprovidername, mbnapi/IMbnRegistration::GetProviderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7ecd6cce-77af-423a-9b95-80b1d7ec9d2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Skip method, IEnumSyncProviderConfigUIInfos.Skip, IEnumSyncProviderConfigUIInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Skip, winsync.ienumsyncproviderconfiguiinfos_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

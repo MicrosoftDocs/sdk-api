@@ -9,8 +9,6 @@ ms.assetid: A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS3, D3D11_FEATURE_DATA_D3D11_OPTIONS3 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS3, direct3d11.d3d11_feature_data_d3d11_options3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

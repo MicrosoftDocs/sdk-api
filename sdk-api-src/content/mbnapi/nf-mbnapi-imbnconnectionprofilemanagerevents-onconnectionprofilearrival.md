@@ -9,8 +9,6 @@ ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

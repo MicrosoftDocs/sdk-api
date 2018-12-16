@@ -9,8 +9,6 @@ ms.assetid: a97c2d92-dc54-4987-b2b4-e4de2e546a1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IWMDMStorageGlobals.GetTotalFree, IWMDMStorageGlobals::GetTotalFree, IWMDMStorageGlobalsGetTotalFree, mswmdm/IWMDMStorageGlobals::GetTotalFree, wmdm.iwmdmstorageglobals_gettotalfree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

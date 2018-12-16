@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDefaultScopeRule, AddDefaultScopeRule method [search], AddDefaultScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddDefaultScopeRule method, ISearchCrawlScopeManager.AddDefaultScopeRule, ISearchCrawlScopeManager::AddDefaultScopeRule, _search_ISearchCrawlScopeManager_AddDefaultScopeRule, search._search_ISearchCrawlScopeManager_AddDefaultScopeRule, searchapi/ISearchCrawlScopeManager::AddDefaultScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

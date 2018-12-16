@@ -9,8 +9,6 @@ ms.assetid: 1e60e16c-3a12-48e2-a144-b3ba81599473
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

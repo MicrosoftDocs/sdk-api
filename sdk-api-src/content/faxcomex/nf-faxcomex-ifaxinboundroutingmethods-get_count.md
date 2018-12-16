@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxInboundRoutingMethods interface, IFaxInboundRoutingMethods interface [Fax Service],Count property, IFaxInboundRoutingMethods.Count, IFaxInboundRoutingMethods.get_Count, IFaxInboundRoutingMethods::Count, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_cpp_mfax_faxinboundroutingmethods_count_cpp, faxcomex/IFaxInboundRoutingMethods::Count, faxcomex/IFaxInboundRoutingMethods::get_Count, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

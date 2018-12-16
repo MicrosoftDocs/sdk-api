@@ -9,8 +9,6 @@ ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shell], _shell_SHRemoveLocalizedName, shell.SHRemoveLocalizedName, shellapi/SHRemoveLocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

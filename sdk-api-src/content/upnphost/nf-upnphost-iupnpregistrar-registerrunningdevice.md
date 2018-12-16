@@ -9,8 +9,6 @@ ms.assetid: 4b494b7e-4fcc-4de0-bdcc-96c68a5e0688
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterRunningDevice method, IUPnPRegistrar.RegisterRunningDevice, IUPnPRegistrar::RegisterRunningDevice, RegisterRunningDevice, RegisterRunningDevice method [UPnP APIs], RegisterRunningDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerrunningdevice, upnp.iupnpregistrar_registerrunningdevice, upnphost/IUPnPRegistrar::RegisterRunningDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

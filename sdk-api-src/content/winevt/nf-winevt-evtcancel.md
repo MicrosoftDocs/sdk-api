@@ -9,8 +9,6 @@ ms.assetid: c8770139-93de-4da2-b797-f82775f4c553
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/EvtCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

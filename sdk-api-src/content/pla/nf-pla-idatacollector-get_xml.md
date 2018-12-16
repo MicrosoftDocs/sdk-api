@@ -9,8 +9,6 @@ ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollector interface [PLA],Xml property, IDataCollector.Xml, IDataCollector.get_Xml, IDataCollector::Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollector interface, base.idatacollector_xml, get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

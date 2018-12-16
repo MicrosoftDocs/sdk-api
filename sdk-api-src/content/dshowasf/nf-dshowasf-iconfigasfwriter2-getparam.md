@@ -9,8 +9,6 @@ ms.assetid: 2a875d02-3814-46a1-9eee-61bad36475fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IConfigAsfWriter2 interface, IConfigAsfWriter2 interface [DirectShow],GetParam method, IConfigAsfWriter2.GetParam, IConfigAsfWriter2::GetParam, IConfigAsfWriter2GetParam, dshow.iconfigasfwriter2_getparam, dshowasf/IConfigAsfWriter2::GetParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

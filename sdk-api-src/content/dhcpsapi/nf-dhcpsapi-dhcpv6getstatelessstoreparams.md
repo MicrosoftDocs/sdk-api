@@ -9,8 +9,6 @@ ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

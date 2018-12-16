@@ -9,8 +9,6 @@ ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wofapi.h
 req.include-header: 

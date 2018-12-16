@@ -9,8 +9,6 @@ ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies],IMSVidGenericSink2 interface, IMSVidGenericSink2 interface [Microsoft TV Technologies],AddFilter method, IMSVidGenericSink2.AddFilter, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: 358598D8-6488-4F8E-93CF-C70AD1A46862
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILaunchTargetMonitor, ILaunchTargetMonitor interface [Windows Shell], ILaunchTargetMonitor interface [Windows Shell],described, shell.ILaunchTargetMonitor, shobjidl_core/ILaunchTargetMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

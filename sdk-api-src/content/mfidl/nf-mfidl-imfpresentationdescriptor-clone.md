@@ -9,8 +9,6 @@ ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],Clone method, IMFPresentationDescriptor.Clone, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

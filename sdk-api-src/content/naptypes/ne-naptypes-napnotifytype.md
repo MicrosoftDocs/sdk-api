@@ -9,8 +9,6 @@ ms.assetid: dc573bff-9f28-4aa1-8787-e2a2dccf9859
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NapNotifyType, NapNotifyType enumeration [NAP], nap.napnotifytype, napNotifyTypeQuarState, napNotifyTypeServiceState, napNotifyTypeUnknown, naptypes/NapNotifyType, naptypes/napNotifyTypeQuarState, naptypes/napNotifyTypeServiceState, naptypes/napNotifyTypeUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

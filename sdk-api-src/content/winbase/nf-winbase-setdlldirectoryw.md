@@ -9,8 +9,6 @@ ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

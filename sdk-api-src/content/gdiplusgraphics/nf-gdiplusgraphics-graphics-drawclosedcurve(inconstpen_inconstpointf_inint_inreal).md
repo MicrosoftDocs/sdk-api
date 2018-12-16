@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL), Graphics.DrawClosedCurve(const Pen*,const PointF*,INT,REAL), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_REAL_tension_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 019796d1-b987-45d2-90df-1d3b484217a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPGROUP_INFO_0, *PGROUP_INFO_0, GROUP_INFO_0, GROUP_INFO_0 structure [Network Management], LPGROUP_INFO_0, LPGROUP_INFO_0 structure pointer [Network Management], PGROUP_INFO_0, PGROUP_INFO_0 structure pointer [Network Management], _win32_group_info_0_str, lmaccess/GROUP_INFO_0, lmaccess/LPGROUP_INFO_0, lmaccess/PGROUP_INFO_0, netmgmt.group_info_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

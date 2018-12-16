@@ -9,8 +9,6 @@ ms.assetid: 70749e4c-1f67-41e8-9def-85d38493c099
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDashCollection.GetAt, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

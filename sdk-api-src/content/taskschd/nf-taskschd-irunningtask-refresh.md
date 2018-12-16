@@ -9,8 +9,6 @@ ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Refresh method, IRunningTask.Refresh, IRunningTask::Refresh, Refresh, Refresh method [Task Scheduler], Refresh method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_refresh, taskschd/IRunningTask::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

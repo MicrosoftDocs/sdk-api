@@ -9,8 +9,6 @@ ms.assetid: 1eedddce-8b3e-419e-a065-163b22a0e9a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetClientInfo, DhcpSetClientInfo function [DHCP], dhcp.dhcpsetclientinfo, dhcpsapi/DhcpSetClientInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

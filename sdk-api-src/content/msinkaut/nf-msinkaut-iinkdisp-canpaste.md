@@ -9,8 +9,6 @@ ms.assetid: 755c74c4-417a-49b5-9f3d-9348c05ac850
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 755c74c4-417a-49b5-9f3d-9348c05ac850, CanPaste, CanPaste method [Tablet PC], CanPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CanPaste method, IInkDisp.CanPaste, IInkDisp::CanPaste, msinkaut/IInkDisp::CanPaste, tablet.inkdisp_canpaste
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fe3d45bc-bdcf-4e05-a03f-a40780b016e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSTATDATA interface [COM],Skip method, IEnumSTATDATA.Skip, IEnumSTATDATA::Skip, Skip, Skip method [COM], Skip method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_skip, com.ienumstatdata_skip, objidl/IEnumSTATDATA::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

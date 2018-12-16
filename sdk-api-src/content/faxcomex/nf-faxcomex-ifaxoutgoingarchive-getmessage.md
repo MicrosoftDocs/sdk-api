@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7did_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessage method, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage_cpp, fax._mfax_faxoutgoingarchive_getmessage_cpp, faxcomex/IFaxOutgoingArchive::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

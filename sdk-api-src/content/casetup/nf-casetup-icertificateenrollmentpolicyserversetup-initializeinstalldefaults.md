@@ -9,8 +9,6 @@ ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

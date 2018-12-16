@@ -2,7 +2,7 @@
 UID: TP:dlgbox
 ms.assetid: a28127d0-a8ac-381f-95fa-d472ee915ef7
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

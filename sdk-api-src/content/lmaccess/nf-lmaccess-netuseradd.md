@@ -9,8 +9,6 @@ ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _win32_netuseradd, lmaccess/NetUserAdd, netmgmt.netuseradd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

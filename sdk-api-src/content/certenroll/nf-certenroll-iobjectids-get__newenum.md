@@ -9,8 +9,6 @@ ms.assetid: 1c70e20e-4ed9-4b03-99b0-ae47148c6bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectIds interface [Security],_NewEnum property, IObjectIds._NewEnum, IObjectIds.get__NewEnum, IObjectIds::_NewEnum, IObjectIds::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IObjectIds interface, certenroll/IObjectIds::_NewEnum, certenroll/IObjectIds::get__NewEnum, get__NewEnum, security.iobjectids__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

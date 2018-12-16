@@ -9,8 +9,6 @@ ms.assetid: de53dade-82f3-418c-a44c-58d4b7502729
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderInfos interface, IEnumSyncProviderInfos interface [Windows Sync],Clone method, IEnumSyncProviderInfos.Clone, IEnumSyncProviderInfos::Clone, syncregistration/IEnumSyncProviderInfos::Clone, winsync.ienumsyncproviderinfos_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

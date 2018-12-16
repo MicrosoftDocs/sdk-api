@@ -9,8 +9,6 @@ ms.assetid: 4881e5f7-a835-40d5-a056-d6b23e3cd84c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNoProgressTimeout, GetNoProgressTimeout method [BITS], GetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNoProgressTimeout method, IBackgroundCopyJob.GetNoProgressTimeout, IBackgroundCopyJob::GetNoProgressTimeout, _drz_ibackgroundcopyjob_getnoprogresstimeout, bits.ibackgroundcopyjob_getnoprogresstimeout, bits/IBackgroundCopyJob::GetNoProgressTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

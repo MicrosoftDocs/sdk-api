@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1qud.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRoutingMethod interface [Fax Service],ImageName property, IFaxRoutingMethod.ImageName, IFaxRoutingMethod.get_ImageName, IFaxRoutingMethod::ImageName, IFaxRoutingMethod::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxRoutingMethod interface, _mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_imagename_cpp, faxcom/IFaxRoutingMethod::ImageName, faxcom/IFaxRoutingMethod::get_ImageName, get_ImageName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

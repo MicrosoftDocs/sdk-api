@@ -9,8 +9,6 @@ ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

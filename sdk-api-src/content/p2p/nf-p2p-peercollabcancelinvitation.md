@@ -9,8 +9,6 @@ ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

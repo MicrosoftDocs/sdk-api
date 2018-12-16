@@ -9,8 +9,6 @@ ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

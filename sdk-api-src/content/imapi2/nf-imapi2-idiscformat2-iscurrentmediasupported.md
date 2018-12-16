@@ -9,8 +9,6 @@ ms.assetid: 2b4e8088-481e-4ff9-ba6d-aeca26287382
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],IsCurrentMediaSupported method, IDiscFormat2.IsCurrentMediaSupported, IDiscFormat2::IsCurrentMediaSupported, IsCurrentMediaSupported, IsCurrentMediaSupported method [IMAPI], IsCurrentMediaSupported method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_iscurrentmediasupported, imapi2/IDiscFormat2::IsCurrentMediaSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

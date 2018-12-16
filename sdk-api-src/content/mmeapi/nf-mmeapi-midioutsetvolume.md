@@ -9,8 +9,6 @@ ms.assetid: a24ff9fa-06d1-4124-ab66-1cdcabacbc4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutSetVolume, midiOutSetVolume, midiOutSetVolume function [Windows Multimedia], mmeapi/midiOutSetVolume, multimedia.midioutsetvolume"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

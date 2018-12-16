@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\str
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows API], PSTRING, PSTRING structure pointer [Windows API], STRING, STRING structure [Windows API], _STRING, _win32_STRING, winprog._win32_string, winternl/OEM_STRING, winternl/PSTRING, winternl/STRING, winui._win32_string"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

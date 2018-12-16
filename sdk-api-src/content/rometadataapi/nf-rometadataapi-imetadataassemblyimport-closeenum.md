@@ -9,8 +9,6 @@ ms.assetid: 95adc5b3-19f1-4be1-bb77-a481f81f5d3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],CloseEnum method, IMetaDataAssemblyImport.CloseEnum, IMetaDataAssemblyImport::CloseEnum, rometadataapi/IMetaDataAssemblyImport::CloseEnum, winrt.imetadataassemblyimport_closeenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVolume(float@
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVolume, GetVolume method [XAudio2 Audio Mixing APIs], GetVolume method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetVolume method, IXAudio2Voice.GetVolume, IXAudio2Voice::GetVolume, xaudio2.ixaudio2voice_interface_getvolume, xaudio2/IXAudio2Voice::GetVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

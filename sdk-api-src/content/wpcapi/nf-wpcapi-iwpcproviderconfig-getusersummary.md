@@ -9,8 +9,6 @@ ms.assetid: 89d70aef-9bca-4984-99d1-082041257393
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserSummary, GetUserSummary method, GetUserSummary method,IWPCProviderConfig interface, IWPCProviderConfig interface,GetUserSummary method, IWPCProviderConfig.GetUserSummary, IWPCProviderConfig::GetUserSummary, parcon.iwpcproviderconfig_getusersummary, wpcapi/IWPCProviderConfig::GetUserSummary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

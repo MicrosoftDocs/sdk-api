@@ -9,8 +9,6 @@ ms.assetid: 99f1d60a-69c2-4736-a328-19796f4d37f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzOperation2 interface [Security],RoleAssignments method, IAzOperation2.RoleAssignments, IAzOperation2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzOperation2 interface, azroles/IAzOperation2::RoleAssignments, security.iazoperation2_roleassignments_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

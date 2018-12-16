@@ -9,8 +9,6 @@ ms.assetid: ac0fdaf7-0cb2-4474-b3dd-a039161513a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

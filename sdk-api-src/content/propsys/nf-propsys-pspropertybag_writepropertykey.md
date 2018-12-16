@@ -9,8 +9,6 @@ ms.assetid: 52965079-ECC6-411a-BBB9-4EA2B7C01631
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_WritePropertyKey, PSPropertyBag_WritePropertyKey function [Windows Properties], properties.PSPropertyBag_WritePropertyKey, propsys/PSPropertyBag_WritePropertyKey, shell.PSPropertyBag_WritePropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

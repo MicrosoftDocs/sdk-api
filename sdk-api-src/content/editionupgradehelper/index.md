@@ -2,7 +2,7 @@
 UID: NA:editionupgradehelper
 ms.assetid: e220ce67-0c29-3729-b009-d04e1c740663
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

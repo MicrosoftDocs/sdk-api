@@ -9,8 +9,6 @@ ms.assetid: 4A44DA4F-81FC-47BE-90CA-06355C363795
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_PIXEL_SHADER_TRACE_DESC, D3D11_PIXEL_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_PIXEL_SHADER_TRACE_DESC, direct3d11.d3d11_pixel_shader_trace_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 

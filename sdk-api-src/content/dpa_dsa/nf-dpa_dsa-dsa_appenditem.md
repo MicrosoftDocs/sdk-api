@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 

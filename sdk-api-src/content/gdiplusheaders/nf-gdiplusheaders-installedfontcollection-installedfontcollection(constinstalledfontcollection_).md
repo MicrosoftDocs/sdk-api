@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollection
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+],InstalledFontCollection constructor, InstalledFontCollection constructor [GDI+], InstalledFontCollection constructor [GDI+],InstalledFontCollection class, InstalledFontCollection.InstalledFontCollection, InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &), InstalledFontCollection::InstalledFontCollection, InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &), _gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_, gdiplus._gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

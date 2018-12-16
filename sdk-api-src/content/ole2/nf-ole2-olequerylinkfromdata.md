@@ -9,8 +9,6 @@ ms.assetid: 9ebdcd7f-06c1-4464-a66c-4d134a6b5d36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleQueryLinkFromData, OleQueryLinkFromData function [COM], _ole_OleQueryLinkFromData, com.olequerylinkfromdata, ole2/OleQueryLinkFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

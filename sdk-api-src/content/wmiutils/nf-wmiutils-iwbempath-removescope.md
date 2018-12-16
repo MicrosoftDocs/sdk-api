@@ -9,8 +9,6 @@ ms.assetid: ae7f4e88-32ca-45e1-8934-2801cfbe4cee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveScope method, IWbemPath.RemoveScope, IWbemPath::RemoveScope, RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

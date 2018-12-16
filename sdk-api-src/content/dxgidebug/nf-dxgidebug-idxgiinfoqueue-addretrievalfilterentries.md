@@ -9,8 +9,6 @@ ms.assetid: D93CB421-6684-4E84-B7FF-7911496078CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method [DXGI], AddRetrievalFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddRetrievalFilterEntries method, IDXGIInfoQueue.AddRetrievalFilterEntries, IDXGIInfoQueue::AddRetrievalFilterEntries, direct3ddxgi.idxgiinfoqueue_addretrievalfilterentries, dxgidebug/IDXGIInfoQueue::AddRetrievalFilterEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

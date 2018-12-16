@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+],described, _gdiplus_CLASS_BitmapData_Class, gdiplus._gdiplus_CLASS_BitmapData_Class, gdiplusimaging/BitmapData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h

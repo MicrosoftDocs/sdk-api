@@ -9,8 +9,6 @@ ms.assetid: 9b7b78e1-cf28-4b7a-8a12-e9d19cec17c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_WATERMARK_ENTRY, WMT_WATERMARK_ENTRY structure [windows Media Format], structure [windows Media Format], wmformat.wmt_watermark_entry, wmsdkidl/WMT_WATERMARK_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

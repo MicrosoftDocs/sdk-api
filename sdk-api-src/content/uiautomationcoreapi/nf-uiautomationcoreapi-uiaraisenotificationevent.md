@@ -9,8 +9,6 @@ ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h

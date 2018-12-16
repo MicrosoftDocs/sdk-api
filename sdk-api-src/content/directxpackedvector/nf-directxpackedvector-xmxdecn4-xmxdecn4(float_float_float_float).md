@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor(float,float,float,f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(float,float,float,float), XMXDECN4::XMXDECN4, XMXDECN4::XMXDECN4(float,float,float,float), dxmath.xmxdecn4_ctor_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7114ea0f-b7c7-4fe8-b46c-065f4dd88824
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_POLICY_DESCRIPTION, WS_TCP_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_POLICY_DESCRIPTION, wsw.ws_tcp_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

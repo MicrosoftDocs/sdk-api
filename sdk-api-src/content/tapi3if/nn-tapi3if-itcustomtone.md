@@ -9,8 +9,6 @@ ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone interface [TAPI 2.2],described, _tapi3_itcustomtone, tapi3.itcustomtone, tapi3if/ITCustomTone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

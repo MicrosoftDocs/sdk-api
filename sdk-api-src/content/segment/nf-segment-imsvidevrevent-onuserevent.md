@@ -9,8 +9,6 @@ ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

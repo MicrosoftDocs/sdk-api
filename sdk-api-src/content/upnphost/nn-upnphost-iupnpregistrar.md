@@ -9,8 +9,6 @@ ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

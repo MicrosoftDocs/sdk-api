@@ -9,8 +9,6 @@ ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

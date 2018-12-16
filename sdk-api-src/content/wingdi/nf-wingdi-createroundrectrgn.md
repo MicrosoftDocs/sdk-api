@@ -9,8 +9,6 @@ ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

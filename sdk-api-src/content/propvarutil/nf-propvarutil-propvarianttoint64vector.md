@@ -9,8 +9,6 @@ ms.assetid: cda5589a-726f-4e43-aec4-bb7a7ca62b1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToInt64Vector, PropVariantToInt64Vector function [Windows Properties], _shell_PropVariantToInt64Vector, properties.PropVariantToInt64Vector, propvarutil/PropVariantToInt64Vector, shell.PropVariantToInt64Vector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

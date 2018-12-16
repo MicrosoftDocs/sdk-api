@@ -9,8 +9,6 @@ ms.assetid: 83a331c1-cfc6-427d-aa80-9583db02ee92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt/YieldProcessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

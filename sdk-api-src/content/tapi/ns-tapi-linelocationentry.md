@@ -9,8 +9,6 @@ ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structure [TAPI 2.2], LPLINELOCATIONENTRY, LPLINELOCATIONENTRY structure pointer [TAPI 2.2], _tapi2_linelocationentry_str, tapi/LINELOCATIONENTRY, tapi/LPLINELOCATIONENTRY, tapi2.linelocationentry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

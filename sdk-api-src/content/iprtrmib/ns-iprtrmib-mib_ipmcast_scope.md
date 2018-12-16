@@ -9,8 +9,6 @@ ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h

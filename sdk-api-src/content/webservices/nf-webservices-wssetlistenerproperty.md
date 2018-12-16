@@ -9,8 +9,6 @@ ms.assetid: 5c494651-3944-4424-8cd4-a6e14c239e80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services for Windows], webservices/WsSetListenerProperty, wsw.wssetlistenerproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

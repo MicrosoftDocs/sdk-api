@@ -9,8 +9,6 @@ ms.assetid: 45084e57-d022-4bdb-9001-83e4e88c9c55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddTriangles, AddTriangles method [Direct2D], AddTriangles method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],AddTriangles method, ID2D1TessellationSink.AddTriangles, ID2D1TessellationSink::AddTriangles, d2d1/ID2D1TessellationSink::AddTriangles, direct2d.ID2D1TessellationSink_AddTriangles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

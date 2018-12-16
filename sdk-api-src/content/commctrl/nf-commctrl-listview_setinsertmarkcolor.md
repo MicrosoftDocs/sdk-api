@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmarkcolor.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetInsertMarkColor, ListView_SetInsertMarkColor macro [Windows Controls], _win32_ListView_SetInsertMarkColor, _win32_ListView_SetInsertMarkColor_cpp, commctrl/ListView_SetInsertMarkColor, controls.ListView_SetInsertMarkColor, controls._win32_ListView_SetInsertMarkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

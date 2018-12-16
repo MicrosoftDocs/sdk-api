@@ -9,8 +9,6 @@ ms.assetid: 7aee6396-6045-4e7b-9df9-3729159ea4b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetnumrings, lineGetNumRings, lineGetNumRings function [TAPI 2.2], tapi/lineGetNumRings, tapi2.linegetnumrings"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

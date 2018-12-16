@@ -9,8 +9,6 @@ ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

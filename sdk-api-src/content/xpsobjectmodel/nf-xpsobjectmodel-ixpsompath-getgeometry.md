@@ -9,8 +9,6 @@ ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

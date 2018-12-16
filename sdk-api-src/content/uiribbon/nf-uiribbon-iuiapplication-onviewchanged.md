@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onvie
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

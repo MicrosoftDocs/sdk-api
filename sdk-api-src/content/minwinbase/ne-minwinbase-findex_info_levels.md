@@ -9,8 +9,6 @@ ms.assetid: 454d5fc2-2ada-49de-9e1e-9e6eba050b17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FINDEX_INFO_LEVELS, FINDEX_INFO_LEVELS enumeration [Files], FindExInfoBasic, FindExInfoMaxInfoLevel, FindExInfoStandard, _win32_findex_info_levels_str, base.findex_info_levels_str, fs.findex_info_levels_str, winbase/FINDEX_INFO_LEVELS, winbase/FindExInfoBasic, winbase/FindExInfoMaxInfoLevel, winbase/FindExInfoStandard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h

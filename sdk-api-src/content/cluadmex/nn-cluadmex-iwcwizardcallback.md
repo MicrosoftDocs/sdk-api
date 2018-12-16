@@ -9,8 +9,6 @@ ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], IWCWizardCallback interface [Failover Cluster],described, _wolf_iwcwizardcallback, cluadmex/IWCWizardCallback, mscs.iwcwizardcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4gtv.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxActivity interface [Fax Service],IncomingMessages property, IFaxActivity.IncomingMessages, IFaxActivity.get_IncomingMessages, IFaxActivity::IncomingMessages, IFaxActivity::get_IncomingMessages, IncomingMessages property [Fax Service], IncomingMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.incomingmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_incomingmessages_cpp, fax._mfax_faxactivity_incomingmessages, faxcomex/IFaxActivity::IncomingMessages, faxcomex/IFaxActivity::get_IncomingMessages, get_IncomingMessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b924d066-87d7-499b-b006-a10e219e11fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

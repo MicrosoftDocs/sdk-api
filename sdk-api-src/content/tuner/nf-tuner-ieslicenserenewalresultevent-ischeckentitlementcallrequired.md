@@ -9,8 +9,6 @@ ms.assetid: e19375c6-5999-43e9-9d91-3237b900cb07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

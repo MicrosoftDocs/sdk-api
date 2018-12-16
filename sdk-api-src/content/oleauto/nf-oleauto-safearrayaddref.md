@@ -9,8 +9,6 @@ ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

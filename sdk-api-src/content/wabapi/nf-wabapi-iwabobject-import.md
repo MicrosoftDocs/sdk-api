@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\import.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],Import method, IWABObject.Import, IWABObject::Import, Import, Import method [Windows Address Book], Import method [Windows Address Book],IWABObject interface, _wab_IWABObject_Import, wab._wab_IWABObject_Import, wabapi/IWABObject::Import
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 

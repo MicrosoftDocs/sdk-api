@@ -9,8 +9,6 @@ ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 

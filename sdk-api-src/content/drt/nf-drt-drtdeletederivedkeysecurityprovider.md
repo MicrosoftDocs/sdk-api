@@ -9,8 +9,6 @@ ms.assetid: 89b2bbe6-51a3-48fc-85c9-13e1b0cfd880
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

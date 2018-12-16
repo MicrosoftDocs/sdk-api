@@ -9,8 +9,6 @@ ms.assetid: ee8cbe71-6ac3-4f41-a9af-f372f825485d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

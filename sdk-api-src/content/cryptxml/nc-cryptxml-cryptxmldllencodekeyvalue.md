@@ -9,8 +9,6 @@ ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue callback, CryptXmlDllEncodeKeyValue callback function [Security], cryptxml/CryptXmlDllEncodeKeyValue, security.cryptxmldllencodekeyvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

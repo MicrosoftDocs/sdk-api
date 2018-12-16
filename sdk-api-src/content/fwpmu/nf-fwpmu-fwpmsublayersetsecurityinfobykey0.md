@@ -9,8 +9,6 @@ ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmSubLayerSetSecurityInfoByKey0, FwpmSubLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmSubLayerSetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

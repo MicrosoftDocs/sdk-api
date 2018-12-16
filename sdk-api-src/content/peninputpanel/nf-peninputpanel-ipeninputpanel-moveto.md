@@ -9,8 +9,6 @@ ms.assetid: d99e5ef8-fa91-4507-bfe5-f30a039ca72d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPenInputPanel interface [Tablet PC],MoveTo method, IPenInputPanel.MoveTo, IPenInputPanel::MoveTo, MoveTo, MoveTo method [Tablet PC], MoveTo method [Tablet PC],IPenInputPanel interface, d99e5ef8-fa91-4507-bfe5-f30a039ca72d, peninputpanel/IPenInputPanel::MoveTo, tablet.peninputpanel_moveto
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

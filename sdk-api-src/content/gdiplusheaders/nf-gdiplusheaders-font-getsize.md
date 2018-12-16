@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Font class [GDI+],GetSize method, Font.GetSize, Font::GetSize, GetSize, GetSize method [GDI+], GetSize method [GDI+],Font class, _gdiplus_CLASS_Font_GetSize_, gdiplus._gdiplus_CLASS_Font_GetSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

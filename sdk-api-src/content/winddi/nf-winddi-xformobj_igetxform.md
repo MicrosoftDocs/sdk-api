@@ -9,8 +9,6 @@ ms.assetid: 0a78663c-15c9-4fed-b758-fea0f2571971
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XFORMOBJ_iGetXform, XFORMOBJ_iGetXform function [Display Devices], display.xformobj_igetxform, gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml, winddi/XFORMOBJ_iGetXform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

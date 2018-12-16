@@ -9,8 +9,6 @@ ms.assetid: 1147829d-c47b-4d80-8b49-4328dd54f8ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.put_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, put_Formats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], base.displaytypeconstants, isysmon/DisplayTypeConstants, isysmon/sysmonChartArea, isysmon/sysmonChartStackedArea, isysmon/sysmonHistogram, isysmon/sysmonLineGraph, isysmon/sysmonReport, sysmon.displaytypeconstants, sysmonChartArea, sysmonChartStackedArea, sysmonHistogram, sysmonLineGraph, sysmonReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 

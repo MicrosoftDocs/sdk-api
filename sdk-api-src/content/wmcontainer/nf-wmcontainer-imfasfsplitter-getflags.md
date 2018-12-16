@@ -9,8 +9,6 @@ ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetFlags method, IMFASFSplitter.GetFlags, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

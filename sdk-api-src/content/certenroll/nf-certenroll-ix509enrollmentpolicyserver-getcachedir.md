@@ -9,8 +9,6 @@ ms.assetid: 72b0b6f0-cc4f-4e03-9b6c-7bd4c12cf0a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCacheDir, GetCacheDir method [Security], GetCacheDir method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCacheDir method, IX509EnrollmentPolicyServer.GetCacheDir, IX509EnrollmentPolicyServer::GetCacheDir, certenroll/IX509EnrollmentPolicyServer::GetCacheDir, security.ix509enrollmentpolicyserver_getcachedir
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

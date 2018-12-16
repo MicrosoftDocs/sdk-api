@@ -9,8 +9,6 @@ ms.assetid: 26a58b2c-1c68-4e38-963c-4df7512347f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRotateTransform, CreateRotateTransform method [DirectComposition], CreateRotateTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform method, IDCompositionDevice.CreateRotateTransform, IDCompositionDevice::CreateRotateTransform, dcomp/IDCompositionDevice::CreateRotateTransform, directcomp.idcompositiondevice_createrotatetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

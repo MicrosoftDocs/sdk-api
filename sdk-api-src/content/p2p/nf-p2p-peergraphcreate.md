@@ -9,8 +9,6 @@ ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

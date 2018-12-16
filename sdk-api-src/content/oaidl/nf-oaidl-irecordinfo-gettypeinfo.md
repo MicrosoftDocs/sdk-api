@@ -9,8 +9,6 @@ ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

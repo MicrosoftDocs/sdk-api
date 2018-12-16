@@ -9,8 +9,6 @@ ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

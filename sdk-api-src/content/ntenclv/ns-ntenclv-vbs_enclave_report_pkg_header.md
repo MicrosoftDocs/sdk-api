@@ -9,8 +9,6 @@ ms.assetid: F2E24F81-97F1-404E-9974-327C762683DA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VBS_ENCLAVE_REPORT_PKG_HEADER, VBS_ENCLAVE_REPORT_PKG_HEADER structure, base.vbs_enclave_report_pkg_header, ntenclv/VBS_ENCLAVE_REPORT_PKG_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 

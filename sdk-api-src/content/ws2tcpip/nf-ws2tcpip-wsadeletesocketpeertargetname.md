@@ -9,8 +9,6 @@ ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

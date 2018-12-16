@@ -9,8 +9,6 @@ ms.assetid: 7b28a81f-bf80-4739-989e-a276a0ca8a3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_NET_EVENT_IPSEC_DOSP_DROP0, FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering], fwp.fwpm_net_event_ipsec_dosp_drop0, fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

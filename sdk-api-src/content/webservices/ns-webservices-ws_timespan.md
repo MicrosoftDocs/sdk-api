@@ -9,8 +9,6 @@ ms.assetid: f8a42739-e395-4b20-bf3a-3d7c5e3a5495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TIMESPAN, WS_TIMESPAN structure [Web Services for Windows], webservices/WS_TIMESPAN, wsw.ws_timespan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

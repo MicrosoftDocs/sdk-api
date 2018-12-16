@@ -9,8 +9,6 @@ ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 958cf2e7-0956-489a-904f-01ec00af48d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [Open Packaging Conventions], GetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureOriginPartName method, IOpcDigitalSignatureManager.GetSignatureOriginPartName, IOpcDigitalSignatureManager::GetSignatureOriginPartName, msopc/IOpcDigitalSignatureManager::GetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_getsignatureoriginpartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

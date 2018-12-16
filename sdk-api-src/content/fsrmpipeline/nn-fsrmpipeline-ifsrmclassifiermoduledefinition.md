@@ -9,8 +9,6 @@ ms.assetid: 6e691670-d7d7-48cb-8a81-ee8828b39b30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleDefinition, IFsrmClassifierModuleDefinition interface [File Server Resource Manager], IFsrmClassifierModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduledefinition, fsrm.ifsrmclassifiermoduledefinition, fsrm/IFsrmClassifierModuleDefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

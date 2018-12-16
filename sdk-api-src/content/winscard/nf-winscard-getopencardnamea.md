@@ -9,8 +9,6 @@ ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties],IPropertyDescriptionRelatedPropertyInfo interface, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

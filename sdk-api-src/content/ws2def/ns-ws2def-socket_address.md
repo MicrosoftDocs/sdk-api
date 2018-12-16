@@ -9,8 +9,6 @@ ms.assetid: 37fbcb96-a859-4eca-8928-8051f95407b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSOCKET_ADDRESS, *PSOCKET_ADDRESS, PSOCKET_ADDRESS, PSOCKET_ADDRESS structure pointer [Winsock], SOCKET_ADDRESS, SOCKET_ADDRESS structure [Winsock], _win32_socket_address_2, winsock.socket_address_2, winsock2/PSOCKET_ADDRESS, winsock2/SOCKET_ADDRESS, ws2def/PSOCKET_ADDRESS, ws2def/SOCKET_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h

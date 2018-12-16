@@ -9,8 +9,6 @@ ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],ReadFromSubresource method, ID3D11Device3.ReadFromSubresource, ID3D11Device3::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method [Direct3D 11], ReadFromSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::ReadFromSubresource, direct3d11.id3d11device3_readfromsubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 

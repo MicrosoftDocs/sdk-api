@@ -9,8 +9,6 @@ ms.assetid: b5bf3300-cfa0-43db-b513-6c0d695c564e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFileStream interface [Direct Write],ReadFileFragment method, IDWriteFontFileStream.ReadFileFragment, IDWriteFontFileStream::ReadFileFragment, ReadFileFragment, ReadFileFragment method [Direct Write], ReadFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReadFileFragment, dwrite/IDWriteFontFileStream::ReadFileFragment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

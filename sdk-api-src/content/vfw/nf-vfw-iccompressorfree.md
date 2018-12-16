@@ -9,8 +9,6 @@ ms.assetid: 6d0c9a7d-6458-4330-af74-3f471555cbfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 71A5DD28-1C0F-46B6-835F-1358B21AF2EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

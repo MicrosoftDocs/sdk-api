@@ -9,8 +9,6 @@ ms.assetid: 01160bda-0d4c-46fc-92ba-82fe5808e665
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XHR_CRED_PROMPT, XHR_CRED_PROMPT enumeration [XMLHttpRequest2], XHR_CRED_PROMPT_ALL, XHR_CRED_PROMPT_NONE, XHR_CRED_PROMPT_PROXY, ixhr2.xhr_cred_prompt, msxml6/XHR_CRED_PROMPT, msxml6/XHR_CRED_PROMPT_ALL, msxml6/XHR_CRED_PROMPT_NONE, msxml6/XHR_CRED_PROMPT_PROXY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msxml6.h
 req.include-header: 

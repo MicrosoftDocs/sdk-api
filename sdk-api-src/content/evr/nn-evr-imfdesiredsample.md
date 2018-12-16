@@ -9,8 +9,6 @@ ms.assetid: 373c076c-6329-4332-9f07-f18a01197659
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], IMFDesiredSample interface [Media Foundation],described, evr/IMFDesiredSample, mf.imfdesiredsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

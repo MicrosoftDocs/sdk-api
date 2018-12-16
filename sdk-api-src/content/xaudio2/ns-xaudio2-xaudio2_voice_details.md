@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_DETAILS
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAUDIO2_VOICE_DETAILS, XAUDIO2_VOICE_DETAILS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_details, xaudio2/XAUDIO2_VOICE_DETAILS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

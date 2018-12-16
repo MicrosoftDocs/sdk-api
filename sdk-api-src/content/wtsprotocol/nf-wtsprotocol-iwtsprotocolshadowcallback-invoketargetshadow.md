@@ -9,8 +9,6 @@ ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWTSProtocolShadowCallback.InvokeTargetShadow, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

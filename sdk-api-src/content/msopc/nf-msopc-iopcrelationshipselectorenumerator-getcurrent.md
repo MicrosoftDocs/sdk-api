@@ -9,8 +9,6 @@ ms.assetid: ffff6b7e-8e46-4be6-921f-b98e7d51a114
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcRelationshipSelectorEnumerator.GetCurrent, IOpcRelationshipSelectorEnumerator::GetCurrent, msopc/IOpcRelationshipSelectorEnumerator::GetCurrent, opc.iopcrelationshipselectorenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

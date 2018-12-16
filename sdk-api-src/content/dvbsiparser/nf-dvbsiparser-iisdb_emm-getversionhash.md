@@ -9,8 +9,6 @@ ms.assetid: f0d97b49-8ab3-4632-9055-e2208b3121e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionHash method, IISDB_EMM.GetVersionHash, IISDB_EMM::GetVersionHash, dvbsiparser/IISDB_EMM::GetVersionHash, mstv.iisdb_emm_getversionhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: notificationactivationcallback.h
 req.include-header: 

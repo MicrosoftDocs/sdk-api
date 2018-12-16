@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3d9ex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 88878a9a-f85c-f0f1-6268-c5b3e11bb875, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], IDirect3D9Ex interface [Direct3D 9],described, d3d9/IDirect3D9Ex, direct3d9.idirect3d9ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 

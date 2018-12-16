@@ -9,8 +9,6 @@ ms.assetid: d99511ec-ac22-4166-b944-b0136ffcf01a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsidByIndex method, IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

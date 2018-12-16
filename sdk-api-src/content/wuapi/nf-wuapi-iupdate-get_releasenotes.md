@@ -9,8 +9,6 @@ ms.assetid: b27dc2f6-c985-437f-b960-f2470c30ef0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],ReleaseNotes property, IUpdate.ReleaseNotes, IUpdate.get_ReleaseNotes, IUpdate::ReleaseNotes, IUpdate::get_ReleaseNotes, ReleaseNotes property [Windows Update Agent], ReleaseNotes property [Windows Update Agent],IUpdate interface, get_ReleaseNotes, wua.iupdate_releasenotes, wuapi/IUpdate::ReleaseNotes, wuapi/IUpdate::get_ReleaseNotes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

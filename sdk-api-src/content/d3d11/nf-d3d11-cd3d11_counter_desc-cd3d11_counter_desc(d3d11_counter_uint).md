@@ -9,8 +9,6 @@ ms.assetid: 0F46FE3C-724D-4863-BE6B-48275447F819
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC constructor [Direct3D 11], CD3D11_COUNTER_DESC constructor [Direct3D 11],CD3D11_COUNTER_DESC interface, CD3D11_COUNTER_DESC interface [Direct3D 11],CD3D11_COUNTER_DESC constructor, CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT), CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT), d3d11/CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc_cd3d11_counter_desc_d3d11_counter_desc_values_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

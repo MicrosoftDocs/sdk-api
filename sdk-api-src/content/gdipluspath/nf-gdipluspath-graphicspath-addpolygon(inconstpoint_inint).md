@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPolygon, AddPolygon method [GDI+], AddPolygon method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPolygon method, GraphicsPath.AddPolygon, GraphicsPath.AddPolygon(IN const Point,IN INT), GraphicsPath.AddPolygon(const Point*,INT), GraphicsPath::AddPolygon, GraphicsPath::AddPolygon(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddPolygon_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPolygon_Point_points_INT_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

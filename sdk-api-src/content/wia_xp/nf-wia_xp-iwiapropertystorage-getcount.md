@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetCount method, IWiaPropertyStorage.GetCount, IWiaPropertyStorage::GetCount, _wia_IWiaPropertyStorage_GetCount, wia._wia_IWiaPropertyStorage_GetCount, wia_xp/IWiaPropertyStorage::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

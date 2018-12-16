@@ -9,8 +9,6 @@ ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

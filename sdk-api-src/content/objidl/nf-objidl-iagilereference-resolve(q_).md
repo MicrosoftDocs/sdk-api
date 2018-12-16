@@ -9,8 +9,6 @@ ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileReference.Resolve, IAgileReference.Resolve(Q,), IAgileReference::Resolve, IAgileReference::Resolve(Q,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IAgileReference interface, objidl/IAgileReference::Resolve, winrt.iagilereference_resolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

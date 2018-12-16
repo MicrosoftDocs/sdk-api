@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_150l.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],ImageName property, IFaxDeviceProvider.ImageName, IFaxDeviceProvider.get_ImageName, IFaxDeviceProvider::ImageName, IFaxDeviceProvider::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.imagename, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp, fax._mfax_faxdeviceprovider_imagename, faxcomex/IFaxDeviceProvider::ImageName, faxcomex/IFaxDeviceProvider::get_ImageName, get_ImageName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

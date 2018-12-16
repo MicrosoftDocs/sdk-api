@@ -9,8 +9,6 @@ ms.assetid: 24600215-afa0-4e6b-8455-b19b0de60b65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityCreate, PeerIdentityCreate function [Peer Networking], p2p.peeridentitycreate, p2p/PeerIdentityCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

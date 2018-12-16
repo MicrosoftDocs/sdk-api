@@ -9,8 +9,6 @@ ms.assetid: bad10893-07af-4b46-bab1-2878553813b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexStatus method, IMFASFIndexer.SetIndexStatus, IMFASFIndexer::SetIndexStatus, SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation],IMFASFIndexer interface, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

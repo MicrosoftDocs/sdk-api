@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

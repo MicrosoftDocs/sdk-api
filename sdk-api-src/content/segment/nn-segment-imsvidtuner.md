@@ -9,8 +9,6 @@ ms.assetid: b11f3ac4-c351-4017-9801-98d8edec7449
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies],described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

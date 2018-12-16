@@ -9,8 +9,6 @@ ms.assetid: a2628b3f-37b7-4317-960e-cbd2339aade6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObjectPointer, GetObjectPointer method [Media Foundation], GetObjectPointer method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectPointer method, IMFAsyncCallbackLogging.GetObjectPointer, IMFAsyncCallbackLogging::GetObjectPointer, mf.imfasynccallbacklogging_getobjectpointer, mfobjects/IMFAsyncCallbackLogging::GetObjectPointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

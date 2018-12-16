@@ -9,8 +9,6 @@ ms.assetid: 467200e7-9b08-4372-9a01-660e56a15bfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], IWICMetadataWriterInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriterinfo, wic._wic_codec_iwicmetadatawriterinfo, wincodecsdk/IWICMetadataWriterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

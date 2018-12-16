@@ -9,8 +9,6 @@ ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISynchronizeEvent interface [COM],SetEventHandle method, ISynchronizeEvent.SetEventHandle, ISynchronizeEvent::SetEventHandle, SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM],ISynchronizeEvent interface, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

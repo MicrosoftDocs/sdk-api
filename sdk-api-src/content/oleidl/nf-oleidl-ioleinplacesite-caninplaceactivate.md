@@ -9,8 +9,6 @@ ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

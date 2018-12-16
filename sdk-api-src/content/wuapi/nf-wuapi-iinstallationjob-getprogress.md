@@ -9,8 +9,6 @@ ms.assetid: 7d63ec9d-bf7a-4c5d-a1e7-4dcc0f236d07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],GetProgress method, IInstallationJob.GetProgress, IInstallationJob::GetProgress, wua.iinstallationjob_getprogress, wuapi/IInstallationJob::GetProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

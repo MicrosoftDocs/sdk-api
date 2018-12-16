@@ -9,8 +9,6 @@ ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSFreeMemoryEx, WTSFreeMemoryEx function [Remote Desktop Services], WTSFreeMemoryExA, WTSFreeMemoryExW, termserv.wtsfreememoryex, wtsapi32/WTSFreeMemoryEx, wtsapi32/WTSFreeMemoryExA, wtsapi32/WTSFreeMemoryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

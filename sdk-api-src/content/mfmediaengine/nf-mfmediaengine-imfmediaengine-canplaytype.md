@@ -9,8 +9,6 @@ ms.assetid: 313F631F-7584-4F95-9208-B087CC12010E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

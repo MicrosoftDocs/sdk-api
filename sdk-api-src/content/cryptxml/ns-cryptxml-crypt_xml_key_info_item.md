@@ -9,8 +9,6 @@ ms.assetid: 3fbb1623-d493-49f1-a004-74ec8d22520e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

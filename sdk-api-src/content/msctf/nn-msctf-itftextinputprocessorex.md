@@ -9,8 +9,6 @@ ms.assetid: fc762a6f-8d15-4082-9588-fc77fa565549
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfTextInputProcessorEx, ITfTextInputProcessorEx interface [Text Services Framework], ITfTextInputProcessorEx interface [Text Services Framework],described, _tsf_itftextinputprocessorex_ref, msctf/ITfTextInputProcessorEx, tsf.itftextinputprocessorex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

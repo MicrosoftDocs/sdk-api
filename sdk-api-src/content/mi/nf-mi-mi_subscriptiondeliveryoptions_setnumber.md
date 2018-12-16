@@ -9,8 +9,6 @@ ms.assetid: 872af4f8-67e2-4e41-a629-180172dbdd17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetNumber, MI_SubscriptionDeliveryOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetNumber, wmi_v2.mi_subscriptiondeliveryoptions_setnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

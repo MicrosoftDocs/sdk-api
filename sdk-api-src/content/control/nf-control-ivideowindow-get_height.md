@@ -9,8 +9,6 @@ ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

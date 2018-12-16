@@ -9,8 +9,6 @@ ms.assetid: 89e90c32-edf7-47f4-9126-4c3539d9fbc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_KEY_HANDLE, WS_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_SECURITY_KEY_HANDLE, wsw.ws_security_key_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

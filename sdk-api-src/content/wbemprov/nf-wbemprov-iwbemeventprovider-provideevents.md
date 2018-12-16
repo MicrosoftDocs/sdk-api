@@ -9,8 +9,6 @@ ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemEventProvider interface [Windows Management Instrumentation],ProvideEvents method, IWbemEventProvider.ProvideEvents, IWbemEventProvider::ProvideEvents, ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation],IWbemEventProvider interface, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

@@ -9,8 +9,6 @@ ms.assetid: 75FB1BCD-03E0-4A6F-8C97-99AE8E958174
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_UPGRADE_PHASE, CLUSTER_UPGRADE_PHASE enumeration [Failover Cluster], ClusterUpgradePhaseInitialize, ClusterUpgradePhaseInstallingNewComponents, ClusterUpgradePhaseUpgradeComplete, ClusterUpgradePhaseUpgradingComponents, ClusterUpgradePhaseValidatingUpgrade, clusapi/CLUSTER_UPGRADE_PHASE, clusapi/ClusterUpgradePhaseInitialize, clusapi/ClusterUpgradePhaseInstallingNewComponents, clusapi/ClusterUpgradePhaseUpgradeComplete, clusapi/ClusterUpgradePhaseUpgradingComponents, clusapi/ClusterUpgradePhaseValidatingUpgrade, msclus/CLUSTER_UPGRADE_PHASE, msclus/ClusterUpgradePhaseInitialize, msclus/ClusterUpgradePhaseInstallingNewComponents, msclus/ClusterUpgradePhaseUpgradeComplete, msclus/ClusterUpgradePhaseUpgradingComponents, msclus/ClusterUpgradePhaseValidatingUpgrade, mscs.cluster_upgrade_phase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

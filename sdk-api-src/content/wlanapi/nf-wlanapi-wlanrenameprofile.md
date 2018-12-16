@@ -9,8 +9,6 @@ ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

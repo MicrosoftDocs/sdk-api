@@ -9,8 +9,6 @@ ms.assetid: d0bad0e8-e48c-443b-b52e-e95de3158710
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkDivisionResult interface [Tablet PC],ResultByType method, IInkDivisionResult.ResultByType, IInkDivisionResult::ResultByType, ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC],IInkDivisionResult interface, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 

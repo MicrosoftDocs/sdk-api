@@ -9,8 +9,6 @@ ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

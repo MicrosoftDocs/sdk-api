@@ -9,8 +9,6 @@ ms.assetid: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8, DeleteAllItems, DeleteAllItems method [Media Foundation], DeleteAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteAllItems method, IMFAttributes.DeleteAllItems, IMFAttributes::DeleteAllItems, mf.imfattributes_deleteallitems, mfobjects/IMFAttributes::DeleteAllItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

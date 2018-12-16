@@ -9,8 +9,6 @@ ms.assetid: 6e09ba3e-d233-4026-9866-8bc0d45ec9aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineRemoveFromConference, TSPI_lineRemoveFromConference function [TAPI 2.2], _tspi_tspi_lineremovefromconference, tspi.tspi_lineremovefromconference, tspi/TSPI_lineRemoveFromConference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3b067a6f-ba4c-4914-aa5b-e0fd7690e75c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMade method, ISensNetwork.ConnectionMade, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

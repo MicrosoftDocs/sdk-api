@@ -9,8 +9,6 @@ ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

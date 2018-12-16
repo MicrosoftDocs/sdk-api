@@ -9,8 +9,6 @@ ms.assetid: 0898daf0-67ae-47a4-90bf-2112b6e6b20c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

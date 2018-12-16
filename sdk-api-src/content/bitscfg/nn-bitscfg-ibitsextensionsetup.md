@@ -9,8 +9,6 @@ ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bitscfg.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 25774ccb-8e76-443d-89da-177d6e77c019
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], IX509SignatureInformation interface [Security],described, certenroll/IX509SignatureInformation, security.ix509signatureinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

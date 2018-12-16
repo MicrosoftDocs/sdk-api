@@ -9,8 +9,6 @@ ms.assetid: 8253b062-072b-4d37-8b82-407df1bea6b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsEncodeUrl, WsEncodeUrl function [Web Services for Windows], webservices/WsEncodeUrl, wsw.wsencodeurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

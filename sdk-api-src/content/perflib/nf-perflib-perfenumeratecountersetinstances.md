@@ -9,8 +9,6 @@ ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

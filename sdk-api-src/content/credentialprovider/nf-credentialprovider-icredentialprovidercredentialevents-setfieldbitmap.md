@@ -9,8 +9,6 @@ ms.assetid: 860407bd-774a-409f-b7db-e30a964cf879
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldBitmap method, ICredentialProviderCredentialEvents.SetFieldBitmap, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

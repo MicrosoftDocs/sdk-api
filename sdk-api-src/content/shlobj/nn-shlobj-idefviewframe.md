@@ -9,8 +9,6 @@ ms.assetid: 59dffa62-a26a-4dfa-95be-6b838a2d2903
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDefViewFrame, IDefViewFrame interface [Windows Shell], IDefViewFrame interface [Windows Shell],described, _win32_IDefViewFrame, shell.IDefViewFrame, shlobj/IDefViewFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

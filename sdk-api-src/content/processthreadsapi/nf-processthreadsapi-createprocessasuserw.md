@@ -9,8 +9,6 @@ ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

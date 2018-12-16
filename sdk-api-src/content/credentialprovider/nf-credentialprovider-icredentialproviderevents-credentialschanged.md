@@ -9,8 +9,6 @@ ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

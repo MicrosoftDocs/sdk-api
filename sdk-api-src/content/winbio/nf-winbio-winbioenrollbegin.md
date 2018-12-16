@@ -9,8 +9,6 @@ ms.assetid: ee706f2a-f544-4f53-b776-064d32e8acc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioEnrollBegin, WinBioEnrollBegin function [Windows Biometric Framework API], secbiomet.winbioenrollbegin, winbio/WinBioEnrollBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

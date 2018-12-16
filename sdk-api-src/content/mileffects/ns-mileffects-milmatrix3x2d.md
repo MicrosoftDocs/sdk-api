@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_matrix3x2d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap Effects], _wibe_mil_matrix3x2d, mileffects/MilMatrix3x2D, wibe._wibe_mil_matrix3x2d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 

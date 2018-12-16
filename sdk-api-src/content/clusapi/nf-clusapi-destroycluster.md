@@ -9,8 +9,6 @@ ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyCluster, DestroyCluster function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster], clusapi/DestroyCluster, clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

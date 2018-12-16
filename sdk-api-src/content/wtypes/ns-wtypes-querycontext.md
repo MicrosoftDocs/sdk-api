@@ -9,8 +9,6 @@ ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, wtypes/tagQUERYCONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ffa57208-09c4-4185-8cd9-abcf5db60f39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpDeleteClientInfoV6, DhcpDeleteClientInfoV6 function [DHCP], dhcp.dhcpdeleteclientinfov6, dhcpsapi/DhcpDeleteClientInfoV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e56a1810-77e7-47fa-b8b1-bb1ebc5662fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstanceWithSysTx, CreateInstanceWithSysTx method [COM+], CreateInstanceWithSysTx method [COM+],ICreateWithLocalTransaction interface, ICreateWithLocalTransaction interface [COM+],CreateInstanceWithSysTx method, ICreateWithLocalTransaction.CreateInstanceWithSysTx, ICreateWithLocalTransaction::CreateInstanceWithSysTx, comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx, cos.icreatewithlocaltransaction_createinstancewithsystx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

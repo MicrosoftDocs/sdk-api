@@ -9,8 +9,6 @@ ms.assetid: 300479bf-f8e3-41e2-898e-8a87e4abc801
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextLocator, GetNextLocator method [Microsoft TV Technologies], GetNextLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextLocator method, ITuneRequestInfo.GetNextLocator, ITuneRequestInfo::GetNextLocator, ITuneRequestInfoGetNextLocator, bdatif/ITuneRequestInfo::GetNextLocator, mstv.itunerequestinfo_getnextlocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

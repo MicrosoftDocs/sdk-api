@@ -9,8 +9,6 @@ ms.assetid: 22f9c663-0c6e-4413-a3a3-21cbb5ce62c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInitializeSpy interface [COM],PreUninitialize method, IInitializeSpy.PreUninitialize, IInitializeSpy::PreUninitialize, PreUninitialize, PreUninitialize method [COM], PreUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preuninitialize, com.iinitializespy_preuninitialize, objidl/IInitializeSpy::PreUninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

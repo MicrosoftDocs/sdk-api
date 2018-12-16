@@ -9,8 +9,6 @@ ms.assetid: ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMVisual.SetTransformLocal, IXpsOMVisual::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlocal, xpsobjectmodel/IXpsOMVisual::SetTransformLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

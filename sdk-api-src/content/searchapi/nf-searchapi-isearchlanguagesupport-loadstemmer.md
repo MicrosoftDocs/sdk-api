@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguage
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

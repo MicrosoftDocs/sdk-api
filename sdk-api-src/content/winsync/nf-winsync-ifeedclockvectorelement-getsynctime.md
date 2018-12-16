@@ -9,8 +9,6 @@ ms.assetid: f39b3bdf-a37e-4673-a620-5b14109718cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetSyncTime method, IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

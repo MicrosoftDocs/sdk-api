@@ -2,7 +2,7 @@
 UID: NA:rpcnsi
 ms.assetid: 52a96bd2-e6b0-3f1e-b3bb-f2fbad9f02cd
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

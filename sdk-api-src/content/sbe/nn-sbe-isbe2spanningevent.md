@@ -9,8 +9,6 @@ ms.assetid: 155a2e61-3b53-4225-b298-ee51e2afca96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

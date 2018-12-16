@@ -9,8 +9,6 @@ ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices],described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

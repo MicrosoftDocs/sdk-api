@@ -9,8 +9,6 @@ ms.assetid: 8b703866-9dc0-4327-9988-908f17bd4b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLocal method, IXpsOMVisual.SetClipGeometryLocal, IXpsOMVisual::SetClipGeometryLocal, SetClipGeometryLocal, SetClipGeometryLocal method [XPS Documents and Packaging], SetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

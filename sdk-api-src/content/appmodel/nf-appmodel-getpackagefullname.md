@@ -9,8 +9,6 @@ ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and management], appmodel/GetPackageFullName, appxpkg.getpackagefullname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a53ef735-3223-4ff5-9b2a-d40ab0f53570
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_COMMON_STATISTICS0, IKEEXT_COMMON_STATISTICS0 structure [Filtering], fwp.ikeext_common_statistics0, iketypes/IKEEXT_COMMON_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

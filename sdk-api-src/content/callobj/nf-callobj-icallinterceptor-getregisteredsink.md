@@ -9,8 +9,6 @@ ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRegisteredSink, GetRegisteredSink method [COM], GetRegisteredSink method [COM],ICallInterceptor interface, ICallInterceptor interface [COM],GetRegisteredSink method, ICallInterceptor.GetRegisteredSink, ICallInterceptor::GetRegisteredSink, _com_icallinterceptor_getregisteredsink, callobj/ICallInterceptor::GetRegisteredSink, com.icallinterceptor_getregisteredsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 933ea072-d62c-4274-a2c0-69282ecb79d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.RemoveByID, ISensorCollection::RemoveByID, RemoveByID, RemoveByID method, RemoveByID method,ISensorCollection interface, sensorsapi/ISensorCollection::RemoveByID, winsensors_com_ref.isensorcollection_removebyid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

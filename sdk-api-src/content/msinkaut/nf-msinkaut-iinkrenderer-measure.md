@@ -9,8 +9,6 @@ ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

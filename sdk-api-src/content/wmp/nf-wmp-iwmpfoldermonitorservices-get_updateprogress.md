@@ -9,8 +9,6 @@ ms.assetid: 60a612d2-8675-456f-b428-ddfd0b73fd83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_updateProgress method, IWMPFolderMonitorServices.get_updateProgress, IWMPFolderMonitorServices::get_updateProgress, IWMPFolderMonitorServicesget_updateProgress, get_updateProgress, get_updateProgress method [Windows Media Player], get_updateProgress method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_updateprogress, wmp/IWMPFolderMonitorServices::get_updateProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

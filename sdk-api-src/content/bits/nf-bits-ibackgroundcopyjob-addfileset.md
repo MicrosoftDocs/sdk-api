@@ -9,8 +9,6 @@ ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

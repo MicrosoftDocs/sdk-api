@@ -9,8 +9,6 @@ ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

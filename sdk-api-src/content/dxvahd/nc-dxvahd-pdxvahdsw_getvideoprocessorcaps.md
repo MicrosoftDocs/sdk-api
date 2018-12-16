@@ -9,8 +9,6 @@ ms.assetid: d32fd5e7-b8e8-431f-bc74-b75288ceb01f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCaps, PDXVAHDSW_GetVideoProcessorCaps callback, PDXVAHDSW_GetVideoProcessorCaps callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCaps, mf.pdxvahdsw_getvideoprocessorcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

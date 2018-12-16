@@ -9,8 +9,6 @@ ms.assetid: 7f0c1b63-fd09-43b9-9f88-fab154d94e94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertExit object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertExit object, GetManageModule method [Security],ICertExit2 interface, ICertExit2 interface [Security],GetManageModule method, ICertExit2.GetManageModule, ICertExit2::GetManageModule, certexit/ICertExit2::GetManageModule, security.icertexit2_getmanagemodule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certexit.h
 req.include-header: Certsrv.h

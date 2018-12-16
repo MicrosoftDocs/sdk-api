@@ -9,8 +9,6 @@ ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

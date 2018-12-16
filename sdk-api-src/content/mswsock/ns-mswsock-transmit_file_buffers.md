@@ -9,8 +9,6 @@ ms.assetid: 862dd8f8-5929-4426-b531-a87e36506634
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, TRANSMIT_FILE_BUFFERS, TRANSMIT_FILE_BUFFERS structure [Winsock], _TRANSMIT_FILE_BUFFERS, _win32_transmit_file_buffers_2, mswsock/TRANSMIT_FILE_BUFFERS, winsock.transmit_file_buffers_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: Winsock.h

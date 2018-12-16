@@ -9,8 +9,6 @@ ms.assetid: 777210c4-4e9b-484e-a412-8c807882facb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

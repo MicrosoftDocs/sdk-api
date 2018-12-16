@@ -9,8 +9,6 @@ ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],IcmpSettings property, INetFwProfile.IcmpSettings, INetFwProfile.get_IcmpSettings, INetFwProfile::IcmpSettings, INetFwProfile::get_IcmpSettings, IcmpSettings property [ICS/ICF], IcmpSettings property [ICS/ICF],INetFwProfile interface, get_IcmpSettings, ics.inetfwprofile_icmpsettings, netfw/INetFwProfile::IcmpSettings, netfw/INetFwProfile::get_IcmpSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

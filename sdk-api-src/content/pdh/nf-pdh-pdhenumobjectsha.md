@@ -9,8 +9,6 @@ ms.assetid: 8f68a7a8-cc56-4f7f-a86f-4b439738808d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectsH, PdhEnumObjectsH function [Perf], PdhEnumObjectsHA, PdhEnumObjectsHW, TRUE, _win32_pdhenumobjectsh, base.pdhenumobjectsh, pdh/PdhEnumObjectsH, pdh/PdhEnumObjectsHA, pdh/PdhEnumObjectsHW, perf.pdhenumobjectsh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

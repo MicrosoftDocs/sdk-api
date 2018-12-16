@@ -9,8 +9,6 @@ ms.assetid: 3C7734DF-3EA6-43A8-8913-8D174ABAAA56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetStroke method, ID2D1SvgGlyphStyle.SetStroke, ID2D1SvgGlyphStyle::SetStroke, SetStroke, SetStroke method [Direct2D], SetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, d2d1_3/ID2D1SvgGlyphStyle::SetStroke, direct2d.id2d1svgglyphstyle_setstroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

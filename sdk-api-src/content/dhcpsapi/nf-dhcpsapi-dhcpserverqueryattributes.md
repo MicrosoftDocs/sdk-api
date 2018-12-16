@@ -9,8 +9,6 @@ ms.assetid: 24c3e7b2-80eb-4fee-aea6-38243d25c50b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpServerQueryAttributes, DhcpServerQueryAttributes function [DHCP], dhcp.dhcpserverqueryattributes, dhcpsapi/DhcpServerQueryAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

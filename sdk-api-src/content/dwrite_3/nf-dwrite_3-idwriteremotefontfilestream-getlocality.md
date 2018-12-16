@@ -9,8 +9,6 @@ ms.assetid: 395AC591-3D63-4990-98A7-FA154B6A000F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocality method, IDWriteRemoteFontFileStream.GetLocality, IDWriteRemoteFontFileStream::GetLocality, directwrite.idwriteremotefontfilestream_getlocality, dwrite_3/IDWriteRemoteFontFileStream::GetLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2278b4e0-f30d-4405-a05b-8cd93b1de185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IATSC_ETT interface [Microsoft TV Technologies],Initialize method, IATSC_ETT.Initialize, IATSC_ETT::Initialize, IATSC_ETTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_ETT interface, atscpsipparser/IATSC_ETT::Initialize, mstv.iatsc_ett_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2ae29f5c-430a-45a0-870e-41b209572775
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_VCT.GetTableDescriptorByTag, IATSC_VCT::GetTableDescriptorByTag, IATSC_VCTGetTableDescriptorByTag, atscpsipparser/IATSC_VCT::GetTableDescriptorByTag, mstv.iatsc_vct_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

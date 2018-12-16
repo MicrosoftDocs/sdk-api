@@ -9,8 +9,6 @@ ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getvolumelevel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel, GetVolumeLevel method [Direct3D 9], GetVolumeLevel method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetVolumeLevel method, IDirect3DVolumeTexture9.GetVolumeLevel, IDirect3DVolumeTexture9::GetVolumeLevel, d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel, direct3d9.idirect3dvolumetexture9__getvolumelevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

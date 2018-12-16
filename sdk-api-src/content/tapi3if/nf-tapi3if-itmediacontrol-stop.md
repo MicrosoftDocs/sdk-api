@@ -9,8 +9,6 @@ ms.assetid: 4c108838-ad31-407a-b9af-bfc8c1c4a577
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Stop method, ITMediaControl.Stop, ITMediaControl::Stop, Stop, Stop method [TAPI 2.2], Stop method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_stop, tapi3.itmediacontrol_stop, tapi3if/ITMediaControl::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

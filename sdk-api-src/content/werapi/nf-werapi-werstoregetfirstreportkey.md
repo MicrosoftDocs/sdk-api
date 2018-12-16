@@ -9,8 +9,6 @@ ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

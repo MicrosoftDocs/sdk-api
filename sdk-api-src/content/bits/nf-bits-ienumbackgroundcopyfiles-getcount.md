@@ -9,8 +9,6 @@ ms.assetid: 24a9d5f9-e923-4b20-8abf-8ce50fc2602b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],GetCount method, IEnumBackgroundCopyFiles.GetCount, IEnumBackgroundCopyFiles::GetCount, _drz_ienumbackgroundcopyfiles_getcount, bits.ienumbackgroundcopyfiles_getcount, bits/IEnumBackgroundCopyFiles::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

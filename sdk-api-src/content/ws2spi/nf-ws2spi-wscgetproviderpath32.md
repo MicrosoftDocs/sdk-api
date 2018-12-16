@@ -9,8 +9,6 @@ ms.assetid: fd4ef7da-344d-4825-93b2-f0cd5622aeac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCGetProviderPath32, WSCGetProviderPath32 function [Winsock], winsock.wscgetproviderpath32, ws2spi/WSCGetProviderPath32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

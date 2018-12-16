@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxrouteextapiref_5f77.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxRouteEnumFiles, FaxRouteEnumFiles callback function [Fax Service], PFAXROUTEENUMFILES, PFAXROUTEENUMFILES callback, _mfax_faxrouteenumfiles, fax._mfax_faxrouteenumfiles, faxroute/FaxRouteEnumFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: faxroute.h
 req.include-header: 

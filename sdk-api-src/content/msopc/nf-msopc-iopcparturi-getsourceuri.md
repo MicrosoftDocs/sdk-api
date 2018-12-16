@@ -9,8 +9,6 @@ ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],GetSourceUri method, IOpcPartUri.GetSourceUri, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

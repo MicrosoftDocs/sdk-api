@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wabiab.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fa95dcb8-487b-49ef-b04d-8a84eb2334e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedExpandCollapseState property [Windows Accessibility], CachedExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CachedExpandCollapseState property, IUIAutomationExpandCollapsePattern.CachedExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CachedExpandCollapseState, IUIAutomationExpandCollapsePattern::CachedExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState, get_CachedExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CachedExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

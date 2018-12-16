@@ -9,8 +9,6 @@ ms.assetid: 9341bb68-2410-4e03-8acd-fef29287b61c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog interface [Windows Shell],described, shell.IFileDialog, shell_IFileDialog, shobjidl_core/IFileDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

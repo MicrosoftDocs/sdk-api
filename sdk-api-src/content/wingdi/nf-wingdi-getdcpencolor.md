@@ -9,8 +9,6 @@ ms.assetid: 3a1d579f-fbc6-4021-a37e-0184b2cc7d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDCPenColor, GetDCPenColor function [Windows GDI], _win32_GetDCPenColor, gdi.getdcpencolor, wingdi/GetDCPenColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

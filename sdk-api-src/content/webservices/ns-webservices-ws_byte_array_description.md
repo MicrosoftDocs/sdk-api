@@ -9,8 +9,6 @@ ms.assetid: 4bdc2956-387e-4cf6-93e1-3a3879c74ccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_BYTE_ARRAY_DESCRIPTION, WS_BYTE_ARRAY_DESCRIPTION structure [Web Services for Windows], webservices/WS_BYTE_ARRAY_DESCRIPTION, wsw.ws_byte_array_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 24528fad-b88c-429a-b5c9-e232e62d3aeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProgressItems interface [IMAPI],get__NewEnum method, IProgressItems.get__NewEnum, IProgressItems::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IProgressItems interface, imapi.iprogressitems_get__newenum, imapi2fs/IProgressItems::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 277f2724-5d82-4db7-96d9-af392b39fccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],Open method, IWMRegisteredDevice.Open, IWMRegisteredDevice::Open, IWMRegisteredDeviceOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_open, wmsdkidl/IWMRegisteredDevice::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

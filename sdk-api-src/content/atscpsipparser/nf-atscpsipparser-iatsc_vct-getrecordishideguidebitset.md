@@ -9,8 +9,6 @@ ms.assetid: 74b2ec97-f225-4085-910e-9093995c46f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordIsHideGuideBitSet, GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHideGuideBitSet method, IATSC_VCT.GetRecordIsHideGuideBitSet, IATSC_VCT::GetRecordIsHideGuideBitSet, IATSC_VCTGetRecordIsHideGuideBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHideGuideBitSet, mstv.iatsc_vct_getrecordishideguidebitset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

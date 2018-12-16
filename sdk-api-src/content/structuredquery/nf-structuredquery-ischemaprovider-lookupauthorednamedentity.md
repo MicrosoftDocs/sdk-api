@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\l
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

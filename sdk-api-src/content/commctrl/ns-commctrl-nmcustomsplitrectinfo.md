@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO structure pointer [Windows Controls], NMCUSTOMSPLITRECTINFO, NMCUSTOMSPLITRECTINFO structure [Windows Controls], _shell_NMCUSTOMSPLITRECTINFO, _shell_NMCUSTOMSPLITRECTINFO_cpp, commctrl/LPNMCUSTOMSPLITRECTINFO, commctrl/NMCUSTOMSPLITRECTINFO, controls.NMCUSTOMSPLITRECTINFO, controls._shell_NMCUSTOMSPLITRECTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

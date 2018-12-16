@@ -9,8 +9,6 @@ ms.assetid: 4E267E86-602F-459C-A6F9-4660EC8FA752
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],SwapDeviceContextState method, ID3D11DeviceContext1.SwapDeviceContextState, ID3D11DeviceContext1::SwapDeviceContextState, SwapDeviceContextState, SwapDeviceContextState method [Direct3D 11], SwapDeviceContextState method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::SwapDeviceContextState, direct3d11.id3d11devicecontext1_swapdevicecontextstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

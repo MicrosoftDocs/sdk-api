@@ -9,8 +9,6 @@ ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVdsHwProviderStoragePools.QueryStoragePools, IVdsHwProviderStoragePools::QueryStoragePools, QueryStoragePools, QueryStoragePools method, QueryStoragePools method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querystoragepools, vds/IVdsHwProviderStoragePools::QueryStoragePools, vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b9af548a-9796-4dc0-8b78-46e529a484ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

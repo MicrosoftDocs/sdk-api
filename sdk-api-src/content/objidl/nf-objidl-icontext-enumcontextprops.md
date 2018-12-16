@@ -9,8 +9,6 @@ ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

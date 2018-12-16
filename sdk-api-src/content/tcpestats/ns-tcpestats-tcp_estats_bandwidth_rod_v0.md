@@ -9,8 +9,6 @@ ms.assetid: 330d06a2-9966-4e2b-b1bd-44c0f1b9416d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_ROD_v0, TCP_ESTATS_BANDWIDTH_ROD_v0 structure [IP Helper], iphlp.tcp_estats_bandwidth_rod_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_ROD_v0, tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

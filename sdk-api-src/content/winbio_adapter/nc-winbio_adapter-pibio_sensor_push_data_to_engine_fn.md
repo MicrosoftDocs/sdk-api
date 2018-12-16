@@ -9,8 +9,6 @@ ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

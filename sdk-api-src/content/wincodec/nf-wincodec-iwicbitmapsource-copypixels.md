@@ -9,8 +9,6 @@ ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

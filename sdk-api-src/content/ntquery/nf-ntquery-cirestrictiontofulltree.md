@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_2c2t.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIRestrictionToFullTree, CIRestrictionToFullTree function [Indexing Service], _idxs_CIRestrictionToFullTree, indexsrv.cirestrictiontofulltree, ntquery/CIRestrictionToFullTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

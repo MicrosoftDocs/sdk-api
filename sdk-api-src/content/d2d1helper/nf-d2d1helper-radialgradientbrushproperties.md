@@ -9,8 +9,6 @@ ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RadialGradientBrushProperties, RadialGradientBrushProperties function [Direct2D], d2d1helper/RadialGradientBrushProperties, direct2d.radialgradientbrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

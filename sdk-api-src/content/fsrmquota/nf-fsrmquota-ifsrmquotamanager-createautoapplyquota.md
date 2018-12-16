@@ -9,8 +9,6 @@ ms.assetid: faaa55ca-a0b1-4cd4-9c73-20d80879b10c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAutoApplyQuota, CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager.CreateAutoApplyQuota, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

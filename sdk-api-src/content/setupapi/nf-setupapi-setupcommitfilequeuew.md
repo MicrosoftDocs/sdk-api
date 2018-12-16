@@ -9,8 +9,6 @@ ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9109bb2c-1422-4629-b2df-ac877d3cd86e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPP_LinkLost, COPP_RenegotiationRequired, COPP_StatusFlags, COPP_StatusFlags , COPP_StatusFlags enumeration [DirectShow], COPP_StatusFlagsEnumeration, COPP_StatusFlagsReserved, COPP_StatusNormal, dshow.copp_statusflags, dxva9typ/COPP_LinkLost, dxva9typ/COPP_RenegotiationRequired, dxva9typ/COPP_StatusFlags, dxva9typ/COPP_StatusFlagsReserved, dxva9typ/COPP_StatusNormal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h

@@ -9,8 +9,6 @@ ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 81d0f376-c059-4fcf-b85b-645bc98f957d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],Reconvert method, ITfFnReconversion.Reconvert, ITfFnReconversion::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_reconvert_ref, ctffunc/ITfFnReconversion::Reconvert, tsf.itffnreconversion_reconvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

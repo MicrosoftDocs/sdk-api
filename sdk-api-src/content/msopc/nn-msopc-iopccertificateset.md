@@ -9,8 +9,6 @@ ms.assetid: 0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions],described, msopc/IOpcCertificateSet, opc.iopccertificateset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

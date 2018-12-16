@@ -9,8 +9,6 @@ ms.assetid: 413d50f6-a047-4561-985d-9d1927825617
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength, GetContiguousLength method [Media Foundation], GetContiguousLength method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetContiguousLength method, IMF2DBuffer.GetContiguousLength, IMF2DBuffer::GetContiguousLength, mf.imf2dbuffer_getcontiguouslength, mfobjects/IMF2DBuffer::GetContiguousLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

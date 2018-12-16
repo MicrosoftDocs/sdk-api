@@ -9,8 +9,6 @@ ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyBypassForLocal method, IWMPNetwork.getProxyBypassForLocal, IWMPNetwork::getProxyBypassForLocal, IWMPNetworkgetProxyBypassForLocal, getProxyBypassForLocal, getProxyBypassForLocal method [Windows Media Player], getProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxybypassforlocal, wmp/IWMPNetwork::getProxyBypassForLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

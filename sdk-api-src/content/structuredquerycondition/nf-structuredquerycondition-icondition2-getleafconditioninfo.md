@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getle
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeafConditionInfo method [search],ICondition2 interface, ICondition2 interface [search],GetLeafConditionInfo method, ICondition2.GetLeafConditionInfo, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: 

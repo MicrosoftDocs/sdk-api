@@ -9,8 +9,6 @@ ms.assetid: 6192bff5-9535-4845-9c99-d5ceeea0335f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastAccessedTime method, IFsiItem.put_LastAccessedTime, IFsiItem::put_LastAccessedTime, imapi.ifsiitem_put_lastaccessedtime, imapi2fs/IFsiItem::put_LastAccessedTime, put_LastAccessedTime, put_LastAccessedTime method [IMAPI], put_LastAccessedTime method [IMAPI],IFsiItem interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

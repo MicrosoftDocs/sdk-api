@@ -9,8 +9,6 @@ ms.assetid: f111b19c-5472-463a-b33d-7d2188d224e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/DavInvalidateCache, webdav.davinvalidatecache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

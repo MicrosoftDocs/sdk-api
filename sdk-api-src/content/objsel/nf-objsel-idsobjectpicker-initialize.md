@@ -9,8 +9,6 @@ ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objsel.h
 req.include-header: 

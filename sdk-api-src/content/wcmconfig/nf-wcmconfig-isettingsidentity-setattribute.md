@@ -9,8 +9,6 @@ ms.assetid: 498bb364-3da8-456d-8e77-22b508516de0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISettingsIdentity interface [SMI],SetAttribute method, ISettingsIdentity.SetAttribute, ISettingsIdentity::SetAttribute, SetAttribute, SetAttribute method [SMI], SetAttribute method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setattribute, wcmconfig/ISettingsIdentity::SetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

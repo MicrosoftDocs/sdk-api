@@ -9,8 +9,6 @@ ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc function [Windows Properties], _shell_PropVariantToUInt16VectorAlloc, properties.PropVariantToUInt16VectorAlloc, propvarutil/PropVariantToUInt16VectorAlloc, shell.PropVariantToUInt16VectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

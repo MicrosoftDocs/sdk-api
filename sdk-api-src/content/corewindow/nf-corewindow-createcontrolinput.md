@@ -9,8 +9,6 @@ ms.assetid: 562F6745-DE20-43A9-8A40-A98F478DD505
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateControlInput, CreateControlInput function [Windows Runtime], corewindow/CreateControlInput, winrt.createcontrolinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: corewindow.h
 req.include-header: 

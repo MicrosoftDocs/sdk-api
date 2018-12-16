@@ -9,8 +9,6 @@ ms.assetid: 1489e2a4-36f3-4e8c-9b99-7c2e396b3814
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*POCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO structure [Security], POCSP_SIGNATURE_INFO, POCSP_SIGNATURE_INFO structure pointer [Security], security.ocsp_signature_info, wincrypt/OCSP_SIGNATURE_INFO, wincrypt/POCSP_SIGNATURE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

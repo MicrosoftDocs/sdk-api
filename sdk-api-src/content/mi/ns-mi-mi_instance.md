@@ -9,8 +9,6 @@ ms.assetid: 3dce1817-7995-49e5-8cc0-ee9496665e5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance, MI_Instance structure [Windows Management Infrastructure (MI)], mi/MI_Instance, wmi._mi_instance, wmi_v2.mi_instance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

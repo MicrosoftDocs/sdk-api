@@ -9,8 +9,6 @@ ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: E93279A1-4238-49C7-8525-EE01999454D9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShaderIdentifier, GetShaderIdentifier method, GetShaderIdentifier method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderIdentifier method, ID3D12StateObjectProperties.GetShaderIdentifier, ID3D12StateObjectProperties::GetShaderIdentifier, d3d12/ID3D12StateObjectProperties::GetShaderIdentifier, direct3d12.id3d12stateobjectproperties_getshaderidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

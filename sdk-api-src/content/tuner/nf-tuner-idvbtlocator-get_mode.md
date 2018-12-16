@@ -9,8 +9,6 @@ ms.assetid: 1896ca9d-fb43-49eb-88a7-c6217d468a2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Mode method, IDVBTLocator.get_Mode, IDVBTLocator::get_Mode, IDVBTLocatorget_Mode, get_Mode, get_Mode method [Microsoft TV Technologies], get_Mode method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_mode, tuner/IDVBTLocator::get_Mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

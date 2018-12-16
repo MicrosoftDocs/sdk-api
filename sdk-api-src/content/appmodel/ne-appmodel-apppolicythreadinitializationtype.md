@@ -9,8 +9,6 @@ ms.assetid: F31AC156-5C27-4707-898A-3C8125E11FB3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyThreadInitializationType, AppPolicyThreadInitializationType enumeration [App packaging and management], AppPolicyThreadInitializationType_InitializeWinRT, AppPolicyThreadInitializationType_None, appmodel/AppPolicyThreadInitializationType, appmodel/AppPolicyThreadInitializationType_InitializeWinRT, appmodel/AppPolicyThreadInitializationType_None, appxpkg.apppolicythreadinitializationtype_enumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 

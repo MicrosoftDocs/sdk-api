@@ -9,8 +9,6 @@ ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

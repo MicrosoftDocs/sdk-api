@@ -9,8 +9,6 @@ ms.assetid: b2e6bebc-81c1-4f52-870d-43c72740f8e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET structure pointer [Buses], WINUSB_SETUP_PACKET, WINUSB_SETUP_PACKET structure [Buses], buses.winusb_setup_packet, usbstrct_8a7725be-7ee3-4715-8498-3168b011c2dd.xml, winusb/PWINUSB_SETUP_PACKET, winusb/WINUSB_SETUP_PACKET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winusb.h
 req.include-header: Winusbio.h

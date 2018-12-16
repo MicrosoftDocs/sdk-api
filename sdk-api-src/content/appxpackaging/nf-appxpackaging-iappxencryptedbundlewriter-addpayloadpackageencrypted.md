@@ -9,8 +9,6 @@ ms.assetid: 974C29A7-3FEE-4042-986F-D8FD3774F9A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter_addpayloadpackageencrypted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

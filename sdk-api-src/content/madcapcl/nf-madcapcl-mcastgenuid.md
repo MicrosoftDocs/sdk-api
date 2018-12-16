@@ -9,8 +9,6 @@ ms.assetid: 67d5f149-d9b3-4903-a859-1ad33e310997
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: McastGenUID, McastGenUID function [MADCAP], _mdhcp_mcastgenuid, madcap.mcastgenuid, madcapcl/McastGenUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dc0cdbd1-96a8-4f5f-ba2c-b909a6b6fa0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_joySetThreshold, joySetThreshold, joySetThreshold function [Windows Multimedia], joystickapi/joySetThreshold, multimedia.joysetthreshold"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: b0f8bb2a-003f-471f-b1a6-ffec97e2752a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveStructureChangedEventHandler method, IUIAutomation.RemoveStructureChangedEventHandler, IUIAutomation::RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler method [Windows Accessibility], RemoveStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiautomationclient/IUIAutomation::RemoveStructureChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

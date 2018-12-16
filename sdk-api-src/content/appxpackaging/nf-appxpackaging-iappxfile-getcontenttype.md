@@ -9,8 +9,6 @@ ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

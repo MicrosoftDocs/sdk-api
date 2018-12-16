@@ -9,8 +9,6 @@ ms.assetid: 99ff3102-c6a7-4510-b137-70d766acd1ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMFontResourceCollection.GetCount, IXpsOMFontResourceCollection::GetCount, xps.ixpsomfontresourcecollection_getcount, xpsobjectmodel/IXpsOMFontResourceCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

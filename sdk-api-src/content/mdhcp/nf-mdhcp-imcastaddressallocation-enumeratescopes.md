@@ -9,8 +9,6 @@ ms.assetid: 1845f5f9-be0e-4609-89d8-1a0ed194dd68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateScopes, EnumerateScopes method [TAPI 2.2], EnumerateScopes method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],EnumerateScopes method, IMcastAddressAllocation.EnumerateScopes, IMcastAddressAllocation::EnumerateScopes, _tapi3_imcastaddressallocation_enumeratescopes, mdhcp/IMcastAddressAllocation::EnumerateScopes, tapi3.imcastaddressallocation_enumeratescopes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

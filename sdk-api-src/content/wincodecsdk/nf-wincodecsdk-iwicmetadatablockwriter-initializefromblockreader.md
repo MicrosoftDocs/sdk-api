@@ -9,8 +9,6 @@ ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],InitializeFromBlockReader method, IWICMetadataBlockWriter.InitializeFromBlockReader, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

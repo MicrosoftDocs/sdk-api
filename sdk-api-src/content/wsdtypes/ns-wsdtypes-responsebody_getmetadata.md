@@ -9,8 +9,6 @@ ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 97a6a820-8e0e-46b0-a359-da0a17fb4cae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfileActivationSink, ITfInputProcessorProfileActivationSink interface [Text Services Framework], ITfInputProcessorProfileActivationSink interface [Text Services Framework],described, _tsf_itfinputprocessorprofileactivationsink_ref, msctf/ITfInputProcessorProfileActivationSink, tsf.itfinputprocessorprofileactivationsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

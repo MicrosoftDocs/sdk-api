@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\newdevicearrival.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaNotifyDevMgr interface [WIA],NewDeviceArrival method, IWiaNotifyDevMgr.NewDeviceArrival, IWiaNotifyDevMgr::NewDeviceArrival, NewDeviceArrival, NewDeviceArrival method [WIA], NewDeviceArrival method [WIA],IWiaNotifyDevMgr interface, _wia_IWiaNotifyDevMgr_NewDeviceArrival, wia._wia_IWiaNotifyDevMgr_NewDeviceArrival, wia_xp/IWiaNotifyDevMgr::NewDeviceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

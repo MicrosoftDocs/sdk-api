@@ -9,8 +9,6 @@ ms.assetid: C9C0E081-52AB-4B7F-B789-EC64B55EFA2A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10createeffectfrommemory.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10CreateEffectFromMemory, D3D10CreateEffectFromMemory function [Direct3D 10], d3d10effect/D3D10CreateEffectFromMemory, direct3d10.d3d10createeffectfrommemory, f306b99a-20d9-c501-65b4-81dd11930f56
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

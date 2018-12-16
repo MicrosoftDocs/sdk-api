@@ -9,8 +9,6 @@ ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ""*", "RPC", "RPC-EPMap", "Teredo", INetFwRule interface [ICS/ICF],LocalPorts property, INetFwRule.LocalPorts, INetFwRule.get_LocalPorts, INetFwRule::LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF],INetFwRule interface, get_LocalPorts, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

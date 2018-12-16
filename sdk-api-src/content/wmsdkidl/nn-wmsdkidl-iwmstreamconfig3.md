@@ -9,8 +9,6 @@ ms.assetid: c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig3, IWMStreamConfig3 interface [windows Media Format], IWMStreamConfig3 interface [windows Media Format],described, IWMStreamConfig3Interface, wmformat.iwmstreamconfig3, wmsdkidl/IWMStreamConfig3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

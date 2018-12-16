@@ -9,8 +9,6 @@ ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

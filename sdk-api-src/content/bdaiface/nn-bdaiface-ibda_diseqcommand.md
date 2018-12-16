@@ -9,8 +9,6 @@ ms.assetid: 0148a32d-b131-46ba-bbf0-82e2cf9c7d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

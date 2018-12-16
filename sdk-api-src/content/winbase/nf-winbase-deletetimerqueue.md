@@ -9,8 +9,6 @@ ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

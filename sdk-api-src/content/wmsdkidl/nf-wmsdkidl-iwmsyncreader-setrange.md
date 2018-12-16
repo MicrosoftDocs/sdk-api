@@ -9,8 +9,6 @@ ms.assetid: d96c97ad-085d-4753-8efb-8a6bcb284e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRange method, IWMSyncReader.SetRange, IWMSyncReader::SetRange, IWMSyncReaderSetRange, SetRange, SetRange method [windows Media Format], SetRange method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrange, wmsdkidl/IWMSyncReader::SetRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

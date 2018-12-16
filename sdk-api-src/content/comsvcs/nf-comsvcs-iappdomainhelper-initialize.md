@@ -9,8 +9,6 @@ ms.assetid: c5cdff7f-6fb4-4f49-995a-63e4ecaef71a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelper.Initialize, IAppDomainHelper::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IAppDomainHelper interface, _cos_IAppDomainHelper_Initialize, comsvcs/IAppDomainHelper::Initialize, cos.iappdomainhelper_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

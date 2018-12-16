@@ -9,8 +9,6 @@ ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11TracingDevice interface [Direct3D 11],SetShaderTrackingOptions method, ID3D11TracingDevice.SetShaderTrackingOptions, ID3D11TracingDevice::SetShaderTrackingOptions, SetShaderTrackingOptions, SetShaderTrackingOptions method [Direct3D 11], SetShaderTrackingOptions method [Direct3D 11],ID3D11TracingDevice interface, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions, direct3d11.id3d11tracingdevice_setshadertrackingoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

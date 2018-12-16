@@ -9,8 +9,6 @@ ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

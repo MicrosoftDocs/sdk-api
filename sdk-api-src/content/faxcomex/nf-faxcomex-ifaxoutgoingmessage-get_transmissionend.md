@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_952c.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],TransmissionEnd property, IFaxOutgoingMessage.TransmissionEnd, IFaxOutgoingMessage.get_TransmissionEnd, IFaxOutgoingMessage::TransmissionEnd, IFaxOutgoingMessage::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.transmissionend, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionend_cpp, fax._mfax_faxoutgoingmessage_transmissionend, faxcomex/IFaxOutgoingMessage::TransmissionEnd, faxcomex/IFaxOutgoingMessage::get_TransmissionEnd, get_TransmissionEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

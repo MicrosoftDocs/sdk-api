@@ -9,8 +9,6 @@ ms.assetid: 3a80eee3-6b85-432a-878c-c8e4cade7be1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

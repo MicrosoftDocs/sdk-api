@@ -9,8 +9,6 @@ ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

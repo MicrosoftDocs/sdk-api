@@ -9,8 +9,6 @@ ms.assetid: c6017aa1-8860-454c-a402-becbc1a4ee5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetComment method, IScheduledWorkItem.SetComment, IScheduledWorkItem::SetComment, SetComment, SetComment method [Task Scheduler], SetComment method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcomment, mstask/IScheduledWorkItem::SetComment, taskschd.ischeduledworkitem_setcomment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

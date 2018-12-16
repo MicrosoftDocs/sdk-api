@@ -9,8 +9,6 @@ ms.assetid: 40919C36-228A-4909-A517-8B152BE47D36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHELL_UI_COMPONENT, SHELL_UI_COMPONENT enumeration [Windows Shell], SHELL_UI_COMPONENT_DESKBAND, SHELL_UI_COMPONENT_NOTIFICATIONAREA, SHELL_UI_COMPONENT_TASKBARS, shell.shell_ui_component, shellscalingapi/SHELL_UI_COMPONENT, shellscalingapi/SHELL_UI_COMPONENT_DESKBAND, shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA, shellscalingapi/SHELL_UI_COMPONENT_TASKBARS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shellscalingapi.h
 req.include-header: 

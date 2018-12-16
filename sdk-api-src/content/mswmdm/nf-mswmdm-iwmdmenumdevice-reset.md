@@ -9,8 +9,6 @@ ms.assetid: af06bc07-2043-4ef5-a1f2-381797fb750b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Reset method, IWMDMEnumDevice.Reset, IWMDMEnumDevice::Reset, IWMDMEnumDeviceReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Reset, wmdm.iwmdmenumdevice_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

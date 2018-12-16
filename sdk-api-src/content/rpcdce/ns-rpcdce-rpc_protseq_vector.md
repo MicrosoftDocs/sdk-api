@@ -9,8 +9,6 @@ ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _rpc_rpc_protseq_vector, rpc.rpc_protseq_vector, rpcdce/RPC_PROTSEQ_VECTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h

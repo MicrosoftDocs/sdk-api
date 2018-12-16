@@ -9,8 +9,6 @@ ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

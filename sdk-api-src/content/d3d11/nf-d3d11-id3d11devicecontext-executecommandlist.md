@@ -9,8 +9,6 @@ ms.assetid: 54e74f7d-b8a4-458d-bb39-3d8a824f06ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 451c8cc4-04fc-6682-9b16-549845617e3e, ExecuteCommandList, ExecuteCommandList method [Direct3D 11], ExecuteCommandList method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ExecuteCommandList method, ID3D11DeviceContext.ExecuteCommandList, ID3D11DeviceContext::ExecuteCommandList, d3d11/ID3D11DeviceContext::ExecuteCommandList, direct3d11.id3d11devicecontext_executecommandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

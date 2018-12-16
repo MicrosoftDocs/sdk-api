@@ -9,8 +9,6 @@ ms.assetid: 13222b09-c58b-461d-85b7-9312a03a888a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveInUnprepareHeader, mmeapi/waveInUnprepareHeader, multimedia.waveinunprepareheader, waveInUnprepareHeader, waveInUnprepareHeader function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

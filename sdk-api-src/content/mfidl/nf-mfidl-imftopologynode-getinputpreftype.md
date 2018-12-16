@@ -9,8 +9,6 @@ ms.assetid: 34849803-2b56-457a-920b-b5f2e208ce2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 34849803-2b56-457a-920b-b5f2e208ce2e, GetInputPrefType, GetInputPrefType method [Media Foundation], GetInputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInputPrefType method, IMFTopologyNode.GetInputPrefType, IMFTopologyNode::GetInputPrefType, mf.imftopologynode_getinputpreftype, mfidl/IMFTopologyNode::GetInputPrefType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

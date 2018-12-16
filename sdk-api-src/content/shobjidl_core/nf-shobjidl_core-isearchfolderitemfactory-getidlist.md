@@ -9,8 +9,6 @@ ms.assetid: 9547c429-9396-474e-b772-6e3aa28d1937
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],ISearchFolderItemFactory interface, ISearchFolderItemFactory interface [Windows Shell],GetIDList method, ISearchFolderItemFactory.GetIDList, ISearchFolderItemFactory::GetIDList, _shell_ISearchFolderItemFactory_GetIDList, shell.ISearchFolderItemFactory_GetIDList, shobjidl_core/ISearchFolderItemFactory::GetIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 2F8C7930-6BBC-4CA9-86C0-168BF0F9C0BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetCompositeMode method, IDCompositionVisual.SetCompositeMode, IDCompositionVisual::SetCompositeMode, SetCompositeMode, SetCompositeMode method [DirectComposition], SetCompositeMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetCompositeMode, directcomp.idcompositionvisual_setcompositemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

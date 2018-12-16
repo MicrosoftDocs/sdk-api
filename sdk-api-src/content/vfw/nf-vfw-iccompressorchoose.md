@@ -9,8 +9,6 @@ ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

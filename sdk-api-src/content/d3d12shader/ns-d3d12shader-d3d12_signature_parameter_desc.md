@@ -9,8 +9,6 @@ ms.assetid: FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_SIGNATURE_PARAMETER_DESC, D3D12_SIGNATURE_PARAMETER_DESC structure, d3d12shader/D3D12_SIGNATURE_PARAMETER_DESC, direct3d12.d3d12_signature_parameter_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

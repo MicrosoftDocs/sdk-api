@@ -9,8 +9,6 @@ ms.assetid: a19bdff0-3b02-44f4-906a-2e1b85685c52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ATTACHMENT_PROMPT, ATTACHMENT_PROMPT enumeration [Windows Shell], ATTACHMENT_PROMPT_EXEC, ATTACHMENT_PROMPT_EXEC_OR_SAVE, ATTACHMENT_PROMPT_NONE, ATTACHMENT_PROMPT_SAVE, _win32_ATTACHMENT_PROMPT, shell.ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT_EXEC, shobjidl_core/ATTACHMENT_PROMPT_EXEC_OR_SAVE, shobjidl_core/ATTACHMENT_PROMPT_NONE, shobjidl_core/ATTACHMENT_PROMPT_SAVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

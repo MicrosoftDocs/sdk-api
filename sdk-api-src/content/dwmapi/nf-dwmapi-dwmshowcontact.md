@@ -9,8 +9,6 @@ ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

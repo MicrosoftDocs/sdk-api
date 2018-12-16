@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDLGITEMTEMPLATEA, *LPDLGITEMTEMPLATEW, *PDLGITEMTEMPLATEA, *PDLGITEMTEMPLATEW, DLGITEMTEMPLATE, DLGITEMTEMPLATE structure [Dialog Boxes], PDLGITEMTEMPLATE, PDLGITEMTEMPLATE structure pointer [Dialog Boxes], _win32_DLGITEMTEMPLATE_str, _win32_dlgitemtemplate_str_cpp, dlgbox.dlgitemtemplate, winui._win32_dlgitemtemplate_str, winuser/DLGITEMTEMPLATE, winuser/PDLGITEMTEMPLATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: cb01786f-4e6a-43f6-b906-504c0f17ade7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT structure [Display Devices], LPDDOPENVIDEOPORTOUT, LPDDOPENVIDEOPORTOUT structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTOUT, ddkmapi/LPDDOPENVIDEOPORTOUT, ddstrcts_6a818660-2826-448a-a925-fa8019975c62.xml, display.ddopenvideoportout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

@@ -9,8 +9,6 @@ ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

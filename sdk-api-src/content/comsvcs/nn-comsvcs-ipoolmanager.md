@@ -9,8 +9,6 @@ ms.assetid: 7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface [COM+],described, _cos_IPoolManager, comsvcs/IPoolManager, cos.ipoolmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

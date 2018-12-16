@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstruct
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(GpFont,Status), Font::Font, Font::Font(GpFont,Status), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

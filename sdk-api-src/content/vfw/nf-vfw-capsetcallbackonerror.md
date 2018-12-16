@@ -9,8 +9,6 @@ ms.assetid: 1f9d3dba-be6d-4f7d-a80c-5bca8632e13f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capSetCallbackOnError, capSetCallbackOnError, capSetCallbackOnError macro [Windows Multimedia], multimedia.capsetcallbackonerror, vfw/capSetCallbackOnError"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

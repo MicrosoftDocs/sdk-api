@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersistproperty.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList::SetPersist, IITPropList::SetPersist(PROPID,BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist1, infotech/IITPropList::SetPersist, refIITPropListSetPersistProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

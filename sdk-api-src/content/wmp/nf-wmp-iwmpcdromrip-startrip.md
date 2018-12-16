@@ -9,8 +9,6 @@ ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],startRip method, IWMPCdromRip.startRip, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip, startRip method [Windows Media Player], startRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

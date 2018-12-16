@@ -9,8 +9,6 @@ ms.assetid: 8ee9a17f-c57c-49df-950d-491e05ba8768
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetStatus method, IUIAnimationStoryboard.GetStatus, IUIAnimationStoryboard::GetStatus, uianimation.iuianimationstoryboard_getstatus, uianimation/IUIAnimationStoryboard::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 55A20F07-0B3E-4C1D-9E59-288DAE08D134
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_SET_IN_SYNC_FLAGS, CF_SET_IN_SYNC_FLAGS enumeration, CF_SET_IN_SYNC_FLAG_NONE, cfapi/CF_SET_IN_SYNC_FLAGS, cfapi/CF_SET_IN_SYNC_FLAG_NONE, cloudApi.cf_set_in_sync_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

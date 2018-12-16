@@ -9,8 +9,6 @@ ms.assetid: 96dd5287-36b1-4620-88ae-a52b252620d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

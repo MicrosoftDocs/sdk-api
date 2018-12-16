@@ -9,8 +9,6 @@ ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CatalogRefresh, CatalogRefresh method [COM], CatalogRefresh method [COM],ISurrogateService interface, ISurrogateService interface [COM],CatalogRefresh method, ISurrogateService.CatalogRefresh, ISurrogateService::CatalogRefresh, _com_isurrogateservice_catalogrefresh, com.isurrogateservice_catalogrefresh, objidl/ISurrogateService::CatalogRefresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -9,8 +9,6 @@ ms.assetid: 754ea93e-bc82-498e-8333-eda3262aebc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRITE structure pointer [Files], TXF_LOG_RECORD_WRITE, TXF_LOG_RECORD_WRITE structure [Files], fs.txf_log_record_write, txfw32/PTXF_LOG_RECORD_WRITE, txfw32/TXF_LOG_RECORD_WRITE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 

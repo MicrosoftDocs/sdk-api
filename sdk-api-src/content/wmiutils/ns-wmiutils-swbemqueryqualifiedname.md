@@ -9,8 +9,6 @@ ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 59a3d957-0720-4bd9-b240-512b9cca3c90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropertyConstraint, PropertyConstraint enumeration, QC_CONTAINS, QC_DOESNOTEXIST, QC_EQUALS, QC_EXISTS, QC_GREATERTHAN, QC_GREATERTHANOREQUAL, QC_LESSTHAN, QC_LESSTHANOREQUAL, QC_NOTEQUAL, QC_STARTSWITH, functiondiscoveryconstraints/PropertyConstraint, functiondiscoveryconstraints/QC_CONTAINS, functiondiscoveryconstraints/QC_DOESNOTEXIST, functiondiscoveryconstraints/QC_EQUALS, functiondiscoveryconstraints/QC_EXISTS, functiondiscoveryconstraints/QC_GREATERTHAN, functiondiscoveryconstraints/QC_GREATERTHANOREQUAL, functiondiscoveryconstraints/QC_LESSTHAN, functiondiscoveryconstraints/QC_LESSTHANOREQUAL, functiondiscoveryconstraints/QC_NOTEQUAL, functiondiscoveryconstraints/QC_STARTSWITH, ncd.propertyconstraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: functiondiscoveryconstraints.h
 req.include-header: 

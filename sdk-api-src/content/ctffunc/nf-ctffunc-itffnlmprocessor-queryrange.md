@@ -9,8 +9,6 @@ ms.assetid: 84a9bf73-7215-429a-9573-66acf4d3ff18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryRange method, ITfFnLMProcessor.QueryRange, ITfFnLMProcessor::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_queryrange_ref, ctffunc/ITfFnLMProcessor::QueryRange, tsf.itffnlmprocessor_queryrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

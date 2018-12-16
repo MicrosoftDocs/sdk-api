@@ -9,8 +9,6 @@ ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

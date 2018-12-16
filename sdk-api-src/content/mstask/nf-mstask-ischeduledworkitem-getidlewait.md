@@ -9,8 +9,6 @@ ms.assetid: 72d53691-f2ea-4a20-8e85-f9db81f830cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIdleWait, GetIdleWait method [Task Scheduler], GetIdleWait method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetIdleWait method, IScheduledWorkItem.GetIdleWait, IScheduledWorkItem::GetIdleWait, _msb_ischeduledworkitem_getidlewait, mstask/IScheduledWorkItem::GetIdleWait, taskschd.ischeduledworkitem_getidlewait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

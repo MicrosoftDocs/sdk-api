@@ -9,8 +9,6 @@ ms.assetid: a98de796-8fa2-4835-8d15-07d86d89c348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIpForwardEntry, SetIpForwardEntry function [IP Helper], _iphlp_setipforwardentry, iphlp.setipforwardentry, iphlpapi/SetIpForwardEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

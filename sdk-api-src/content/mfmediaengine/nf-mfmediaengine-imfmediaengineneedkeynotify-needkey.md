@@ -9,8 +9,6 @@ ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey method, IMFMediaEngineNeedKeyNotify.NeedKey, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation],IMFMediaEngineNeedKeyNotify interface, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

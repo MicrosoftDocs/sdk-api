@@ -9,8 +9,6 @@ ms.assetid: 71FDE7FA-99FC-4773-A857-8E1BF89ED7E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, cfapi/CF_REVERT_FLAGS, cfapi/CF_REVERT_FLAG_NONE, cloudApi.cf_revert_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

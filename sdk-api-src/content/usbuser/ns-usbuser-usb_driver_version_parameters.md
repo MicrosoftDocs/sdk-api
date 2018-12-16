@@ -9,8 +9,6 @@ ms.assetid: 0d90e857-c3bb-484d-8895-1a29fdf656b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PUSB_DRIVER_VERSION_PARAMETERS, PUSB_DRIVER_VERSION_PARAMETERS, PUSB_DRIVER_VERSION_PARAMETERS structure pointer [Buses], USB_DRIVER_VERSION_PARAMETERS, USB_DRIVER_VERSION_PARAMETERS structure [Buses], buses.usb_driver_version_parameters, usbstrct_267b4211-9852-45ca-afde-9aa35274af90.xml, usbuser/PUSB_DRIVER_VERSION_PARAMETERS, usbuser/USB_DRIVER_VERSION_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

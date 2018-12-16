@@ -9,8 +9,6 @@ ms.assetid: 3C5724B7-598B-44F1-80F3-07010EAA089B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSwapChainForCompositionSurfaceHandle, CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

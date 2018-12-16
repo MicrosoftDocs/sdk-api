@@ -9,8 +9,6 @@ ms.assetid: D34D0909-BE2B-4182-8C3D-36A4E8DDC820
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxPackageReader, IAppxPackageReader interface [App packaging and management], IAppxPackageReader interface [App packaging and management],described, appxpackaging/IAppxPackageReader, appxpkg.iappxpackagereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

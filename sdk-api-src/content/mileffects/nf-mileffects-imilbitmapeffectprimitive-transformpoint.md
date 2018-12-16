@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transfor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformPoint method, IMILBitmapEffectPrimitive.TransformPoint, IMILBitmapEffectPrimitive::TransformPoint, TransformPoint, TransformPoint method [WPF Bitmap Effects], TransformPoint method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformpoint, mileffects/IMILBitmapEffectPrimitive::TransformPoint, wibe._wibe_imilbitmapeffectprimitive_transformpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

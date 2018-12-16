@@ -9,8 +9,6 @@ ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

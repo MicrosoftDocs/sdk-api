@@ -9,8 +9,6 @@ ms.assetid: 8c5dfbda-0ceb-4694-bc5d-7e16e6f6d3bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSigningOptions.GetSignaturePartName, IXpsSigningOptions::GetSignaturePartName, xps.ixpssigningoptions_getsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::GetSignaturePartName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

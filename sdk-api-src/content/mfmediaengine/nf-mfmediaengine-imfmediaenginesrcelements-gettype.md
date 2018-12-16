@@ -9,8 +9,6 @@ ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetType method, IMFMediaEngineSrcElements.GetType, IMFMediaEngineSrcElements::GetType, mf.imfmediaenginesrcelements_gettype, mfmediaengine/IMFMediaEngineSrcElements::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

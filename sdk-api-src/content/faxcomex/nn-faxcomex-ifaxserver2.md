@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\faxinto_z_if
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer2, IFaxServer2 interface [Fax Service], IFaxServer2 interface [Fax Service],described, _mfax_faxserver2_cpp, fax._mfax_faxserver2_cpp, faxcomex/IFaxServer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

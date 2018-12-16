@@ -9,8 +9,6 @@ ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

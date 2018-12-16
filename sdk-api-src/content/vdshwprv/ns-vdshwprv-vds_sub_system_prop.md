@@ -9,8 +9,6 @@ ms.assetid: 8fecb874-5c59-4f55-b528-040ff9209612
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVDS_SUB_SYSTEM_PROP, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP, VDS_SUB_SYSTEM_PROP structure [VDS], base.vds_sub_system_prop, vds/_VDS_SUB_SYSTEM_PROP, vdshwprv/_VDS_SUB_SYSTEM_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

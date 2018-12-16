@@ -9,8 +9,6 @@ ms.assetid: bcdd7ea9-66b2-40e9-89a1-0fec073ccd92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], IWMPPlayerApplication interface [Windows Media Player],described, IWMPPlayerApplicationInterface, wmp.iwmpplayerapplication, wmp/IWMPPlayerApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

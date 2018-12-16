@@ -9,8 +9,6 @@ ms.assetid: 46412359-A57E-489C-9992-5A30AB2DA8C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChar16, GetChar16 method [Windows Runtime], GetChar16 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16 method, IPropertyValue.GetChar16, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16, winrt.ipropertyvalue_getchar16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

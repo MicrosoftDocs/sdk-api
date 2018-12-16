@@ -9,8 +9,6 @@ ms.assetid: 51100a8f-6652-46db-820a-8d16456d4c9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistClientCancelAsyncOperation, PeerDistClientCancelAsyncOperation function [Peer Networking], p2p.peerdistclientcancelasyncoperation, peerdist/PeerDistClientCancelAsyncOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

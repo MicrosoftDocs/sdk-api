@@ -9,8 +9,6 @@ ms.assetid: 3390930d-026f-4f86-97bc-1da34bb384ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setthreadaffinitymask, base.setthreadaffinitymask, winbase/SetThreadAffinityMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

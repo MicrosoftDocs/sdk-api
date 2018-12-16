@@ -9,8 +9,6 @@ ms.assetid: 1adfcefa-4f63-4a4c-9a78-3c91d32a9e13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionValueV6, DhcpSetOptionValueV6 function [DHCP], dhcp.dhcpsetoptionvaluev6, dhcpsapi/DhcpSetOptionValueV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

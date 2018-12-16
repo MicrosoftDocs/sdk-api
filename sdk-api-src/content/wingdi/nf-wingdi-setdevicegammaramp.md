@@ -9,8 +9,6 @@ ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color System], _color_SetDeviceGammaRamp, wcs.setdevicegammaramp, wingdi/SetDeviceGammaRamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

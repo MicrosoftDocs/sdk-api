@@ -9,8 +9,6 @@ ms.assetid: b81b49de-aaee-4224-9f5c-554b51f10cfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureId method, IOpcSigningOptions.GetSignatureId, IOpcSigningOptions::GetSignatureId, msopc/IOpcSigningOptions::GetSignatureId, opc.iopcsigningoptions_getsignatureid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

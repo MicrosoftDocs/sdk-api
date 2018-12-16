@@ -9,8 +9,6 @@ ms.assetid: 86645d7c-f683-48e7-8342-3e9d5961913a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

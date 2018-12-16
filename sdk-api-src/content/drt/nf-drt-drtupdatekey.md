@@ -9,8 +9,6 @@ ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

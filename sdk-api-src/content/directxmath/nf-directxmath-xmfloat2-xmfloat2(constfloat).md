@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor(const float)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(const float), XMFLOAT2.XMFLOAT2(const float*), XMFLOAT2::XMFLOAT2, XMFLOAT2::XMFLOAT2(const float), dxmath.xmfloat2_ctor_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 

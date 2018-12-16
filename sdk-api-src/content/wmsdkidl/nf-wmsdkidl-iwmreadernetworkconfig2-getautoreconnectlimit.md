@@ -9,8 +9,6 @@ ms.assetid: 8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAutoReconnectLimit, GetAutoReconnectLimit method [windows Media Format], GetAutoReconnectLimit method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAutoReconnectLimit method, IWMReaderNetworkConfig2.GetAutoReconnectLimit, IWMReaderNetworkConfig2::GetAutoReconnectLimit, IWMReaderNetworkConfig2GetAutoReconnectLimit, wmformat.iwmreadernetworkconfig2_getautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::GetAutoReconnectLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

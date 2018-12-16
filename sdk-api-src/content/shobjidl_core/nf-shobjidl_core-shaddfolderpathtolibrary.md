@@ -9,8 +9,6 @@ ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

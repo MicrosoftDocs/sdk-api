@@ -9,8 +9,6 @@ ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

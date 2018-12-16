@@ -9,8 +9,6 @@ ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

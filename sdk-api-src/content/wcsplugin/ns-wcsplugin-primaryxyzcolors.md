@@ -9,8 +9,6 @@ ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

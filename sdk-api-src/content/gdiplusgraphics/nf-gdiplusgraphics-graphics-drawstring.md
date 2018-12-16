@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawString, DrawString methods [GDI+], Graphics.DrawString, Graphics::DrawString, _gdiplus_CLASS_Graphics_DrawString_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawString_Methods, gdiplusgraphics/DrawString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

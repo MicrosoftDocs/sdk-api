@@ -9,8 +9,6 @@ ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

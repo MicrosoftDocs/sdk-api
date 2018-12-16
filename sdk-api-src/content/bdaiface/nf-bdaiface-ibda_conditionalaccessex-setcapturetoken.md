@@ -9,8 +9,6 @@ ms.assetid: b9e3d319-c76c-45df-aca3-d5447605b7c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],SetCaptureToken method, IBDA_ConditionalAccessEx.SetCaptureToken, IBDA_ConditionalAccessEx::SetCaptureToken, SetCaptureToken, SetCaptureToken method [Microsoft TV Technologies], SetCaptureToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken, mstv.ibda_conditionalaccessex_setcapturetoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

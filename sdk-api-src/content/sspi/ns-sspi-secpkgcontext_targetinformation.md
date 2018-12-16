@@ -9,8 +9,6 @@ ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

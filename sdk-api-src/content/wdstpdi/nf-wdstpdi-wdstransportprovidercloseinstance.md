@@ -9,8 +9,6 @@ ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

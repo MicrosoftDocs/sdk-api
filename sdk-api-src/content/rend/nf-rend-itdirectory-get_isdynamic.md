@@ -9,8 +9,6 @@ ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_IsDynamic method, ITDirectory.get_IsDynamic, ITDirectory::get_IsDynamic, _tapi3_itdirectory_get_isdynamic, get_IsDynamic, get_IsDynamic method [TAPI 2.2], get_IsDynamic method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_IsDynamic, tapi3.itdirectory_get_isdynamic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

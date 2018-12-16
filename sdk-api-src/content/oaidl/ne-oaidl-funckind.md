@@ -9,8 +9,6 @@ ms.assetid: da13d9ba-b910-44cc-9926-4368df3f1606
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FUNCKIND, FUNCKIND enumeration [Automation], FUNC_DISPATCH, FUNC_NONVIRTUAL, FUNC_PUREVIRTUAL, FUNC_STATIC, FUNC_VIRTUAL, _oa96_FUNCKIND, automat.funckind, oaidl/FUNCKIND, oaidl/FUNC_DISPATCH, oaidl/FUNC_NONVIRTUAL, oaidl/FUNC_PUREVIRTUAL, oaidl/FUNC_STATIC, oaidl/FUNC_VIRTUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: OleAuto.h

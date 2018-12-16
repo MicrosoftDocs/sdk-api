@@ -9,8 +9,6 @@ ms.assetid: c0d823db-9c2c-46c1-99b8-87fe7fdc9343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityGetFriendlyName, PeerIdentityGetFriendlyName function [Peer Networking], p2p.peeridentitygetfriendlyname, p2p/PeerIdentityGetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

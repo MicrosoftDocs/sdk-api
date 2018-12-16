@@ -9,8 +9,6 @@ ms.assetid: 1921f9b6-86d9-47a0-a36e-e20d481382a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure [Security], PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO, PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure pointer [Security], _crypto2_cmsg_recipient_encrypted_key_info, security.cmsg_recipient_encrypted_key_info, wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [windows Media Format], Connect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Connect method, IWMWriterPushSink.Connect, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

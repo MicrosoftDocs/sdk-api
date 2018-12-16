@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

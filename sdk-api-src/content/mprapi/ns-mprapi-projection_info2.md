@@ -9,8 +9,6 @@ ms.assetid: 820acc2b-38e1-4501-9753-bc250d6a87c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROJECTION_INFO2, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO2, PPROJECTION_INFO2 structure pointer [RAS], PROJECTION_INFO2, PROJECTION_INFO2 structure [RAS], mprapi/PPROJECTION_INFO2, mprapi/PROJECTION_INFO2, rras.projection_info2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

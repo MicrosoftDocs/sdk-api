@@ -2,7 +2,7 @@
 UID: NA:d3d11shader
 ms.assetid: 14a7bbb9-a975-38ec-9d9d-8c25393323e0
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

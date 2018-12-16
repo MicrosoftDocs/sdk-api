@@ -9,8 +9,6 @@ ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: Shlobj.h

@@ -9,8 +9,6 @@ ms.assetid: 0ed639f7-e7bd-49a2-a7c0-177699a2cf5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h

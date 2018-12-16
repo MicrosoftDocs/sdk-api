@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateIconIndirect, CreateIconIndirect function [Menus and Other Resources], _win32_CreateIconIndirect, _win32_createiconindirect_cpp, menurc.createiconindirect, winui._win32_createiconindirect, winuser/CreateIconIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

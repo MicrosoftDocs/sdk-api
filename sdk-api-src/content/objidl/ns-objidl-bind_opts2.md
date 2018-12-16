@@ -9,8 +9,6 @@ ms.assetid: fb2aa8c1-dddc-480e-b544-61a1074125ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPBIND_OPTS2, BIND_OPTS2, BIND_OPTS2 structure [COM], LPBIND_OPTS2, LPBIND_OPTS2 structure pointer [COM], _com_BIND_OPTS2, com.bind_opts2, objidl/BIND_OPTS2, objidl/LPBIND_OPTS2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

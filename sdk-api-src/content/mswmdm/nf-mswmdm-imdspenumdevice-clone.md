@@ -9,8 +9,6 @@ ms.assetid: fe6b8766-4f63-4a6c-b7dd-39a304679185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumDevice interface, IMDSPEnumDevice interface [windows Media Device Manager],Clone method, IMDSPEnumDevice.Clone, IMDSPEnumDevice::Clone, IMDSPEnumDeviceClone, mswmdm/IMDSPEnumDevice::Clone, wmdm.imdspenumdevice_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

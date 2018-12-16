@@ -9,8 +9,6 @@ ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

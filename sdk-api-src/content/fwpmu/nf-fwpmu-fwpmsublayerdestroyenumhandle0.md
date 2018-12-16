@@ -9,8 +9,6 @@ ms.assetid: ad4e5a70-a29f-44ff-a70d-3fcb31972f90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmSubLayerDestroyEnumHandle0, FwpmSubLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmsublayerdestroyenumhandle0_func, fwpmu/FwpmSubLayerDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

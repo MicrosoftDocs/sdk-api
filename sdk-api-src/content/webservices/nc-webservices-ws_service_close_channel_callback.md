@@ -9,8 +9,6 @@ ms.assetid: e2860015-219b-46be-921d-7ced0d95fc60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SERVICE_CLOSE_CHANNEL_CALLBACK, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK, wsw.ws_service_close_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

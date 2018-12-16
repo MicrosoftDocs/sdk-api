@@ -9,8 +9,6 @@ ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

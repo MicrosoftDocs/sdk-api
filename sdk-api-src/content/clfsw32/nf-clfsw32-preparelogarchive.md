@@ -9,8 +9,6 @@ ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: EA62C748-A741-49A4-8799-0825811D302F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform.SetCenterX, IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX, IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterX, directcomp.idcompositionscaletransform_setcenterx_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

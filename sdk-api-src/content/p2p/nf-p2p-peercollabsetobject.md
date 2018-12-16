@@ -9,8 +9,6 @@ ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

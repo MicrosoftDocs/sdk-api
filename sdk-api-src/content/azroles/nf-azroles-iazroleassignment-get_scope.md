@@ -9,8 +9,6 @@ ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

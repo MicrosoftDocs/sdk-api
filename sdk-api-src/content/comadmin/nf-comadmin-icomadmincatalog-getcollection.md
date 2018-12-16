@@ -9,8 +9,6 @@ ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

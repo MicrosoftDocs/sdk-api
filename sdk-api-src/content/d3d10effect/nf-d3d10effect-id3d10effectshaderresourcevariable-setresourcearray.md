@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_setresourcearray
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10EffectShaderResourceVariable interface [Direct3D 10],SetResourceArray method, ID3D10EffectShaderResourceVariable.SetResourceArray, ID3D10EffectShaderResourceVariable::SetResourceArray, SetResourceArray, SetResourceArray method [Direct3D 10], SetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, d3d10effect/ID3D10EffectShaderResourceVariable::SetResourceArray, direct3d10.id3d10effectshaderresourcevariable_setresourcearray, ffaa0326-c3e6-873d-a783-a06195e76351
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

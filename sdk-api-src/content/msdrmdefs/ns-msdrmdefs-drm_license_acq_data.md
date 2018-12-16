@@ -9,8 +9,6 @@ ms.assetid: c8f4ba99-5711-495f-9820-f604cc9e20f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_LICENSE_ACQ_DATA, rm.drm_license_acq_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c315f5cc-2b15-4185-8d22-7114950273e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_ILF_MULTIPATH_ENABLED, VDS_ILF_REQUIRE_IPSEC, VDS_ISCSI_LOGIN_FLAG, VDS_ISCSI_LOGIN_FLAG enumeration [VDS], base.vds_iscsi_login_flag, vds/VDS_ILF_MULTIPATH_ENABLED, vds/VDS_ILF_REQUIRE_IPSEC, vds/VDS_ISCSI_LOGIN_FLAG, vdshwprv/VDS_ILF_MULTIPATH_ENABLED, vdshwprv/VDS_ILF_REQUIRE_IPSEC, vdshwprv/VDS_ISCSI_LOGIN_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

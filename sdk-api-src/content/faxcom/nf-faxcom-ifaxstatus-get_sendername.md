@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_54x1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],SenderName property, IFaxStatus.SenderName, IFaxStatus.get_SenderName, IFaxStatus::SenderName, IFaxStatus::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_sendername_cpp, faxcom/IFaxStatus::SenderName, faxcom/IFaxStatus::get_SenderName, get_SenderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

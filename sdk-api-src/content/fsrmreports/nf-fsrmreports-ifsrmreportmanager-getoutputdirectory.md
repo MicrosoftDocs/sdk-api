@@ -9,8 +9,6 @@ ms.assetid: 90df1a6e-e2e6-4095-8337-61bfd172e203
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDirectory method, GetOutputDirectory, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetOutputDirectory method, IFsrmReportManager.GetOutputDirectory, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

@@ -9,8 +9,6 @@ ms.assetid: ba7d42b4-2025-4881-b1eb-98636bb1c5ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition method, IWMPControls.get_currentPosition, IWMPControls::get_currentPosition, IWMPControlsget_currentPosition, get_currentPosition, get_currentPosition method [Windows Media Player], get_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentposition, wmp/IWMPControls::get_currentPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

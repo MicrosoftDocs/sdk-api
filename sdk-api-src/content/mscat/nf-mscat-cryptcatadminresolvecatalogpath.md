@@ -9,8 +9,6 @@ ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

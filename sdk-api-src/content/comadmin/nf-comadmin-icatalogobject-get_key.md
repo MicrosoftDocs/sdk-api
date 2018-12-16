@@ -9,8 +9,6 @@ ms.assetid: 1937cd5a-742f-4248-a4c2-0b39a03eed20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICatalogObject interface [COM+],Key property, ICatalogObject.Key, ICatalogObject.get_Key, ICatalogObject::Key, ICatalogObject::get_Key, Key property [COM+], Key property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Key, comadmin/ICatalogObject::Key, comadmin/ICatalogObject::get_Key, cos.icatalogobject_key, get_Key
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

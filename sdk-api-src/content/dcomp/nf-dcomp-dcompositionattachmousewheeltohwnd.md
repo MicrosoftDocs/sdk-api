@@ -9,8 +9,6 @@ ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

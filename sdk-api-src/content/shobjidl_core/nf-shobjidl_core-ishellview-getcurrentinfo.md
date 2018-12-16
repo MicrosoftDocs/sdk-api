@@ -9,8 +9,6 @@ ms.assetid: 69d18b4f-3a68-420c-a184-05c2f69a5ec6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentInfo, GetCurrentInfo method [Windows Shell], GetCurrentInfo method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetCurrentInfo method, IShellView.GetCurrentInfo, IShellView::GetCurrentInfo, _win32_IShellView_GetCurrentInfo, shell.IShellView_GetCurrentInfo, shobjidl_core/IShellView::GetCurrentInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

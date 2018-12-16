@@ -9,8 +9,6 @@ ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection interface [Media Foundation],InitOutputProtection method, IMFSampleProtection.InitOutputProtection, IMFSampleProtection::InitOutputProtection, InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

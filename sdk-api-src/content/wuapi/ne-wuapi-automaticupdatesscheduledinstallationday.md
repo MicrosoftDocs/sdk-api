@@ -9,8 +9,6 @@ ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AutomaticUpdatesScheduledInstallationDay, AutomaticUpdatesScheduledInstallationDay enumeration [Windows Update Agent], ausidEveryDay, ausidEveryFriday, ausidEveryMonday, ausidEverySaturday, ausidEverySunday, ausidEveryThursday, ausidEveryTuesday, ausidEveryWednesday, wua.automaticupdatesscheduledinstallationday, wuapi/AutomaticUpdatesScheduledInstallationDay, wuapi/ausidEveryDay, wuapi/ausidEveryFriday, wuapi/ausidEveryMonday, wuapi/ausidEverySaturday, wuapi/ausidEverySunday, wuapi/ausidEveryThursday, wuapi/ausidEveryTuesday, wuapi/ausidEveryWednesday
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

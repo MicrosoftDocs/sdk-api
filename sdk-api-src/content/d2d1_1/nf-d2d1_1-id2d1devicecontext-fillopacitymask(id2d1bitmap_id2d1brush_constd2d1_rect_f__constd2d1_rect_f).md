@@ -9,8 +9,6 @@ ms.assetid: 21FD17A9-2003-4AE3-9B03-62D119FF4987
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillOpacityMask, FillOpacityMask method [Direct2D], FillOpacityMask method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],FillOpacityMask method, ID2D1DeviceContext.FillOpacityMask, ID2D1DeviceContext.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F), ID2D1DeviceContext::FillOpacityMask, ID2D1DeviceContext::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F), d2d1_1/ID2D1DeviceContext::FillOpacityMask, direct2d.id2d1devicecontext_fillopacitymask2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ecabfde8-0079-4059-8691-bbe3f0baa934
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetThumbnail method, IWICBitmapEncoder.SetThumbnail, IWICBitmapEncoder::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setthumbnail, wic._wic_codec_iwicbitmapencoder_setthumbnail, wincodec/IWICBitmapEncoder::SetThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

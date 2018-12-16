@@ -9,8 +9,6 @@ ms.assetid: 60efabb7-82bd-4b1f-991e-854c1a8b75ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBandwidth, GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

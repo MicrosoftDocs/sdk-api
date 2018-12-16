@@ -9,8 +9,6 @@ ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evcode.h
 req.include-header: 

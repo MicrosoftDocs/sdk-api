@@ -9,8 +9,6 @@ ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h

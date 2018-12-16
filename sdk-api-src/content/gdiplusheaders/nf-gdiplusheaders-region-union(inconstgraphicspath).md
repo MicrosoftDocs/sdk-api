@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const GraphicsPath), Region.Union(const GraphicsPath*), Region::Union, Region::Union(IN const GraphicsPath), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_path_, gdiplus._gdiplus_CLASS_Region_Union_path_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

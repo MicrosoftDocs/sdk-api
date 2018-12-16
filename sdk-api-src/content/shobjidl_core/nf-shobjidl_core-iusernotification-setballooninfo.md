@@ -9,8 +9,6 @@ ms.assetid: bd782a4b-fe3c-419b-ad55-ea3faf12e628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetBalloonInfo method, IUserNotification.SetBalloonInfo, IUserNotification::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetBalloonInfo, shell.IUserNotification_SetBalloonInfo, shobjidl_core/IUserNotification::SetBalloonInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: a3e76907-1960-4c13-b6e4-9f5c86de38c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VendorId method, IDiscRecorder2.get_VendorId, IDiscRecorder2::get_VendorId, get_VendorId, get_VendorId method [IMAPI], get_VendorId method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_vendorid, imapi2/IDiscRecorder2::get_VendorId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

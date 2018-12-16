@@ -9,8 +9,6 @@ ms.assetid: 7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],Refresh method, IOfflineFilesItem.Refresh, IOfflineFilesItem::Refresh, Refresh, Refresh method [Offline Files], Refresh method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::Refresh, of.iofflinefilesitem_refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

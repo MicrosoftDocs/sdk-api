@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(), XMDEC4.XMDEC4(const XMDEC4 &), XMDEC4::XMDEC4, XMDEC4::XMDEC4(const XMDEC4 &), dxmath.xmdec4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 

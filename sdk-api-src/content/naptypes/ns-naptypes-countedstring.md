@@ -9,8 +9,6 @@ ms.assetid: 92261dd3-504d-4a4b-b6fa-86f4f97a0df0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CountedString, CountedString structure [NAP], StringCorrelationId, nap.countedstring_struct, naptypes/CountedString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

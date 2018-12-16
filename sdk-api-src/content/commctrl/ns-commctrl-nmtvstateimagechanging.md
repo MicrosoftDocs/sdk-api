@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvstateimagechanging.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING structure pointer [Windows Controls], NMTVSTATEIMAGECHANGING, NMTVSTATEIMAGECHANGING structure [Windows Controls], _shell_NMTVSTATEIMAGECHANGING, _shell_NMTVSTATEIMAGECHANGING_cpp, commctrl/LPNMTVSTATEIMAGECHANGING, commctrl/NMTVSTATEIMAGECHANGING, controls.NMTVSTATEIMAGECHANGING, controls._shell_NMTVSTATEIMAGECHANGING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

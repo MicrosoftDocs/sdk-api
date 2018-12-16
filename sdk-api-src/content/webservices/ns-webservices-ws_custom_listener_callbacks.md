@@ -9,8 +9,6 @@ ms.assetid: b0be530f-5eff-4daa-90be-f9be648dfad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CUSTOM_LISTENER_CALLBACKS, WS_CUSTOM_LISTENER_CALLBACKS structure [Web Services for Windows], webservices/WS_CUSTOM_LISTENER_CALLBACKS, wsw.ws_custom_listener_callbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

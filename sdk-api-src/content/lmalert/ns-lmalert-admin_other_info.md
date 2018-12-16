@@ -9,8 +9,6 @@ ms.assetid: 43119dcf-7d04-4e3b-b1dc-20e814fbdc2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, ADMIN_OTHER_INFO, ADMIN_OTHER_INFO structure [Network Management], LPADMIN_OTHER_INFO, LPADMIN_OTHER_INFO structure pointer [Network Management], PADMIN_OTHER_INFO, PADMIN_OTHER_INFO structure pointer [Network Management], _win32_admin_other_info_str, lmalert/ADMIN_OTHER_INFO, lmalert/LPADMIN_OTHER_INFO, lmalert/PADMIN_OTHER_INFO, netmgmt.admin_other_info_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h

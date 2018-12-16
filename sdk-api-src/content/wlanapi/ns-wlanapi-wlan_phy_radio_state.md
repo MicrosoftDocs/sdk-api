@@ -9,8 +9,6 @@ ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

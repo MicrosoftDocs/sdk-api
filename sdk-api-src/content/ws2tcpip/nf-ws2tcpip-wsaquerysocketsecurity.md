@@ -9,8 +9,6 @@ ms.assetid: fda7738f-b7fc-49c3-aa40-9beea31d1009
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

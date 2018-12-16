@@ -9,8 +9,6 @@ ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services for Windows], webservices/WsWriteXmlnsAttribute, wsw.wswritexmlnsattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

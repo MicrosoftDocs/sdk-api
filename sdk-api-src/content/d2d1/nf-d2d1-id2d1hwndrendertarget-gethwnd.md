@@ -9,8 +9,6 @@ ms.assetid: ba43ed30-fd29-4163-a2ea-15ba42e819db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHwnd, GetHwnd method [Direct2D], GetHwnd method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],GetHwnd method, ID2D1HwndRenderTarget.GetHwnd, ID2D1HwndRenderTarget::GetHwnd, d2d1/ID2D1HwndRenderTarget::GetHwnd, direct2d.ID2D1HwndRenderTarget_GetHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

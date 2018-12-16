@@ -9,8 +9,6 @@ ms.assetid: 93367398-07aa-4c14-85c8-e3a904bd4564
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetConnectionName method, IWMOutputMediaProps.GetConnectionName, IWMOutputMediaProps::GetConnectionName, IWMOutputMediaPropsGetConnectionName, wmformat.iwmoutputmediaprops_getconnectionname, wmsdkidl/IWMOutputMediaProps::GetConnectionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

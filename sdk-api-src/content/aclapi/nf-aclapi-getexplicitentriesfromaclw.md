@@ -9,8 +9,6 @@ ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF::PointF, _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

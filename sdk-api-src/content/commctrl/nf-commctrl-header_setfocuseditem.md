@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Header_SetFocusedItem, Header_SetFocusedItem macro [Windows Controls], _shell_Header_SetFocusedItem, _shell_Header_SetFocusedItem_cpp, commctrl/Header_SetFocusedItem, controls.Header_SetFocusedItem, controls._shell_Header_SetFocusedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

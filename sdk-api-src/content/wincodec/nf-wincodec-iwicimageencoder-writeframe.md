@@ -9,8 +9,6 @@ ms.assetid: 08CD0CE4-5948-4A8F-AA96-9A2BF43EC6D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteFrame method, IWICImageEncoder.WriteFrame, IWICImageEncoder::WriteFrame, WriteFrame, WriteFrame method [Windows Imaging Component], WriteFrame method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writeframe, wincodec/IWICImageEncoder::WriteFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

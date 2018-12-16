@@ -9,8 +9,6 @@ ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO,FAR * LPINTERFACE_INFO, INTERFACE_INFO,FAR * LPINTERFACE_INFO structure [Winsock], _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

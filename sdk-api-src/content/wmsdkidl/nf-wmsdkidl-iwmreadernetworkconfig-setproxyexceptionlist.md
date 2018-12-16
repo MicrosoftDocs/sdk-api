@@ -9,8 +9,6 @@ ms.assetid: 1f6c6bb6-3a42-44da-ab80-e72a19b8d272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyExceptionList method, IWMReaderNetworkConfig.SetProxyExceptionList, IWMReaderNetworkConfig::SetProxyExceptionList, IWMReaderNetworkConfigSetProxyExceptionList, SetProxyExceptionList, SetProxyExceptionList method [windows Media Format], SetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

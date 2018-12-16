@@ -9,8 +9,6 @@ ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

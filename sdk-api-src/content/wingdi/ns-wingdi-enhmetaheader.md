@@ -9,8 +9,6 @@ ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

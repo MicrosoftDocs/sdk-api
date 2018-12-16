@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthemeint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeInt, GetThemeInt function [Windows Controls], controls.GetThemeInt, controls.inet_GetThemeInt, inet_GetThemeInt, inet_GetThemeInt_cpp, uxtheme/GetThemeInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

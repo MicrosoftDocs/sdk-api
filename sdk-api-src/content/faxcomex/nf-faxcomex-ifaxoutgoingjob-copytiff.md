@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_8mli.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],CopyTiff method, IFaxOutgoingJob.CopyTiff, IFaxOutgoingJob::CopyTiff, _mfax_faxoutgoingjob.copytiff, fax._mfax_faxoutgoingjob_copytiff, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp, faxcomex/IFaxOutgoingJob::CopyTiff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

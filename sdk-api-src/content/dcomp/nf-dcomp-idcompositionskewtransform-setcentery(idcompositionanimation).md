@@ -9,8 +9,6 @@ ms.assetid: AD307EAF-E5D3-493F-877C-3CB161245CD2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterY method, IDCompositionSkewTransform.SetCenterY, IDCompositionSkewTransform.SetCenterY(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterY, IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterY, directcomp.idcompositionskewtransform_setcentery_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

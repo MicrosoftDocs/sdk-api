@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Indexing Service], GetText method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetText method, IFilter.GetText, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filter.h
 req.include-header: 

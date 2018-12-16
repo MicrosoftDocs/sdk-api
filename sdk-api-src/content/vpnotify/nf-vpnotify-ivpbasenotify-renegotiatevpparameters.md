@@ -9,8 +9,6 @@ ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 

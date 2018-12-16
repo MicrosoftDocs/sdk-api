@@ -9,8 +9,6 @@ ms.assetid: fe36e441-60eb-4df3-8100-6c441c599a60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

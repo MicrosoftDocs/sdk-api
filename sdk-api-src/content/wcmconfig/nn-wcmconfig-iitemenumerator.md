@@ -9,8 +9,6 @@ ms.assetid: f43245f1-81d9-4b06-8f0c-d490618a99fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator interface [SMI],described, smi.iitemenumerator, wcmconfig/IItemEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 25c11cfc-75af-20a1-8f54-6b370942b841
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DeviceContext2, ID2D1DeviceContext2 interface [Direct2D], ID2D1DeviceContext2 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext2, direct2d.id2d1devicecontext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

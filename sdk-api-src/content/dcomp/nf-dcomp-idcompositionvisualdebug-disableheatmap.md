@@ -9,8 +9,6 @@ ms.assetid: C186E930-4523-4DF7-8E74-B69AF91622F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableHeatMap method, IDCompositionVisualDebug.DisableHeatMap, IDCompositionVisualDebug::DisableHeatMap, dcomp/IDCompositionVisualDebug::DisableHeatMap, directcomp.idcompositionvisualdebug_disableheatmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

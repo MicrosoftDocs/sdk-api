@@ -9,8 +9,6 @@ ms.assetid: a2d50d1d-f4cb-48de-be73-4858adfa951f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR structure [Files], CLS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLFS_ARCHIVE_DESCRIPTOR, PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLS_ARCHIVE_DESCRIPTOR, clfs/CLFS_ARCHIVE_DESCRIPTOR, clfs/PCLFS_ARCHIVE_DESCRIPTOR, clfs/PPCLFS_ARCHIVE_DESCRIPTOR, fs.clfs_archive_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

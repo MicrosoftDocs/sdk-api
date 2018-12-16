@@ -9,8 +9,6 @@ ms.assetid: 0B7049D1-CCAD-44EE-B398-20E763D956C2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTransform3DGroup, CreateTransform3DGroup method [DirectComposition], CreateTransform3DGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTransform3DGroup method, IDCompositionDevice2.CreateTransform3DGroup, IDCompositionDevice2::CreateTransform3DGroup, dcomp/IDCompositionDevice2::CreateTransform3DGroup, directcomp.idcompositiondevice2_createtransform3dgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

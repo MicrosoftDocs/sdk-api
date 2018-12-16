@@ -9,8 +9,6 @@ ms.assetid: 09e71d36-da1d-4ba0-bd6b-4ce4425d481a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelAddTrack, CancelAddTrack method [IMAPI], CancelAddTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],CancelAddTrack method, IDiscFormat2TrackAtOnce.CancelAddTrack, IDiscFormat2TrackAtOnce::CancelAddTrack, imapi.idiscformat2trackatonce_canceladdtrack, imapi2/IDiscFormat2TrackAtOnce::CancelAddTrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

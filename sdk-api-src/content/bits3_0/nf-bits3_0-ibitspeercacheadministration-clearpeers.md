@@ -9,8 +9,6 @@ ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

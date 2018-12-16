@@ -9,8 +9,6 @@ ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSSBuffer2, INSSBuffer2 interface [windows Media Format], INSSBuffer2 interface [windows Media Format],described, INSSBuffer2Interface, wmformat.inssbuffer2, wmsbuffer/INSSBuffer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 

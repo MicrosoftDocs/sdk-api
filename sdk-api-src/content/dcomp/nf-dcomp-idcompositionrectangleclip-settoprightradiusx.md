@@ -9,8 +9,6 @@ ms.assetid: 2FCE8558-2EED-4A44-93F3-796984C47AF0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX, SetTopRightRadiusX, SetTopRightRadiusX methods [DirectComposition], dcomp/SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

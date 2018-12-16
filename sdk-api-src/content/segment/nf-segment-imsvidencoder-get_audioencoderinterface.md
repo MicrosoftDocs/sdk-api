@@ -9,8 +9,6 @@ ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_AudioEncoderInterface method, IMSVidEncoder.get_AudioEncoderInterface, IMSVidEncoder::get_AudioEncoderInterface, IMSVidEncoderget_AudioEncoderInterface, get_AudioEncoderInterface, get_AudioEncoderInterface method [Microsoft TV Technologies], get_AudioEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_audioencoderinterface, segment/IMSVidEncoder::get_AudioEncoderInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhGetDecodingParameter, TdhGetDecodingParameter function [ETW], etw.tdhgetdecodingparameter, tdh/TdhGetDecodingParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

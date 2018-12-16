@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchScopeRule interface [search],get_IsIncluded method, ISearchScopeRule.get_IsIncluded, ISearchScopeRule::get_IsIncluded, _search_ISearchScopeRule_get_IsIncluded, get_IsIncluded, get_IsIncluded method [search], get_IsIncluded method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_IsIncluded, searchapi/ISearchScopeRule::get_IsIncluded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

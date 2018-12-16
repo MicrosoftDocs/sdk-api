@@ -9,8 +9,6 @@ ms.assetid: d65411ea-13d5-4932-a757-d897311e9e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMalloc interface [COM],Free method, IMalloc.Free, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

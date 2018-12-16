@@ -9,8 +9,6 @@ ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableImageExport, DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],DisableImageExport method, IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

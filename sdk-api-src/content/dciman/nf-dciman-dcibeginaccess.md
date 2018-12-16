@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

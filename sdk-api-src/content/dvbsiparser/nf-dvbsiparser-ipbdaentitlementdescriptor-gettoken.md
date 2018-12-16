@@ -9,8 +9,6 @@ ms.assetid: 3fc73b0c-cacb-491b-b25b-49eb57154a37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetToken method, IPBDAEntitlementDescriptor.GetToken, IPBDAEntitlementDescriptor::GetToken, dvbsiparser/IPBDAEntitlementDescriptor::GetToken, mstv.ipbdaentitlementdescriptor_gettoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

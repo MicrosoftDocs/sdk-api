@@ -9,8 +9,6 @@ ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, wingdi/LOGPEN, wingdi/PLOGPEN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

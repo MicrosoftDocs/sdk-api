@@ -9,8 +9,6 @@ ms.assetid: 0c0beb76-0089-46b9-bcc5-ed07320859a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDateTimeArray, CreateDateTimeArray method [Windows Runtime], CreateDateTimeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTimeArray method, IPropertyValueStatics.CreateDateTimeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTimeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTimeArray, winrt.ipropertyvaluefactory_createdatetimearray, winrt.ipropertyvaluestatics_createdatetimearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

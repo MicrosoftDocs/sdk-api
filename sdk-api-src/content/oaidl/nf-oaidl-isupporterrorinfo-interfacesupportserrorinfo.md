@@ -9,8 +9,6 @@ ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

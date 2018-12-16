@@ -9,8 +9,6 @@ ms.assetid: 0DCB7E41-5986-40CA-A68D-EC6688EB42C0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shgetassockeys, shlwapi/SHGetAssocKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

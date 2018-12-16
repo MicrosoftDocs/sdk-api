@@ -9,8 +9,6 @@ ms.assetid: 51b0ab12-c467-4a89-8173-fdc513868aae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], _win32_GetFontUnicodeRanges, gdi.getfontunicoderanges, wingdi/GetFontUnicodeRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

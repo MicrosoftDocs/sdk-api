@@ -9,8 +9,6 @@ ms.assetid: E9C0B622-77A5-498F-BB28-C6C181271276
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TRACELOGGING_DECLARE_PROVIDER, TRACELOGGING_DECLARE_PROVIDER macro, tracelogging.TRACELOGGING_DECLARE_PROVIDER, tracelogging.traceloggingdeclareprovider, traceloggingprovider/TRACELOGGING_DECLARE_PROVIDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

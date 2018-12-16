@@ -9,8 +9,6 @@ ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNewStory method, ITextDocument2.GetNewStory, ITextDocument2::GetNewStory, controls.itextdocument2_getnewstory, tom/ITextDocument2::GetNewStory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

@@ -9,8 +9,6 @@ ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERTVIEWEXTENSION object [Security],Reset method, IEnumCERTVIEWEXTENSION.Reset, IEnumCERTVIEWEXTENSION::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWEXTENSION interface, Reset method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

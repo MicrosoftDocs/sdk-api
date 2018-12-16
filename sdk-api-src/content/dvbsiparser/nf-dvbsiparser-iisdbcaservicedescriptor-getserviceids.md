@@ -9,8 +9,6 @@ ms.assetid: f2a6d1f2-2cd5-4f8c-97e1-33880ffb0449
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceIds, GetServiceIds method [Microsoft TV Technologies], GetServiceIds method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetServiceIds method, IIsdbCAServiceDescriptor.GetServiceIds, IIsdbCAServiceDescriptor::GetServiceIds, dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds, mstv.iisdbcaservicedescriptor_getserviceids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D1026B13-627C-4FD4-A402-C05E42CF3DCF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceArrival method, IDeviceController.remove_DeviceArrival, IDeviceController.streaming, IDeviceController::remove_DeviceArrival, IDeviceController::streaming, mediastreaming.idevicecontroller_remove_devicearrival, remove_DeviceArrival, remove_DeviceArrival method [Media Streaming API], remove_DeviceArrival method [Media Streaming API],IDeviceController interface, windows/IDeviceController::remove_DeviceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

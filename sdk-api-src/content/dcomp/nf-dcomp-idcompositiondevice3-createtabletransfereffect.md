@@ -9,8 +9,6 @@ ms.assetid: C6438DB2-26DA-451A-B748-901C809C1369
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTableTransferEffect, CreateTableTransferEffect method [DirectComposition], CreateTableTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTableTransferEffect method, IDCompositionDevice3.CreateTableTransferEffect, IDCompositionDevice3::CreateTableTransferEffect, dcomp/IDCompositionDevice3::CreateTableTransferEffect, directcomp.idcompositiondevice3_createtabletransfereffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

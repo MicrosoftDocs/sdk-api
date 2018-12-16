@@ -9,8 +9,6 @@ ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

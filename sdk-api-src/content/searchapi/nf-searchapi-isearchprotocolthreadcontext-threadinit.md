@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchpr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadInit method, ISearchProtocolThreadContext.ThreadInit, ISearchProtocolThreadContext::ThreadInit, ThreadInit, ThreadInit method [search], ThreadInit method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadInit, search._search_ISearchProtocolThreadContext_ThreadInit, searchapi/ISearchProtocolThreadContext::ThreadInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

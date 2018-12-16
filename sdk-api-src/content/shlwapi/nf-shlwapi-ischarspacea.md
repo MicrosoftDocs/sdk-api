@@ -9,8 +9,6 @@ ms.assetid: 40ccde4d-38e8-4c03-a826-b6c060037ae5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsCharSpace, IsCharSpace function [Windows Shell], IsCharSpaceA, IsCharSpaceW, _shell_IsCharSpace, shell.IsCharSpace, shlwapi/IsCharSpace, shlwapi/IsCharSpaceA, shlwapi/IsCharSpaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

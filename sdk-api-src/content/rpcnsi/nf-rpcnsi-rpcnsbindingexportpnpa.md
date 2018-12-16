@@ -9,8 +9,6 @@ ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

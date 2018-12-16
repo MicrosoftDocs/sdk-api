@@ -9,8 +9,6 @@ ms.assetid: a0a1f6af-5d73-4347-abd7-9b2bde61fdf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundation], mf.mfcreate3gpmediasink, mfidl/MFCreate3GPMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

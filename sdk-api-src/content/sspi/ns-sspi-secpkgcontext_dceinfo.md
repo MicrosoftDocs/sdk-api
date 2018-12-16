@@ -9,8 +9,6 @@ ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

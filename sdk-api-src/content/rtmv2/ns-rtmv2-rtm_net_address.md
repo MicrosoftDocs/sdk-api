@@ -9,8 +9,6 @@ ms.assetid: 92c4e797-9b73-438d-b4df-9739fae9d5c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRTM_NET_ADDRESS, PRTM_NET_ADDRESS, PRTM_NET_ADDRESS structure pointer [RAS], RTM_NET_ADDRESS, RTM_NET_ADDRESS structure [RAS], _rtmv2ref_rtm_net_address, rras.rtm_net_address, rtmv2/PRTM_NET_ADDRESS, rtmv2/RTM_NET_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 

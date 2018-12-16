@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

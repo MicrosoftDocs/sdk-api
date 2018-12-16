@@ -9,8 +9,6 @@ ms.assetid: cd01c872-4df5-4741-90c5-211d3e393f89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11DomainShader, ID3D11DomainShader interface [Direct3D 11], ID3D11DomainShader interface [Direct3D 11],described, b1ab0261-4310-836c-a463-56ac752ba47f, d3d11/ID3D11DomainShader, direct3d11.id3d11domainshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

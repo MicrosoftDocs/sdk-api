@@ -9,8 +9,6 @@ ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

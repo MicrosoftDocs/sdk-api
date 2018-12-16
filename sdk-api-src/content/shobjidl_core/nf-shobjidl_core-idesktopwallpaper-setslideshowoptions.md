@@ -9,8 +9,6 @@ ms.assetid: B3106354-C321-4770-834F-D2EF790AE114
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSO_SHUFFLEIMAGES, IDesktopWallpaper interface [Windows Shell],SetSlideshowOptions method, IDesktopWallpaper.SetSlideshowOptions, IDesktopWallpaper::SetSlideshowOptions, SetSlideshowOptions, SetSlideshowOptions method [Windows Shell], SetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshowOptions, shobjidl_core/IDesktopWallpaper::SetSlideshowOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

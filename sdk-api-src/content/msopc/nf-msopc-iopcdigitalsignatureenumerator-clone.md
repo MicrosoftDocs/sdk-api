@@ -9,8 +9,6 @@ ms.assetid: f7a544b6-6c2d-40ce-9148-63780cbbf44f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],Clone method, IOpcDigitalSignatureEnumerator.Clone, IOpcDigitalSignatureEnumerator::Clone, msopc/IOpcDigitalSignatureEnumerator::Clone, opc.iopcdigitalsignatureenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

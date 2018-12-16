@@ -9,8 +9,6 @@ ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsSubstringWithSpecifiedLength, WindowsSubstringWithSpecifiedLength function [Windows Runtime], winrt.windowssubstringwithspecifiedlength, winstring/WindowsSubstringWithSpecifiedLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

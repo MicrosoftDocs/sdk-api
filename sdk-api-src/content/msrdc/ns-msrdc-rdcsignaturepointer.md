@@ -9,8 +9,6 @@ ms.assetid: ece0fddf-1c06-493d-aed9-6bc86bb014f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differential Compression], fs.rdcsignaturepointer, msrdc/RdcSignaturePointer, rdc.rdcsignaturepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

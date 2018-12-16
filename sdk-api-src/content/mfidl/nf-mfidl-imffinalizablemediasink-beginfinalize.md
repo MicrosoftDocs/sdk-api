@@ -9,8 +9,6 @@ ms.assetid: fbcb7722-ba64-40a6-9c43-26a6b8dce7f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginFinalize, BeginFinalize method [Media Foundation], BeginFinalize method [Media Foundation],IMFFinalizableMediaSink interface, IMFFinalizableMediaSink interface [Media Foundation],BeginFinalize method, IMFFinalizableMediaSink.BeginFinalize, IMFFinalizableMediaSink::BeginFinalize, fbcb7722-ba64-40a6-9c43-26a6b8dce7f6, mf.imffinalizablemediasink_beginfinalize, mfidl/IMFFinalizableMediaSink::BeginFinalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

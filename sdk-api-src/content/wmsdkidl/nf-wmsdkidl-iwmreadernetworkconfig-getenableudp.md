@@ -9,8 +9,6 @@ ms.assetid: 81c6536c-303c-4eac-a75a-54e9df29e299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnableUDP, GetEnableUDP method [windows Media Format], GetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableUDP method, IWMReaderNetworkConfig.GetEnableUDP, IWMReaderNetworkConfig::GetEnableUDP, IWMReaderNetworkConfigGetEnableUDP, wmformat.iwmreadernetworkconfig_getenableudp, wmsdkidl/IWMReaderNetworkConfig::GetEnableUDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

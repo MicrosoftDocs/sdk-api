@@ -9,8 +9,6 @@ ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: E1BFF353-8445-435C-8F7A-E93BFE58A794
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_DRAWING_STATE_DESCRIPTION1, D2D1_DRAWING_STATE_DESCRIPTION1 structure [Direct2D], d2d1_1/D2D1_DRAWING_STATE_DESCRIPTION1, direct2d.d2d1_drawing_state_description1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

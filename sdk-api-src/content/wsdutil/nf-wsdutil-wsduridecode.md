@@ -9,8 +9,6 @@ ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

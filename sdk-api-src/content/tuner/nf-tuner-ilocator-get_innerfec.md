@@ -9,8 +9,6 @@ ms.assetid: aaa81a62-7e19-4d71-8378-77d6318a4e84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDigitalLocatorget_InnerFEC, ILocator interface [Microsoft TV Technologies],get_InnerFEC method, ILocator.get_InnerFEC, ILocator::get_InnerFEC, get_InnerFEC, get_InnerFEC method [Microsoft TV Technologies], get_InnerFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_innerfec, tuner/ILocator::get_InnerFEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

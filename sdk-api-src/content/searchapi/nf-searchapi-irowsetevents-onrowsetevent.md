@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRowsetEvents interface [search],OnRowsetEvent method, IRowsetEvents.OnRowsetEvent, IRowsetEvents::OnRowsetEvent, OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search],IRowsetEvents interface, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

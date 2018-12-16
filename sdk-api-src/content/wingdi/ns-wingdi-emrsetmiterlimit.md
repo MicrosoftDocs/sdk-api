@@ -9,8 +9,6 @@ ms.assetid: 2d56eb0d-5417-464b-be6a-57e4654003e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [Windows GDI], PEMRSETMITERLIMIT, PEMRSETMITERLIMIT structure pointer [Windows GDI], _win32_EMRSETMITERLIMIT_str, gdi.emrsetmiterlimit, wingdi/EMRSETMITERLIMIT, wingdi/PEMRSETMITERLIMIT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

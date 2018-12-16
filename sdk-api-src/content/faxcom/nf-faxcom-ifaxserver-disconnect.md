@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_5w50.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [Fax Service], Disconnect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Disconnect method, IFaxServer.Disconnect, IFaxServer::Disconnect, _mfax_ifaxserver_disconnect_client, fax._mfax_ifaxserver_client_mfax_ifaxserver_disconnect_client_cpp, fax._mfax_ifaxserver_disconnect_client, faxcom/IFaxServer::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

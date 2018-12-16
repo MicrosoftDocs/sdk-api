@@ -9,8 +9,6 @@ ms.assetid: 9fdd007a-1c8e-4389-975c-849a67be94a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9fdd007a-1c8e-4389-975c-849a67be94a1, BezierCusps property [Tablet PC], BezierCusps property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierCusps property, IInkStrokeDisp.BezierCusps, IInkStrokeDisp.get_BezierCusps, IInkStrokeDisp::BezierCusps, IInkStrokeDisp::get_BezierCusps, get_BezierCusps, msinkaut/IInkStrokeDisp::BezierCusps, msinkaut/IInkStrokeDisp::get_BezierCusps, tablet.iinkstrokedisp_beziercusps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

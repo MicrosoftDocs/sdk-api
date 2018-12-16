@@ -9,8 +9,6 @@ ms.assetid: FA16A260-3CC9-4F32-A97B-8A561A01C138
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE, D3D12_FEATURE_DATA_ARCHITECTURE structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE, direct3d12.d3d12_feature_data_architecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

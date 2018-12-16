@@ -9,8 +9,6 @@ ms.assetid: bece99c5-75de-4ab4-be26-14dc8cc1819c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml, msports/ComDBReleasePort, serports.comdbreleaseport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h

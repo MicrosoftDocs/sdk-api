@@ -9,8 +9,6 @@ ms.assetid: 9f35953a-3fea-4187-ad14-28f2c8dc2716
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidInputDeviceEvent, IMSVidInputDeviceEvent interface [Microsoft TV Technologies], IMSVidInputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidInputDeviceEventInterface, mstv.imsvidinputdeviceevent, segment/IMSVidInputDeviceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -9,8 +9,6 @@ ms.assetid: 65e792af-f8a8-4cdc-a279-494bba59394a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysStringLen, SysStringLen function [Automation], _oa96_SysStringLen, automat.sysstringlen, oleauto/SysStringLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

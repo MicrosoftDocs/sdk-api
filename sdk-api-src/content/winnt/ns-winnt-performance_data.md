@@ -9,8 +9,6 @@ ms.assetid: 468060cc-7b17-4ef4-8ae0-74d2bfcd5e4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPERFORMANCE_DATA, PERFORMANCE_DATA, PERFORMANCE_DATA structure [Hardware Counter Profiling], PPERFORMANCE_DATA, PPERFORMANCE_DATA structure pointer [Hardware Counter Profiling], _PERFORMANCE_DATA, hcp.performance_data, winnt/PERFORMANCE_DATA, winnt/PPERFORMANCE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2f91c728-23c7-4559-9c72-ddd92b0b0212
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Rate method, IMSVidPlayback.get_Rate, IMSVidPlayback::get_Rate, IMSVidPlaybackget_Rate, get_Rate, get_Rate method [Microsoft TV Technologies], get_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_rate, segment/IMSVidPlayback::get_Rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

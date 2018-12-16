@@ -9,8 +9,6 @@ ms.assetid: ea14c494-d1c7-46d0-9d56-fc89a4b4afa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertDuplicateCRLContext, CertDuplicateCRLContext function [Security], _crypto2_certduplicatecrlcontext, security.certduplicatecrlcontext, wincrypt/CertDuplicateCRLContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

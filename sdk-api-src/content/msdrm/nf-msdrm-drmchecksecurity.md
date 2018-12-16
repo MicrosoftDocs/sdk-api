@@ -9,8 +9,6 @@ ms.assetid: 8c0ea50b-ba7c-4cbc-9e1d-4089995374f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMCheckSecurity, DRMCheckSecurity function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCheckSecurity, rm.drmchecksecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

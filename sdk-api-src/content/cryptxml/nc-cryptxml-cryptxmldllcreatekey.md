@@ -9,8 +9,6 @@ ms.assetid: a2c4b4b5-ccfc-4fb9-ad03-942906cf73d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

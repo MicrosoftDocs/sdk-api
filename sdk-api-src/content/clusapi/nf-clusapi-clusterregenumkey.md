@@ -9,8 +9,6 @@ ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

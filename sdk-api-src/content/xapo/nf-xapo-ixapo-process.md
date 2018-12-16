@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCES
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 

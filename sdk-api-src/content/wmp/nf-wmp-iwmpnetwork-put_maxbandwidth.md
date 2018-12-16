@@ -9,8 +9,6 @@ ms.assetid: 7259a5e2-dbc6-4ac0-946e-e79d542edb06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_maxBandwidth method, IWMPNetwork.put_maxBandwidth, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

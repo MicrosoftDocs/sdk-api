@@ -9,8 +9,6 @@ ms.assetid: 1793684b-b4c4-4467-9ac9-8c6b1eea65e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIO_RANGE, IO_RANGE, IO_RANGE structure [Device and Driver Installation], PIO_RANGE, PIO_RANGE structure pointer [Device and Driver Installation], cfgmgr32/IO_RANGE, cfgmgr32/PIO_RANGE, cfgmgrst_50f5c8b2-3154-4bda-aee0-3a8aea22ff4a.xml, devinst.io_range"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -9,8 +9,6 @@ ms.assetid: 3bbdf1e8-444c-4d5e-83df-95a1f4fd7508
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],Skip method, IADsPropertyList.Skip, IADsPropertyList::Skip, Skip, Skip method [ADSI], Skip method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_skip, adsi.iadspropertylist__skip, adsi.iadspropertylist_skip, iads/IADsPropertyList::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

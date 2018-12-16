@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPathData, GetPathData method [GDI+], GetPathData method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathData method, GraphicsPath.GetPathData, GraphicsPath::GetPathData, _gdiplus_CLASS_GraphicsPath_GetPathData_pathData_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathData_pathData_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

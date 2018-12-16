@@ -9,8 +9,6 @@ ms.assetid: 876527dd-1ec5-4783-a7ad-20a0e2d2367a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO structure [Security], PCRYPT_TIME_STAMP_REQUEST_INFO, PCRYPT_TIME_STAMP_REQUEST_INFO structure pointer [Security], _crypto2_crypt_time_stamp_request_info, security.crypt_time_stamp_request_info, wincrypt/CRYPT_TIME_STAMP_REQUEST_INFO, wincrypt/PCRYPT_TIME_STAMP_REQUEST_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

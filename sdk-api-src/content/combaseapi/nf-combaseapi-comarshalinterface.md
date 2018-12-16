@@ -9,8 +9,6 @@ ms.assetid: 04ca1217-eac1-43e2-b736-8d7522ce8592
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarshalInterface, com.comarshalinterface, combaseapi/CoMarshalInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

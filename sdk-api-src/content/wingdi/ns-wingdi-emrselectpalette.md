@@ -9,8 +9,6 @@ ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

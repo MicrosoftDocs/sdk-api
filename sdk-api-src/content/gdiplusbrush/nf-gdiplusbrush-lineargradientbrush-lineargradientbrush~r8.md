@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclas
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush~r8, LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush~r8, _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: 

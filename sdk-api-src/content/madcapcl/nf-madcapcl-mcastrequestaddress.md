@@ -9,8 +9,6 @@ ms.assetid: 856eb251-1909-41a1-8e4f-c081942280de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserAccountChangeCallback interface [Windows Shell],OnPictureChange method, IUserAccountChangeCallback.OnPictureChange, IUserAccountChangeCallback::OnPictureChange, OnPictureChange, OnPictureChange method [Windows Shell], OnPictureChange method [Windows Shell],IUserAccountChangeCallback interface, _shell_IUserAccountChangeCallback_OnPictureChange, shell.IUserAccountChangeCallback_OnPictureChange, shobjidl/IUserAccountChangeCallback::OnPictureChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

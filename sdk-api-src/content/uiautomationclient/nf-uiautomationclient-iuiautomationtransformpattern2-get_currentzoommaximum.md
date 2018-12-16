@@ -9,8 +9,6 @@ ms.assetid: 600A6FCC-7B67-435A-B162-BC0EC8D609B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentZoomMaximum property [Windows Accessibility], CurrentZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMaximum property, IUIAutomationTransformPattern2.CurrentZoomMaximum, IUIAutomationTransformPattern2.get_CurrentZoomMaximum, IUIAutomationTransformPattern2::CurrentZoomMaximum, IUIAutomationTransformPattern2::get_CurrentZoomMaximum, get_CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_currentzoommaximum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

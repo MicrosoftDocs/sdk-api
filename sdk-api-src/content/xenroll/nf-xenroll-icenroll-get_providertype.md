@@ -9,8 +9,6 @@ ms.assetid: 90daa97a-350e-4307-80a5-b018cc1f0e86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CEnroll object [Security],ProviderType property, ICEnroll interface [Security],ProviderType property, ICEnroll.ProviderType, ICEnroll.get_ProviderType, ICEnroll2 interface [Security],ProviderType property, ICEnroll2.ProviderType, ICEnroll2::get_ProviderType, ICEnroll2::put_ProviderType, ICEnroll3 interface [Security],ProviderType property, ICEnroll3.ProviderType, ICEnroll3::get_ProviderType, ICEnroll3::put_ProviderType, ICEnroll4 interface [Security],ProviderType property, ICEnroll4.ProviderType, ICEnroll4::ProviderType, ICEnroll4::get_ProviderType, ICEnroll4::put_ProviderType, ICEnroll::get_ProviderType, ICEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],CEnroll object, ProviderType property [Security],ICEnroll interface, ProviderType property [Security],ICEnroll2 interface, ProviderType property [Security],ICEnroll3 interface, ProviderType property [Security],ICEnroll4 interface, get_ProviderType, security.icenroll4_providertype, xenroll/ICEnroll2::ProviderType, xenroll/ICEnroll2::get_ProviderType, xenroll/ICEnroll2::put_ProviderType, xenroll/ICEnroll3::ProviderType, xenroll/ICEnroll3::get_ProviderType, xenroll/ICEnroll3::put_ProviderType, xenroll/ICEnroll4::ProviderType, xenroll/ICEnroll4::get_ProviderType, xenroll/ICEnroll4::put_ProviderType, xenroll/ICEnroll::ProviderType, xenroll/ICEnroll::get_ProviderType, xenroll/ICEnroll::put_ProviderType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

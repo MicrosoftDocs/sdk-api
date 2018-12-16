@@ -9,8 +9,6 @@ ms.assetid: AE1896D4-0DFB-477F-ADD8-C6C14DAD27CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjDoesNameContainWildCards, PrjDoesNameContainWildCards function, ProjFS.prjdoesnamecontainwildcards, projectedfslib/PrjDoesNameContainWildCards
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchScopeRule interface [search],get_IsDefault method, ISearchScopeRule.get_IsDefault, ISearchScopeRule::get_IsDefault, _search_ISearchScopeRule_get_IsDefault, get_IsDefault, get_IsDefault method [search], get_IsDefault method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_IsDefault, searchapi/ISearchScopeRule::get_IsDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

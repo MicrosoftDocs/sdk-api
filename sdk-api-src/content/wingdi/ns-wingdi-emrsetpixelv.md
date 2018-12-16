@@ -9,8 +9,6 @@ ms.assetid: 1487d788-c85a-4a58-a4c8-8abe198944b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRSETPIXELV, EMRSETPIXELV, EMRSETPIXELV structure [Windows GDI], PEMRSETPIXELV, PEMRSETPIXELV structure pointer [Windows GDI], _win32_EMRSETPIXELV_str, gdi.emrsetpixelv, wingdi/EMRSETPIXELV, wingdi/PEMRSETPIXELV"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

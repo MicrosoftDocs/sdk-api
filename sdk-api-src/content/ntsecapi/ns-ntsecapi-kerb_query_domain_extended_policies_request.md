@@ -9,8 +9,6 @@ ms.assetid: 3900428B-B7FE-4169-BFF0-B8BEEEB342ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure [Security], PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure pointer [Security], ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, security.kerb_query_domain_extended_policies_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

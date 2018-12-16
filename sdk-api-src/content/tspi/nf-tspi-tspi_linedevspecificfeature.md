@@ -9,8 +9,6 @@ ms.assetid: 0c42d932-f359-4557-bf26-daecca48781b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineDevSpecificFeature, TSPI_lineDevSpecificFeature function [TAPI 2.2], _tspi_tspi_linedevspecificfeature, tspi.tspi_linedevspecificfeature, tspi/TSPI_lineDevSpecificFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2E9B5191-94F2-4954-BE3A-78803ABBAD07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_ACTIVATE_FN, PIBIO_STORAGE_ACTIVATE_FN callback, StorageAdapterActivate, StorageAdapterActivate callback function [Windows Biometric Framework API], secbiomet.storageadapteractivate, winbio_adapter/StorageAdapterActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

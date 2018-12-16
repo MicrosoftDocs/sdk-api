@@ -9,8 +9,6 @@ ms.assetid: 97a0c6c3-a011-44dc-b428-aabdad7d4364
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetObjectContext, CoGetObjectContext function [COM], _com_CoGetObjectContext, com.cogetobjectcontext, combaseapi/CoGetObjectContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

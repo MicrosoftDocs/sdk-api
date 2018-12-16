@@ -9,8 +9,6 @@ ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmmsg.h
 req.include-header: Lm.h

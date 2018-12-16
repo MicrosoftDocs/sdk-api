@@ -9,8 +9,6 @@ ms.assetid: b11e3472-e7dc-462d-93f4-e02f07ebd45f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],Select method, ISelectionItemProvider.Select, ISelectionItemProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ISelectionItemProvider interface, uiauto.uiauto_ISelectionItemProvider_Select, uiauto_ISelectionItemProvider_Select, uiautomationcore/ISelectionItemProvider::Select, winauto.uiauto_ISelectionItemProvider_Select
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

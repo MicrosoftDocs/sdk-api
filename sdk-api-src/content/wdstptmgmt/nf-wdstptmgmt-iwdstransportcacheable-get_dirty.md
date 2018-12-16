@@ -9,8 +9,6 @@ ms.assetid: f73e3013-e060-45bc-987c-d41cd01beef7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Dirty property [Windows Deployment Services], Dirty property [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Dirty property, IWdsTransportCacheable.Dirty, IWdsTransportCacheable.get_Dirty, IWdsTransportCacheable::Dirty, IWdsTransportCacheable::get_Dirty, get_Dirty, wds.iwdstransportcacheable_dirty, wdstptmgmt/IWdsTransportCacheable::Dirty, wdstptmgmt/IWdsTransportCacheable::get_Dirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

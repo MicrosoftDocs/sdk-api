@@ -9,8 +9,6 @@ ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

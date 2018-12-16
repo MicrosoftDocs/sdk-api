@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackprogram.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackProgram method, IWiaDevMgr.RegisterEventCallbackProgram, IWiaDevMgr::RegisterEventCallbackProgram, RegisterEventCallbackProgram, RegisterEventCallbackProgram method [WIA], RegisterEventCallbackProgram method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackProgram, wia._wia_IWiaDevMgr_RegisterEventCallbackProgram, wia_xp/IWiaDevMgr::RegisterEventCallbackProgram
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

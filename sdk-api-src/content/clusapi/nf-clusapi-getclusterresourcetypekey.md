@@ -9,8 +9,6 @@ ms.assetid: facc22b2-221d-4d82-85ae-5b9a463c5858
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterResourceTypeKey, GetClusterResourceTypeKey function [Failover Cluster], _wolf_getclusterresourcetypekey, clusapi/GetClusterResourceTypeKey, mscs.getclusterresourcetypekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

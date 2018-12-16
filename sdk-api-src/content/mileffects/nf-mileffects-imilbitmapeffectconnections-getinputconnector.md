@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getinp
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectConnections.GetInputConnector, IMILBitmapEffectConnections::GetInputConnector, _wibe_imilbitmapeffectconnections_getinputconnector, mileffects/IMILBitmapEffectConnections::GetInputConnector, wibe._wibe_imilbitmapeffectconnections_getinputconnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

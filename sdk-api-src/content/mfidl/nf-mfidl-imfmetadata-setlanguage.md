@@ -9,8 +9,6 @@ ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

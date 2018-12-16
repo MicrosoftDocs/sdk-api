@@ -9,8 +9,6 @@ ms.assetid: 3def638b-cab2-4b5d-b409-7285caa77ae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE structure [ETW], PEVENT_EXTENDED_ITEM_INSTANCE, PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW], base.event_extended_item_instance, etw.event_extended_item_instance, evntcons/EVENT_EXTENDED_ITEM_INSTANCE, evntcons/PEVENT_EXTENDED_ITEM_INSTANCE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 

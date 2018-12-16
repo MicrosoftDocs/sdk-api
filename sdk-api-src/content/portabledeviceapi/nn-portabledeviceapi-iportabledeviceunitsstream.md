@@ -9,8 +9,6 @@ ms.assetid: 4E9B2ECC-91D0-4D4F-980D-54AC88F3175D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceUnitsStream, IPortableDeviceUnitsStream interface [Windows Portable Devices SDK], IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceUnitsStream, wpdsdk.iportabledeviceunitsstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

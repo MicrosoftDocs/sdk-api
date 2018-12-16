@@ -9,8 +9,6 @@ ms.assetid: 04116eba-926c-43fc-9a45-91be42e9af26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PrivacyMode method, ICameraControl.put_PrivacyMode, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PrivacyMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

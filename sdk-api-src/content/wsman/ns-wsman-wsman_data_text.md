@@ -9,8 +9,6 @@ ms.assetid: 463dcc6a-2a56-42a9-a778-7a634e5f977c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99691d12-bff6-4d75-b9ef-bd92f8198ae2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_EnumNamedStreams method, IFsiNamedStreams.get_EnumNamedStreams, IFsiNamedStreams::get_EnumNamedStreams, get_EnumNamedStreams, get_EnumNamedStreams method [IMAPI], get_EnumNamedStreams method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_enumnamedstreams, imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

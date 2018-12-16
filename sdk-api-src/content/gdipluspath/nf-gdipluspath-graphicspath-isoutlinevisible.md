@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPath.IsOutlineVisible, GraphicsPath::IsOutlineVisible, IsOutlineVisible, IsOutlineVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdipluspath/IsOutlineVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

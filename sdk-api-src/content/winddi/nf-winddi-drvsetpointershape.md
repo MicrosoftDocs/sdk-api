@@ -9,8 +9,6 @@ ms.assetid: 3cc186df-572b-48ed-ac0b-56c8d91a9794
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

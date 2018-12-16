@@ -9,8 +9,6 @@ ms.assetid: cce027f0-34e9-4c13-89de-102c98ab7a14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIntPtrToInt16, UIntPtrToInt16 function [Windows Shell], intsafe/UIntPtrToInt16, shell.UIntPtrToInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

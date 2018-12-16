@@ -9,8 +9,6 @@ ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetFlowNameW, _gqos_tcgetflowname, qos.tcgetflowname, traffic/TcGetFlowName, traffic/TcGetFlowNameA, traffic/TcGetFlowNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

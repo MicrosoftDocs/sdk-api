@@ -9,8 +9,6 @@ ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClientSite, IOleObject::SetClientSite, SetClientSite, SetClientSite method [COM], SetClientSite method [COM],IOleObject interface, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

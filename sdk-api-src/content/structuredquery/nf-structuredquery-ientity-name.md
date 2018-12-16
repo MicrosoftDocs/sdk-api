@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEntity interface [search],Name method, IEntity.Name, IEntity::Name, Name, Name method [search], Name method [search],IEntity interface, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

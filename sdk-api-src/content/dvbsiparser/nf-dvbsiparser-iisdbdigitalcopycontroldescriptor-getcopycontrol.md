@@ -9,8 +9,6 @@ ms.assetid: 115ed5f7-a445-4ff2-a9d7-035867b2504d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCopyControl, GetCopyControl method [Microsoft TV Technologies], GetCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCopyControl method, IIsdbDigitalCopyControlDescriptor.GetCopyControl, IIsdbDigitalCopyControlDescriptor::GetCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getcopycontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

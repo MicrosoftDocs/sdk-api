@@ -9,8 +9,6 @@ ms.assetid: 906a3895-2e42-4bed-90a3-7c10487d76cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetUnicastIpAddressEntry, SetUnicastIpAddressEntry function [IP Helper], iphlp.setunicastipaddressentry, netioapi/SetUnicastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

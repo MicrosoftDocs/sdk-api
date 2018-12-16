@@ -9,8 +9,6 @@ ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

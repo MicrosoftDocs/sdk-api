@@ -9,8 +9,6 @@ ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

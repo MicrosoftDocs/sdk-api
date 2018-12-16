@@ -9,8 +9,6 @@ ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Font class [GDI+],GetLogFontA method, Font.GetLogFontA, Font::GetLogFontA, GetLogFontA, GetLogFontA method [GDI+], GetLogFontA method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontA_g_logfontA_, gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

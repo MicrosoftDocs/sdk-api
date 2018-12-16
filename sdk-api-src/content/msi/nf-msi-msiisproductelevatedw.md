@@ -9,8 +9,6 @@ ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

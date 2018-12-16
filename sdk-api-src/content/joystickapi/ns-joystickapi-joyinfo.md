@@ -9,8 +9,6 @@ ms.assetid: 9f21fdcc-6940-44de-8adf-28190c0cc7c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Windows Multimedia], _win32_JOYINFO_str, joyinfo_tag, joystickapi/JOYINFO, multimedia.joyinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: joystickapi.h
 req.include-header: Windows.h

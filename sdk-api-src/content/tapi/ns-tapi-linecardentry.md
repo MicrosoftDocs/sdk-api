@@ -9,8 +9,6 @@ ms.assetid: 8b2a4eaf-6c59-4d3b-839f-52915bff6116
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINECARDENTRY, LINECARDENTRY, LINECARDENTRY structure [TAPI 2.2], LPLINECARDENTRY, LPLINECARDENTRY structure pointer [TAPI 2.2], _tapi2_linecardentry_str, tapi/LINECARDENTRY, tapi/LPLINECARDENTRY, tapi2.linecardentry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

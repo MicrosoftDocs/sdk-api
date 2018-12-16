@@ -9,8 +9,6 @@ ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

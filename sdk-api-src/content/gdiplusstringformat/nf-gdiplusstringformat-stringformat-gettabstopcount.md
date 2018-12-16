@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTabStopCount, GetTabStopCount method [GDI+], GetTabStopCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStopCount method, StringFormat.GetTabStopCount, StringFormat::GetTabStopCount, _gdiplus_CLASS_StringFormat_GetTabStopCount_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

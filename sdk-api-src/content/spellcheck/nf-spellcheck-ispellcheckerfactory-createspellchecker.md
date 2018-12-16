@@ -9,8 +9,6 @@ ms.assetid: 9167b675-01ec-4173-a790-5452907b5598
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

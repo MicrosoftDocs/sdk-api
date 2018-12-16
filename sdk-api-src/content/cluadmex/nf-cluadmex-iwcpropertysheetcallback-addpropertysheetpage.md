@@ -9,8 +9,6 @@ ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

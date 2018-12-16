@@ -9,8 +9,6 @@ ms.assetid: 90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoRevokeClassObject, CoRevokeClassObject function [COM], _com_CoRevokeClassObject, com.corevokeclassobject, combaseapi/CoRevokeClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

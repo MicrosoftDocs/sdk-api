@@ -9,8 +9,6 @@ ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

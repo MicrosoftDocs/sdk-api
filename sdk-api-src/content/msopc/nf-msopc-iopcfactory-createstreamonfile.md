@@ -9,8 +9,6 @@ ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

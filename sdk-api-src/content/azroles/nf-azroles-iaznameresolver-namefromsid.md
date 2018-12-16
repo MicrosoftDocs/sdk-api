@@ -9,8 +9,6 @@ ms.assetid: 3518e620-85cf-4bae-8366-d43564535774
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzNameResolver interface [Security],NameFromSid method, IAzNameResolver.NameFromSid, IAzNameResolver::NameFromSid, NameFromSid, NameFromSid method [Security], NameFromSid method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NameFromSid, security.iaznameresolver_namefromsid_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

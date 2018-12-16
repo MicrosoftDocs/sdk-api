@@ -9,8 +9,6 @@ ms.assetid: A1DEEB16-BF75-4391-ADF0-AC22EECBC71A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Graphics class [GDI+],ScaleTransform method, Graphics.ScaleTransform, Graphics::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

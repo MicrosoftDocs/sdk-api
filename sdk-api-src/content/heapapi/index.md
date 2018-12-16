@@ -2,7 +2,7 @@
 UID: NA:heapapi
 ms.assetid: e1284023-5cb3-3d7c-99aa-74f51b690b9b
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

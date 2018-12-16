@@ -9,8 +9,6 @@ ms.assetid: afc8ac84-4629-4c5d-b4b2-59c1eb1af35d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ddstream.h
 req.include-header: 

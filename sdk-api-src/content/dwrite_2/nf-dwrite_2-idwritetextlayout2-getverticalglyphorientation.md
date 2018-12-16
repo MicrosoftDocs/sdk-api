@@ -9,8 +9,6 @@ ms.assetid: A98AFAC5-77D7-4917-AE1D-85B2B450C043
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextLayout2.GetVerticalGlyphOrientation, IDWriteTextLayout2::GetVerticalGlyphOrientation, directwrite.idwritetextlayout2_getverticalglyphorientation, dwrite_2/IDWriteTextLayout2::GetVerticalGlyphOrientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

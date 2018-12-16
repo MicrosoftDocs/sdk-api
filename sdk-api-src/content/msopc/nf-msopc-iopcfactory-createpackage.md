@@ -9,8 +9,6 @@ ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePackage, CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackage method, IOpcFactory.CreatePackage, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

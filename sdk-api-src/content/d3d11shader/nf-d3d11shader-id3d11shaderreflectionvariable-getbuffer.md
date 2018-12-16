@@ -9,8 +9,6 @@ ms.assetid: E3E15010-6096-4AA5-B014-AD3054223300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBuffer, GetBuffer method [Direct3D 11], GetBuffer method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetBuffer method, ID3D11ShaderReflectionVariable.GetBuffer, ID3D11ShaderReflectionVariable::GetBuffer, d3d11shader/ID3D11ShaderReflectionVariable::GetBuffer, direct3d11.id3d11shaderreflectionvariable_getbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

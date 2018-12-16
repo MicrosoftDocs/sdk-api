@@ -9,8 +9,6 @@ ms.assetid: ED8E6A7C-4D30-4396-B2D6-C09C18284B4D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, direct3d12.d3d12_debug_command_list_parameter_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 

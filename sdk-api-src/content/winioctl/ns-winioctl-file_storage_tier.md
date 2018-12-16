@@ -9,8 +9,6 @@ ms.assetid: F9701D3B-57B3-4777-841C-3D45A2CEC17E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFILE_STORAGE_TIER, FILE_STORAGE_TIER, FILE_STORAGE_TIER structure [Files], FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, PFILE_STORAGE_TIER, PFILE_STORAGE_TIER structure pointer [Files], fs.file_storage_tier, winioctl/FILE_STORAGE_TIER, winioctl/PFILE_STORAGE_TIER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 

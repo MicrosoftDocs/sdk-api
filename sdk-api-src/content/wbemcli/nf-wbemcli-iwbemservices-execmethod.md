@@ -9,8 +9,6 @@ ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

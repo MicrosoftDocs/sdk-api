@@ -9,8 +9,6 @@ ms.assetid: D84DC99E-4E0C-4CFC-B061-FCD3C42D7937
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetDesc method, ID3D12ShaderReflection.GetDesc, ID3D12ShaderReflection::GetDesc, d3d12shader/ID3D12ShaderReflection::GetDesc, direct3d12.id3d12shaderreflection_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

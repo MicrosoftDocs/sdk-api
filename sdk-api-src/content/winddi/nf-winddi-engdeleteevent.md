@@ -9,8 +9,6 @@ ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

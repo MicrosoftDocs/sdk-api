@@ -9,8 +9,6 @@ ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

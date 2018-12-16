@@ -9,8 +9,6 @@ ms.assetid: 6efc2fed-e372-4416-9645-50c1430f0e75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetByKey, GetByKey method [XPS Documents and Packaging], GetByKey method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetByKey method, IXpsOMDictionary.GetByKey, IXpsOMDictionary::GetByKey, xps.ixpsomdictionary_getbykey, xpsobjectmodel/IXpsOMDictionary::GetByKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

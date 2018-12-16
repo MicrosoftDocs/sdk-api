@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transfor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformRect method, IMILBitmapEffectPrimitive.TransformRect, IMILBitmapEffectPrimitive::TransformRect, TransformRect, TransformRect method [WPF Bitmap Effects], TransformRect method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformrect, mileffects/IMILBitmapEffectPrimitive::TransformRect, wibe._wibe_imilbitmapeffectprimitive_transformrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

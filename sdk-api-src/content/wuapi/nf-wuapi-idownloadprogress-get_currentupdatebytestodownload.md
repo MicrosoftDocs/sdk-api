@@ -9,8 +9,6 @@ ms.assetid: 6e3ac04f-b827-4369-981e-af7a437f5e5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentUpdateBytesToDownload property [Windows Update Agent], CurrentUpdateBytesToDownload property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesToDownload property, IDownloadProgress.CurrentUpdateBytesToDownload, IDownloadProgress.get_CurrentUpdateBytesToDownload, IDownloadProgress::CurrentUpdateBytesToDownload, IDownloadProgress::get_CurrentUpdateBytesToDownload, get_CurrentUpdateBytesToDownload, wua.idownloadprogress_currentupdatebytestodownload, wuapi/IDownloadProgress::CurrentUpdateBytesToDownload, wuapi/IDownloadProgress::get_CurrentUpdateBytesToDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

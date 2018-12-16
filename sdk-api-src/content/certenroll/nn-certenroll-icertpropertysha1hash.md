@@ -9,8 +9,6 @@ ms.assetid: 0946827b-c933-472c-9466-aaa3495ab202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertySHA1Hash, ICertPropertySHA1Hash interface [Security], ICertPropertySHA1Hash interface [Security],described, certenroll/ICertPropertySHA1Hash, security.icertpropertysha1hash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

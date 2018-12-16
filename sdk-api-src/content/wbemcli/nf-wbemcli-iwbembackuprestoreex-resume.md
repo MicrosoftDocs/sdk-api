@@ -9,8 +9,6 @@ ms.assetid: fa31860b-36f5-4182-a58c-b8747af0e628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Resume method, IWbemBackupRestoreEx.Resume, IWbemBackupRestoreEx::Resume, Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -9,8 +9,6 @@ ms.assetid: 27164da8-b5c7-41c1-bfe1-1c5797aa7ae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupPeerTimeToUniversalTime, PeerGroupPeerTimeToUniversalTime function [Peer Networking], p2p.peergrouppeertimetouniversaltime, p2p/PeerGroupPeerTimeToUniversalTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

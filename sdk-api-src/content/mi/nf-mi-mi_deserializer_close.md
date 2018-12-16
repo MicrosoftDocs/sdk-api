@@ -9,8 +9,6 @@ ms.assetid: 34ddbd4f-723f-4580-aad6-c5c236a1f5d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Deserializer_Close, MI_Deserializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Close, wmi_v2.mi_deserializer_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConditionFactory interface [search],Resolve method, IConditionFactory.Resolve, IConditionFactory::Resolve, Resolve, Resolve method [search], Resolve method [search],IConditionFactory interface, _search_IConditionFactory_Resolve, search._search_IConditionFactory_Resolve, structuredquery/IConditionFactory::Resolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

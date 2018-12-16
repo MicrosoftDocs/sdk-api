@@ -9,8 +9,6 @@ ms.assetid: beb5847c-a30e-4ab4-b293-359aca851c6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyEffect, DestroyEffect method [Human Input Devices], DestroyEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DestroyEffect method, IDirectInputEffectDriver.DestroyEffect, IDirectInputEffectDriver::DestroyEffect, di_ref_2c37442c-093a-4470-9335-46b5cc488df3.xml, dinputd/IDirectInputEffectDriver::DestroyEffect, hid.idirectinputeffectdriver_destroyeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

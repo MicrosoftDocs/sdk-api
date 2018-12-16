@@ -9,8 +9,6 @@ ms.assetid: 4a3a621a-49ed-4538-9e36-b8eab5d57eb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterBadMemoryNotification, RegisterBadMemoryNotification function, base.registerbadmemorynotification, winbase/RegisterBadMemoryNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

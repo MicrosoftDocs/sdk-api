@@ -9,8 +9,6 @@ ms.assetid: bc7c08ff-3d6b-4d45-b634-1358302f6fc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupQueryInfOriginalFileInformation, SetupQueryInfOriginalFileInformation function [Setup API], SetupQueryInfOriginalFileInformationA, SetupQueryInfOriginalFileInformationW, _setupapi_setupqueryinforiginalfileinformation, setup.setupqueryinforiginalfileinformation, setupapi/SetupQueryInfOriginalFileInformation, setupapi/SetupQueryInfOriginalFileInformationA, setupapi/SetupQueryInfOriginalFileInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

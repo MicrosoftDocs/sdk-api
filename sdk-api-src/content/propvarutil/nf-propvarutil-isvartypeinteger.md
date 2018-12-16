@@ -9,8 +9,6 @@ ms.assetid: 3e183355-8e71-4f6d-a348-c9dde9aa5953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVarTypeInteger, IsVarTypeInteger function [Windows Properties], _shell_IsVarTypeInteger, properties.IsVarTypeInteger, propvarutil/IsVarTypeInteger, shell.IsVarTypeInteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\remove
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollection.RemoveAt, IUICollection::RemoveAt, RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

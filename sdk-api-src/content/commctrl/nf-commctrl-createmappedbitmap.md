@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA, GetMessageW, _win32_GetMessage, _win32_getmessage_cpp, winmsg.getmessage, winui._win32_getmessage, winuser/GetMessage, winuser/GetMessageA, winuser/GetMessageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

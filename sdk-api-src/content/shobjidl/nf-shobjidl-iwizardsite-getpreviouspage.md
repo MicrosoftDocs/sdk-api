@@ -9,8 +9,6 @@ ms.assetid: 998eabc5-a0d4-450f-92bf-cf81f74c48d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetPreviousPage method, IWizardSite.GetPreviousPage, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

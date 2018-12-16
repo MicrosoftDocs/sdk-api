@@ -9,8 +9,6 @@ ms.assetid: E084CF25-BEFA-4061-AA77-2CFC57CF6DCE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

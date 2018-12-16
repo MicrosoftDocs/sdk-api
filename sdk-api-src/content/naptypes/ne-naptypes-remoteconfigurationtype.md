@@ -9,8 +9,6 @@ ms.assetid: 951fbae2-48cb-4e3f-a03f-bf55bf017ec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

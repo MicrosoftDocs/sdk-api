@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

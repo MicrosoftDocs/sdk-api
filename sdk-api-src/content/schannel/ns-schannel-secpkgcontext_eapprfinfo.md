@@ -9,8 +9,6 @@ ms.assetid: 2772b83b-d1d1-4a8e-83d5-1f3dec3d66ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_EapPrfInfo, EAP-FAST Keying Material, EAP-TTLSv0 Challenge Data, EAP-TTLSv0 Keying Material, PPP EAP TLS Key Data, PSecPkgContext_EapPrfInfo, PSecPkgContext_EapPrfInfo structure pointer [Security], SecPkgContext_EapPrfInfo, SecPkgContext_EapPrfInfo structure [Security], schannel/PSecPkgContext_EapPrfInfo, schannel/SecPkgContext_EapPrfInfo, security.secpkgcontext_eapprfinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

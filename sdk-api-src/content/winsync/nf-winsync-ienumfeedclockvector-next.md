@@ -9,8 +9,6 @@ ms.assetid: 2303fac8-21ae-44df-8e47-9fe0fa88d90b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFeedClockVector.Next, IEnumFeedClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_next, winsync/IEnumFeedClockVector::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

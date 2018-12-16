@@ -9,8 +9,6 @@ ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

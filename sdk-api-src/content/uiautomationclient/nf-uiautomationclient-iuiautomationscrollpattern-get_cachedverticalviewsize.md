@@ -9,8 +9,6 @@ ms.assetid: d0fedff8-27b7-403c-a431-345605045458
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedVerticalViewSize property [Windows Accessibility], CachedVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalViewSize property, IUIAutomationScrollPattern.CachedVerticalViewSize, IUIAutomationScrollPattern.get_CachedVerticalViewSize, IUIAutomationScrollPattern::CachedVerticalViewSize, IUIAutomationScrollPattern::get_CachedVerticalViewSize, get_CachedVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

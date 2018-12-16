@@ -9,8 +9,6 @@ ms.assetid: 2bb94019-c664-4144-98b6-a0a545f7e4c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhgetlogfilesize, base.pdhgetlogfilesize, pdh/PdhGetLogFileSize, perf.pdhgetlogfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

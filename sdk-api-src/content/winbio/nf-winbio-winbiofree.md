@@ -9,8 +9,6 @@ ms.assetid: b570fc6c-a08e-4485-a621-20f59bd63d40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioFree, WinBioFree function [Windows Biometric Framework API], secbiomet.winbiofree, winbio/WinBioFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

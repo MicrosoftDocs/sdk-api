@@ -9,8 +9,6 @@ ms.assetid: a8d98dda-77a0-494d-ade2-adc1f4d8c551
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Session_EnumerateInstances, MI_Session_EnumerateInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_EnumerateInstances, wmi_v2.mi_session_enumerateinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ed2fd6b6-e449-4bed-aeb4-eb4345f67b12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],RestoreDefaults method, INetFwMgr.RestoreDefaults, INetFwMgr::RestoreDefaults, RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3058CCB5-E58E-4EEC-AEB9-C47B78DD6E79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFunctionByIndex, GetFunctionByIndex method [Direct3D 11], GetFunctionByIndex method [Direct3D 11],ID3D11LibraryReflection interface, ID3D11LibraryReflection interface [Direct3D 11],GetFunctionByIndex method, ID3D11LibraryReflection.GetFunctionByIndex, ID3D11LibraryReflection::GetFunctionByIndex, d3d11shader/ID3D11LibraryReflection::GetFunctionByIndex, direct3d11.id3d11libraryreflection_getfunctionbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

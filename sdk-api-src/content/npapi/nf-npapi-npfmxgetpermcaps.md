@@ -9,8 +9,6 @@ ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

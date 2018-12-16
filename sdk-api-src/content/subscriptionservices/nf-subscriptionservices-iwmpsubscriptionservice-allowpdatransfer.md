@@ -9,8 +9,6 @@ ms.assetid: a824c6c0-0887-41cb-892a-832635ade222
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATransfer method, IWMPSubscriptionService.allowPDATransfer, IWMPSubscriptionService::allowPDATransfer, IWMPSubscriptionServiceallowPDATransfer, allowPDATransfer, allowPDATransfer method [Windows Media Player], allowPDATransfer method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPDATransfer, wmp.iwmpsubscriptionservice_allowpdatransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 

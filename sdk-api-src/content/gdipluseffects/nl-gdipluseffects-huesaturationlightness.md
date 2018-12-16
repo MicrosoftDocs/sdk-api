@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightness.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+], HueSaturationLightness class [GDI+],described, _gdiplus_CLASS_HueSaturationLightness_Class, gdiplus._gdiplus_CLASS_HueSaturationLightness_Class, gdipluseffects/HueSaturationLightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdipluseffects.h
 req.include-header: 

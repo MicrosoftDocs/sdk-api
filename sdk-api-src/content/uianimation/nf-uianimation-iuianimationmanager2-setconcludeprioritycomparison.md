@@ -9,8 +9,6 @@ ms.assetid: 1BDC9094-6020-4640-B959-59CD6CF48751
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetConcludePriorityComparison method, IUIAnimationManager2.SetConcludePriorityComparison, IUIAnimationManager2::SetConcludePriorityComparison, SetConcludePriorityComparison, SetConcludePriorityComparison method [Windows Animation], SetConcludePriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setconcludeprioritycomparison, uianimation/IUIAnimationManager2::SetConcludePriorityComparison
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

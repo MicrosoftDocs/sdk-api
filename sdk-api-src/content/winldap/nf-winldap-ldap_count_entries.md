@@ -9,8 +9,6 @@ ms.assetid: 6e53b914-2ad8-408a-9671-50a01a8a42f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

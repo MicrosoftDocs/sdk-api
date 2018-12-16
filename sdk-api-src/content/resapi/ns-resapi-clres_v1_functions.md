@@ -9,8 +9,6 @@ ms.assetid: 54299e92-8b9d-4611-8147-8e7a5e1c8e34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLRES_V1_FUNCTIONS, CLRES_V1_FUNCTIONS, CLRES_V1_FUNCTIONS structure [Failover Cluster], PCLRES_V1_FUNCTIONS, PCLRES_V1_FUNCTIONS structure pointer [Failover Cluster], _wolf_clres_v1_functions, mscs.clres_v1_functions, resapi/CLRES_V1_FUNCTIONS, resapi/PCLRES_V1_FUNCTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

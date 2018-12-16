@@ -9,8 +9,6 @@ ms.assetid: 35b79dac-39c7-4ca2-8608-e7ea64d4574c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetString method, IMetaDataTables.GetString, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

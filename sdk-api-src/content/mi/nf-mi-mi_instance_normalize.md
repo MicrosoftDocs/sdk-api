@@ -9,8 +9,6 @@ ms.assetid: 4FE8FD63-78F4-41C8-9A72-A2E3ABDEBB86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance_Normalize, MI_Instance_Normalize function [Windows Management Infrastructure (MI)], mi/MI_Instance_Normalize, wmi_v2.mi_instance_normalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

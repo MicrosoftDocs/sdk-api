@@ -9,8 +9,6 @@ ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

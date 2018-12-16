@@ -9,8 +9,6 @@ ms.assetid: c73f2499-75e9-4146-ae4c-0e949206ea37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptImportPublicKeyInfoEx2, CryptImportPublicKeyInfoEx2 function [Security], X509_ASN_ENCODING, security.cryptimportpublickeyinfoex2, wincrypt/CryptImportPublicKeyInfoEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 442ad347-c064-4769-b43b-57d2e66e8b97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRPOLYPOLYGON, *PEMRPOLYPOLYLINE, EMRPOLYPOLYGON, EMRPOLYPOLYGON structure [Windows GDI], EMRPOLYPOLYLINE, EMRPOLYPOLYLINE structure [Windows GDI], EMRPOLYPOLYLINE,EMRPOLYPOLYGON, EMRPOLYPOLYLINE,EMRPOLYPOLYGON structure [Windows GDI], PEMRPOLYPOLYGON, PEMRPOLYPOLYGON structure pointer [Windows GDI], PEMRPOLYPOLYLINE, PEMRPOLYPOLYLINE structure pointer [Windows GDI], _win32_EMRPOLYPOLYLINE_str, gdi.emrpolypolyline__emrpolypolygon, wingdi/EMRPOLYPOLYGON, wingdi/EMRPOLYPOLYLINE,EMRPOLYPOLYGON, wingdi/PEMRPOLYPOLYGON, wingdi/PEMRPOLYPOLYLINE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

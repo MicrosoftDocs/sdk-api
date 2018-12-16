@@ -9,8 +9,6 @@ ms.assetid: D053FD0C-3088-4C56-A4EA-F41079FAAF20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

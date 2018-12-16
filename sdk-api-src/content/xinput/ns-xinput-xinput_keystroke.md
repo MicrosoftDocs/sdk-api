@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_KEYSTROKE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs], XINPUT_KEYSTROKE, XINPUT_KEYSTROKE structure [XInput Game Controller APIs], xinput.xinput_keystroke, xinput/PXINPUT_KEYSTROKE, xinput/XINPUT_KEYSTROKE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

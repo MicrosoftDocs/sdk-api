@@ -9,8 +9,6 @@ ms.assetid: 4ddf200d-0b7a-4e99-b7db-19b4e0412711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA structure [Peer Networking], PPEER_COLLAB_EVENT_DATA, PPEER_COLLAB_EVENT_DATA structure pointer [Peer Networking], p2p.peer_collab_event_data, p2p/PEER_COLLAB_EVENT_DATA, p2p/PPEER_COLLAB_EVENT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

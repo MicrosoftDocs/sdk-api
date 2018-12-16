@@ -9,8 +9,6 @@ ms.assetid: a0f05333-d391-4596-b4f1-3146b46a6108
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedBitTestAndReset64, InterlockedBitTestAndReset64 function, _interlockedbittestandreset64, base.interlockedbittestandreset64, winnt/InterlockedBitTestAndReset64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

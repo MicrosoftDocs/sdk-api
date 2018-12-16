@@ -9,8 +9,6 @@ ms.assetid: 249a9d02-a51e-46f2-aea4-71460392705f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDecompressGetFormatSize, ICDecompressGetFormatSize macro [Windows Multimedia], _win32_ICDecompressGetFormatSize, multimedia.icdecompressgetformatsize, vfw/ICDecompressGetFormatSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

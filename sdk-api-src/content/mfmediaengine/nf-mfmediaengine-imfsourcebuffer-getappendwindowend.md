@@ -9,8 +9,6 @@ ms.assetid: ac9806ca-8529-48be-8b5a-ae0126d8554d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

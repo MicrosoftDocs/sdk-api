@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(IN INT,IN LANGID), StringFormat.StringFormat(INT,LANGID), StringFormat::StringFormat, StringFormat::StringFormat(IN INT,IN LANGID), _gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

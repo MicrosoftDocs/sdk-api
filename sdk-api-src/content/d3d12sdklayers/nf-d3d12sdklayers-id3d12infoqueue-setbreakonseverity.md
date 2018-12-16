@@ -9,8 +9,6 @@ ms.assetid: 5A055726-B17A-4058-A964-F50BE2FB1FFA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnSeverity method, ID3D12InfoQueue.SetBreakOnSeverity, ID3D12InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method, SetBreakOnSeverity method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnSeverity, direct3d12.id3d12infoqueue_setbreakonseverity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_59ki.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisterDeviceProvider method, IFaxServer.RegisterDeviceProvider, IFaxServer::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [Fax Service], RegisterDeviceProvider method [Fax Service],IFaxServer interface, _mfax_faxserver.registerdeviceprovider, fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp, fax._mfax_faxserver_registerdeviceprovider, faxcomex/IFaxServer::RegisterDeviceProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

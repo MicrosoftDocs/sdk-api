@@ -9,8 +9,6 @@ ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWEExtendPropertySheet, IWEExtendPropertySheet interface [Failover Cluster], IWEExtendPropertySheet interface [Failover Cluster],described, _wolf_iweextendpropertysheet, cluadmex/IWEExtendPropertySheet, mscs.iweextendpropertysheet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

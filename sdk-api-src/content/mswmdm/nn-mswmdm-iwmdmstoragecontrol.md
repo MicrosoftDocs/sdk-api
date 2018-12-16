@@ -9,8 +9,6 @@ ms.assetid: b56edc7a-0764-449a-95b4-da759e99fadd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], IWMDMStorageControl interface [windows Media Device Manager],described, IWMDMStorageControlInterface, mswmdm/IWMDMStorageControl, wmdm.iwmdmstoragecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

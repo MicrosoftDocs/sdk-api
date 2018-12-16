@@ -9,8 +9,6 @@ ms.assetid: 2187a4c6-f8ba-4373-9240-1b1a9af92507
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPELEMDESC, ELEMDESC, ELEMDESC structure [Automation], LPELEMDESC, LPELEMDESC structure pointer [Automation], _oa96_ELEMDESC, automat.elemdesc, oaidl/ELEMDESC, oaidl/LPELEMDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

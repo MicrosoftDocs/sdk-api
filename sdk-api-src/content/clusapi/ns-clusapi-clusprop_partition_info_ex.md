@@ -9,8 +9,6 @@ ms.assetid: b1343a04-b8bd-469a-a620-985eeb89401c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster], CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUSPROP_PARTITION_INFO_EX, PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX, clusapi/PCLUSPROP_PARTITION_INFO_EX, mscs.clusprop_partition_info_ex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 97db420f-a6a5-4c87-9c7f-9733a1ce2b46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VMR9PresentationFlags, VMR9PresentationFlags , VMR9PresentationFlags enumeration [DirectShow], VMR9PresentationFlagsEnumeration, VMR9Sample_Discontinuity, VMR9Sample_Preroll, VMR9Sample_SyncPoint, VMR9Sample_TimeValid, dshow.vmr9presentationflags, enumeration [DirectShow], vmr9/VMR9PresentationFlags, vmr9/VMR9Sample_Discontinuity, vmr9/VMR9Sample_Preroll, vmr9/VMR9Sample_SyncPoint, vmr9/VMR9Sample_TimeValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

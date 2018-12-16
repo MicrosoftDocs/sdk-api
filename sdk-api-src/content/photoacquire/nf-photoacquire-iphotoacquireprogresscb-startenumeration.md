@@ -9,8 +9,6 @@ ms.assetid: ef42722d-ca39-4d22-8de1-6b3926669abf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartEnumeration method, IPhotoAcquireProgressCB.StartEnumeration, IPhotoAcquireProgressCB::StartEnumeration, IPhotoAcquireProgressCBStartEnumeration, StartEnumeration, StartEnumeration method [Picture Acquisition], StartEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartEnumeration, picacq.iphotoacquireprogresscb_startenumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

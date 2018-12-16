@@ -9,8 +9,6 @@ ms.assetid: d5afbf1d-ecb9-43d4-8396-db7c54720731
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],SetCore method, IWMPEffects2.SetCore, IWMPEffects2::SetCore, IWMPEffectsSetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::SetCore, wmp.iwmpeffects2_setcore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 

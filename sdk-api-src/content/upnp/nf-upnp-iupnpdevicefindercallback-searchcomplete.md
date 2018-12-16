@@ -9,8 +9,6 @@ ms.assetid: 6fcce487-1cfb-47ec-9ea1-7df04985d506
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceFinderCallback interface [UPnP APIs],SearchComplete method, IUPnPDeviceFinderCallback.SearchComplete, IUPnPDeviceFinderCallback::SearchComplete, SearchComplete, SearchComplete method [UPnP APIs], SearchComplete method [UPnP APIs],IUPnPDeviceFinderCallback interface, _upnp_iupnpdevicefindercallback_searchcomplete, upnp.iupnpdevicefindercallback_searchcomplete, upnp/IUPnPDeviceFinderCallback::SearchComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

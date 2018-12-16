@@ -9,8 +9,6 @@ ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

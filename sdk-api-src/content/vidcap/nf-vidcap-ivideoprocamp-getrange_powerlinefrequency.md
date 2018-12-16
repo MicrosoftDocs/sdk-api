@@ -9,8 +9,6 @@ ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_PowerlineFrequency method, IVideoProcAmp.getRange_PowerlineFrequency, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

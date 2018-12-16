@@ -9,8 +9,6 @@ ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

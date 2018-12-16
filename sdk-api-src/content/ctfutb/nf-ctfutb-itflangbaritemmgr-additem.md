@@ -9,8 +9,6 @@ ms.assetid: c9a36b2c-e7ea-4932-928e-05dd05ca02ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AddItem method, ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

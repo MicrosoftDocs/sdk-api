@@ -9,8 +9,6 @@ ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

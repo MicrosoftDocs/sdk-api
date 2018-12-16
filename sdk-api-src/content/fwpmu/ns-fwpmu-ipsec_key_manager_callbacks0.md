@@ -9,8 +9,6 @@ ms.assetid: 736ea54d-ca17-4cb5-bcb2-95b4377f321c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmu.h
 req.include-header: 

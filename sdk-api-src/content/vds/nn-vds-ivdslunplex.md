@@ -9,8 +9,6 @@ ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

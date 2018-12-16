@@ -9,8 +9,6 @@ ms.assetid: 5886187d-33b1-4151-a01f-de263c41c27b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeDecode method, IX509ExtensionSubjectKeyIdentifier.InitializeDecode, IX509ExtensionSubjectKeyIdentifier::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeDecode, security.ix509extensionsubjectkeyidentifier_initializedecode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

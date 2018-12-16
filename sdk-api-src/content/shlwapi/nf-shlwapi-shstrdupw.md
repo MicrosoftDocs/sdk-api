@@ -9,8 +9,6 @@ ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHStrDup, SHStrDup function [Windows Shell], SHStrDupA, SHStrDupW, _win32_SHStrDup, shell.SHStrDup, shlwapi/SHStrDup, shlwapi/SHStrDupA, shlwapi/SHStrDupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

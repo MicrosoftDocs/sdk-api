@@ -9,8 +9,6 @@ ms.assetid: B07A36E3-F351-439E-A085-A71E1A58DD45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DrawingStateBlock1 interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock1.SetDescription, ID2D1DrawingStateBlock1::SetDescription, SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock1 interface, d2d1_1/ID2D1DrawingStateBlock1::SetDescription, direct2d.id2d1drawingstateblock1_setdescription1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

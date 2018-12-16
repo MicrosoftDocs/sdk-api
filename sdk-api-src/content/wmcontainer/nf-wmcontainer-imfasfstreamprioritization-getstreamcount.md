@@ -9,8 +9,6 @@ ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

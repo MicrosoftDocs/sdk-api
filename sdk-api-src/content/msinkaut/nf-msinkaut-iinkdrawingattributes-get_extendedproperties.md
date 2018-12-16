@@ -9,8 +9,6 @@ ms.assetid: da5eb2c9-e325-44f4-bc94-e5b5a5480bcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],ExtendedProperties property, IInkDrawingAttributes.ExtendedProperties, IInkDrawingAttributes.get_ExtendedProperties, IInkDrawingAttributes::ExtendedProperties, IInkDrawingAttributes::get_ExtendedProperties, InkDrawingAttributes.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDrawingAttributes::ExtendedProperties, msinkaut/IInkDrawingAttributes::get_ExtendedProperties, tablet.inkdrawingattributes_extendedproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

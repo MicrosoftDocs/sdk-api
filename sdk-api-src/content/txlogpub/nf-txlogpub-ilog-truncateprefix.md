@@ -9,8 +9,6 @@ ms.assetid: 079c05b3-19ad-401d-ad5c-1095e897799f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILog interface [COM],TruncatePrefix method, ILog.TruncatePrefix, ILog::TruncatePrefix, TruncatePrefix, TruncatePrefix method [COM], TruncatePrefix method [COM],ILog interface, _com_ilog_truncateprefix, com.ilog_truncateprefix, txlogpub/ILog::TruncatePrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

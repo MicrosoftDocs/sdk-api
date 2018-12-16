@@ -9,8 +9,6 @@ ms.assetid: 88be3405-a420-4eb1-935b-099dc3067530
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

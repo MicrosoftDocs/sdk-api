@@ -9,8 +9,6 @@ ms.assetid: 69b22f30-62b1-4dcb-bbb0-aceae8d77f61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

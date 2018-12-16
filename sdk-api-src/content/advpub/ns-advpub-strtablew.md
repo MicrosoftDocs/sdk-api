@@ -9,8 +9,6 @@ ms.assetid: 60CE245D-1572-46FC-B3E3-7CE421599E0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSTRTABLEW, LPSTRTABLEW, LPSTRTABLEW structure pointer [Windows API], STRTABLE, STRTABLEW, STRTABLEW structure [Windows API], _StrTableW, _StrTableW structure [Windows API], advpub/LPSTRTABLEW, advpub/_StrTableW, winprog._strtablew"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 

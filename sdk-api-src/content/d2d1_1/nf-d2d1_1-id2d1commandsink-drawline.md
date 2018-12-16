@@ -9,8 +9,6 @@ ms.assetid: 3c47b5af-d258-42f8-b329-eb28d9485d3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawLine method, ID2D1CommandSink.DrawLine, ID2D1CommandSink::DrawLine, d2d1_1/ID2D1CommandSink::DrawLine, direct2d.id2d1commandsink_drawline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

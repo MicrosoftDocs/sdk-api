@@ -9,8 +9,6 @@ ms.assetid: 6d17222e-3657-4911-a8e7-d90214284441
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ArchivePrivateKey property [Security], ArchivePrivateKey property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],ArchivePrivateKey property, IX509CertificateRequestCmc.ArchivePrivateKey, IX509CertificateRequestCmc.put_ArchivePrivateKey, IX509CertificateRequestCmc::ArchivePrivateKey, IX509CertificateRequestCmc::get_ArchivePrivateKey, IX509CertificateRequestCmc::put_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::get_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::put_ArchivePrivateKey, put_ArchivePrivateKey, security.ix509certificaterequestcmc_archiveprivatekey_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

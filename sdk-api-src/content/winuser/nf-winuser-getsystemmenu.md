@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemMenu, GetSystemMenu function [Menus and Other Resources], _win32_GetSystemMenu, _win32_getsystemmenu_cpp, menurc.getsystemmenu, winui._win32_getsystemmenu, winuser/GetSystemMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 4a708963-f677-4419-800d-02a01908e7cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Clone method, IWbemClassObject.Clone, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

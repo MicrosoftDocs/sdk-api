@@ -9,8 +9,6 @@ ms.assetid: 8ff25b68-fcb3-4e11-9c74-b49b31806796
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectContext interface [COM+],SetComplete method, IObjectContext.SetComplete, IObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],IObjectContext interface, _cos_IObjectContext_SetComplete, comsvcs/IObjectContext::SetComplete, cos.iobjectcontext_setcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

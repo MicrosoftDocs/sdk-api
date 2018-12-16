@@ -9,8 +9,6 @@ ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable method, IMSVidInputDevice.IsViewable, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

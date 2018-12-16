@@ -9,8 +9,6 @@ ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

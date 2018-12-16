@@ -9,8 +9,6 @@ ms.assetid: caa10c35-9af4-4310-b031-3347cf795087
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, WICBitmapAlphaChannelOption, WICBitmapAlphaChannelOption enumeration [Windows Imaging Component], WICBitmapIgnoreAlpha, WICBitmapUseAlpha, WICBitmapUsePremultipliedAlpha, _wic_codec_wicbitmapalphachanneloption, wic._wic_codec_wicbitmapalphachanneloption, wincodec/WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, wincodec/WICBitmapAlphaChannelOption, wincodec/WICBitmapIgnoreAlpha, wincodec/WICBitmapUseAlpha, wincodec/WICBitmapUsePremultipliedAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

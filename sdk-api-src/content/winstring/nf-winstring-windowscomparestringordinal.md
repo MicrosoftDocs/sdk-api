@@ -9,8 +9,6 @@ ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

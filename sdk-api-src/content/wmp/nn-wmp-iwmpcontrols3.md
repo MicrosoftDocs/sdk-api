@@ -9,8 +9,6 @@ ms.assetid: ee902912-4f09-4f61-9b81-f4bd50ace892
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMPControls3 interface [Windows Media Player],described, IWMPControls3Interface, wmp.iwmpcontrols3, wmp/IWMPControls3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRoot, AddRoot method [search], AddRoot method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddRoot method, ISearchCrawlScopeManager.AddRoot, ISearchCrawlScopeManager::AddRoot, _search_ISearchCrawlScopeManager_AddRoot, search._search_ISearchCrawlScopeManager_AddRoot, searchapi/ISearchCrawlScopeManager::AddRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

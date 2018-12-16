@@ -9,8 +9,6 @@ ms.assetid: be3eee3c-e875-4e4b-ae26-2377747e6669
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ConstReal32AField, MI_ConstReal32AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReal32AField, wmi._mi_constreal32afield, wmi_v2.mi_constreal32afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

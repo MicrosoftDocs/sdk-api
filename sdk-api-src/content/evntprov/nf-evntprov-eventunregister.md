@@ -9,8 +9,6 @@ ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

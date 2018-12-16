@@ -9,8 +9,6 @@ ms.assetid: 3270d8ed-a174-4d77-a9a7-3e3f0cab2a23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRALPHABLEND, EMRALPHABLEND, EMRALPHABLEND structure [Windows GDI], PEMRALPHABLEND, PEMRALPHABLEND structure pointer [Windows GDI], _win32_EMRALPHABLEND_str, gdi.emralphablend, wingdi/EMRALPHABLEND, wingdi/PEMRALPHABLEND"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

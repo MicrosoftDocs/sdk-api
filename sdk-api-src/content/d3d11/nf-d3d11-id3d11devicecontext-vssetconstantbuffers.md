@@ -9,8 +9,6 @@ ms.assetid: c6f9674b-89fe-4e1e-b814-6ddd98a9cb98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2cf038d8-59ab-1d57-c785-ed14b6a1c06e, ID3D11DeviceContext interface [Direct3D 11],VSSetConstantBuffers method, ID3D11DeviceContext.VSSetConstantBuffers, ID3D11DeviceContext::VSSetConstantBuffers, VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 11], VSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSSetConstantBuffers, direct3d11.id3d11devicecontext_vssetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

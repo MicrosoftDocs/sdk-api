@@ -9,8 +9,6 @@ ms.assetid: bcbf7755-d0ce-4dd5-8462-72760364fdc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCertificateLinkToStore, CertAddCertificateLinkToStore function [Security], _crypto2_certaddcertificatelinktostore, security.certaddcertificatelinktostore, wincrypt/CertAddCertificateLinkToStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

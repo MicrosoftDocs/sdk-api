@@ -9,8 +9,6 @@ ms.assetid: 46a3b579-a027-4c80-9f7a-f81dd9af4d0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidAudioRendererDevices.get_Count, IMSVidAudioRendererDevices::get_Count, IMSVidAudioRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_count, segment/IMSVidAudioRendererDevices::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

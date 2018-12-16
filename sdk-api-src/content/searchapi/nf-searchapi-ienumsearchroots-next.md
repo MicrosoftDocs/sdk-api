@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroot
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

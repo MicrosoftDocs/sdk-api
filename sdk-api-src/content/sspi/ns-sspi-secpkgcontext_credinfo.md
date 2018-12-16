@@ -9,8 +9,6 @@ ms.assetid: 5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_CredInfo, PSecPkgContext_CredInfo, PSecPkgContext_CredInfo structure pointer [Security], SecPkgContext_CredInfo, SecPkgContext_CredInfo structure [Security], security.secpkgcontext_credinfo, sspi/PSecPkgContext_CredInfo, sspi/SecPkgContext_CredInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

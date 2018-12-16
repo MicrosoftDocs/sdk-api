@@ -9,8 +9,6 @@ ms.assetid: ce5ddaf6-4d81-4dab-a928-819b1fdee6c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_FLAG_AUTH_BASIC, WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE, WSMAN_FLAG_AUTH_CREDSSP, WSMAN_FLAG_AUTH_DIGEST, WSMAN_FLAG_AUTH_KERBEROS, WSMAN_FLAG_AUTH_NEGOTIATE, WSMAN_FLAG_DEFAULT_AUTHENTICATION, WSMAN_FLAG_NO_AUTHENTICATION, WSManAuthenticationFlags, WSManAuthenticationFlags enumeration [Windows Remote Management], winrm.wsmanauthenticationflags, wsman/WSMAN_FLAG_AUTH_BASIC, wsman/WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE, wsman/WSMAN_FLAG_AUTH_CREDSSP, wsman/WSMAN_FLAG_AUTH_DIGEST, wsman/WSMAN_FLAG_AUTH_KERBEROS, wsman/WSMAN_FLAG_AUTH_NEGOTIATE, wsman/WSMAN_FLAG_DEFAULT_AUTHENTICATION, wsman/WSMAN_FLAG_NO_AUTHENTICATION, wsman/WSManAuthenticationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wsman.h
 req.include-header: 

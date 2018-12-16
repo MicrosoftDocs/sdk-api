@@ -9,8 +9,6 @@ ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster], PCLUS_SHARED_VOLUME_BACKUP_MODE, PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE, mscs.clus_shared_volume_backup_mode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

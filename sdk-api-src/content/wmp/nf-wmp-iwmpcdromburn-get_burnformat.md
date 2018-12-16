@@ -9,8 +9,6 @@ ms.assetid: 564a3978-555e-4cbc-90fe-b29f61349260
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnFormat method, IWMPCdromBurn.get_burnFormat, IWMPCdromBurn::get_burnFormat, IWMPCdromBurnget_burnFormat, get_burnFormat, get_burnFormat method [Windows Media Player], get_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnformat, wmp/IWMPCdromBurn::get_burnFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

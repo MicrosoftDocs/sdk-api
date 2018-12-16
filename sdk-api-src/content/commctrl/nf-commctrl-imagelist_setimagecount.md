@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setimagecount.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_SetImageCount, ImageList_SetImageCount function [Windows Controls], _win32_ImageList_SetImageCount, _win32_ImageList_SetImageCount_cpp, commctrl/ImageList_SetImageCount, controls.ImageList_SetImageCount, controls._win32_ImageList_SetImageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

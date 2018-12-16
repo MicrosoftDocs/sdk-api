@@ -9,8 +9,6 @@ ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

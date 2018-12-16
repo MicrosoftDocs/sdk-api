@@ -9,8 +9,6 @@ ms.assetid: 16d0020f-7650-4300-bd34-6f79ecca5175
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSkinManager interface [Windows Media Player],SetVisualStyle method, IWMPSkinManager.SetVisualStyle, IWMPSkinManager::SetVisualStyle, IWMPSkinManagerSetVisualStyle, SetVisualStyle, SetVisualStyle method [Windows Media Player], SetVisualStyle method [Windows Media Player],IWMPSkinManager interface, wmp.iwmpskinmanager_setvisualstyle, wmp/IWMPSkinManager::SetVisualStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

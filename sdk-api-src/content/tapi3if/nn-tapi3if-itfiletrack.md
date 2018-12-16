@@ -9,8 +9,6 @@ ms.assetid: 590ca1ea-e058-4238-b01c-249fddd3c87d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITFileTrack, ITFileTrack interface [TAPI 2.2], ITFileTrack interface [TAPI 2.2],described, _tapi3_itfiletrack, tapi3.itfiletrack, tapi3if/ITFileTrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

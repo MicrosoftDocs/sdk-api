@@ -9,8 +9,6 @@ ms.assetid: 24e6047c-ca70-4e97-acb5-37647c5306c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 54504bcb-b05c-4b63-8704-8d718cf2ee16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace.GetRecommendedRenderingMode, IDWriteFontFace::GetRecommendedRenderingMode, directwrite.IDWriteFontFace_GetRecommendedRenderingMode, dwrite/IDWriteFontFace::GetRecommendedRenderingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

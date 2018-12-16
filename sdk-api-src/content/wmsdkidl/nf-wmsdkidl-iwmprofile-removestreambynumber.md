@@ -9,8 +9,6 @@ ms.assetid: 72ecc794-d393-416e-bc21-5a7756e76d99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveStreamByNumber method, IWMProfile.RemoveStreamByNumber, IWMProfile2 interface [windows Media Format],RemoveStreamByNumber method, IWMProfile2::RemoveStreamByNumber, IWMProfile3 interface [windows Media Format],RemoveStreamByNumber method, IWMProfile3::RemoveStreamByNumber, IWMProfile::RemoveStreamByNumber, IWMProfileRemoveStreamByNumber, RemoveStreamByNumber, RemoveStreamByNumber method [windows Media Format], RemoveStreamByNumber method [windows Media Format],IWMProfile interface, RemoveStreamByNumber method [windows Media Format],IWMProfile2 interface, RemoveStreamByNumber method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removestreambynumber, wmsdkidl/IWMProfile2::RemoveStreamByNumber, wmsdkidl/IWMProfile3::RemoveStreamByNumber, wmsdkidl/IWMProfile::RemoveStreamByNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: 93f2e4cf-013e-4064-88d5-69fddd458274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddress, ITAddress interface [TAPI 2.2], ITAddress interface [TAPI 2.2],described, _tapi3_itaddress, tapi3.itaddress, tapi3if/ITAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: d0d21156-7059-4053-bffd-3163ac559dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE, WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE, wsw.ws_http_ssl_header_auth_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

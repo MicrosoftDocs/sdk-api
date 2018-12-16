@@ -9,8 +9,6 @@ ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

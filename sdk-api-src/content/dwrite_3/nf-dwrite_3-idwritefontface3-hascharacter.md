@@ -9,8 +9,6 @@ ms.assetid: BCBC382E-C599-429A-9E00-EAB12D675503
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],HasCharacter method, IDWriteFontFace3.HasCharacter, IDWriteFontFace3::HasCharacter, directwrite.idwritefontface3_hascharacter, dwrite_3/IDWriteFontFace3::HasCharacter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

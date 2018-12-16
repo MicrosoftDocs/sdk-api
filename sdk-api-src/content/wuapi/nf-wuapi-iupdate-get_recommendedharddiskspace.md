@@ -9,8 +9,6 @@ ms.assetid: 958d3de3-b2e0-47e0-9a71-b12ff6669242
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedHardDiskSpace property, IUpdate.RecommendedHardDiskSpace, IUpdate.get_RecommendedHardDiskSpace, IUpdate::RecommendedHardDiskSpace, IUpdate::get_RecommendedHardDiskSpace, RecommendedHardDiskSpace property [Windows Update Agent], RecommendedHardDiskSpace property [Windows Update Agent],IUpdate interface, get_RecommendedHardDiskSpace, wua.iupdate_recommendedharddiskspace, wuapi/IUpdate::RecommendedHardDiskSpace, wuapi/IUpdate::get_RecommendedHardDiskSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

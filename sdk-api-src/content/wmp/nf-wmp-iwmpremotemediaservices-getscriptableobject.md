@@ -9,8 +9,6 @@ ms.assetid: c2e313fd-cbf6-4b0f-8eb0-1097af53e77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScriptableObject, GetScriptableObject method [Windows Media Player], GetScriptableObject method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetScriptableObject method, IWMPRemoteMediaServices.GetScriptableObject, IWMPRemoteMediaServices::GetScriptableObject, IWMPRemoteMediaServicesGetScriptableObject, wmp.iwmpremotemediaservices_getscriptableobject, wmp/IWMPRemoteMediaServices::GetScriptableObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

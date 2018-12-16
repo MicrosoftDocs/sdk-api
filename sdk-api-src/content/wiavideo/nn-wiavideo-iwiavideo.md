@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wiavideo.h
 req.include-header: 

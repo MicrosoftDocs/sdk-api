@@ -9,8 +9,6 @@ ms.assetid: 607695f5-c542-40b8-922f-b76de6859ca7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilSetResourceServiceEnvironment, ResUtilSetResourceServiceEnvironment function [Failover Cluster], _wolf_resutilsetresourceserviceenvironment, mscs.resutilsetresourceserviceenvironment, resapi/PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilSetResourceServiceEnvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

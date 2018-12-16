@@ -9,8 +9,6 @@ ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetGetProviderName, WNetGetProviderName function [Windows Networking (WNet)], WNetGetProviderNameA, WNetGetProviderNameW, _win32_wnetgetprovidername, winnetwk/WNetGetProviderName, winnetwk/WNetGetProviderNameA, winnetwk/WNetGetProviderNameW, wnet.wnetgetprovidername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

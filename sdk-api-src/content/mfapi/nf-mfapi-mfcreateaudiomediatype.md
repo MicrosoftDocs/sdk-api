@@ -9,8 +9,6 @@ ms.assetid: 8857e150-1746-4f3f-aaa8-db0f44787621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCreateAudioMediaType function [Media Foundation], mf.mfcreateaudiomediatype, mfapi/MFCreateAudioMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B75BDC83-3065-41F8-B552-B38BCB4BFC66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetOutputShaderUsage method, ID3D11VideoContext1.VideoProcessorGetOutputShaderUsage, ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage, VideoProcessorGetOutputShaderUsage, VideoProcessorGetOutputShaderUsage method [Media Foundation], VideoProcessorGetOutputShaderUsage method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage, mf.id3d11videocontext1_videoprocessorgetoutputshaderusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

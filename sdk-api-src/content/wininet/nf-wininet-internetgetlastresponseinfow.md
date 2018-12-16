@@ -9,8 +9,6 @@ ms.assetid: 0aa274c5-0aa0-4eb9-8aef-3128e735759d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetGetLastResponseInfo, InternetGetLastResponseInfo function [WinINet], InternetGetLastResponseInfoA, InternetGetLastResponseInfoW, _win32_internetgetlastresponseinfo, wininet.internetgetlastresponseinfo, wininet/InternetGetLastResponseInfo, wininet/InternetGetLastResponseInfoA, wininet/InternetGetLastResponseInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

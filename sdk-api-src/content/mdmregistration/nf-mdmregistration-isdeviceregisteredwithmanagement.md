@@ -9,8 +9,6 @@ ms.assetid: 7f8b4965-0acd-4e64-8756-37e7bf96ab6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsDeviceRegisteredWithManagement, IsDeviceRegisteredWithManagement function [MDM Registration], mdmreg.isdeviceregisteredwithmanagement, mdmregistration/IsDeviceRegisteredWithManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

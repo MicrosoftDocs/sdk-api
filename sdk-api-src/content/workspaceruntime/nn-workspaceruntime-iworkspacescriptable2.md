@@ -9,8 +9,6 @@ ms.assetid: 66a6c283-bef9-4cb4-9035-d4a2d2cb7b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWorkspaceScriptable2, IWorkspaceScriptable2 interface [Remote Desktop Services], IWorkspaceScriptable2 interface [Remote Desktop Services],described, termserv.iworkspacescriptable2, workspaceruntime/IWorkspaceScriptable2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: 

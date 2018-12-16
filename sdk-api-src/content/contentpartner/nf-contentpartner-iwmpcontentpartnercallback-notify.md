@@ -9,8 +9,6 @@ ms.assetid: e8402662-7e14-4be7-bc2d-45338bf2a226
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],Notify method, IWMPContentPartnerCallback.Notify, IWMPContentPartnerCallback::Notify, IWMPContentPartnerCallbackNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::Notify, wmp.iwmpcontentpartnercallback_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

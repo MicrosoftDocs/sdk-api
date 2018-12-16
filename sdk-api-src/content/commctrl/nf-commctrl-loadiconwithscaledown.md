@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIconWithScaleDown, LoadIconWithScaleDown function [Windows Controls], _shell_LoadIconWithScaleDown, _shell_LoadIconWithScaleDown_cpp, commctrl/LoadIconWithScaleDown, controls.LoadIconWithScaleDown, controls._shell_LoadIconWithScaleDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

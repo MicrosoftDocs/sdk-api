@@ -9,8 +9,6 @@ ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

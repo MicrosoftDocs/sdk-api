@@ -9,8 +9,6 @@ ms.assetid: 593a42be-e1e9-41e5-a006-1513c5aa5226
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDDGETTRANSFEROUTINFO, DDGETTRANSFERSTATUSOUTINFO, DDGETTRANSFERSTATUSOUTINFO structure [Display Devices], PDDGETTRANSFEROUTINFO, PDDGETTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_6471d175-cf52-4da4-b0c8-a4d7b96a0bea.xml, display.ddgettransferstatusoutinfo, dxmini/DDGETTRANSFERSTATUSOUTINFO, dxmini/PDDGETTRANSFEROUTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

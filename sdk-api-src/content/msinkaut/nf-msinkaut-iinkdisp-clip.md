@@ -9,8 +9,6 @@ ms.assetid: 1027f79d-1398-4db5-ba62-f67edf8ec939
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Clip method, IInkDisp.Clip, IInkDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkDisp::Clip, tablet.inkdisp_clip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

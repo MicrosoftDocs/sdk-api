@@ -9,8 +9,6 @@ ms.assetid: 4bd1f9a1-379b-4488-87d3-c7c7dc47c4d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolder2 interface [Windows Shell],MapColumnToSCID method, IShellFolder2.MapColumnToSCID, IShellFolder2::MapColumnToSCID, MapColumnToSCID, MapColumnToSCID method [Windows Shell], MapColumnToSCID method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder2_MapColumnToSCID, shell.IShellFolder2_MapColumnToSCID, shobjidl_core/IShellFolder2::MapColumnToSCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMVerify, DRMVerify function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMVerify, rm.drmverify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

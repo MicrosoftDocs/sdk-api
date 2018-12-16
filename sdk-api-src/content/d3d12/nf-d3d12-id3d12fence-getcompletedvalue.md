@@ -9,8 +9,6 @@ ms.assetid: 2F2DDFC5-8D31-4BCE-B378-610C95D7805F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompletedValue, GetCompletedValue method, GetCompletedValue method,ID3D12Fence interface, ID3D12Fence interface,GetCompletedValue method, ID3D12Fence.GetCompletedValue, ID3D12Fence::GetCompletedValue, d3d12/ID3D12Fence::GetCompletedValue, direct3d12.id3d12fence_getcompletedvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

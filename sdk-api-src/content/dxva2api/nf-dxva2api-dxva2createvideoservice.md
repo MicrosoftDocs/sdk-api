@@ -9,8 +9,6 @@ ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 

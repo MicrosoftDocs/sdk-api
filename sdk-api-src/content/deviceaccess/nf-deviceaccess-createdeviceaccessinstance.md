@@ -9,8 +9,6 @@ ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: deviceaccess.h
 req.include-header: 

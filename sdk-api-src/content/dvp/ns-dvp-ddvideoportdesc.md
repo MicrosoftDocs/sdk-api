@@ -9,8 +9,6 @@ ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h

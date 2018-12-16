@@ -9,8 +9,6 @@ ms.assetid: 9327b5dd-18a3-40c6-8bb4-245fcc7fb582
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixelFormat method, IWICBitmapFrameEncode.SetPixelFormat, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

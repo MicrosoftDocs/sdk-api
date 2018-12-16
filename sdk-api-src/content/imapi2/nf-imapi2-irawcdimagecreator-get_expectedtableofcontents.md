@@ -9,8 +9,6 @@ ms.assetid: ce65b26f-9cf7-4c61-a343-975e5af17f57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ExpectedTableOfContents method, IRawCDImageCreator.get_ExpectedTableOfContents, IRawCDImageCreator::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_expectedtableofcontents, imapi2/IRawCDImageCreator::get_ExpectedTableOfContents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

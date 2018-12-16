@@ -9,8 +9,6 @@ ms.assetid: f280b061-45d8-484d-9fe1-ec4d85288bc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleUIUpdateLinks, OleUIUpdateLinks function [COM], OleUIUpdateLinksA, OleUIUpdateLinksW, _ole_OleUIUpdateLinks, com.oleuiupdatelinks, oledlg/OleUIUpdateLinks, oledlg/OleUIUpdateLinksA, oledlg/OleUIUpdateLinksW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

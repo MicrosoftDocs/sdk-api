@@ -9,8 +9,6 @@ ms.assetid: 081a14ed-c152-4e0a-b85b-1111d825ce53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionDevice, IDCompositionDevice interface [DirectComposition], IDCompositionDevice interface [DirectComposition],described, dcomp/IDCompositionDevice, directcomp.idcompositiondevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

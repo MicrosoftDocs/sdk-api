@@ -9,8 +9,6 @@ ms.assetid: 0793642c-1905-470c-a69f-8bf5f8bbe90d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProperties method, IVdsPack.GetProperties, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: cfc42384-581c-4358-84a9-91028c89bbd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvQueryGlyphAttrs, DrvQueryGlyphAttrs callback, DrvQueryGlyphAttrs callback function [Display Devices], PFN_DrvQueryGlyphAttrs, ddifncs_9040dac6-091f-4400-99e2-ce91dd952494.xml, display.drvqueryglyphattrs, winddi/DrvQueryGlyphAttrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winddi.h
 req.include-header: Winddi.h

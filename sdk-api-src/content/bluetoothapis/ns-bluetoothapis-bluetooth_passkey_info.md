@@ -9,8 +9,6 @@ ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

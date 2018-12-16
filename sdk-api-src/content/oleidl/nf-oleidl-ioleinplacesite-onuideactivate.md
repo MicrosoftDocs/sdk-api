@@ -9,8 +9,6 @@ ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

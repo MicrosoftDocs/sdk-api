@@ -9,8 +9,6 @@ ms.assetid: f71aad69-89f3-463b-afd7-9873d582d03b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerQueryCredentialInputFields, EapHostPeerQueryCredentialInputFields function [EAPHost], eaphost.eaphostpeerquerycredentialinputfields, eaphostpeerconfigapis/EapHostPeerQueryCredentialInputFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

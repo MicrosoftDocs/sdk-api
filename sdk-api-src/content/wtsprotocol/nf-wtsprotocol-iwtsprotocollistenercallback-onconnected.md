@@ -9,8 +9,6 @@ ms.assetid: 0874c394-6260-4ac1-b5a8-27879f562e19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolListenerCallback interface [Remote Desktop Services],OnConnected method, IWTSProtocolListenerCallback.OnConnected, IWTSProtocolListenerCallback::OnConnected, OnConnected, OnConnected method [Remote Desktop Services], OnConnected method [Remote Desktop Services],IWTSProtocolListenerCallback interface, termserv.iwtsprotocollistenercallback_onconnected, wtsprotocol/IWTSProtocolListenerCallback::OnConnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

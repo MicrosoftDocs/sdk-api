@@ -9,8 +9,6 @@ ms.assetid: DF29B5FC-864F-4400-8EDB-3A2CD797E37A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.idl

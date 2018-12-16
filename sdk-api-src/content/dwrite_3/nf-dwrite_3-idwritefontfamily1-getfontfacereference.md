@@ -9,8 +9,6 @@ ms.assetid: 2F162135-5004-44EA-B80A-16FE0D790909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFontFaceReference method, IDWriteFontFamily1.GetFontFaceReference, IDWriteFontFamily1::GetFontFaceReference, directwrite.idwritefontfamily1_getfontfacereference, dwrite_3/IDWriteFontFamily1::GetFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

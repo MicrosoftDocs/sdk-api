@@ -9,8 +9,6 @@ ms.assetid: 56ba5f08-4803-4137-9edd-ce05bc19773b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnAbort method, CVssWriter.OnAbort, CVssWriter::OnAbort, OnAbort, OnAbort method [VSS], OnAbort method [VSS],CVssWriter interface, _win32_cvsswriter_onabort, base.cvsswriter_onabort, vswriter/CVssWriter::OnAbort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

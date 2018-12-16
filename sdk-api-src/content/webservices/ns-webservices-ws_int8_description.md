@@ -9,8 +9,6 @@ ms.assetid: 8085c256-fb1a-4537-bbad-9a1b3e8149ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_INT8_DESCRIPTION, WS_INT8_DESCRIPTION structure [Web Services for Windows], webservices/WS_INT8_DESCRIPTION, wsw.ws_int8_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: af462941-8c23-4f48-baf5-1ead9739a2c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateShellItemArrayFromIDLists, SHCreateShellItemArrayFromIDLists function [Windows Shell], _shell_SHCreateShellItemArrayFromIDLists, shell.SHCreateShellItemArrayFromIDLists, shobjidl_core/SHCreateShellItemArrayFromIDLists
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

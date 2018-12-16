@@ -9,8 +9,6 @@ ms.assetid: 99c2c5c8-49ce-4865-befa-e9f92905a260
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_STROKE_TRANSFORM_TYPE, D2D1_STROKE_TRANSFORM_TYPE enumeration [Direct2D], D2D1_STROKE_TRANSFORM_TYPE_FIXED, D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, D2D1_STROKE_TRANSFORM_TYPE_NORMAL, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_FIXED, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_NORMAL, direct2d.__d2d1_stroke_transform_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

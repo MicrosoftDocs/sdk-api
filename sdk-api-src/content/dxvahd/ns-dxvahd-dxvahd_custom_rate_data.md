@@ -9,8 +9,6 @@ ms.assetid: 12cac4a8-cfdf-484c-8443-ef47dd3a152b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_CUSTOM_RATE_DATA, DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation], dxvahd/DXVAHD_CUSTOM_RATE_DATA, mf.dxvahd_custom_rate_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

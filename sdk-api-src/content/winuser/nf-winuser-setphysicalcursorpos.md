@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetPhysicalCursorPos, SetPhysicalCursorPos function [Menus and Other Resources], _win32_SetPhysicalCursorPos, _win32_setphysicalcursorpos_cpp, menurc.setphysicalcursorpos, winui._win32_setphysicalcursorpos, winuser/SetPhysicalCursorPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

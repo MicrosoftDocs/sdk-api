@@ -9,8 +9,6 @@ ms.assetid: e5859797-90dd-4509-ae41-f8d8c83cfd9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

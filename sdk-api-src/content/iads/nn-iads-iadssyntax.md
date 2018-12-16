@@ -9,8 +9,6 @@ ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

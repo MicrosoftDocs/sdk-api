@@ -9,8 +9,6 @@ ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

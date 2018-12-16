@@ -9,8 +9,6 @@ ms.assetid: 396b586f-c594-4481-b095-862e9058519c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

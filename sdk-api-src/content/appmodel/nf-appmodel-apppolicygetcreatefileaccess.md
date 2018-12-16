@@ -9,8 +9,6 @@ ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

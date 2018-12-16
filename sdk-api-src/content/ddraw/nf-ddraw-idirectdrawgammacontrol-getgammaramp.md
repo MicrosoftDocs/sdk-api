@@ -9,8 +9,6 @@ ms.assetid: ba83605c-c388-42c0-9297-1666c80a278e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGammaRamp, GetGammaRamp method [DirectDraw], GetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, IDirectDrawGammaControl interface [DirectDraw],GetGammaRamp method, IDirectDrawGammaControl.GetGammaRamp, IDirectDrawGammaControl::GetGammaRamp, ddraw/IDirectDrawGammaControl::GetGammaRamp, directdraw.idirectdrawgammacontrol_getgammaramp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

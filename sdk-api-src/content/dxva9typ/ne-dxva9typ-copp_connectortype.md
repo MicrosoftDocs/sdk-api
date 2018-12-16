@@ -9,8 +9,6 @@ ms.assetid: 318603fa-a220-4c96-bd80-610d88e22bbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPP_ConnectorType, COPP_ConnectorType , COPP_ConnectorType enumeration [DirectShow], COPP_ConnectorTypeEnumeration, COPP_ConnectorType_ComponentVideo, COPP_ConnectorType_CompositeVideo, COPP_ConnectorType_DVI, COPP_ConnectorType_D_JPN, COPP_ConnectorType_DisplayPortEmbedded, COPP_ConnectorType_DisplayPortExternal, COPP_ConnectorType_ForceDWORD, COPP_ConnectorType_HDMI, COPP_ConnectorType_Internal, COPP_ConnectorType_LVDS, COPP_ConnectorType_SDI, COPP_ConnectorType_SVideo, COPP_ConnectorType_TMDS, COPP_ConnectorType_UDIEmbedded, COPP_ConnectorType_UDIExternal, COPP_ConnectorType_Unknown, COPP_ConnectorType_VGA, dshow.copp_connectortype, dxva9typ/COPP_ConnectorType, dxva9typ/COPP_ConnectorType_ComponentVideo, dxva9typ/COPP_ConnectorType_CompositeVideo, dxva9typ/COPP_ConnectorType_DVI, dxva9typ/COPP_ConnectorType_D_JPN, dxva9typ/COPP_ConnectorType_DisplayPortEmbedded, dxva9typ/COPP_ConnectorType_DisplayPortExternal, dxva9typ/COPP_ConnectorType_ForceDWORD, dxva9typ/COPP_ConnectorType_HDMI, dxva9typ/COPP_ConnectorType_Internal, dxva9typ/COPP_ConnectorType_LVDS, dxva9typ/COPP_ConnectorType_SDI, dxva9typ/COPP_ConnectorType_SVideo, dxva9typ/COPP_ConnectorType_TMDS, dxva9typ/COPP_ConnectorType_UDIEmbedded, dxva9typ/COPP_ConnectorType_UDIExternal, dxva9typ/COPP_ConnectorType_Unknown, dxva9typ/COPP_ConnectorType_VGA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h

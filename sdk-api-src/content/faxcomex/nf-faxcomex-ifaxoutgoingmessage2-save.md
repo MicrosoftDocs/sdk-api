@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\sav
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Save method, IFaxOutgoingMessage2.Save, IFaxOutgoingMessage2::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.save, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_save_cpp, fax._mfax_faxoutgoingmessage_save, faxcomex/IFaxOutgoingMessage2::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], _win32_ListBox_SetTopIndex, _win32_ListBox_SetTopIndex_cpp, controls.ListBox_SetTopIndex, controls._win32_ListBox_SetTopIndex, windowsx/ListBox_SetTopIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

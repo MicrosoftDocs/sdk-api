@@ -9,8 +9,6 @@ ms.assetid: d88d9ee0-1748-43e4-90d4-671b1449ef03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense method, IETFilterConfig.InitLicense, IETFilterConfig::InitLicense, IETFilterConfigInitLicense, InitLicense, InitLicense method [Microsoft TV Technologies], InitLicense method [Microsoft TV Technologies],IETFilterConfig interface, encdec/IETFilterConfig::InitLicense, mstv.ietfilterconfig_initlicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

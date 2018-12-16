@@ -9,8 +9,6 @@ ms.assetid: 9a5d6b10-b4c8-41ba-9b69-4537e44416df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CLOSE_LISTENER_CALLBACK, WS_CLOSE_LISTENER_CALLBACK callback, WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_LISTENER_CALLBACK, wsw.ws_close_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

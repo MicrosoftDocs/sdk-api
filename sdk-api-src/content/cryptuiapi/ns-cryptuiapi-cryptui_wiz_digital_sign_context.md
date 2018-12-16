@@ -9,8 +9,6 @@ ms.assetid: 3e4eb745-0c28-4ce5-870b-d24565ef0cae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, security.cryptui_wiz_digital_sign_context"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

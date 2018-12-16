@@ -9,8 +9,6 @@ ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],AddLeafElement method, IADsPathname.AddLeafElement, IADsPathname::AddLeafElement, _ds_iadspathname_addleafelement, adsi.iadspathname__addleafelement, adsi.iadspathname_addleafelement, iads/IADsPathname::AddLeafElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

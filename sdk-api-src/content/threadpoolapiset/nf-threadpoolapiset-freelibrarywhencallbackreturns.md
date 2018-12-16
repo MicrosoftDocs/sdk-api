@@ -9,8 +9,6 @@ ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeLibraryWhenCallbackReturns, FreeLibraryWhenCallbackReturns function, base.freelibrarywhencallbackreturns, threadpoolapiset/FreeLibraryWhenCallbackReturns, winbase/FreeLibraryWhenCallbackReturns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

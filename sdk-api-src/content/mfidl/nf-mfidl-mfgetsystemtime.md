@@ -9,8 +9,6 @@ ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e23617f6-248e-4e0b-866b-19b960ebf8eb, mf.mfgetsystemtime, mfidl/MFGetSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

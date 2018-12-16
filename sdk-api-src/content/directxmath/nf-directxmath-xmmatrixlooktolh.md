@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookToLH(XMVECTOR,XMVECTOR,XM
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixLookToLH, XMMatrixLookToLH, XMMatrixLookToLH method [DirectX Math Support APIs], dxmath.xmmatrixlooktolh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

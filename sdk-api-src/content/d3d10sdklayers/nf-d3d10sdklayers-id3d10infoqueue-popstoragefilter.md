@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_popstoragefilter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PopStorageFilter method, ID3D10InfoQueue.PopStorageFilter, ID3D10InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [Direct3D 10], PopStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, b9699061-4597-ddd4-4063-52d0dcbfb78b, d3d10sdklayers/ID3D10InfoQueue::PopStorageFilter, direct3d10.id3d10infoqueue_popstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_308j.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GroupBroadcastReceipts property [Fax Service], GroupBroadcastReceipts property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],GroupBroadcastReceipts property, IFaxDocument.GroupBroadcastReceipts, IFaxDocument.get_GroupBroadcastReceipts, IFaxDocument.put_GroupBroadcastReceipts, IFaxDocument::GroupBroadcastReceipts, IFaxDocument::get_GroupBroadcastReceipts, IFaxDocument::put_GroupBroadcastReceipts, _mfax_faxdocument.groupbroadcastreceipts, fax._mfax_faxdocument_cpp_mfax_faxdocument_groupbroadcastreceipts_cpp, fax._mfax_faxdocument_groupbroadcastreceipts, faxcomex/IFaxDocument::GroupBroadcastReceipts, faxcomex/IFaxDocument::get_GroupBroadcastReceipts, faxcomex/IFaxDocument::put_GroupBroadcastReceipts, get_GroupBroadcastReceipts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

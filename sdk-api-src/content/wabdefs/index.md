@@ -2,7 +2,7 @@
 UID: NA:wabdefs
 ms.assetid: f0165076-8152-35b7-8c3e-e227cdd6530d
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

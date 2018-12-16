@@ -9,8 +9,6 @@ ms.assetid: 66CA3AE5-4332-42CC-BD38-A5F19F0F3C89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDimension method, IUIAnimationInterpolator2.GetDimension, IUIAnimationInterpolator2::GetDimension, uianimation.iuianimationinterpolator2_getdimension, uianimation/IUIAnimationInterpolator2::GetDimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

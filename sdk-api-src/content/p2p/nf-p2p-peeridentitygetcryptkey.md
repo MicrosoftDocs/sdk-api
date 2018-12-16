@@ -9,8 +9,6 @@ ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

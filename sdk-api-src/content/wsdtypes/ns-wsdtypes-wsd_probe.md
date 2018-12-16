@@ -9,8 +9,6 @@ ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_PROBE, WSD_PROBE structure, ncd.wsd_probe_struct, wsdtypes/WSD_PROBE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

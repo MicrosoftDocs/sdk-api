@@ -9,8 +9,6 @@ ms.assetid: 0d74837e-12d1-4d94-941e-6a81aeac1151
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumPartsIncoming, EnumPartsIncoming method [Core Audio], EnumPartsIncoming method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsIncoming method, IPart.EnumPartsIncoming, IPart::EnumPartsIncoming, IPartEnumPartsIncoming, coreaudio.ipart_enumpartsincoming, devicetopology/IPart::EnumPartsIncoming
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bits.h
 req.include-header: 

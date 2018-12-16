@@ -9,8 +9,6 @@ ms.assetid: a659fcfd-49c4-4d2b-8b1d-62deb033bf8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, * LPINTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], *LPINTERNET_DIAGNOSTIC_SOCKET_INFO, IDSI_FLAG_KEEP_ALIVE, IDSI_FLAG_PROXY, IDSI_FLAG_SECURE, IDSI_FLAG_TUNNEL, INTERNET_DIAGNOSTIC_SOCKET_INFO, INTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], wininet.internet_diagnostic_socket_info, wininet/* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

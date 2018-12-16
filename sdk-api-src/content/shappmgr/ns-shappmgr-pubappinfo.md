@@ -9,8 +9,6 @@ ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 

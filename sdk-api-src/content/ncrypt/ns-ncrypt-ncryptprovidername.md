@@ -9,8 +9,6 @@ ms.assetid: 21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7e273ffe-3f80-49b6-a4e5-939f5ba9d5bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeClientId interface [Security],ProcessName property, IX509AttributeClientId.ProcessName, IX509AttributeClientId.get_ProcessName, IX509AttributeClientId::ProcessName, IX509AttributeClientId::get_ProcessName, ProcessName property [Security], ProcessName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::ProcessName, certenroll/IX509AttributeClientId::get_ProcessName, get_ProcessName, security.ix509attributeclientid_processname_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

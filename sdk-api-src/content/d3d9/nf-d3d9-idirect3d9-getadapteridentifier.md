@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3d9__getadapteridentifier.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdapterIdentifier, GetAdapterIdentifier method [Direct3D 9], GetAdapterIdentifier method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterIdentifier method, IDirect3D9.GetAdapterIdentifier, IDirect3D9::GetAdapterIdentifier, ab3a7dce-1e55-5674-03b7-13a53540bbf5, d3d9helper/IDirect3D9::GetAdapterIdentifier, direct3d9.idirect3d9__getadapteridentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

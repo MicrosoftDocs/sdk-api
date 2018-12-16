@@ -9,8 +9,6 @@ ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

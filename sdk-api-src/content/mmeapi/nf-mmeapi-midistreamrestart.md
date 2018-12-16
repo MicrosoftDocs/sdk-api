@@ -9,8 +9,6 @@ ms.assetid: 8d0f31d6-957d-4266-adae-68865466a859
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamRestart, midiStreamRestart, midiStreamRestart function [Windows Multimedia], mmeapi/midiStreamRestart, multimedia.midistreamrestart"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

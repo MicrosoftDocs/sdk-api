@@ -9,8 +9,6 @@ ms.assetid: ac619736-a434-46c0-9874-0cb646fdecae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMallocSpy interface [COM],PostGetSize method, IMallocSpy.PostGetSize, IMallocSpy::PostGetSize, PostGetSize, PostGetSize method [COM], PostGetSize method [COM],IMallocSpy interface, _com_imallocspy_postgetsize, com.imallocspy_postgetsize, objidl/IMallocSpy::PostGetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9c7ee4d7-987f-45ae-810f-fc310955f36d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IASCOMMONPROPERTIES, IASCOMMONPROPERTIES enumeration [Network Policy Server], PROPERTY_SDO_CLASS, PROPERTY_SDO_DATASTORE_NAME, PROPERTY_SDO_DESCRIPTION, PROPERTY_SDO_ID, PROPERTY_SDO_NAME, PROPERTY_SDO_RESERVED, PROPERTY_SDO_START, _sdo_iascommonproperties, nps.SDO_iascommonproperties, sdo.iascommonproperties, sdoias/IASCOMMONPROPERTIES, sdoias/PROPERTY_SDO_CLASS, sdoias/PROPERTY_SDO_DATASTORE_NAME, sdoias/PROPERTY_SDO_DESCRIPTION, sdoias/PROPERTY_SDO_ID, sdoias/PROPERTY_SDO_NAME, sdoias/PROPERTY_SDO_RESERVED, sdoias/PROPERTY_SDO_START
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

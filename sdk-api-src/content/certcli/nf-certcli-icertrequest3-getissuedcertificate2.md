@@ -9,8 +9,6 @@ ms.assetid: c311acaf-983b-4d61-a674-0fc6b475d212
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate2 method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate2, GetIssuedCertificate2 method [Security], GetIssuedCertificate2 method [Security],CCertRequest object, GetIssuedCertificate2 method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetIssuedCertificate2 method, ICertRequest3.GetIssuedCertificate2, ICertRequest3::GetIssuedCertificate2, certcli/ICertRequest3::GetIssuedCertificate2, security.icertrequest3_getissuedcertificate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h

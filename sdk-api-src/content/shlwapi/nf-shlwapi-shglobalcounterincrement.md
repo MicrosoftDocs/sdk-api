@@ -9,8 +9,6 @@ ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

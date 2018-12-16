@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: structuredquery.h
 req.include-header: 

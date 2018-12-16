@@ -9,8 +9,6 @@ ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwnerIntegrityLevel, GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerIntegrityLevel method, IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

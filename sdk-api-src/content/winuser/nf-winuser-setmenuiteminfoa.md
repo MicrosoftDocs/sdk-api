@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

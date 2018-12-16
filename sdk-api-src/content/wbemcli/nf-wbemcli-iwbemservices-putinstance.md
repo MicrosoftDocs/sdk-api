@@ -9,8 +9,6 @@ ms.assetid: 1e07b328-40f7-4e14-bf53-9a5cebfc23f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstance method, IWbemServices.PutInstance, IWbemServices::PutInstance, PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstance, wbemcli/IWbemServices::PutInstance, wmi.iwbemservices_putinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

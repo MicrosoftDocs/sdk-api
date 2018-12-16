@@ -9,8 +9,6 @@ ms.assetid: b4b91e95-cf0f-488b-9941-4d1d81dc7661
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

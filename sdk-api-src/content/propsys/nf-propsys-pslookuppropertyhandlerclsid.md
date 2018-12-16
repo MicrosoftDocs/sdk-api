@@ -9,8 +9,6 @@ ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

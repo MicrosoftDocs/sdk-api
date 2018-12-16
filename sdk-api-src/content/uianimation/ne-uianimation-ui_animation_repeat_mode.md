@@ -9,8 +9,6 @@ ms.assetid: 5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UI_ANIMATION_REPEAT_MODE, UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation], UI_ANIMATION_REPEAT_MODE_ALTERNATE, UI_ANIMATION_REPEAT_MODE_NORMAL, uianimation.ui_animation_repeat_mode, uianimation/UI_ANIMATION_REPEAT_MODE, uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE, uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

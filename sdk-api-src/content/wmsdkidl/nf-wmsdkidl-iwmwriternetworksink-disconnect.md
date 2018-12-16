@@ -9,8 +9,6 @@ ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: eaa817be-04ac-48c2-b7de-60509b1f65c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE enumeration [Files], ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyGrowthRate, ClfsMgmtPolicyLogTail, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyNewContainerSuffix, PCLFS_MGMT_POLICY_TYPE, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Files], clfsmgmt/CLFS_MGMT_POLICY_TYPE, clfsmgmt/ClfsMgmtPolicyAutoGrow, clfsmgmt/ClfsMgmtPolicyAutoShrink, clfsmgmt/ClfsMgmtPolicyGrowthRate, clfsmgmt/ClfsMgmtPolicyLogTail, clfsmgmt/ClfsMgmtPolicyMaximumSize, clfsmgmt/ClfsMgmtPolicyMinimumSize, clfsmgmt/ClfsMgmtPolicyNewContainerExtension, clfsmgmt/ClfsMgmtPolicyNewContainerPrefix, clfsmgmt/ClfsMgmtPolicyNewContainerSize, clfsmgmt/ClfsMgmtPolicyNewContainerSuffix, clfsmgmt/PCLFS_MGMT_POLICY_TYPE, fs.clfs_mgmt_policy_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clfsmgmt.h
 req.include-header: 

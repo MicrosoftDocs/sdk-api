@@ -9,8 +9,6 @@ ms.assetid: 5105F617-9443-451D-B802-C6A241769E65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

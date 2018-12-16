@@ -9,8 +9,6 @@ ms.assetid: af85e976-cc79-4285-b553-a8001e84ec68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],RequesterName property, IX509CertificateRequestPkcs7.RequesterName, IX509CertificateRequestPkcs7.get_RequesterName, IX509CertificateRequestPkcs7::RequesterName, IX509CertificateRequestPkcs7::get_RequesterName, IX509CertificateRequestPkcs7::put_RequesterName, RequesterName property [Security], RequesterName property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::RequesterName, certenroll/IX509CertificateRequestPkcs7::get_RequesterName, certenroll/IX509CertificateRequestPkcs7::put_RequesterName, get_RequesterName, security.ix509certificaterequestpkcs7_requestername_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

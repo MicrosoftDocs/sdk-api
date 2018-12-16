@@ -9,8 +9,6 @@ ms.assetid: e28b413d-6e3e-4a1f-90ed-8b0ab88904aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceActivity interface [COM+],UnbindFromThread method, IServiceActivity.UnbindFromThread, IServiceActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IServiceActivity interface, _cos_IServiceActivity_UnbindFromThread, comsvcs/IServiceActivity::UnbindFromThread, cos.iserviceactivity_unbindfromthread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

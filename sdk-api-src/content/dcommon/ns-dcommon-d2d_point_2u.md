@@ -9,8 +9,6 @@ ms.assetid: 154e3f7b-7e3e-40e5-a1e1-762ec8950426
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_POINT_2U, D2D_POINT_2U, D2D_POINT_2U structure [Direct2D], dcommon/D2D_POINT_2U, direct2d.D2D_POINT_2U
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

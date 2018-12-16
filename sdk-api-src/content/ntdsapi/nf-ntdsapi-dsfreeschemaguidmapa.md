@@ -9,8 +9,6 @@ ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 51615c53-3239-41d6-895b-dbda68b6b4db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnclosingElement, GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetEnclosingElement method, ITextRangeProvider.GetEnclosingElement, ITextRangeProvider::GetEnclosingElement, uiauto.uiauto_ITextRangeProvider_GetEnclosingElement, uiauto_ITextRangeProvider_GetEnclosingElement, uiautomationcore/ITextRangeProvider::GetEnclosingElement, winauto.uiauto_ITextRangeProvider_GetEnclosingElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

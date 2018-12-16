@@ -9,8 +9,6 @@ ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurrentDirectoryA, GetCurrentDirectoryW, _win32_getcurrentdirectory, base.getcurrentdirectory, fs.getcurrentdirectory, winbase/GetCurrentDirectory, winbase/GetCurrentDirectoryA, winbase/GetCurrentDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

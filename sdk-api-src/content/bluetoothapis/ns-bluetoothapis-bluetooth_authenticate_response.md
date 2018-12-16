@@ -9,8 +9,6 @@ ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

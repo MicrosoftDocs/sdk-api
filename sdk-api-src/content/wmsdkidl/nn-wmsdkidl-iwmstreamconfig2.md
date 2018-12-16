@@ -9,8 +9,6 @@ ms.assetid: 3ce92541-6634-4418-a7ee-f9bcaf8f42ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], IWMStreamConfig2 interface [windows Media Format],described, IWMStreamConfig2Interface, wmformat.iwmstreamconfig2, wmsdkidl/IWMStreamConfig2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

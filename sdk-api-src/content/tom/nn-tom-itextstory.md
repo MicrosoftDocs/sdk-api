@@ -9,8 +9,6 @@ ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

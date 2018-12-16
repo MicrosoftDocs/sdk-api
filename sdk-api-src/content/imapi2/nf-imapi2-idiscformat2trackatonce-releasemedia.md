@@ -9,8 +9,6 @@ ms.assetid: 0d6f85a9-94cc-426c-8442-14eb6e4024f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],ReleaseMedia method, IDiscFormat2TrackAtOnce.ReleaseMedia, IDiscFormat2TrackAtOnce::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_releasemedia, imapi2/IDiscFormat2TrackAtOnce::ReleaseMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

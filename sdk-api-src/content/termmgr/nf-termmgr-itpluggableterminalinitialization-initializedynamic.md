@@ -9,8 +9,6 @@ ms.assetid: 4cda6540-0c27-4234-8b7e-ffff117903b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalInitialization interface [TAPI 2.2],InitializeDynamic method, ITPluggableTerminalInitialization.InitializeDynamic, ITPluggableTerminalInitialization::InitializeDynamic, InitializeDynamic, InitializeDynamic method [TAPI 2.2], InitializeDynamic method [TAPI 2.2],ITPluggableTerminalInitialization interface, _tapi3_itpluggableterminalinitialization_initializedynamic, tapi3.itpluggableterminalinitialization_initializedynamic, termmgr/ITPluggableTerminalInitialization::InitializeDynamic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastPoint, GetLastPoint method [GDI+], GetLastPoint method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetLastPoint method, GraphicsPath.GetLastPoint, GraphicsPath::GetLastPoint, _gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_, gdiplus._gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 8802266E-9D31-409E-ACE8-62A3E9E93EA3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode method, IDCompositionVisual2.SetOpacityMode, IDCompositionVisual2::SetOpacityMode, SetOpacityMode, SetOpacityMode method [DirectComposition], SetOpacityMode method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetOpacityMode, directcomp.idcompositionvisual2_setopacitymode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

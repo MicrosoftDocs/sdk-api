@@ -9,8 +9,6 @@ ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

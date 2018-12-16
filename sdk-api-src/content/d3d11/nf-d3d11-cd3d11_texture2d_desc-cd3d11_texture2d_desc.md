@@ -9,8 +9,6 @@ ms.assetid: 7901DA75-6B31-47E6-844A-C1F30A005FDD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_TEXTURE2D_DESC, CD3D11_TEXTURE2D_DESC interface [Direct3D 11],CD3D11_TEXTURE2D_DESC method, CD3D11_TEXTURE2D_DESC method [Direct3D 11], CD3D11_TEXTURE2D_DESC method [Direct3D 11],CD3D11_TEXTURE2D_DESC interface, CD3D11_TEXTURE2D_DESC.CD3D11_TEXTURE2D_DESC, CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC, CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC(const D3D11_TEXTURE2D_DESC&), d3d11/CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC, direct3d11.cd3d11_texture2d_desc_cd3d11_texture2d_desc_d3d11_texture2d_desc_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

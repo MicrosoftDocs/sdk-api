@@ -9,8 +9,6 @@ ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane method, IWMPPlayerServices.setTaskPane, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

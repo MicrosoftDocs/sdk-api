@@ -9,8 +9,6 @@ ms.assetid: 35afaef2-dc83-4b72-92e5-2fb9a75e90ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capDriverGetVersion, capDriverGetVersion, capDriverGetVersion macro [Windows Multimedia], multimedia.capdrivergetversion, vfw/capDriverGetVersion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

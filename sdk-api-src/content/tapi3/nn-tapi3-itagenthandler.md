@@ -9,8 +9,6 @@ ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

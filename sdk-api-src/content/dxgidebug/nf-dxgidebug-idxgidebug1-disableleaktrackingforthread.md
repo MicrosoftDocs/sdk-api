@@ -9,8 +9,6 @@ ms.assetid: 5A96849C-D2DB-49F2-AEE9-CDC63F970077
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableLeakTrackingForThread, DisableLeakTrackingForThread method [DXGI], DisableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],DisableLeakTrackingForThread method, IDXGIDebug1.DisableLeakTrackingForThread, IDXGIDebug1::DisableLeakTrackingForThread, direct3ddxgi.idxgidebug1_disableleaktrackingforthread, dxgidebug/IDXGIDebug1::DisableLeakTrackingForThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 525500C2-313E-4430-88B1-AA1F54A420AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpened method, IUIManagerEventSink.OnWindowOpened, IUIManagerEventSink::OnWindowOpened, OnWindowOpened, OnWindowOpened method [Text Services Framework], OnWindowOpened method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpened, tsf.iuimanagereventsink_onwindowopened
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

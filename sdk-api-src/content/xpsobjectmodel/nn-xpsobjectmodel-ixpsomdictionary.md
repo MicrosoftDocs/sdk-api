@@ -9,8 +9,6 @@ ms.assetid: f887e3d3-973c-4267-a785-6bc190c13082
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

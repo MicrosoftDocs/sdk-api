@@ -9,8 +9,6 @@ ms.assetid: 65251316-c98f-46a3-a0cf-164531ef0b46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamGroupName, GetStreamGroupName method [windows Media Format], GetStreamGroupName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetStreamGroupName method, IWMOutputMediaProps.GetStreamGroupName, IWMOutputMediaProps::GetStreamGroupName, IWMOutputMediaPropsGetStreamGroupName, wmformat.iwmoutputmediaprops_getstreamgroupname, wmsdkidl/IWMOutputMediaProps::GetStreamGroupName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

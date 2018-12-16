@@ -9,8 +9,6 @@ ms.assetid: ca02236d-9434-4db5-84af-9331f23e20a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPreview method, IWICBitmapEncoder.SetPreview, IWICBitmapEncoder::SetPreview, SetPreview, SetPreview method [Windows Imaging Component], SetPreview method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpreview, wic._wic_codec_iwicbitmapencoder_setpreview, wincodec/IWICBitmapEncoder::SetPreview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

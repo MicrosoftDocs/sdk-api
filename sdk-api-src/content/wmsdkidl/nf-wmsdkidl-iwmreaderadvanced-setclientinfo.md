@@ -9,8 +9,6 @@ ms.assetid: dec93690-8285-4672-bf70-63f3c10294bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetClientInfo method, IWMReaderAdvanced.SetClientInfo, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

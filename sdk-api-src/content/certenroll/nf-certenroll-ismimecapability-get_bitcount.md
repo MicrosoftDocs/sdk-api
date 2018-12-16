@@ -9,8 +9,6 @@ ms.assetid: 582f5d85-9045-4c6f-a4c0-869e6f9e9b9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8790fb9b-38df-42a4-9125-2c04d46aef0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCaptionText method, IMathInputControl.SetCaptionText, IMathInputControl::SetCaptionText, SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

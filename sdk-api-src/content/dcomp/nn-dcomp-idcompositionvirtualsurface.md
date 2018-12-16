@@ -9,8 +9,6 @@ ms.assetid: 51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVirtualSurface, IDCompositionVirtualSurface interface [DirectComposition], IDCompositionVirtualSurface interface [DirectComposition],described, dcomp/IDCompositionVirtualSurface, directcomp.idcompositionvirtualsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

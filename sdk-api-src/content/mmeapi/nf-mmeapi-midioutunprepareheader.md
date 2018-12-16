@@ -9,8 +9,6 @@ ms.assetid: c36fdd79-afd4-42ce-b251-d0630243af77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutUnprepareHeader, midiOutUnprepareHeader, midiOutUnprepareHeader function [Windows Multimedia], mmeapi/midiOutUnprepareHeader, multimedia.midioutunprepareheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

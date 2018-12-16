@@ -9,8 +9,6 @@ ms.assetid: 37F8ABA7-EDA3-4775-8B86-470FC4F95662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Evict, Evict method, Evict method,ID3D12Device interface, ID3D12Device interface,Evict method, ID3D12Device.Evict, ID3D12Device::Evict, d3d12/ID3D12Device::Evict, direct3d12.id3d12device_evict
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

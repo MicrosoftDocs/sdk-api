@@ -9,8 +9,6 @@ ms.assetid: cbcf8fc6-c5d6-476b-9490-4b87fd6a8a56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpStrToOid, SnmpStrToOid function [SNMP], _snmp_snmpstrtooid, snmp.snmpstrtooid, winsnmp/SnmpStrToOid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

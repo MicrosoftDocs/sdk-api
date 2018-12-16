@@ -9,8 +9,6 @@ ms.assetid: 093c0014-fa03-4609-a38f-5e69a3d3c4d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginOrderedGroup, BeginOrderedGroup method [Windows Sync], BeginOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],BeginOrderedGroup method, ISyncChangeBatchBase.BeginOrderedGroup, ISyncChangeBatchBase::BeginOrderedGroup, winsync.isyncchangebatchbase_beginorderedgroup, winsync/ISyncChangeBatchBase::BeginOrderedGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

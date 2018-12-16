@@ -9,8 +9,6 @@ ms.assetid: D8C38635-8D7B-4C05-87D5-CCDCF31A4070
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFactory4 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory4.TranslateColorGlyphRun, IDWriteFactory4::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory4 interface, directwrite.idwritefactory4_translatecolorglyphrun, dwrite_3/IDWriteFactory4::TranslateColorGlyphRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

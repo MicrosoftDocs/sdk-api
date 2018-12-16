@@ -9,8 +9,6 @@ ms.assetid: 0C079508-C330-4391-82CB-54DAAFBACB87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12CreateVersionedRootSignatureDeserializer, D3D12CreateVersionedRootSignatureDeserializer function, d3d12/D3D12CreateVersionedRootSignatureDeserializer, direct3d12.d3d12createversionedrootsignaturedeserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 

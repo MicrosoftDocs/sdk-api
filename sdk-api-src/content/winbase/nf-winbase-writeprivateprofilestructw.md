@@ -9,8 +9,6 @@ ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

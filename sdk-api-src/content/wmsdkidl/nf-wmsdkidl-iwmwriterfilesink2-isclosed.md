@@ -9,8 +9,6 @@ ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: 462b028a-9f74-4367-b89b-97fd9be301ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SECPKG_SESSIONINFO_TYPE, SECPKG_SESSIONINFO_TYPE enumeration [Security], SecSessionPrimaryCred, ntsecpkg/SECPKG_SESSIONINFO_TYPE, ntsecpkg/SecSessionPrimaryCred, security.secpkg_sessioninfo_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 

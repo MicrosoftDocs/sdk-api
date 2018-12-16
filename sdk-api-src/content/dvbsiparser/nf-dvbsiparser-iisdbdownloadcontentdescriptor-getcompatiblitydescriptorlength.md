@@ -9,8 +9,6 @@ ms.assetid: b8fc770c-aa37-4f97-beb5-6e5747904a6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompatiblityDescriptorLength, GetCompatiblityDescriptorLength method [Microsoft TV Technologies], GetCompatiblityDescriptorLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCompatiblityDescriptorLength method, IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

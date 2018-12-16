@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR), Metafile.Metafile(const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_filename_, gdiplus._gdiplus_CLASS_Metafile_Metafile_filename_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

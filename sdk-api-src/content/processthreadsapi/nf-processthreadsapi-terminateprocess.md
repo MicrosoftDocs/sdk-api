@@ -9,8 +9,6 @@ ms.assetid: 0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TerminateProcess, TerminateProcess function, _win32_terminateprocess, base.terminateprocess, processthreadsapi/TerminateProcess, winbase/TerminateProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

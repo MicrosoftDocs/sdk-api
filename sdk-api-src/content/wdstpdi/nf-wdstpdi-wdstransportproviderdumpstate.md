@@ -9,8 +9,6 @@ ms.assetid: e7a7d866-2954-46fb-8356-dbd7761efcf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callback, WdsTransportProviderDumpState callback function [Windows Deployment Services], wds.wdstransportproviderdumpstate, wdstpdi/WdsTransportProviderDumpState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

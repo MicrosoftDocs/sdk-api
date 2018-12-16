@@ -9,8 +9,6 @@ ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 

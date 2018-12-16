@@ -9,8 +9,6 @@ ms.assetid: 0f6252f4-ab99-4244-be77-92144eed4e3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_POLICY_STATE, WS_POLICY_STATE enumeration [Web Services for Windows], WS_POLICY_STATE_CREATED, WS_POLICY_STATE_FAULTED, webservices/WS_POLICY_STATE, webservices/WS_POLICY_STATE_CREATED, webservices/WS_POLICY_STATE_FAULTED, wsw.ws_policy_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

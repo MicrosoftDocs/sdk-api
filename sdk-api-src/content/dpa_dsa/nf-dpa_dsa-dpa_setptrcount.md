@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\macros\dpa_setptrcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DPA_SetPtrCount, DPA_SetPtrCount macro [Windows Controls], _shell_DPA_SetPtrCount, _shell_DPA_SetPtrCount_cpp, controls.DPA_SetPtrCount, controls._shell_DPA_SetPtrCount, dpa_dsa/DPA_SetPtrCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 

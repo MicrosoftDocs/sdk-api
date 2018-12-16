@@ -9,8 +9,6 @@ ms.assetid: d92a9bb0-9761-471b-85d2-af0bcdbbda34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

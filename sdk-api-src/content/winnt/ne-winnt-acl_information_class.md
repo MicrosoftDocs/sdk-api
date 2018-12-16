@@ -9,8 +9,6 @@ ms.assetid: e1abf877-9757-4ee4-b7da-f3e7eb53bddd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ACL_INFORMATION_CLASS, ACL_INFORMATION_CLASS enumeration [Security], AclRevisionInformation, AclSizeInformation, _win32_acl_information_class_str, security.acl_information_class, winnt/ACL_INFORMATION_CLASS, winnt/AclRevisionInformation, winnt/AclSizeInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

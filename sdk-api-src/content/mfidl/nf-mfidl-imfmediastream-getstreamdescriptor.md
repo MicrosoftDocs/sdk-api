@@ -9,8 +9,6 @@ ms.assetid: 574eacfb-3acd-4b47-9c25-3a67aae01178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStreamDescriptor method [Media Foundation], GetStreamDescriptor method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetStreamDescriptor method, IMFMediaStream.GetStreamDescriptor, IMFMediaStream::GetStreamDescriptor, mf.imfmediastream_getstreamdescriptor, mfidl/IMFMediaStream::GetStreamDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

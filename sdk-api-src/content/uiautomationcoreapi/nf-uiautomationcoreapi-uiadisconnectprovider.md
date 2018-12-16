@@ -9,8 +9,6 @@ ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

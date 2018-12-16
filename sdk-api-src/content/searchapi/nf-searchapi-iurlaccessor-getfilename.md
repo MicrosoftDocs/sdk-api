@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileName, GetFileName method [search], GetFileName method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetFileName method, IUrlAccessor.GetFileName, IUrlAccessor::GetFileName, _search_IUrlAccessor_GetFileName, search._search_IUrlAccessor_GetFileName, searchapi/IUrlAccessor::GetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

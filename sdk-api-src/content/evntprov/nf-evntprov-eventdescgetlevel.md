@@ -9,8 +9,6 @@ ms.assetid: 29f356ad-c957-4a1e-abf8-5c7e6212c92e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventDescGetLevel, EventDescGetLevel function [ETW], base.eventdescgetlevel_func, etw.eventdescgetlevel_func, evntprov/EventDescGetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

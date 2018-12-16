@@ -9,8 +9,6 @@ ms.assetid: 1cec9fa3-4395-4047-a866-47c3bae9d875
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GamutShell, GamutShell structure [Windows Color System], _color_GamutShell_str, wcs.gamutshell, wcsplugin/GamutShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

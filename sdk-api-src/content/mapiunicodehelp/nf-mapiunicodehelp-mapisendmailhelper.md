@@ -9,8 +9,6 @@ ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mapiunicodehelp.h
 req.include-header: 

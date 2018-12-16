@@ -9,8 +9,6 @@ ms.assetid: 6bbe53ab-bd03-4445-8d36-0186a43da451
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCount method, ITextStrings.GetCount, ITextStrings::GetCount, controls.itextstrings_getcount, tom/ITextStrings::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

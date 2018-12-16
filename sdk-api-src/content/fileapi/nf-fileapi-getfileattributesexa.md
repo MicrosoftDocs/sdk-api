@@ -9,8 +9,6 @@ ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

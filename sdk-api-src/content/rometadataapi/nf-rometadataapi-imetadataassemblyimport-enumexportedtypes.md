@@ -9,8 +9,6 @@ ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

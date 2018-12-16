@@ -9,8 +9,6 @@ ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindDebugInfoFile, FindDebugInfoFile function, _win32_finddebuginfofile, base.finddebuginfofile, dbghelp/FindDebugInfoFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

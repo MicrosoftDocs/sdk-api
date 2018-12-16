@@ -9,8 +9,6 @@ ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecName, GetCodecName method [windows Media Format], GetCodecName method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecName method, IWMCodecInfo2.GetCodecName, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

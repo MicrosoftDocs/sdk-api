@@ -9,8 +9,6 @@ ms.assetid: AFBDF412-D0B3-440F-92E2-25BE3083C40B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(float), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

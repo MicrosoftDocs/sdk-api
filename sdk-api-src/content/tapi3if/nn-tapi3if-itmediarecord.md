@@ -9,8 +9,6 @@ ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

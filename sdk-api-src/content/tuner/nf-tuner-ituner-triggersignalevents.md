@@ -9,8 +9,6 @@ ms.assetid: 9cff8ee2-d474-4ea5-a284-608eb0288c9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],TriggerSignalEvents method, ITuner.TriggerSignalEvents, ITuner::TriggerSignalEvents, ITunerTriggerSignalEvents, TriggerSignalEvents, TriggerSignalEvents method [Microsoft TV Technologies], TriggerSignalEvents method [Microsoft TV Technologies],ITuner interface, mstv.ituner_triggersignalevents, tuner/ITuner::TriggerSignalEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

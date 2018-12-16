@@ -9,8 +9,6 @@ ms.assetid: 430ff635-8c45-44d1-bced-d075faf2bd30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerNameToPeerHostName, PeerNameToPeerHostName function [Peer Networking], p2p.peernametopeerhostname, p2p/PeerNameToPeerHostName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

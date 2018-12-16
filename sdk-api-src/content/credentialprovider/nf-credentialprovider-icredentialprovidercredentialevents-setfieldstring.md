@@ -9,8 +9,6 @@ ms.assetid: f391177a-0652-4a94-b31c-111fb82c371a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldString method, ICredentialProviderCredentialEvents.SetFieldString, ICredentialProviderCredentialEvents::SetFieldString, SetFieldString, SetFieldString method [Windows Shell], SetFieldString method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldString, credentialprovider/ICredentialProviderCredentialEvents::SetFieldString, shell.ICredentialProviderCredentialEvents_SetFieldString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

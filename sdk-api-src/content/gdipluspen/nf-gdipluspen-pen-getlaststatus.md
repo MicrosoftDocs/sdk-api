@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Pen class, Pen class [GDI+],GetLastStatus method, Pen.GetLastStatus, Pen::GetLastStatus, _gdiplus_CLASS_Pen_GetLastStatus_, gdiplus._gdiplus_CLASS_Pen_GetLastStatus_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 0a8743da-ef4a-4b00-b9be-5550896d147a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

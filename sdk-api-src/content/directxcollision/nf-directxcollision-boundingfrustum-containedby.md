@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.ContainedBy(XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],ContainedBy method, BoundingFrustum.ContainedBy, BoundingFrustum::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_containedby
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

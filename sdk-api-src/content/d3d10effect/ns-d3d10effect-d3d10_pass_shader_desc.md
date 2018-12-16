@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_pass_shader_desc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10_PASS_SHADER_DESC, D3D10_PASS_SHADER_DESC structure [Direct3D 10], d3d10effect/D3D10_PASS_SHADER_DESC, d6701cbf-a851-873f-5e5e-7ef5dd77bdb1, direct3d10.d3d10_pass_shader_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10effect.h
 req.include-header: D3D10.h

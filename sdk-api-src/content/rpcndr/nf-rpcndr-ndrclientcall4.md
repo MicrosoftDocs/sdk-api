@@ -9,8 +9,6 @@ ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

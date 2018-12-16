@@ -9,8 +9,6 @@ ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

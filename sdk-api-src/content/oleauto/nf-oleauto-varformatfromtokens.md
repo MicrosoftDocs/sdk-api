@@ -9,8 +9,6 @@ ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

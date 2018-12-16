@@ -9,8 +9,6 @@ ms.assetid: c6377dbd-ffd9-458b-9e03-5a832f095818
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSharedBitmap, CreateSharedBitmap method [Direct2D], CreateSharedBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSharedBitmap method, ID2D1RenderTarget.CreateSharedBitmap, ID2D1RenderTarget::CreateSharedBitmap, d2d1/ID2D1RenderTarget::CreateSharedBitmap, direct2d.ID2D1RenderTarget_CreateSharedBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

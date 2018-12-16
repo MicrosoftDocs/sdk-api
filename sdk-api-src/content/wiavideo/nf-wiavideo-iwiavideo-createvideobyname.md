@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobyname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVideoByName, CreateVideoByName method [WIA], CreateVideoByName method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByName method, IWiaVideo.CreateVideoByName, IWiaVideo::CreateVideoByName, _wia_IWiaVideo_CreateVideoByName, wia._wia_IWiaVideo_CreateVideoByName, wiavideo/IWiaVideo::CreateVideoByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

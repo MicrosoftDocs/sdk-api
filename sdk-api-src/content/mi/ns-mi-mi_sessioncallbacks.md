@@ -9,8 +9,6 @@ ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Management Infrastructure (MI)], mi/MI_SessionCallbacks, wmi_v2.mi_sessioncallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

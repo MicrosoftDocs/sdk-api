@@ -9,8 +9,6 @@ ms.assetid: fa9ed944-f917-4fdf-a52a-10a7ade8f2ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

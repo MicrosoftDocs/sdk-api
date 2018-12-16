@@ -9,8 +9,6 @@ ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

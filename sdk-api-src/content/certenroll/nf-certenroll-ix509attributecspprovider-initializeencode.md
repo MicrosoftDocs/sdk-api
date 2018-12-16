@@ -9,8 +9,6 @@ ms.assetid: b0b45ea2-b682-4065-8624-08c34581b5ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeEncode method, IX509AttributeCspProvider.InitializeEncode, IX509AttributeCspProvider::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeEncode, security.ix509attributecspprovider_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

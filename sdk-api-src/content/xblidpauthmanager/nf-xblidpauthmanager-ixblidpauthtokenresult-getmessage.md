@@ -9,8 +9,6 @@ ms.assetid: 733EF96D-EDB5-4C8C-83C9-9CE225C510FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

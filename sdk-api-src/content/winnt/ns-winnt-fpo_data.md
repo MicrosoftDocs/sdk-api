@@ -9,8 +9,6 @@ ms.assetid: 916dc7d5-ed88-4573-b696-fd00bbf4e086
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PFPO_DATA, FPO_DATA, FPO_DATA structure, FRAME_FPO, FRAME_NONFPO, FRAME_TRAP, FRAME_TSS, PFPO_DATA, PFPO_DATA structure pointer, _FPO_DATA, _win32_fpo_data_str, base.fpo_data_str, winnt/FPO_DATA, winnt/PFPO_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_80oj_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExtensions, GetExtensions method [Fax Service], GetExtensions method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetExtensions method, IFaxInboundRouting.GetExtensions, IFaxInboundRouting::GetExtensions, _mfax_faxinboundrouting.getextensions_cpp, fax._mfax_faxinboundrouting_getextensions_cpp, faxcomex/IFaxInboundRouting::GetExtensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

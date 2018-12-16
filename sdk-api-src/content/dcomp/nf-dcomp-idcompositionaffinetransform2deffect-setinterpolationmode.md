@@ -9,8 +9,6 @@ ms.assetid: 29994FF1-F720-4D2A-9B66-1D5E9F1EDFF5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetInterpolationMode method, IDCompositionAffineTransform2DEffect.SetInterpolationMode, IDCompositionAffineTransform2DEffect::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [DirectComposition], SetInterpolationMode method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetInterpolationMode, directcomp.idcompositionaffinetransform2deffect_setinterpolationmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 11e10b9f-fd98-44f2-a829-d9ed3a5be189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 11e10b9f-fd98-44f2-a829-d9ed3a5be189, GetUser, GetUser method [Media Foundation], GetUser method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetUser method, IMFNetCredential.GetUser, IMFNetCredential::GetUser, mf.imfnetcredential_getuser, mfidl/IMFNetCredential::GetUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

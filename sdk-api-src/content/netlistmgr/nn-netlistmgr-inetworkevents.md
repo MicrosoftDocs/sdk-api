@@ -9,8 +9,6 @@ ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

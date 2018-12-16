@@ -9,8 +9,6 @@ ms.assetid: 4a6b907a-2475-48c8-afd7-e212144bc165
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_LastUsedUserSectorInImage method, IRawCDImageCreator.get_LastUsedUserSectorInImage, IRawCDImageCreator::get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage method [IMAPI], get_LastUsedUserSectorInImage method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_lastusedusersectorinimage, imapi2/IRawCDImageCreator::get_LastUsedUserSectorInImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

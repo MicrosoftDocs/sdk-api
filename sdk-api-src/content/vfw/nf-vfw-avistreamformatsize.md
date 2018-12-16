@@ -9,8 +9,6 @@ ms.assetid: e29bbbc3-28b2-44d3-b1f1-66ad2b29a7a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamFormatSize, AVIStreamFormatSize macro [Windows Multimedia], _win32_AVIStreamFormatSize, multimedia.avistreamformatsize, vfw/AVIStreamFormatSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

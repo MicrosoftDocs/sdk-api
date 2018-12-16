@@ -9,8 +9,6 @@ ms.assetid: 1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPAINTSTRUCT, *NPPAINTSTRUCT, *PPAINTSTRUCT, PAINTSTRUCT, PAINTSTRUCT structure [Windows GDI], PPAINTSTRUCT, PPAINTSTRUCT structure pointer [Windows GDI], _win32_PAINTSTRUCT_str, gdi.paintstruct, tagPAINTSTRUCT, winuser/PAINTSTRUCT, winuser/PPAINTSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

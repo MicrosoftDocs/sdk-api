@@ -9,8 +9,6 @@ ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

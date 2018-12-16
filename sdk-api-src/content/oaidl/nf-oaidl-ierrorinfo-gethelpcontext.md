@@ -9,8 +9,6 @@ ms.assetid: aadfc151-50ed-4a31-b53a-ff9d74dceb6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHelpContext, GetHelpContext method [Automation], GetHelpContext method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpContext method, IErrorInfo.GetHelpContext, IErrorInfo::GetHelpContext, _oa96_IErrorInfo_GetHelpContext, automat.ierrorinfo_gethelpcontext, oaidl/IErrorInfo::GetHelpContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

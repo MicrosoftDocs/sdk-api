@@ -9,8 +9,6 @@ ms.assetid: 73cba491-1aa6-4bd7-bcd6-95b5d85c9457
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITableItemProvider, ITableItemProvider interface [Windows Accessibility], ITableItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableItemProvider, uiauto_ITableItemProvider, uiautomationcore/ITableItemProvider, winauto.uiauto_ITableItemProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

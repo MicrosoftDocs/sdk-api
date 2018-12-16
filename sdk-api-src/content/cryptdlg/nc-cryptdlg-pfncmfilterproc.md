@@ -9,8 +9,6 @@ ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xapofx.CreateFX(CLSID,IUnknown,void,UINT32)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFX, CreateFX function [XAudio2 Audio Mixing APIs], xapofx/CreateFX, xaudio2.createfx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xapofx.h
 req.include-header: 

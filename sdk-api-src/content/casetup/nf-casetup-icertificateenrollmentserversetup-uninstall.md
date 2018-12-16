@@ -9,8 +9,6 @@ ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

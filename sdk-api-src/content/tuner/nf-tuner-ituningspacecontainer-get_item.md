@@ -9,8 +9,6 @@ ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

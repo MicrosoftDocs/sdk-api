@@ -9,8 +9,6 @@ ms.assetid: d000c03e-c0ad-4054-b2eb-1aca34a95816
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], virtdisk/ResizeVirtualDisk, vstor.resizevirtualdisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 7050ed77-f4bd-4c20-a661-fb0ea26af3a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguage method, IWMPControls3.put_currentAudioLanguage, IWMPControls3::put_currentAudioLanguage, IWMPControls3put_currentAudioLanguage, put_currentAudioLanguage, put_currentAudioLanguage method [Windows Media Player], put_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguage, wmp/IWMPControls3::put_currentAudioLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

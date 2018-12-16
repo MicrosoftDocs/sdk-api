@@ -9,8 +9,6 @@ ms.assetid: e310cc06-acc0-4a65-bea7-c9b39900b7ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Reset method, IEnumDot11AdHocInterfaces.Reset, IEnumDot11AdHocInterfaces::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Reset, nwifi.ienumdot11adhocinterfaces_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

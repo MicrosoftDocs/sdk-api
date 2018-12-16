@@ -9,8 +9,6 @@ ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

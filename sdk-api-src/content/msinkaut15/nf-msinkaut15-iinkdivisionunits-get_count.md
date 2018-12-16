@@ -9,8 +9,6 @@ ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 

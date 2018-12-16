@@ -9,8 +9,6 @@ ms.assetid: 5f36b4f1-37e4-48ed-a331-d4edc7d3413b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_OPEN_CHANNEL_CALLBACK, WS_OPEN_CHANNEL_CALLBACK callback, WS_OPEN_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPEN_CHANNEL_CALLBACK, wsw.ws_open_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

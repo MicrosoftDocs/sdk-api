@@ -9,8 +9,6 @@ ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

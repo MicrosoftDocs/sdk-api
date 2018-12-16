@@ -9,8 +9,6 @@ ms.assetid: 4d35370f-506f-45cd-9d75-e48c640d8f4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [Automation],described, _oa96_ITypeComp_Interface, automat.itypecomp, oaidl/ITypeComp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

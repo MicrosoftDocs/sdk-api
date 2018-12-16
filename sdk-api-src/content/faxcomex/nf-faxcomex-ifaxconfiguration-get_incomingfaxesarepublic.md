@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\incoming
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],IncomingFaxesArePublic property, IFaxConfiguration.IncomingFaxesArePublic, IFaxConfiguration.get_IncomingFaxesArePublic, IFaxConfiguration::IncomingFaxesArePublic, IFaxConfiguration::get_IncomingFaxesArePublic, IFaxConfiguration::put_IncomingFaxesArePublic, IncomingFaxesArePublic property [Fax Service], IncomingFaxesArePublic property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_IncomingFaxesArePublic, fax._mfax_IFaxConfiguration_IncomingFaxesArePublic, faxcomex/IFaxConfiguration::IncomingFaxesArePublic, faxcomex/IFaxConfiguration::get_IncomingFaxesArePublic, faxcomex/IFaxConfiguration::put_IncomingFaxesArePublic, get_IncomingFaxesArePublic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

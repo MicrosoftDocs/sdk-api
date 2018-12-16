@@ -9,8 +9,6 @@ ms.assetid: 6017658a-b4ce-496a-bf30-b7473f5d43c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NameValueService interface [Microsoft TV Technologies],SetValue method, IBDA_NameValueService.SetValue, IBDA_NameValueService::SetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IBDA_NameValueService interface, bdaiface/IBDA_NameValueService::SetValue, mstv.ibda_namevalueservice_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

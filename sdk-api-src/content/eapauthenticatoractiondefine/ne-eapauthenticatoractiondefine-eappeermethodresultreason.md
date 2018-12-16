@@ -9,8 +9,6 @@ ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMethodResultReason enumeration [EAPHost], EapPeerMethodResultReasonOle, EapPeerMethodResultSuccess, EapPeerMethodResultUnknown, eapauthenticatoractiondefine/EapPeerMethodResultFailure, eapauthenticatoractiondefine/EapPeerMethodResultReason, eapauthenticatoractiondefine/EapPeerMethodResultSuccess, eapauthenticatoractiondefine/EapPeerMethodResultUnknown, eaphost.eappeermethodresultreason
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 

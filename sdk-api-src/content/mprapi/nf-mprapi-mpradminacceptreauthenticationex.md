@@ -9,8 +9,6 @@ ms.assetid: 32ea0cb5-f67d-4dcc-b5d0-705b6847b163
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

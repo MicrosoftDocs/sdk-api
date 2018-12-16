@@ -9,8 +9,6 @@ ms.assetid: 070b79f2-8ed7-4bb3-85ce-a946b7cf0e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaAsyncContentLoadedEventArgs, UiaAsyncContentLoadedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaAsyncContentLoadedEventArgsStruct, uiauto_UiaAsyncContentLoadedEventArgsStruct, uiautomationcoreapi/UiaAsyncContentLoadedEventArgs, winauto.uiauto_UiaAsyncContentLoadedEventArgsStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

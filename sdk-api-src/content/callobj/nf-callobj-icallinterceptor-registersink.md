@@ -9,8 +9,6 @@ ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICallInterceptor interface [COM],RegisterSink method, ICallInterceptor.RegisterSink, ICallInterceptor::RegisterSink, RegisterSink, RegisterSink method [COM], RegisterSink method [COM],ICallInterceptor interface, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

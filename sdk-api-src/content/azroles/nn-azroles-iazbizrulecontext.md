@@ -9,8 +9,6 @@ ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzBizRuleContext, IAzBizRuleContext interface [Security], IAzBizRuleContext interface [Security],described, azroles/IAzBizRuleContext, security.azbizrulecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

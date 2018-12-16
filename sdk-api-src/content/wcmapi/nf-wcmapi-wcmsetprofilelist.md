@@ -9,8 +9,6 @@ ms.assetid: c5efb2e8-c4c4-4e13-9f7a-ea2a40744655
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WcmSetProfileList, WcmSetProfileList function [Windows Connection Manager], wcm.wcmsetprofilelist, wcmapi/WcmSetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

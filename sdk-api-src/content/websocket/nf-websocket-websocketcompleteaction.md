@@ -9,8 +9,6 @@ ms.assetid: e9b90176-c76f-42c2-b378-834a690bfe72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocket Protocol Component API], websock.websocketcompleteaction, websocket/WebSocketCompleteAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

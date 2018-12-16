@@ -9,8 +9,6 @@ ms.assetid: f6525a06-a3b0-4989-8132-fa8f1ad2fec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows Deployment Services], wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOptionRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

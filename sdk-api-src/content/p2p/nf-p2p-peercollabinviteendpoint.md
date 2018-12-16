@@ -9,8 +9,6 @@ ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer Networking], p2p.peercollabinviteendpoint, p2p/PeerCollabInviteEndpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

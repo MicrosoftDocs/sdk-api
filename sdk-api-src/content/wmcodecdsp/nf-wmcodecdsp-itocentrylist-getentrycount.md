@@ -9,8 +9,6 @@ ms.assetid: 74c45032-578d-4ee1-a13d-f95646f27ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEntryCount, GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryCount method, ITocEntryList.GetEntryCount, ITocEntryList::GetEntryCount, codecapi.itocentrylist_getentrycount, mf.itocentrylist_getentrycount, wmcodecdsp/ITocEntryList::GetEntryCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

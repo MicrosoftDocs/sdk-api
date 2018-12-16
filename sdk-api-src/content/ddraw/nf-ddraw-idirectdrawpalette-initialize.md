@@ -9,8 +9,6 @@ ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirectDrawPalette.Initialize, IDirectDrawPalette::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

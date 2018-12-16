@@ -9,8 +9,6 @@ ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

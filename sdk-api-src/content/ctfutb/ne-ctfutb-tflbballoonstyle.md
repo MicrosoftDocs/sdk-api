@@ -9,8 +9,6 @@ ms.assetid: c79eb490-b950-4d49-bdf9-821f3706446d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_LB_BALLOON_MISS, TF_LB_BALLOON_RECO, TF_LB_BALLOON_SHOW, TfLBBalloonStyle, TfLBBalloonStyle enumeration [Text Services Framework], _tsf_tflbballoonstyle_ref, ctfutb/TF_LB_BALLOON_MISS, ctfutb/TF_LB_BALLOON_RECO, ctfutb/TF_LB_BALLOON_SHOW, ctfutb/TfLBBalloonStyle, tsf.tflbballoonstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ctfutb.h
 req.include-header: 

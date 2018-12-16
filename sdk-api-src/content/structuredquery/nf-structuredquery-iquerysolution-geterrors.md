@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\ge
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

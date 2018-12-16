@@ -9,8 +9,6 @@ ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackSelected method, IMFTimedTextNotify.TrackSelected, IMFTimedTextNotify::TrackSelected, TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

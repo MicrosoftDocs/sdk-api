@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

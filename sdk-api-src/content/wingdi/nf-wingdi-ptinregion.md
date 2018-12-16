@@ -9,8 +9,6 @@ ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

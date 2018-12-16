@@ -9,8 +9,6 @@ ms.assetid: 6c4a644c-033f-4654-b96d-0379e9ac0bb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], SCardLocateCardsByATRA, SCardLocateCardsByATRW, _smart_scardlocatecardsbyatr, security.scardlocatecardsbyatr, winscard/SCardLocateCardsByATR, winscard/SCardLocateCardsByATRA, winscard/SCardLocateCardsByATRW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

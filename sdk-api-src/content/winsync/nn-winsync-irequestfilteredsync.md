@@ -9,8 +9,6 @@ ms.assetid: e4b76bb3-d572-4441-94db-7088e881ede2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRequestFilteredSync, IRequestFilteredSync interface [Windows Sync], IRequestFilteredSync interface [Windows Sync],described, winsync.irequestfilteredsync, winsync/IRequestFilteredSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

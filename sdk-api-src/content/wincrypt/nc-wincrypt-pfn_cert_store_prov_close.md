@@ -9,8 +9,6 @@ ms.assetid: 2d0aa2c2-e79f-485c-ad47-6d9672c778da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertStoreProvCloseCallback, PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

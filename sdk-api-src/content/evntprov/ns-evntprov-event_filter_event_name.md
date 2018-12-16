@@ -9,8 +9,6 @@ ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 

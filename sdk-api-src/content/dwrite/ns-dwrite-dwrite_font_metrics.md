@@ -9,8 +9,6 @@ ms.assetid: ffbf987c-145e-4b93-a48f-8948944c6e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_FONT_METRICS, DWRITE_FONT_METRICS structure [Direct Write], directwrite.dwrite_font_metrics, dwrite/DWRITE_FONT_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

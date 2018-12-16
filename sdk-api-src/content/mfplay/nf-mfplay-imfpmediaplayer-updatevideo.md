@@ -9,8 +9,6 @@ ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

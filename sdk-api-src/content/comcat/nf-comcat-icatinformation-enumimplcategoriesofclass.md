@@ -9,8 +9,6 @@ ms.assetid: 82d938b0-c05d-4bd9-b33f-c7944ed1399b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumImplCategoriesOfClass, EnumImplCategoriesOfClass method [COM], EnumImplCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumImplCategoriesOfClass method, ICatInformation.EnumImplCategoriesOfClass, ICatInformation::EnumImplCategoriesOfClass, _com_icatinformation_enumimplcategoriesofclass, com.icatinformation_enumimplcategoriesofclass, comcat/ICatInformation::EnumImplCategoriesOfClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1CD32898-90B1-4523-8C97-985CA9F7D92B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfStorageFilter method, IDXGIInfoQueue.PushCopyOfStorageFilter, IDXGIInfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [DXGI], PushCopyOfStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofstoragefilter, dxgidebug/IDXGIInfoQueue::PushCopyOfStorageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

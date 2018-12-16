@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

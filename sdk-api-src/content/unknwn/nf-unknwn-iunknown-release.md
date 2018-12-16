@@ -9,8 +9,6 @@ ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwn/IUnknown::Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: unknwn.h
 req.include-header: 

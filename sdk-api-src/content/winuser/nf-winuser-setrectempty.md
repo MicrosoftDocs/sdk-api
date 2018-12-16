@@ -9,8 +9,6 @@ ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_4nqr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirtyDays property [Fax Service], DirtyDays property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DirtyDays property, IFaxServer.DirtyDays, IFaxServer.get_DirtyDays, IFaxServer.put_DirtyDays, IFaxServer::DirtyDays, IFaxServer::get_DirtyDays, IFaxServer::put_DirtyDays, _mfax_ifaxserver_get_dirtydays, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_dirtydays_cpp, fax._mfax_ifaxserver_get_dirtydays, faxcom/IFaxServer::DirtyDays, faxcom/IFaxServer::get_DirtyDays, faxcom/IFaxServer::put_DirtyDays, put_DirtyDays
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

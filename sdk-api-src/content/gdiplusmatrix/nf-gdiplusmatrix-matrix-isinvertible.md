@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsInvertible, IsInvertible method [GDI+], IsInvertible method [GDI+],Matrix class, Matrix class [GDI+],IsInvertible method, Matrix.IsInvertible, Matrix::IsInvertible, _gdiplus_CLASS_Matrix_IsInvertible_, gdiplus._gdiplus_CLASS_Matrix_IsInvertible_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

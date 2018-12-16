@@ -9,8 +9,6 @@ ms.assetid: 941714b8-c329-4768-9c48-86fa806550c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Approve, Approve method [windows Media Format], Approve method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],Approve method, IWMRegisteredDevice.Approve, IWMRegisteredDevice::Approve, IWMRegisteredDeviceApprove, wmformat.iwmregistereddevice_approve, wmsdkidl/IWMRegisteredDevice::Approve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

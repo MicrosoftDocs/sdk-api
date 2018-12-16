@@ -9,8 +9,6 @@ ms.assetid: 1f786de4-9498-49ef-b884-7e5f69cefe4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTextAnalyzer, CreateTextAnalyzer method [Direct Write], CreateTextAnalyzer method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextAnalyzer method, IDWriteFactory.CreateTextAnalyzer, IDWriteFactory::CreateTextAnalyzer, directwrite.IDWriteFactory_CreateTextAnalyzer, dwrite/IDWriteFactory::CreateTextAnalyzer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

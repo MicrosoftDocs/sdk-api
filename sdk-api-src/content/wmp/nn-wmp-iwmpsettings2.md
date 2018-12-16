@@ -9,8 +9,6 @@ ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG structure [Security], PCRYPT_PROVIDER_REG, PCRYPT_PROVIDER_REG structure pointer [Security], bcrypt/CRYPT_PROVIDER_REG, bcrypt/PCRYPT_PROVIDER_REG, security.crypt_provider_reg"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

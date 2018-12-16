@@ -9,8 +9,6 @@ ms.assetid: 63ea910a-b9d7-43a3-97ae-2f9c26b52059
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminMIBServerDisconnect, MprAdminMIBServerDisconnect function [RAS], _mpr_mpradminmibserverdisconnect, mprapi/MprAdminMIBServerDisconnect, rras.mpradminmibserverdisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

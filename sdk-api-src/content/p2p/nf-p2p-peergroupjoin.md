@@ -9,8 +9,6 @@ ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

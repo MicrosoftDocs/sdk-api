@@ -9,8 +9,6 @@ ms.assetid: 3997e444-e90a-417f-a75c-69363b4c82d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

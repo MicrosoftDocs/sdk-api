@@ -9,8 +9,6 @@ ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetXPtr(XMVECTOR,const flo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSetXPtr, XMVectorSetXPtr, XMVectorSetXPtr method [DirectX Math Support APIs], dxmath.xmvectorsetxptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

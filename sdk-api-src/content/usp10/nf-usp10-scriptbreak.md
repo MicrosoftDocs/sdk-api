@@ -9,8 +9,6 @@ ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

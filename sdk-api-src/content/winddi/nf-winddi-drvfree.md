@@ -9,8 +9,6 @@ ms.assetid: 829e8128-f57f-433c-9c09-7e4dc0ef54be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml, display.drvfree, winddi/DrvFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

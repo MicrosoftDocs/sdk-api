@@ -9,8 +9,6 @@ ms.assetid: 2ec39edc-7819-41a5-8798-dc51c00ba85e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure [Security], PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure pointer [Security], authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, security.authz_registration_object_type_name_offset"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

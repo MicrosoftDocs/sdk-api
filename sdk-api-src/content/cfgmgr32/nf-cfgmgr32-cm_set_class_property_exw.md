@@ -9,8 +9,6 @@ ms.assetid: A2232661-DA67-40BB-81B9-0BC7851A6E25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Set_Class_Property_ExW, CM_Set_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Class_Property_ExW, devinst.cm_set_class_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

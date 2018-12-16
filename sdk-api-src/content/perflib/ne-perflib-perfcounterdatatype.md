@@ -9,8 +9,6 @@ ms.assetid: E64C73F0-034E-408B-8537-CE6855C01347
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PERF_COUNTERSET, PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PerfCounterDataType, PerfCounterDataType enumeration [Perf], perf.perfcounterdatatype, perflib/PERF_COUNTERSET, perflib/PERF_ERROR_RETURN, perflib/PERF_MULTIPLE_COUNTERS, perflib/PERF_MULTIPLE_INSTANCES, perflib/PERF_SINGLE_COUNTER, perflib/PerfCounterDataType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: perflib.h
 req.include-header: 

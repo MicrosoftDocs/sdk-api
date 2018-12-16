@@ -9,8 +9,6 @@ ms.assetid: 467BF7B9-184E-409F-B5B7-F95E9891C2CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSyncMergeHandler, IFileSyncMergeHandler interface [Windows Shell], IFileSyncMergeHandler interface [Windows Shell],described, shell.IFileSyncMergeHandler, shobjidl_core/IFileSyncMergeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

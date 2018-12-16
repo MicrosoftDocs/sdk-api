@@ -9,8 +9,6 @@ ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IcmpSendEcho, IcmpSendEcho function [IP Helper], _iphlp_icmpsendecho, icmpapi/IcmpSendEcho, iphlp.icmpsendecho
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 

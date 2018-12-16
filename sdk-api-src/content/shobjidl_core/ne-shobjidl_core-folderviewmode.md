@@ -9,8 +9,6 @@ ms.assetid: 16b92115-6e7d-41d3-960d-6783d779224c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FOLDERVIEWMODE, FOLDERVIEWMODE enumeration [Windows Shell], FVM_AUTO, FVM_CONTENT, FVM_DETAILS, FVM_FIRST, FVM_ICON, FVM_LAST, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, _win32_FOLDERVIEWMODE, shell.FOLDERVIEWMODE, shobjidl_core/FOLDERVIEWMODE, shobjidl_core/FVM_AUTO, shobjidl_core/FVM_CONTENT, shobjidl_core/FVM_DETAILS, shobjidl_core/FVM_FIRST, shobjidl_core/FVM_ICON, shobjidl_core/FVM_LAST, shobjidl_core/FVM_LIST, shobjidl_core/FVM_SMALLICON, shobjidl_core/FVM_THUMBNAIL, shobjidl_core/FVM_THUMBSTRIP, shobjidl_core/FVM_TILE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

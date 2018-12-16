@@ -9,8 +9,6 @@ ms.assetid: 51c63e65-a844-46b4-93ef-8a92a9c8a604
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupCloseFileQueue, SetupCloseFileQueue function [Setup API], _setupapi_setupclosefilequeue, setup.setupclosefilequeue, setupapi/SetupCloseFileQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

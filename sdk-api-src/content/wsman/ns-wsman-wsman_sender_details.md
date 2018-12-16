@@ -9,8 +9,6 @@ ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 86ee18be-38a9-4f76-810c-e33281df8c23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],GetDRMProperty method, IWMDRMReader.GetDRMProperty, IWMDRMReader::GetDRMProperty, IWMDRMReaderGetDRMProperty, wmformat.iwmdrmreader_getdrmproperty, wmsdkidl/IWMDRMReader::GetDRMProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

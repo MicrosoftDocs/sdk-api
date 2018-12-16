@@ -9,8 +9,6 @@ ms.assetid: abad8095-ac1b-4604-b423-5b244fa60127
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

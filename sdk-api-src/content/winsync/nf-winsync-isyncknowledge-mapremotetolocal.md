@@ -9,8 +9,6 @@ ms.assetid: 9325ff3e-4f8e-4a18-bc95-57af30ccd437
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],MapRemoteToLocal method, ISyncKnowledge.MapRemoteToLocal, ISyncKnowledge::MapRemoteToLocal, MapRemoteToLocal, MapRemoteToLocal method [Windows Sync], MapRemoteToLocal method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_mapremotetolocal, winsync/ISyncKnowledge::MapRemoteToLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

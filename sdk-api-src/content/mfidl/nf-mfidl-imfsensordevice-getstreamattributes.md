@@ -9,8 +9,6 @@ ms.assetid: DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributes method, IMFSensorDevice.GetStreamAttributes, IMFSensorDevice::GetStreamAttributes, mf.imfsensordevice_getstreamattributes, mfidl/IMFSensorDevice::GetStreamAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

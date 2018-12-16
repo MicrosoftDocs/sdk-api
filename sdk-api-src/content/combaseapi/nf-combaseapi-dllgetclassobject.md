@@ -9,8 +9,6 @@ ms.assetid: 42c08149-c251-47f7-a81f-383975d7081c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

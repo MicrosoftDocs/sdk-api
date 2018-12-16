@@ -9,8 +9,6 @@ ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

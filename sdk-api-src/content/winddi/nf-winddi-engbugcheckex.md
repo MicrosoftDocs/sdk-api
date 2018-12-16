@@ -9,8 +9,6 @@ ms.assetid: 3b835719-cf11-4058-a557-c6618015f362
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngBugCheckEx, EngBugCheckEx function [Display Devices], display.engbugcheckex, gdifncs_0ed66a9e-1824-45cc-9237-ab0910e72915.xml, winddi/EngBugCheckEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

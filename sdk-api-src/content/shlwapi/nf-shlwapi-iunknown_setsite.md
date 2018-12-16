@@ -9,8 +9,6 @@ ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

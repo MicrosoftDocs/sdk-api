@@ -9,8 +9,6 @@ ms.assetid: 1dfde962-7475-430a-b586-1684a173908f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT, wsw.ws_proxy_message_callback_context
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

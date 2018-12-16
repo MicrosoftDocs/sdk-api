@@ -9,8 +9,6 @@ ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

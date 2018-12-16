@@ -9,8 +9,6 @@ ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

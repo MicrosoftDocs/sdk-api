@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusbase.h
 req.include-header: 

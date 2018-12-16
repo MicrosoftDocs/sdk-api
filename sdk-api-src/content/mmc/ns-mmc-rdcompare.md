@@ -9,8 +9,6 @@ ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _slate_rdcompare, mmc.rdcompare, mmc/RDCOMPARE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

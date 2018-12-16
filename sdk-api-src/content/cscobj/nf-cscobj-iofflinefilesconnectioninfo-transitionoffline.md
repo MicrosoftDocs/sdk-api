@@ -9,8 +9,6 @@ ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

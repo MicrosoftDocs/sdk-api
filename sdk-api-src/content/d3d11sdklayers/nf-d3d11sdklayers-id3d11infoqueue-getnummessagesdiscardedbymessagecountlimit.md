@@ -9,8 +9,6 @@ ms.assetid: 8a2cb3c3-2b8c-47bf-b306-e13f35729686
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11], GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetNumMessagesDiscardedByMessageCountLimit method, ID3D11InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d11.id3d11infoqueue_getnummessagesdiscardedbymessagecountlimit, ef744f2d-3777-9d02-76c3-9279cdf0497b
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

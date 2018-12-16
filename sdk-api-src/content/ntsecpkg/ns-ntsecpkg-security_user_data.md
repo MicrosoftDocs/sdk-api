@@ -9,8 +9,6 @@ ms.assetid: 1a56203a-ed6a-4f32-9e7c-b498ba61a64b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSECURITY_USER_DATA structure pointer [Security], PSecurityUserData, PSecurityUserData structure pointer [Security], SECURITY_USER_DATA, SECURITY_USER_DATA structure [Security], SecurityUserData, SecurityUserData structure [Security], _ssp_securityuserdata, ntsecpkg/PSECURITY_USER_DATA, ntsecpkg/PSecurityUserData, ntsecpkg/SecurityUserData, security.securityuserdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

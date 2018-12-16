@@ -9,8 +9,6 @@ ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

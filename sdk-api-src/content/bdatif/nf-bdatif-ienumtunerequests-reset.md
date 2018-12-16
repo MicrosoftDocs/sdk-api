@@ -9,8 +9,6 @@ ms.assetid: bb06a6b3-83a6-4deb-8394-1c17cf97c1b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Reset method, IEnumTuneRequests.Reset, IEnumTuneRequests::Reset, IEnumTuneRequestsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Reset, mstv.ienumtunerequests_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

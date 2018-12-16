@@ -9,8 +9,6 @@ ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation], wbemcli/tag_CompileStatusInfo, wmi.wbem_compile_status_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

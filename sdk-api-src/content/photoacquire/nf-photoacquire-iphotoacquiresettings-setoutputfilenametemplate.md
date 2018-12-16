@@ -9,8 +9,6 @@ ms.assetid: 28eaeee4-05eb-4d51-9e21-937481bc7703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetOutputFilenameTemplate method, IPhotoAcquireSettings.SetOutputFilenameTemplate, IPhotoAcquireSettings::SetOutputFilenameTemplate, IPhotoAcquireSettingsSetOutputFilenameTemplate, SetOutputFilenameTemplate, SetOutputFilenameTemplate method [Picture Acquisition], SetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate, picacq.iphotoacquiresettings_setoutputfilenametemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

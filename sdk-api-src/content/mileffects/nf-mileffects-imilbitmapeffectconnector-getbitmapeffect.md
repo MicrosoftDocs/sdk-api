@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\getbitma
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBitmapEffect, GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, IMILBitmapEffectConnector interface [WPF Bitmap Effects],GetBitmapEffect method, IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

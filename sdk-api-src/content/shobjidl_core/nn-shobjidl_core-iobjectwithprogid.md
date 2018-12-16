@@ -9,8 +9,6 @@ ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

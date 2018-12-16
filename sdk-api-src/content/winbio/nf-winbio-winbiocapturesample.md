@@ -9,8 +9,6 @@ ms.assetid: 365dcefb-3382-4b62-b47d-919e2d3f56f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSample, WinBioCaptureSample function [Windows Biometric Framework API], secbiomet.winbiocapturesample, winbio/WinBioCaptureSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

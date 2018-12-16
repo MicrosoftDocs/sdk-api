@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_createblendstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBlendState, CreateBlendState method [Direct3D 10], CreateBlendState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBlendState method, ID3D10Device.CreateBlendState, ID3D10Device::CreateBlendState, c235f4fb-80c3-e358-0ebc-ac3b87230e29, d3d10/ID3D10Device::CreateBlendState, direct3d10.id3d10device_createblendstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

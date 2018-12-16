@@ -9,8 +9,6 @@ ms.assetid: e647987d-e524-475e-a355-539cb3f04635
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DataManagerSteps, DataManagerSteps enumeration [PLA], base.datamanagersteps, pla.datamanagersteps, pla/DataManagerSteps, pla/plaCreateHtml, pla/plaCreateReport, pla/plaFolderActions, pla/plaResourceFreeing, pla/plaRunRules, plaCreateHtml, plaCreateReport, plaFolderActions, plaResourceFreeing, plaRunRules
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

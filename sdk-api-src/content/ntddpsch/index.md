@@ -2,7 +2,7 @@
 UID: NA:ntddpsch
 ms.assetid: 3fd316fd-6cd6-36da-9bff-dbea56a85fe8
 ms.author: windowssdkdev
-ms.date: 12/13/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

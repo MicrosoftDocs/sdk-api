@@ -9,8 +9,6 @@ ms.assetid: e9c64f01-dd51-4f45-bf58-e930d5d23461
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndSetRepeat, MCIWndSetRepeat macro [Windows Multimedia], _win32_MCIWndSetRepeat, multimedia.mciwndsetrepeat, vfw/MCIWndSetRepeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 19B52C54-0905-446C-A8D9-C98153931708
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal64, LPSAFEARRAY_UserUnmarshal64 function [Automation], automat.lpsafearray_userunmarshal64, wia_xp/LPSAFEARRAY_UserUnmarshal64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h

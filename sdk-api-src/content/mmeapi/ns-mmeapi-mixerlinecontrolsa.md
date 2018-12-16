@@ -9,8 +9,6 @@ ms.assetid: a028785b-2d58-41da-825b-32e98fb44405
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMIXERLINECONTROLSA, *PMIXERLINECONTROLSA, MIXERLINECONTROLS, MIXERLINECONTROLS structure [Windows Multimedia], MIXERLINECONTROLSA, _win32_MIXERLINECONTROLS_str, mmeapi/MIXERLINECONTROLS, multimedia.mixerlinecontrols, tMIXERLINECONTROLS, tagMIXERLINECONTROLSA, tagMIXERLINECONTROLSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 

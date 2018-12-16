@@ -9,8 +9,6 @@ ms.assetid: 1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Technologies], IMSVidDeviceEvent interface [Microsoft TV Technologies],described, IMSVidDeviceEventInterface, mstv.imsviddeviceevent, segment/IMSVidDeviceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

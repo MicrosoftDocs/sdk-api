@@ -9,8 +9,6 @@ ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h

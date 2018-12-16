@@ -9,8 +9,6 @@ ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h

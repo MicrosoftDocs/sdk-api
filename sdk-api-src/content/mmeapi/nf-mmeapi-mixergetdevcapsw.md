@@ -9,8 +9,6 @@ ms.assetid: e3403be8-f3a8-4aab-8498-0556585bc4dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerGetDevCaps, mixerGetDevCaps, mixerGetDevCaps function [Windows Multimedia], mixerGetDevCapsA, mixerGetDevCapsW, mmeapi/mixerGetDevCaps, mmeapi/mixerGetDevCapsA, mmeapi/mixerGetDevCapsW, multimedia.mixergetdevcaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

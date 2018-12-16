@@ -9,8 +9,6 @@ ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_CONTEXT0, IPSEC_SA_CONTEXT0 structure [Filtering], fwp.ipsec_sa_context0, ipsectypes/IPSEC_SA_CONTEXT0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

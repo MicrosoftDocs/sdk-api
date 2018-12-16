@@ -9,8 +9,6 @@ ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

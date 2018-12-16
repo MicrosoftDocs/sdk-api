@@ -9,8 +9,6 @@ ms.assetid: bc1467a5-0027-4f22-bfc9-1deab562c573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, wingdi/RGBTRIPLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

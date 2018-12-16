@@ -9,8 +9,6 @@ ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

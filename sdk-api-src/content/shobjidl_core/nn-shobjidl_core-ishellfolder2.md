@@ -9,8 +9,6 @@ ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolder2, IShellFolder2 interface [Windows Shell], IShellFolder2 interface [Windows Shell],described, _win32_IShellFolder2, shell.IShellFolder2, shobjidl_core/IShellFolder2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

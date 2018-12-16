@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3ddisassemble.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 102070a9-01bc-45ad-cbcb-2ef04db4d6e7, D3DDisassemble, D3DDisassemble function [HLSL], d3dcompiler/D3DDisassemble, direct3dhlsl.d3ddisassemble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

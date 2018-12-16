@@ -9,8 +9,6 @@ ms.assetid: 46636a23-dc2a-4c75-ab10-101892b4a9c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_AudioAnalysisFilter method, IMSVidStreamBufferSink3.get_AudioAnalysisFilter, IMSVidStreamBufferSink3::get_AudioAnalysisFilter, IMSVidStreamBufferSink3get_AudioAnalysisFilter, get_AudioAnalysisFilter, get_AudioAnalysisFilter method [Microsoft TV Technologies], get_AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_audioanalysisfilter, segment/IMSVidStreamBufferSink3::get_AudioAnalysisFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

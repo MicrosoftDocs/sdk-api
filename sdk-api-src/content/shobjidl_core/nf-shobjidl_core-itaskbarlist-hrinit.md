@@ -9,8 +9,6 @@ ms.assetid: 0344bf0b-b460-4516-88eb-09131cc9a4f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HrInit, HrInit method [Windows Shell], HrInit method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],HrInit method, ITaskbarList.HrInit, ITaskbarList::HrInit, _win32_ITaskbarList_HrInit, shell.ITaskbarList_HrInit, shobjidl_core/ITaskbarList::HrInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

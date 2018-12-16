@@ -9,8 +9,6 @@ ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Foundation],SetSampleTime method, IMFSample.SetSampleTime, IMFSample::SetSampleTime, SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation],IMFSample interface, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

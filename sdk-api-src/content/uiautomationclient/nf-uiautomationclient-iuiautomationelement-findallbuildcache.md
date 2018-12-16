@@ -9,8 +9,6 @@ ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindAllBuildCache, FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAllBuildCache method, IUIAutomationElement.FindAllBuildCache, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

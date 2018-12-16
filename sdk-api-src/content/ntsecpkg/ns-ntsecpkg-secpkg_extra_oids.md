@@ -9,8 +9,6 @@ ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

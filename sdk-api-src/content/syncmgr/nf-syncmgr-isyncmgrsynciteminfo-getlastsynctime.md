@@ -9,8 +9,6 @@ ms.assetid: ce6690fc-bc1b-4177-ad4a-76c51d36e908
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastSyncTime, GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetLastSyncTime method, ISyncMgrSyncItemInfo.GetLastSyncTime, ISyncMgrSyncItemInfo::GetLastSyncTime, _shell_ISyncMgrSyncItemInfo_GetLastSyncTime, shell.ISyncMgrSyncItemInfo_GetLastSyncTime, syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

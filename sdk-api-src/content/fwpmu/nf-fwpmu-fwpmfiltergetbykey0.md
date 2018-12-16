@@ -9,8 +9,6 @@ ms.assetid: 5ab0942c-aee2-44f9-9e7f-568405131691
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmFilterGetByKey0, FwpmFilterGetByKey0 function [Filtering], fwp.fwpmfiltergetbykey0_func, fwpmu/FwpmFilterGetByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

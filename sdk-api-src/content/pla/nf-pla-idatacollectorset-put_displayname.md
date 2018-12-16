@@ -9,8 +9,6 @@ ms.assetid: 4be6d1a1-54de-45fa-8d00-36f8b95e30a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayName property, IDataCollectorSet.DisplayName, IDataCollectorSet.put_DisplayName, IDataCollectorSet::DisplayName, IDataCollectorSet::get_DisplayName, IDataCollectorSet::put_DisplayName, pla.idatacollectorset_displayname, pla/IDataCollectorSet::DisplayName, pla/IDataCollectorSet::get_DisplayName, pla/IDataCollectorSet::put_DisplayName, put_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

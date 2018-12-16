@@ -9,8 +9,6 @@ ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterDragDrop, RegisterDragDrop function [COM], _ole_RegisterDragDrop, com.registerdragdrop, ole2/RegisterDragDrop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

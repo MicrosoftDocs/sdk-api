@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

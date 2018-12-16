@@ -9,8 +9,6 @@ ms.assetid: 3531474b-1499-4c83-ab32-8c464c0eece0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSTATEMGRSTATUS, PSTATEMGRSTATUS, PSTATEMGRSTATUS structure pointer [System Restore], STATEMGRSTATUS, STATEMGRSTATUS structure [System Restore], _sr_statemgrstatus_str, sr.statemgrstatus_str, srrestoreptapi/PSTATEMGRSTATUS, srrestoreptapi/STATEMGRSTATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: srrestoreptapi.h
 req.include-header: 

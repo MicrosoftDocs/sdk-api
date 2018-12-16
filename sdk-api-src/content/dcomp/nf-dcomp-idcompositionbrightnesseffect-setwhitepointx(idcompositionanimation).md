@@ -9,8 +9,6 @@ ms.assetid: 8724AB82-ED50-47C7-A4AE-31A12E3834F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 49736b26-9565-4d56-abcd-1585b692ff12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG structure pointer, SERVICE_FAILURE_ACTIONS_FLAG, SERVICE_FAILURE_ACTIONS_FLAG structure, base.service_failure_actions_flag, winsvc/LPSERVICE_FAILURE_ACTIONS_FLAG, winsvc/SERVICE_FAILURE_ACTIONS_FLAG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

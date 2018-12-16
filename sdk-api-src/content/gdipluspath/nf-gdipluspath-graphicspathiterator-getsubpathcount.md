@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorcla
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubpathCount, GetSubpathCount method [GDI+], GetSubpathCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetSubpathCount method, GraphicsPathIterator.GetSubpathCount, GraphicsPathIterator::GetSubpathCount, _gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

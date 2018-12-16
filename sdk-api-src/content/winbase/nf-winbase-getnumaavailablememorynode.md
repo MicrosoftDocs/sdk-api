@@ -9,8 +9,6 @@ ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

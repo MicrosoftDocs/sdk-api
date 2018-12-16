@@ -9,8 +9,6 @@ ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

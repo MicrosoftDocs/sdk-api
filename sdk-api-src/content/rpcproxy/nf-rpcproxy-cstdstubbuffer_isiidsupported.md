@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported
 , CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

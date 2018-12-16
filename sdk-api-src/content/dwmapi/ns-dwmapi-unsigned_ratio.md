@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\unsigned_
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UNSIGNED_RATIO, UNSIGNED_RATIO structure [Desktop Window Manager], _udwm_unsigned_ratio, _udwm_unsigned_ratio_cpp, dwm.unsigned_ratio, dwmapi/UNSIGNED_RATIO, winui._udwm_unsigned_ratio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

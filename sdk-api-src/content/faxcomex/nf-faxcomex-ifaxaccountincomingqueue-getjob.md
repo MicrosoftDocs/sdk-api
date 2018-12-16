@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingqueue
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxAccountIncomingQueue interface, IFaxAccountIncomingQueue interface [Fax Service],GetJob method, IFaxAccountIncomingQueue.GetJob, IFaxAccountIncomingQueue::GetJob, _mfax_faxaccountincomingqueue.getjob, fax._mfax_faxaccountincomingqueue_cpp_mfax_faxaccountincomingqueue_getjob_cpp, fax._mfax_faxaccountincomingqueue_getjob, faxcomex/IFaxAccountIncomingQueue::GetJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

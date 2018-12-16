@@ -9,8 +9,6 @@ ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

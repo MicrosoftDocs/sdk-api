@@ -9,8 +9,6 @@ ms.assetid: 0b86882d-af1b-4a09-8c25-5b806c9ca909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssWMFiledesc, IVssWMFiledesc interface [VSS], IVssWMFiledesc interface [VSS],described, _win32_ivsswmfiledesc, base.ivsswmfiledesc, vswriter/IVssWMFiledesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

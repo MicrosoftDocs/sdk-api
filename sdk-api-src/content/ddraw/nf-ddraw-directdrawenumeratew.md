@@ -9,8 +9,6 @@ ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8e1ebf82-73c2-445b-9964-6739f7c90c47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTHelperGetProvSignerFromChain, WTHelperGetProvSignerFromChain function [Security], security.wthelpergetprovsignerfromchain, wintrust/WTHelperGetProvSignerFromChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

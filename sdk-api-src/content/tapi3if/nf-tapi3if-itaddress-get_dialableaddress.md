@@ -9,8 +9,6 @@ ms.assetid: 8d6dcbbe-3372-4346-8f5e-fb34b7aca88d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DialableAddress method, ITAddress.get_DialableAddress, ITAddress::get_DialableAddress, _tapi3_itaddress_get_dialableaddress, get_DialableAddress, get_DialableAddress method [TAPI 2.2], get_DialableAddress method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_dialableaddress, tapi3if/ITAddress::get_DialableAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

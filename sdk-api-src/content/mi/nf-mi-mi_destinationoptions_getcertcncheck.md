@@ -9,8 +9,6 @@ ms.assetid: 8f6a4f66-29cf-486b-9114-05cd357a32bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetCertCNCheck, MI_DestinationOptions_GetCertCNCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertCNCheck, wmi_v2.mi_destinationoptions_getcertcncheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

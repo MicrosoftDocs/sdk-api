@@ -9,8 +9,6 @@ ms.assetid: 84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

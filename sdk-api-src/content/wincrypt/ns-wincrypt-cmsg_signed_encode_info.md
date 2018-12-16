@@ -9,8 +9,6 @@ ms.assetid: 93138744-8316-461b-908a-1eab47e83f63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO structure [Security], _crypto2_cmsg_signed_encode_info, security.cmsg_signed_encode_info, wincrypt/CMSG_SIGNED_ENCODE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

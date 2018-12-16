@@ -9,8 +9,6 @@ ms.assetid: 3dfeb712-9867-49d5-b1f0-1abd836a4746
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_READER_ENCODING_TYPE, WS_XML_READER_ENCODING_TYPE enumeration [Web Services for Windows], WS_XML_READER_ENCODING_TYPE_BINARY, WS_XML_READER_ENCODING_TYPE_MTOM, WS_XML_READER_ENCODING_TYPE_TEXT, webservices/WS_XML_READER_ENCODING_TYPE, webservices/WS_XML_READER_ENCODING_TYPE_BINARY, webservices/WS_XML_READER_ENCODING_TYPE_MTOM, webservices/WS_XML_READER_ENCODING_TYPE_TEXT, wsw.ws_xml_reader_encoding_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

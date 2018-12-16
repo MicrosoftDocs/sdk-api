@@ -9,8 +9,6 @@ ms.assetid: FC66E794-EF13-47BB-A704-735924363310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcounters, perflib/PerfAddCounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

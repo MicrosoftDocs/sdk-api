@@ -9,8 +9,6 @@ ms.assetid: fecb9403-f790-4955-a879-fb3e6fbfe8ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEER_PUBLICATION_SCOPE, PEER_PUBLICATION_SCOPE enumeration [Peer Networking], PEER_PUBLICATION_SCOPE_ALL, PEER_PUBLICATION_SCOPE_INTERNET, PEER_PUBLICATION_SCOPE_NEAR_ME, PEER_PUBLICATION_SCOPE_NONE, p2p.peer_publication_scope, p2p/PEER_PUBLICATION_SCOPE, p2p/PEER_PUBLICATION_SCOPE_ALL, p2p/PEER_PUBLICATION_SCOPE_INTERNET, p2p/PEER_PUBLICATION_SCOPE_NEAR_ME, p2p/PEER_PUBLICATION_SCOPE_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b7bf376a-79b5-4f63-b3ca-0d515c23d67c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShutdownBlockReasonDestroy, ShutdownBlockReasonDestroy function, base.shutdownblockreasondestroy, winuser/ShutdownBlockReasonDestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

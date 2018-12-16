@@ -9,8 +9,6 @@ ms.assetid: f0318061-40f9-4380-9681-34db70659c49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

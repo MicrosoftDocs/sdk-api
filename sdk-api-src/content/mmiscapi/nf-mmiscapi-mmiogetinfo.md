@@ -9,8 +9,6 @@ ms.assetid: 9ca58586-8cd6-4d74-9cef-f0ae41b24fe3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioGetInfo, mmioGetInfo, mmioGetInfo function [Windows Multimedia], mmsystem/mmioGetInfo, multimedia.mmiogetinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

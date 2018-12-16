@@ -9,8 +9,6 @@ ms.assetid: 78F51B69-DCFA-47D0-84C5-B44C79D50DAF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: subauth.h
 req.include-header: 

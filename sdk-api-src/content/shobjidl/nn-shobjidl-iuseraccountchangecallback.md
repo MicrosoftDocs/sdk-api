@@ -9,8 +9,6 @@ ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

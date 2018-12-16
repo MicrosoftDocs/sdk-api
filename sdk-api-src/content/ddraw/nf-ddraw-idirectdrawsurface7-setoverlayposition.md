@@ -9,8 +9,6 @@ ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition method, IDirectDrawSurface7.SetOverlayPosition, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

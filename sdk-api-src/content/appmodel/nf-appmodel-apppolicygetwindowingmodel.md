@@ -9,8 +9,6 @@ ms.assetid: AA1682F8-1DDD-48C3-B16A-6C89D28455E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [App packaging and management], appmodel/AppPolicyGetWindowingModel, appxpkg.apppolicygetwindowingmodel_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPicture interface [COM],get_hPal method, IPicture.get_hPal, IPicture::get_hPal, _ctrl_ipicture_get_hpal, com.ipicture_get_hpal, get_hPal, get_hPal method [COM], get_hPal method [COM],IPicture interface, ocidl/IPicture::get_hPal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

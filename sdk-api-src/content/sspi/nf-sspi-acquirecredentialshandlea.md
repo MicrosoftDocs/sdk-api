@@ -9,8 +9,6 @@ ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

@@ -9,8 +9,6 @@ ms.assetid: c9ede50e-85de-4a68-b539-54285c2599cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPDH_COUNTER_INFO_A, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 

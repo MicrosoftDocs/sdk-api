@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_creategeometryshaderwithstreamoutput.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1ef110f5-f95f-ec17-1f56-6f491a0ffac4, CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput method [Direct3D 10], CreateGeometryShaderWithStreamOutput method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateGeometryShaderWithStreamOutput method, ID3D10Device.CreateGeometryShaderWithStreamOutput, ID3D10Device::CreateGeometryShaderWithStreamOutput, d3d10/ID3D10Device::CreateGeometryShaderWithStreamOutput, direct3d10.id3d10device_creategeometryshaderwithstreamoutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

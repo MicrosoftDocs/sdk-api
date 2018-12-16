@@ -9,8 +9,6 @@ ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpecifier method, IWMPCdromCollection.getByDriveSpecifier, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

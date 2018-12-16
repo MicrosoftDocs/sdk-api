@@ -9,8 +9,6 @@ ms.assetid: 844cb2a5-8526-434b-af22-b1bf856ed6af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmCommittableCollection interface, IFsrmCommittableCollection interface [File Server Resource Manager],Commit method, IFsrmCommittableCollection.Commit, IFsrmCommittableCollection::Commit, fs.ifsrmcommitablecollection_commit, fs.ifsrmcommittablecollection_commit, fsrm.ifsrmcommittablecollection_commit, fsrm/IFsrmCommittableCollection::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

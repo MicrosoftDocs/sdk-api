@@ -9,8 +9,6 @@ ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: windowsdefender.h
 req.include-header: 

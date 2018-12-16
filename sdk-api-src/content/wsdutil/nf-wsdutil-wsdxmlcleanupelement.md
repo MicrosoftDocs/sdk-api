@@ -9,8 +9,6 @@ ms.assetid: 5a421c9a-32c2-4eaf-84b9-6077afe9b82a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXMLCleanupElement, WSDXMLCleanupElement function, ncd.wsdxmlcleanupelement, wsdutil/WSDXMLCleanupElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

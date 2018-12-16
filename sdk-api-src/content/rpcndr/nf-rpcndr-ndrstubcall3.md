@@ -9,8 +9,6 @@ ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

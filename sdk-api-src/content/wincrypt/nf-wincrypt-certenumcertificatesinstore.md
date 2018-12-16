@@ -9,8 +9,6 @@ ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertEnumCertificatesInStore, CertEnumCertificatesInStore function [Security], _crypto2_certenumcertificatesinstore, security.certenumcertificatesinstore, wincrypt/CertEnumCertificatesInStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

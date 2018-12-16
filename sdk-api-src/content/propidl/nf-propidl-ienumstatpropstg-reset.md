@@ -9,8 +9,6 @@ ms.assetid: e742e3ee-6261-4d6d-85ca-8df770aa58ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Reset method, IEnumSTATPROPSTG.Reset, IEnumSTATPROPSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Reset, stg.ienumstatpropstg_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Propidl.h

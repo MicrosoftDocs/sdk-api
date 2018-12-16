@@ -9,8 +9,6 @@ ms.assetid: 3b40afc9-89cf-4dfc-ab25-055bdf6964ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemonic, IOleControl::OnMnemonic, OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM],IOleControl interface, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

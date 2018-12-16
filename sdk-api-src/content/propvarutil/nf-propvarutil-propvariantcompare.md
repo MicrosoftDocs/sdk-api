@@ -9,8 +9,6 @@ ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

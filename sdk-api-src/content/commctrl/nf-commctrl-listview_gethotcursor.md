@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetHotCursor, ListView_GetHotCursor macro [Windows Controls], _win32_ListView_GetHotCursor, _win32_ListView_GetHotCursor_cpp, commctrl/ListView_GetHotCursor, controls.ListView_GetHotCursor, controls._win32_ListView_GetHotCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

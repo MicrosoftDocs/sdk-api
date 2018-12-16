@@ -9,8 +9,6 @@ ms.assetid: 6270047A-8823-41D6-AD57-72A7E60F3696
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagGetFullscreenTransform, MagGetFullscreenTransform function [Magnification API], magapi.magapi_maggetfullscreentransform, magnification/MagGetFullscreenTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

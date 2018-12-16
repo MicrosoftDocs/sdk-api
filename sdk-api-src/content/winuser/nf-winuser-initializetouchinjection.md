@@ -9,8 +9,6 @@ ms.assetid: 79cc2a05-d8ee-4d87-9c7b-fa7d5354b04f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeTouchInjection, InitializeTouchInjection function [Windows Touch], input_touchinjection.initializetouchinjection, touch_injection.initializetouchinjection, winuser/InitializeTouchInjection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

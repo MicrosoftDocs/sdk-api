@@ -9,8 +9,6 @@ ms.assetid: EC96CB4E-6BCE-49D9-9CDA-A24A9303B5CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

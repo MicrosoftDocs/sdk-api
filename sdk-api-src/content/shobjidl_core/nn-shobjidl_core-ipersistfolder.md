@@ -9,8 +9,6 @@ ms.assetid: d37d4ca5-93a0-4090-b657-9b23d5df875c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistFolder, IPersistFolder interface [Windows Shell], IPersistFolder interface [Windows Shell],described, _win32_IPersistFolder, _win32_IPersistFolder_cpp, shell.IPersistFolder, shobjidl_core/IPersistFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

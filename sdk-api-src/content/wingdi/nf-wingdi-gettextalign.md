@@ -9,8 +9,6 @@ ms.assetid: d3ec0350-2eb8-4843-88bb-d72cece710e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAlign, gdi.gettextalign, wingdi/GetTextAlign
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 35ed44cd-ba91-4b6a-b528-0e22df389d31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepUp method, IAudioEndpointVolume.VolumeStepUp, IAudioEndpointVolume::VolumeStepUp, IAudioEndpointVolumeVolumeStepUp, VolumeStepUp, VolumeStepUp method [Core Audio], VolumeStepUp method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepup, endpointvolume/IAudioEndpointVolume::VolumeStepUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

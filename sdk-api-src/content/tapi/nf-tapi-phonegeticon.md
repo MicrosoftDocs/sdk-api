@@ -9,8 +9,6 @@ ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2], phoneGetIconA, phoneGetIconW, tapi/phoneGetIcon, tapi/phoneGetIconA, tapi/phoneGetIconW, tapi2.phonegeticon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

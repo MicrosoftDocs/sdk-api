@@ -9,8 +9,6 @@ ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

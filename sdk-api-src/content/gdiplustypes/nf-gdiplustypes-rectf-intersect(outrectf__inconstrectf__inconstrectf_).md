@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],RectF class, RectF class [GDI+],Intersect method, RectF.Intersect, RectF.Intersect(OUT RectF &,IN const RectF &,IN const RectF &), RectF.Intersect(RectF&,const RectF&,const RectF&), RectF::Intersect, RectF::Intersect(OUT RectF &,IN const RectF &,IN const RectF &), _gdiplus_CLASS_RectF_Intersect_c_a_b_, gdiplus._gdiplus_CLASS_RectF_Intersect_c_a_b_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

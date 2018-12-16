@@ -9,8 +9,6 @@ ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 785a763c-99a2-45d1-b42b-9673aedc5c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],Serialize method, ISyncChangeBatchBase.Serialize, ISyncChangeBatchBase::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_serialize, winsync/ISyncChangeBatchBase::Serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a15ac600-ef03-4234-ac38-dc3cf212a3cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialAngularVelocity property, IInertiaProcessor.InitialAngularVelocity, IInertiaProcessor.get_InitialAngularVelocity, IInertiaProcessor::InitialAngularVelocity, IInertiaProcessor::get_InitialAngularVelocity, IInertiaProcessor::put_InitialAngularVelocity, InitialAngularVelocity property [Windows Touch], InitialAngularVelocity property [Windows Touch],IInertiaProcessor interface, get_InitialAngularVelocity, manipulations/IInertiaProcessor::InitialAngularVelocity, manipulations/IInertiaProcessor::get_InitialAngularVelocity, manipulations/IInertiaProcessor::put_InitialAngularVelocity, wintouch.iinertiaprocessor_initialangularvelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

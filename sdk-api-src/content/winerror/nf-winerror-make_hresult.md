@@ -9,8 +9,6 @@ ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make_hresult, com.make_hresult_macro, dmerror/MAKE_HRESULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winerror.h
 req.include-header: Winerror.h, Ddrawi.h, Ddrawint.h, Winerror.h, Ddrawi.h, Ddrawint.h

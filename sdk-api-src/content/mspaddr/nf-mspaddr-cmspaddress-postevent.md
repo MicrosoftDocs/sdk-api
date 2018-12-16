@@ -9,8 +9,6 @@ ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],PostEvent method, CMSPAddress.PostEvent, CMSPAddress::PostEvent, PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B2038241-201B-402B-9B5A-BA2D2239A62A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation, ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation method, SetEnableSynchronizedCommandQueueValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

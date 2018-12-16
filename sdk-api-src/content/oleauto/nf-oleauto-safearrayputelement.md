@@ -9,8 +9,6 @@ ms.assetid: 7c837b4f-d319-4d98-934a-b585fe521bf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayPutElement, SafeArrayPutElement function [Automation], _oa96_SafeArrayPutElement, automat.safearrayputelement, oleauto/SafeArrayPutElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

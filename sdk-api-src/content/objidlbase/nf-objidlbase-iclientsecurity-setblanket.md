@@ -9,8 +9,6 @@ ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.SetBlanket, IClientSecurity::SetBlanket, SetBlanket, SetBlanket method [COM], SetBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

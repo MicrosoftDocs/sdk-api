@@ -9,8 +9,6 @@ ms.assetid: bb0ec5aa-b098-8a3f-67df-864a1672ba8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvirtualmemory, winbase/ReclaimVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

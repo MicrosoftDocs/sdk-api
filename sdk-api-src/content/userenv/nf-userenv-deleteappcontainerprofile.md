@@ -9,8 +9,6 @@ ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

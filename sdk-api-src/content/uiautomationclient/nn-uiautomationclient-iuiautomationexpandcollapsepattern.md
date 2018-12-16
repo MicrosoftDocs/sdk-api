@@ -9,8 +9,6 @@ ms.assetid: 816c28a9-2486-403e-bfbd-94d040d0aac5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationExpandCollapsePattern, IUIAutomationExpandCollapsePattern interface [Windows Accessibility], IUIAutomationExpandCollapsePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationExpandCollapsePattern, uiauto_IUIAutomationExpandCollapsePattern, uiautomationclient/IUIAutomationExpandCollapsePattern, winauto.uiauto_IUIAutomationExpandCollapsePattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

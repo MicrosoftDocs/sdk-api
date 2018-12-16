@@ -9,8 +9,6 @@ ms.assetid: 5aaed96f-39c1-4201-80d0-a2a8a177b65e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

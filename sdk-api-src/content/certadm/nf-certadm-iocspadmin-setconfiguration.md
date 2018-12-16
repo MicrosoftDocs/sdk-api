@@ -9,8 +9,6 @@ ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

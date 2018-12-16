@@ -9,8 +9,6 @@ ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

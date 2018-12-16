@@ -9,8 +9,6 @@ ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPKU2U_CERT_BLOB, PKU2U_CERT_BLOB, PKU2U_CERT_BLOB structure [Security], PPKU2U_CERT_BLOB, PPKU2U_CERT_BLOB structure pointer [Security], ntsecapi/PKU2U_CERT_BLOB, ntsecapi/PPKU2U_CERT_BLOB, security.pku2u_cert_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

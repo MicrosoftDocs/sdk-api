@@ -9,8 +9,6 @@ ms.assetid: 9b84891d-62ca-4ddc-97b7-c4c79482abd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: handleapi.h
 req.include-header: Windows.h

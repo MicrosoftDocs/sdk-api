@@ -9,8 +9,6 @@ ms.assetid: 703d2a6a-0f3f-4f8f-90bd-e1e821dfbcde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiAlphaBlend, GdiAlphaBlend function [Windows GDI], gdi.gdialphablend, wingdi/GdiAlphaBlend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

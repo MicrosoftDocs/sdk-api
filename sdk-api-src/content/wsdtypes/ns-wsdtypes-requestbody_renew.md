@@ -9,8 +9,6 @@ ms.assetid: 2646cfb7-e372-44d2-9d4c-fa68e0d567bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_renew_struct, wsdtypes/REQUESTBODY_Renew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

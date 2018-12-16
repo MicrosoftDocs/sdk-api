@@ -9,8 +9,6 @@ ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

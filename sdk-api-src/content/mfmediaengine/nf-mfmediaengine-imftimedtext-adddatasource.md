@@ -9,8 +9,6 @@ ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSource method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSource method, IMFTimedText.AddDataSource, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

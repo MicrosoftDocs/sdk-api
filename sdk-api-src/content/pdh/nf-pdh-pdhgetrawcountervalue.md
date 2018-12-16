@@ -9,8 +9,6 @@ ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

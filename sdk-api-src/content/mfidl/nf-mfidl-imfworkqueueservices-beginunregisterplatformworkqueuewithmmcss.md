@@ -9,8 +9,6 @@ ms.assetid: e15c6ff9-b72e-4e5d-a738-6bef08782e1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginUnregisterPlatformWorkQueueWithMMCSS, BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS, e15c6ff9-b72e-4e5d-a738-6bef08782e1b, mf.imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2be3715f-d9c7-4554-9416-a1cc4e512402
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager],FsrmExportImport class, ExportFileGroups method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportFileGroups method, IFsrmExportImport interface [File Server Resource Manager],ExportFileGroups method, IFsrmExportImport.ExportFileGroups, IFsrmExportImport::ExportFileGroups, fs.ifsrmexportimport_exportfilegroups, fsrm.ifsrmexportimport_exportfilegroups, fsrm/IFsrmExportImport::ExportFileGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h

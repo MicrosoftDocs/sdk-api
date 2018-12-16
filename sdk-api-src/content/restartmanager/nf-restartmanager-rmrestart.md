@@ -9,8 +9,6 @@ ms.assetid: e0939b31-0233-40d2-96cf-bbabe9488a12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmRestart, RmRestart function [Restart Mgr], restartmanager/RmRestart, rstmgr.rmrestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

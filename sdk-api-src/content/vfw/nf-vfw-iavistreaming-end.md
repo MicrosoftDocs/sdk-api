@@ -9,8 +9,6 @@ ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

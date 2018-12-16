@@ -9,8 +9,6 @@ ms.assetid: 4f423700-f721-44a9-ade3-ea5b5b86e394
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIpNetEntry2, SetIpNetEntry2 function [IP Helper], iphlp.setipnetentry2, netioapi/SetIpNetEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

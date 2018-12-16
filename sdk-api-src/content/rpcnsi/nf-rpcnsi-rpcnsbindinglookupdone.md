@@ -9,8 +9,6 @@ ms.assetid: bf272b29-8594-428a-947c-cc91ddfb4538
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsBindingLookupDone, RpcNsBindingLookupDone function [RPC], _rpc_rpcnsbindinglookupdone, rpc.rpcnsbindinglookupdone, rpcnsi/RpcNsBindingLookupDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

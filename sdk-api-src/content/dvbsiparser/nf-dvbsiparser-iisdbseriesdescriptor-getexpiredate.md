@@ -9,8 +9,6 @@ ms.assetid: 0d658904-4f81-443b-b69d-814e606dabc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpireDate, GetExpireDate method [Microsoft TV Technologies], GetExpireDate method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetExpireDate method, IIsdbSeriesDescriptor.GetExpireDate, IIsdbSeriesDescriptor::GetExpireDate, dvbsiparser/IIsdbSeriesDescriptor::GetExpireDate, mstv.iisdbseriesdescriptor_getexpiredate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

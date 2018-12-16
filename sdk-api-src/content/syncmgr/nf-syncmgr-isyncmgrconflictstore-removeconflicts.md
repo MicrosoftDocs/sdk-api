@@ -9,8 +9,6 @@ ms.assetid: d6fbb322-7bb0-4ad0-bf01-2fe407689fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrConflictStore interface [Windows Shell],RemoveConflicts method, ISyncMgrConflictStore.RemoveConflicts, ISyncMgrConflictStore::RemoveConflicts, RemoveConflicts, RemoveConflicts method [Windows Shell], RemoveConflicts method [Windows Shell],ISyncMgrConflictStore interface, _shell_ISyncMgrConflictStore_RemoveConflicts, shell.ISyncMgrConflictStore_RemoveConflicts, syncmgr/ISyncMgrConflictStore::RemoveConflicts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4fcff6d7-b17c-4cd6-9671-1aff7b84fa98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

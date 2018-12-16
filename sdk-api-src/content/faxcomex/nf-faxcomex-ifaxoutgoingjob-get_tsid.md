@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_24h0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TSID property, IFaxOutgoingJob.TSID, IFaxOutgoingJob.get_TSID, IFaxOutgoingJob::TSID, IFaxOutgoingJob::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.tsid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_tsid_cpp, fax._mfax_faxoutgoingjob_tsid, faxcomex/IFaxOutgoingJob::TSID, faxcomex/IFaxOutgoingJob::get_TSID, get_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

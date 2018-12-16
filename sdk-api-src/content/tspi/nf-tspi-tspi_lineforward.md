@@ -9,8 +9,6 @@ ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

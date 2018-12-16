@@ -9,8 +9,6 @@ ms.assetid: f8eb3dd9-b993-4b45-b7f4-e1925c233a80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterCommitEnrollment, EngineAdapterCommitEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_COMMIT_ENROLLMENT_FN, PIBIO_ENGINE_COMMIT_ENROLLMENT_FN callback, secbiomet.engineadaptercommitenrollment, winbio_adapter/EngineAdapterCommitEnrollment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

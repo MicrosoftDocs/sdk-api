@@ -9,8 +9,6 @@ ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

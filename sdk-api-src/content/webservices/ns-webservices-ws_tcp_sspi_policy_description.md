@@ -9,8 +9,6 @@ ms.assetid: b6a6c7ce-4d97-4da5-801a-6c48b83fb22a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_POLICY_DESCRIPTION, WS_TCP_SSPI_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_SSPI_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

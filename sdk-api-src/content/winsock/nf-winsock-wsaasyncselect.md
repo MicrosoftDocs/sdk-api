@@ -9,8 +9,6 @@ ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

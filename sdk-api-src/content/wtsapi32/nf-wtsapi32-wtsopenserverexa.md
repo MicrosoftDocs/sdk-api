@@ -9,8 +9,6 @@ ms.assetid: 8122de66-c096-4bd8-95ff-ed64b88afcae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSOpenServerEx, WTSOpenServerEx function [Remote Desktop Services], WTSOpenServerExA, WTSOpenServerExW, termserv.wtsopenserverex, wtsapi32/WTSOpenServerEx, wtsapi32/WTSOpenServerExA, wtsapi32/WTSOpenServerExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

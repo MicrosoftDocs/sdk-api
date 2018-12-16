@@ -9,8 +9,6 @@ ms.assetid: 2aa1e53b-75cc-412d-b522-2e1c91ce31d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelFontName property, IInkEdit.SelFontName, IInkEdit.get_SelFontName, IInkEdit::SelFontName, IInkEdit::get_SelFontName, IInkEdit::put_SelFontName, InkEdit.get_SelFontName, InkEdit.put_SelFontName, SelFontName property [Tablet PC], SelFontName property [Tablet PC],IInkEdit interface, get_SelFontName, inked/IInkEdit::SelFontName, inked/IInkEdit::get_SelFontName, inked/IInkEdit::put_SelFontName, put_SelFontName, tablet.inkedit_selfontname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 

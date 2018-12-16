@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3x3(const XMFLOAT3X3)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadFloat3x3, XMLoadFloat3x3, XMLoadFloat3x3 method [DirectX Math Support APIs], dxmath.xmloadfloat3x3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

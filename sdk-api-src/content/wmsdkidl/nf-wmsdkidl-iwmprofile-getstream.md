@@ -9,8 +9,6 @@ ms.assetid: 067c3f03-a79a-4693-b963-7081f79c72d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [windows Media Format], GetStream method [windows Media Format],IWMProfile interface, GetStream method [windows Media Format],IWMProfile2 interface, GetStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStream method, IWMProfile.GetStream, IWMProfile2 interface [windows Media Format],GetStream method, IWMProfile2::GetStream, IWMProfile3 interface [windows Media Format],GetStream method, IWMProfile3::GetStream, IWMProfile::GetStream, IWMProfileGetStream, wmformat.iwmprofile_getstream, wmsdkidl/IWMProfile2::GetStream, wmsdkidl/IWMProfile3::GetStream, wmsdkidl/IWMProfile::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

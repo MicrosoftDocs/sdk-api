@@ -9,8 +9,6 @@ ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.get_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iaztask_bizruleimportedpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

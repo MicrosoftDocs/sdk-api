@@ -9,8 +9,6 @@ ms.assetid: 55f2d281-6308-4344-98dc-3b1c7cbee9df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wscapi.h
 req.include-header: 

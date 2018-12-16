@@ -9,8 +9,6 @@ ms.assetid: 35cfadf5-f1be-4383-bb34-f68543df0abb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICrmLogControl interface [COM+],get_TransactionUOW method, ICrmLogControl.get_TransactionUOW, ICrmLogControl::get_TransactionUOW, _dtc_ICrmLogControl_TransactionUOW, comsvcs/ICrmLogControl::get_TransactionUOW, cos.icrmlogcontrol_get_transactionuow, get_TransactionUOW, get_TransactionUOW method [COM+], get_TransactionUOW method [COM+],ICrmLogControl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

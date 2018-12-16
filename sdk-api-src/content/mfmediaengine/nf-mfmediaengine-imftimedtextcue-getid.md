@@ -9,8 +9,6 @@ ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetId method, IMFTimedTextCue.GetId, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

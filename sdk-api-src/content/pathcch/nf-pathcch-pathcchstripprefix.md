@@ -9,8 +9,6 @@ ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

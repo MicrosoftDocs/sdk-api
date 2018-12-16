@@ -9,8 +9,6 @@ ms.assetid: 5dc5cf6e-c218-4aca-a574-499441bd1c12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVirtualDiskMetadata, GetVirtualDiskMetadata function [Virtual Storage], virtdisk/GetVirtualDiskMetadata, vstor.getvirtualdiskmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

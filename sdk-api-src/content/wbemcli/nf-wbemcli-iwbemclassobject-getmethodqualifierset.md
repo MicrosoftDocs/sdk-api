@@ -9,8 +9,6 @@ ms.assetid: ba328f43-b08a-4b09-8aff-d7075cb6d419
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodQualifierSet method, IWbemClassObject.GetMethodQualifierSet, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

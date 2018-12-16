@@ -9,8 +9,6 @@ ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

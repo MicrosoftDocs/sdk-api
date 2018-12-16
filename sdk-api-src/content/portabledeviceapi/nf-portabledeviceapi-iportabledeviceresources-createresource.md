@@ -9,8 +9,6 @@ ms.assetid: 1daaa2cd-d3a7-44ea-b17d-717875ff748d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateResource, CreateResource method [Windows Portable Devices SDK], CreateResource method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],CreateResource method, IPortableDeviceResources.CreateResource, IPortableDeviceResources::CreateResource, IPortableDeviceResourcesCreateResource, portabledeviceapi/IPortableDeviceResources::CreateResource, wpdsdk.iportabledeviceresources_createresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

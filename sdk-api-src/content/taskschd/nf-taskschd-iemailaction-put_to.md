@@ -9,8 +9,6 @@ ms.assetid: 5144875a-6854-4907-89cd-6438f6adcc49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEmailAction interface [Task Scheduler],To property, IEmailAction.To, IEmailAction.put_To, IEmailAction::To, IEmailAction::get_To, IEmailAction::put_To, To property [Task Scheduler], To property [Task Scheduler],IEmailAction interface, put_To, taskschd.iemailaction_to, taskschd/IEmailAction::To, taskschd/IEmailAction::get_To, taskschd/IEmailAction::put_To
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

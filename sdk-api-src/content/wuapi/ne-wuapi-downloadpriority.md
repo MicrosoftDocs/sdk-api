@@ -9,8 +9,6 @@ ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agent], dpHigh, dpLow, dpNormal, wua.downloadpriority, wuapi/DownloadPriority, wuapi/dpHigh, wuapi/dpLow, wuapi/dpNormal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

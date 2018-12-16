@@ -9,8 +9,6 @@ ms.assetid: 1a287c22-80d8-4cd9-8878-c19aaeddd407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongPtrToUInt8, ULongPtrToUInt8 function [Windows Shell], ULongToByte, intsafe/ULongPtrToUInt8, shell.ULongPtrToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

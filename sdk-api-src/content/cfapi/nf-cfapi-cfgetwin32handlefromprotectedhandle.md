@@ -9,8 +9,6 @@ ms.assetid: 8C54B6F3-7709-4021-8965-E96B74DD3319
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetWin32HandleFromProtectedHandle, CfGetWin32HandleFromProtectedHandle function, cfapi/CfGetWin32HandleFromProtectedHandle, cloudApi.cfgetwin32handlefromprotectedhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7e8dc113-76a7-4a7a-bbad-1a4387831501
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhEnumMachinesH, PdhEnumMachinesH function [Perf], PdhEnumMachinesHA, PdhEnumMachinesHW, _win32_pdhenummachinesh, base.pdhenummachinesh, pdh/PdhEnumMachinesH, pdh/PdhEnumMachinesHA, pdh/PdhEnumMachinesHW, perf.pdhenummachinesh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

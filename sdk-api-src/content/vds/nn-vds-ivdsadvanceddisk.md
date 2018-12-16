@@ -9,8 +9,6 @@ ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

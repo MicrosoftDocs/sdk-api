@@ -9,8 +9,6 @@ ms.assetid: 9c74dc23-ea42-400d-a78c-79b716c5e614
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetTag method, IUIAnimationStoryboard.GetTag, IUIAnimationStoryboard::GetTag, uianimation.iuianimationstoryboard_gettag, uianimation/IUIAnimationStoryboard::GetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

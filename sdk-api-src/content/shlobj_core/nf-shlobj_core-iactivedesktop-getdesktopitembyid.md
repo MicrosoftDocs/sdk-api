@@ -9,8 +9,6 @@ ms.assetid: 44e5fc48-b50d-4410-87c8-7e42634218bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesktopItemByID, GetDesktopItemByID method [Legacy Windows Environment Features], GetDesktopItemByID method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemByID method, IActiveDesktop.GetDesktopItemByID, IActiveDesktop::GetDesktopItemByID, _win32_IActiveDesktop_GetDesktopItemByID, lwef.iactivedesktop_getdesktopitembyid, shell.iactivedesktop_getdesktopitembyid, shlobj_core/IActiveDesktop::GetDesktopItemByID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Bitmap class [GDI+],Clone method, Bitmap.Clone, Bitmap.Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Bitmap.Clone(REAL,REAL,REAL,REAL,PixelFormat), Bitmap::Clone, Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Clone, Clone method [GDI+], Clone method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_Clone_REAL_x_REAL_y_REAL_width_REAL_height_PixelFormat_format_, gdiplus._gdiplus_CLASS_Bitmap_Clone_REAL_x_REAL_y_REAL_width_REAL_height_PixelFormat_format_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

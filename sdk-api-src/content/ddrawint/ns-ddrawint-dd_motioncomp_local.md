@@ -9,8 +9,6 @@ ms.assetid: 41cde03a-f9da-4701-a0df-0dba0c17ba26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL structure [Display Devices], ddrawint/DD_MOTIONCOMP_LOCAL, ddstrcts_cc4890b6-b2b6-484c-b979-4627fa902d7d.xml, display.dd_motioncomp_local"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

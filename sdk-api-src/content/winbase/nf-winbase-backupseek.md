@@ -9,8 +9,6 @@ ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup.backupseek, base.backupseek, winbase/BackupSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

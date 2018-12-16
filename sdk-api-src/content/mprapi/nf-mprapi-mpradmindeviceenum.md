@@ -9,8 +9,6 @@ ms.assetid: 092892fd-1b61-45c6-a05f-83fc193611b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminDeviceEnum, MprAdminDeviceEnum function [RAS], mprapi/MprAdminDeviceEnum, rras.mpradmindeviceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

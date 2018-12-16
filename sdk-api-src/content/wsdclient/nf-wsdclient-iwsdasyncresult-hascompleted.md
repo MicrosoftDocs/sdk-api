@@ -9,8 +9,6 @@ ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

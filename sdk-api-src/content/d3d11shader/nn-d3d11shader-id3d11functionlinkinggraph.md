@@ -9,8 +9,6 @@ ms.assetid: B1952085-CCD2-40F6-9A23-83B4F18FC30A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], ID3D11FunctionLinkingGraph interface [Direct3D 11],described, d3d11shader/ID3D11FunctionLinkingGraph, direct3d11.id3d11functionlinkinggraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

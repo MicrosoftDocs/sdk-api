@@ -9,8 +9,6 @@ ms.assetid: 1c1d2d31-a234-407e-b9fc-4823928c5ca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEAPPINFO, LINEAPPINFO, LINEAPPINFO structure [TAPI 2.2], LPLINEAPPINFO, LPLINEAPPINFO structure pointer [TAPI 2.2], _tapi2_lineappinfo_str, tapi/LINEAPPINFO, tapi/LPLINEAPPINFO, tapi2.lineappinfo_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

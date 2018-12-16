@@ -9,8 +9,6 @@ ms.assetid: dadd5f2a-2584-4046-8cdf-4d6ea97cc878
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrtGetSearchPathSize, DrtGetSearchPathSize function [Peer Networking], drt/DrtGetSearchPathSize, p2p.drtgetsearchpathsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

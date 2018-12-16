@@ -9,8 +9,6 @@ ms.assetid: 9fb0b765-0162-418d-b0cd-7e9b1b53e1b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextRow, GetNextRow method [ADSI], GetNextRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextRow method, IDirectorySearch.GetNextRow, IDirectorySearch::GetNextRow, _ds_idirectorysearch_getnextrow, adsi.idirectorysearch__getnextrow, adsi.idirectorysearch_getnextrow, iads/IDirectorySearch::GetNextRow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

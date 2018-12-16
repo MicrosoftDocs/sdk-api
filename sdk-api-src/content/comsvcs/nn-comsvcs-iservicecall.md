@@ -9,8 +9,6 @@ ms.assetid: 97532e29-3d1a-4a7c-8103-dd7ae2866a70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceCall, IServiceCall interface [COM+], IServiceCall interface [COM+],described, _cos_IServiceCall, comsvcs/IServiceCall, cos.iservicecall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

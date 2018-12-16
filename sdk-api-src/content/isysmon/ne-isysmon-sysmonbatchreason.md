@@ -9,8 +9,6 @@ ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 

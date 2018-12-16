@@ -9,8 +9,6 @@ ms.assetid: a9757c77-f873-4f75-be80-c4bd1d327299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetClassDescription, SetupDiGetClassDescription function [Device and Driver Installation], SetupDiGetClassDescriptionA, SetupDiGetClassDescriptionW, devinst.setupdigetclassdescription, di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml, setupapi/SetupDiGetClassDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

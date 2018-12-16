@@ -9,8 +9,6 @@ ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 

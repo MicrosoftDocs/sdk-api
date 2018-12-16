@@ -9,8 +9,6 @@ ms.assetid: 33426EAC-13E6-4AF2-9D01-7C3057EB8104
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalEffectsState, GetLocalEffectsState method [Core Audio], GetLocalEffectsState method [Core Audio],IAudioLfxControl interface, IAudioLfxControl interface [Core Audio],GetLocalEffectsState method, IAudioLfxControl.GetLocalEffectsState, IAudioLfxControl::GetLocalEffectsState, audioengineendpoint/IAudioLfxControl::GetLocalEffectsState, coreaudio.iaudiolfxcontrol_getlocaleffectsstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7c099357-8299-4664-ba16-7f8936e16054
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCspStatusesFromOperations, GetCspStatusesFromOperations method [Security], GetCspStatusesFromOperations method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusesFromOperations method, ICspInformations.GetCspStatusesFromOperations, ICspInformations::GetCspStatusesFromOperations, certenroll/ICspInformations::GetCspStatusesFromOperations, security.icspinformations_getcspstatusesfromoperations_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

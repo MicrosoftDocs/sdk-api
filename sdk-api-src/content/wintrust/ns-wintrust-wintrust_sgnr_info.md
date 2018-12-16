@@ -9,8 +9,6 @@ ms.assetid: 04e62bfa-efe4-428a-ae6b-58c2377fd5ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO structure pointer [Security], WINTRUST_SGNR_INFO, WINTRUST_SGNR_INFO structure [Security], _win32_wintrust_sgnr_info, security.wintrust_sgnr_info, wintrust/PWINTRUST_SGNR_INFO, wintrust/WINTRUST_SGNR_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

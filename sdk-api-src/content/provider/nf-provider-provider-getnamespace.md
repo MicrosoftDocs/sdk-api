@@ -9,8 +9,6 @@ ms.assetid: aa400731-3127-4ea7-a4ac-f31b6af8db98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamespace, GetNamespace method [Windows Management Instrumentation], GetNamespace method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetNamespace method, Provider.GetNamespace, Provider::GetNamespace, _hmm_provider_getnamespace, provider/Provider::GetNamespace, wmi.provider_getnamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

@@ -9,8 +9,6 @@ ms.assetid: 665ab139-773c-4e02-896f-2f97063a786f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FrequencyMapping method, ITuningSpace.put_FrequencyMapping, ITuningSpace::put_FrequencyMapping, ITuningSpaceput_FrequencyMapping, mstv.ituningspace_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FrequencyMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

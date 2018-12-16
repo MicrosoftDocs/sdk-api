@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\r
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],RemoteUser property, IRendezvousSession.RemoteUser, IRendezvousSession.get_RemoteUser, IRendezvousSession::RemoteUser, IRendezvousSession::get_RemoteUser, RemoteUser property [Remote Assistance], RemoteUser property [Remote Assistance],IRendezvousSession interface, get_RemoteUser, remoteassist.remoteassist_IRendezvousSession_RemoteUser, remoteassist_IRendezvousSession_RemoteUser, rendezvoussession/IRendezvousSession::RemoteUser, rendezvoussession/IRendezvousSession::get_RemoteUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

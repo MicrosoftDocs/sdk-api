@@ -9,8 +9,6 @@ ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

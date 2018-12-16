@@ -9,8 +9,6 @@ ms.assetid: 1d184948-4ba2-4c8c-8771-d1aea6c4f565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPLINEMESSAGE, LPLINEMESSAGE structure pointer [TAPI 2.2], _tapi2_linemessage_str, tapi/LINEMESSAGE, tapi/LPLINEMESSAGE, tapi2.linemessage_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

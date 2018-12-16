@@ -9,8 +9,6 @@ ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

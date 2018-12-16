@@ -9,8 +9,6 @@ ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Unregister, IVssExpressWriter::Unregister, Unregister, Unregister method, Unregister method,IVssExpressWriter interface, base.ivssexpresswriter_unregister, vswriter/IVssExpressWriter::Unregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: 

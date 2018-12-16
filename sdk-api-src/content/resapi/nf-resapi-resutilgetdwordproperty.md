@@ -9,8 +9,6 @@ ms.assetid: d67f73f8-a5ce-4922-956f-392c27ee3b1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_DWORD_PROPERTY, PRESUTIL_GET_DWORD_PROPERTY function [Failover Cluster], ResUtilGetDwordProperty, ResUtilGetDwordProperty function [Failover Cluster], _wolf_resutilgetdwordproperty, mscs.resutilgetdwordproperty, resapi/PRESUTIL_GET_DWORD_PROPERTY, resapi/ResUtilGetDwordProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

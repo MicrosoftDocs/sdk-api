@@ -9,8 +9,6 @@ ms.assetid: 9a3557e0-d533-4357-aa2a-7e168482927a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNeutralAxis, GetNeutralAxis method [Windows Color System], GetNeutralAxis method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxis method, IDeviceModelPlugIn.GetNeutralAxis, IDeviceModelPlugIn::GetNeutralAxis, _color_IDeviceModelPlugIn::GetNeutralAxis, wcs.IDeviceModelPlugIn_GetNeutralAxis, wcsplugin/IDeviceModelPlugIn::GetNeutralAxis
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

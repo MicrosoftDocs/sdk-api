@@ -9,8 +9,6 @@ ms.assetid: 5b9eae72-546e-4724-acba-c2f2d9ad1cc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],ExceptionsNotAllowed property, INetFwProfile.ExceptionsNotAllowed, INetFwProfile.put_ExceptionsNotAllowed, INetFwProfile::ExceptionsNotAllowed, INetFwProfile::get_ExceptionsNotAllowed, INetFwProfile::put_ExceptionsNotAllowed, ics.inetfwprofile_exceptionsnotallowed, netfw/INetFwProfile::ExceptionsNotAllowed, netfw/INetFwProfile::get_ExceptionsNotAllowed, netfw/INetFwProfile::put_ExceptionsNotAllowed, put_ExceptionsNotAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

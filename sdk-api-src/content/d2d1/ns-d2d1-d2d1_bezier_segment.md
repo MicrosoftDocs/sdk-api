@@ -9,8 +9,6 @@ ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_BEZIER_SEGMENT, D2D1_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_BEZIER_SEGMENT, direct2d.D2D1_BEZIER_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

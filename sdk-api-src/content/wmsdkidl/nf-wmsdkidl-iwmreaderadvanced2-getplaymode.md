@@ -9,8 +9,6 @@ ms.assetid: 45c7e2c2-fff4-41a9-b5ce-76d8d6257e77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPlayMode, GetPlayMode method [windows Media Format], GetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetPlayMode method, IWMReaderAdvanced2.GetPlayMode, IWMReaderAdvanced2::GetPlayMode, IWMReaderAdvanced2GetPlayMode, wmformat.iwmreaderadvanced2_getplaymode, wmsdkidl/IWMReaderAdvanced2::GetPlayMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

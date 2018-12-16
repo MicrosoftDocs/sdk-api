@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPKEYBDINPUT, *PKEYBDINPUT, KEYBDINPUT, KEYBDINPUT structure [Keyboard and Mouse Input], KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, KEYEVENTF_SCANCODE, KEYEVENTF_UNICODE, PKEYBDINPUT, PKEYBDINPUT structure pointer [Keyboard and Mouse Input], _win32_KEYBDINPUT_str, _win32_keybdinput_str_cpp, inputdev.keybdinput, winui._win32_keybdinput_str, winuser/KEYBDINPUT, winuser/PKEYBDINPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

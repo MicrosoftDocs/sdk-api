@@ -9,8 +9,6 @@ ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],Cancel method, ITraceRelogger.Cancel, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

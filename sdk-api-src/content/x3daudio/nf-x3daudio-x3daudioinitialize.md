@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 

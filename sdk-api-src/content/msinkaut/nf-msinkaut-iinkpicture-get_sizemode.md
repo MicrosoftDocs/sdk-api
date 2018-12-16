@@ -9,8 +9,6 @@ ms.assetid: 3ce10b92-80d4-4517-92cb-eff10fc8c0ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],SizeMode property, IInkPicture.SizeMode, IInkPicture.get_SizeMode, IInkPicture::SizeMode, IInkPicture::get_SizeMode, IInkPicture::put_SizeMode, InkPicture.get_SizeMode, InkPicture.put_SizeMode, SizeMode property [Tablet PC], SizeMode property [Tablet PC],IInkPicture interface, get_SizeMode, msinkaut/IInkPicture::SizeMode, msinkaut/IInkPicture::get_SizeMode, msinkaut/IInkPicture::put_SizeMode, put_SizeMode, tablet.inkpicture_sizemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

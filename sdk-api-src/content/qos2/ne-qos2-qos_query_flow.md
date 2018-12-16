@@ -9,8 +9,6 @@ ms.assetid: cae09751-0ac8-4fa1-9fdb-d2df3f01e504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERY_FLOW, QOS_QUERY_FLOW enumeration [QOS], qos.qos_query_flow, qos2/QOSQueryFlowFundamentals, qos2/QOSQueryOutgoingRate, qos2/QOSQueryPacketPriority, qos2/QOS_QUERY_FLOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 

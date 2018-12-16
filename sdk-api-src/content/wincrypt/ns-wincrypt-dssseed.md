@@ -9,8 +9,6 @@ ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

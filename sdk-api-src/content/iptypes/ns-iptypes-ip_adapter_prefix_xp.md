@@ -9,8 +9,6 @@ ms.assetid: 680b412d-2352-421d-ae58-dcf34ee6cf31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIP_ADAPTER_PREFIX, *PIP_ADAPTER_PREFIX_XP, IP_ADAPTER_PREFIX, IP_ADAPTER_PREFIX structure [IP Helper], IP_ADAPTER_PREFIX_XP, PIP_ADAPTER_PREFIX, PIP_ADAPTER_PREFIX structure pointer [IP Helper], iphlp.ip_adapter_prefix, iptypes/IP_ADAPTER_PREFIX, iptypes/PIP_ADAPTER_PREFIX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

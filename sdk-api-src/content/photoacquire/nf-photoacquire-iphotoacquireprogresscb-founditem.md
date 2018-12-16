@@ -9,8 +9,6 @@ ms.assetid: b80fb2f2-57b7-4333-891e-32eba0347a17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition],FoundItem method, IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

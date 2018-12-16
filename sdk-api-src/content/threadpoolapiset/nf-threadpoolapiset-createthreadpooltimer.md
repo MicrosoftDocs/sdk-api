@@ -9,8 +9,6 @@ ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

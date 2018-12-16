@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_psgetconstantbuffers.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],PSGetConstantBuffers method, ID3D10Device.PSGetConstantBuffers, ID3D10Device::PSGetConstantBuffers, PSGetConstantBuffers, PSGetConstantBuffers method [Direct3D 10], PSGetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetConstantBuffers, direct3d10.id3d10device_psgetconstantbuffers, eab94e38-3b29-902e-3cc8-c2e19db2df68
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

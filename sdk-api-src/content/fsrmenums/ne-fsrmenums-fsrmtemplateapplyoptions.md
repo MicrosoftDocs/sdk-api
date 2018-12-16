@@ -9,8 +9,6 @@ ms.assetid: 44a8e280-4005-476c-a43d-184c18825129
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmTemplateApplyOptions, FsrmTemplateApplyOptions enumeration [File Server Resource Manager], FsrmTemplateApplyOptions_ApplyToDerivedAll, FsrmTemplateApplyOptions_ApplyToDerivedMatching, fs.fsrmtemplateapplyoptions, fsrm.fsrmtemplateapplyoptions, fsrmenums/FsrmTemplateApplyOptions, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

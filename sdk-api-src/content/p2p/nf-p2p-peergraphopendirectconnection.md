@@ -9,8 +9,6 @@ ms.assetid: 0625a2f6-7e16-43c7-8c03-1f0ddeda426f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerGraphOpenDirectConnection, PeerGraphOpenDirectConnection function [Peer Networking], p2p.peergraphopendirectconnection, p2p/PeerGraphOpenDirectConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

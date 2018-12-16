@@ -9,8 +9,6 @@ ms.assetid: 4070af24-b7f9-4484-ab13-d3a52c9e55a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElementAt, MI_Instance_SetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElementAt, wmi_v2.mi_instance_setelementat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

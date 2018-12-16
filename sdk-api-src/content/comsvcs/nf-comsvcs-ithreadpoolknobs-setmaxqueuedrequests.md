@@ -9,8 +9,6 @@ ms.assetid: 63f579a0-853e-484b-bc49-1c0f4c76d889
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThreadPoolKnobs.SetMaxQueuedRequests, IThreadPoolKnobs::SetMaxQueuedRequests, SetMaxQueuedRequests, SetMaxQueuedRequests method [COM+], SetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests, cos.ithreadpoolknobs_setmaxqueuedrequests
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

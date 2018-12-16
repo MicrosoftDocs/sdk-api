@@ -9,8 +9,6 @@ ms.assetid: F38FF7EB-DDC5-4692-8F57-8D633193D891
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSS_VA_SPACE_INFORMATION, PSS_VA_SPACE_INFORMATION structure, proc_snap.pss_va_space_information, processsnapshot/PSS_VA_SPACE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

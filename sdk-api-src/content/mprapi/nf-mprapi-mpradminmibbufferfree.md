@@ -9,8 +9,6 @@ ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

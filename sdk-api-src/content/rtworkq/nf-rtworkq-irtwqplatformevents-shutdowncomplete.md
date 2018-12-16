@@ -9,8 +9,6 @@ ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownComplete method, IRtwqPlatformEvents.ShutdownComplete, IRtwqPlatformEvents::ShutdownComplete, ShutdownComplete, ShutdownComplete method, ShutdownComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdowncomplete, rtworkq/IRtwqPlatformEvents::ShutdownComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 

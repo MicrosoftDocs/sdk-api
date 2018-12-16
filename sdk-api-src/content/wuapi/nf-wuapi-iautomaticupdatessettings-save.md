@@ -9,8 +9,6 @@ ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

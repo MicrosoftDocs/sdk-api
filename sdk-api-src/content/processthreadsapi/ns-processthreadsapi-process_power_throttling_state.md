@@ -9,8 +9,6 @@ ms.assetid: 394B6509-849C-4B4C-9A46-AF5011A03585
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE structure pointer, PROCESS_POWER_THROTTLING_CURRENT_VERSION, PROCESS_POWER_THROTTLING_EXECUTION_SPEED, PROCESS_POWER_THROTTLING_STATE, PROCESS_POWER_THROTTLING_STATE structure, base.process_power_throttling_state, processthreadsapi/PPROCESS_POWER_THROTTLING_STATE, processthreadsapi/PROCESS_POWER_THROTTLING_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: 

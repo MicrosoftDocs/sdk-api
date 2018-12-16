@@ -9,8 +9,6 @@ ms.assetid: F60DC5AD-9114-46FA-BCFF-981D637B3683
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRIO_NOTIFICATION_COMPLETION_TYPE, RIO_EVENT_COMPLETION, RIO_IOCP_COMPLETION, RIO_NOTIFICATION_COMPLETION_TYPE, RIO_NOTIFICATION_COMPLETION_TYPE enumeration [Winsock], mswsock/RIO_EVENT_COMPLETION, mswsock/RIO_IOCP_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION_TYPE, winsock.rio_notification_completion_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mswsock.h
 req.include-header: 

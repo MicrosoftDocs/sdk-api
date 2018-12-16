@@ -9,8 +9,6 @@ ms.assetid: 3e9ad8ba-0f0e-46e6-ab0b-61c35bfd2dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefaultAll method, IApplicationAssociationRegistration.SetAppAsDefaultAll, IApplicationAssociationRegistration::SetAppAsDefaultAll, SetAppAsDefaultAll, SetAppAsDefaultAll method [Windows Shell], SetAppAsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefaultAll, shell.IApplicationAssociationRegistration_SetAppAsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefaultAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

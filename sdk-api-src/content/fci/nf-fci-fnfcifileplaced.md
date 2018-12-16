@@ -9,8 +9,6 @@ ms.assetid: f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIFILEPLACED, FNFCIFILEPLACED macro [Windows API], fci/FNFCIFILEPLACED, winprog.fnfcifileplaced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

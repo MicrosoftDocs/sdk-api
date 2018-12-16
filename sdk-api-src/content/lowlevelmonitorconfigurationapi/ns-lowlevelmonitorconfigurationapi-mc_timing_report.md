@@ -9,8 +9,6 @@ ms.assetid: dfad2277-4f0d-4a92-a332-2c6c2bbac138
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPMC_TIMING_REPORT, LPMC_TIMING_REPORT, LPMC_TIMING_REPORT structure pointer [Monitor Configuration], MC_TIMING_REPORT, MC_TIMING_REPORT structure [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_TIMING_REPORT, lowlevelmonitorconfigurationapi/MC_TIMING_REPORT, monitor.mc_timing_report"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

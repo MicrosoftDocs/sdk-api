@@ -9,8 +9,6 @@ ms.assetid: CD9A46DB-C16D-4DF4-972B-2CE8398CEE98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDriverHandle, GetDriverHandle method [Media Foundation], GetDriverHandle method [Media Foundation],ID3D11VideoDecoder interface, ID3D11VideoDecoder interface [Media Foundation],GetDriverHandle method, ID3D11VideoDecoder.GetDriverHandle, ID3D11VideoDecoder::GetDriverHandle, d3d11/ID3D11VideoDecoder::GetDriverHandle, mf.id3d11videodecoder_getdriverhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1A05A112-3975-4424-AED7-55F9CFBF8771
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMemberTypeByName, GetMemberTypeByName method, GetMemberTypeByName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByName method, ID3D12ShaderReflectionType.GetMemberTypeByName, ID3D12ShaderReflectionType::GetMemberTypeByName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName, direct3d12.id3d12shaderreflectiontype_getmembertypebyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

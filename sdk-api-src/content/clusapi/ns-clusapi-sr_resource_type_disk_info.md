@@ -9,8 +9,6 @@ ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_DISK_INFO, clusapi/SR_RESOURCE_TYPE_DISK_INFO, msclus/PSR_RESOURCE_TYPE_DISK_INFO, msclus/SR_RESOURCE_TYPE_DISK_INFO, mscs.sr_resource_type_disk_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

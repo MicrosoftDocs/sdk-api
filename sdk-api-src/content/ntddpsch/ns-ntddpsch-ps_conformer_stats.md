@@ -9,8 +9,6 @@ ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 

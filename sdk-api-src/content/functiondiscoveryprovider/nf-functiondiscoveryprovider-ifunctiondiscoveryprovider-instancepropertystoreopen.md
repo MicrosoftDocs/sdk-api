@@ -9,8 +9,6 @@ ms.assetid: 35e98e8a-5e6c-4cbb-9a61-9720f11f90d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreOpen method, IFunctionDiscoveryProvider.InstancePropertyStoreOpen, IFunctionDiscoveryProvider::InstancePropertyStoreOpen, InstancePropertyStoreOpen, InstancePropertyStoreOpen method, InstancePropertyStoreOpen method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreOpen, ncd.ifunctiondiscoveryprovider_instancepropertystoreopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

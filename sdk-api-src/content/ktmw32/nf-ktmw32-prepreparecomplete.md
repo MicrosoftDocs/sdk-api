@@ -9,8 +9,6 @@ ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

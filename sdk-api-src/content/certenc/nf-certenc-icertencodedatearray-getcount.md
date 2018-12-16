@@ -9,8 +9,6 @@ ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeDateArray object, GetCount method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetCount method, ICertEncodeDateArray.GetCount, ICertEncodeDateArray::GetCount, _certsrv_icertencodedatearray_getcount, certenc/ICertEncodeDateArray::GetCount, security.icertencodedatearray_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

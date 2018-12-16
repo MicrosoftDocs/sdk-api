@@ -9,8 +9,6 @@ ms.assetid: 05020390-475f-4528-ba44-ecdfe008149f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteAccessPath, DeleteAccessPath method [VDS], DeleteAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],DeleteAccessPath method, IVdsVolumeMF.DeleteAccessPath, IVdsVolumeMF::DeleteAccessPath, base.ivdsvolumemf_deleteaccesspath, vds/IVdsVolumeMF::DeleteAccessPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

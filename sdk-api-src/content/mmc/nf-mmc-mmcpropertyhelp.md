@@ -9,8 +9,6 @@ ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmc.h
 req.include-header: 

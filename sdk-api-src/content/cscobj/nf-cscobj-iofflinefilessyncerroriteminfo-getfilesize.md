@@ -9,8 +9,6 @@ ms.assetid: a1873a10-0e60-46c3-a3a3-12d974cc0ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileSize method, IOfflineFilesSyncErrorItemInfo.GetFileSize, IOfflineFilesSyncErrorItemInfo::GetFileSize, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize, of.iofflinefilessyncerroriteminfo_getfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

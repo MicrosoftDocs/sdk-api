@@ -9,8 +9,6 @@ ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Description property, IUpdate.Description, IUpdate.get_Description, IUpdate::Description, IUpdate::get_Description, get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

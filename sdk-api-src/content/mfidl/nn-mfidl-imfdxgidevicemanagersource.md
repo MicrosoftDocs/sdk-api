@@ -9,8 +9,6 @@ ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [Media Foundation], IMFDXGIDeviceManagerSource interface [Media Foundation],described, mf.imfdxgidevicemanagersource, mfidl/IMFDXGIDeviceManagerSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

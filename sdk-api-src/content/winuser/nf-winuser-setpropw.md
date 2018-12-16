@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\win
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProp, SetProp function [Windows and Messages], SetPropA, SetPropW, _win32_SetProp, _win32_setprop_cpp, winmsg.setprop, winui._win32_setprop, winuser/SetProp, winuser/SetPropA, winuser/SetPropW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

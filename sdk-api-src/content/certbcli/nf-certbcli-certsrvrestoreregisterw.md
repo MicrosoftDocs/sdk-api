@@ -9,8 +9,6 @@ ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

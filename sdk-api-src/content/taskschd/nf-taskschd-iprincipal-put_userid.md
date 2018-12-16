@@ -9,8 +9,6 @@ ms.assetid: b85a1f05-acb0-4b3c-bea0-393ad7c6a43d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrincipal interface [Task Scheduler],UserId property, IPrincipal.UserId, IPrincipal.put_UserId, IPrincipal::UserId, IPrincipal::get_UserId, IPrincipal::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],IPrincipal interface, put_UserId, taskschd.iprincipal_userid, taskschd/IPrincipal::UserId, taskschd/IPrincipal::get_UserId, taskschd/IPrincipal::put_UserId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

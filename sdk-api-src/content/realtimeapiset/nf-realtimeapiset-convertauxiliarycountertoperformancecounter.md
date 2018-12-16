@@ -9,8 +9,6 @@ ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertAuxiliaryCounterToPerformanceCounter, ConvertAuxiliaryCounterToPerformanceCounter function, base.convertauxiliarycountertoperformancecounter, realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

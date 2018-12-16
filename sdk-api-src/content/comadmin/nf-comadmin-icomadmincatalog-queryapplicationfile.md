@@ -9,8 +9,6 @@ ms.assetid: 5f90da9d-06eb-4ec0-8ea1-d040c8e084b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],QueryApplicationFile method, ICOMAdminCatalog.QueryApplicationFile, ICOMAdminCatalog::QueryApplicationFile, QueryApplicationFile, QueryApplicationFile method [COM+], QueryApplicationFile method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_QueryApplicationFile, comadmin/ICOMAdminCatalog::QueryApplicationFile, cos.icomadmincatalog_queryapplicationfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

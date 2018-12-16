@@ -9,8 +9,6 @@ ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2 structure pointer, VDS_VOLUME_PROP2, VDS_VOLUME_PROP2 structure, base.vds_volume_prop2, vds/PVDS_VOLUME_PROP2, vds/VDS_VOLUME_PROP2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

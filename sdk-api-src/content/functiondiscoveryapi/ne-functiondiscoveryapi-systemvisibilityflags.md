@@ -9,8 +9,6 @@ ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SVF_SYSTEM, SVF_USER, SystemVisibilityFlags, SystemVisibilityFlags enumeration, functiondiscoveryapi/SVF_SYSTEM, functiondiscoveryapi/SVF_USER, functiondiscoveryapi/SystemVisibilityFlags, ncd.systemvisibilityflags_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: functiondiscoveryapi.h
 req.include-header: 

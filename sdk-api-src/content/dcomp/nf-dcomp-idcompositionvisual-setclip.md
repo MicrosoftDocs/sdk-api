@@ -9,8 +9,6 @@ ms.assetid: 7F01EB25-3A44-416F-A926-D185F2FD44EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(const D2D_RECT_F &), IDCompositionVisual::SetClip(const D2D_RECT_F&), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_const_d2d_rect_f_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

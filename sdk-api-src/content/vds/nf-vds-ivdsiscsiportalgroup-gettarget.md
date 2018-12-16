@@ -9,8 +9,6 @@ ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

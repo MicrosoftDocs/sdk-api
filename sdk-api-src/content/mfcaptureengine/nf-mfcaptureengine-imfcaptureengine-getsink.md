@@ -9,8 +9,6 @@ ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSink method, IMFCaptureEngine.GetSink, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

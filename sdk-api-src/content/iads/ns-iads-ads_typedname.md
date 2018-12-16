@@ -9,8 +9,6 @@ ms.assetid: 64ce748c-adfc-4beb-8507-ca6aece46ad0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PADS_TYPEDNAME, PADS_TYPEDNAME structure pointer [ADSI], _ds_ads_typedname, adsi.ads__typedname, adsi.ads_typedname, iads/ADS_TYPEDNAME, iads/PADS_TYPEDNAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

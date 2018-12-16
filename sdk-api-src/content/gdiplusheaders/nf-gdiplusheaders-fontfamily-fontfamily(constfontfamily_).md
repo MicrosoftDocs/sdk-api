@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfam
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(const FontFamily &), FontFamily::FontFamily, FontFamily::FontFamily(const FontFamily &), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

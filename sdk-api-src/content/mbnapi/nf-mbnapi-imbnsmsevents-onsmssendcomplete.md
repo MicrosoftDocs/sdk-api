@@ -9,8 +9,6 @@ ms.assetid: 4c08b173-7e9e-4b4f-8068-1a90c57eea90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_NOT_REGISTERED, E_MBN_PIN_REQUIRED, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_ENCODING_NOT_SUPPORTED, E_MBN_SMS_LANG_NOT_SUPPORTED, E_MBN_SMS_MEMORY_FAILURE, E_MBN_SMS_MEMORY_FULL, E_MBN_SMS_NETWORK_TIMEOUT, E_MBN_SMS_OPERATION_NOT_ALLOWED, E_MBN_SMS_UNKNOWN_SMSC_ADDRESS, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsSendComplete method, IMbnSmsEvents.OnSmsSendComplete, IMbnSmsEvents::OnSmsSendComplete, OnSmsSendComplete, OnSmsSendComplete method [Microsoft Broadband Networks], OnSmsSendComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmssendcomplete, mbnapi/IMbnSmsEvents::OnSmsSendComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

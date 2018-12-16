@@ -9,8 +9,6 @@ ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

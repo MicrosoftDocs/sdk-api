@@ -9,8 +9,6 @@ ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], GetCertificateByIndex method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateByIndex method, IX509EndorsementKey.GetCertificateByIndex, IX509EndorsementKey::GetCertificateByIndex, certenroll/IX509EndorsementKey::GetCertificateByIndex, security.ix509endorsementkey_getcertificatebyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

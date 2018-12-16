@@ -9,8 +9,6 @@ ms.assetid: 58dbe8ff-4236-456c-8361-e7716e764f89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICConfigure, ICConfigure macro [Windows Multimedia], _win32_ICConfigure, multimedia.icconfigure, vfw/ICConfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c31409fd-9350-46bb-a8a0-85d5958c6e49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellDetails, IShellDetails interface [Windows Shell], IShellDetails interface [Windows Shell],described, _win32_IShellDetails, shell.IShellDetails, shlobj_core/IShellDetails
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

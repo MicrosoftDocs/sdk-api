@@ -9,8 +9,6 @@ ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableSystemKeystrokeFeed, EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

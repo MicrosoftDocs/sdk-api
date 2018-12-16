@@ -9,8 +9,6 @@ ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

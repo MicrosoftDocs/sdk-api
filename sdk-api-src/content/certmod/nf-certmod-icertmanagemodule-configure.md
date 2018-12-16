@@ -9,8 +9,6 @@ ms.assetid: dc54cda9-1818-40af-9005-f31ad3c110c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertManageModule object [Security],Configure method, Configure, Configure method [Security], Configure method [Security],CCertManageModule object, Configure method [Security],ICertManageModule interface, ICertManageModule interface [Security],Configure method, ICertManageModule.Configure, ICertManageModule::Configure, _certsrv_icertmanagemodule_configure, certmod/ICertManageModule::Configure, security.icertmanagemodule_configure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certmod.h
 req.include-header: Certsrv.h

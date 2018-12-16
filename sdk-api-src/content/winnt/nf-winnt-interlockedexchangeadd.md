@@ -9,8 +9,6 @@ ms.assetid: e48b67a0-133b-4e88-b451-432f26b4881a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd function, _win32_interlockedexchangeadd, base.interlockedexchangeadd, winnt/InterlockedExchangeAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

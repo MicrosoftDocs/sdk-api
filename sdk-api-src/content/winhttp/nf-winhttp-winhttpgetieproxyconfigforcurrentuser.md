@@ -9,8 +9,6 @@ ms.assetid: 3de4dfb9-881f-47db-9fdf-af0ce162e380
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpGetIEProxyConfigForCurrentUser, WinHttpGetIEProxyConfigForCurrentUser function [WinHTTP], http.winhttpgetieproxyconfigforcurrentuser, winhttp/WinHttpGetIEProxyConfigForCurrentUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

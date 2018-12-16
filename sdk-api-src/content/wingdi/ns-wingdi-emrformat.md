@@ -9,8 +9,6 @@ ms.assetid: a86e45f1-bbe1-4cb6-a9fa-679108db89ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, wingdi/EMRFORMAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

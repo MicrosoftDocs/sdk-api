@@ -9,8 +9,6 @@ ms.assetid: B7A5698B-486A-4C8D-8FD0-22EA237DFBC1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient3 method, IDCompositionArithmeticCompositeEffect.SetCoefficient3, IDCompositionArithmeticCompositeEffect::SetCoefficient3, SetCoefficient3, SetCoefficient3 method [DirectComposition], SetCoefficient3 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

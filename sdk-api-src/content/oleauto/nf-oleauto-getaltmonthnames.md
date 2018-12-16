@@ -9,8 +9,6 @@ ms.assetid: dfde73f2-edb9-4ab9-9394-d859e61a6db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAltMonthNames, GetAltMonthNames function [Automation], _oa96_GetAltMonthNames, automat.getaltmonthnames, oleauto/GetAltMonthNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

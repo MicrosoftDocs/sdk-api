@@ -9,8 +9,6 @@ ms.assetid: da7819b5-0f18-44e3-83e7-f6d5ccbc0de6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterNetInterfaceCloseEnum, ClusterNetInterfaceCloseEnum function [Failover Cluster], clusapi/ClusterNetInterfaceCloseEnum, mscs.clusternetinterfacecloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

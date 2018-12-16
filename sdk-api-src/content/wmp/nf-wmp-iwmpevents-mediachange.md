@@ -9,8 +9,6 @@ ms.assetid: 385fb52c-62d2-482d-bc9f-94dbf693a27c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaChange method, IWMPEvents.MediaChange, IWMPEvents::MediaChange, IWMPEventsMediaChange, MediaChange, MediaChange method [Windows Media Player], MediaChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediachange, wmp/IWMPEvents::MediaChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

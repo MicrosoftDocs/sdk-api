@@ -9,8 +9,6 @@ ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

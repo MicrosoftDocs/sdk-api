@@ -9,8 +9,6 @@ ms.assetid: 9719f672-d706-44e3-b976-28d0d0feacd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ObjectContext interface, ObjectContext interface [COM+],CreateInstance method, ObjectContext.CreateInstance, ObjectContext::CreateInstance, _cos_ObjectContext_CreateInstance, comsvcs/ObjectContext::CreateInstance, cos.objectcontext_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

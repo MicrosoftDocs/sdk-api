@@ -9,8 +9,6 @@ ms.assetid: D07829ED-2C1E-4150-A0A1-5CD95F30209F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoProcessorOutputView, ID3D11VideoProcessorOutputView interface [Media Foundation], ID3D11VideoProcessorOutputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorOutputView, mf.id3d11videoprocessoroutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

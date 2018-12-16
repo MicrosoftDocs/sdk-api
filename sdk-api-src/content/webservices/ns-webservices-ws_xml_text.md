@@ -9,8 +9,6 @@ ms.assetid: 430edd13-b664-4e10-8d61-ffa6a01dcb90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_TEXT, WS_XML_TEXT structure [Web Services for Windows], webservices/WS_XML_TEXT, wsw.ws_xml_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

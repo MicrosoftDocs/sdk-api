@@ -9,8 +9,6 @@ ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 

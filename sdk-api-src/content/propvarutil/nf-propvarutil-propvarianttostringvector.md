@@ -9,8 +9,6 @@ ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

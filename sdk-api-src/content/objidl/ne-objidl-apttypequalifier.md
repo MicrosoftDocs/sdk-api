@@ -9,8 +9,6 @@ ms.assetid: ac28076d-d266-4939-b6c1-d56494ffbcd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APTTYPEQUALIFIER, APTTYPEQUALIFIER enumeration [COM], APTTYPEQUALIFIER_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_MAINSTA, APTTYPEQUALIFIER_NA_ON_MTA, APTTYPEQUALIFIER_NA_ON_STA, APTTYPEQUALIFIER_NONE, com.apttypequalifier, objidlbase/APTTYPEQUALIFIER, objidlbase/APTTYPEQUALIFIER_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MAINSTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_STA, objidlbase/APTTYPEQUALIFIER_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h

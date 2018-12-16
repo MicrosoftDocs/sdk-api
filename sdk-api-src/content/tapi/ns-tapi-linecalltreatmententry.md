@@ -9,8 +9,6 @@ ms.assetid: c4a9fbb1-5201-45bd-b88c-b0c81b216f72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPLINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY structure [TAPI 2.2], LPLINECALLTREATMENTENTRY, LPLINECALLTREATMENTENTRY structure pointer [TAPI 2.2], _tapi2_linecalltreatmententry_str, tapi/LINECALLTREATMENTENTRY, tapi/LPLINECALLTREATMENTENTRY, tapi2.linecalltreatmententry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

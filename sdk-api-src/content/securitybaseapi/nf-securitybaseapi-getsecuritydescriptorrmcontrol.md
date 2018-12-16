@@ -9,8 +9,6 @@ ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecurityDescriptorRMControl, GetSecurityDescriptorRMControl function [Security], _win32_getsecuritydescriptorrmcontrol, security.getsecuritydescriptorrmcontrol, securitybaseapi/GetSecurityDescriptorRMControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

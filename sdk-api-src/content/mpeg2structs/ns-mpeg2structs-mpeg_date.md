@@ -9,8 +9,6 @@ ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], mpeg2structs/MPEG_DATE, mstv.mpeg_date
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

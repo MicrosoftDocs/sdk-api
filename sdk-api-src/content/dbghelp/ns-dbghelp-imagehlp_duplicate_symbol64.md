@@ -9,8 +9,6 @@ ms.assetid: 47ef96d5-94ba-487c-8678-59ddd18ad449
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL, IMAGEHLP_DUPLICATE_SYMBOL structure, IMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL64 structure, PIMAGEHLP_DUPLICATE_SYMBOL64, PIMAGEHLP_DUPLICATE_SYMBOL64 structure pointer, _IMAGEHLP_DUPLICATE_SYMBOL64, _win32_imagehlp_duplicate_symbol64_str, base.imagehlp_duplicate_symbol64_str, dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64, dbghelp/PIMAGEHLP_DUPLICATE_SYMBOL64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

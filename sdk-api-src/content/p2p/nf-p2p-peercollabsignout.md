@@ -9,8 +9,6 @@ ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

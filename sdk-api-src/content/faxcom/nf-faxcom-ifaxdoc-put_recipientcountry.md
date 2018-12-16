@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientCountry property, IFaxDoc.RecipientCountry, IFaxDoc.put_RecipientCountry, IFaxDoc::RecipientCountry, IFaxDoc::get_RecipientCountry, IFaxDoc::put_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp, faxcom/IFaxDoc::RecipientCountry, faxcom/IFaxDoc::get_RecipientCountry, faxcom/IFaxDoc::put_RecipientCountry, put_RecipientCountry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

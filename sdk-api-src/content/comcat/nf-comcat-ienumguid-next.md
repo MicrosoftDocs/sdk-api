@@ -9,8 +9,6 @@ ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::Next, Next, Next method [COM], Next method [COM],IEnumGUID interface, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

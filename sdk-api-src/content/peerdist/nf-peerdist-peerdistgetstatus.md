@@ -9,8 +9,6 @@ ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

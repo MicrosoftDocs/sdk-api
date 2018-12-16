@@ -9,8 +9,6 @@ ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.get_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, get_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 40d70c1f-c580-43c4-b44b-6c9388e138fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

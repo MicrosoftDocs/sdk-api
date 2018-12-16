@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\pauseout
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueuePaused property, IFaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.put_OutgoingQueuePaused, IFaxConfiguration::OutgoingQueuePaused, IFaxConfiguration::get_OutgoingQueuePaused, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_IFaxConfiguration_PauseOutgoingQueue, faxcomex/IFaxConfiguration::OutgoingQueuePaused, faxcomex/IFaxConfiguration::get_OutgoingQueuePaused, faxcomex/IFaxConfiguration::put_OutgoingQueuePaused, put_OutgoingQueuePaused
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

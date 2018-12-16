@@ -9,8 +9,6 @@ ms.assetid: 768e563a-5ff5-4dd2-8811-0a823c253a31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, MaximumIoPriorityHintType, PRIORITY_HINT, PRIORITY_HINT enumeration [Files], fs.priority_hint, winbase/IoPriorityHintLow, winbase/IoPriorityHintNormal, winbase/IoPriorityHintVeryLow, winbase/MaximumIoPriorityHintType, winbase/PRIORITY_HINT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h

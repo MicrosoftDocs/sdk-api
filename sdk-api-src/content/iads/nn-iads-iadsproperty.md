@@ -9,8 +9,6 @@ ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

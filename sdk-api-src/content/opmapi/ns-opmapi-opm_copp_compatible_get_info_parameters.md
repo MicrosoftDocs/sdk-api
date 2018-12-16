@@ -9,8 +9,6 @@ ms.assetid: 20094e3d-3140-451a-a572-c268ad4c50c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Media Foundation], mf.opm_copp_compatible_get_info_parameters, opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

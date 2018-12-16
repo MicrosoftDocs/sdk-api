@@ -9,8 +9,6 @@ ms.assetid: 128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Advise method, IPortableDeviceService.Advise, IPortableDeviceService::Advise, portabledeviceapi/IPortableDeviceService::Advise, wpdsdk.iportabledeviceservice_advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

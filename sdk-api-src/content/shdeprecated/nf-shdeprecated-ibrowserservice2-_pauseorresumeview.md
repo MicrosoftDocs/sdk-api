@@ -9,8 +9,6 @@ ms.assetid: cc6884c8-222c-4990-b178-ea5665d30d57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_PauseOrResumeView method, IBrowserService2._PauseOrResumeView, IBrowserService2::_PauseOrResumeView, _PauseOrResumeView, _PauseOrResumeView method [Windows Shell], _PauseOrResumeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_PauseOrResumeView, shell.IBrowserService2__PauseOrResumeView, zone_IBrowserService2__PauseOrResumeView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

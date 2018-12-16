@@ -9,8 +9,6 @@ ms.assetid: 83ce3935-2c9a-4ebe-8758-9ac349d4a73b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Names method, IMtsEventInfo.get_Names, IMtsEventInfo::get_Names, _dtc_IMtsEventInfo_Names, comsvcs/IMtsEventInfo::get_Names, cos.imtseventinfo_get_names, get_Names, get_Names method [COM+], get_Names method [COM+],IMtsEventInfo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

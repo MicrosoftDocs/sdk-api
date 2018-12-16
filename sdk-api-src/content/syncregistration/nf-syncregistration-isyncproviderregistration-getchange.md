@@ -9,8 +9,6 @@ ms.assetid: 6a65ba8b-b9cb-4d8c-8d18-9627547f9982
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChange, GetChange method [Windows Sync], GetChange method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetChange method, ISyncProviderRegistration.GetChange, ISyncProviderRegistration::GetChange, syncregistration/ISyncProviderRegistration::GetChange, winsync.isyncproviderregistration_getchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

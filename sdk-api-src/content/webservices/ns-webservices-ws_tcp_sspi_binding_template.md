@@ -9,8 +9,6 @@ ms.assetid: d81a71fa-4743-4831-8863-a8fa73d4a9f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_BINDING_TEMPLATE, WS_TCP_SSPI_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_BINDING_TEMPLATE, wsw.ws_tcp_sspi_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

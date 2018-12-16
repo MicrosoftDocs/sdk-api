@@ -9,8 +9,6 @@ ms.assetid: 4a860535-db03-4db7-912c-16b7e920151a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValueNameByIndex, GetValueNameByIndex method [Microsoft TV Technologies], GetValueNameByIndex method [Microsoft TV Technologies],IBDA_NameValueService interface, IBDA_NameValueService interface [Microsoft TV Technologies],GetValueNameByIndex method, IBDA_NameValueService.GetValueNameByIndex, IBDA_NameValueService::GetValueNameByIndex, bdaiface/IBDA_NameValueService::GetValueNameByIndex, mstv.ibda_namevalueservice_getvaluenamebyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

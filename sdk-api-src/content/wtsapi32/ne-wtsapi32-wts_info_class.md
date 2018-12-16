@@ -9,8 +9,6 @@ ms.assetid: 20e015bd-323a-44c4-a0d6-02781f3a5eec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSApplicationName, WTSClientAddress, WTSClientBuildNumber, WTSClientDirectory, WTSClientDisplay, WTSClientHardwareId, WTSClientInfo, WTSClientName, WTSClientProductId, WTSClientProtocolType, WTSConfigInfo, WTSConnectState, WTSDomainName, WTSIdleTime, WTSIncomingBytes, WTSIncomingFrames, WTSInitialProgram, WTSIsRemoteSession, WTSLogonTime, WTSOEMId, WTSOutgoingBytes, WTSOutgoingFrames, WTSSessionAddressV4, WTSSessionId, WTSSessionInfo, WTSSessionInfoEx, WTSUserName, WTSValidationInfo, WTSWinStationName, WTSWorkingDirectory, WTS_INFO_CLASS, WTS_INFO_CLASS enumeration [Remote Desktop Services], _win32_wts_info_class_str, termserv.wts_info_class_str, wtsapi32/WTSApplicationName, wtsapi32/WTSClientAddress, wtsapi32/WTSClientBuildNumber, wtsapi32/WTSClientDirectory, wtsapi32/WTSClientDisplay, wtsapi32/WTSClientHardwareId, wtsapi32/WTSClientInfo, wtsapi32/WTSClientName, wtsapi32/WTSClientProductId, wtsapi32/WTSClientProtocolType, wtsapi32/WTSConfigInfo, wtsapi32/WTSConnectState, wtsapi32/WTSDomainName, wtsapi32/WTSIdleTime, wtsapi32/WTSIncomingBytes, wtsapi32/WTSIncomingFrames, wtsapi32/WTSInitialProgram, wtsapi32/WTSIsRemoteSession, wtsapi32/WTSLogonTime, wtsapi32/WTSOEMId, wtsapi32/WTSOutgoingBytes, wtsapi32/WTSOutgoingFrames, wtsapi32/WTSSessionAddressV4, wtsapi32/WTSSessionId, wtsapi32/WTSSessionInfo, wtsapi32/WTSSessionInfoEx, wtsapi32/WTSUserName, wtsapi32/WTSValidationInfo, wtsapi32/WTSWinStationName, wtsapi32/WTSWorkingDirectory, wtsapi32/WTS_INFO_CLASS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wtsapi32.h
 req.include-header: 

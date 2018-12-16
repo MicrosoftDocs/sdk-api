@@ -9,8 +9,6 @@ ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: userenv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetUserSettings method, IWindowsParentalControlsCore.GetUserSettings, IWindowsParentalControlsCore::GetUserSettings, parcon.iwindowsparentalcontrols_getusersettings, wpcapi/IWindowsParentalControlsCore::GetUserSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

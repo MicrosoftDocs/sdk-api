@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablem
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmEnableMMCSS, DwmEnableMMCSS function [Desktop Window Manager], _udwm_dwmenablemmcss, _udwm_dwmenablemmcss_cpp, dwm.dwmenablemmcss, dwmapi/DwmEnableMMCSS, winui._udwm_dwmenablemmcss
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

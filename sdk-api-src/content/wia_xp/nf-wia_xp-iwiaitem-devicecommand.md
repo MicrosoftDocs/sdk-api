@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

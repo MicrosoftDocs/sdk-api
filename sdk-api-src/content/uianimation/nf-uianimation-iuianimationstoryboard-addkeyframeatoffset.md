@@ -9,8 +9,6 @@ ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

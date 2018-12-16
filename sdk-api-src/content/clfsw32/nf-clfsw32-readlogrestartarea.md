@@ -9,8 +9,6 @@ ms.assetid: ab59d2fe-d951-42f3-b270-844eaeb6ff90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReadLogRestartArea, ReadLogRestartArea function [Files], clfsw32/ReadLogRestartArea, fs.readlogrestartarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 80f55377-8a1e-42b1-8fe0-5896620c8062
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAdviseSink2, IAdviseSink2 interface [COM], IAdviseSink2 interface [COM],described, _ole_iadvisesink2, com.iadvisesink2, objidl/IAdviseSink2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1B04528B-532B-4555-B027-D5EC33DD9843
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [DirectX Math Support APIs], dxmath.xmvectorexp2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

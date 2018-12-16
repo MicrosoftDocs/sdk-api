@@ -9,8 +9,6 @@ ms.assetid: 6C61B35A-FD43-434F-BD56-C912E2FCE464
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], windows/PdfCreateRenderer, winrt.pdfcreaterenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: windows.data.pdf.interop.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetProbeResolveTag method, IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

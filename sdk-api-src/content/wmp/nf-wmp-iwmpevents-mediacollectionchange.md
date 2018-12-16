@@ -9,8 +9,6 @@ ms.assetid: 8de74905-a0be-46a7-8653-bb955c098257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionChange method, IWMPEvents.MediaCollectionChange, IWMPEvents::MediaCollectionChange, IWMPEventsMediaCollectionChange, MediaCollectionChange, MediaCollectionChange method [Windows Media Player], MediaCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionchange, wmp/IWMPEvents::MediaCollectionChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

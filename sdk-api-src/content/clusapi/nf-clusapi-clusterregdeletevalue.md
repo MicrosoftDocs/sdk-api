@@ -9,8 +9,6 @@ ms.assetid: 81d2936e-6f2c-48d9-b898-c1d8b2c946e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegDeleteValue, ClusterRegDeleteValue function [Failover Cluster], _wolf_clusterregdeletevalue, clusapi/ClusterRegDeleteValue, mscs.clusterregdeletevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intshcut.h
 req.include-header: 

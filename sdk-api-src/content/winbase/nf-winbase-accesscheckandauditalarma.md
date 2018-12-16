@@ -9,8 +9,6 @@ ms.assetid: c2d144f4-9eeb-4723-9d28-97cfd1a07274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

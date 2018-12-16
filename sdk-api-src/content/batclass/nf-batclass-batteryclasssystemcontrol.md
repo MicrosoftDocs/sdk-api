@@ -9,8 +9,6 @@ ms.assetid: d462c51d-e175-4fc8-88b9-515ba648fab4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Battery Devices], bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml, batclass/BatteryClassSystemControl, battery.batteryclasssystemcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h

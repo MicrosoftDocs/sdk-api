@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2GreaterOrEqual(XMVECTOR,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2GreaterOrEqual, XMVector2GreaterOrEqual, XMVector2GreaterOrEqual method [DirectX Math Support APIs], dxmath.xmvector2greaterorequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

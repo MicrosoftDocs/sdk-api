@@ -9,8 +9,6 @@ ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmFilterChoose, acmFilterChoose, acmFilterChoose function [Windows Multimedia], acmFilterChooseA, acmFilterChooseW, msacm/acmFilterChoose, msacm/acmFilterChooseA, msacm/acmFilterChooseW, multimedia.acmfilterchoose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

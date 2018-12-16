@@ -9,8 +9,6 @@ ms.assetid: 257e93ec-fb26-45fb-b07b-4491dbf2528a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put___SourceFilter method, IMSVidFilePlayback2.put___SourceFilter, IMSVidFilePlayback2::put___SourceFilter, IMSVidFilePlayback2put___SourceFilter, mstv.imsvidfileplayback2_put___sourcefilter, put___SourceFilter, put___SourceFilter method [Microsoft TV Technologies], put___SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put___SourceFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

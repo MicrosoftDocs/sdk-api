@@ -9,8 +9,6 @@ ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcou
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Ribbon], GetCount method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetCount method, IUICollection.GetCount, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

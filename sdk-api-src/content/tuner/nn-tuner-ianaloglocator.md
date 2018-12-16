@@ -9,8 +9,6 @@ ms.assetid: d5ed0dcc-347d-4196-a551-88775cb1b253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], IAnalogLocator interface [Microsoft TV Technologies],described, IAnalogLocatorInterface, mstv.ianaloglocator, tuner/IAnalogLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

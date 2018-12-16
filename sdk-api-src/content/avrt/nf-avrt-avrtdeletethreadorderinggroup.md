@@ -9,8 +9,6 @@ ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

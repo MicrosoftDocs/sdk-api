@@ -9,8 +9,6 @@ ms.assetid: 21ad9446-a22c-4c3f-911d-a263cb85078b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POLICY_INFO, RSVP_POLICY_INFO structure [QOS], qos.rsvp_policy_info, qossp/*LPRSVP_POLICY_INFO, qossp/RSVP_POLICY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

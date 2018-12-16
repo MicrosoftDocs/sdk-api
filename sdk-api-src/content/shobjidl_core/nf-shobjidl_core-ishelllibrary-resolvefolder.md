@@ -9,8 +9,6 @@ ms.assetid: f3d867a1-7396-4fba-87ea-45b02f86d681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLibrary interface [Windows Shell],ResolveFolder method, IShellLibrary.ResolveFolder, IShellLibrary::ResolveFolder, ResolveFolder, ResolveFolder method [Windows Shell], ResolveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_ResolveFolder, shell.IShellLibrary_ResolveFolder, shobjidl_core/IShellLibrary::ResolveFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

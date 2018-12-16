@@ -9,8 +9,6 @@ ms.assetid: 75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceChanged method, IGuideDataEvent.ServiceChanged, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

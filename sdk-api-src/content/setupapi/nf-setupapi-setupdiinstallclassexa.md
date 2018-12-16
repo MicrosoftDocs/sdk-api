@@ -9,8 +9,6 @@ ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

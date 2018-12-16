@@ -9,8 +9,6 @@ ms.assetid: 5c79d3e2-c1c9-4529-9a60-457c2d2e6af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Next method, IEnumObjects.Next, IEnumObjects::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Next, shell.IEnumObjects_Next, shobjidl_core/IEnumObjects::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

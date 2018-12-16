@@ -9,8 +9,6 @@ ms.assetid: aa1cf180-bc7c-40ba-91ab-091018790b39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??0CHString@@QAE@PBE@Z, ??0CHString@@QEAA@PEBE@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const unsigned char), CHString::CHString, CHString::CHString(const unsigned char), CHString::CHString(const unsigned char*), chstring/CHString::CHString, wmi.chstring_chstring_const_unsigned_char__"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

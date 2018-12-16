@@ -9,8 +9,6 @@ ms.assetid: 5e973b32-3e7e-41f7-9257-4ac3d67fd853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

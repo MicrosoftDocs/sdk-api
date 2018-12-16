@@ -9,8 +9,6 @@ ms.assetid: 6dd33b7d-4317-4eb5-aae4-83d3f4416bf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyFile2 interface [BITS],SetRemoteName method, IBackgroundCopyFile2.SetRemoteName, IBackgroundCopyFile2::SetRemoteName, SetRemoteName, SetRemoteName method [BITS], SetRemoteName method [BITS],IBackgroundCopyFile2 interface, bits.ibackgroundcopyfile2_setremotename, bits2_0/IBackgroundCopyFile2::SetRemoteName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h

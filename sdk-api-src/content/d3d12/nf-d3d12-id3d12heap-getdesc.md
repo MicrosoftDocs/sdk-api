@@ -9,8 +9,6 @@ ms.assetid: 45237F32-FBDE-49FF-926F-80B914B36AE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12Heap interface, ID3D12Heap interface,GetDesc method, ID3D12Heap.GetDesc, ID3D12Heap::GetDesc, d3d12/ID3D12Heap::GetDesc, direct3d12.id3d12heap_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

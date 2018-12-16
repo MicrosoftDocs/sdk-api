@@ -9,8 +9,6 @@ ms.assetid: 12f3fbd3-9b81-4a11-914c-83658c2bce89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCPDS_SERVER, *PDHCPDS_SERVER, DHCPDS_SERVER, DHCPDS_SERVER structure [DHCP], DHCP_SERVER_INFO, DHCP_SERVER_INFO structure [DHCP], LPDHCPDS_SERVER *PDHCPDS_SERVER, LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP], LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP], PDHCPDS_SERVER, PDHCPDS_SERVER structure pointer [DHCP], PDHCP_SERVER_INFO, PDHCP_SERVER_INFO structure pointer [DHCP], dhcp.dhcpds_server, dhcpsapi/DHCP_SERVER_INFO, dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER, dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, dhcpsapi/PDHCPDS_SERVER, dhcpsapi/PDHCP_SERVER_INFO, dhcpsapi/_DHCPDS_SERVER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4a6b5a10-5ef2-42c7-bf3b-dfa743be252f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSCreateMultiplexPropertyStore, PSCreateMultiplexPropertyStore function [Windows Properties], _shell_PSCreateMultiplexPropertyStore, properties.PSCreateMultiplexPropertyStore, propsys/PSCreateMultiplexPropertyStore, shell.PSCreateMultiplexPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

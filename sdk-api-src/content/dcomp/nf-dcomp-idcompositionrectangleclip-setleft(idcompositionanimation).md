@@ -9,8 +9,6 @@ ms.assetid: 72AF8017-646D-4DD2-B350-FE9B64E30CC0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft(IDCompositionAnimation*), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

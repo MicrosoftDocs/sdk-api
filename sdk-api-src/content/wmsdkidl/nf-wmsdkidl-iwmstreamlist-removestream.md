@@ -9,8 +9,6 @@ ms.assetid: 3b69f516-a321-49f1-a299-666143eaf8a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamList interface [windows Media Format],RemoveStream method, IWMStreamList.RemoveStream, IWMStreamList::RemoveStream, IWMStreamListRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMStreamList interface, wmformat.iwmstreamlist_removestream, wmsdkidl/IWMStreamList::RemoveStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

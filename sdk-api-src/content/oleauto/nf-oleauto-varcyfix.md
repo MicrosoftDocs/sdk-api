@@ -9,8 +9,6 @@ ms.assetid: b688530b-e911-4f48-8dab-bb1ca1c6e718
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyFix, VarCyFix function [Automation], _oa96_VarCyFix, automat.varcyfix, oleauto/VarCyFix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

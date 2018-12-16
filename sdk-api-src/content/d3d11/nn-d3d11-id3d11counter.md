@@ -9,8 +9,6 @@ ms.assetid: 3f35b3d5-f829-443c-9ea6-6cffdd4f58b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Counter, ID3D11Counter interface [Direct3D 11], ID3D11Counter interface [Direct3D 11],described, d3d11/ID3D11Counter, direct3d11.id3d11counter, e8e19b70-2584-4e44-1faf-1bc2d275606a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

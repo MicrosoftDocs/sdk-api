@@ -9,8 +9,6 @@ ms.assetid: 26a6a9bc-6556-4576-a810-d7c07c07cfd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetChangeTimeOut method, IHeaderCtrl2.SetChangeTimeOut, IHeaderCtrl2::SetChangeTimeOut, SetChangeTimeOut, SetChangeTimeOut method [MMC], SetChangeTimeOut method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setchangetimeout, mmc.iheaderctrl2_setchangetimeout, mmc/IHeaderCtrl2::SetChangeTimeOut
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

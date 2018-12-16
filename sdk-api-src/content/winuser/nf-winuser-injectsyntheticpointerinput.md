@@ -9,8 +9,6 @@ ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

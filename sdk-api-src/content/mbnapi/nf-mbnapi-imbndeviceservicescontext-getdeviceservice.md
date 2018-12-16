@@ -9,8 +9,6 @@ ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

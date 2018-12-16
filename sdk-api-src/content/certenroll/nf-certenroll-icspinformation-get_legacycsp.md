@@ -9,8 +9,6 @@ ms.assetid: f798401c-bc78-438d-8847-82a57589ce38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspInformation interface [Security],LegacyCsp property, ICspInformation.LegacyCsp, ICspInformation.get_LegacyCsp, ICspInformation::LegacyCsp, ICspInformation::get_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security],ICspInformation interface, Microsoft Base Cryptographic Provider v1.0, Microsoft Base DSS Cryptographic Provider, Microsoft Base DSS and Diffie-Hellman Cryptographic Provider, Microsoft Base Smart Card Crypto Provider, Microsoft DH Schannel Cryptographic Provider, Microsoft Enhanced Cryptographic Provider v1.0, Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider, Microsoft Enhanced RSA and AES Cryptographic Provider, Microsoft RSA Schannel Cryptographic Provider, Microsoft Smart Card Key Storage Provider, Microsoft Software Key Storage Provider, Microsoft Strong Cryptographic Provider, certenroll/ICspInformation::LegacyCsp, certenroll/ICspInformation::get_LegacyCsp, get_LegacyCsp, security.icspinformation_legacycsp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 56fba1c1-432b-40a8-b882-e4c637c03d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA structure pointer, WOW64_FLOATING_SAVE_AREA, WOW64_FLOATING_SAVE_AREA structure, _WOW64_FLOATING_SAVE_AREA, base.wow64_floating_save_area, winnt/PWOW64_FLOATING_SAVE_AREA, winnt/WOW64_FLOATING_SAVE_AREA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 599e8bbd-a41f-4781-850d-6590d22d9c3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

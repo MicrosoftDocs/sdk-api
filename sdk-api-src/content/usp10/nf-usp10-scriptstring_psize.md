@@ -9,8 +9,6 @@ ms.assetid: 2938e600-3f6b-4178-bc0f-bcbcd97b9d04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalization for Windows Applications], _win32_ScriptString_pSize, intl.scriptstring_psize, usp10/ScriptString_pSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

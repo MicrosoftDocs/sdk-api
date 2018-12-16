@@ -9,8 +9,6 @@ ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

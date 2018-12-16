@@ -9,8 +9,6 @@ ms.assetid: 5AD6D695-92D6-47AC-A43C-D3A37D28C76C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS structure, ENCLAVE_VBS_FLAG_DEBUG, PENCLAVE_CREATE_INFO_VBS, PENCLAVE_CREATE_INFO_VBS structure pointer, base.enclave_create_info_vbs, winnt/ENCLAVE_CREATE_INFO_VBS, winnt/PENCLAVE_CREATE_INFO_VBS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

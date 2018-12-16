@@ -9,8 +9,6 @@ ms.assetid: b1988883-459c-46f1-a0d1-df9500a000e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], IDiscFormat2RawCDEventArgs interface [IMAPI],described, imapi.idiscformat2rawcdeventargs, imapi2/IDiscFormat2RawCDEventArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

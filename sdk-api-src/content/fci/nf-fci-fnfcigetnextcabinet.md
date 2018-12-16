@@ -9,8 +9,6 @@ ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

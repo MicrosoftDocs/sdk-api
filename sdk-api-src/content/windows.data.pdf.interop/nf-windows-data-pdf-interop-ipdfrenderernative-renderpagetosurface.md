@@ -9,8 +9,6 @@ ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.data.pdf.interop.h
 req.include-header: 

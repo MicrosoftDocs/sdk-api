@@ -9,8 +9,6 @@ ms.assetid: F532F0ED-36F4-47E3-B478-089CC083E5D1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSecret, NCryptUnprotectSecret function [Security], ncryptprotect/NCryptUnprotectSecret, security.ncryptunprotectsecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

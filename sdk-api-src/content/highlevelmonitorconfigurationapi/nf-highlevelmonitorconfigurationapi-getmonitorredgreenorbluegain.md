@@ -9,8 +9,6 @@ ms.assetid: 058d70c4-a29c-4916-a4b9-911db5863363
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitorRedGreenOrBlueGain, GetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueGain, monitor.getmonitorredgreenorbluegain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

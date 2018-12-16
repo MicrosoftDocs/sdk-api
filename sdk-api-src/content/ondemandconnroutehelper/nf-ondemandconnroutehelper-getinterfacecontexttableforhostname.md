@@ -9,8 +9,6 @@ ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 

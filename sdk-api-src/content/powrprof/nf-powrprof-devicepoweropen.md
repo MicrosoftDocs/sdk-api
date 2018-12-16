@@ -9,8 +9,6 @@ ms.assetid: 1f0e8ee6-cd9e-468a-ba9a-f11e17852f89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

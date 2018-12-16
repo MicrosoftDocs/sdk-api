@@ -9,8 +9,6 @@ ms.assetid: cbd9711b-45f4-4917-84ec-22ee5438579f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyNeg, VarCyNeg function [Automation], _oa96_VarCyNeg, automat.varcyneg, oleauto/VarCyNeg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

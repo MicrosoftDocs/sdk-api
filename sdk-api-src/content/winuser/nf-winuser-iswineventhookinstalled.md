@@ -9,8 +9,6 @@ ms.assetid: bc1e97ad-748d-420a-8c9a-72a555b685e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWinEventHookInstalled, IsWinEventHookInstalled function [Windows Accessibility], _msaa_IsWinEventHookInstalled, msaa.iswineventhookinstalled, winauto.iswineventhookinstalled, winuser/IsWinEventHookInstalled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

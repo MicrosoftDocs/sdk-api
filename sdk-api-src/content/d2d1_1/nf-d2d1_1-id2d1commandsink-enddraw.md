@@ -9,8 +9,6 @@ ms.assetid: 7324d66b-b415-4e07-9fe3-d79a1c0a49b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],EndDraw method, ID2D1CommandSink.EndDraw, ID2D1CommandSink::EndDraw, d2d1_1/ID2D1CommandSink::EndDraw, direct2d.id2d1commandsink_enddraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

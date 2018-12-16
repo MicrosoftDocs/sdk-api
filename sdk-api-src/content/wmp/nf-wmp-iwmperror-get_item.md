@@ -9,8 +9,6 @@ ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_item method, IWMPError.get_item, IWMPError::get_item, IWMPErrorget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_item, wmp/IWMPError::get_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

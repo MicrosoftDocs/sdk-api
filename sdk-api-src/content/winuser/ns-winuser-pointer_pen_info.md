@@ -9,8 +9,6 @@ ms.assetid: fee176ba-ad07-4141-ab4d-1b8c335fd111
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: POINTER_PEN_INFO, POINTER_PEN_INFO structure [Input Messages and Notifications], _POINTER_PEN_INFO, inputmsg.pointer_pen_info_struct, winuser/POINTER_PEN_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

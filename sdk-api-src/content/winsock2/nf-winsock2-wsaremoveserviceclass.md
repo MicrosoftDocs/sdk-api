@@ -9,8 +9,6 @@ ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

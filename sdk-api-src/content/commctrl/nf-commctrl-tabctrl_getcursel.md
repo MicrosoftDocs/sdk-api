@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetCurSel, TabCtrl_GetCurSel macro [Windows Controls], _win32_TabCtrl_GetCurSel, _win32_TabCtrl_GetCurSel_cpp, commctrl/TabCtrl_GetCurSel, controls.TabCtrl_GetCurSel, controls._win32_TabCtrl_GetCurSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

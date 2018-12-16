@@ -9,8 +9,6 @@ ms.assetid: d64814a7-945c-4e73-a977-5f696d60610e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessWindowStation, SetProcessWindowStation function [Windows Stations and Desktops], _win32_setprocesswindowstation, base.setprocesswindowstation, winstation.setprocesswindowstation, winuser/SetProcessWindowStation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

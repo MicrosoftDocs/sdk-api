@@ -9,8 +9,6 @@ ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

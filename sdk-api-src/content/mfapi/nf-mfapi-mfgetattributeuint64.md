@@ -9,8 +9,6 @@ ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

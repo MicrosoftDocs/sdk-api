@@ -9,8 +9,6 @@ ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

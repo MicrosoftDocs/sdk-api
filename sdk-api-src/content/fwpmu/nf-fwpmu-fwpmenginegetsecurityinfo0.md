@@ -9,8 +9,6 @@ ms.assetid: a2bff3b0-efc9-4357-84e2-ceecc2d33498
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmEngineGetSecurityInfo0, FwpmEngineGetSecurityInfo0 function [Filtering], fwp.fwpmenginegetsecurityinfo0, fwpmu/FwpmEngineGetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

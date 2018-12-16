@@ -9,8 +9,6 @@ ms.assetid: 11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

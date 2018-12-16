@@ -9,8 +9,6 @@ ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

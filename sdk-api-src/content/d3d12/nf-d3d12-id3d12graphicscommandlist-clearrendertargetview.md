@@ -9,8 +9,6 @@ ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 558d5412-1165-4dda-8ac1-6c599267beaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bf2962af-0e8f-4c4c-a63a-dfd623308e4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzAuthorizationStore object [Security],Submit method, IAzAuthorizationStore interface [Security],Submit method, IAzAuthorizationStore.Submit, IAzAuthorizationStore::Submit, Submit, Submit method [Security], Submit method [Security],AzAuthorizationStore object, Submit method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Submit, security.azauthorizationstore_submit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

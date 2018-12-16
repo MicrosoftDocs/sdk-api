@@ -9,8 +9,6 @@ ms.assetid: f4df6a48-3028-4acb-a924-4c20662a7b86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaGetPatternProvider, UiaGetPatternProvider function [Windows Accessibility], uiauto.uiauto_UiaGetPatternProviderAutoMeth, uiauto_UiaGetPatternProviderAutoMeth, uiautomationcoreapi/UiaGetPatternProvider, winauto.uiauto_UiaGetPatternProviderAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

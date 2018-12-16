@@ -9,8 +9,6 @@ ms.assetid: 581D6D0C-0480-45A1-9C76-2A269C46D27B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure pointer, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure, base.process_mitigation_binary_signature_policy, winnt/PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

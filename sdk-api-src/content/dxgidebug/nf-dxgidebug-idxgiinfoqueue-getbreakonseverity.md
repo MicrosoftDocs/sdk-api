@@ -9,8 +9,6 @@ ms.assetid: 0E03ABE8-02BC-4721-B92C-87DA5D52D0AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [DXGI], GetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnSeverity method, IDXGIInfoQueue.GetBreakOnSeverity, IDXGIInfoQueue::GetBreakOnSeverity, direct3ddxgi.idxgiinfoqueue_getbreakonseverity, dxgidebug/IDXGIInfoQueue::GetBreakOnSeverity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

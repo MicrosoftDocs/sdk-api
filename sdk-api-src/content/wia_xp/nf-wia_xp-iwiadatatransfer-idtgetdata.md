@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetData method, IWiaDataTransfer.idtGetData, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData, idtGetData method [WIA], idtGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

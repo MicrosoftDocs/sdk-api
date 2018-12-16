@@ -9,8 +9,6 @@ ms.assetid: 2f76f0a0-2b4a-4983-88b9-0f1f2b7a7027
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReferenceKey, GetReferenceKey method [Direct Write], GetReferenceKey method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetReferenceKey method, IDWriteFontFile.GetReferenceKey, IDWriteFontFile::GetReferenceKey, directwrite.IDWriteFontFile_GetReferenceKey, dwrite/IDWriteFontFile::GetReferenceKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

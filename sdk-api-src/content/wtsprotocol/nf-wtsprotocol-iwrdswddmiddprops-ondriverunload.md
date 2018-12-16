@@ -9,8 +9,6 @@ ms.assetid: D61C38FD-0298-4363-8A09-D0C2844C23CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverUnload method, IWRdsWddmIddProps.OnDriverUnload, IWRdsWddmIddProps::OnDriverUnload, OnDriverUnload, OnDriverUnload method [Remote Desktop Services], OnDriverUnload method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverunload, wtsprotocol/IWRdsWddmIddProps::OnDriverUnload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d7074e88-757c-4ca9-adaf-2010472f106c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupGetInfFileList, SetupGetInfFileList function [Setup API], SetupGetInfFileListA, SetupGetInfFileListW, _setupapi_setupgetinffilelist, setup.setupgetinffilelist, setupapi/SetupGetInfFileList, setupapi/SetupGetInfFileListA, setupapi/SetupGetInfFileListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

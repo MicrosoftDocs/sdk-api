@@ -9,8 +9,6 @@ ms.assetid: 4a71e139-1c09-473c-8195-0a55601d2f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramDeleted method, IGuideDataEvent.ProgramDeleted, IGuideDataEvent::ProgramDeleted, IGuideDataEventProgramDeleted, ProgramDeleted, ProgramDeleted method [Microsoft TV Technologies], ProgramDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramDeleted, mstv.iguidedataevent_programdeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

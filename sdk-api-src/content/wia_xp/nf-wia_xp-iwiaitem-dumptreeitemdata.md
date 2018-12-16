@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumptreeitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpTreeItemData method, IWiaItem.DumpTreeItemData, IWiaItem::DumpTreeItemData, _wia_IWiaItem_DumpTreeItemData, wia._wia_IWiaItem_DumpTreeItemData, wia_xp/IWiaItem::DumpTreeItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

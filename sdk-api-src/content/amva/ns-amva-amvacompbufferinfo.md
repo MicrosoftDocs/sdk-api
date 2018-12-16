@@ -9,8 +9,6 @@ ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

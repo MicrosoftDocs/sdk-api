@@ -9,8 +9,6 @@ ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1IsMatrixInvertible, D2D1IsMatrixInvertible function [Direct2D], d2d1/D2D1IsMatrixInvertible, direct2d.d2d1ismatrixinvertible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

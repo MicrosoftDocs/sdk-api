@@ -9,8 +9,6 @@ ms.assetid: 834504f6-1c79-4a88-8c7b-69efd8b798c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],SetAt method, IXpsOMDictionary.SetAt, IXpsOMDictionary::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_setat, xpsobjectmodel/IXpsOMDictionary::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

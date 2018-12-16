@@ -9,8 +9,6 @@ ms.assetid: 556D068C-9939-4B42-AFC2-4EBB2D7B553B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCommandQueue, CreateCommandQueue method, CreateCommandQueue method,ID3D12Device interface, ID3D12Device interface,CreateCommandQueue method, ID3D12Device.CreateCommandQueue, ID3D12Device::CreateCommandQueue, d3d12/ID3D12Device::CreateCommandQueue, direct3d12.id3d12device_createcommandqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

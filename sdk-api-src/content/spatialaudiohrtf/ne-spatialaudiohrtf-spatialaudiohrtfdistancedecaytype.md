@@ -9,8 +9,6 @@ ms.assetid: EF4ACEB1-E802-4337-AA76-467BCB90D7C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: spatialaudiohrtf.h
 req.include-header: 

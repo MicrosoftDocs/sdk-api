@@ -9,8 +9,6 @@ ms.assetid: AE9CD44C-0E68-4E35-8A7E-89B33E796AF0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: projectedfslib.h
 req.include-header: 

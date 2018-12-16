@@ -9,8 +9,6 @@ ms.assetid: 1266d93a-776c-481d-b343-826a5c808d24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteClass, DeleteClass method [Windows Management Instrumentation], DeleteClass method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteClass method, IWbemServices.DeleteClass, IWbemServices::DeleteClass, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteclass, wbemcli/IWbemServices::DeleteClass, wmi.iwbemservices_deleteclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

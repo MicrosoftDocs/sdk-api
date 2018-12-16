@@ -9,8 +9,6 @@ ms.assetid: aa9f3a77-4e5c-43b7-9526-b621a300c2ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Skip method, IEnumStream.Skip, IEnumStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_skip, tapi3.ienumstream_skip, tapi3if/IEnumStream::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

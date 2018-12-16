@@ -9,8 +9,6 @@ ms.assetid: af73610b-bcd8-4660-800e-84fa0cc5b4eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettings, EnumDisplaySettings function [Windows GDI], EnumDisplaySettingsA, EnumDisplaySettingsW, _win32_EnumDisplaySettings, gdi.enumdisplaysettings, winuser/EnumDisplaySettings, winuser/EnumDisplaySettingsA, winuser/EnumDisplaySettingsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

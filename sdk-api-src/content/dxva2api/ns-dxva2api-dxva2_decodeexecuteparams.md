@@ -9,8 +9,6 @@ ms.assetid: e0e95e9b-6d53-4b90-a933-243023dc31ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVA2_DecodeExecuteParams, DXVA2_DecodeExecuteParams structure [Media Foundation], dxva2api/DXVA2_DecodeExecuteParams, e0e95e9b-6d53-4b90-a933-243023dc31ef, mf.dxva2_decodeexecuteparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

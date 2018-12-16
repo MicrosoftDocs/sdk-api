@@ -9,8 +9,6 @@ ms.assetid: a9b6b971-5676-4ceb-ab48-2350a1715b82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],Unadvise method, IExplorerBrowser.Unadvise, IExplorerBrowser::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_Unadvise, shell.IExplorerBrowser_Unadvise, shobjidl_core/IExplorerBrowser::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

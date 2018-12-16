@@ -9,8 +9,6 @@ ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bb9f063d-afbc-4f6b-a4a5-19a9a644f029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFieldDescriptorAt, GetFieldDescriptorAt method [Windows Shell], GetFieldDescriptorAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorAt method, ICredentialProvider.GetFieldDescriptorAt, ICredentialProvider::GetFieldDescriptorAt, credentialprovider/ICredentialProvider::GetFieldDescriptorAt, shell.ICredentialProvider_GetFieldDescriptorAt, shell_ICredentialProvider_GetFieldDescriptorAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

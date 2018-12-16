@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_AddItemData, ListBox_AddItemData macro [Windows Controls], _win32_ListBox_AddItemData, _win32_ListBox_AddItemData_cpp, controls.ListBox_AddItemData, controls._win32_ListBox_AddItemData, windowsx/ListBox_AddItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a91fb8e8-a4f4-4a6d-87d0-00bf2ef205e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDevelopRawNotificationCallback interface [Windows Imaging Component],Notify method, IWICDevelopRawNotificationCallback.Notify, IWICDevelopRawNotificationCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICDevelopRawNotificationCallback interface, _wic_codec_iwicdeveloprawnotificationcallback_notify, wic._wic_codec_iwicdeveloprawnotificationcallback_notify, wincodec/IWICDevelopRawNotificationCallback::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

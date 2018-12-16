@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstruct
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], Blur constructor [GDI+],Blur class, Blur.Blur, Blur::Blur, _gdiplus_CLASS_Blur_Blur_, gdiplus._gdiplus_CLASS_Blur_Blur_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

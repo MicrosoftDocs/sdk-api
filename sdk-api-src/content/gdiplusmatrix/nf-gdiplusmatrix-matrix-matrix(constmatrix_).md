@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(const Matrix &), Matrix::Matrix, Matrix::Matrix(const Matrix &), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

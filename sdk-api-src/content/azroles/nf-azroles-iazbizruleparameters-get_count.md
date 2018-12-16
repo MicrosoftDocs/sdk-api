@@ -9,8 +9,6 @@ ms.assetid: 5ba6f289-2349-444b-8693-53aadb0ea4d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],Count property, IAzBizRuleParameters.Count, IAzBizRuleParameters.get_Count, IAzBizRuleParameters::Count, IAzBizRuleParameters::get_Count, azroles/IAzBizRuleParameters::Count, azroles/IAzBizRuleParameters::get_Count, get_Count, security.iazbizruleparameters_count_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e4006738-d986-4fcb-899c-bbc4853ec6c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendOrReplace, AppendOrReplace method [Windows Properties], AppendOrReplace method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],AppendOrReplace method, IPropertyChangeArray.AppendOrReplace, IPropertyChangeArray::AppendOrReplace, _shell_IPropertyChangeArray_AppendOrReplace, properties.IPropertyChangeArray_AppendOrReplace, propsys/IPropertyChangeArray::AppendOrReplace, shell.IPropertyChangeArray_AppendOrReplace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

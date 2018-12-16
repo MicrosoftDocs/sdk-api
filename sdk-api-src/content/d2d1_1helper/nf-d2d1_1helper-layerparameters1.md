@@ -9,8 +9,6 @@ ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

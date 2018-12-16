@@ -9,8 +9,6 @@ ms.assetid: 57debd49-ec1e-432d-baac-2f828aeb4412
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGLOBALOPTIONS, DRMGLOBALOPTIONS enumeration [Active Directory Rights Management Services SDK 1.0], DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, DRMGLOBALOPTIONS_USE_WINHTTP, msdrmdefs/DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, msdrmdefs/DRMGLOBALOPTIONS_USE_WINHTTP, rm.drmglobaloptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 

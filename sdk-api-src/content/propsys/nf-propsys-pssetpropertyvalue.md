@@ -9,8 +9,6 @@ ms.assetid: b4f8c50d-93cd-4371-88b0-6ce58f023981
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties], _shell_PSSetPropertyValue, properties.PSSetPropertyValue, propsys/PSSetPropertyValue, shell.PSSetPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

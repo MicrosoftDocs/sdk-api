@@ -9,8 +9,6 @@ ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetFormat method, IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

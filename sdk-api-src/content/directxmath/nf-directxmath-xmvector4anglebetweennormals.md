@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenNormals(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals method [DirectX Math Support APIs], dxmath.xmvector4anglebetweennormals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

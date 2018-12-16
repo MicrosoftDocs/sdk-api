@@ -9,8 +9,6 @@ ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

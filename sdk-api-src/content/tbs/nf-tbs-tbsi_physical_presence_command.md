@@ -9,8 +9,6 @@ ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

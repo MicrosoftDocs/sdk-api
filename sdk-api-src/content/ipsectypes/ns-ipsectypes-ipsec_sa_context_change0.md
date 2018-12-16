@@ -9,8 +9,6 @@ ms.assetid: a81df783-72d8-4374-a3f8-44c3491a98db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_CONTEXT_CHANGE0, IPSEC_SA_CONTEXT_CHANGE0 structure [Filtering], fwp.ipsec_sa_context_change0, ipsectypes/IPSEC_SA_CONTEXT_CHANGE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_REVOCATION_PARA, CERT_REVOCATION_PARA, CERT_REVOCATION_PARA structure [Security], PCERT_REVOCATION_PARA, PCERT_REVOCATION_PARA structure pointer [Security], _crypto2_cert_revocation_para, security.cert_revocation_para, wincrypt/CERT_REVOCATION_PARA, wincrypt/PCERT_REVOCATION_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

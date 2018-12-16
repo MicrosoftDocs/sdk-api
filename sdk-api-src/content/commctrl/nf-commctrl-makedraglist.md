@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\draglb\functions\makedraglist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MakeDragList, MakeDragList function [Windows Controls], _win32_MakeDragList, _win32_MakeDragList_cpp, commctrl/MakeDragList, controls.MakeDragList, controls._win32_MakeDragList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

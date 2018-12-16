@@ -9,8 +9,6 @@ ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

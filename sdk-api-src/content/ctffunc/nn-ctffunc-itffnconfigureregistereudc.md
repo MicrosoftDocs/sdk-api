@@ -9,8 +9,6 @@ ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: Msctf.h

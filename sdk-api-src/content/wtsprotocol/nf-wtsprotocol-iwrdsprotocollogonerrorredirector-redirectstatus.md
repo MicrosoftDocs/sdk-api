@@ -9,8 +9,6 @@ ms.assetid: f1f6caec-6e26-4508-b19d-ac0e12758b28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWRdsProtocolLogonErrorRedirector.RedirectStatus, IWRdsProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

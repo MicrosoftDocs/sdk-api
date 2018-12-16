@@ -9,8 +9,6 @@ ms.assetid: 56dae943-659a-4e75-81ef-0d58fa3cd6d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLUnloadApplicationPolicies, SLUnloadApplicationPolicies function [Security], security.slunloadapplicationpolicies, slpublic/SLUnloadApplicationPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

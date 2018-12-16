@@ -9,8 +9,6 @@ ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

@@ -9,8 +9,6 @@ ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

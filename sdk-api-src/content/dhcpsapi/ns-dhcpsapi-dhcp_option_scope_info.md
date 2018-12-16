@@ -9,8 +9,6 @@ ms.assetid: 91d4d678-f0c5-4081-9302-0d08c8994692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO structure [DHCP], LPDHCP_OPTION_SCOPE_INFO, LPDHCP_OPTION_SCOPE_INFO structure pointer [DHCP], dhcp.dhcp_option_scope_info, dhcpsapi/LPDHCP_OPTION_SCOPE_INFO, dhcpsapi/_DHCP_OPTION_SCOPE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

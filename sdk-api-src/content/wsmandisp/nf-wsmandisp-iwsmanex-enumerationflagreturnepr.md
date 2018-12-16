@@ -9,8 +9,6 @@ ms.assetid: c8297f17-962d-4f52-909e-e26427af9ab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerationFlagReturnEPR, EnumerationFlagReturnEPR method [Windows Remote Management], EnumerationFlagReturnEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnEPR method, IWSManEx.EnumerationFlagReturnEPR, IWSManEx::EnumerationFlagReturnEPR, winrm.iwsmanex_enumerationflagreturnepr, wsmandisp/IWSManEx::EnumerationFlagReturnEPR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

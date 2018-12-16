@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10getpixelshaderprofile.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D3D10GetPixelShaderProfile function [Direct3D 10], d3d10shader/D3D10GetPixelShaderProfile, direct3d10.d3d10getpixelshaderprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a1f81523-bf9b-4807-a095-d2f4081698e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawingStateDescription, DrawingStateDescription function [Direct2D], d2d1helper/DrawingStateDescription, direct2d.drawingstatedescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

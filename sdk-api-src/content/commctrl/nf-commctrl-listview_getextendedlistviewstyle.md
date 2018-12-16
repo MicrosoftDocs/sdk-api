@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getextendedlistviews
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetExtendedListViewStyle, ListView_GetExtendedListViewStyle macro [Windows Controls], _win32_ListView_GetExtendedListViewStyle, _win32_ListView_GetExtendedListViewStyle_cpp, commctrl/ListView_GetExtendedListViewStyle, controls.ListView_GetExtendedListViewStyle, controls._win32_ListView_GetExtendedListViewStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b6605223-ce66-49fc-bfa7-6e3dd98e214a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDrawRealize, ICDrawRealize macro [Windows Multimedia], _win32_ICDrawRealize, multimedia.icdrawrealize, vfw/ICDrawRealize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e7206481-c734-425f-a2b6-fa0d9a2b66c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVT_RENDER_FLAGS, EVT_RENDER_FLAGS enumeration [EventLog], EvtRenderBookmark, EvtRenderEventValues, EvtRenderEventXml, wes.evt_render_flags, winevt/EVT_RENDER_FLAGS, winevt/EvtRenderBookmark, winevt/EvtRenderEventValues, winevt/EvtRenderEventXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

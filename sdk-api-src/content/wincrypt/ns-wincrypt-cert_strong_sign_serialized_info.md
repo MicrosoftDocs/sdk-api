@@ -9,8 +9,6 @@ ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CHECK, CERT_STRONG_SIGN_ENABLE_OCSP_CHECK, CERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security], PCERT_STRONG_SIGN_SERIALIZED_INFO, PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security], security.cert_strong_sign_serialized_info, wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO, wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

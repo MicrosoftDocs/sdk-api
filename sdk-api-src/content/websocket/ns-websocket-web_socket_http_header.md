@@ -9,8 +9,6 @@ ms.assetid: d051c2fd-c21c-43dc-9160-5626fb1d6d49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER structure pointer [Websocket Protocol Component API], WEB_SOCKET_HTTP_HEADER, WEB_SOCKET_HTTP_HEADER structure [Websocket Protocol Component API], websock.web_socket_http_header, websocket/PWEB_SOCKET_HTTP_HEADER, websocket/WEB_SOCKET_HTTP_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 

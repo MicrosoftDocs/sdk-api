@@ -9,8 +9,6 @@ ms.assetid: da98cf2f-a302-41d0-8226-18d6bb89be82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExceptionCount, GetExceptionCount method [Microsoft TV Technologies], GetExceptionCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionCount method, ISCTE_EAS.GetExceptionCount, ISCTE_EAS::GetExceptionCount, ISCTE_EASGetExceptionCount, atscpsipparser/ISCTE_EAS::GetExceptionCount, mstv.iscte_eas_getexceptioncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

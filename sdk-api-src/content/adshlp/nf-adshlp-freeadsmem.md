@@ -9,8 +9,6 @@ ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 20d5e917-e350-43da-8fce-e76ab95b90f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarR8FromDate, VarR8FromDate function [Automation], _oa96_VarR8FromDate, automat.varr8fromdate, oleauto/VarR8FromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

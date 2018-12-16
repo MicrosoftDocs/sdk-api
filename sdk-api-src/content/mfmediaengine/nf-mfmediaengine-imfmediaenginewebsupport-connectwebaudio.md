@@ -9,8 +9,6 @@ ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectWebAudio, ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],ConnectWebAudio method, IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SOCKET_SECURITY_QUERY_TEMPLATE, SOCKET_SECURITY_QUERY_TEMPLATE structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE, winsock.socket_security_query_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

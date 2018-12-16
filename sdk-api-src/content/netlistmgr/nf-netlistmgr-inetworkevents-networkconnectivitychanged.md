@@ -9,8 +9,6 @@ ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

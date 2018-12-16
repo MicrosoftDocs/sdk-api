@@ -9,8 +9,6 @@ ms.assetid: 44c719d4-29dd-4389-bdc9-63f6d533f162
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInputCount method, ID2D1Effect.GetInputCount, ID2D1Effect::GetInputCount, d2d1_1/ID2D1Effect::GetInputCount, direct2d.id2d1effect_getinputcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

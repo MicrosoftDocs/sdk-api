@@ -9,8 +9,6 @@ ms.assetid: 8ad7c7df-0bdd-4ea1-9a9e-98323b82c0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddApplicationGroups method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddApplicationGroups method, IAzClientContext2.AddApplicationGroups, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

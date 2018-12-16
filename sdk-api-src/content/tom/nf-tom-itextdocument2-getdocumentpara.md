@@ -9,8 +9,6 @@ ms.assetid: 3667587e-3cf1-4b86-82fd-2fc34d4cbeee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentPara, GetDocumentPara method [Windows Controls], GetDocumentPara method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentPara method, ITextDocument2.GetDocumentPara, ITextDocument2::GetDocumentPara, controls.itextdocument2_getdocumentpara, tom/ITextDocument2::GetDocumentPara
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

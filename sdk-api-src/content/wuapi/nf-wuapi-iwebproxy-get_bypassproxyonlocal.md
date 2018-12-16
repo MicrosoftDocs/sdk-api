@@ -9,8 +9,6 @@ ms.assetid: 541626ca-0b68-41cd-8f20-5ffd034fc878
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BypassProxyOnLocal property [Windows Update Agent], BypassProxyOnLocal property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],BypassProxyOnLocal property, IWebProxy.BypassProxyOnLocal, IWebProxy.get_BypassProxyOnLocal, IWebProxy::BypassProxyOnLocal, IWebProxy::get_BypassProxyOnLocal, IWebProxy::put_BypassProxyOnLocal, get_BypassProxyOnLocal, wua.iwebproxy_bypassproxyonlocal, wuapi/IWebProxy::BypassProxyOnLocal, wuapi/IWebProxy::get_BypassProxyOnLocal, wuapi/IWebProxy::put_BypassProxyOnLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

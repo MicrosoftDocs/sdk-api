@@ -9,8 +9,6 @@ ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

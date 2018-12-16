@@ -9,8 +9,6 @@ ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate.get_MsrcSeverity, IUpdate::MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent],IUpdate interface, get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

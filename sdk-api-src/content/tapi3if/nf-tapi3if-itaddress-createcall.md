@@ -9,8 +9,6 @@ ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

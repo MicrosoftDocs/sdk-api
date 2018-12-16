@@ -9,8 +9,6 @@ ms.assetid: 98caf4c3-8e6b-4f42-ae48-977a8392de1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION structure, PMINIDUMP_CALLBACK_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION structure pointer, _MINIDUMP_CALLBACK_INFORMATION, _win32_minidump_callback_information_str, base.minidump_callback_information_str, minidumpapiset/MINIDUMP_CALLBACK_INFORMATION, minidumpapiset/PMINIDUMP_CALLBACK_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

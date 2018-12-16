@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindText, FindText function [Dialog Boxes], FindTextA, FindTextW, _win32_FindText, _win32_findtext_cpp, commdlg/FindText, commdlg/FindTextA, commdlg/FindTextW, dlgbox.findtext, winui._win32_findtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h

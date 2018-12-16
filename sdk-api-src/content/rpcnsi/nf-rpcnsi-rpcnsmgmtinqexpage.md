@@ -9,8 +9,6 @@ ms.assetid: b9e27fba-c4ee-4a0e-ab95-af4c975e9123
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

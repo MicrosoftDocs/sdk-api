@@ -9,8 +9,6 @@ ms.assetid: f2b47196-8112-4f04-9944-a4a686d3c25c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID_PARAMETER_PAIR, ID_PARAMETER_PAIR structure [Windows Sync], winsync.id_parameter_pair, winsync/ID_PARAMETER_PAIR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e4d51920-1925-48e9-96c2-fa1ead8ec942
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBoolFromI1, VarBoolFromI1 function [Automation], _oa96_VarBoolFromI1, automat.varboolfromi1, oleauto/VarBoolFromI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

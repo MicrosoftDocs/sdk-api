@@ -9,8 +9,6 @@ ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

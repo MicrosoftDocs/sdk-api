@@ -9,8 +9,6 @@ ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

@@ -9,8 +9,6 @@ ms.assetid: c5deddde-4355-4a34-b40a-50006029d590
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 00dedc29-911b-cd5e-0b45-8f2505b70599, GetExceptionMode, GetExceptionMode method [Direct3D 11], GetExceptionMode method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetExceptionMode method, ID3D11Device.GetExceptionMode, ID3D11Device::GetExceptionMode, d3d11/ID3D11Device::GetExceptionMode, direct3d11.id3d11device_getexceptionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFirstRegisteredDevice, GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetFirstRegisteredDevice method, IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

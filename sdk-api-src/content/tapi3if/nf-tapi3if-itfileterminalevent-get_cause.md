@@ -9,8 +9,6 @@ ms.assetid: 90594778-712e-4d26-9fe5-cb5cfd240359
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Cause method, ITFileTerminalEvent.get_Cause, ITFileTerminalEvent::get_Cause, _tapi3_itfileterminalevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_cause, tapi3if/ITFileTerminalEvent::get_Cause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

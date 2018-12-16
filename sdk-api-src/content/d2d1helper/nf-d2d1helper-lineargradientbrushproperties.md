@@ -9,8 +9,6 @@ ms.assetid: dba59936-2b2d-4a9b-aba4-acb6ff84c037
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LinearGradientBrushProperties, LinearGradientBrushProperties function [Direct2D], d2d1helper/LinearGradientBrushProperties, direct2d.lineargradientbrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

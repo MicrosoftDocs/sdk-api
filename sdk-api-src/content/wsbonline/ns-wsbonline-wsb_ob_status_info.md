@@ -9,8 +9,6 @@ ms.assetid: 5836B3FC-5590-4678-A6BE-AD7C59E0FAFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 

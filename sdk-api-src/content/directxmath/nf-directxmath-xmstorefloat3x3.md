@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3x3(XMFLOAT3X3@,XMMATRIX
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat3x3, XMStoreFloat3x3, XMStoreFloat3x3 method [DirectX Math Support APIs], dxmath.xmstorefloat3x3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

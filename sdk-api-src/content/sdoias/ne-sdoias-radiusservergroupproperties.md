@@ -9,8 +9,6 @@ ms.assetid: b78aacfb-2e79-4c25-bc0c-acecb1a12993
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

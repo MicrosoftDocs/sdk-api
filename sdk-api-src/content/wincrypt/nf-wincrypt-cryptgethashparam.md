@@ -9,8 +9,6 @@ ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

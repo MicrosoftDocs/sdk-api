@@ -9,8 +9,6 @@ ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, aviriff/AVIMAINHEADER, dshow.avimainheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

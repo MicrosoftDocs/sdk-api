@@ -9,8 +9,6 @@ ms.assetid: eaf3a411-7282-496c-8095-79a8913a0f8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_KeySystem method, IMFMediaKeySession.get_KeySystem, IMFMediaKeySession::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_keysystem, mfmediaengine/IMFMediaKeySession::get_KeySystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4c350cda-2318-49b2-86dc-452423ceb9e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE structure [Security], PCMC_TAGGED_ATTRIBUTE, PCMC_TAGGED_ATTRIBUTE structure pointer [Security], _crypto2_cmc_tagged_attribute, security.cmc_tagged_attribute, wincrypt/CMC_TAGGED_ATTRIBUTE, wincrypt/PCMC_TAGGED_ATTRIBUTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

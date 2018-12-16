@@ -9,8 +9,6 @@ ms.assetid: 1d81f2e6-9426-4733-bd1d-0b6ca087cc0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AsynchronousCall, AsynchronousCall method [COM+], AsynchronousCall method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],AsynchronousCall method, IServiceActivity.AsynchronousCall, IServiceActivity::AsynchronousCall, _cos_IServiceActivity_AsynchronousCall, comsvcs/IServiceActivity::AsynchronousCall, cos.iserviceactivity_asynchronouscall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

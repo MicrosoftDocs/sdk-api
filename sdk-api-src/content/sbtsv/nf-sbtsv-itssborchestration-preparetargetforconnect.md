@@ -9,8 +9,6 @@ ms.assetid: 46ffad8a-bafc-426f-9963-9a6f6f60329b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTargetForConnect method, ITsSbOrchestration.PrepareTargetForConnect, ITsSbOrchestration::PrepareTargetForConnect, PrepareTargetForConnect, PrepareTargetForConnect method [Remote Desktop Services], PrepareTargetForConnect method [Remote Desktop Services],ITsSbOrchestration interface, sbtsv/ITsSbOrchestration::PrepareTargetForConnect, termserv.itssborchestration_preparetargetforconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

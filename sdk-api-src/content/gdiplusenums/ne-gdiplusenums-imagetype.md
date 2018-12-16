@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagetype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageType, ImageType enumeration [GDI+], ImageTypeBitmap, ImageTypeMetafile, ImageTypeUnknown, _gdiplus_ENUM_ImageType, gdiplus._gdiplus_ENUM_ImageType, gdiplusenums/ImageType, gdiplusenums/ImageTypeBitmap, gdiplusenums/ImageTypeMetafile, gdiplusenums/ImageTypeUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

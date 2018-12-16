@@ -9,8 +9,6 @@ ms.assetid: f1fe92cc-1d51-4bd7-950b-84c76b001163
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetBSTR method, WBEMTime.GetBSTR, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 616c3b43-9305-49c1-bc46-2e1256647c7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: Windows.h

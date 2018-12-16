@@ -9,8 +9,6 @@ ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyHandlerFromUri, GetPropertyHandlerFromUri method [Windows Shell], GetPropertyHandlerFromUri method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromUri method, IStorageProviderHandler.GetPropertyHandlerFromUri, IStorageProviderHandler::GetPropertyHandlerFromUri, shell.istorageproviderhandler_getpropertyhandlerfromuri, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: storageprovider.h
 req.include-header: 

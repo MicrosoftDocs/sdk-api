@@ -9,8 +9,6 @@ ms.assetid: 60271637-b25a-4857-896d-109737d2f046
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx.put_AllowLogon, IADsTSUserEx::AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, put_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

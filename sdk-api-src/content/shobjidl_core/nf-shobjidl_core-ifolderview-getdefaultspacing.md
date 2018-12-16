@@ -9,8 +9,6 @@ ms.assetid: eb5f2dd6-1257-4cfc-a222-88e6c3b524ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultSpacing, GetDefaultSpacing method [Windows Shell], GetDefaultSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetDefaultSpacing method, IFolderView.GetDefaultSpacing, IFolderView::GetDefaultSpacing, _shell_IFolderView_GetDefaultSpacing, shell.IFolderView_GetDefaultSpacing, shobjidl_core/IFolderView::GetDefaultSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

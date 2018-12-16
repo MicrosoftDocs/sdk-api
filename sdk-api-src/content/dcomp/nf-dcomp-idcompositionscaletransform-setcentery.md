@@ -9,8 +9,6 @@ ms.assetid: 32E8FCBD-75D8-4162-9388-57B0348BD46B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform.SetCenterY, IDCompositionScaleTransform::SetCenterY, IDCompositionScaleTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterY, directcomp.idcompositionscaletransform_setcentery_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

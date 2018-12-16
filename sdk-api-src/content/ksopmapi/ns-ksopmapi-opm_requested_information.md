@@ -9,8 +9,6 @@ ms.assetid: 84ffa808-1bdb-47c8-a18c-6dfa6fcf90de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h

@@ -9,8 +9,6 @@ ms.assetid: 9c1decdd-fe6f-4220-abba-7547ab5427ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA, EMRPOLYTEXTOUTA structure [Windows GDI], EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW structure [Windows GDI], EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTW structure [Windows GDI], PEMRPOLYTEXTOUTA, PEMRPOLYTEXTOUTA structure pointer [Windows GDI], PEMRPOLYTEXTOUTW, PEMRPOLYTEXTOUTW structure pointer [Windows GDI], _win32_EMRPOLYTEXTOUTA_str, gdi.emrpolytextouta__emrpolytextoutw, wingdi/EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, wingdi/EMRPOLYTEXTOUTW, wingdi/PEMRPOLYTEXTOUTA, wingdi/PEMRPOLYTEXTOUTW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 8c4b2a0b-f056-4d3f-976c-0339c930e3cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnUnload method, IVdsProviderPrivate.OnUnload, IVdsProviderPrivate::OnUnload, OnUnload, OnUnload method [VDS], OnUnload method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onunload, vdshwprv/IVdsProviderPrivate::OnUnload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

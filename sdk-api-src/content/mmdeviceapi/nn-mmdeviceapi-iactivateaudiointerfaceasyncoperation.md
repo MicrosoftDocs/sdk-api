@@ -9,8 +9,6 @@ ms.assetid: 43b25a67-d9a8-4749-a654-c7310039c553
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActivateAudioInterfaceAsyncOperation, IActivateAudioInterfaceAsyncOperation interface [Core Audio], IActivateAudioInterfaceAsyncOperation interface [Core Audio],described, coreaudio.iactivateaudiointerfaceasyncoperation, mmdeviceapi/IActivateAudioInterfaceAsyncOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 

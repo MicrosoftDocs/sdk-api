@@ -9,8 +9,6 @@ ms.assetid: B63CCE08-548F-44D3-BAE3-84E4358F25AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], IUPnPServiceEnumProperty interface [UPnP APIs],described, upnp.iupnpserviceenumproperty, upnp/IUPnPServiceEnumProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

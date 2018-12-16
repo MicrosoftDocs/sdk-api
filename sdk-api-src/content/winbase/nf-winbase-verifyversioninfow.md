@@ -9,8 +9,6 @@ ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

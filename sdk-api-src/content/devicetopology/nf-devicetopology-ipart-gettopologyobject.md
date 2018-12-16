@@ -9,8 +9,6 @@ ms.assetid: 5ad5fc66-6452-4d55-8c6a-a20a87431302
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTopologyObject, GetTopologyObject method [Core Audio], GetTopologyObject method [Core Audio],IPart interface, IPart interface [Core Audio],GetTopologyObject method, IPart.GetTopologyObject, IPart::GetTopologyObject, IPartGetTopologyObject, coreaudio.ipart_gettopologyobject, devicetopology/IPart::GetTopologyObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

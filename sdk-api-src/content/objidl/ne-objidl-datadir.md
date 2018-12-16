@@ -9,8 +9,6 @@ ms.assetid: 395d7511-f491-4d6c-9360-cae7e16e8524
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DATADIR, DATADIR enumeration [COM], DATADIR_GET, DATADIR_SET, _ole_DATADIR, com.datadir, objidl/DATADIR, objidl/DATADIR_GET, objidl/DATADIR_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteType, WsWriteType function [Web Services for Windows], webservices/WsWriteType, wsw.wswritetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

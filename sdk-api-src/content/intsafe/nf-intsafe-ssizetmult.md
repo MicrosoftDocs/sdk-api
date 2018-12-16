@@ -9,8 +9,6 @@ ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

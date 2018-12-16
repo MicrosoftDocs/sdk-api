@@ -9,8 +9,6 @@ ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

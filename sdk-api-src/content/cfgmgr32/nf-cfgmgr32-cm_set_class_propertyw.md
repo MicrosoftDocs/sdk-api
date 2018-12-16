@@ -9,8 +9,6 @@ ms.assetid: BC026F97-4F4B-472F-83C0-FB5114AE1B7A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Set_Class_Property, CM_Set_Class_Property function [Device and Driver Installation], CM_Set_Class_PropertyW, cfgmgr32/CM_Set_Class_Property, cfgmgr32/CM_Set_Class_PropertyW, devinst.cm_set_class_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

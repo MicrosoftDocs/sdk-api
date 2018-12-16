@@ -9,8 +9,6 @@ ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasVideo method, IMFMediaEngine.HasVideo, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f9fa44e7-336a-4758-ac53-b2d527336b7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetColorInterpolationMode method, IXpsOMGradientBrush.SetColorInterpolationMode, IXpsOMGradientBrush::SetColorInterpolationMode, SetColorInterpolationMode, SetColorInterpolationMode method [XPS Documents and Packaging], SetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::SetColorInterpolationMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

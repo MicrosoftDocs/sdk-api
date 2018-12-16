@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7kq5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Item method, IFaxRoutingMethods.get_Item, IFaxRoutingMethods::get_Item, _mfax_ifaxroutingmethods_get_item, fax._mfax_ifaxroutingmethods_get_item, faxcom/IFaxRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

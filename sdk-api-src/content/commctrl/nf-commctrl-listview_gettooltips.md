@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetToolTips, ListView_GetToolTips macro [Windows Controls], _win32_ListView_GetToolTips, _win32_ListView_GetToolTips_cpp, commctrl/ListView_GetToolTips, controls.ListView_GetToolTips, controls._win32_ListView_GetToolTips
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

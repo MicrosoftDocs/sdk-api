@@ -9,8 +9,6 @@ ms.assetid: f83caf4a-b8ca-4cee-9060-679128a1bd77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablets interface [Tablet PC],IsPacketPropertySupported method, IInkTablets.IsPacketPropertySupported, IInkTablets::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::IsPacketPropertySupported, tablet.inktablets_ispacketpropertysupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

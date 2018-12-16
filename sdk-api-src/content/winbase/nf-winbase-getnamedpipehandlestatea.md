@@ -9,8 +9,6 @@ ms.assetid: a28003f0-f488-4ac3-91bf-dd7c5e87ea66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: E9F7BCFA-4215-44C0-95FB-57C28325720C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpiforwindow, winuser/GetDpiForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

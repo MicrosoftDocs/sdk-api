@@ -9,8 +9,6 @@ ms.assetid: BF6C83FF-8CB1-47C0-84C3-E71059F0796E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateManifestReader, CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateManifestReader method, IAppxFactory.CreateManifestReader, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d8067609-1046-4641-9f57-b0ee2be5a3b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiDestroyDriverInfoList, SetupDiDestroyDriverInfoList function [Device and Driver Installation], devinst.setupdidestroydriverinfolist, di-rtns_6eade614-a4f8-40cc-beb7-0d6728b1ad53.xml, setupapi/SetupDiDestroyDriverInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

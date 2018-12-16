@@ -9,8 +9,6 @@ ms.assetid: 72e616ce-4188-4944-b627-9681e5fd271e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFiberData, GetFiberData function, _win32_getfiberdata, base.getfiberdata, winnt/GetFiberData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

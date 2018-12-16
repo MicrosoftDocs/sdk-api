@@ -9,8 +9,6 @@ ms.assetid: ba1ac638-b21d-4a0e-8599-b572b5ef2fa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqInvokeCallback, RtwqInvokeCallback function, base.rtwqinvokecallback, rtworkq/RtwqInvokeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

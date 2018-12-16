@@ -9,8 +9,6 @@ ms.assetid: 3a0a3954-348f-4a9d-9e52-f72d29ec0425
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetAllMetadata method, IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

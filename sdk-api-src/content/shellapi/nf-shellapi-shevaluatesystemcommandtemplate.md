@@ -9,8 +9,6 @@ ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

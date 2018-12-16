@@ -9,8 +9,6 @@ ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: keycredmgr.h
 req.include-header: 

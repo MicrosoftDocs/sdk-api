@@ -9,8 +9,6 @@ ms.assetid: 40A2F34B-DAD5-4707-8FB6-0941818092B8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_RECT, CD3D11_RECT constructor [Direct3D 11], CD3D11_RECT constructor [Direct3D 11],CD3D11_RECT interface, CD3D11_RECT interface [Direct3D 11],CD3D11_RECT constructor, CD3D11_RECT.CD3D11_RECT, CD3D11_RECT.CD3D11_RECT(LONG,LONG,LONG,LONG), CD3D11_RECT::CD3D11_RECT, CD3D11_RECT::CD3D11_RECT(LONG,LONG,LONG,LONG), d3d11/CD3D11_RECT::CD3D11_RECT, direct3d11.cd3d11_rect_cd3d11_rect_long_long_long_long
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

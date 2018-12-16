@@ -9,8 +9,6 @@ ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

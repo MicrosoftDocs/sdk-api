@@ -9,8 +9,6 @@ ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0fb17099-4bf6-405c-8b54-4280a8023256
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MinorVersion property, IX509ExtensionTemplate.MinorVersion, IX509ExtensionTemplate.get_MinorVersion, IX509ExtensionTemplate::MinorVersion, IX509ExtensionTemplate::get_MinorVersion, MinorVersion property [Security], MinorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MinorVersion, certenroll/IX509ExtensionTemplate::get_MinorVersion, get_MinorVersion, security.ix509extensiontemplate_minorversion_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

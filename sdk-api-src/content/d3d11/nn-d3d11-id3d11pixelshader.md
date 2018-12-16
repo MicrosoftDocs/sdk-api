@@ -9,8 +9,6 @@ ms.assetid: d16e00a9-02f9-413f-b9f7-31446fb0a692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 49390d89-6546-de4c-d03d-c7914ecb86eb, ID3D11PixelShader, ID3D11PixelShader interface [Direct3D 11], ID3D11PixelShader interface [Direct3D 11],described, d3d11/ID3D11PixelShader, direct3d11.id3d11pixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

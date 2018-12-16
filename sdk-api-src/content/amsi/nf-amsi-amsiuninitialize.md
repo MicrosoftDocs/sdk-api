@@ -9,8 +9,6 @@ ms.assetid: DAC1AAE6-3160-4A82-8E81-9CB245AFD653
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AmsiUninitialize, AmsiUninitialize function [Antimalware Scan Interface], amsi.amsiuninitialize, amsi/AmsiUninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

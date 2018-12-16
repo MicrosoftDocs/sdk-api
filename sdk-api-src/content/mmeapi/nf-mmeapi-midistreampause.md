@@ -9,8 +9,6 @@ ms.assetid: d5e09d45-cfd2-4639-b539-0c6ff03ab3b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamPause, midiStreamPause, midiStreamPause function [Windows Multimedia], mmeapi/midiStreamPause, multimedia.midistreampause"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

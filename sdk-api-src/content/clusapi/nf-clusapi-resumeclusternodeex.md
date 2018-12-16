@@ -9,8 +9,6 @@ ms.assetid: 6111AA77-8542-4183-98B2-A505889B0B87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE_EX, PCLUSAPI_RESUME_CLUSTER_NODE_EX function [Failover Cluster], ResumeClusterNodeEx, ResumeClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX, clusapi/ResumeClusterNodeEx, mscs.resumeclusternodeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

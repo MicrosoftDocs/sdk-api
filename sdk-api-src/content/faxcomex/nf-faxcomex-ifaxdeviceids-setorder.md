@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4nci.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],SetOrder method, IFaxDeviceIds.SetOrder, IFaxDeviceIds::SetOrder, SetOrder, SetOrder method [Fax Service], SetOrder method [Fax Service],IFaxDeviceIds interface, _mfax_faxdeviceids.setorder, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp, fax._mfax_faxdeviceids_setorder, faxcomex/IFaxDeviceIds::SetOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

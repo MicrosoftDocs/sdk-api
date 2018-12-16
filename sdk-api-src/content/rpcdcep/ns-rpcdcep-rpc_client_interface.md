@@ -9,8 +9,6 @@ ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: 

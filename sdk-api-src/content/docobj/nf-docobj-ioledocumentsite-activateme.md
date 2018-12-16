@@ -9,8 +9,6 @@ ms.assetid: 4e4a746d-460a-478e-9ca5-be5f63b03d17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDocumentSite interface, IOleDocumentSite interface [COM],ActivateMe method, IOleDocumentSite.ActivateMe, IOleDocumentSite::ActivateMe, _ole_ioledocumentsite_activateme, com.ioledocumentsite_activateme, docobj/IOleDocumentSite::ActivateMe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

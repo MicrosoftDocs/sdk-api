@@ -9,8 +9,6 @@ ms.assetid: 4e25d5e4-b4d7-4ca4-81c9-12c6d712322d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginConvertTimecodeToHNS, BeginConvertTimecodeToHNS method [Media Foundation], BeginConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertTimecodeToHNS method, IMFTimecodeTranslate.BeginConvertTimecodeToHNS, IMFTimecodeTranslate::BeginConvertTimecodeToHNS, mf.imftimecodetranslate_beginconverttimecodetohns, mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

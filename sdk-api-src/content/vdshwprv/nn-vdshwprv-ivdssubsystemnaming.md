@@ -9,8 +9,6 @@ ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cc48ee72-3125-45a0-ac16-0c520ee3cd44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandisconnect, wlanapi/WlanDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

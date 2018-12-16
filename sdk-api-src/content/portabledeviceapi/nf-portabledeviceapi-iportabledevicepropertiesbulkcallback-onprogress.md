@@ -9,8 +9,6 @@ ms.assetid: f357d7da-00cd-4439-af6d-5d3716a8443b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnProgress method, IPortableDevicePropertiesBulkCallback.OnProgress, IPortableDevicePropertiesBulkCallback::OnProgress, IPortableDevicePropertiesBulkCallbackOnProgress, OnProgress, OnProgress method [Windows Portable Devices SDK], OnProgress method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnProgress, wpdsdk.iportabledevicepropertiesbulkcallback_onprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

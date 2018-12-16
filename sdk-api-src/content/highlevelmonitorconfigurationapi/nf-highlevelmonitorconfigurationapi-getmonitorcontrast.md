@@ -9,8 +9,6 @@ ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

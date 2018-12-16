@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iq
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

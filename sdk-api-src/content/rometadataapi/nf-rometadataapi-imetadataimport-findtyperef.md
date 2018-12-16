@@ -9,8 +9,6 @@ ms.assetid: ec89d7c0-b607-4885-b819-3eb8022ad46d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindTypeRef, FindTypeRef method [Windows Runtime], FindTypeRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeRef method, IMetaDataImport.FindTypeRef, IMetaDataImport::FindTypeRef, rometadataapi/IMetaDataImport::FindTypeRef, winrt.imetadataimport_findtyperef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

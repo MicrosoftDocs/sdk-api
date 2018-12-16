@@ -9,8 +9,6 @@ ms.assetid: 577c356d-a22d-422c-bec7-cfbc228f1066
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

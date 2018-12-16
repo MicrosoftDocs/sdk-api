@@ -9,8 +9,6 @@ ms.assetid: 8a1ccd34-7839-4004-a663-0ce831c599f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaPropertyCondition, UiaPropertyCondition structure [Windows Accessibility], uiauto.uiauto_UiaPropertyConditionStruct, uiauto_UiaPropertyConditionStruct, uiautomationcoreapi/UiaPropertyCondition, winauto.uiauto_UiaPropertyConditionStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

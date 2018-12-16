@@ -9,8 +9,6 @@ ms.assetid: e0d4862d-a405-4c00-b7b0-af4dd60407c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

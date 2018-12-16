@@ -9,8 +9,6 @@ ms.assetid: 2b555f6b-643d-4fa0-9aca-701e6b3313fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsWriteAccountSpn, DsWriteAccountSpn function [Active Directory], DsWriteAccountSpnA, DsWriteAccountSpnW, _glines_dswriteaccountspn, ad.dswriteaccountspn, ntdsapi/DsWriteAccountSpn, ntdsapi/DsWriteAccountSpnA, ntdsapi/DsWriteAccountSpnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

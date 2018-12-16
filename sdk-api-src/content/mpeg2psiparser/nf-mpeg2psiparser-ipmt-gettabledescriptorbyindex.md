@@ -9,8 +9,6 @@ ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

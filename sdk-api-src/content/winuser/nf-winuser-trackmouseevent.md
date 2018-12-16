@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TrackMouseEvent, TrackMouseEvent function [Keyboard and Mouse Input], _win32_TrackMouseEvent, _win32_trackmouseevent_cpp, inputdev.trackmouseevent, winui._win32_trackmouseevent, winuser/TrackMouseEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

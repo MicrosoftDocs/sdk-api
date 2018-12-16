@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Matrix class [GDI+],TransformPoints method, Matrix.TransformPoints, Matrix.TransformPoints(IN OUT Point,IN INT), Matrix.TransformPoints(Point*,INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT Point,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

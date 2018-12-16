@@ -9,8 +9,6 @@ ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies],described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

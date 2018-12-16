@@ -9,8 +9,6 @@ ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

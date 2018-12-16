@@ -9,8 +9,6 @@ ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

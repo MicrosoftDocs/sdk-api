@@ -9,8 +9,6 @@ ms.assetid: ef326ef8-227d-46b5-88b9-b519748fb778
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

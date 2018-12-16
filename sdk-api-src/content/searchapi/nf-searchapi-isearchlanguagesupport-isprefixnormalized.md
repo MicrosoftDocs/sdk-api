@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguage
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

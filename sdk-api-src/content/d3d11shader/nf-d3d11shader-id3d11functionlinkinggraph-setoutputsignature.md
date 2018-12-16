@@ -9,8 +9,6 @@ ms.assetid: C32E3BF1-E08C-4949-A8DE-4359704D2E40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],SetOutputSignature method, ID3D11FunctionLinkingGraph.SetOutputSignature, ID3D11FunctionLinkingGraph::SetOutputSignature, SetOutputSignature, SetOutputSignature method [Direct3D 11], SetOutputSignature method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::SetOutputSignature, direct3d11.id3d11functionlinkinggraph_setoutputsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

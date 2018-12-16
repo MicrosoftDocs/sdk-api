@@ -9,8 +9,6 @@ ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

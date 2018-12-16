@@ -9,8 +9,6 @@ ms.assetid: ab7ccd5b-1ac8-4d33-aea6-49383025270b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SBE2_STREAM_DESC, SBE2_STREAM_DESC structure [Microsoft TV Technologies], SBE2_STREAM_DESC_VERSION, mstv.sbe2_stream_desc, sbe/SBE2_STREAM_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 

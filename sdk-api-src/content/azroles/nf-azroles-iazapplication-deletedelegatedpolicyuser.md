@@ -9,8 +9,6 @@ ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzApplication object, DeleteDelegatedPolicyUser method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUser method, IAzApplication.DeleteDelegatedPolicyUser, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

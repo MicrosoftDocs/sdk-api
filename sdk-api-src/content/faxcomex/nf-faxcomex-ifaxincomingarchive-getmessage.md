@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_223p.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],GetMessage method, IFaxIncomingArchive.GetMessage, IFaxIncomingArchive::GetMessage, _mfax_faxincomingarchive.getmessage, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp, fax._mfax_faxincomingarchive_getmessage, faxcomex/IFaxIncomingArchive::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP, LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP], dhcp.dhcp_failover_relationship, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

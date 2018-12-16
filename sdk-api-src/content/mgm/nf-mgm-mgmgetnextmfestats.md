@@ -9,8 +9,6 @@ ms.assetid: af8dd38e-e66f-459a-a07c-c298154901f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetNextMfeStats, MgmGetNextMfeStats function [RAS], _mpr_mgmgetnextmfestats, mgm/MgmGetNextMfeStats, rras.mgmgetnextmfestats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

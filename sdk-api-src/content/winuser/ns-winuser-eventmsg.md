@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPEVENTMSG, *LPEVENTMSGMSG, *NPEVENTMSG, *NPEVENTMSGMSG, *PEVENTMSG, *PEVENTMSGMSG, EVENTMSG, EVENTMSG structure [Windows and Messages], LPEVENTMSG, LPEVENTMSG structure pointer [Windows and Messages], PEVENTMSG, PEVENTMSG structure pointer [Windows and Messages], _win32_EVENTMSG_str, _win32_eventmsg_str_cpp, winmsg.eventmsg, winui._win32_eventmsg_str, winuser/EVENTMSG, winuser/LPEVENTMSG, winuser/PEVENTMSG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

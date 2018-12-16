@@ -9,8 +9,6 @@ ms.assetid: 0834b147-9892-4afe-a5c8-cb782918a868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKEEXT_POLICY1, IKEEXT_POLICY1 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy1, iketypes/IKEEXT_POLICY1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

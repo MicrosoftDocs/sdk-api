@@ -9,8 +9,6 @@ ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dxgi1_6.h
 req.include-header: 

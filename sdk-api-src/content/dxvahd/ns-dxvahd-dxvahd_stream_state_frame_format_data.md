@@ -9,8 +9,6 @@ ms.assetid: 4fa6a7f7-df9f-4e38-884c-81a01f913df0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, mf.dxvahd_stream_state_frame_format_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

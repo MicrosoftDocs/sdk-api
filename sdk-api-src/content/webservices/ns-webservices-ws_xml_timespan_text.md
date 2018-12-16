@@ -9,8 +9,6 @@ ms.assetid: 6b502748-bfe1-4a8c-97e9-f8ae97c96b01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_TIMESPAN_TEXT, WS_XML_TIMESPAN_TEXT structure [Web Services for Windows], webservices/WS_XML_TIMESPAN_TEXT, wsw.ws_xml_timespan_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

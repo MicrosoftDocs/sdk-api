@@ -9,8 +9,6 @@ ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h

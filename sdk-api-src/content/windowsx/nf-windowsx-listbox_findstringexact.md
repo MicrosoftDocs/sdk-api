@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_FindStringExact, ListBox_FindStringExact macro [Windows Controls], _win32_ListBox_FindStringExact, _win32_ListBox_FindStringExact_cpp, controls.ListBox_FindStringExact, controls._win32_ListBox_FindStringExact, windowsx/ListBox_FindStringExact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

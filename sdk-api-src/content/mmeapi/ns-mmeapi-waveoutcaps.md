@@ -9,8 +9,6 @@ ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWAVEOUTCAPS, *NPWAVEOUTCAPS, *PWAVEOUTCAPS, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

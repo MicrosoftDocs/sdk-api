@@ -9,8 +9,6 @@ ms.assetid: 1a44d12c-3da9-4fcb-a4ba-4a405882c134
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AecQualityMetrics_Struct, AecQualityMetrics_Struct structure [Media Foundation], codecapi.aecqualitymetrics_structstructure, codecapi.mic_array_modeenumeration, mf.aecqualitymetrics_structstructure, wmcodecdsp/AecQualityMetrics_Struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmcodecdsp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

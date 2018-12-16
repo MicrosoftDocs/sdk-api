@@ -9,8 +9,6 @@ ms.assetid: fc39d63b-a210-4760-9027-eb315f63924d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ObjectContext interface [COM+],get_Item method, ObjectContext.get_Item, ObjectContext::get_Item, _cos_ObjectContext_get_Item, comsvcs/ObjectContext::get_Item, cos.objectcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

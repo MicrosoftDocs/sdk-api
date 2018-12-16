@@ -9,8 +9,6 @@ ms.assetid: 64a5c4ba-d340-4abc-8da3-766f3a2d7ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS structure pointer [Windows Multimedia], NPTIMECAPS, NPTIMECAPS structure pointer [Windows Multimedia], PTIMECAPS, PTIMECAPS structure pointer [Windows Multimedia], TIMECAPS, TIMECAPS structure [Windows Multimedia], _win32_TIMECAPS_str, mmsystem/LPTIMECAPS, mmsystem/NPTIMECAPS, mmsystem/PTIMECAPS, mmsystem/TIMECAPS, multimedia.timecaps, timeapi/LPTIMECAPS, timeapi/NPTIMECAPS, timeapi/PTIMECAPS, timeapi/TIMECAPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: timeapi.h
 req.include-header: Windows.h

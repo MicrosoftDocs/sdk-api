@@ -9,8 +9,6 @@ ms.assetid: ceb30c1f-39eb-4020-84c6-e6749f0b18a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddClusterGroupToGroupSetDependency, AddClusterGroupToGroupSetDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupToGroupSetDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergrouptogroupcollectiondependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

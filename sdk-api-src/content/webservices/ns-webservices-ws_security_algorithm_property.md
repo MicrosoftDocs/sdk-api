@@ -9,8 +9,6 @@ ms.assetid: 6a0dbe45-65f6-41eb-aa94-5ed0cdd751cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY, WS_SECURITY_ALGORITHM_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_PROPERTY, wsw.ws_security_algorithm_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

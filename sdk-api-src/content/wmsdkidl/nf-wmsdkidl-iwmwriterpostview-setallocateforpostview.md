@@ -9,8 +9,6 @@ ms.assetid: 995bf3fa-3e10-46a2-ad51-55375d6af447
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetAllocateForPostView method, IWMWriterPostView.SetAllocateForPostView, IWMWriterPostView::SetAllocateForPostView, IWMWriterPostViewSetAllocateForPostView, SetAllocateForPostView, SetAllocateForPostView method [windows Media Format], SetAllocateForPostView method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setallocateforpostview, wmsdkidl/IWMWriterPostView::SetAllocateForPostView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

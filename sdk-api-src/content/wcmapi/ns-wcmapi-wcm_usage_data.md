@@ -9,8 +9,6 @@ ms.assetid: c6a483cf-d392-495f-854d-ccc782b30aa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWCM_USAGE_DATA, PWCM_USAGE_DATA, PWCM_USAGE_DATA structure pointer [Windows Connection Manager], WCM_USAGE_DATA, WCM_USAGE_DATA structure [Windows Connection Manager], wcm.wcm_usage_data, wcmapi/PWCM_USAGE_DATA, wcmapi/WCM_USAGE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: be1d5385-6c72-4847-9ed7-4d2309a3e9ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

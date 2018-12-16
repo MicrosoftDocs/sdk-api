@@ -9,8 +9,6 @@ ms.assetid: e532001a-e2ff-4ad4-8fef-2fa5b051d1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConfigureFilterUsingProfileId, ConfigureFilterUsingProfileId method [DirectShow], ConfigureFilterUsingProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileId method, IConfigAsfWriter.ConfigureFilterUsingProfileId, IConfigAsfWriter::ConfigureFilterUsingProfileId, IConfigAsfWriterConfigureFilterUsingProfileId, dshow.iconfigasfwriter_configurefilterusingprofileid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

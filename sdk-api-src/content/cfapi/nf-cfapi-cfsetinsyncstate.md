@@ -9,8 +9,6 @@ ms.assetid: 1CB7955D-E530-4F34-8D67-BC608F8B6AF1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfSetInSyncState, CfSetInSyncState function, cfapi/CfSetInSyncState, cloudApi.cfsetinsyncstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

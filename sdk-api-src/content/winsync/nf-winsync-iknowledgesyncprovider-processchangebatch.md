@@ -9,8 +9,6 @@ ms.assetid: 528a109a-9c11-4e20-b3d5-9bb7241d02b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessChangeBatch method, IKnowledgeSyncProvider.ProcessChangeBatch, IKnowledgeSyncProvider::ProcessChangeBatch, ProcessChangeBatch, ProcessChangeBatch method [Windows Sync], ProcessChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processchangebatch, winsync/IKnowledgeSyncProvider::ProcessChangeBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

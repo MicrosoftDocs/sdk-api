@@ -9,8 +9,6 @@ ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

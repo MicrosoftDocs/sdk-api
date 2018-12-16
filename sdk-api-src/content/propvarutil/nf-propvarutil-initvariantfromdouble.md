@@ -9,8 +9,6 @@ ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

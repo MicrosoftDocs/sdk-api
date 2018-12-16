@@ -9,8 +9,6 @@ ms.assetid: 3bf8b99f-02d2-41b4-82e1-7403b827b701
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],EndTime property, ITsSbTaskInfo.EndTime, ITsSbTaskInfo.get_EndTime, ITsSbTaskInfo::EndTime, ITsSbTaskInfo::get_EndTime, get_EndTime, sbtsv/ITsSbTaskInfo::EndTime, sbtsv/ITsSbTaskInfo::get_EndTime, termserv.itssbtaskinfo_endtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

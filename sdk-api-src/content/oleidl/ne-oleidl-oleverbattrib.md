@@ -9,8 +9,6 @@ ms.assetid: 797498ba-5ad6-4476-87d8-de85b30396f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVERDIRTIES, OLEVERBATTRIB_ONCONTAINERMENU, _ole_OLEVERBATTRIB, com.oleverbattrib, oleidl/OLEVERBATTRIB, oleidl/OLEVERBATTRIB_NEVERDIRTIES, oleidl/OLEVERBATTRIB_ONCONTAINERMENU
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

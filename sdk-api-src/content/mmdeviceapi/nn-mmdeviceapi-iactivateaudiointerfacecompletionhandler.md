@@ -9,8 +9,6 @@ ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 

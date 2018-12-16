@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathGradientBrush class [GDI+],SetGammaCorrection method, PathGradientBrush.SetGammaCorrection, PathGradientBrush::SetGammaCorrection, SetGammaCorrection, SetGammaCorrection method [GDI+], SetGammaCorrection method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

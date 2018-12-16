@@ -9,8 +9,6 @@ ms.assetid: 44a7001d-d7ad-4b29-80bf-8d4b06e0fa43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_compare_s, ldap.ldap__compare__s, ldap.ldap_compare_s, ldap_compare_s, ldap_compare_s function [LDAP], ldap_compare_sA, ldap_compare_sW, winldap/ldap_compare_s, winldap/ldap_compare_sA, winldap/ldap_compare_sW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

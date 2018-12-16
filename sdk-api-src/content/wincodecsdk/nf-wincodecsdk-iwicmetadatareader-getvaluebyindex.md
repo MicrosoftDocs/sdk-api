@@ -9,8 +9,6 @@ ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

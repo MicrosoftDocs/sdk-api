@@ -9,8 +9,6 @@ ms.assetid: a5abf488-3e78-4e4e-ae5f-201bf0d77fc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE structure [Winsock], WSPUPCALLTABLE, WSPUPCALLTABLE structure [Winsock], winsock.wspupcalltable, ws2spi/FAR * LPWSPUPCALLTABLE, ws2spi/WSPUPCALLTABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 

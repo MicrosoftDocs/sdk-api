@@ -9,8 +9,6 @@ ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

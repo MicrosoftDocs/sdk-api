@@ -9,8 +9,6 @@ ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStore.EnumerateTargets, ITsSbResourcePluginStore::EnumerateTargets, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStoreEx::EnumerateTargets, sbtsv/ITsSbResourcePluginStore::EnumerateTargets, sbtsv/ITsSbResourcePluginStoreEx::EnumerateTargets, termserv.itssbresourcepluginstore_enumeratetargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

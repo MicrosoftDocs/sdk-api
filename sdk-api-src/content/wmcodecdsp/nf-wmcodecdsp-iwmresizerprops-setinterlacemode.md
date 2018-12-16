@@ -9,8 +9,6 @@ ms.assetid: a5ce36aa-d46c-4c17-bc8d-4840ea496980
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/IWMResizerProps::SetInterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

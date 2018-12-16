@@ -9,8 +9,6 @@ ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

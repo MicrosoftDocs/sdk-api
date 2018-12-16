@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawLine, DrawLine method [GDI+], DrawLine method [GDI+],Graphics class, Graphics class [GDI+],DrawLine method, Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics.DrawLine(const Pen*,INT,INT,INT,INT), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawLine_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusY, IDCompositionRectangleClip::SetTopLeftRadiusY, SetTopLeftRadiusY, SetTopLeftRadiusY methods [DirectComposition], dcomp/SetTopLeftRadiusY, directcomp.idcompositionrectangleclip_settopleftradiusy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 90f9cf10-a0be-4ed1-8b0c-e6cc46384ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetInitiatorSharedSecret method, IVdsServiceIscsi.SetInitiatorSharedSecret, IVdsServiceIscsi::SetInitiatorSharedSecret, SetInitiatorSharedSecret, SetInitiatorSharedSecret method [VDS], SetInitiatorSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setinitiatorsharedsecret, vds/IVdsServiceIscsi::SetInitiatorSharedSecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

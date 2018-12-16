@@ -9,8 +9,6 @@ ms.assetid: 0b901732-42e1-4f50-904c-75d8202bb5b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], IESEventServiceConfiguration interface [Microsoft TV Technologies],described, mstv.ieseventserviceconfiguration, tuner/IESEventServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

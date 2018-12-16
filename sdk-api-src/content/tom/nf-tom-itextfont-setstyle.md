@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

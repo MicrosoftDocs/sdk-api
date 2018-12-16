@@ -9,8 +9,6 @@ ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eb922411-0808-4404-bdaf-bf29d0cad379
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

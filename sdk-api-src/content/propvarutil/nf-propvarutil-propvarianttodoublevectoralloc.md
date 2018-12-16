@@ -9,8 +9,6 @@ ms.assetid: 80f05530-a92b-4877-80fa-efac8e999510
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToDoubleVectorAlloc, PropVariantToDoubleVectorAlloc function [Windows Properties], _shell_PropVariantToDoubleVectorAlloc, properties.PropVariantToDoubleVectorAlloc, propvarutil/PropVariantToDoubleVectorAlloc, shell.PropVariantToDoubleVectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

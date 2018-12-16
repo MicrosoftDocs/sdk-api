@@ -9,8 +9,6 @@ ms.assetid: 79f65ff2-4fa2-4808-b5cb-ad3aa6200260
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY, WS_XML_CANONICALIZATION_PROPERTY structure [Web Services for Windows], webservices/WS_XML_CANONICALIZATION_PROPERTY, wsw.ws_xml_canonicalization_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 34864c69-091f-4dbd-9d56-e43f8d218b09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance_SetServerName, MI_Instance_SetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetServerName, wmi_v2.mi_instance_setservername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

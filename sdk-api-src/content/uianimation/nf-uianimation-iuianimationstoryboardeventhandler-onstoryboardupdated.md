@@ -9,8 +9,6 @@ ms.assetid: e1a6349e-9c3f-49e5-8e50-b51bf260e9be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

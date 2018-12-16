@@ -9,8 +9,6 @@ ms.assetid: 6c3d2972-bfc4-43f2-a131-f3b3010a3c91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventSystem interface [COM+],RemoveS method, IEventSystem.RemoveS, IEventSystem::RemoveS, RemoveS, RemoveS method [COM+], RemoveS method [COM+],IEventSystem interface, _cos_IEventSystem_RemoveS, cos.ieventsystem_removes, eventsys/IEventSystem::RemoveS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

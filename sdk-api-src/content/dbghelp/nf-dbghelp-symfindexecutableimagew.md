@@ -9,8 +9,6 @@ ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

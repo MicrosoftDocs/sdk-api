@@ -9,8 +9,6 @@ ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UI_ANIMATION_IDLE_BEHAVIOR, UI_ANIMATION_IDLE_BEHAVIOR enumeration [Windows Animation], UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, UI_ANIMATION_IDLE_BEHAVIOR_DISABLE, uianimation.ui_animation_idle_behavior, uianimation/UI_ANIMATION_IDLE_BEHAVIOR, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

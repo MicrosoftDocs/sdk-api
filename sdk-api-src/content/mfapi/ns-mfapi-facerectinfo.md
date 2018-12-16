@@ -9,8 +9,6 @@ ms.assetid: 63F31CDC-CB44-4ED8-BDA0-89F7DCF77965
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaceRectInfo, FaceRectInfo structure [Streaming Media Devices], mfapi/FaceRectInfo, stream.facerectinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

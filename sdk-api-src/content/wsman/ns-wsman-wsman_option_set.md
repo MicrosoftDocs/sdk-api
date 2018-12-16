@@ -9,8 +9,6 @@ ms.assetid: 16a1447c-d764-44bf-9c62-064769ead0f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_OPTION_SET, WSMAN_OPTION_SET structure [Windows Remote Management], winrm.wsman_option_set, wsman/WSMAN_OPTION_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, winui._win32_devnames_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

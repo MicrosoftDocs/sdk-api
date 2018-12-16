@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusBase class [GDI+],operator new method, GdiplusBase.operator new, GdiplusBase::operator new, _gdiplus_CLASS_GdiplusBase_operator_new_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_in_size_, operator new, operator new method [GDI+], operator new method [GDI+],GdiplusBase class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h

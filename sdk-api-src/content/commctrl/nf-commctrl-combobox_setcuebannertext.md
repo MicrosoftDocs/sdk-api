@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

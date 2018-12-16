@@ -9,8 +9,6 @@ ms.assetid: 1af2a21b-246e-42d0-a493-4c513e716dab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storage], virtdisk/AddVirtualDiskParent, vstor.addvirtualdiskparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

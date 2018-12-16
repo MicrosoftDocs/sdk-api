@@ -9,8 +9,6 @@ ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 

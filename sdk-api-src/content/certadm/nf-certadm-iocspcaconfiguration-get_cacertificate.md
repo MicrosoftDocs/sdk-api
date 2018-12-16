@@ -9,8 +9,6 @@ ms.assetid: 73fd56d2-a0d4-4bf8-b818-aadf8cbac9c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CACertificate property [Security], CACertificate property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CACertificate property, IOCSPCAConfiguration.CACertificate, IOCSPCAConfiguration.get_CACertificate, IOCSPCAConfiguration::CACertificate, IOCSPCAConfiguration::get_CACertificate, certadm/IOCSPCAConfiguration::CACertificate, certadm/IOCSPCAConfiguration::get_CACertificate, get_CACertificate, security.iocspcaconfiguration_cacertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

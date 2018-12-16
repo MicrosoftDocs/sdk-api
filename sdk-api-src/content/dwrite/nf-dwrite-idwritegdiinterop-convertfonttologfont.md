@@ -9,8 +9,6 @@ ms.assetid: 7b6e65a6-a3cd-438b-8116-7f9614e420df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertFontToLOGFONT, ConvertFontToLOGFONT method [Direct Write], ConvertFontToLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],ConvertFontToLOGFONT method, IDWriteGdiInterop.ConvertFontToLOGFONT, IDWriteGdiInterop::ConvertFontToLOGFONT, directwrite.IDWriteGdiInterop_ConvertFontToLOGFONT, dwrite/IDWriteGdiInterop::ConvertFontToLOGFONT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

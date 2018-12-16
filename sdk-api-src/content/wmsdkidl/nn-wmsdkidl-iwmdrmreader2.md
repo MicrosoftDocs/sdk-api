@@ -9,8 +9,6 @@ ms.assetid: 9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], IWMDRMReader2 interface [windows Media Format],described, IWMDRMReader2Interface, wmformat.iwmdrmreader2, wmsdkidl/IWMDRMReader2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

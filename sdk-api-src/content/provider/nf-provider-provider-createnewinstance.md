@@ -9,8 +9,6 @@ ms.assetid: cb520b55-9ef8-4f5a-935d-46c2bb01f5dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z, ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z, CreateNewInstance, CreateNewInstance method [Windows Management Instrumentation], CreateNewInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],CreateNewInstance method, Provider.CreateNewInstance, Provider::CreateNewInstance, _hmm_provider_createnewinstance, provider/Provider::CreateNewInstance, wmi.provider_createnewinstance"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

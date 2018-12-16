@@ -9,8 +9,6 @@ ms.assetid: fb8dee5f-034f-4e1d-86fe-34a2d9439e5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddItem, AddItem method [windows Media Device Manager], AddItem method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],AddItem method, IWMDMMetaData.AddItem, IWMDMMetaData::AddItem, IWMDMMetaDataAddItem, mswmdm/IWMDMMetaData::AddItem, wmdm.iwmdmmetadata_additem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

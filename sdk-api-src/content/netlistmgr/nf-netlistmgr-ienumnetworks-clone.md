@@ -9,8 +9,6 @@ ms.assetid: 196bf9fa-4615-44c3-accf-f70516d5a6a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

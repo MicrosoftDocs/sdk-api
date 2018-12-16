@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0lis.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Count method, IFaxRoutingMethods.get_Count, IFaxRoutingMethods::get_Count, _mfax_ifaxroutingmethods_get_count, fax._mfax_ifaxroutingmethods_get_count, faxcom/IFaxRoutingMethods::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

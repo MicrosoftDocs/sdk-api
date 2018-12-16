@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntquery.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 

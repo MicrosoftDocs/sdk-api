@@ -9,8 +9,6 @@ ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

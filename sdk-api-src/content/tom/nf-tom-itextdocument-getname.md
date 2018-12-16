@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetName method, ITextDocument.GetName, ITextDocument::GetName, _win32_ITextDocument_GetName, _win32_ITextDocument_GetName_cpp, controls.ITextDocument_GetName, controls._win32_ITextDocument_GetName, tom/ITextDocument::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

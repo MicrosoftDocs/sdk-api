@@ -9,8 +9,6 @@ ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPlugin.TabletRemoved, IStylusPlugin::TabletRemoved, TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC],IStylusPlugin interface, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

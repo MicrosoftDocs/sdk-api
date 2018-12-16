@@ -9,8 +9,6 @@ ms.assetid: df12e64b-92e3-4446-bade-3ad55cbedf51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMFRR_COMPONENTS, MFRR_COMPONENTS, MFRR_COMPONENTS structure [Media Foundation], PMFRR_COMPONENTS, PMFRR_COMPONENTS structure pointer [Media Foundation], df12e64b-92e3-4446-bade-3ad55cbedf51, mf.mfrr_components, mfidl/MFRR_COMPONENTS, mfidl/PMFRR_COMPONENTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

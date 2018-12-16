@@ -9,8 +9,6 @@ ms.assetid: 054203C8-766B-4448-A275-CA61C9D177AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromMediaSourceAsync method, IMediaRenderer.SetNextSourceFromMediaSourceAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromMediaSourceAsync, IMediaRenderer::streaming, SetNextSourceFromMediaSourceAsync, SetNextSourceFromMediaSourceAsync method [Media Streaming API], SetNextSourceFromMediaSourceAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefrommediasourceasync, windows/IMediaRenderer::SetNextSourceFromMediaSourceAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

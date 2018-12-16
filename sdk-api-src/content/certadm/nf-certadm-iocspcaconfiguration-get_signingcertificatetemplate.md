@@ -9,8 +9,6 @@ ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificateTemplate property, IOCSPCAConfiguration.SigningCertificateTemplate, IOCSPCAConfiguration.get_SigningCertificateTemplate, IOCSPCAConfiguration::SigningCertificateTemplate, IOCSPCAConfiguration::get_SigningCertificateTemplate, IOCSPCAConfiguration::put_SigningCertificateTemplate, SigningCertificateTemplate property [Security], SigningCertificateTemplate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificateTemplate, certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate, certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate, get_SigningCertificateTemplate, security.iocspcaconfiguration_signingcertificatetemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

@@ -9,8 +9,6 @@ ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWAVEINCAPSW, *NPWAVEINCAPSW, *PWAVEINCAPSW, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSW, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Windows.h

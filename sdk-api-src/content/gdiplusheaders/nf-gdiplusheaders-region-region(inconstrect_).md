@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const Rect &), Region.Region(const Rect&), Region::Region, Region::Region(IN const Rect &), _gdiplus_CLASS_Region_Region_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Region_Rect_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

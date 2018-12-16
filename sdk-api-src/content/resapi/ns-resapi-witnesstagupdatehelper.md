@@ -9,8 +9,6 @@ ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WitnessTagUpdateHelper, WitnessTagUpdateHelper structure [Failover Cluster], mscs.witnesstagupdatehelper, resapi/WitnessTagUpdateHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

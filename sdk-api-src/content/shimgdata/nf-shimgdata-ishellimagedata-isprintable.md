@@ -9,8 +9,6 @@ ms.assetid: 5c50e919-cb5b-4332-bc17-ad24f31cf680
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsPrintable method, IShellImageData.IsPrintable, IShellImageData::IsPrintable, IsPrintable, IsPrintable method [Windows Shell], IsPrintable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsPrintable, shell.IShellImageData_IsPrintable, shimgdata/IShellImageData::IsPrintable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

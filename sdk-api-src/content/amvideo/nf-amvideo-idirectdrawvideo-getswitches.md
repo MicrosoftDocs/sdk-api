@@ -9,8 +9,6 @@ ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

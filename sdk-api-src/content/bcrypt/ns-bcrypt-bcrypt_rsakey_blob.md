@@ -9,8 +9,6 @@ ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

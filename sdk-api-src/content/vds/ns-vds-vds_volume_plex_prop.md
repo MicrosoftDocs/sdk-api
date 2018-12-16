@@ -9,8 +9,6 @@ ms.assetid: 225cdc5e-045b-407f-b383-8f92025fbbd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP structure pointer [VDS], VDS_VOLUME_PLEX_PROP, VDS_VOLUME_PLEX_PROP structure [VDS], base.vds_volume_plex_prop, vds/PVDS_VOLUME_PLEX_PROP, vds/_VDS_VOLUME_PLEX_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

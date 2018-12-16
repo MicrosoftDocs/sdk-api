@@ -9,8 +9,6 @@ ms.assetid: a3db8565-6316-445e-8fb2-b0bfb08bf72c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysmonFileType, SysmonFileType enumeration [SysMon], base.sysmonfiletype, isysmon/SysmonFileType, isysmon/sysmonFileBlg, isysmon/sysmonFileCsv, isysmon/sysmonFileGif, isysmon/sysmonFileHtml, isysmon/sysmonFileReport, isysmon/sysmonFileRetiredBlg, isysmon/sysmonFileTsv, sysmon.sysmonfiletype, sysmonFileBlg, sysmonFileCsv, sysmonFileGif, sysmonFileHtml, sysmonFileReport, sysmonFileRetiredBlg, sysmonFileTsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 

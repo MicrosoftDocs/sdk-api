@@ -9,8 +9,6 @@ ms.assetid: 5f56ca91-552f-4a52-8a68-225601c5f6f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedContentTypes, GetSupportedContentTypes method [Windows Portable Devices SDK], GetSupportedContentTypes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedContentTypes method, IPortableDeviceCapabilities.GetSupportedContentTypes, IPortableDeviceCapabilities::GetSupportedContentTypes, IPortableDeviceCapabilitiesGetSupportedContentTypes, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes, wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

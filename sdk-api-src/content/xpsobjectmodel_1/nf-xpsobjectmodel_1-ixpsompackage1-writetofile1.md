@@ -9,8 +9,6 @@ ms.assetid: 524f951f-5a2b-4ed1-8435-4426739d38f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToFile1 method, IXpsOMPackage1.WriteToFile1, IXpsOMPackage1::WriteToFile1, WriteToFile1, WriteToFile1 method [XPS Documents and Packaging], WriteToFile1 method [XPS Documents and Packaging],IXpsOMPackage1 interface, xps.ixpsompackage1_writetofile1, xpsobjectmodel_1/IXpsOMPackage1::WriteToFile1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

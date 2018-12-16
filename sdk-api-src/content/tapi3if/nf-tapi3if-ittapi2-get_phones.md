@@ -9,8 +9,6 @@ ms.assetid: 03fe03fc-c58d-4e2a-a187-5ab9a676e89e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI2 interface [TAPI 2.2],get_Phones method, ITTAPI2.get_Phones, ITTAPI2::get_Phones, _tapi3_ittapi2_get_phones, get_Phones, get_Phones method [TAPI 2.2], get_Phones method [TAPI 2.2],ITTAPI2 interface, tapi3.ittapi2_get_phones, tapi3if/ITTAPI2::get_Phones
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

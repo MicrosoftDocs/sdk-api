@@ -9,8 +9,6 @@ ms.assetid: DB1A35D3-D7DF-439F-B4C2-9510FC1977E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsInspectString, WindowsInspectString function [Windows Runtime], winrt.windowsinspectstring, winstring/WindowsInspectString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

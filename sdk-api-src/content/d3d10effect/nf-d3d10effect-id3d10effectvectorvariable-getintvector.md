@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getintvector.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIntVector, GetIntVector method [Direct3D 10], GetIntVector method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetIntVector method, ID3D10EffectVectorVariable.GetIntVector, ID3D10EffectVectorVariable::GetIntVector, b23e6d50-7609-d19b-180d-089671972202, d3d10effect/ID3D10EffectVectorVariable::GetIntVector, direct3d10.id3d10effectvectorvariable_getintvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 63b6edbb-8cff-4879-abea-560fecf0d252
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IntPtrToShort, IntPtrToShort function [Windows Shell], intsafe/IntPtrToShort, shell.IntPtrToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dca29f9b-a218-4764-bf7e-98a027c4336d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetXmlAttribute, WsGetXmlAttribute function [Web Services for Windows], webservices/WsGetXmlAttribute, wsw.wsgetxmlattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

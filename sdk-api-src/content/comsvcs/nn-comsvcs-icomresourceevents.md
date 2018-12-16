@@ -9,8 +9,6 @@ ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

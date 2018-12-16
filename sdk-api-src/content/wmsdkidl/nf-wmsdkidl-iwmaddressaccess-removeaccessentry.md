@@ -9,8 +9,6 @@ ms.assetid: f3f9d493-90b4-4b2a-ad18-baf2b09bc72e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry method, IWMAddressAccess.RemoveAccessEntry, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format],IWMAddressAccess interface, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

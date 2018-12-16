@@ -9,8 +9,6 @@ ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

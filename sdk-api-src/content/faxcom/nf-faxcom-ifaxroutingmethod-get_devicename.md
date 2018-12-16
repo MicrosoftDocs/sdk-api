@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0tk5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],DeviceName property, IFaxRoutingMethod.DeviceName, IFaxRoutingMethod.get_DeviceName, IFaxRoutingMethod::DeviceName, IFaxRoutingMethod::get_DeviceName, _mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp, faxcom/IFaxRoutingMethod::DeviceName, faxcom/IFaxRoutingMethod::get_DeviceName, get_DeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

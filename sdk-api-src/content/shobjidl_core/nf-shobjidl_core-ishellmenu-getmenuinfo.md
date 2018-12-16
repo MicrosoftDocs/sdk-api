@@ -9,8 +9,6 @@ ms.assetid: 979d43ce-d8e6-444f-8082-49b52c0ad2ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMenuInfo, GetMenuInfo method [Windows Shell], GetMenuInfo method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenuInfo method, IShellMenu.GetMenuInfo, IShellMenu::GetMenuInfo, _shell_IShellMenu_GetMenuInfo, shell.IShellMenu_GetMenuInfo, shobjidl_core/IShellMenu::GetMenuInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

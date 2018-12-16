@@ -9,8 +9,6 @@ ms.assetid: 170c3b43-6472-465b-bb09-22ba1a68c6e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkCollector interface [Tablet PC],Tablet property, IInkCollector.Tablet, IInkCollector.get_Tablet, IInkCollector::Tablet, IInkCollector::get_Tablet, InkCollector.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkCollector interface, get_Tablet, msinkaut/IInkCollector::Tablet, msinkaut/IInkCollector::get_Tablet, tablet.inkcollector_tablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

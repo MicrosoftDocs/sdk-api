@@ -9,8 +9,6 @@ ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

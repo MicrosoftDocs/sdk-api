@@ -9,8 +9,6 @@ ms.assetid: c66dcc0f-733a-44a2-942f-f518b752d014
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, IMCENUMPROC callback, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

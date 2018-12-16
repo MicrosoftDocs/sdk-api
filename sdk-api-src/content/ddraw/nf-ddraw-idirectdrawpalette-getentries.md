@@ -9,8 +9,6 @@ ms.assetid: ae3c639f-beb4-40b6-a237-60d6e560a1c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

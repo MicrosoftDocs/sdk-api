@@ -9,8 +9,6 @@ ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

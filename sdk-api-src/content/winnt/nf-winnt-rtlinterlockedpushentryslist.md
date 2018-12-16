@@ -9,8 +9,6 @@ ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

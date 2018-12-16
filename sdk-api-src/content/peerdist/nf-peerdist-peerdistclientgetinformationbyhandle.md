@@ -9,8 +9,6 @@ ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

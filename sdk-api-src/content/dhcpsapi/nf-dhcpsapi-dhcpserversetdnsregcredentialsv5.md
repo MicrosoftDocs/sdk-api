@@ -9,8 +9,6 @@ ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

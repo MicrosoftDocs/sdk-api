@@ -9,8 +9,6 @@ ms.assetid: 2e4dbb4d-5482-4ed0-9903-34b3bb87b16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Context_WriteMessage, MI_Context_WriteMessage function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_Context_WriteMessage, wmi.mi_writemessage, wmi_v2.mi_context_writemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], ISimilarityFileIdTable interface [Remote Differential Compression],described, fs.isimilarityfileidtable, msrdc/ISimilarityFileIdTable, rdc.isimilarityfileidtable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

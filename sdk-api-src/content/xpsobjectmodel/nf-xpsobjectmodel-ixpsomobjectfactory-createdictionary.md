@@ -9,8 +9,6 @@ ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDictionary, CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDictionary method, IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

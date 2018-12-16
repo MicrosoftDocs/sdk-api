@@ -9,8 +9,6 @@ ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 

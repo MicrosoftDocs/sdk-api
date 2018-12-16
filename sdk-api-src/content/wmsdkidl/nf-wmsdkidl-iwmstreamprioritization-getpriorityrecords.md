@@ -9,8 +9,6 @@ ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

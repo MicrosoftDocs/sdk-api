@@ -9,8 +9,6 @@ ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf], PdhGetDefaultPerfObjectHA, PdhGetDefaultPerfObjectHW, _win32_pdhgetdefaultperfobjecth, base.pdhgetdefaultperfobjecth, pdh/PdhGetDefaultPerfObjectH, pdh/PdhGetDefaultPerfObjectHA, pdh/PdhGetDefaultPerfObjectHW, perf.pdhgetdefaultperfobjecth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

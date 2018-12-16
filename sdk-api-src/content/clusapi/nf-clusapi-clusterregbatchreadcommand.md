@@ -9,8 +9,6 @@ ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

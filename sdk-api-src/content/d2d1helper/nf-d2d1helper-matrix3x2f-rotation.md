@@ -9,8 +9,6 @@ ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d20be0c8-f228-4fed-847b-d28d99ade476
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LongPtrToUShort, LongPtrToUShort function [Windows Shell], intsafe/LongPtrToUShort, shell.LongPtrToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

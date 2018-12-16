@@ -9,8 +9,6 @@ ms.assetid: 7d117895-b61f-4890-8cb6-3e4ecf49ca99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLogParam, AddLogParam method [windows Media Format], AddLogParam method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],AddLogParam method, IWMReaderAdvanced4.AddLogParam, IWMReaderAdvanced4::AddLogParam, IWMReaderAdvanced4AddLogParam, wmformat.iwmreaderadvanced4_addlogparam, wmsdkidl/IWMReaderAdvanced4::AddLogParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

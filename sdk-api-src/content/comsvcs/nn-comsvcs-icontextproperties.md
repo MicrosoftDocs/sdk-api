@@ -9,8 +9,6 @@ ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

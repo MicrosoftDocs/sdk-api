@@ -9,8 +9,6 @@ ms.assetid: 76741d1e-3e1b-4018-b092-b668ecfd43c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], CreateBitmap method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmap method, IWICImagingFactory.CreateBitmap, IWICImagingFactory::CreateBitmap, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmap, wic._wic_codec_iwicimagingfactory_createbitmap, wincodec/IWICImagingFactory::CreateBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

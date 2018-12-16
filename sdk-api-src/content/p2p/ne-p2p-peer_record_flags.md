@@ -9,8 +9,6 @@ ms.assetid: 2ae2411d-3409-442a-8655-e54a34bf3938
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking], PEER_RECORD_FLAG_AUTOREFRESH, PEER_RECORD_FLAG_DELETED, p2p.peer_record_flags, p2p/PEER_RECORD_FLAGS, p2p/PEER_RECORD_FLAG_AUTOREFRESH, p2p/PEER_RECORD_FLAG_DELETED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

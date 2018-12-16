@@ -9,8 +9,6 @@ ms.assetid: 219f58af-66e8-4a89-8908-89308fc182d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExportCAs, ExportOIDs, ExportTemplates, X509EnrollmentPolicyExportFlags, X509EnrollmentPolicyExportFlags enumeration [Security], certenroll/ExportCAs, certenroll/ExportOIDs, certenroll/ExportTemplates, certenroll/X509EnrollmentPolicyExportFlags, security.x509enrollmentpolicyexportflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

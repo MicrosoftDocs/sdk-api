@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizers
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISchemaLocalizerSupport interface [search],Localize method, ISchemaLocalizerSupport.Localize, ISchemaLocalizerSupport::Localize, Localize, Localize method [search], Localize method [search],ISchemaLocalizerSupport interface, _search_ISchemaLocalizerSupport_Localize, search._search_ISchemaLocalizerSupport_Localize, structuredquery/ISchemaLocalizerSupport::Localize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

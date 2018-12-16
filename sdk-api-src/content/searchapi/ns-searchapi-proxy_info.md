@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\proxy_info.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _search_PROXY_INFO, search._search_PROXY_INFO, searchapi/PROXY_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

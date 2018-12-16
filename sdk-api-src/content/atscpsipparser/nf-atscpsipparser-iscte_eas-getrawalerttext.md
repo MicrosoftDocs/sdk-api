@@ -9,8 +9,6 @@ ms.assetid: e5ed18e8-e83e-4708-995b-99acd12427a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRawAlertText, GetRawAlertText method [Microsoft TV Technologies], GetRawAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertText method, ISCTE_EAS.GetRawAlertText, ISCTE_EAS::GetRawAlertText, atscpsipparser/ISCTE_EAS::GetRawAlertText, mstv.iscte_eas_getrawalerttext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

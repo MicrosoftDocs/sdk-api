@@ -9,8 +9,6 @@ ms.assetid: 3a039c0c-ac5b-4455-960d-b26a207693ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsListDomainsInSite, DsListDomainsInSite function [Active Directory], DsListDomainsInSiteA, DsListDomainsInSiteW, _glines_dslistdomainsinsite, ad.dslistdomainsinsite, ntdsapi/DsListDomainsInSite, ntdsapi/DsListDomainsInSiteA, ntdsapi/DsListDomainsInSiteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

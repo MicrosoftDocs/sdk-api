@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdResetVisrgn, DdResetVisrgn function [Windows API], GdiEntry6, _dxgkernel_ddresetvisrgn, ddrawgdi/DdResetVisrgn, ddrawgdi/GdiEntry6, winprog._dxgkernel_ddresetvisrgn, winui._dxgkernel_ddresetvisrgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

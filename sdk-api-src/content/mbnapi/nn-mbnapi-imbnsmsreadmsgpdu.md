@@ -9,8 +9,6 @@ ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

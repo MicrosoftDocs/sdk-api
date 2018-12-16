@@ -9,8 +9,6 @@ ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

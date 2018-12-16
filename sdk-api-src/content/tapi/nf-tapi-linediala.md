@@ -9,8 +9,6 @@ ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreferen
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomA, winbase/AddAtomW, winui._win32_addatom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

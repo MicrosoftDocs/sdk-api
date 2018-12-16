@@ -9,8 +9,6 @@ ms.assetid: de8b2473-092d-4ff9-adbc-3ba378b035e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],DrawingAttributes property, IInkCursor.DrawingAttributes, IInkCursor.get_DrawingAttributes, IInkCursor::DrawingAttributes, IInkCursor::get_DrawingAttributes, IInkCursor::putref_DrawingAttributes, de8b2473-092d-4ff9-adbc-3ba378b035e2, get_DrawingAttributes, msinkaut/IInkCursor::DrawingAttributes, msinkaut/IInkCursor::get_DrawingAttributes, msinkaut/IInkCursor::putref_DrawingAttributes, tablet.iinkcursor_drawingattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f73d13d9-244e-4ec1-aacd-047331b13a4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetRemainingWorkEstimateForSession method, ISyncChangeBatchBase.SetRemainingWorkEstimateForSession, ISyncChangeBatchBase::SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession method [Windows Sync], SetRemainingWorkEstimateForSession method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setremainingworkestimateforsession, winsync/ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

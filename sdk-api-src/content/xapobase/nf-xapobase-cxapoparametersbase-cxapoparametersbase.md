@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.CXAPO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],CXAPOParametersBase method, CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase.CXAPOParametersBase, CXAPOParametersBase::CXAPOParametersBase, xapobase/CXAPOParametersBase::CXAPOParametersBase, xaudio2.cxapoparametersbase_cxapoparametersbase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputMaxLatency method, IMediaObject.GetInputMaxLatency, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

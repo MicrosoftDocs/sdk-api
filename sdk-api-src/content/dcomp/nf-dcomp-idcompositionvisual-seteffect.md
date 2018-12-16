@@ -9,8 +9,6 @@ ms.assetid: CCA785F6-869C-460A-AF54-573BDE798685
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetEffect method, IDCompositionVisual.SetEffect, IDCompositionVisual::SetEffect, SetEffect, SetEffect method [DirectComposition], SetEffect method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetEffect, directcomp.idcompositionvisual_seteffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 

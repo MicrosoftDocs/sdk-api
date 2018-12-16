@@ -9,8 +9,6 @@ ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDoubleStrike, GetDoubleStrike method [Windows Controls], GetDoubleStrike method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDoubleStrike method, ITextFont2.GetDoubleStrike, ITextFont2::GetDoubleStrike, controls.itextfont2_getdoublestrike, tom/ITextFont2::GetDoubleStrike
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

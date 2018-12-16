@@ -9,8 +9,6 @@ ms.assetid: 834bb793-b4a8-40b6-b210-05d17332ddb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCompressionMode method, ITextFont2.SetCompressionMode, ITextFont2::SetCompressionMode, SetCompressionMode, SetCompressionMode method [Windows Controls], SetCompressionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcompressionmode, tom/ITextFont2::SetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

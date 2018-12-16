@@ -9,8 +9,6 @@ ms.assetid: a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClockVectorElements, GetClockVectorElements method [Windows Sync], GetClockVectorElements method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElements method, IClockVector.GetClockVectorElements, IClockVector::GetClockVectorElements, winsync.iclockvector_getclockvectorelements, winsync/IClockVector::GetClockVectorElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

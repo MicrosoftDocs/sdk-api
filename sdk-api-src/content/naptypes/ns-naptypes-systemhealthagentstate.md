@@ -9,8 +9,6 @@ ms.assetid: c5a5bc72-363d-4c2d-8b91-fda64fac281e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap.systemhealthagentstate_struct, naptypes/SystemHealthAgentState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_9apf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPorts, GetPorts method [Fax Service], GetPorts method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetPorts method, IFaxServer.GetPorts, IFaxServer::GetPorts, _mfax_ifaxserver_getports, fax._mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp, fax._mfax_ifaxserver_getports, faxcom/IFaxServer::GetPorts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

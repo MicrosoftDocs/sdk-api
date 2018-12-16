@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstanc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Windows Controls], _shell_ImageList_CoCreateInstance, _shell_ImageList_CoCreateInstance_cpp, commoncontrols/ImageList_CoCreateInstance, controls.ImageList_CoCreateInstance, controls._shell_ImageList_CoCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commoncontrols.h
 req.include-header: 

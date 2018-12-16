@@ -9,8 +9,6 @@ ms.assetid: 3c88ebae-274e-403a-8f57-58fdf863f511
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX structure [Files], _win32_partition_information_ex_str, base.partition_information_ex_str, fs.partition_information_ex_str, winioctl/PARTITION_INFORMATION_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

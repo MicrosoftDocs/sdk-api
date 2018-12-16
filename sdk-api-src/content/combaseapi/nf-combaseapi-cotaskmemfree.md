@@ -9,8 +9,6 @@ ms.assetid: 3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoTaskMemFree, CoTaskMemFree function [COM], _com_CoTaskMemFree, com.cotaskmemfree, combaseapi/CoTaskMemFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

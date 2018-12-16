@@ -9,8 +9,6 @@ ms.assetid: D6336E6F-427B-4122-B437-411A7F6A0751
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzOperation2, IAzOperation2 interface [Security], IAzOperation2 interface [Security],described, azroles/IAzOperation2, security.iazoperation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

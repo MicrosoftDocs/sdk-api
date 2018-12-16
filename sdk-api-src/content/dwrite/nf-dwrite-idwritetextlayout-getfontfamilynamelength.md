@@ -9,8 +9,6 @@ ms.assetid: e3b3d111-04a7-409b-98dd-b0fc3947f24b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFamilyNameLength, GetFontFamilyNameLength method [Direct Write], GetFontFamilyNameLength method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontFamilyNameLength method, IDWriteTextLayout.GetFontFamilyNameLength, IDWriteTextLayout::GetFontFamilyNameLength, directwrite.IDWriteTextLayout_GetFontFamilyNameLength, dwrite/IDWriteTextLayout::GetFontFamilyNameLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

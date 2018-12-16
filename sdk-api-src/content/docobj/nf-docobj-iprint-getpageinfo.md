@@ -9,8 +9,6 @@ ms.assetid: 8f3a2d21-5345-4c4e-9928-37dcd6ec5fcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPrint interface, IPrint interface [COM],GetPageInfo method, IPrint.GetPageInfo, IPrint::GetPageInfo, _ctrl_iprint_getpageinfo, com.iprint_getpageinfo, docobj/IPrint::GetPageInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

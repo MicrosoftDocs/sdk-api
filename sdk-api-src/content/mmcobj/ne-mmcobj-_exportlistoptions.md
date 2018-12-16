@@ -9,8 +9,6 @@ ms.assetid: cfdb5648-8573-4c5a-85c2-7a5d3d63a5f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EXPORTLISTOPTIONS, ExportListOptions, ExportListOptions enumeration [MMC], ExportListOptions_Default, ExportListOptions_SelectedItemsOnly, ExportListOptions_TabDelimited, ExportListOptions_Unicode, _ExportListOptions, _ExportListOptions enumeration [MMC], _slate_exportlistoptions, mmc.exportlistoptions, mmcobj/ExportListOptions, mmcobj/ExportListOptions_Default, mmcobj/ExportListOptions_SelectedItemsOnly, mmcobj/ExportListOptions_TabDelimited, mmcobj/ExportListOptions_Unicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 

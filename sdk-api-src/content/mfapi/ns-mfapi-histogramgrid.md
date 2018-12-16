@@ -9,8 +9,6 @@ ms.assetid: 2B0BA5EC-3120-41A2-B06A-B63E57DC8766
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HistogramGrid, HistogramGrid structure [Streaming Media Devices], mfapi/HistogramGrid, stream.histogramgrid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

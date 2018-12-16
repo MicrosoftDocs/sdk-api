@@ -9,8 +9,6 @@ ms.assetid: 261a6c65-65a5-43ed-aaed-12968b996c5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetworkName, GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetNetworkName method, IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

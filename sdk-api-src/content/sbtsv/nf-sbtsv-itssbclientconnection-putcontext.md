@@ -9,8 +9,6 @@ ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

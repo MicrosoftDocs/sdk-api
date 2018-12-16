@@ -9,8 +9,6 @@ ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], winsock.wsacompletion, winsock2/WSACOMPLETION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

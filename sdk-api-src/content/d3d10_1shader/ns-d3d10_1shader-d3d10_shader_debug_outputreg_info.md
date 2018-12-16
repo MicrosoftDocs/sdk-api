@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputreg_info.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 346fa378-bd6e-af16-a873-be0d08fda403, D3D10_SHADER_DEBUG_OUTPUTREG_INFO, D3D10_SHADER_DEBUG_OUTPUTREG_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTREG_INFO, direct3d10.d3d10_shader_debug_outputreg_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

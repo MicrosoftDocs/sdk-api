@@ -9,8 +9,6 @@ ms.assetid: ed15e1b5-3fdc-4841-85d1-89269684df0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

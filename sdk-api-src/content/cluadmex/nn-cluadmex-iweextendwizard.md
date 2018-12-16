@@ -9,8 +9,6 @@ ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster],described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

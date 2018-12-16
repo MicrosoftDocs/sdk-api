@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_5tes.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],CSID property, IFaxDevice.CSID, IFaxDevice.get_CSID, IFaxDevice.put_CSID, IFaxDevice::CSID, IFaxDevice::get_CSID, IFaxDevice::put_CSID, _mfax_faxdevice.csid, fax._mfax_faxdevice_cpp_mfax_faxdevice_csid_cpp, fax._mfax_faxdevice_csid, faxcomex/IFaxDevice::CSID, faxcomex/IFaxDevice::get_CSID, faxcomex/IFaxDevice::put_CSID, put_CSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

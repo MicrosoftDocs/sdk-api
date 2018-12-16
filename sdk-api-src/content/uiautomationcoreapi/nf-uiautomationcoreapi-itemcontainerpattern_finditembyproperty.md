@@ -9,8 +9,6 @@ ms.assetid: ffad2cd6-fcf8-436d-888e-1092ba6c3e76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ItemContainerPattern_FindItemByProperty, ItemContainerPattern_FindItemByProperty function [Windows Accessibility], uiauto.uiauto_ItemContainerPattern_FindItemByProperty, uiauto_ItemContainerPattern_FindItemByProperty, uiautomationcoreapi/ItemContainerPattern_FindItemByProperty, winauto.uiauto_ItemContainerPattern_FindItemByProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

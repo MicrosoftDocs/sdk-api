@@ -9,8 +9,6 @@ ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: pluginResource2FileAssociation, pluginResource2FileAssociation structure [Remote Desktop Services], termserv.pluginresource2fileassociation, tspubplugin2com/pluginResource2FileAssociation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tspubplugin2com.h
 req.include-header: 

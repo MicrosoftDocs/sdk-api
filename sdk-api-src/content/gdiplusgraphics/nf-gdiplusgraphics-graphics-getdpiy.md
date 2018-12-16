@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],Graphics class, Graphics class [GDI+],GetDpiY method, Graphics.GetDpiY, Graphics::GetDpiY, _gdiplus_CLASS_Graphics_GetDpiY_, gdiplus._gdiplus_CLASS_Graphics_GetDpiY_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

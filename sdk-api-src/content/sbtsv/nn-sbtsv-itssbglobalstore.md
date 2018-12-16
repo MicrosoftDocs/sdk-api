@@ -9,8 +9,6 @@ ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

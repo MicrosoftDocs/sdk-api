@@ -9,8 +9,6 @@ ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3179A942-7756-4763-A2F8-629D89D39542
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SeekAsync method, IMediaRenderer.SeekAsync, IMediaRenderer.streaming, IMediaRenderer::SeekAsync, IMediaRenderer::streaming, SeekAsync, SeekAsync method [Media Streaming API], SeekAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_seekasync, windows/IMediaRenderer::SeekAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

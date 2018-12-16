@@ -9,8 +9,6 @@ ms.assetid: 243fc72e-ef97-49a6-9a50-05ec338e5faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphCreationPostRender, GraphCreationPostRender method [Windows Media Player], GraphCreationPostRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPostRender method, IWMPGraphCreation.GraphCreationPostRender, IWMPGraphCreation::GraphCreationPostRender, IWMPGraphCreationGraphCreationPostRenderdeprecated, wmp.iwmpgraphcreation_graphcreationpostrender, wmpservices/IWMPGraphCreation::GraphCreationPostRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

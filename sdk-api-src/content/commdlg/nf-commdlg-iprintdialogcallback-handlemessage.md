@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandleMessage, HandleMessage method [Dialog Boxes], HandleMessage method [Dialog Boxes],IPrintDialogCallback interface, IPrintDialogCallback interface [Dialog Boxes],HandleMessage method, IPrintDialogCallback.HandleMessage, IPrintDialogCallback::HandleMessage, _win32_IPrintDialogCallback_HandleMessage, _win32_iprintdialogcallback_handlemessage_cpp, commdlg/IPrintDialogCallback::HandleMessage, dlgbox.iprintdialogcallback_handlemessage, winui._win32_iprintdialogcallback_handlemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: commdlg.h
 req.include-header: Windows.h

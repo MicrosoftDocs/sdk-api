@@ -9,8 +9,6 @@ ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

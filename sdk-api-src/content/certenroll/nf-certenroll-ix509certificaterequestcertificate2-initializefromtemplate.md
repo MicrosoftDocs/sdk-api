@@ -9,8 +9,6 @@ ms.assetid: bd38413f-9e3d-4d04-8de2-5eb0b637c41c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCertificate2.InitializeFromTemplate, IX509CertificateRequestCertificate2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::InitializeFromTemplate, security.ix509certificaterequestcertificate2_initializefromtemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

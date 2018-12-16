@@ -9,8 +9,6 @@ ms.assetid: 1ae895a1-7b63-460c-b066-d8e9c7cd03c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGeometry.GetTransformLocal, IXpsOMGeometry::GetTransformLocal, xps.ixpsomgeometry_gettransformlocal, xpsobjectmodel/IXpsOMGeometry::GetTransformLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

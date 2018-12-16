@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

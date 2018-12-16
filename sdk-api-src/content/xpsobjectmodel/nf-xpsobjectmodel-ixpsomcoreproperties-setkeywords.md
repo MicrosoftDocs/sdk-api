@@ -9,8 +9,6 @@ ms.assetid: d96a85d2-dfbf-4589-9c3f-7505715ec6ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3e80137d-a3e5-4f9e-a114-ac8d5dd69187
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLInstallProofOfPurchaseEx, SLInstallProofOfPurchaseEx function [Security], security.slinstallproofofpurchaseex, slpublic/SLInstallProofOfPurchaseEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 816aaa81-1b51-4e01-b49c-a9cbe2b87735
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnEndComposition method, ITfContextOwnerCompositionSink.OnEndComposition, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

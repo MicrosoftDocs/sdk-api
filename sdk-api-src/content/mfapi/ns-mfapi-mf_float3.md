@@ -9,8 +9,6 @@ ms.assetid: F284993C-A149-4C89-866D-5E46E6AD2CCC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MF_FLOAT3, MF_FLOAT3 structure [Media Foundation], PMF_FLOAT3, PMF_FLOAT3 structure pointer [Media Foundation], mf.mf_float3, mfapi/MF_FLOAT3, mfapi/PMF_FLOAT3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

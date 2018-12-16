@@ -9,8 +9,6 @@ ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RAS_LOCAL, RAS_REGION, RAS_SITE, RAS_WORLD, RND_ADVERTISING_SCOPE, RND_ADVERTISING_SCOPE enumeration [TAPI 2.2], _tapi3_rnd_advertising_scope, rend/RAS_LOCAL, rend/RAS_REGION, rend/RAS_SITE, rend/RAS_WORLD, rend/RND_ADVERTISING_SCOPE, tapi3.rnd_advertising_scope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rend.h
 req.include-header: 

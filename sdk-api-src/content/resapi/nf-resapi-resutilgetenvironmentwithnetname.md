@@ -9,8 +9,6 @@ ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster], ResUtilGetEnvironmentWithNetName, ResUtilGetEnvironmentWithNetName function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, resapi/ResUtilGetEnvironmentWithNetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

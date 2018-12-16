@@ -9,8 +9,6 @@ ms.assetid: 0B90AB2C-3F62-49FF-A1DB-FCB07A33F482
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure [Media Foundation], d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, mf.d3d11_video_processor_stream_behavior_hint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

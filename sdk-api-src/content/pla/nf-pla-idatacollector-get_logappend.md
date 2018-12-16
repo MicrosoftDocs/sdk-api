@@ -9,8 +9,6 @@ ms.assetid: c9843647-2c36-4d08-98d0-4df63b054993
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataCollector interface [PLA],LogAppend property, IDataCollector.LogAppend, IDataCollector.get_LogAppend, IDataCollector::LogAppend, IDataCollector::get_LogAppend, IDataCollector::put_LogAppend, LogAppend property [PLA], LogAppend property [PLA],IDataCollector interface, base.idatacollector_logappend, get_LogAppend, pla.idatacollector_logappend, pla/IDataCollector::LogAppend, pla/IDataCollector::get_LogAppend, pla/IDataCollector::put_LogAppend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

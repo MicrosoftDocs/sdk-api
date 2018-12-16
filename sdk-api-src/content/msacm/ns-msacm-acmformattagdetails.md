@@ -9,8 +9,6 @@ ms.assetid: 134cccb1-4065-407f-a02b-7bd340b4a8cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATTAGDETAILS, ACMFORMATTAGDETAILS structure [Windows Multimedia], msacm/ACMFORMATTAGDETAILS, multimedia.acmformattagdetails_COLLISION956, multimedia.acmformattagdetails_struct"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 

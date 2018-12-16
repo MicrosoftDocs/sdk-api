@@ -9,8 +9,6 @@ ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

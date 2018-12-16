@@ -9,8 +9,6 @@ ms.assetid: af0f4a4e-807c-4a91-b697-48571fecbe6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommandLine property [Windows Remote Management], CommandLine property [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CommandLine property, IWSMan.CommandLine, IWSMan.get_CommandLine, IWSMan::CommandLine, IWSMan::get_CommandLine, get_CommandLine, winrm.iwsman_commandline, wsmandisp/IWSMan::CommandLine, wsmandisp/IWSMan::get_CommandLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

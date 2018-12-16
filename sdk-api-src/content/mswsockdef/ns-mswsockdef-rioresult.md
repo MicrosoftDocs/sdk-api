@@ -9,8 +9,6 @@ ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mswsockdef.h
 req.include-header: Mswsock.h

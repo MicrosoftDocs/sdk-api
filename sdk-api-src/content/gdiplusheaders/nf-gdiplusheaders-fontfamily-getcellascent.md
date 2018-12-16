@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfam
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FontFamily class [GDI+],GetCellAscent method, FontFamily.GetCellAscent, FontFamily::GetCellAscent, GetCellAscent, GetCellAscent method [GDI+], GetCellAscent method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetCellAscent_style_, gdiplus._gdiplus_CLASS_FontFamily_GetCellAscent_style_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

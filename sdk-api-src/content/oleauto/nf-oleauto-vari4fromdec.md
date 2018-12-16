@@ -9,8 +9,6 @@ ms.assetid: 23a02b3d-e2cf-4723-8d21-b7c44723efe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI4FromDec, VarI4FromDec function [Automation], _oa96_VarI4FromDec, automat.vari4fromdec, oleauto/VarI4FromDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

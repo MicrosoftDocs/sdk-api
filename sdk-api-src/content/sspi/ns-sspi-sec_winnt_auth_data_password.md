@@ -9,8 +9,6 @@ ms.assetid: f7f3c0e8-be28-4be2-a472-21a39ace04cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

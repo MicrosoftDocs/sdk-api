@@ -9,8 +9,6 @@ ms.assetid: 064b035a-c554-4c81-93b9-ba4fb92da09d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],Close method, IFileDialog.Close, IFileDialog::Close, shell.IFileDialog_Close, shell_IFileDialog_Close, shobjidl_core/IFileDialog::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

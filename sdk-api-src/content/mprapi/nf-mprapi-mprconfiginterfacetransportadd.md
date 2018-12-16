@@ -9,8 +9,6 @@ ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

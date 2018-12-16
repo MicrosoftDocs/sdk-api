@@ -9,8 +9,6 @@ ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Refresh method, IAutomaticUpdatesSettings.Refresh, IAutomaticUpdatesSettings::Refresh, Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

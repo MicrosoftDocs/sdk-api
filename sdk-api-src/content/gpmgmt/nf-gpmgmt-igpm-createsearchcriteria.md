@@ -9,8 +9,6 @@ ms.assetid: 7bb99109-c0d6-47cb-9ea4-6c60c1607b79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSearchCriteria, CreateSearchCriteria method [GPMC], CreateSearchCriteria method [GPMC],GPM class, CreateSearchCriteria method [GPMC],IGPM interface, GPM class [GPMC],CreateSearchCriteria method, IGPM interface [GPMC],CreateSearchCriteria method, IGPM.CreateSearchCriteria, IGPM::CreateSearchCriteria, _win32_igpm_createsearchcriteria, gpmc.igpm_createsearchcriteria, gpmgmt/IGPM::CreateSearchCriteria
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

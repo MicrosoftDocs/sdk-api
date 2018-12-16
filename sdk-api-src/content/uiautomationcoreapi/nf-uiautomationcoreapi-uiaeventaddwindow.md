@@ -9,8 +9,6 @@ ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: FB935FED-571F-4298-8F83-0F805408179D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO structure [Security], PLSA_LAST_INTER_LOGON_INFO, PLSA_LAST_INTER_LOGON_INFO structure pointer [Security], _LSA_LAST_INTER_LOGON_INFO, ntsecapi/LSA_LAST_INTER_LOGON_INFO, ntsecapi/PLSA_LAST_INTER_LOGON_INFO, security.lsa_last_inter_logon_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

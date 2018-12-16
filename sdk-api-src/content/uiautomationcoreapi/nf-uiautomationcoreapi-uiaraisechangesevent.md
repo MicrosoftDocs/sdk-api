@@ -9,8 +9,6 @@ ms.assetid: AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaRaiseChangesEvent, UiaRaiseChangesEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseChangesEvent, winauto.uiauto_UiaRaiseChangesEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

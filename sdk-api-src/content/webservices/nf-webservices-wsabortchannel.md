@@ -9,8 +9,6 @@ ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

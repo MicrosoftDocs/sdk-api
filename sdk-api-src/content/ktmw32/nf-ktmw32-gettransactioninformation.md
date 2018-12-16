@@ -9,8 +9,6 @@ ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

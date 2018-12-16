@@ -9,8 +9,6 @@ ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaximumClients, GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetMaximumClients method, IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -9,8 +9,6 @@ ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: endpointvolume.h
 req.include-header: 

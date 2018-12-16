@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNMBCHOTITEM, HICF_ENTERING, HICF_LEAVING, LPNMBCHOTITEM, LPNMBCHOTITEM structure pointer [Windows Controls], NMBCHOTITEM, NMBCHOTITEM structure [Windows Controls], _win32_NMBCHOTITEM_str, _win32_NMBCHOTITEM_str_cpp, commctrl/LPNMBCHOTITEM, commctrl/NMBCHOTITEM, controls.NMBCHOTITEM, controls._win32_NMBCHOTITEM_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

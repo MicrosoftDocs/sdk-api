@@ -9,8 +9,6 @@ ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

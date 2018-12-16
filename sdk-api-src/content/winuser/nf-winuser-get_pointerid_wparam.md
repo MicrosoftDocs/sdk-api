@@ -9,8 +9,6 @@ ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991211
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM	, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

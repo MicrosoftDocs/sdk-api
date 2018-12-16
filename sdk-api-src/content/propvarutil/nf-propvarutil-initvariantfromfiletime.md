@@ -9,8 +9,6 @@ ms.assetid: cd61a268-ef73-4dd3-98d4-9811922d01f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows Properties], _shell_InitVariantFromFileTime, properties.InitVariantFromFileTime, propvarutil/InitVariantFromFileTime, shell.InitVariantFromFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

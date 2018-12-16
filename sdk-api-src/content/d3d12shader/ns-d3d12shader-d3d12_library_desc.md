@@ -9,8 +9,6 @@ ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

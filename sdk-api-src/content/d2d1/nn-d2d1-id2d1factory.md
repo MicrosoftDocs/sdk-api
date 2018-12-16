@@ -9,8 +9,6 @@ ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

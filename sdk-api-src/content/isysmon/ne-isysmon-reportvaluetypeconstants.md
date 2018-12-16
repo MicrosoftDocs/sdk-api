@@ -9,8 +9,6 @@ ms.assetid: 63287889-3928-4abf-a04d-6790fd70df83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportValueTypeConstants, ReportValueTypeConstants enumeration [SysMon], base.reportvaluetypeconstants, isysmon/ReportValueTypeConstants, isysmon/sysmonAverage, isysmon/sysmonCurrentValue, isysmon/sysmonDefaultValue, isysmon/sysmonMaximum, isysmon/sysmonMinimum, sysmon.reportvaluetypeconstants, sysmonAverage, sysmonCurrentValue, sysmonDefaultValue, sysmonMaximum, sysmonMinimum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 

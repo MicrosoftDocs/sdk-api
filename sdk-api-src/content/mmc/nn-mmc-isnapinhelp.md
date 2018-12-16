@@ -9,8 +9,6 @@ ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MMC],described, mmc.isnapinhelp, mmc/ISnapinHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

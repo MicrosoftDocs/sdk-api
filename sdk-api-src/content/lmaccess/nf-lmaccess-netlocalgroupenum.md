@@ -9,8 +9,6 @@ ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

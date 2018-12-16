@@ -9,8 +9,6 @@ ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

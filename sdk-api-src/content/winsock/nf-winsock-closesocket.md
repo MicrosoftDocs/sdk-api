@@ -9,8 +9,6 @@ ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

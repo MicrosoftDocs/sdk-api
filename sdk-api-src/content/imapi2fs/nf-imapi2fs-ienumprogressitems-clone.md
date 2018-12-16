@@ -9,8 +9,6 @@ ms.assetid: 21167aaa-655d-48de-9f83-b98c8a91c482
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumProgressItems interface, IEnumProgressItems interface [IMAPI],Clone method, IEnumProgressItems.Clone, IEnumProgressItems::Clone, imapi.ienumprogressitems_clone, imapi2fs/IEnumProgressItems::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

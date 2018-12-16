@@ -9,8 +9,6 @@ ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

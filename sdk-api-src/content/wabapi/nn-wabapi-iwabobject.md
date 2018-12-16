@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\iwabobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book],described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wabapi.h
 req.include-header: 

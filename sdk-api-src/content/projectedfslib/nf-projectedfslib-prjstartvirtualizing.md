@@ -9,8 +9,6 @@ ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

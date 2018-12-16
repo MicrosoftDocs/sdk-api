@@ -9,8 +9,6 @@ ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e9981574-0058-420f-9627-6d5a1745a739
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

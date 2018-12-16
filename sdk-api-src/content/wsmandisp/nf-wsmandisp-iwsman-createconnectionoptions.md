@@ -9,8 +9,6 @@ ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateConnectionOptions, CreateConnectionOptions method [Windows Remote Management], CreateConnectionOptions method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateConnectionOptions method, IWSMan.CreateConnectionOptions, IWSMan::CreateConnectionOptions, winrm.iwsman_createconnectionoptions, wsmandisp/IWSMan::CreateConnectionOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

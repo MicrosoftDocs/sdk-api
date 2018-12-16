@@ -9,8 +9,6 @@ ms.assetid: 8277b133-2c0c-4a21-b441-457efb285178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConfigureTransaction, ConfigureTransaction method [COM+], ConfigureTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],ConfigureTransaction method, IServiceTransactionConfigBase.ConfigureTransaction, IServiceTransactionConfigBase::ConfigureTransaction, _cos_IServiceTransactionConfigBase_ConfigureTransaction, comsvcs/IServiceTransactionConfigBase::ConfigureTransaction, cos.iservicetransactionconfigbase_configuretransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

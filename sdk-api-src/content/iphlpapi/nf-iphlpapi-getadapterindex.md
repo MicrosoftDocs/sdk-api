@@ -9,8 +9,6 @@ ms.assetid: e98ee6b3-30c2-4629-859e-e7440781cd86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdapterIndex, GetAdapterIndex function [IP Helper], _iphlp_getadapterindex, iphlp.getadapterindex, iphlpapi/GetAdapterIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

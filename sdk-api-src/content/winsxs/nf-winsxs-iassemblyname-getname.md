@@ -9,8 +9,6 @@ ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Side-by-side Assemblies], GetName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetName method, IAssemblyName.GetName, IAssemblyName::GetName, setup.iassemblyname_getname, winsxs/IAssemblyName::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

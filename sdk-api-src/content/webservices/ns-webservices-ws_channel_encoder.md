@@ -9,8 +9,6 @@ ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

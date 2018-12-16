@@ -9,8 +9,6 @@ ms.assetid: 8a637d5f-b9cb-486b-8f43-4925cee9ccf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 996cd2a4-b335-16f3-2420-8b9fadb414b0, D3D11_TEX1D_ARRAY_UAV, D3D11_TEX1D_ARRAY_UAV structure [Direct3D 11], d3d11/D3D11_TEX1D_ARRAY_UAV, direct3d11.d3d11_tex1d_array_uav
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

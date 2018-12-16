@@ -9,8 +9,6 @@ ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

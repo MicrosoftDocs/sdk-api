@@ -9,8 +9,6 @@ ms.assetid: 7FA2F81C-6714-42D8-880E-FD5A27A0F80A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM Registration], mdmreg.getdeviceregistrationinfo, mdmregistration/GetDeviceRegistrationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

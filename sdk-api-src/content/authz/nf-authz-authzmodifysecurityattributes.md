@@ -9,8 +9,6 @@ ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

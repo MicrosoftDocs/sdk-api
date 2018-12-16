@@ -9,8 +9,6 @@ ms.assetid: 2f92f731-3297-4da3-a2b9-18e1583c8b1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetOwnerWindow method, IMathInputControl.SetOwnerWindow, IMathInputControl::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

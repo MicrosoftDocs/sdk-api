@@ -9,8 +9,6 @@ ms.assetid: 56e94b20-9d0a-4694-973f-a5878ad54f48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO structure [Security], PCMSG_CNG_CONTENT_DECRYPT_INFO, PCMSG_CNG_CONTENT_DECRYPT_INFO structure pointer [Security], security.cmsg_cng_content_decrypt_info, wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO, wincrypt/PCMSG_CNG_CONTENT_DECRYPT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9d84b68f-1db8-43d5-964b-c961ec9c250b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attributes property [File Server Resource Manager], Attributes property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],Attributes property, IFsrmPropertyBag.Attributes, IFsrmPropertyBag.get_Attributes, IFsrmPropertyBag::Attributes, IFsrmPropertyBag::get_Attributes, fs.ifsrmpropertybag_attributes, fsrm.ifsrmpropertybag_attributes, fsrmpipeline/IFsrmPropertyBag::Attributes, fsrmpipeline/IFsrmPropertyBag::get_Attributes, get_Attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

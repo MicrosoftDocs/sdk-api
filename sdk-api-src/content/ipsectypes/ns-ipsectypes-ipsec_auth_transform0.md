@@ -9,8 +9,6 @@ ms.assetid: 26464393-7dc4-4a94-af46-25148c61bdb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_AUTH_TRANSFORM0, IPSEC_AUTH_TRANSFORM0 structure [Filtering], IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256, IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128, fwp.ipsec_auth_transform0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

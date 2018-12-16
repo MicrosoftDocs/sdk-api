@@ -9,8 +9,6 @@ ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiItem, IFsiItem interface [IMAPI], IFsiItem interface [IMAPI],described, imapi.ifsiitem, imapi2fs/IFsiItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

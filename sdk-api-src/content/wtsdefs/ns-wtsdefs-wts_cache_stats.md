@@ -9,8 +9,6 @@ ms.assetid: 3c29596f-77c6-415b-bf97-529f70b9d9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWTS_CACHE_STATS, 1, 2, 3, PWRDS_CACHE_STATS, PWRDS_CACHE_STATS structure pointer [Remote Desktop Services], PWTS_CACHE_STATS, PWTS_CACHE_STATS structure pointer [Remote Desktop Services], WRDS_CACHE_STATS, WRDS_CACHE_STATS structure [Remote Desktop Services], WTS_CACHE_STATS, WTS_CACHE_STATS structure [Remote Desktop Services], termserv.wts_cache_stats, wtsdefs/PWRDS_CACHE_STATS, wtsdefs/PWTS_CACHE_STATS, wtsdefs/WRDS_CACHE_STATS, wtsdefs/WTS_CACHE_STATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

@@ -9,8 +9,6 @@ ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTopologyWorkQueueMMCSSClass, GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1b953b4c-6e8d-4097-a6bf-618b49cdd603
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packaging Conventions], GetRelationshipsPartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelationshipsPartUri method, IOpcUri.GetRelationshipsPartUri, IOpcUri::GetRelationshipsPartUri, msopc/IOpcUri::GetRelationshipsPartUri, opc.iopcuri_getrelationshipsparturi
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

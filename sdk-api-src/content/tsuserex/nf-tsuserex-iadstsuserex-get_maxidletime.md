@@ -9,8 +9,6 @@ ms.assetid: adb9c654-1f24-4ded-bea8-27a11d420677
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxIdleTime property, IADsTSUserEx.MaxIdleTime, IADsTSUserEx.get_MaxIdleTime, IADsTSUserEx::MaxIdleTime, IADsTSUserEx::get_MaxIdleTime, IADsTSUserEx::put_MaxIdleTime, MaxIdleTime property [Remote Desktop Services], MaxIdleTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxIdleTime, termserv.iadstsuserex_maxidletime, tsuserex/IADsTSUserEx::MaxIdleTime, tsuserex/IADsTSUserEx::get_MaxIdleTime, tsuserex/IADsTSUserEx::put_MaxIdleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

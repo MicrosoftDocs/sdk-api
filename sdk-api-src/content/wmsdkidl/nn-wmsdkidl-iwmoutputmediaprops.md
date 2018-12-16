@@ -9,8 +9,6 @@ ms.assetid: 8cf40db5-3902-4c14-b728-98da90567e89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMOutputMediaProps, IWMOutputMediaProps interface [windows Media Format], IWMOutputMediaProps interface [windows Media Format],described, IWMOutputMediaPropsInterface, wmformat.iwmoutputmediaprops, wmsdkidl/IWMOutputMediaProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

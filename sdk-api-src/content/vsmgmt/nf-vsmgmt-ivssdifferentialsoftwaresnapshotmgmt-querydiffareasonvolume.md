@@ -9,8 +9,6 @@ ms.assetid: 6d9853d3-9c00-47e6-99e8-e499dea9b495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasOnVolume method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasOnVolume, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume, QueryDiffAreasOnVolume, QueryDiffAreasOnVolume method [VSS], QueryDiffAreasOnVolume method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasonvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetCueBannerText, Edit_SetCueBannerText macro [Windows Controls], _win32_Edit_SetCueBannerText, _win32_Edit_SetCueBannerText_cpp, commctrl/Edit_SetCueBannerText, controls.Edit_SetCueBannerText, controls._win32_Edit_SetCueBannerText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

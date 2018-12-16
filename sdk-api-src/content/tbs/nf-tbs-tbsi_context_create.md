@@ -9,8 +9,6 @@ ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ec321771-b3d1-4e7b-b870-009db7c49c6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_PORT_TYPE, WSD_PORT_TYPE structure, ncd.wsd_port_type_struct, wsdtypes/WSD_PORT_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 19323477-8dc7-46ed-b6a3-d0dd8b103924
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Exposure method, ICameraControl.get_Exposure, ICameraControl::get_Exposure, ICameraControlget_Exposure, dshow.icameracontrol_get_exposure, get_Exposure, get_Exposure method [DirectShow], get_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Exposure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

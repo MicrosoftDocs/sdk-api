@@ -9,8 +9,6 @@ ms.assetid: 5483c500-ac11-4f1d-b89c-37b6a718a735
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetModules, GetModules method [COM+], GetModules method [COM+],IAssemblyLocator interface, IAssemblyLocator interface [COM+],GetModules method, IAssemblyLocator.GetModules, IAssemblyLocator::GetModules, _cos_IAssemblyLocator_GetModules, comsvcs/IAssemblyLocator::GetModules, cos.iassemblylocator_getmodules
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

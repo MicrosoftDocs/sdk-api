@@ -9,8 +9,6 @@ ms.assetid: 3f3b4995-72ca-4e93-87de-89996f9c43cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_RESET_CHANNEL_CALLBACK, WS_RESET_CHANNEL_CALLBACK callback, WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_CHANNEL_CALLBACK, wsw.ws_reset_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

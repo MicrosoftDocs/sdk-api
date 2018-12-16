@@ -9,8 +9,6 @@ ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: b7cd637d-45ad-4e4c-b5b2-e85b142375ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PRAS_CONNECTION_4, PRAS_CONNECTION_4, PRAS_CONNECTION_4 structure pointer [RAS], RAS_CONNECTION_4, RAS_CONNECTION_4 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, RDT_Tunnel_IKev2, RDT_Tunnel_L2tp, RDT_Tunnel_Pptp, RDT_Tunnel_Sstp, mprapi/PRAS_CONNECTION_4, mprapi/RAS_CONNECTION_4, rras.ras_connection_4"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

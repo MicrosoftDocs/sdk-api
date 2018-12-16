@@ -9,8 +9,6 @@ ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

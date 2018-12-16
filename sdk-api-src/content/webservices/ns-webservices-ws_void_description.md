@@ -9,8 +9,6 @@ ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

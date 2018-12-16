@@ -9,8 +9,6 @@ ms.assetid: 56e51590-8cde-4c7d-8034-bc13f16f2617
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],RemoteAddresses property, INetFwAuthorizedApplication.RemoteAddresses, INetFwAuthorizedApplication.get_RemoteAddresses, INetFwAuthorizedApplication::RemoteAddresses, INetFwAuthorizedApplication::get_RemoteAddresses, INetFwAuthorizedApplication::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwAuthorizedApplication interface, get_RemoteAddresses, ics.inetfwauthorizedapplication_remoteaddresses, netfw/INetFwAuthorizedApplication::RemoteAddresses, netfw/INetFwAuthorizedApplication::get_RemoteAddresses, netfw/INetFwAuthorizedApplication::put_RemoteAddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

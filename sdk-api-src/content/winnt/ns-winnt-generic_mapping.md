@@ -9,8 +9,6 @@ ms.assetid: e3c49b47-9bc7-4000-a131-449345ebb9cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Security], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Security], _GENERIC_MAPPING, _win32_generic_mapping_str, security.generic_mapping, winnt/GENERIC_MAPPING, winnt/PGENERIC_MAPPING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

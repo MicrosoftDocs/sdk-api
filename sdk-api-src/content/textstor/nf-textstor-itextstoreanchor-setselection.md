@@ -9,8 +9,6 @@ ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetSelection method, ITextStoreAnchor.SetSelection, ITextStoreAnchor::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

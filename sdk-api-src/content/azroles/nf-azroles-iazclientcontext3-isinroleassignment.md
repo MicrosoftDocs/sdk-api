@@ -9,8 +9,6 @@ ms.assetid: 20e19ee7-3b65-4f0f-ba19-7fb6cbbaea7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzClientContext3 interface [Security],IsInRoleAssignment method, IAzClientContext3.IsInRoleAssignment, IAzClientContext3::IsInRoleAssignment, IsInRoleAssignment, IsInRoleAssignment method [Security], IsInRoleAssignment method [Security],IAzClientContext3 interface, azroles/IAzClientContext3::IsInRoleAssignment, security.iazclientcontext3_isinroleassignment_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

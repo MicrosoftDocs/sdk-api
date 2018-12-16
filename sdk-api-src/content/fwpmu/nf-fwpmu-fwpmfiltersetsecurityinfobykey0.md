@@ -9,8 +9,6 @@ ms.assetid: 01dac90a-98a0-46b7-8d9e-ce5fdf8014a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmFilterSetSecurityInfoByKey0, FwpmFilterSetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltersetsecurityinfobykey0_func, fwpmu/FwpmFilterSetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

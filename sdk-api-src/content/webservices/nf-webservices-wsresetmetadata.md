@@ -9,8 +9,6 @@ ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

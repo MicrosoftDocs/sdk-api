@@ -9,8 +9,6 @@ ms.assetid: 16071086-66fe-428e-9bd5-dd0b31cf7b15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterResourceDependencyExpression, GetClusterResourceDependencyExpression function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster], clusapi/GetClusterResourceDependencyExpression, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.getclusterresourcedependencyexpression
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

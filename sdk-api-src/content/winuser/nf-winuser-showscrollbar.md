@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfuncti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, ShowScrollBar, ShowScrollBar function [Windows Controls], _win32_ShowScrollBar, _win32_ShowScrollBar_cpp, controls.ShowScrollBar, controls._win32_ShowScrollBar, winuser/ShowScrollBar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

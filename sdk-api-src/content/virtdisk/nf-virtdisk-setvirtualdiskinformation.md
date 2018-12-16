@@ -9,8 +9,6 @@ ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 

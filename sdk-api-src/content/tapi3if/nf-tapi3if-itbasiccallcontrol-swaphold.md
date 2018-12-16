@@ -9,8 +9,6 @@ ms.assetid: 372e8ca9-53fb-4ec0-aae8-52f85523b7c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SwapHold method, ITBasicCallControl.SwapHold, ITBasicCallControl::SwapHold, SwapHold, SwapHold method [TAPI 2.2], SwapHold method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_swaphold, tapi3.itbasiccallcontrol_swaphold, tapi3if/ITBasicCallControl::SwapHold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

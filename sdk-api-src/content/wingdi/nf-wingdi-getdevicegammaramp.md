@@ -9,8 +9,6 @@ ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

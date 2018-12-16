@@ -9,8 +9,6 @@ ms.assetid: 2f094359-66ea-4604-85f8-1f6bc9a81cd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue interface [Windows Management Instrumentation],SetStatusObject method, CWbemProviderGlue.SetStatusObject, CWbemProviderGlue::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

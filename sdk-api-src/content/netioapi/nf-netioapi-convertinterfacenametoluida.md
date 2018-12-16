@@ -9,8 +9,6 @@ ms.assetid: daceabf9-ff43-4206-9f8f-f3924de9c5a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceNameToLuidA, ConvertInterfaceNameToLuidA function [IP Helper], iphlp.convertinterfacenametoluida, netioapi/ConvertInterfaceNameToLuidA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

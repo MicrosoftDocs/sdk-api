@@ -9,8 +9,6 @@ ms.assetid: 2a02e2d2-91d0-4b54-ad02-a76442edcff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

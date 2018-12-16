@@ -9,8 +9,6 @@ ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster], ResUtilResourceTypesEqual, ResUtilResourceTypesEqual function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL, resapi/ResUtilResourceTypesEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

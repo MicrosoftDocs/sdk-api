@@ -9,8 +9,6 @@ ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

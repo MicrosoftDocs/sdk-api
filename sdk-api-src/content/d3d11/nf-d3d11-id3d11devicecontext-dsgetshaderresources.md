@@ -9,8 +9,6 @@ ms.assetid: 6308e37c-a30f-4927-946b-33d882f9cce8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3f3f8f89-3e09-81e0-f528-c36e15994027, DSGetShaderResources, DSGetShaderResources method [Direct3D 11], DSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSGetShaderResources method, ID3D11DeviceContext.DSGetShaderResources, ID3D11DeviceContext::DSGetShaderResources, d3d11/ID3D11DeviceContext::DSGetShaderResources, direct3d11.id3d11devicecontext_dsgetshaderresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

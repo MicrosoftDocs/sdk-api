@@ -9,8 +9,6 @@ ms.assetid: 12f0dbf5-bc76-4fa2-ab64-cced1f41c313
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceType, GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceType method, IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

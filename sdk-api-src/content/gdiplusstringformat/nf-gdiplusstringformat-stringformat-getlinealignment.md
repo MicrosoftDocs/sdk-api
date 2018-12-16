@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLineAlignment, GetLineAlignment method [GDI+], GetLineAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],GetLineAlignment method, StringFormat.GetLineAlignment, StringFormat::GetLineAlignment, _gdiplus_CLASS_StringFormat_GetLineAlignment_, gdiplus._gdiplus_CLASS_StringFormat_GetLineAlignment_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

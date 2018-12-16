@@ -9,8 +9,6 @@ ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

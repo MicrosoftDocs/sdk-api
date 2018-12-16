@@ -9,8 +9,6 @@ ms.assetid: 3ae2150b-af56-65f5-fe38-7ecea16cf0b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory3.CreateFontFaceReference, IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), IDWriteFactory3::CreateFontFaceReference, IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), directwrite.idwritefactory3_createfontfacereference, dwrite_3/IDWriteFactory3::CreateFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 

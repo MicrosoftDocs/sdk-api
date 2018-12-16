@@ -9,8 +9,6 @@ ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigger.StartBoundary, ITrigger.get_StartBoundary, ITrigger::StartBoundary, ITrigger::get_StartBoundary, ITrigger::put_StartBoundary, StartBoundary property [Task Scheduler], StartBoundary property [Task Scheduler],ITrigger interface, get_StartBoundary, taskschd.itrigger_startboundary, taskschd/ITrigger::StartBoundary, taskschd/ITrigger::get_StartBoundary, taskschd/ITrigger::put_StartBoundary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

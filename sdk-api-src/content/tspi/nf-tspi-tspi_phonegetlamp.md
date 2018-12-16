@@ -9,8 +9,6 @@ ms.assetid: 121032ec-e9ec-4896-b114-3db2b3336812
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetLamp, TSPI_phoneGetLamp function [TAPI 2.2], _tspi_tspi_phonegetlamp, tspi.tspi_phonegetlamp, tspi/TSPI_phoneGetLamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

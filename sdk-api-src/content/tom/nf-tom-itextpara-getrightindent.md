@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRightIndent, GetRightIndent method [Windows Controls], GetRightIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetRightIndent method, ITextPara.GetRightIndent, ITextPara::GetRightIndent, _win32_ITextPara_GetRightIndent, _win32_ITextPara_GetRightIndent_cpp, controls.ITextPara_GetRightIndent, controls._win32_ITextPara_GetRightIndent, tom/ITextPara::GetRightIndent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

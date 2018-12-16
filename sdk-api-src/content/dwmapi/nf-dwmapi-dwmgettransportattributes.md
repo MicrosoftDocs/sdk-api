@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgettran
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmGetTransportAttributes, DwmGetTransportAttributes function [Desktop Window Manager], _udwm_dwmgettransportattributes, _udwm_dwmgettransportattributes_cpp, dwm.dwmgettransportattributes, dwmapi/DwmGetTransportAttributes, winui._udwm_dwmgettransportattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

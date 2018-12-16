@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],Region class, Region class [GDI+],GetDataSize method, Region.GetDataSize, Region::GetDataSize, _gdiplus_CLASS_Region_GetDataSize_, gdiplus._gdiplus_CLASS_Region_GetDataSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

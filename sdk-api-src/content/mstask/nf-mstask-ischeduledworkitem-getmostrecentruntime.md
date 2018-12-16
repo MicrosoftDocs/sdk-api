@@ -9,8 +9,6 @@ ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

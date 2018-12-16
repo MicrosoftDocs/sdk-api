@@ -9,8 +9,6 @@ ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vdssys/PSET_VIRTUAL_DISK_INFO, vdssys/SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 

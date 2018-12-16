@@ -9,8 +9,6 @@ ms.assetid: 0c133dce-3a5a-4d7f-af83-2e185450c207
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetName method, IXpsOMPage.GetName, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

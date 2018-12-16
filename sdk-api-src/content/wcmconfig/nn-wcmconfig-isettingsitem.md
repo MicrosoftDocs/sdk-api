@@ -9,8 +9,6 @@ ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

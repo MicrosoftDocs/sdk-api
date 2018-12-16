@@ -9,8 +9,6 @@ ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetURLIndexingState, GetURLIndexingState method [search], GetURLIndexingState method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetURLIndexingState method, ISearchCatalogManager.GetURLIndexingState, ISearchCatalogManager::GetURLIndexingState, _search_ISearchCatalogManager_GetURLIndexingState, search._search_ISearchCatalogManager_GetURLIndexingState, searchapi/ISearchCatalogManager::GetURLIndexingState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

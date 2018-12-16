@@ -9,8 +9,6 @@ ms.assetid: a2270786-5289-4c41-898e-651ed881842b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapPositionRect method, IMSVidVideoRenderer.get_MixerBitmapPositionRect, IMSVidVideoRenderer::get_MixerBitmapPositionRect, IMSVidVideoRendererget_MixerBitmapPositionRect, get_MixerBitmapPositionRect, get_MixerBitmapPositionRect method [Microsoft TV Technologies], get_MixerBitmapPositionRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmappositionrect, segment/IMSVidVideoRenderer::get_MixerBitmapPositionRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

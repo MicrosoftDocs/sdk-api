@@ -9,8 +9,6 @@ ms.assetid: 2cb78604-3c61-4362-9d8a-e40d5ddb4047
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],PollForPotentialSupportedProperties method, IUIAutomation.PollForPotentialSupportedProperties, IUIAutomation::PollForPotentialSupportedProperties, PollForPotentialSupportedProperties, PollForPotentialSupportedProperties method [Windows Accessibility], PollForPotentialSupportedProperties method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiautomationclient/IUIAutomation::PollForPotentialSupportedProperties, winauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

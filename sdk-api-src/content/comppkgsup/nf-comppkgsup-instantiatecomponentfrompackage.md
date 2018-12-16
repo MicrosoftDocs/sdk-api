@@ -9,8 +9,6 @@ ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

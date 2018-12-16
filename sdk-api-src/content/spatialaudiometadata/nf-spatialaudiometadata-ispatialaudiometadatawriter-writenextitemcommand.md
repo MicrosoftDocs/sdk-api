@@ -9,8 +9,6 @@ ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

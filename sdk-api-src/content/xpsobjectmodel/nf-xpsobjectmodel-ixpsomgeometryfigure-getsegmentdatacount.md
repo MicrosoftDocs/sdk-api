@@ -9,8 +9,6 @@ ms.assetid: 42b68a76-e7fe-49d2-9190-4a4d5e763052
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [XPS Documents and Packaging], GetSegmentDataCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentDataCount method, IXpsOMGeometryFigure.GetSegmentDataCount, IXpsOMGeometryFigure::GetSegmentDataCount, xps.ixpsomgeometryfigure_getsegmentdatacount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

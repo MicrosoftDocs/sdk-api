@@ -9,8 +9,6 @@ ms.assetid: c7793413-fef0-41e8-90f2-c8608f4ceb75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],RegisterContentProvider method, IWdsTransportSetupManager.RegisterContentProvider, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

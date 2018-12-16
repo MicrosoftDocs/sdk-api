@@ -9,8 +9,6 @@ ms.assetid: e6abb47e-248b-482d-9206-936092c391ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PWTS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN union pointer [Remote Desktop Services], PWTS_CACHE_STATS_UN, PWTS_CACHE_STATS_UN union pointer [Remote Desktop Services], WRDS_CACHE_STATS_UN, WRDS_CACHE_STATS_UN union [Remote Desktop Services], WTS_CACHE_STATS_UN, WTS_CACHE_STATS_UN union [Remote Desktop Services], termserv.wts_cache_stats_un, wtsdefs/PWRDS_CACHE_STATS_UN, wtsdefs/PWTS_CACHE_STATS_UN, wtsdefs/WRDS_CACHE_STATS_UN, wtsdefs/WTS_CACHE_STATS_UN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

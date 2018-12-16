@@ -9,8 +9,6 @@ ms.assetid: a3c1aa20-c512-4752-8da6-c8e86bd56beb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CallMethod, CallMethod method [Windows Accessibility], CallMethod method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],CallMethod method, IUIAutomationPatternInstance.CallMethod, IUIAutomationPatternInstance::CallMethod, uiauto.uiauto_IUIAutomationPatternInstance_CallMethod, uiauto_IUIAutomationPatternInstance_CallMethod, uiautomationcore/IUIAutomationPatternInstance::CallMethod, winauto.uiauto_IUIAutomationPatternInstance_CallMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

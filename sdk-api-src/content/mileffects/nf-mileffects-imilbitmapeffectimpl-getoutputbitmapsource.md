@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getoutputbitm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputBitmapSource, GetOutputBitmapSource method [WPF Bitmap Effects], GetOutputBitmapSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetOutputBitmapSource method, IMILBitmapEffectImpl.GetOutputBitmapSource, IMILBitmapEffectImpl::GetOutputBitmapSource, _wibe_imilbitmapeffectimpl_getoutputbitmapsource, mileffects/IMILBitmapEffectImpl::GetOutputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getoutputbitmapsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

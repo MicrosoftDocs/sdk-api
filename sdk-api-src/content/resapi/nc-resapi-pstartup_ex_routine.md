@@ -9,8 +9,6 @@ ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

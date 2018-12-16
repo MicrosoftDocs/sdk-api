@@ -9,8 +9,6 @@ ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

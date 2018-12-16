@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\setme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],SetMe method, IWABObject.SetMe, IWABObject::SetMe, MAPI_DIALOG, SetMe, SetMe method [Windows Address Book], SetMe method [Windows Address Book],IWABObject interface, _wab_IWABObject_SetMe, wab._wab_IWABObject_SetMe, wabapi/IWABObject::SetMe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 

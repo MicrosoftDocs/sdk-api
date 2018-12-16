@@ -9,8 +9,6 @@ ms.assetid: 687a96db-f066-465b-858b-2c19fe2f171c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbPropertySet, ITsSbPropertySet interface [Remote Desktop Services], ITsSbPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbPropertySet, termserv.itssbpropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 95ea5856-5b15-4522-9652-a7b52d89055a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetCredentialsPasswordAt, MI_DestinationOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCredentialsPasswordAt, wmi_v2.mi_destinationoptions_getcredentialspasswordat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

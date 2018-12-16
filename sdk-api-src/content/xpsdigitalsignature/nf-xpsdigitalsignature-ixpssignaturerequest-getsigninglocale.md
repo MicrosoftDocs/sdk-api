@@ -9,8 +9,6 @@ ms.assetid: 76b2d0a5-2d62-455d-8822-88ca14a497ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

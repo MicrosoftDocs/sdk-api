@@ -9,8 +9,6 @@ ms.assetid: A943EE85-F2A9-4D5E-AA6F-0C4AB8556A4C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], ILanguageExceptionErrorInfo2 interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo2, winrt.ilanguageexceptionerrorinfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 

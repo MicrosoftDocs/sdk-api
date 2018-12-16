@@ -9,8 +9,6 @@ ms.assetid: 6dbe0a60-d2f9-4e76-81d9-d9891c08109a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResourcePolicy, ResourcePolicy enumeration [PLA], base.resourcepolicy, pla.resourcepolicy, pla/ResourcePolicy, pla/plaDeleteLargest, pla/plaDeleteOldest, plaDeleteLargest, plaDeleteOldest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

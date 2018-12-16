@@ -9,8 +9,6 @@ ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 

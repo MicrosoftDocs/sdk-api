@@ -9,8 +9,6 @@ ms.assetid: 7c11397b-f5c9-4a3e-88d8-2f1736f5da13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RtmAddNextHop, RtmAddNextHop function [RAS], _rtmv2ref_rtmaddnexthop, rras.rtmaddnexthop, rtmv2/RtmAddNextHop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

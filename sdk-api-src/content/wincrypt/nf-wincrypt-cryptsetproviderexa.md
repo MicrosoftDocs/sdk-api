@@ -9,8 +9,6 @@ ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

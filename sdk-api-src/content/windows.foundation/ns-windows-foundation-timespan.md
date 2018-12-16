@@ -9,8 +9,6 @@ ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windows.foundation.h
 req.include-header: 

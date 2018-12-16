@@ -9,8 +9,6 @@ ms.assetid: ee43a319-8863-441e-a2b8-b322f8c88f32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI4FromDisp, VarI4FromDisp function [Automation], _oa96_VarI4FromDisp, automat.vari4fromdisp, oleauto/VarI4FromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

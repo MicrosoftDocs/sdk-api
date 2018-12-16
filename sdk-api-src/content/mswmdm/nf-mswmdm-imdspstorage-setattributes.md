@@ -9,8 +9,6 @@ ms.assetid: e995b255-364f-4ea6-b7fd-4443e84432ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMDSPStorage interface [windows Media Device Manager],SetAttributes method, IMDSPStorage.SetAttributes, IMDSPStorage::SetAttributes, IMDSPStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IMDSPStorage interface, mswmdm/IMDSPStorage::SetAttributes, wmdm.imdspstorage_setattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

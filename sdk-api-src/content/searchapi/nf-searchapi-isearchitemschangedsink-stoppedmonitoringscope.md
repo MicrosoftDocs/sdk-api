@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitems
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchItemsChangedSink.StoppedMonitoringScope, ISearchItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StoppedMonitoringScope, search._search_ISearchItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchItemsChangedSink::StoppedMonitoringScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -9,8 +9,6 @@ ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

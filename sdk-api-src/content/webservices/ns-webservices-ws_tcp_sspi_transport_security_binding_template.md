@@ -9,8 +9,6 @@ ms.assetid: bdfd8bfe-a46d-4bbf-81e3-c0183fcd25bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE, wsw.ws_tcp_sspi_transport_security_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

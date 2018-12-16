@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

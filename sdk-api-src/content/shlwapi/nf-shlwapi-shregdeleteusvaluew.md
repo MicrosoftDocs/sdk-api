@@ -9,8 +9,6 @@ ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

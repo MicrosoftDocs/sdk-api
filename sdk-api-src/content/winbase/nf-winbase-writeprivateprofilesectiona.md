@@ -9,8 +9,6 @@ ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

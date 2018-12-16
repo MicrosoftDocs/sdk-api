@@ -9,8 +9,6 @@ ms.assetid: 3f0b926f-77f4-4477-b155-5f866822baba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRoleAssignment, IAzRoleAssignment interface [Security], IAzRoleAssignment interface [Security],described, azroles/IAzRoleAssignment, security.iazroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

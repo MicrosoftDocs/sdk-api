@@ -9,8 +9,6 @@ ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

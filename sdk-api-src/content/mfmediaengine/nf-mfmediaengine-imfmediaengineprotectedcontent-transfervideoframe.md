@@ -9,8 +9,6 @@ ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],TransferVideoFrame method, IMFMediaEngineProtectedContent.TransferVideoFrame, IMFMediaEngineProtectedContent::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_transfervideoframe, mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

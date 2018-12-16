@@ -9,8 +9,6 @@ ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

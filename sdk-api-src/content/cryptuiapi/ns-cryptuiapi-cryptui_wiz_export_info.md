@@ -9,8 +9,6 @@ ms.assetid: 3c509bb6-d391-4b59-809c-23466c8196ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_CERT_CONTEXT, CRYPTUI_WIZ_EXPORT_CERT_STORE, CRYPTUI_WIZ_EXPORT_CERT_STORE_CERTIFICATES_ONLY, CRYPTUI_WIZ_EXPORT_CRL_CONTEXT, CRYPTUI_WIZ_EXPORT_CTL_CONTEXT, CRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_INFO structure [Security], PCRYPTUI_WIZ_EXPORT_INFO, PCRYPTUI_WIZ_EXPORT_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_INFO, security.cryptui_wiz_export_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

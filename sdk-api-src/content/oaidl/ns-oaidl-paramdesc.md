@@ -9,8 +9,6 @@ ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

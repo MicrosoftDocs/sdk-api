@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMENUGETOBJECTINFO, MENUGETOBJECTINFO, MENUGETOBJECTINFO structure [Menus and Other Resources], MNGOF_BOTTOMGAP, MNGOF_TOPGAP, PMENUGETOBJECTINFO, PMENUGETOBJECTINFO structure pointer [Menus and Other Resources], _win32_MENUGETOBJECTINFO_str, _win32_menugetobjectinfo_str_cpp, menurc.menugetobjectinfo, winui._win32_menugetobjectinfo_str, winuser/MENUGETOBJECTINFO, winuser/PMENUGETOBJECTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

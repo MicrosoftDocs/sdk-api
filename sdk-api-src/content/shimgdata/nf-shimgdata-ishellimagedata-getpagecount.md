@@ -9,8 +9,6 @@ ms.assetid: 5967a167-2cd5-4662-b624-e136c0092118
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPageCount, GetPageCount method [Windows Shell], GetPageCount method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPageCount method, IShellImageData.GetPageCount, IShellImageData::GetPageCount, _shell_IShellImageData_GetPageCount, shell.IShellImageData_GetPageCount, shimgdata/IShellImageData::GetPageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

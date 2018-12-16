@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfocusedgroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows Controls], _shell_ListView_GetFocusedGroup, _shell_ListView_GetFocusedGroup_cpp, commctrl/ListView_GetFocusedGroup, controls.ListView_GetFocusedGroup, controls._shell_ListView_GetFocusedGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

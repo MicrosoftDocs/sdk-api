@@ -9,8 +9,6 @@ ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.get_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, get_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

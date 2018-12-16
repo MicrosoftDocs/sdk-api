@@ -9,8 +9,6 @@ ms.assetid: 325E4883-69D7-4E2A-A664-3CA3C5559CB3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEncryptedPackageReader, CreateEncryptedPackageReader method [App packaging and management], CreateEncryptedPackageReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedPackageReader method, IAppxEncryptionFactory.CreateEncryptedPackageReader, IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpkg.iappxencryptionfactory_createencryptedpackagereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

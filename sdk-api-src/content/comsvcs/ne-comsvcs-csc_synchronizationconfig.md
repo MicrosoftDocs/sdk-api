@@ -9,8 +9,6 @@ ms.assetid: dc0c4310-e2d8-462c-af55-f1513934b8ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSC_IfContainerIsSynchronized, CSC_NewSynchronization, CSC_NewSynchronizationIfNecessary, CSC_NoSynchronization, CSC_SynchronizationConfig, CSC_SynchronizationConfig enumeration [COM+], _cos_CSC_SynchronizationConfig, comsvcs/CSC_IfContainerIsSynchronized, comsvcs/CSC_NewSynchronization, comsvcs/CSC_NewSynchronizationIfNecessary, comsvcs/CSC_NoSynchronization, comsvcs/CSC_SynchronizationConfig, cos.csc_synchronizationconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

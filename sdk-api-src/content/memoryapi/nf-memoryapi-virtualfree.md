@@ -9,8 +9,6 @@ ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFree, VirtualFree function, _win32_virtualfree, base.virtualfree, winbase/VirtualFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

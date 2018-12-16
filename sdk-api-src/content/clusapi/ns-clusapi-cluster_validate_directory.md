@@ -9,8 +9,6 @@ ms.assetid: e5cde16b-da06-4063-9337-c3cc6b6c285b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY structure [Failover Cluster], PCLUSTER_VALIDATE_DIRECTORY, PCLUSTER_VALIDATE_DIRECTORY structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_DIRECTORY, clusapi/PCLUSTER_VALIDATE_DIRECTORY, mscs.cluster_validate_directory"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

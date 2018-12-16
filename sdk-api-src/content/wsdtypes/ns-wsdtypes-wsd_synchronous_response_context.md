@@ -9,8 +9,6 @@ ms.assetid: 591cf076-f55f-4e78-aa5e-94ea8db3d102
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure, ncd.wsd_synchronous_response_context_struct, wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

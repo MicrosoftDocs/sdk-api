@@ -9,8 +9,6 @@ ms.assetid: cc5d5347-ebb7-437a-a9a1-311b6c2a78ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetCallParams, TSPI_lineSetCallParams function [TAPI 2.2], _tspi_tspi_linesetcallparams, tspi.tspi_linesetcallparams, tspi/TSPI_lineSetCallParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

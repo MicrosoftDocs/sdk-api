@@ -9,8 +9,6 @@ ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPMT.GetRecordDescriptorByTag, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

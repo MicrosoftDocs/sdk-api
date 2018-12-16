@@ -9,8 +9,6 @@ ms.assetid: d15b9cb0-6984-401e-9f81-97d0aae17b76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectName method, IWMDMOperation.SetObjectName, IWMDMOperation::SetObjectName, IWMDMOperationSetObjectName, SetObjectName, SetObjectName method [windows Media Device Manager], SetObjectName method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectName, wmdm.iwmdmoperation_setobjectname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

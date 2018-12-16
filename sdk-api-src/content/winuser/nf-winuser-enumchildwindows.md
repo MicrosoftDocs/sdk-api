@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumChildWindows, EnumChildWindows function [Windows and Messages], _win32_EnumChildWindows, _win32_enumchildwindows_cpp, winmsg.enumchildwindows, winui._win32_enumchildwindows, winuser/EnumChildWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

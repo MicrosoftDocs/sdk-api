@@ -9,8 +9,6 @@ ms.assetid: 788ad281-8e1f-45d6-bd36-0ad3aae6fd15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_XML_DATETIME_TEXT, WS_XML_DATETIME_TEXT structure [Web Services for Windows], webservices/WS_XML_DATETIME_TEXT, wsw.ws_xml_datetime_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

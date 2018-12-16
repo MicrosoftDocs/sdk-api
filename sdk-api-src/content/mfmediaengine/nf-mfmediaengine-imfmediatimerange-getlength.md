@@ -9,8 +9,6 @@ ms.assetid: 0865A667-A09E-4F42-A420-4A155AD34394
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetLength method, IMFMediaTimeRange.GetLength, IMFMediaTimeRange::GetLength, mf.imfmediatimerange_getlength, mfmediaengine/IMFMediaTimeRange::GetLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

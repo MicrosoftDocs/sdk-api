@@ -9,8 +9,6 @@ ms.assetid: 1f4138a2-acc5-4f1d-8e35-544859d2fa49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

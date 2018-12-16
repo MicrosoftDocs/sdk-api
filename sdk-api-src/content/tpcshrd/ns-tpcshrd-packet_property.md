@@ -9,8 +9,6 @@ ms.assetid: c1bd6240-7f95-421c-8622-0d7b98182d7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PPACKET_PROPERTY, PACKET_PROPERTY, PACKET_PROPERTY structure [Tablet PC], PPACKET_PROPERTY, PPACKET_PROPERTY structure pointer [Tablet PC], c1bd6240-7f95-421c-8622-0d7b98182d7c, tablet.packet_property, tpcshrd/PACKET_PROPERTY, tpcshrd/PPACKET_PROPERTY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: 

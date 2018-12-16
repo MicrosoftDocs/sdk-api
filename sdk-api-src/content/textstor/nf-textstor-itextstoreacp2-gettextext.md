@@ -9,8 +9,6 @@ ms.assetid: 44ede856-f4e7-4d82-8a15-c79a95e4994f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetTextExt method, ITextStoreACP2.GetTextExt, ITextStoreACP2::GetTextExt, textstor/ITextStoreACP2::GetTextExt, tsf.itextstoreacp2_gettextext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

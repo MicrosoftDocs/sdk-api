@@ -9,8 +9,6 @@ ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

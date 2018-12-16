@@ -9,8 +9,6 @@ ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::BeginDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

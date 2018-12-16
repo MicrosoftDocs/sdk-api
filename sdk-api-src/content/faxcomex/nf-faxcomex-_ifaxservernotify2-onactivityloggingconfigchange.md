@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onactivityloggingconfigchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnActivityLoggingConfigChange method, IFaxServerNotify2.OnActivityLoggingConfigChange, IFaxServerNotify2::OnActivityLoggingConfigChange, OnActivityLoggingConfigChange, OnActivityLoggingConfigChange method [Fax Service], OnActivityLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnActivityLoggingConfigChange, _IFaxServerNotify2::OnActivityLoggingConfigChange, _mfax_ifaxservernotify2_onactivityloggingconfigchange, fax._mfax_ifaxservernotify2_onactivityloggingconfigchange, faxcomex/IFaxServerNotify2::OnActivityLoggingConfigChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

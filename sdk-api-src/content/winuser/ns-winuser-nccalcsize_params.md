@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS structure pointer [Windows and Messages], NCCALCSIZE_PARAMS, NCCALCSIZE_PARAMS structure [Windows and Messages], _win32_NCCALCSIZE_PARAMS_str, _win32_nccalcsize_params_str_cpp, winmsg.nccalcsize_params, winui._win32_nccalcsize_params_str, winuser/LPNCCALCSIZE_PARAMS, winuser/NCCALCSIZE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

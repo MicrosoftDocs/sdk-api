@@ -9,8 +9,6 @@ ms.assetid: f88c8072-af4c-44e0-a816-ecb841dd1a78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ProcessGroupPolicyCompleted, ProcessGroupPolicyCompleted function [Group Policy], _win32_processgrouppolicycompleted, policy.processgrouppolicycompleted, userenv/ProcessGroupPolicyCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

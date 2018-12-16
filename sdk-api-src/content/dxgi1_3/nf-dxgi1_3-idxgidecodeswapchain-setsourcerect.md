@@ -9,8 +9,6 @@ ms.assetid: E614D9C2-9AAC-4ADC-9B7B-99C47975DA07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetSourceRect method, IDXGIDecodeSwapChain.SetSourceRect, IDXGIDecodeSwapChain::SetSourceRect, SetSourceRect, SetSourceRect method [DXGI], SetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setsourcerect, dxgi1_3/IDXGIDecodeSwapChain::SetSourceRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

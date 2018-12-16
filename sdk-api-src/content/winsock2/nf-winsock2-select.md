@@ -9,8 +9,6 @@ ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

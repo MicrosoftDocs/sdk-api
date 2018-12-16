@@ -9,8 +9,6 @@ ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

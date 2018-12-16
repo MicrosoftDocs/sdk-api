@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.ContainedBy(
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],ContainedBy method, BoundingSphere.ContainedBy, BoundingSphere::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_containedby
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 

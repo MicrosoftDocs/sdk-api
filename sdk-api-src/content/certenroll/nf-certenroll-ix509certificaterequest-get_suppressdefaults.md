@@ -9,8 +9,6 @@ ms.assetid: 3a7847b6-52b4-4058-8113-cbc3b9101a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequest interface [Security],SuppressDefaults property, IX509CertificateRequest.SuppressDefaults, IX509CertificateRequest.get_SuppressDefaults, IX509CertificateRequest::SuppressDefaults, IX509CertificateRequest::get_SuppressDefaults, IX509CertificateRequest::put_SuppressDefaults, SuppressDefaults property [Security], SuppressDefaults property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::SuppressDefaults, certenroll/IX509CertificateRequest::get_SuppressDefaults, certenroll/IX509CertificateRequest::put_SuppressDefaults, get_SuppressDefaults, security.ix509certificaterequest_suppressdefaults_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

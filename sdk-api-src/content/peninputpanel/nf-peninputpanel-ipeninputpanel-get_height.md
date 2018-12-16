@@ -9,8 +9,6 @@ ms.assetid: 5815f184-1ae4-4617-9aa6-acf727aff202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5815f184-1ae4-4617-9aa6-acf727aff202, Height property [Tablet PC], Height property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Height property, IPenInputPanel.Height, IPenInputPanel.get_Height, IPenInputPanel::Height, IPenInputPanel::get_Height, PenInputPanel.get_Height, get_Height, peninputpanel/IPenInputPanel::Height, peninputpanel/IPenInputPanel::get_Height, tablet.peninputpanel_height
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

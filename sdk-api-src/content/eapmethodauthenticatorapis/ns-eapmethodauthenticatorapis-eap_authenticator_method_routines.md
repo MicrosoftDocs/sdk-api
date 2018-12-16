@@ -9,8 +9,6 @@ ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

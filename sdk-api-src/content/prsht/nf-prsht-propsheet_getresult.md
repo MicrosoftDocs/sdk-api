@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getresult.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_GetResult, PropSheet_GetResult macro [Windows Controls], _win32_PropSheet_GetResult, _win32_PropSheet_GetResult_cpp, controls.PropSheet_GetResult, controls._win32_PropSheet_GetResult, prsht/PropSheet_GetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

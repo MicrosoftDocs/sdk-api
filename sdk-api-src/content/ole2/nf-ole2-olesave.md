@@ -9,8 +9,6 @@ ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleSave, OleSave function [COM], _ole_OleSave, com.olesave, ole2/OleSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToControl method, IWMPPlayerApplication.switchToControl, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0890d29b-540a-45ce-a5f0-04a2db517135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_FixedUDPPort method, IAMNetShowConfig.get_FixedUDPPort, IAMNetShowConfig::get_FixedUDPPort, IAMNetShowConfigget_FixedUDPPort, dshow.iamnetshowconfig_get_fixedudpport, get_FixedUDPPort, get_FixedUDPPort method [DirectShow], get_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_FixedUDPPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

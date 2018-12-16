@@ -9,8 +9,6 @@ ms.assetid: 01164EBA-EAD1-47EB-9ED6-F4791DAF7E00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWMTRANSITION_OWNEDWINDOW_NULL, DWMTRANSITION_OWNEDWINDOW_REPOSITION, DWMTRANSITION_OWNEDWINDOW_TARGET, DWMTRANSITION_OWNEDWINDOW_TARGET enumeration [Desktop Window Manager], dwm.dwmtransition_ownedwindow_target, dwmapi/DWMTRANSITION_OWNEDWINDOW_NULL, dwmapi/DWMTRANSITION_OWNEDWINDOW_REPOSITION, dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 

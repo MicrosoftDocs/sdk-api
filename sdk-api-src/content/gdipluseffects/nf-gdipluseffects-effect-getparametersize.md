@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Effect class [GDI+],GetParameterSize method, Effect.GetParameterSize, Effect::GetParameterSize, GetParameterSize, GetParameterSize method [GDI+], GetParameterSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetParameterSize_, gdiplus._gdiplus_CLASS_Effect_GetParameterSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

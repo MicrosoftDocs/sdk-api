@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isalphapixelformat.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FUNC_IsAlphaPixelFormat_, gdiplus._gdiplus_FUNC_IsAlphaPixelFormat_, gdipluspixelformats/IsAlphaPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h

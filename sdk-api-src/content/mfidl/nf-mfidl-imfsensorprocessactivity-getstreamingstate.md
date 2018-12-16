@@ -9,8 +9,6 @@ ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

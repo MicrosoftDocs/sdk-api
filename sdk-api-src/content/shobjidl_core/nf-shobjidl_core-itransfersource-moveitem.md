@@ -9,8 +9,6 @@ ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransferSource.MoveItem, ITransferSource::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_MoveItem, shell.ITransferSource_MoveItem, shobjidl_core/ITransferSource::MoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

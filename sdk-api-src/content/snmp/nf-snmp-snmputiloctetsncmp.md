@@ -9,8 +9,6 @@ ms.assetid: bba13c41-1c0f-4a54-9a93-8115ef77c086
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsNCmp, SnmpUtilOctetsNCmp function [SNMP], _snmp_snmputiloctetsncmp, snmp.snmputiloctetsncmp, snmp/SnmpUtilOctetsNCmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

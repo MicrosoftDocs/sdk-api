@@ -9,8 +9,6 @@ ms.assetid: c7ca141b-e471-47ce-96b5-b2c0cad89daf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPIDs, GetPIDs method [Microsoft TV Technologies], GetPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDs method, IMPEG2_TIF_CONTROL.GetPIDs, IMPEG2_TIF_CONTROL::GetPIDs, IMPEG2_TIF_CONTROLGetPIDs, bdatif/IMPEG2_TIF_CONTROL::GetPIDs, mstv.impeg2_tif_control_getpids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

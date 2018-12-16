@@ -9,8 +9,6 @@ ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Version method, ITPluggableTerminalClassRegistration.put_Version, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

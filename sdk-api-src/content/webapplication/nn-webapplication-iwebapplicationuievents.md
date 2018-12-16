@@ -9,8 +9,6 @@ ms.assetid: e7cfc572-f727-41f4-b4a5-b15f3f3cd4e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebApplicationUIEvents, IWebApplicationUIEvents interface [Debugging Windows Store apps], IWebApplicationUIEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationuievents, webapplication/IWebApplicationUIEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 

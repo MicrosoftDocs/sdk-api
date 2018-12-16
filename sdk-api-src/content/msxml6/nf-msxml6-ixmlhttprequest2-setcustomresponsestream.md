@@ -9,8 +9,6 @@ ms.assetid: 64341C82-85EC-402F-A875-85706DFD7B25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCustomResponseStream method, IXMLHTTPRequest2.SetCustomResponseStream, IXMLHTTPRequest2::SetCustomResponseStream, SetCustomResponseStream, SetCustomResponseStream method [XMLHttpRequest2], SetCustomResponseStream method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setcustomresponsestream, msxml6/IXMLHTTPRequest2::SetCustomResponseStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 05da00c6-e8de-4482-ab2c-f1b969cfa877
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, PROGRESS_DIALOG_IMAGE_TYPE, PROGRESS_DIALOG_IMAGE_TYPE enumeration [Picture Acquisition], enumeration [Picture Acquisition], photoacquire/PROGRESS_DIALOG_BITMAP_THUMBNAIL, photoacquire/PROGRESS_DIALOG_ICON_LARGE, photoacquire/PROGRESS_DIALOG_ICON_SMALL, photoacquire/PROGRESS_DIALOG_ICON_THUMBNAIL, photoacquire/PROGRESS_DIALOG_IMAGE_TYPE, picacq.progress_dialog_image_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 

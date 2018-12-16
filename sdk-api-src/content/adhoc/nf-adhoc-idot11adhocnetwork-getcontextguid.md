@@ -9,8 +9,6 @@ ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

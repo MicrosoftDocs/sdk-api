@@ -9,8 +9,6 @@ ms.assetid: 4d4b30bb-8548-4656-9fd9-553e8f8fb248
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetApplicationPolicy, SLGetApplicationPolicy function [Security], security.slgetapplicationpolicy, slpublic/SLGetApplicationPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

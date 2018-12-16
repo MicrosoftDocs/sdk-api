@@ -9,8 +9,6 @@ ms.assetid: 981a466d-576b-4774-bd7b-785b0ef80e72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_CLIENT_PROPERTIES_EX, WM_CLIENT_PROPERTIES_EX structure [windows Media Format], wmformat.wm_client_properties_ex, wmsdkidl/WM_CLIENT_PROPERTIES_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

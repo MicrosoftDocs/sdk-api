@@ -9,8 +9,6 @@ ms.assetid: 5c49cc52-bd51-41d8-92c6-74021b1cb652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp(LPCWSTR,std::vector<_bstr_t>&), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_std__vector__bstr_t__
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h

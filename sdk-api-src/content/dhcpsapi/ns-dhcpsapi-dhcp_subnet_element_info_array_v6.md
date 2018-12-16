@@ -9,8 +9,6 @@ ms.assetid: 02e7e633-173d-46ab-b657-4763d367f325
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_info_array_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

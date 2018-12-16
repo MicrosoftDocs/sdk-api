@@ -9,8 +9,6 @@ ms.assetid: a17d87b2-91d7-4a03-bff7-9bc0ee48c3b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothFindNextDevice, BluetoothFindNextDevice function [Bluetooth], bluetooth.bluetoothfindnextdevice, bluetoothapis/BluetoothFindNextDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

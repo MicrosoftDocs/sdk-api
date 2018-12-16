@@ -9,8 +9,6 @@ ms.assetid: e7d6faba-c280-4867-a9d9-d1bf28e831ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmNetEventUnsubscribe0, FwpmNetEventUnsubscribe0 function [Filtering], fwp.fwpmneteventunsubscribe0, fwpmu/FwpmNetEventUnsubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

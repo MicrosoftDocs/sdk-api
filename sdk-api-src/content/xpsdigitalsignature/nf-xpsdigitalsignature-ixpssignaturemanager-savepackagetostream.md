@@ -9,8 +9,6 @@ ms.assetid: 1a29c8e2-2e5d-4cc0-adfd-6debabca9243
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToStream method, IXpsSignatureManager.SavePackageToStream, IXpsSignatureManager::SavePackageToStream, SavePackageToStream, SavePackageToStream method [XPS Documents and Packaging], SavePackageToStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetostream, xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

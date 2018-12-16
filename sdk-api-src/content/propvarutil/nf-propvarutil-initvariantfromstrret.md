@@ -9,8 +9,6 @@ ms.assetid: 8e9542a9-9ed0-4e44-b9b1-32b31151bd8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromStrRet, InitVariantFromStrRet function [Windows Properties], _shell_InitVariantFromStrRet, properties.InitVariantFromStrRet, propvarutil/InitVariantFromStrRet, shell.InitVariantFromStrRet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

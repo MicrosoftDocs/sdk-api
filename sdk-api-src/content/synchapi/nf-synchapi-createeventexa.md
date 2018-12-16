@@ -9,8 +9,6 @@ ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

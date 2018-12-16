@@ -9,8 +9,6 @@ ms.assetid: 0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Windows Controls], GetInlineObject method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetInlineObject method, ITextRange2.GetInlineObject, ITextRange2::GetInlineObject, controls.itextrange2_getinlineobject, tom/ITextRange2::GetInlineObject, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMatrix, tomNary, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomStyleDefault, tomStyleDisplay, tomStyleDisplayCramped, tomStyleScript, tomStyleScriptCramped, tomStyleScriptScript, tomStyleScriptScriptCramped, tomStyleText, tomStyleTextCramped, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

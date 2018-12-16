@@ -9,8 +9,6 @@ ms.assetid: 46736a28-e05d-404c-8bad-a51ac58435f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_captioningId method, IWMPClosedCaption.put_captioningId, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

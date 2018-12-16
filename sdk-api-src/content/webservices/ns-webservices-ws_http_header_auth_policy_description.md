@@ -9,8 +9,6 @@ ms.assetid: 2d5d90d5-498e-48a3-af21-f15349a391bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION, WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION, wsw.ws_http_header_auth_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

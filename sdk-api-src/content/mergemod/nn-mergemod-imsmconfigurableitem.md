@@ -9,8 +9,6 @@ ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

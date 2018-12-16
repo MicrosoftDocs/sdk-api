@@ -9,8 +9,6 @@ ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

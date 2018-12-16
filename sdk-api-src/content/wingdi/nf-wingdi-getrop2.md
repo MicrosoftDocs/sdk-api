@@ -9,8 +9,6 @@ ms.assetid: ca1930e0-f6f4-44c8-979c-f50881f3c225
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetROP2, GetROP2 function [Windows GDI], _win32_GetROP2, gdi.getrop2, wingdi/GetROP2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

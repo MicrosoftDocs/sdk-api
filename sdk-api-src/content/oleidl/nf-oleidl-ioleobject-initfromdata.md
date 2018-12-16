@@ -9,8 +9,6 @@ ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

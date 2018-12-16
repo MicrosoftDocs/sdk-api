@@ -9,8 +9,6 @@ ms.assetid: 7caa0fd3-a42c-43ea-849d-aa2c4ed1c628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], IComTrackingInfoCollection interface [COM+],described, _dtc_IComTrackingInfoCollection, comsvcs/IComTrackingInfoCollection, cos.icomtrackinginfocollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

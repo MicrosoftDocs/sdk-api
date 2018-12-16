@@ -9,8 +9,6 @@ ms.assetid: 82ee1be5-4a58-4104-a8a5-3c3926e2f1d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultDestinationPosition method, IBasicVideo.SetDefaultDestinationPosition, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

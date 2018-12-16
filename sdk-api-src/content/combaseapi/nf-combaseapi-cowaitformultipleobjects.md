@@ -9,8 +9,6 @@ ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

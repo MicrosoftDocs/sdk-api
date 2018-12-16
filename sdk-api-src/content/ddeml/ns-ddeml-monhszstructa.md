@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMONHSZSTRUCTA, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZSTRUCT, MONHSZSTRUCT structure [Data Exchange], MONHSZSTRUCTA, MONHSZSTRUCTW, PMONHSZSTRUCT, PMONHSZSTRUCT structure pointer [Data Exchange], _win32_MONHSZSTRUCT_str, _win32_monhszstruct_str_cpp, dataxchg.monhszstruct_str, ddeml/MONHSZSTRUCT, ddeml/MONHSZSTRUCTA, ddeml/MONHSZSTRUCTW, ddeml/PMONHSZSTRUCT, winui._win32_monhszstruct_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

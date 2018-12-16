@@ -9,8 +9,6 @@ ms.assetid: 0cf93bed-e1b3-428f-a332-d50b575749f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptionChanged, EncryptionChanged method [Offline Files], EncryptionChanged method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],EncryptionChanged method, IOfflineFilesEvents.EncryptionChanged, IOfflineFilesEvents::EncryptionChanged, cscobj/IOfflineFilesEvents::EncryptionChanged, of.iofflinefilesevents_encryptionchanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

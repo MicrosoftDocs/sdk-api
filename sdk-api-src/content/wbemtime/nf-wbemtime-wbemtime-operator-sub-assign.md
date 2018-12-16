@@ -9,8 +9,6 @@ ms.assetid: 842cfddd-f137-46ba-9744-e3a71dd82f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator-= method, WBEMTime.operator-=, WBEMTime.operator-sub-assign, WBEMTime::operator-=, WBEMTime::operator-sub-assign, _hmm_wbemtime_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-=, wmi.wbemtime_operator_minus_equal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

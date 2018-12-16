@@ -9,8 +9,6 @@ ms.assetid: 587c0844-93be-42e4-96f6-d5aa721e9ced
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Foundation], GetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioStreamCategory method, IMFMediaEngineEx.GetAudioStreamCategory, IMFMediaEngineEx::GetAudioStreamCategory, mf.imfmediaengineex_getaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

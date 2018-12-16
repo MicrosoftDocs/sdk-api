@@ -9,8 +9,6 @@ ms.assetid: f943f36c-654a-48ed-aeb2-1fc146f2d9ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_NOT_AVAILABLE, NTMS_MOUNT_ERROR_OFFLINE, NTMS_MOUNT_READ, NTMS_MOUNT_SPECIFIC_DRIVE, NTMS_MOUNT_WRITE, NTMS_PRIORITY_HIGH, NTMS_PRIORITY_HIGHEST, NTMS_PRIORITY_LOW, NTMS_PRIORITY_LOWEST, NTMS_PRIORITY_NORMAL, _zaw_mountntmsmedia, base.mountntmsmedia, fs.mountntmsmedia, ntmsapi/MountNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

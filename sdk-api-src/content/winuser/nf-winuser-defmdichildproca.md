@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinte
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefMDIChildProc, DefMDIChildProc function [Windows and Messages], DefMDIChildProcA, DefMDIChildProcW, _win32_DefMDIChildProc, _win32_defmdichildproc_cpp, winmsg.defmdichildproc, winui._win32_defmdichildproc, winuser/DefMDIChildProc, winuser/DefMDIChildProcA, winuser/DefMDIChildProcW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

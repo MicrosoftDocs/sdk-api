@@ -9,8 +9,6 @@ ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

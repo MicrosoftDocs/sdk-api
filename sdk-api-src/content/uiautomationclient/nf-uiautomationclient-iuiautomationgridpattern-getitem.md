@@ -9,8 +9,6 @@ ms.assetid: e18fd4ba-7fe2-4acb-97cd-c446d359dc38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],GetItem method, IUIAutomationGridPattern.GetItem, IUIAutomationGridPattern::GetItem, uiauto.uiauto_IUIAutomationGridPattern_GetItem, uiauto_IUIAutomationGridPattern_GetItem, uiautomationclient/IUIAutomationGridPattern::GetItem, winauto.uiauto_IUIAutomationGridPattern_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

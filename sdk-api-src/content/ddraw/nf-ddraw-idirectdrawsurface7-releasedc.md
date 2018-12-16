@@ -9,8 +9,6 @@ ms.assetid: 170d5194-9327-4632-a87f-39aa8a0ccf74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],ReleaseDC method, IDirectDrawSurface7.ReleaseDC, IDirectDrawSurface7::ReleaseDC, ReleaseDC, ReleaseDC method [DirectDraw], ReleaseDC method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::ReleaseDC, directdraw.idirectdrawsurface7_releasedc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
